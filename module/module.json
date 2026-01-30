@@ -1,0 +1,23 @@
+{
+  "id": "draenal-common",
+  "title": "Draenal Common",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Draenal",
+      "discord": "draenal",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "scripts": [
+    "scripts/module.js"
+  ],
+  "description": ""
+}
