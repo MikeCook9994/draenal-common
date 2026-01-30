@@ -17,7 +17,7 @@
     "canUpload": true
   },
   "scripts": [
-    "scripts/module.js"
+    "scripts/index.js"
   ],
   "description": ""
 }
