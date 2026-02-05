@@ -33,6 +33,6 @@
     "canUpload": true
   },
   "esmodules": [
-    "scripts/main.js"
+    "scripts/main.mjs"
   ]
 }
