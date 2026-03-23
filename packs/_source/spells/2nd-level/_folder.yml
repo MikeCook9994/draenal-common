@@ -1,0 +1,17 @@
+type: Item
+folder: null
+name: 2nd Level
+color: null
+sorting: a
+_id: SdytS2xkTrVf59Gc
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  lastModifiedBy: eDQM6H9v2Xf0fBZR
+_key: '!folders!SdytS2xkTrVf59Gc'

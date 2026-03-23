@@ -1,7 +1,7 @@
 {
   "id": "draenal-common",
   "title": "Draenal Common",
-  "description": "A collection of Draenal's homebrew and compendiums",
+  "description": "<p>A collection of Draenal's homebrew and compendiums</p>",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13.351",
@@ -34,5 +34,87 @@
   },
   "esmodules": [
     "scripts/main.mjs"
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "summons",
+      "label": "Summons",
+      "path": "packs/summons",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "treasure",
+      "label": "Treasure",
+      "path": "packs/treasure",
+      "type": "Item",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Draenal Common",
+      "color": "#cd2c1e",
+      "sorting": "m",
+      "packs": [
+        "backgrounds",
+        "classes",
+        "equipment",
+        "spells",
+        "summons",
+        "treasure"
+      ]
+    }
   ]
 }

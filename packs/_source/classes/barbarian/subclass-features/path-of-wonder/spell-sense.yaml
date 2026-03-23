@@ -1,0 +1,53 @@
+folder: YeiaPdE0ykexwOc4
+name: Spell Sense
+type: feat
+_id: 74MLhYrisfX6Sc5b
+_keys: '!items!74MLhYrisfX6Sc5b'
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The weave itself comes to your defense when others, or even yourself,
+      would harm you with it. You now have advantage on saving throws caused by
+      spells, and you have resistance to the damage of spells. Additionally, you
+      automatically succeed on saving throws against area of effect spells that
+      you cast.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - path-of-wonder
+    repeatable: false
+    level: 14
+  properties: []
+  requirements: Path of Wonder
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  eDQM6H9v2Xf0fBZR: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768862823169
+  modifiedTime: 1768863720485
+  lastModifiedBy: eDQM6H9v2Xf0fBZR

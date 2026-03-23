@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Warlock
+color: null
+sorting: a
+_id: Tf1u3G57WTSucgzH
+_key: '!folders!Tf1u3G57WTSucgzH'
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774227849992
+  modifiedTime: 1774227849992
+  lastModifiedBy: eDQM6H9v2Xf0fBZR

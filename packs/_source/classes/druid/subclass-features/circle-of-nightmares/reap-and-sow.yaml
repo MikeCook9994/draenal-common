@@ -1,0 +1,125 @@
+folder: Csr6OBfn5suOcgWw
+name: Reap and Sow
+type: feat
+_id: omsVGJ9dzNsFgyIM
+_keys: '!items!omsVGJ9dzNsFgyIM'
+img: icons/magic/death/undead-ghost-scream-teal.webp
+system:
+  activities:
+    5RwXpqRyJaEnFDbR:
+      type: save
+      _id: 5RwXpqRyJaEnFDbR
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: true
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: full
+        parts: []
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You have sowed the seeds of the nightmare, and the time has come to
+      reap the harvest. As an action, each creature of your choice within 60
+      feet of you has your Reaper's Mark violently removed. Each target suffers
+      1d8 damage for each level of the curse that was removed. You choose the
+      damage type from the following list: fire, necrotic, poison, or psychic.
+      Then choose one from one of the following effects. </p><p> 
+      <strong>Reap.</strong> You can restore hit points equal to the damage
+      dealt, divided as you choose among any number of creatures of your choice
+      that you can see within 60 feet of you.</p><p>  <strong>Sow.</strong>
+      Choose any number of creatures within 60 feet of you that you can see and
+      were not targeted by the previous effect of this action. You can apply a
+      number of Reaper's Mark curses equal to the total level of Reaper's Mark
+      curses you removed as part of this action, divided evenly among the chosen
+      creatures.</p><p>Once you use this action, you can't use it again until
+      you finish a Short Rest unless you spend a spell slot of 5th level or
+      higher (no action required) to restore your use of it. </p>
+    chat: ''
+  identifier: death-of-torment
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: Circle of Nightmares
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  eDQM6H9v2Xf0fBZR: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767989051734
+  modifiedTime: 1768718438968
+  lastModifiedBy: eDQM6H9v2Xf0fBZR

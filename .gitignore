@@ -1,3 +1,5 @@
 foundry-config.yaml
 foundry
 node_modules
+packs/*
+!packs/_source

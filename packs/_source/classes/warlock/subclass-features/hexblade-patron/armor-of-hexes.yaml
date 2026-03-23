@@ -1,0 +1,51 @@
+folder: DdItyBgJb8l5oawG
+name: Armor of Hexes
+type: feat
+_id: Nq2H0q8rPwAkwblh
+_keys: '!items!Nq2H0q8rPwAkwblh'
+img: icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your curses can hold your assailant's hand. If a target you have cursed
+      hits you with an attack roll, you can use your reaction to roll a d6. On a
+      4 or higher, the attack misses you, regardless of its roll.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - hexblade
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  eDQM6H9v2Xf0fBZR: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768809123676
+  modifiedTime: 1768865812940
+  lastModifiedBy: eDQM6H9v2Xf0fBZR

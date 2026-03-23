@@ -1,0 +1,146 @@
+name: Time-Lost
+type: background
+_id: S130hA7rho7fxCuQ
+img: systems/dnd5e/icons/backgrounds/soldier.webp
+system:
+  advancement:
+    - type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - cha
+        recommendation: null
+        max: null
+      _id: smULNS6DdqHYmZ3N
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: Trait
+      title: Background Proficiencies
+      _id: kY11ABZp1LBuAhHp
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ath
+          - skills:prc
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feat
+      _id: QzyhFgc6irXZvH79
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.draenal-common.ddb-draenals-sandbox-ddb-feats.Item.THjvxAhXyyxP6V9H
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - type: Trait
+      _id: OfQtv3e88GWrOJWn
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:art:*
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <div class="ddb"><h1>Background: Time-Lost</h1><p></p><p><strong>Ability
+      Scores:</strong> Strength, Constitution, Wisdom<br
+      /><strong>Feat:</strong> Tough<br /><strong>Skill Proficiencies:</strong>
+      &amp;Reference[ath]{Athletics} and &amp;Reference[prc]{Perception}<br
+      /><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan's
+      Tools</em><br /><strong>Equipment:</strong> <em>Choose A or B:</em> (A)
+      Artisan's Tools (same as above), 2 Pouches, Traveler's Clothes, 32 GP; or
+      (B) 50 GP</p><p>By some magical means, you were frozen in time during a
+      time long past. The world you knew has passed and modernity has been
+      thrust upon you. While the knowledge you carry has been replaced by the
+      marvel of invention, the wisdom you keep is timeless. With head held high
+      and the strength of the ages at your back, you've bravely taken your steps
+      into this new world, beckoning the thrill of a new adventure.</p><h2>Feat:
+      Tough</h2></div>
+    chat: ''
+  identifier: time-lost
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: m7XPyjspWkPLTdl2
+      group: ''
+      sort: 500000
+    - type: linked
+      count: 2
+      key: Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
+      requiresProficiency: false
+      _id: oyE2TG6qBoILOTAG
+      group: m7XPyjspWkPLTdl2
+      sort: 0
+    - type: linked
+      count: null
+      key: Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.OOldUCQRCnpeGVVL
+      requiresProficiency: false
+      _id: NQVuvsOeRAvLwXwm
+      group: m7XPyjspWkPLTdl2
+      sort: 50000
+    - type: currency
+      count: 32
+      key: gp
+      requiresProficiency: false
+      _id: wW0Ot2Yi5anHt3PV
+      group: m7XPyjspWkPLTdl2
+      sort: 75000
+    - type: tool
+      count: null
+      key: art
+      requiresProficiency: false
+      _id: gOqrmX4UUT3FkQOK
+      group: m7XPyjspWkPLTdl2
+      sort: -100000
+  wealth: '50'
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  eDQM6H9v2Xf0fBZR: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768850511676
+  modifiedTime: 1769492130789
+  lastModifiedBy: eDQM6H9v2Xf0fBZR
+_key: '!items!S130hA7rho7fxCuQ'
