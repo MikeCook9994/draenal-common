@@ -1,0 +1,809 @@
+name: Healing Spirit
+type: npc
+_id: OP7ZP2BUAvR7Sfrb
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+    spell2:
+      value: 0
+    spell3:
+      value: 0
+    spell4:
+      value: 0
+    spell5:
+      value: 0
+    spell6:
+      value: 0
+    spell7:
+      value: 0
+    spell8:
+      value: 0
+    spell9:
+      value: 0
+    pact:
+      value: 0
+  attributes:
+    ac:
+      calc: flat
+      flat: 0
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      units: null
+      hover: false
+      ignoredDifficultTerrain: []
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    hp:
+      max: null
+      temp: null
+      tempmax: null
+      value: 0
+      formula: ''
+      dt: null
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    price:
+      value: null
+      denomination: gp
+    spell:
+      level: 0
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: ''
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: custom
+      custom: Intangible Spirit
+      subtype: ''
+      swarm: ''
+    habitat:
+      value: []
+      custom: ''
+    cr: null
+    treasure:
+      value: []
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+  traits:
+    size: med
+    di:
+      value: []
+      custom: ''
+      bypasses: []
+    dr:
+      value: []
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+      communication: {}
+    important: false
+prototypeToken:
+  name: Healing Spirit
+  displayName: 0
+  actorLink: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/magic/holy/angel-winged-humanoid-blue.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Heal
+    type: feat
+    _id: 7EsiOesmpkv1mv3F
+    img: icons/magic/life/heart-hand-gold-green-light.webp
+    system:
+      activities:
+        k2kX5PjCDUzLZPds:
+          type: heal
+          _id: k2kX5PjCDUzLZPds
+          sort: 0
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: attribute
+                value: '1'
+                target: attributes.hp.value
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '0'
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: true
+            identifier: ''
+          healing:
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: (@flags.dnd5e.summon.level - 1)d6
+            scaling:
+              number: 1
+            number: null
+            denomination: null
+            bonus: ''
+          name: ''
+          img: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: "<p>Whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required).\_The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.</p><p><strong>At Higher Levels.</strong>\_When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 for each slot level above 2nd.</p>"
+        chat: ''
+      identifier: heal
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - mgc
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774382677634
+      modifiedTime: 1774384052869
+      lastModifiedBy: draenalcommon000
+    _key: '!actors.items!OP7ZP2BUAvR7Sfrb.7EsiOesmpkv1mv3F'
+  - name: Move
+    type: feat
+    _id: Sz0KcRJ4n0biRdk4
+    img: icons/equipment/feet/boots-leather-red.webp
+    system:
+      activities:
+        pWngqCxYgF98tF2j:
+          type: utility
+          name: Move
+          _id: pWngqCxYgF98tF2j
+          sort: 0
+          activation:
+            type: bonus
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: turn
+            concentration: false
+            override: false
+            value: '1'
+          effects:
+            - _id: qE1sbz3oR5B9c3Y6
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          img: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: []
+      description:
+        value: >-
+          <p>As a bonus action on your turn, you can move the spirit up to 30
+          feet to a space you can see.</p>
+        chat: ''
+      identifier: move
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects:
+      - name: Move
+        img: icons/equipment/feet/boots-leather-red.webp
+        origin: >-
+          Compendium.draenal-common.summons.Actor.OP7ZP2BUAvR7Sfrb.Item.Sz0KcRJ4n0biRdk4
+        transfer: false
+        _id: qE1sbz3oR5B9c3Y6
+        type: base
+        system: {}
+        changes:
+          - key: '@flags.dnd5e.summon.attributes.movement.speed'
+            mode: 5
+            value: '30'
+            priority: null
+        disabled: false
+        duration:
+          startTime: null
+          combat: null
+          seconds: null
+          rounds: null
+          turns: 1
+          startRound: null
+          startTurn: null
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dnd5e
+          systemVersion: 5.2.5
+          createdTime: 1774384905760
+          modifiedTime: 1774385025394
+          lastModifiedBy: draenalcommon000
+        _key: >-
+          !actors.items.effects!OP7ZP2BUAvR7Sfrb.Sz0KcRJ4n0biRdk4.qE1sbz3oR5B9c3Y6
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774384707945
+      modifiedTime: 1774384905776
+      lastModifiedBy: draenalcommon000
+    _key: '!actors.items!OP7ZP2BUAvR7Sfrb.Sz0KcRJ4n0biRdk4'
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774382587395
+  modifiedTime: 1774384472422
+  lastModifiedBy: draenalcommon000
+_key: '!actors!OP7ZP2BUAvR7Sfrb'

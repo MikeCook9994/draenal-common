@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: 3rd Level
+color: null
+sorting: a
+_id: sG6jw1PDeGHPki5v
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774385308854
+  modifiedTime: 1774385308854
+  lastModifiedBy: draenalcommon000
+_key: '!folders!sG6jw1PDeGHPki5v'

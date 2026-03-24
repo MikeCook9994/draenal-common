@@ -78,10 +78,10 @@ system:
       _id: yJrZutwQTlxcaiGN
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
-          - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.QISP6Pn1kgi84qPB
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+            optional: false
+          - uuid: Compendium.draenal-common.spells.Item.n0Os88EE3zXzlOkg
+            optional: false
         optional: false
         spell:
           ability:
@@ -114,10 +114,10 @@ system:
       _id: mJRIkDWqOp1ADEB6
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplDream00000
-          - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.LXEJXeLkpnLnu3I2
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplDream00000
+            optional: false
+          - uuid: Compendium.draenal-common.spells.Item.6EjvXAf41kgrNqD9
+            optional: false
         optional: false
         spell:
           ability:
@@ -143,13 +143,13 @@ system:
       @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict Wounds},
       @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Fear},
-      @UUID[Compendium.dnd5e.spells24.Item.QISP6Pn1kgi84qPB]{Spirit
+      @UUID[Compendium.draenal-common.spells.Item.n0Os88EE3zXzlOkg]{Spirit
       Shroud}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEvardsBlac]{Black
       Tentacles},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
       Killer}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Dream},
-      @UUID[Compendium.dnd5e.spells24.Item.LXEJXeLkpnLnu3I2]{Negative Energy
-      Flood}</p></td></tr></tbody></table>
+      @UUID[Compendium.draenal-common.spells.Item.6EjvXAf41kgrNqD9]{Negative
+      Energy Flood}</p></td></tr></tbody></table>
     chat: ''
   identifier: circle-of-nightmares-spells
   source:
@@ -182,8 +182,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767984099648
-  modifiedTime: 1767992492529
+  modifiedTime: 1774386703537
   lastModifiedBy: draenalcommon000
 _key: '!items!tJreQjIjAv5jmZoC'

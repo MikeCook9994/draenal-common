@@ -1,0 +1,74 @@
+folder: sG6jw1PDeGHPki5v
+name: Catnap
+type: spell
+_id: 1HkDkZmHcUPmD5WV
+img: icons/creatures/mammals/cat-hunched-glowing-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You make a calming gesture, and up to three willing creatures of your
+      choice that you can see within range fall unconscious for the spell's
+      duration. The spell ends on a target early if it takes damage or someone
+      uses an action to shake or slap it awake. If a target remains unconscious
+      for the full duration, that target gains the benefit of a short rest, and
+      it can't be affected by this spell again until it finishes a long
+      rest.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 4th level or higher, you can target one additional
+      willing creature for each slot level above 3rd.</p>
+    chat: ''
+  identifier: spell
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '10'
+  level: 3
+  materials:
+    value: a pinch of sand
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - somatic
+    - material
+  range:
+    units: ft
+    special: ''
+    value: '30'
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: willing
+      count: '3'
+      special: of your choice that you can see
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774385316803
+  modifiedTime: 1774385432308
+  lastModifiedBy: draenalcommon000
+_key: '!items!1HkDkZmHcUPmD5WV'

@@ -37,7 +37,7 @@ system:
         items:
           - uuid: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.LAp9IRRUsrom1TaZ
+          - uuid: Compendium.draenal-common.spells.Item.AGoLJRS1CHl5SJsr
             optional: false
         optional: false
         spell:
@@ -57,9 +57,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.6wcv6fa5dXirEDU5
+          - uuid: Compendium.draenal-common.spells.Item.1HkDkZmHcUPmD5WV
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.2a1PIgUPHfuCfsiJ
+          - uuid: Compendium.draenal-common.spells.Item.wBM6mpW0lpWSUONK
             optional: false
         optional: false
         spell:
@@ -81,7 +81,7 @@ system:
         items:
           - uuid: Compendium.dnd5e.spells24.Item.phbsplAuraofLife
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.KCSyXYxqE6DHDyZ6
+          - uuid: Compendium.draenal-common.spells.Item.iYWoDIwMGxQtyCPD
             optional: false
         optional: false
         spell:
@@ -128,12 +128,14 @@ system:
       Level</td><td>Circle
       Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplCalmEmotio]{Calm
       Emotions}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure
-      Wounds}, @UUID[Compendium.dnd5e.spells24.Item.LAp9IRRUsrom1TaZ]{Healing
+      Wounds},
+      @UUID[Compendium.draenal-common.spells.Item.AGoLJRS1CHl5SJsr]{Healing
       Spirit},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.6wcv6fa5dXirEDU5]{Catnap},
-      @UUID[Compendium.dnd5e.spells24.Item.2a1PIgUPHfuCfsiJ]{Summon
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.draenal-common.spells.Item.1HkDkZmHcUPmD5WV]{Catnap},
+      @UUID[Compendium.draenal-common.spells.Item.wBM6mpW0lpWSUONK]{Summon
       Fey}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura
-      of Life}, @UUID[Compendium.dnd5e.spells24.Item.KCSyXYxqE6DHDyZ6]{Grasping
+      of Life},
+      @UUID[Compendium.draenal-common.spells.Item.iYWoDIwMGxQtyCPD]{Grasping
       Vine}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass
       Cure Wounds}</td></tr></tbody></table>
@@ -163,8 +165,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767990242390
-  modifiedTime: 1768718015470
+  modifiedTime: 1774386201590
   lastModifiedBy: draenalcommon000
 _key: '!items!1znSvxEscd3VIcNy'
