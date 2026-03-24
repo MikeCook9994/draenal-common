@@ -1,0 +1,74 @@
+folder: YeiaPdE0ykexwOc4
+name: Vigorous Ferocity
+type: feat
+_id: 36Mq4o1RTdQjuokp
+img: icons/skills/melee/sword-shield-stylized-white.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: QeoJLpFwBEfWZgZv
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.7SHRCgrYNR4ohai1
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
+        optional: false
+        spell:
+          ability: []
+          method: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: Bonus Spells
+      hint: ''
+  description:
+    value: >-
+      <p>You learn the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneVigo]{Arcane Vigor} and
+      @UUID[Compendium.draenal-common.spells.Item.7SHRCgrYNR4ohai1]{Arcane
+      Ferocity} spells. These spells do not count against your number of
+      prepared spells and you can cast these spells up to the level of the
+      maximum spell slot level you can create without expending a spell
+      slot.</p>
+    chat: ''
+  identifier: vigorous-ferocity
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - path-of-wonder
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: Path of Wonder
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768861860573
+  modifiedTime: 1768864107922
+  lastModifiedBy: draenalcommon000
+_key: '!items!36Mq4o1RTdQjuokp'

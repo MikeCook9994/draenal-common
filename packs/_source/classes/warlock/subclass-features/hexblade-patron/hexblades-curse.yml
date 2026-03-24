@@ -1,0 +1,62 @@
+folder: DdItyBgJb8l5oawG
+name: Hexblade's Curse
+type: feat
+_id: XUyIUOGMYIIXGWa6
+img: icons/magic/unholy/barrier-fire-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The occult power granted by the bond with your hexblade enhances your
+      curses and deepens the suffering of those afflicted by them. You gain the
+      following benefits.</p><p><em><strong>Effortless Agony.</strong></em> You
+      can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Hex}
+      without expending a spell slot and without the need for concentration.
+      Casting Hex in this way casts it at the level of your Pact Magic spell
+      slots. Once you use this feature, you can't use it again until you
+      complete a Short or Long Rest or you use your Magical Cunning
+      feature.</p><p><em><strong>Bonus Damage.</strong></em> Your damage rolls
+      against creatures cursed by you gain a 1d6 damage
+      bonus.</p><p><em><strong>Improved Critical.</strong></em> Any attack roll
+      you make against a creature cursed by you is a critical hit on a roll of a
+      19 or 20 on the d20.</p><p><em><strong>Soul Siphon.</strong></em> If a
+      target cursed by you dies, you regain hit points equal to your warlock
+      level + your Charisma modifier (minimum of 1 hit point). The hit points
+      you gain cannot exceed the perished creature's maximum hit points.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - hexblade
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768801150991
+  modifiedTime: 1768865824833
+  lastModifiedBy: draenalcommon000
+_key: '!items!XUyIUOGMYIIXGWa6'

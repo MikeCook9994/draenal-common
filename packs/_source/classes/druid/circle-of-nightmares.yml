@@ -1,0 +1,102 @@
+folder: LqiO7cAFbVwEOPNT
+name: Circle of Nightmares
+type: subclass
+_id: epUSDsracMjworsw
+img: modules/draenal-common/assets/icons/circle-of-nightmares-druid.svg
+system:
+  advancement:
+    - type: ItemGrant
+      _id: ha91bc5qQKB1w38Q
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.tJreQjIjAv5jmZoC
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 6fQB4f8ltPSlLYBP
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.GcHtMlmVmpReapTY
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.xs9Cimk6kiDg1gHU
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: 7Xgp530T0A2sMNTi
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.omsVGJ9dzNsFgyIM
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    - type: ItemGrant
+      _id: Nq1cKBIhnUZUzVyP
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.wZnnGcrFzGB8ASJk
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  description:
+    value: >-
+      <p>Druids of most other circles find purpose in shepparding and sheltering
+      living beasts and creatures alike. They guide them to where they seek and
+      provide them healing in times of need. Yet, these other druid circles also
+      recognize the importance of preserving the natural balance. What lives
+      must eventually die, so life can be born anew. However, there are those
+      that pervert this cycle by toying with life before or beyond its time is
+      up. Druids of the Circle of Nightmares carry the heavy burden of balancing
+      the scales against these perversions. You are the darkness, for without
+      it, light would have no purpose.</p>
+    chat: ''
+  identifier: nightmares
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  classIdentifier: druid
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767982496997
+  modifiedTime: 1768720133101
+  lastModifiedBy: draenalcommon000
+_key: '!items!epUSDsracMjworsw'

@@ -1,0 +1,52 @@
+folder: Csr6OBfn5suOcgWw
+name: Extra Attack
+type: feat
+_id: GcHtMlmVmpReapTY
+img: icons/skills/melee/strike-sword-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can attack twice, instead of once, whenever you take the Attack
+      action on your turn.</p>
+    chat: ''
+  identifier: extra-attack
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties:
+    - trait
+  requirements: Circle of Nightmares
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767988886887
+  modifiedTime: 1768718388338
+  lastModifiedBy: draenalcommon000
+_key: '!items!GcHtMlmVmpReapTY'

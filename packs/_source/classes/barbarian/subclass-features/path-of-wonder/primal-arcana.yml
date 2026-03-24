@@ -1,0 +1,60 @@
+folder: YeiaPdE0ykexwOc4
+name: Primal Arcana
+type: feat
+_id: RIx1scDhOTZV6QoC
+img: icons/magic/nature/hand-weapon-wood-bark-brown.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: c3BmctzSuqzSWIqx
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:arc
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You gain proficiency in the Arcana skill and it is now included amongst
+      the list of skills that you can use your Primal Knowledge feature.</p>
+    chat: ''
+  identifier: primal-arcana
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - path-of-wonder
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Path of Wonder
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768861794013
+  modifiedTime: 1768863606972
+  lastModifiedBy: draenalcommon000
+_key: '!items!RIx1scDhOTZV6QoC'

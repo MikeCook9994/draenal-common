@@ -1,0 +1,232 @@
+folder: ok52NyQ37ye1xW8K
+name: Armor of Agathys
+type: spell
+img: icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp
+system:
+  activities:
+    3FWaAAjRZfkCu2eE:
+      type: heal
+      _id: 3FWaAAjRZfkCu2eE
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: f4WchdoGtphyv3TQ
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          number: 1
+          mode: whole
+          formula: '5'
+        number: null
+        denomination: null
+        bonus: '5'
+      name: Temporary Health
+    QX1yLWvjXlbHNttH:
+      type: damage
+      name: Damage Attacker
+      _id: QX1yLWvjXlbHNttH
+      sort: 0
+      activation:
+        type: ''
+        override: true
+        condition: A creature hits you with a melee attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: that hit you with a melee attack roll
+        override: true
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: null
+            denomination: null
+            bonus: '5'
+            types:
+              - cold
+            scaling:
+              mode: whole
+              number: 1
+              formula: '5'
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <div class="ddb"><p>Protective magical frost surrounds you. You gain 5
+      Temporary Hit Points. If a creature hits you with a melee attack roll
+      before the spell ends, the creature takes 5 Cold damage. The spell ends
+      early if you have no Temporary Hit Points.</p><p><strong>Using a
+      Higher-Level Spell Slot.</strong> The Temporary Hit Points and the Cold
+      damage both increase by 5 for each spell slot level above 1.</p></div>
+    chat: ''
+  identifier: armor-of-agathys
+  source:
+    revision: 1
+    rules: '2024'
+    book: PHB
+    page: '243'
+    custom: ''
+    license: ''
+  activation:
+    type: bonus
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 1
+  materials:
+    value: a shard of blue glass
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+  range:
+    units: self
+    special: ''
+  school: abj
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: self
+effects:
+  - name: Armor of Agathys
+    img: icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp
+    origin: Compendium.draenal-common.spells.Item.P5c4Lf70vgeaUoXH
+    _id: f4WchdoGtphyv3TQ
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 3600
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <div class="ddb"><p>If a creature hits you with a melee attack roll, the
+      creature takes [[/damage 5 type=cold]] damage for each level of the
+      spell.</p></div>
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      lastModifiedBy: null
+    _key: '!items.effects!pg9FwIDYps5Bjjdt.f4WchdoGtphyv3TQ'
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774330411506
+  modifiedTime: 1774330411527
+  lastModifiedBy: draenalcommon000
+ownership:
+  default: 0
+_id: pg9FwIDYps5Bjjdt
+sort: 100000
+_key: '!items!pg9FwIDYps5Bjjdt'

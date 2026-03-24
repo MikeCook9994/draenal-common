@@ -1,0 +1,165 @@
+folder: shdfpuxJCc1FrTKw
+name: Staggering Smite
+type: spell
+_id: Fqp0KZz4OH4MfziM
+img: icons/weapons/hammers/hammer-double-glowing-yellow.webp
+system:
+  activities:
+    CSVYXKATz3KkV2bd:
+      type: damage
+      name: Damage
+      _id: CSVYXKATz3KkV2bd
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: UdRLOuDbF8PAYX8r
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+              formula: d6
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <div class="ddb"><p>The target takes an extra 4d6 Psychic damage from the
+      attack, and the target must succeed on a [[/save wis format=long]] or have
+      the Stunned condition until the end of your next turn.</p><p><strong>Using
+      a Higher-Level Spell Slot.</strong> The extra damage increases by 1d6 for
+      each spell slot level above 4.</p></div>
+    chat: ''
+  identifier: staggering-smite
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: bonus
+    condition: >-
+      immediately after hitting a creature with a Melee weapon or an Unarmed
+      Strike
+  duration:
+    units: inst
+  level: 4
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - vocal
+  range:
+    units: self
+    special: ''
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+effects:
+  - name: Staggered
+    img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+    origin: Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM
+    transfer: false
+    _id: UdRLOuDbF8PAYX8r
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 6
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The target has the &amp;Reference[stunned apply=false] condition.</p>
+    tint: '#ffffff'
+    statuses:
+      - stunned
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774332944418
+      modifiedTime: 1774333331789
+      lastModifiedBy: draenalcommon000
+    _key: '!items.effects!Fqp0KZz4OH4MfziM.UdRLOuDbF8PAYX8r'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774332613157
+  modifiedTime: 1774332944426
+  lastModifiedBy: draenalcommon000
+_key: '!items!Fqp0KZz4OH4MfziM'

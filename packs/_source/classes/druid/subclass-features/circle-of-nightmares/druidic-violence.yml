@@ -1,0 +1,67 @@
+folder: Csr6OBfn5suOcgWw
+name: Druidic Violence
+type: feat
+_id: IcyabR3GAehw0AZ7
+img: icons/magic/death/weapon-scythe-rune-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you cast
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplShillelagh]{Shillelagh}, you
+      can choose to expend a use of your wild shape to enhance the spell's
+      casting. When you do so, the spell gains the following benefits.
+      </p><p><em><strong>Increased Duration.</strong></em> The spell's duration
+      increases to 10 minutes and it does not end if you drop the weapon.
+      </p><p><em><strong>Spellcasting Focus. </strong></em>The weapon counts as
+      a spellcasting focus for you. </p><p><em><strong>Extra
+      Effect.</strong></em> If an attack you make with the weapon deals damage
+      or a creature takes damage from or fails a saving throw forced by a spell
+      you cast that used the weapon as a spellcasting focus, you can cause one
+      of the following additional effects.</p><p>  <strong>Coincidental
+      Curses.</strong> You can curse the target with Reaper's Mark.</p><p> 
+      <strong>Biological Incursion.</strong> The target suffers additional
+      damage equal to the level of your Reaper's Mark on them. You choose the
+      damage type from the following list: fire, necrotic, poison, or
+      psychic.</p>
+    chat: ''
+  identifier: violent-nightmare
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Circle of Nightmares
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767987452925
+  modifiedTime: 1768718332308
+  lastModifiedBy: draenalcommon000
+_key: '!items!IcyabR3GAehw0AZ7'

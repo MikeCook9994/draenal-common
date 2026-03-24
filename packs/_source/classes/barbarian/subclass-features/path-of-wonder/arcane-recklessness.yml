@@ -1,0 +1,53 @@
+folder: YeiaPdE0ykexwOc4
+name: Arcane Recklessness
+type: feat
+_id: XY4ECPIxtLbFFOp2
+img: icons/skills/melee/maneuver-greatsword-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You've developed techniques to use your spells in combat at your own
+      risk. While you are raging, you gain the following
+      benefits.</p><p><strong>Close Quarter Spellcraft.</strong> Being within 5
+      feet of a creature doesn't impose disadvantage on your ranged spell attack
+      rolls.</p><p><strong>Danger Close.</strong> If you must make a saving
+      throw against an area of effect spell that you cast, other creatures that
+      that must make the same saving throw have disadvantage.</p>
+    chat: ''
+  identifier: arcane-recklessness
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - path-of-wonder
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Path of Wonder
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768861771345
+  modifiedTime: 1768863467901
+  lastModifiedBy: draenalcommon000
+_key: '!items!XY4ECPIxtLbFFOp2'

@@ -1,0 +1,187 @@
+folder: ng8nlgN1sKOdBQAP
+name: Destructive Wave
+type: spell
+_id: ZWjl2ws08IDeKnpr
+img: icons/commodities/materials/liquid-blue.webp
+system:
+  activities:
+    ZXnCsglctYq8sSVL:
+      type: save
+      _id: ZXnCsglctYq8sSVL
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 5KeKht5MgH4q94Hl
+          onSave: false
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 6
+            bonus: ''
+            types:
+              - thunder
+            scaling:
+              mode: ''
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 6
+            bonus: ''
+            types:
+              - radiant
+            scaling:
+              mode: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: Save
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <div class="ddb"><p>Destructive energy ripples outward from you in a
+      30-foot Emanation. Each creature you choose in the Emanation makes a
+      [[/save con format=long]]. On a failed save, a target takes 5d6 Thunder
+      damage and 5d6 Radiant or Necrotic damage (your choice) and has the Prone
+      condition. On a successful save, a target takes half as much damage
+      only.</p></div>
+    chat: ''
+  identifier: destructive-wave
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 5
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - vocal
+  range:
+    units: self
+    special: ''
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: radius
+      size: '30'
+      count: ''
+    affects:
+      choice: false
+      type: creature
+      count: ''
+      special: ''
+effects:
+  - name: Knocked Down
+    img: icons/magic/control/silhouette-fall-slip-prone.webp
+    origin: Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr
+    transfer: false
+    _id: 5KeKht5MgH4q94Hl
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>The target has the &amp;Reference[prone apply=false] condition.</p>
+    tint: '#ffffff'
+    statuses:
+      - prone
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774332302392
+      modifiedTime: 1774333242915
+      lastModifiedBy: draenalcommon000
+    _key: '!items.effects!ZWjl2ws08IDeKnpr.5KeKht5MgH4q94Hl'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774331152634
+  modifiedTime: 1774332333799
+  lastModifiedBy: draenalcommon000
+_key: '!items!ZWjl2ws08IDeKnpr'

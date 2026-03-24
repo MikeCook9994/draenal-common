@@ -1,0 +1,80 @@
+folder: Csr6OBfn5suOcgWw
+name: Reaper's Mark
+type: feat
+_id: ywlUonIOkLwkxyXN
+img: icons/magic/symbols/rune-sigil-hook-white-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>As a Bonus Action, you can curse a creature within 60 feet of you that
+      you can see with Reaper's Mark. The curse produces an illusory mark on the
+      target that is incorporeal; its appearance is otherwise determined by you.
+      Reaper's Mark is applied at 1st-level and subsequent applications increase
+      the level by one. The curse's level cannot exceed your proficiency
+      bonus.</p><p>The curse lasts for one minute or you can choose to reduce
+      the curse's level by any number (no action required). </p><p>Your Reaper's
+      Mark can fuel some of your Circle of Nightmares features, which are
+      described below.</p><p><em><strong>Preserve the Cycle.</strong></em> When
+      a creature cursed by your Reaper's Mark dies, you can use your reaction to
+      heal a creature within 60 feet of you that you can see. The creature
+      regains 1d8 hit points for each level of your Reaper's Mark that the dying
+      creature had. </p><p><em><strong>Reaper's Torment.</strong></em> As an
+      action, you can flare the curse afflicting a creature and subject them to
+      a living nightmare. When you do so, choose one creature within 60 feet of
+      you that you can see that is cursed by Reaper's Mark. For every level of
+      Reaper's Mark on the target, they take 1d8 damage. You choose the damage
+      type from the following list: fire, necrotic, poison, or psychic.
+      Additionally, you can choose to shatter the curse, removing it entirely
+      and applying one of the following effects. The effect lasts until the end
+      of your next turn or you can choose to Concentrate on the effect and
+      increase its duration by up to 1 minute. </p><ul><li><p>Now and at the
+      start of each of its turns, the target takes an additional 1d8 damage for
+      every level of the removed curse. The damage type is the same as the
+      previously chosen type.</p></li><li><p>The target's AC is reduced by half
+      of the level of the removed curse (rounded up).</p></li><li><p>The target
+      cannot teleport by any means and all of their speeds are reduced by 5
+      times the level of the removed curse.</p></li><li><p>The target's attack
+      rolls are reduced by the level of the removed curse.</p></li></ul><p>For
+      the duration, the target makes a Wisdom saving throw at the end of each of
+      its turns. On a successful save, the effect ends.</p><p></p>
+    chat: ''
+  identifier: reapers-mark
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Circle of Nightmares
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767988315535
+  modifiedTime: 1768718188987
+  lastModifiedBy: draenalcommon000
+_key: '!items!ywlUonIOkLwkxyXN'

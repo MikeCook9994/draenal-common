@@ -1,0 +1,55 @@
+name: Signet Ring
+type: loot
+_id: MhPsBq43bl7dxjvM
+img: icons/equipment/finger/ring-cabochon-bronze-green.webp
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: signet-ring
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: >-
+      <p>You found this small golden ring on your person sometime after you were
+      rewarded. Small rectangles are engraved into and encircle the band. A
+      small blue-hued gemstone of unknown identity is inset on the outer
+      perimeter of the ring. You're not sure what it's worth or where it came
+      from, but you've got no reason to get rid of it.</p>
+    name: Fate's Touch
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  properties:
+    - mgc
+  type:
+    value: treasure
+    subtype: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769466137134
+  modifiedTime: 1769466696700
+  lastModifiedBy: draenalcommon000
+_key: '!items!MhPsBq43bl7dxjvM'

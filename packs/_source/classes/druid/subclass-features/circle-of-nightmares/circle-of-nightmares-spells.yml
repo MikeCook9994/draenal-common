@@ -1,0 +1,189 @@
+folder: Csr6OBfn5suOcgWw
+name: Circle of Nightmares Spells
+type: feat
+_id: tJreQjIjAv5jmZoC
+img: icons/magic/unholy/barrier-fire-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: jYuYrC1qwtWKFW4E
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 1st-Level Spells
+      hint: ''
+    - type: ItemGrant
+      title: Cantrips
+      _id: zVoU41SUtgOYFMFD
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      hint: ''
+    - type: ItemGrant
+      _id: GUSGGapoV7gFb1OG
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 2nd-Level Spells
+      hint: ''
+    - type: ItemGrant
+      _id: yJrZutwQTlxcaiGN
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.QISP6Pn1kgi84qPB
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 0
+      value: {}
+      level: 5
+      title: 3rd-Level Spells
+      hint: ''
+    - type: ItemGrant
+      _id: 1nfZlC49er7XRCH9
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: 4th-Level Spells
+      hint: ''
+    - type: ItemGrant
+      _id: mJRIkDWqOp1ADEB6
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDream00000
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.LXEJXeLkpnLnu3I2
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 0
+      value: {}
+      level: 9
+      title: 5th-Level Spells
+      hint: ''
+  description:
+    value: >-
+      <p>When you reach a Druid level specified in the Circle of Nightmares
+      Spells table, you thereafter always have the listed spells
+      prepared.</p><h4>Circle of Nightmares
+      Spells</h4><table><thead><tr><td>Druid Level</td><td>Circle
+      Spells</td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill
+      Touch}, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict Wounds},
+      @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Fear},
+      @UUID[Compendium.dnd5e.spells24.Item.QISP6Pn1kgi84qPB]{Spirit
+      Shroud}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEvardsBlac]{Black
+      Tentacles},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
+      Killer}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Dream},
+      @UUID[Compendium.dnd5e.spells24.Item.LXEJXeLkpnLnu3I2]{Negative Energy
+      Flood}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: circle-of-nightmares-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - mgc
+    - trait
+  requirements: Circle of Nightmares
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767984099648
+  modifiedTime: 1767992492529
+  lastModifiedBy: draenalcommon000
+_key: '!items!tJreQjIjAv5jmZoC'

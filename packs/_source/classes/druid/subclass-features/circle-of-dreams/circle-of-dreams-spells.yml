@@ -1,0 +1,170 @@
+folder: MSVe4xsLrLiXSwVN
+name: Circle of Dreams Spells
+type: feat
+_id: 1znSvxEscd3VIcNy
+img: icons/magic/control/sleep-bubble-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: jYuYrC1qwtWKFW4E
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 1st-Level Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.LAp9IRRUsrom1TaZ
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 2nd-Level Spells
+      hint: ''
+      _id: 28pGOZ9wx28ewzhU
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.6wcv6fa5dXirEDU5
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.2a1PIgUPHfuCfsiJ
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 5
+      title: 3rd-Level Spells
+      hint: ''
+      _id: 2RaBL2xRHznTyJ3t
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplAuraofLife
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.KCSyXYxqE6DHDyZ6
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 7
+      title: 4th-Level Spells
+      hint: ''
+      _id: h5heLy1cK4EDWyT7
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplMassCureWo
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterRes
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 9
+      title: 5th-Level Spells
+      hint: ''
+      _id: SfFqAGJrkhc51uf9
+  description:
+    value: >-
+      <p>When you reach a Druid level specified in the Circle of Dreams Spells
+      table, you thereafter always have the listed spells
+      prepared.</p><h4>Circle of Dreams Spells</h4><table><thead><tr><td>Druid
+      Level</td><td>Circle
+      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplCalmEmotio]{Calm
+      Emotions}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure
+      Wounds}, @UUID[Compendium.dnd5e.spells24.Item.LAp9IRRUsrom1TaZ]{Healing
+      Spirit},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.6wcv6fa5dXirEDU5]{Catnap},
+      @UUID[Compendium.dnd5e.spells24.Item.2a1PIgUPHfuCfsiJ]{Summon
+      Fey}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura
+      of Life}, @UUID[Compendium.dnd5e.spells24.Item.KCSyXYxqE6DHDyZ6]{Grasping
+      Vine}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      Restoration}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass
+      Cure Wounds}</td></tr></tbody></table>
+    chat: ''
+  identifier: circle-of-dreams
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Circle of Dreams
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767990242390
+  modifiedTime: 1768718015470
+  lastModifiedBy: draenalcommon000
+_key: '!items!1znSvxEscd3VIcNy'
