@@ -2,7 +2,7 @@ folder: YeiaPdE0ykexwOc4
 name: Vigorous Ferocity
 type: feat
 _id: 36Mq4o1RTdQjuokp
-_keys: '!items!36Mq4o1RTdQjuokp'
+_key: '!items!36Mq4o1RTdQjuokp'
 img: icons/skills/melee/sword-shield-stylized-white.webp
 system:
   activities: {}
@@ -18,8 +18,7 @@ system:
           - optional: false
             uuid: Compendium.draenal-common.spells.Item.7SHRCgrYNR4ohai1
           - optional: false
-            uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.PjgfS9qY75BctCkS
+            uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
         optional: false
         spell:
           ability: []
@@ -36,7 +35,7 @@ system:
   description:
     value: >-
       <p>You learn the
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.PjgfS9qY75BctCkS]{Arcane
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneVigo]{Arcane
       Vigor} and @UUID[Compendium.draenal-common.spells.Item.7SHRCgrYNR4ohai1]{Arcane
       Ferocity} spells. These spells do not count against your number of
       prepared spells and you can cast these spells up to the level of the

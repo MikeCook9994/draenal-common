@@ -2,7 +2,7 @@ folder: YeiaPdE0ykexwOc4
 name: Cast and Smash
 type: feat
 _id: J9dHLyG43bYxmNC5
-_keys: '!items!J9dHLyG43bYxmNC5'
+_key: '!items!J9dHLyG43bYxmNC5'
 img: icons/skills/melee/sword-damaged-broken-purple.webp
 system:
   activities: {}

@@ -2,7 +2,7 @@ folder: DdItyBgJb8l5oawG
 name: Armor of Hexes
 type: feat
 _id: Nq2H0q8rPwAkwblh
-_keys: '!items!Nq2H0q8rPwAkwblh'
+_key: '!items!Nq2H0q8rPwAkwblh'
 img: icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp
 system:
   activities: {}

@@ -2,7 +2,7 @@ folder: YeiaPdE0ykexwOc4
 name: Spell Sense
 type: feat
 _id: 74MLhYrisfX6Sc5b
-_keys: '!items!74MLhYrisfX6Sc5b'
+_key: '!items!74MLhYrisfX6Sc5b'
 img: icons/magic/perception/third-eye-blue-red.webp
 system:
   activities: {}

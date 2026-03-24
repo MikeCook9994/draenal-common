@@ -83,7 +83,7 @@ function cleanPackEntry(data, { clearSourceId=true, ownership=0 }={}) {
   }
   delete data.flags?.importSource;
   delete data.flags?.exportSource;
-  if ( data._stats?.lastModifiedBy ) data._stats.lastModifiedBy = "draenalcommon00000";
+  if ( data._stats?.lastModifiedBy ) data._stats.lastModifiedBy = "draenalcommon000";
 
   // Remove empty entries in flags
   if ( !data.flags ) data.flags = {};

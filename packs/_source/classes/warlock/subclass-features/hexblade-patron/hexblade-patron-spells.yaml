@@ -2,7 +2,7 @@ folder: DdItyBgJb8l5oawG
 name: Hexblade Patron Spells
 type: feat
 _id: e44LDzLni09L6dQp
-_keys: '!items!e44LDzLni09L6dQp'
+_key: '!items!e44LDzLni09L6dQp'
 img: icons/magic/unholy/hand-light-pink.webp
 system:
   activities: {}
@@ -16,10 +16,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.gFKtGA84qAe4n121
+              Compendium.dnd5e.spells24.Item.gFKtGA84qAe4n121
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.6xxGTUAmF2i3vIMS
+              Compendium.dnd5e.spells24.Item.6xxGTUAmF2i3vIMS
             optional: false
         optional: false
         spell: null
@@ -31,10 +31,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.Fl1oUBDpM7KB8Lkc
+              Compendium.dnd5e.spells24.Item.phbsplPhantasmal
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.0XK9NFdZQmUfzoiJ
+              Compendium.dnd5e.spells24.Item.0XK9NFdZQmUfzoiJ
             optional: false
         optional: false
         spell:
@@ -54,10 +54,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.VCG1DwfH3C0tLUU5
+              Compendium.dnd5e.spells24.Item.phbsplBestowCurs
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.WK7oTbXkZsdgBStX
+              Compendium.dnd5e.spells24.Item.phbsplHaste00000
             optional: false
         optional: false
         spell:
@@ -77,10 +77,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.xGVukMGa09Ue8JGR
+              Compendium.dnd5e.spells24.Item.phbsplSpiritualW
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.PjgfS9qY75BctCkS
+              Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
             optional: false
         optional: false
         spell:
@@ -100,13 +100,13 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.YTTXF4IO6F7aTaYP
+              Compendium.draenal-common.spells.Item.P5c4Lf70vgeaUoXH
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.ZpBHIz3QTDl6B1fn
+              Compendium.dnd5e.spells24.Item.phbsplInflictWou
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.QCEeg2mePxulkfZ6
+              Compendium.dnd5e.spells24.Item.phbsplHex0000000
             optional: false
         optional: false
         spell:
@@ -128,22 +128,22 @@ system:
       table, you thereafter always have the listed spells
       prepared.</p><h4>Circle of Dreams Spells</h4><table><thead><tr><td>Druid
       Level</td><td>Circle
-      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.YTTXF4IO6F7aTaYP]{Armor
+      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.draenal-common.spells.Item.P5c4Lf70vgeaUoXH]{Armor
       of Agathys},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.QCEeg2mePxulkfZ6]{Hex},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.ZpBHIz3QTDl6B1fn]{Inflict
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000{Hex},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict
       Wounds},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.PjgfS9qY75BctCkS]{Arcane
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneVigo]{Arcane
       Vigor},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.xGVukMGa09Ue8JGR]{Spiritual
-      Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.VCG1DwfH3C0tLUU5]{Bestow
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual
+      Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{Bestow
       Curse},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.WK7oTbXkZsdgBStX]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.Fl1oUBDpM7KB8Lkc]{Phantasmal
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
       Killer},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.0XK9NFdZQmUfzoiJ]{Staggering
-      Smite}</td></tr><tr><td>9</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.gFKtGA84qAe4n121]{Banishing
+      @UUID[Compendium.dnd5e.spells24.Item.0XK9NFdZQmUfzoiJ]{Staggering
+      Smite}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.gFKtGA84qAe4n121]{Banishing
       Smite},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.6xxGTUAmF2i3vIMS]{Destructive
+      @UUID[Compendium.dnd5e.spells24.Item.6xxGTUAmF2i3vIMS]{Destructive
       Wave}</td></tr></tbody></table>
     chat: ''
   identifier: feature

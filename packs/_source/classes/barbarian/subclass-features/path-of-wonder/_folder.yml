@@ -4,6 +4,7 @@ name: Path of Wonder
 color: null
 sorting: a
 _id: YeiaPdE0ykexwOc4
+_key: '!folders!YeiaPdE0ykexwOc4'
 description: ''
 sort: 0
 flags: {}
@@ -14,4 +15,3 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.5
   lastModifiedBy: eDQM6H9v2Xf0fBZR
-_key: '!folders!YeiaPdE0ykexwOc4'

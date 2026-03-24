@@ -2,7 +2,7 @@ folder: Csr6OBfn5suOcgWw
 name: Extra Attack
 type: feat
 _id: GcHtMlmVmpReapTY
-_keys: '!items!GcHtMlmVmpReapTY'
+_key: '!items!GcHtMlmVmpReapTY'
 img: icons/skills/melee/strike-sword-gray.webp
 system:
   activities: {}

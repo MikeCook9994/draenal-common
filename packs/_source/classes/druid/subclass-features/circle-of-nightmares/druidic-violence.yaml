@@ -2,7 +2,7 @@ folder: Csr6OBfn5suOcgWw
 name: Druidic Violence
 type: feat
 _id: IcyabR3GAehw0AZ7
-_keys: '!items!IcyabR3GAehw0AZ7'
+_key: '!items!IcyabR3GAehw0AZ7'
 img: icons/magic/death/weapon-scythe-rune-green.webp
 system:
   activities: {}
@@ -14,7 +14,7 @@ system:
   description:
     value: >-
       <p>When you cast
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.GDBuzVX654TJ0XlP]{Shillelagh},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplShillelagh]{Shillelagh},
       you can choose to expend a use of your wild shape to enhance the spell's
       casting. When you do so, the spell gains the following benefits.
       </p><p><em><strong>Increased Duration.</strong></em> The spell's duration

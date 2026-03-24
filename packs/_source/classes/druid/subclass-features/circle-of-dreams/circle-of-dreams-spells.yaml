@@ -2,7 +2,7 @@ folder: MSVe4xsLrLiXSwVN
 name: Circle of Dreams Spells
 type: feat
 _id: 1znSvxEscd3VIcNy
-_keys: '!items!1znSvxEscd3VIcNy'
+_key: '!items!1znSvxEscd3VIcNy'
 img: icons/magic/control/sleep-bubble-purple.webp
 system:
   activities: {}
@@ -16,10 +16,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.TgJgQCpNGHdL3UC9
+              Compendium.dnd5e.spells24.Item.phbsplCureWounds
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.MbHTWt7lyfb65x2B
+              Compendium.dnd5e.spells24.Item.phbsplSleep00000
             optional: false
         optional: false
         spell:
@@ -39,10 +39,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.QwcEapVDQOegS5j8
+              Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.LAp9IRRUsrom1TaZ
+              Compendium.dnd5e.spells24.Item.LAp9IRRUsrom1TaZ
             optional: false
         optional: false
         spell:
@@ -63,10 +63,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.6wcv6fa5dXirEDU5
+              Compendium.dnd5e.spells24.Item.6wcv6fa5dXirEDU5
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.2a1PIgUPHfuCfsiJ
+              Compendium.dnd5e.spells24.Item.2a1PIgUPHfuCfsiJ
             optional: false
         optional: false
         spell:
@@ -87,10 +87,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.CJ8AkbRj31daZGbi
+              Compendium.dnd5e.spells24.Item.phbsplAuraofLife
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.KCSyXYxqE6DHDyZ6
+              Compendium.dnd5e.spells24.Item.KCSyXYxqE6DHDyZ6
             optional: false
         optional: false
         spell:
@@ -111,10 +111,10 @@ system:
       configuration:
         items:
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.gohJZ6CzfPm2m2Zi
+              Compendium.dnd5e.spells24.Item.phbsplMassCureWo
             optional: false
           - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.eCn7yZzQRWGXMA7P
+              Compendium.dnd5e.spells24.Item.phbsplGreaterRes
             optional: false
         optional: false
         spell:
@@ -137,20 +137,20 @@ system:
       table, you thereafter always have the listed spells
       prepared.</p><h4>Circle of Dreams Spells</h4><table><thead><tr><td>Druid
       Level</td><td>Circle
-      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.QwcEapVDQOegS5j8]{Calm
+      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplCalmEmotio]{Calm
       Emotions},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.TgJgQCpNGHdL3UC9]{Cure
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure
       Wounds},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.LAp9IRRUsrom1TaZ]{Healing
+      @UUID[Compendium.dnd5e.spells24.Item.LAp9IRRUsrom1TaZ]{Healing
       Spirit},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.MbHTWt7lyfb65x2B]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.6wcv6fa5dXirEDU5]{Catnap},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.2a1PIgUPHfuCfsiJ]{Summon
-      Fey}</td></tr><tr><td>7</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.CJ8AkbRj31daZGbi]{Aura
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.6wcv6fa5dXirEDU5]{Catnap},
+      @UUID[Compendium.dnd5e.spells24.Item.2a1PIgUPHfuCfsiJ]{Summon
+      Fey}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura
       of Life},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.KCSyXYxqE6DHDyZ6]{Grasping
-      Vine}</td></tr><tr><td>9</td><td>@UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.qSjCV3OrYx86HKZs]{Greater
+      @UUID[Compendium.dnd5e.spells24.Item.KCSyXYxqE6DHDyZ6]{Grasping
+      Vine}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
       Restoration},
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.gohJZ6CzfPm2m2Zi]{Mass
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass
       Cure Wounds}</td></tr></tbody></table>
     chat: ''
   identifier: circle-of-dreams

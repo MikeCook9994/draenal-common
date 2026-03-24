@@ -3,7 +3,7 @@ name: Circle of Nightmares
 type: subclass
 _id: epUSDsracMjworsw
 _key: '!items!epUSDsracMjworsw'
-img: assets/icons/circle_of_nightmares.png
+img: modules/draenal-common/assets/icons/circle-of-nightmares-druid.svg
 system:
   advancement:
     - type: ItemGrant

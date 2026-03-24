@@ -2,7 +2,7 @@ name: Hexblade Patron
 type: subclass
 _id: 2lXC8zZ1MgCPKyIb
 _key: '!items!2lXC8zZ1MgCPKyIb'
-img: assets/icons/hexblade-patron-warlock.png
+img: modules/draenal-common/assets/icons/hexblade-patron-warlock.svg
 system:
   advancement:
     - type: ItemGrant

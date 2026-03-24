@@ -2,7 +2,7 @@ folder: DdItyBgJb8l5oawG
 name: Hexblade's Curse
 type: feat
 _id: XUyIUOGMYIIXGWa6
-_keys: '!items!XUyIUOGMYIIXGWa6'
+_key: '!items!XUyIUOGMYIIXGWa6'
 img: icons/magic/unholy/barrier-fire-pink.webp
 system:
   activities: {}
@@ -17,7 +17,7 @@ system:
       curses and deepens the suffering of those afflicted by them. You gain the
       following benefits.</p><p><em><strong>Effortless Agony.</strong></em> You
       can cast
-      @UUID[Compendium.draenal-common.ddb-draenals-sandbox-ddb-spells.Item.QCEeg2mePxulkfZ6]{Hex}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Hex}
       without expending a spell slot and without the need for concentration.
       Casting Hex in this way casts it at the level of your Pact Magic spell
       slots. Once you use this feature, you can't use it again until you

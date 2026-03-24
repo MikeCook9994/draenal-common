@@ -2,7 +2,7 @@ folder: YeiaPdE0ykexwOc4
 name: Arcane Recklessness
 type: feat
 _id: XY4ECPIxtLbFFOp2
-_keys: '!items!XY4ECPIxtLbFFOp2'
+_key: '!items!XY4ECPIxtLbFFOp2'
 img: icons/skills/melee/maneuver-greatsword-yellow.webp
 system:
   activities: {}

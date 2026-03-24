@@ -68,10 +68,6 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Homebrew
-    page: ''
-    custom: ''
-    license: ''
   activation:
     type: reaction
     condition: you or an ally within 10 feet of you failing a Saving Throw

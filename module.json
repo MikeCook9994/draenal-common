@@ -104,8 +104,8 @@
   ],
   "packFolders": [
     {
-      "name": "Draenal Common",
-      "color": "#cd2c1e",
+      "name": "Draenal's Compendia",
+      "color": "#00c000",
       "sorting": "m",
       "packs": [
         "backgrounds",
