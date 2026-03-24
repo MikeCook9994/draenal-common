@@ -14,9 +14,9 @@ system:
       _id: O5lFDzKZhCxPQzF1
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.gFKtGA84qAe4n121
+          - uuid: Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.6xxGTUAmF2i3vIMS
+          - uuid: Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr
             optional: false
         optional: false
         spell: null
@@ -29,7 +29,7 @@ system:
         items:
           - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
             optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.0XK9NFdZQmUfzoiJ
+          - uuid: Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM
             optional: false
         optional: false
         spell:
@@ -124,9 +124,9 @@ system:
       Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{Bestow
       Curse},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
-      Killer}, @UUID[Compendium.dnd5e.spells24.Item.0XK9NFdZQmUfzoiJ]{Staggering
-      Smite}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.gFKtGA84qAe4n121]{Banishing
-      Smite}, @UUID[Compendium.dnd5e.spells24.Item.6xxGTUAmF2i3vIMS]{Destructive
+      Killer}, @UUID[Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM]{Staggering
+      Smite}</td></tr><tr><td>9</td><td>@UUID[Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA]{Banishing
+      Smite}, @UUID[Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr]{Destructive
       Wave}</td></tr></tbody></table>
     chat: ''
   identifier: feature
