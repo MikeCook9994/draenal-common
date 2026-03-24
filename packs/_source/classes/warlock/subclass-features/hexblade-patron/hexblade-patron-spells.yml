@@ -14,12 +14,19 @@ system:
       _id: O5lFDzKZhCxPQzF1
       configuration:
         items:
-          - uuid: Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA
-            optional: false
-          - uuid: Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr
-            optional: false
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr
         optional: false
-        spell: null
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
       value: {}
       level: 9
       title: 5th-level spells
@@ -27,19 +34,19 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
-            optional: false
-          - uuid: Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM
-            optional: false
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM
         optional: false
         spell:
           ability: []
-          method: ''
+          method: pact
           uses:
             max: ''
             per: ''
-            requireSlot: false
-          prepared: 0
+            requireSlot: true
+          prepared: 2
       value: {}
       level: 7
       title: 4th-level spells
@@ -48,19 +55,19 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplBestowCurs
-            optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
-            optional: false
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplBestowCurs
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
         optional: false
         spell:
           ability: []
-          method: ''
+          method: pact
           uses:
             max: ''
             per: ''
-            requireSlot: false
-          prepared: 0
+            requireSlot: true
+          prepared: 2
       value: {}
       level: 5
       title: 3rd-level spells
@@ -69,19 +76,19 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
-            optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
-            optional: false
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
         optional: false
         spell:
           ability: []
-          method: ''
+          method: pact
           uses:
             max: ''
             per: ''
-            requireSlot: false
-          prepared: 0
+            requireSlot: true
+          prepared: 2
       value: {}
       level: 3
       title: 2nd-level spells
@@ -90,21 +97,19 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.draenal-common.spells.Item.P5c4Lf70vgeaUoXH
-            optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
-            optional: false
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplHex0000000
-            optional: false
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
         optional: false
         spell:
           ability: []
-          method: ''
+          method: pact
           uses:
             max: ''
             per: ''
-            requireSlot: false
-          prepared: 0
+            requireSlot: true
+          prepared: 2
       value: {}
       level: 3
       title: 1st-level spells
@@ -112,21 +117,22 @@ system:
       _id: kOD0ijIabizMVkqc
   description:
     value: >-
-      <p>,When you reach a Druid level specified in the Circle of Dreams Spells
-      table, you thereafter always have the listed spells
-      prepared.</p><h4>Circle of Dreams Spells</h4><table><thead><tr><td>Druid
-      Level</td><td>Circle
-      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.draenal-common.spells.Item.P5c4Lf70vgeaUoXH]{Armor
-      of Agathys}, @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000{Hex},
+      <p>When you reach a Warlock level specified in the Patron Spells table,
+      you thereafter always have the listed spells prepared.</p><h4>Patron
+      Spells</h4><table><thead><tr><td>Warlock Level</td><td>Patron
+      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt]{Armor
+      of Agathys},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict Wounds},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneVigo]{Arcane Vigor},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual
       Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{Bestow
       Curse},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
-      Killer}, @UUID[Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM]{Staggering
+      Killer},
+      @UUID[Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM]{Staggering
       Smite}</td></tr><tr><td>9</td><td>@UUID[Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA]{Banishing
-      Smite}, @UUID[Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr]{Destructive
+      Smite},
+      @UUID[Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr]{Destructive
       Wave}</td></tr></tbody></table>
     chat: ''
   identifier: feature
@@ -155,8 +161,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768776986116
-  modifiedTime: 1768865840546
+  modifiedTime: 1774373399981
   lastModifiedBy: draenalcommon000
 _key: '!items!e44LDzLni09L6dQp'

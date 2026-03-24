@@ -27,7 +27,7 @@ system:
         items:
           - uuid: Compendium.draenal-common.classes.Item.wa1gQcGoB6QAci1n
             optional: false
-          - uuid: Compendium.draenal-common.classes.Item.i4mYuk9duBBlB3o9
+          - uuid: Compendium.draenal-common.classes.Item.S6SnAx4mclBVWtQt
             optional: false
         optional: false
         spell: null
@@ -71,7 +71,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Homebrew
+    book: XGtE Refresh
     page: ''
     custom: ''
     license: ''
@@ -94,6 +94,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1774227816461
-  modifiedTime: 1774227858603
+  modifiedTime: 1774372176695
   lastModifiedBy: draenalcommon000
 _key: '!items!2lXC8zZ1MgCPKyIb'
