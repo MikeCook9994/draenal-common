@@ -1,0 +1,664 @@
+name: Changing Fate
+type: weapon
+_id: bkIs7zGWKk9qHJyh
+img: icons/weapons/staves/staff-simple-green.webp
+system:
+  activities:
+    GKb1mNrj9W8QKcEc:
+      _id: GKb1mNrj9W8QKcEc
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: true
+        requireMagic: true
+        identifier: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+    pRX7h0y1jsXRUEPp:
+      type: enchant
+      _id: pRX7h0y1jsXRUEPp
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: BBXmiGZEcTqdwfKq
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: p02hoHkosW0dPWRJ
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: Xb3DqWWwbeslWzoq
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      enchant:
+        self: true
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: ''
+      name: Change Form
+      img: icons/magic/symbols/runes-etched-steel-blade.webp
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>This weapon appears as an extravagant dueling cane. From the eye to
+      toe, the cane begins with an expertly cut emerald pommel that morphs into
+      a shaft of fine mahogany bespeckled with small circular reliefs before
+      terminating with a cuff of brass around the tip. This weapon, <em>Changing
+      Fate</em>, is so much more than it appears; however, its secrets shall
+      only be made known to one chosen by the weapon's mysterious maker. An
+      attempt to attune this weapon by any creature other than by the one who is
+      chosen results in failure. <em>Changing Fate</em> functions as a
+      nonmagical weapon for anyone other than the chosen
+      wielder.</p><p><em><strong>Forms.</strong></em> As a bonus action, you can
+      change the weapon's type from a Club to either a Longsword, Rapier, or
+      Scimitar. The weapon's appearance changes accordingly. This lasts until
+      you change the weapon's form again or revert its type back to a Club (no
+      action required). You are proficient with the weapon regardless of its
+      type.</p><p><em><strong>Runes of Power.</strong></em> The circular reliefs
+      adorning the cane's shaft can house engraved stones called runes of power.
+      When a creature attunes to the weapon for the first time, a number of
+      runes of power equal to the creature's level appear within empty reliefs
+      on the shaft. A new rune of power appears within an empty relief on the
+      shaft whenever the creature attuned to the weapon gains a level. You
+      choose the rune from the list below whenever one would appear. You can't
+      pick the same rune more than once unless its description says otherwise.
+      The DM may grant additional runes of power with pre-selected effects at
+      their discretion. If a rune has a prerequisite, you must meet it to
+      benefit from the rune's effect. All of the runes of power that embellish
+      the weapon vanish if the maker chooses to break your attunement to the
+      item.</p><p>  <strong>Rune of Skill.</strong> Choose one skill. You gain a
+      +1 bonus to Ability Checks you make with that skill.
+      <em><strong>Repeatable.</strong></em> You can choose this rune of power
+      more than once. Each time you do so, choose a different skill.</p><p> 
+      <strong>Rune of Fate. (Prerequisite: Level 5+).</strong> You gain Heroic
+      Inspiration when you score a Critical Hit with an attack made while
+      wielding <em>Changing Fate</em>.</p><p>  <strong>Rune of Freedom
+      (Prerequisite: Level 9+).</strong> Maintaining the bond of attunement
+      between you and <em>Changing Fate</em> no longer taxes you. While you are
+      attuned to <em>Changing Fate</em>, the maximum number of items you can
+      attune to increases by one.</p><p>  <strong>Rune of Synergy (Prerequisite:
+      Spellcasting or Pact Magic feature).</strong> After dealing damage with a
+      spell, your next successful weapon attack deals an additional 1d6 damage
+      of the type of damage done by the spell. If the spell inflicted multiple
+      types of damage, you choose the bonus damage's type from amongst those
+      done by the spell.</p><p>  <strong>Rune of Decay (Prerequisite: Level 5+,
+      Rune of Synergy).</strong> As an Action, you can expend a spell slot slot
+      to gain a number of spell slots of 5th level or lower and whose total
+      levels sum up to be less than or equal to the level of the expended spell
+      slot. These spell slots are lost when you complete a short rest. You can
+      use this feature twice. You regain one expended use when you finish a
+      Short Rest, and all expended uses when you finish a Long Rest.</p><p> 
+      <strong>Rune of Potency (Prerequisite: Level 9+, Rune of Decay).</strong>
+      When you deal bonus damage via the Rune of Synergy, you can choose to
+      expend a spell slot of up to 5th level. When you do so, the bonus damage
+      increases by 1d6 for each level of the spell slot that was
+      expended.</p><p>  <strong>Rune of Opportunity.</strong> Immediately after
+      you deal damage to a creature with a weapon attack made with this weapon,
+      you can change the weapon's form.</p><p>  <strong>Rune of Protection.
+      (Prerequisite: Level 5+).</strong> You can don or doff a shield as part of
+      the action you take to change <em>Changing Fate's</em> type.</p><p> 
+      <strong>Rune of Guarding (Prerequisite: Level 9+).</strong> While
+      <em>Changing Fate</em> is a Longsword and a creature within 5-feet of you
+      is hit with a melee attack, if the attacked creature is willing, you can
+      use your reaction to swap positions with them and become the target of the
+      triggering attack. The attack roll is then compared against your AC,
+      potentially turning the hit into a miss. No movement caused by this
+      provokes opportunity attacks.</p><p>  <strong>Rune of Knives
+      (Prerequisite: Level 5+).</strong> Changing <em>Changing Fate's</em> type
+      to a rapier creates a spectral dagger in your off-hand (provided it is
+      empty). After throwing the dagger to make a ranged attack, you can cause
+      the dagger to reappear in your hand. This dagger is an extension of
+      <em>Changing Fate</em> and the benefits from the Runes of Power of power
+      conferred to <em>Changing Fate</em> as a Rapier also apply to it.</p><p> 
+      <strong>Rune of Flight (Prerequisite: Level 9+, Rune of Knives).</strong>
+      If a ranged attack made with the thrown dagger hits a target, you can
+      choose to teleport to the dagger.</p><p>  <strong>Rune of Hunting
+      (Prerequisite: Level 5+).</strong> While <em>Changing Fate</em> is a
+      Rapier, when a creature move's to be more than 10 feet of away from you,
+      you can take a reaction to immediately move to the nearest open space
+      adjacent to the target and make one melee weapon attack against the
+      creature. This attack counts as an Opportunity Attack.</p><p> 
+      <strong>Rune of Remise (Prerequisite: Level 9+).</strong> Once per turn
+      when you miss an attack while <em>Changing Fate</em> is a Rapier, you can
+      make another attack at disadvantage as part of the same action.</p><p> 
+      <strong>Rune of Mastery.</strong> Choose one of the weapon types that
+      <em>Changing Fate</em> can transform into. When you make an attack with
+      this weapon, you can use the weapon mastery property of the chosen weapon
+      type. <em><strong>Repeatable.</strong></em> You can choose this rune of
+      power more than once. Each time you do so, choose a different eligible
+      weapon type.</p><p>  <strong>Rune of Honing (Prerequisite: Level
+      4+).</strong> Choose one of the weapon types that <em>Changing Fate</em>
+      can transform into. You gain a +1 bonus to attack and damage rolls you
+      make with this weapon while its type matches the chosen type.
+      <em><strong>Repeatable.</strong></em> You can choose this rune of power
+      more than once. Each time you do so, choose a different eligible weapon
+      type.</p><p>  <strong>Rune of Sharpening (Prerequisite: Level +10, Rune of
+      Honing).</strong> Choose one of the weapon types that you have chosen to
+      improve with the Rune of Honing. You gain an additional +1 bonus to attack
+      and damage rolls you make with this weapon while its type matches the
+      chosen type. <em><strong>Repeatable.</strong></em> You can choose this
+      rune of power more than once. Each time you do so, choose a different
+      eligible weapon type.</p><p>  <strong>Rune of Polishing (Prerequisite:
+      Level 16+, Rune of Sharpening).</strong> Choose one of the weapon types
+      that you have chosen to improve with the Rune of Sharpening. You gain an
+      additional +1 bonus to attack and damage rolls you make with this weapon
+      while its type matches the chosen type.
+      <em><strong>Repeatable.</strong></em> You can choose this rune of power
+      more than once. Each time you do so, choose a different eligible weapon
+      type.</p><p>  <strong>Rune of Apprenticeship. (Prerequisite: Level 4+,
+      Spellcasting or Pact Magic feature).</strong> Spells you cast gain a +1
+      bonus to their Spell Save DCs and Attack rolls while you wield
+      <em>Changing Fate</em>.</p><p>  <strong>Rune of Witchcraft. (Prerequisite:
+      Level 10+, Rune of Apprenticeship).</strong> Spells you cast gain an
+      additional +1 bonus to their Spell Save DCs and Attack rolls while you
+      wield <em>Changing Fate</em>.</p><p>  <strong>Rune of Ascension.
+      (Prerequisite: Level 16+, Rune of Witchcraft).</strong> Spells you cast
+      gain an additional +1 bonus to their Spell Save DCs and Attack rolls while
+      you wield <em>Changing Fate</em>.</p>
+    chat: <p> </p>
+  identifier: changing-fate
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: >-
+      <p>This weapon appears as an extravagant dueling cane. From the eye to
+      toe, the cane begins with an expertly cut emerald pommel that morphs into
+      a shaft of fine mahogany bespeckled with small circular reliefs before
+      terminating with a cuff of brass around the tip.</p>
+    name: Unidentified Club
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: uncommon
+  attunement: required
+  attuned: true
+  equipped: false
+  crew:
+    value: []
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        number: 1
+      number: 1
+      denomination: 4
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - lgt
+    - mgc
+  proficient: 1
+  range:
+    units: ft
+    reach: null
+  type:
+    value: simpleM
+    baseItem: club
+  mastery: slow
+  magicalBonus: null
+effects:
+  - type: enchantment
+    name: 'Changed Form: Rapier'
+    img: icons/weapons/swords/sword-katana.webp
+    disabled: true
+    system: {}
+    changes:
+      - key: system.type.baseItem
+        mode: 5
+        value: rapier
+        priority: null
+      - key: name
+        mode: 5
+        value: '{} [rapier]'
+        priority: null
+      - key: system.type.value
+        mode: 5
+        value: martialM
+        priority: null
+      - key: img
+        mode: 5
+        value: icons/weapons/swords/sword-katana.webp
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.mastery
+        mode: 5
+        value: vex
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: fin
+        priority: null
+      - key: system.damage.base.denomination
+        mode: 5
+        value: '8'
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: '-lgt'
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: '-bludgeoning'
+        priority: null
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1769548440493
+      modifiedTime: 1769548532801
+      lastModifiedBy: draenalcommon000
+    _id: p02hoHkosW0dPWRJ
+    _key: '!items.effects!bkIs7zGWKk9qHJyh.p02hoHkosW0dPWRJ'
+  - type: enchantment
+    name: 'Changed Form: Scimitar'
+    img: icons/weapons/swords/scimitar-guard-gold.webp
+    disabled: true
+    system: {}
+    changes:
+      - key: system.type.baseItem
+        mode: 5
+        value: scimitar
+        priority: null
+      - key: name
+        mode: 5
+        value: '{} [scimitar]'
+        priority: null
+      - key: system.type.value
+        mode: 5
+        value: martialM
+        priority: null
+      - key: img
+        mode: 5
+        value: icons/weapons/swords/scimitar-guard-gold.webp
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.mastery
+        mode: 5
+        value: nick
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: fin
+        priority: null
+      - key: system.damage.base.denomination
+        mode: 5
+        value: '6'
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: '-bludgeoning'
+        priority: null
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1769548441979
+      modifiedTime: 1769548687541
+      lastModifiedBy: draenalcommon000
+    _id: Xb3DqWWwbeslWzoq
+    _key: '!items.effects!bkIs7zGWKk9qHJyh.Xb3DqWWwbeslWzoq'
+  - type: enchantment
+    name: 'Changed Form: Longsword'
+    img: icons/weapons/swords/sword-guard-bronze.webp
+    disabled: true
+    system: {}
+    changes:
+      - key: system.type.baseItem
+        mode: 5
+        value: longsword
+        priority: null
+      - key: name
+        mode: 5
+        value: '{} [longsword]'
+        priority: null
+      - key: system.type.value
+        mode: 5
+        value: martialM
+        priority: null
+      - key: img
+        mode: 5
+        value: icons/weapons/swords/sword-guard-bronze.webp
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.mastery
+        mode: 5
+        value: sap
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: ver
+        priority: null
+      - key: system.damage.base.denomination
+        mode: 5
+        value: '8'
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: '-lgt'
+        priority: null
+      - key: system.damage.base.types
+        mode: 2
+        value: '-bludgeoning'
+        priority: null
+      - key: system.damage.versatile.denomination
+        mode: 5
+        value: '10'
+        priority: null
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1769548723839
+      modifiedTime: 1769548861748
+      lastModifiedBy: draenalcommon000
+    _id: BBXmiGZEcTqdwfKq
+    _key: '!items.effects!bkIs7zGWKk9qHJyh.BBXmiGZEcTqdwfKq'
+  - name: Rune of Skill (Deception)
+    img: icons/weapons/staves/staff-simple-green.webp
+    origin: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
+    _id: VxUhyT4Est3eyFnu
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.dec.bonuses.check
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.dec.bonuses.passive
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You gain a +1 bonus to Ability Checks you make with the Deception
+      skill.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774494958226
+      modifiedTime: 1774497401300
+      lastModifiedBy: draenalcommon000
+    _key: '!items.effects!bkIs7zGWKk9qHJyh.VxUhyT4Est3eyFnu'
+  - name: Rune of Mastery (Longsword)
+    img: icons/weapons/staves/staff-simple-green.webp
+    origin: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
+    _id: WGE6aCXCc1DJLEEo
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.weaponProf.mastery.value
+        mode: 2
+        value: longsword
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When you make an attack with this weapon, you can use the Sap weapon
+      mastery property.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1774496439479
+      modifiedTime: 1774498236671
+      lastModifiedBy: draenalcommon000
+    _key: '!items.effects!bkIs7zGWKk9qHJyh.WGE6aCXCc1DJLEEo'
+folder: WbqCEw0rImHkn5Xj
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1769457555812
+  modifiedTime: 1774498659677
+  lastModifiedBy: draenalcommon000
+_key: '!items!bkIs7zGWKk9qHJyh'

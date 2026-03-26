@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Magic Items
+color: null
+sorting: a
+_id: WbqCEw0rImHkn5Xj
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774494937176
+  modifiedTime: 1774494937176
+  lastModifiedBy: draenalcommon000
+_key: '!folders!WbqCEw0rImHkn5Xj'

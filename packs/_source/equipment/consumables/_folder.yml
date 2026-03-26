@@ -1,0 +1,19 @@
+type: Item
+folder: null
+name: Consumables
+color: null
+sorting: a
+_id: NN8G1Foyh9Tr2oZw
+description: ''
+sort: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.5
+  createdTime: 1774494941438
+  modifiedTime: 1774494941438
+  lastModifiedBy: draenalcommon000
+_key: '!folders!NN8G1Foyh9Tr2oZw'
