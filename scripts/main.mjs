@@ -13,31 +13,44 @@ CONFIG.debug.hooks = true;
         // dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.point = PointSpellcasting;
     });
 
-    Hooks.on('updateActiveEffect', async (effect, changes, options, userId) => {
+    Hooks.on('preUpdateActiveEffect', async (effect, changed, options, userId) => {
         const actor = effect.target;
-        const feature = actor.sourcedItems.get("Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5");
-        if (!effect.origin.endsWith(".ActiveEffect.G5XZTi4zYTFiHVll") && feature?.size) {
-            return;
+        const effectIsRage = effect.origin.endsWith(".ActiveEffect.G5XZTi4zYTFiHVll");
+        const castAndSmashPresent = actor.sourcedItems.has("Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5");
+        if (!effectIsRage || !castAndSmashPresent) {
+            return true;
         }
 
-        // Check for existing effect. Origin is the base cast and smash effect. That varies
-        // Id varies, so you check against the origin which uses the source effect id
-        const existingEffect = actor.effects.find(e => e.origin.endsWith(".ActiveEffect.iT5HADHVwWSvXjWv")); 
-        if (!existingEffect) {
-            const baseEffect = feature.first().effects.contents[0];
-            const effectData = {
-                ...baseEffect,
-                origin: baseEffect.uuid,
+        var additionalChanges = [
+            {
+                key: "system.bonuses.msak.damage",
+                value: "+@scale.barbarian.rage-damage",
+                mode: CONST.ACTIVE_EFFECT_MODES.ADD
+            },
+            {
+                key: "system.bonuses.rsak.damage",
+                value: "+@scale.barbarian.rage-damage",
+                mode: CONST.ACTIVE_EFFECT_MODES.ADD
             }
+        ];
 
-            await ActiveEffect.create(effectData, {
-                parent: actor
-            });
+        // remove additional changes from changes
+        const changes = effect.changes.filter(c =>
+            !additionalChanges.some(ac => 
+                ac.key === c.key &&
+                ac.value === c.value &&
+                ac.mode === c.mode));
+
+        // put 'em back if it's being enabled
+        if (!changed.disabled) {
+            changes.push(...additionalChanges);
         }
 
-        await existingEffect.update({
-            disabled: changes.disabled
+        foundry.utils.mergeObject(changed, {
+            changes: changes
         });
+
+        return true;
     });
 
     // Hooks.once('init', PointSpellcasting.Init);
