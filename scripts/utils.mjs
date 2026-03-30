@@ -1,5 +1,9 @@
 export function registerActiveEffectAdditions(targetEffectRelativeUuid, sourceFeatureAbsoluteUuid, additionalChanges) {
     return Hooks.on("preUpdateActiveEffect", async (effect, changed, options, userId) => {
+        if (!game.user.isGM) {
+            return true;
+        }
+
         const actor = effect.target;
         const isTargetEffect = effect.origin.endsWith(targetEffectRelativeUuid);
         const targetActorHasFeature = actor.sourcedItems.has(sourceFeatureAbsoluteUuid);
@@ -27,26 +31,3 @@ export function registerActiveEffectAdditions(targetEffectRelativeUuid, sourceFe
 
     });
 }
-
-// this code adds a secondary active effect instead of amending an existing one.
-// const existingEffect = actor.effects.find(e => e.origin.endsWith(".ActiveEffect.iT5HADHVwWSvXjWv")); 
-// if (!existingEffect) {
-//     const baseEffect = feature.first().effects.contents[0];
-//     const effectData = {
-//         ...baseEffect.toObject(),
-//         transfer: false,
-//         disabled: changes.disabled,
-//         origin: baseEffect.uuid,
-//     }
-
-//     await ActiveEffect.create(effectData, {
-//         parent: actor
-//     });
-
-//     return;
-// }
-
-// await existingEffect.update({
-//     ...effect.constructor.getInitialDuration(),
-//     disabled: changes.disabled
-// });

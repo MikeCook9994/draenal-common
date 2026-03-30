@@ -1,41 +1,19 @@
 export default class HexbladePatron {
     hookRegistrations = {};
 
+    #relevantIdMap = {
+    }
+
     constructor() {
         this._hexbladesCurse();
     }
 
     _hexbladesCurse() {
-        this.hookRegistrations.hexbladesCurse = {};
-
-        this.hookRegistrations.hexbladesCurse.magicalCunning =
-        Hooks.on("dnd5e.preUseActivity", (activity, usageConfig, dialogConfig, messageConfig) => {
-            // ActivityUsageConfig._prepareContext() derives the activity state from its parent item
-            // However, if "scaling" is in `usageConfig`, _prepareContext() clones the item from its
-            // source (`item._source`), which causes any mutations on the activity to be lost
-            // Thus, we have mutate the activity the `item._source` path to preserve the changes
-            if (activity.item.flags.dnd5e.sourceId !== "Compendium.dnd5e.classes24.Item.phbwlkMagicalCun" || // Activity is "Magical Cunning" 
-                !activity.actor.sourcedItems.has("Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6") // Actor has "Hexblade's Curse" feature
-            ) {
-                return true;
-            }
-
-            const sourceActivity = activity.item._source.system.activities[activity.id];
-            const itemConsumption = new sourceActivity.consumption.targets[0].constructor({
-                target: activity.actor.sourcedItems.get("Compendium.dnd5e.spells24.Item.phbsplHex0000000").first().id,
-                type: "itemUses",
-                value: -1
-            }, { parent: sourceActivity })
-
-            const length = sourceActivity.consumption.targets.push(itemConsumption);
-            usageConfig.consume.resources.push(length - 1);
-            return true;
-        });
-
-        Hooks.on("createItem", (document, options, userId) => {
-            if (!options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb") || // skip if the character is not a hexblade or
+        const effortlessAgonyUpgradeHookId = Hooks.on("createItem", (document, options, userId) => {
+            if (!game.user.isGM || // skip if user is not the GM or
+                !options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb") || // if the character is not a hexblade or
                 (document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and 
-                document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.classes24.Item.phbwlkMagicalCun" && // the item is not Magical Cunning
+                document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.classes24.Item.phbwlkMagicalCun" && // the item is not Magical Cunning and
                 document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6") // the item is not hexblade's curse
             ) {
                 return;
@@ -76,8 +54,8 @@ export default class HexbladePatron {
                 foundry.utils.mergeObject(sourceObject, consumptionUpdate));
         });
 
-        Hooks.on("deleteItem", (document, options, userId) => {
-            if ((document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb" && // skip if the item is not Hexblade Patron
+        const effortlessAgonyDowngradeHookId = Hooks.on("deleteItem", (document, options, userId) => {
+            if (!game.user.isGM || (document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb" && // skip if the user is not game || item is not Hexblade Patron and
                 document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and
                 document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6") // the item is not hexblade's curse
             ) {
@@ -108,5 +86,71 @@ export default class HexbladePatron {
                 "EK3yOTVml5LbmpmQ",
                 foundry.utils.mergeObject(sourceObject, consumptionUpdate));
         });
+
+        const improvedCriticalHookId = this._registerHexbladesCurseAttackModifierHook("dnd5e.preRollAttack", (rollConfig) => {
+            rollConfig.rolls.forEach(roll => roll.options.criticalSuccess = 19);
+        });
+
+        const bonusDamageHookId = this._registerHexbladesCurseAttackModifierHook("dnd5e.preRollDamage", (rollConfig) => {
+            rollConfig.rolls.filter(roll => roll.base)[0].parts.push("1d6");
+        });
+
+        const soulSiphonHookId = Hooks.on("createActiveEffect", (activeEffect, options, userId) => {
+            if (game.user.isGM && activeEffect.id === "dnd5edead0000000") {
+                const targetMaxHp = activeEffect.parent.system.attributes.hp.max;
+                this._getCurseSourceHexblades(activeEffect.parent).forEach(sa => {
+                    const featureHealing = sa.system.abilities.cha.mod + (sa.classes.warlock?.system.levels ?? 0);
+                    sa.applyDamage([{
+                        properties: [ "mgc" ],
+                        type: "healing",
+                        value: Math.min(featureHealing, targetMaxHp)
+                    }]);
+                });
+            }
+
+            return true;
+        });
+
+        this.hookRegistrations.hexbladesCurse = {
+            effortlessAgonyUpgrade: effortlessAgonyUpgradeHookId,
+            effortlessAgonyDowngrade: effortlessAgonyDowngradeHookId,
+            improvedCritical: improvedCriticalHookId,
+            bonusDamage: bonusDamageHookId,
+            soulSiphon: soulSiphonHookId
+        };
+    }
+
+    _registerHexbladesCurseAttackModifierHook(hook, rollConfigMutationCallback) {
+        return Hooks.on(hook, (rollConfig, dialogConfig, messageConfig) => {
+            if (game.user.isGM &&
+                rollConfig.subject.actor.subclasses.hasOwnProperty("hexblade") &&
+                messageConfig.data.flags.dnd5e.targets.length === 1
+            ) {
+                const target = fromUuidSync(messageConfig.data.flags.dnd5e.targets[0].uuid);
+                if (this._targetIsCursedBySourceHexblade(rollConfig.subject.actor, target)) {
+                    rollConfigMutationCallback(rollConfig);
+                }
+            }
+
+            return true;
+        });
+    }
+
+    _targetIsCursedByHexblade(source, target) {
+        return target.effects.some(e => {
+            if (e.statuses.has("cursed") && e.origin.startsWith("Actor")) {
+                const effectSourceActor = game.actors.get(e.origin.split(".")[1]);
+                return effectSourceActor.id === source.id;
+            }
+
+            return false;
+        })
+    }
+
+    _getCurseSourceHexblades(actor) {
+        return actor.effects
+            .filter(e => e.origin?.startsWith("Actor") && e.statuses.has("cursed"))
+            .map(e => game.actors.get(e.origin.split(".")[1]))
+            .filter(s => s.subclasses.hasOwnProperty("hexblade"));
     }
 }
