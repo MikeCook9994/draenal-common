@@ -38,7 +38,8 @@ system:
       - path-of-wonder
     repeatable: false
     level: 6
-  properties: []
+  properties:
+    - trait
   requirements: Path of Wonder
   type:
     value: class
@@ -53,8 +54,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768861794013
-  modifiedTime: 1768863606972
+  modifiedTime: 1774678828502
   lastModifiedBy: draenalcommon000
 _key: '!items!RIx1scDhOTZV6QoC'

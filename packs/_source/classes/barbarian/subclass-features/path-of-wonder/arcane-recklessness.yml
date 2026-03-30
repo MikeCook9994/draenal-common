@@ -17,8 +17,8 @@ system:
       benefits.</p><p><strong>Close Quarter Spellcraft.</strong> Being within 5
       feet of a creature doesn't impose disadvantage on your ranged spell attack
       rolls.</p><p><strong>Danger Close.</strong> If you must make a saving
-      throw against an area of effect spell that you cast, other creatures that
-      that must make the same saving throw have disadvantage.</p>
+      throw against an area of effect spell that you cast, other creatures have
+      disadvantage on Saving Throws they must make against that same spell.</p>
     chat: ''
   identifier: arcane-recklessness
   source:
@@ -46,8 +46,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768861771345
-  modifiedTime: 1768863467901
+  modifiedTime: 1774678850448
   lastModifiedBy: draenalcommon000
 _key: '!items!XY4ECPIxtLbFFOp2'

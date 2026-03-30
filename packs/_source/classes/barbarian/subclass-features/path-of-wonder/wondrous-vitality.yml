@@ -4,7 +4,89 @@ type: feat
 _id: K7dx4v9QiOjOqxXr
 img: icons/magic/symbols/circle-ouroboros.webp
 system:
-  activities: {}
+  activities:
+    N3svQC7tduc3Gvbt:
+      type: damage
+      _id: N3svQC7tduc3Gvbt
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: >-
+            min(@classes.barbarian.levels - @classes.barbarian.hd.spent,
+            @scale.wondrous-vitality.maximum-spell-slot-level)
+        spellSlot: true
+        targets:
+          - type: hitDice
+            value: '1'
+            target: d12
+            scaling:
+              mode: amount
+              formula: ''
+          - type: spellSlots
+            value: '-1'
+            target: '1'
+            scaling:
+              mode: level
+              formula: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: Create Spell Slot
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -84,23 +166,20 @@ system:
       to others as "spells", into the world. See chapter 7 of the 2024 Player's
       Handbook for the rules on spellcasting. The information below details how
       you use those rules as a Path of Wonder
-      Barbarian.</p><p><em><strong>Cantrips.</strong></em> You know two cantrips
-      of your choice from the Sorcerer spell list. Whenever you gain a Barbarian
-      level, you can replace one of these cantrips with another cantrip of your
-      choice from the Sorcerer spell list. When you reach Barbarian level 10,
-      you learn another Sorcerer cantrip of your choice.</p><p><em><strong>Spell
-      Slots.</strong></em> When you take the Magic action to cast a spell, you
-      create a spell slot by expending a number of your Barbarian Hit Point Dice
-      equal to the spell's level. Immediately after the casting of the spell,
-      roll the expended Hit Point Dice, then take force damage equal to the
-      value rolled. This damage cannot be reduced in any way. If a spell or
-      feature prevents the casting of the spell you still take the damage;
-      however, if the spell slot is not expended, you can later expend that
-      spell slot to cast a spell without the need to expend additional hit dice.
-      Any remaining spell slots are lost when you complete a Long
-      Rest.</p><p>The maximum spell slot level you can create is shown in the
-      Maximum Spell Slot Level column of the Path of Wonder Spellcasting table
-      below.</p><table><caption>Path of Wonder
+      Barbarian.</p><p><strong>Cantrips.</strong> You know two cantrips of your
+      choice from the Sorcerer spell list. Whenever you gain a Barbarian level,
+      you can replace one of these cantrips with another cantrip of your choice
+      from the Sorcerer spell list. When you reach Barbarian level 10, you learn
+      another Sorcerer cantrip of your choice.</p><p><strong>Spell
+      Slots.</strong> When you take the Magic action to cast a spell, you create
+      a spell slot by expending a number of your Barbarian Hit Point Dice equal
+      to the spell's level. Immediately after the casting of the spell, roll the
+      expended Hit Point Dice, then take force damage equal to the value rolled.
+      This damage cannot be reduced in any way. If a spell or feature prevents
+      the casting of the spell, this spell slot is lost; however, the hit dice
+      are not expended.</p><p>The maximum spell slot level you can create is
+      shown in the Maximum Spell Slot Level column of the Path of Wonder
+      Spellcasting table below.</p><table><caption>Path of Wonder
       Spellcasting</caption><thead><tr><th>Barbarian Level</th><th>Spells
       Prepared</th><th>Maximum Spell Slot
       Level</th></tr></thead><tbody><tr><td><p
@@ -157,25 +236,24 @@ system:
       style="text-align:center">4</p></td></tr><tr><td><p
       style="text-align:center">20</p></td><td><p
       style="text-align:center">13</p></td><td><p
-      style="text-align:center">4</p></td></tr></tbody></table><p><em><strong>Prepared
-      Spells of Level 1+.</strong></em> You prepare the list of level 1+ spells
-      that are available for you to cast with this feature. To start, choose
-      three level 1 spells from the Sorcerer spell list. The number of spells on
-      your list increases as you gain Barbarian levels, as shown in the Spells
+      style="text-align:center">4</p></td></tr></tbody></table><p><strong>Prepared
+      Spells of Level 1+.</strong> You prepare the list of level 1+ spells that
+      are available for you to cast with this feature. To start, choose three
+      level 1 spells from the Sorcerer spell list. The number of spells on your
+      list increases as you gain Barbarian levels, as shown in the Spells
       Prepared column of the Path of Wonder Spellcasting table. Whenever that
       number increases, choose additional spells from the Sorcerer spell list
       until the number of spells on your list matches the number on the table.
       The chosen spells must be of a level for which you can create a spell
       slot. For example, if you're a level 7 Barbarian, your list of prepared
       spells can include 5 Sorcerer spells of levels 1 and 2 in any
-      combination.</p><p><em><strong>Changing Your Prepared
-      Spells.</strong></em> Whenever you gain a Barbarian level, you can replace
-      one spell on your list with another Sorcerer spell for which you can
-      create spell slots for.</p><p><em><strong>Spellcasting
-      Ability.</strong></em> Strength is your spellcasting ability for your
-      Sorcerer spells.</p><p><em><strong>Spellcasting Focus.</strong></em> You
-      can use any martial melee weapon as a Spellcasting Focus for your Sorcerer
-      spells.</p>
+      combination.</p><p><strong>Changing Your Prepared Spells.</strong>
+      Whenever you gain a Barbarian level, you can replace one spell on your
+      list with another Sorcerer spell for which you can create spell slots
+      for.</p><p><strong>Spellcasting Ability.</strong> Strength is your
+      spellcasting ability for your Sorcerer spells.</p><p><strong>Spellcasting
+      Focus.</strong> You can use any martial melee weapon as a Spellcasting
+      Focus for your Sorcerer spells.</p>
     chat: ''
   identifier: wondrous-vitality
   source:
@@ -188,7 +266,8 @@ system:
       - path-of-wonder
     repeatable: false
     level: 3
-  properties: []
+  properties:
+    - mgc
   requirements: Path of Wonder
   type:
     value: class
@@ -203,8 +282,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768858680841
-  modifiedTime: 1769918485940
+  modifiedTime: 1774683078952
   lastModifiedBy: draenalcommon000
 _key: '!items!K7dx4v9QiOjOqxXr'

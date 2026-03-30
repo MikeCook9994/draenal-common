@@ -12,11 +12,12 @@ system:
   advancement: []
   description:
     value: >-
-      <p>You are a practiced magus and martial in combat. When you cast a
-      Sorcerer spell as an action while you are raging, you gain the following
-      benefits.</p><p><strong>Spell fury.</strong> You can add your Rage bonus
-      to one damage roll of the spell.</p><p><strong>Follow up.</strong> You can
-      immediately make one melee attack with a weapon as a bonus action.  </p>
+      <p>You are a practiced magus and martial in combat. When take a Magic
+      action to cast a Sorcerer spell while you are raging, you gain the
+      following benefits.</p><p><strong>Spell fury.</strong> You can add your
+      Rage bonus to one damage roll of the spell.</p><p><strong>Follow
+      up.</strong> You can immediately make one melee attack with a weapon as a
+      bonus action.</p>
     chat: ''
   identifier: cast-and-smash
   source:
@@ -29,7 +30,9 @@ system:
       - path-of-wonder
     repeatable: false
     level: 3
-  properties: []
+  properties:
+    - mgc
+    - trait
   requirements: Path of Wonder
   type:
     value: class
@@ -44,8 +47,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768861739914
-  modifiedTime: 1768863839292
+  modifiedTime: 1774678871576
   lastModifiedBy: draenalcommon000
 _key: '!items!J9dHLyG43bYxmNC5'

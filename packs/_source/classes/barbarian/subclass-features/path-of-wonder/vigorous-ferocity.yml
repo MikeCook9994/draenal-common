@@ -52,7 +52,8 @@ system:
       - path-of-wonder
     repeatable: false
     level: 10
-  properties: []
+  properties:
+    - mgc
   requirements: Path of Wonder
   type:
     value: class
@@ -67,8 +68,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768861860573
-  modifiedTime: 1768864107922
+  modifiedTime: 1774678783427
   lastModifiedBy: draenalcommon000
 _key: '!items!36Mq4o1RTdQjuokp'

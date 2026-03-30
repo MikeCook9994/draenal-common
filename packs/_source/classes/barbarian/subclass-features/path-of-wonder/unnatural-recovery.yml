@@ -4,20 +4,160 @@ type: feat
 _id: x6ApTszAvoIuj3zi
 img: icons/magic/life/cross-worn-green.webp
 system:
-  activities: {}
+  activities:
+    0ZNqlD7sAapd67Nq:
+      type: heal
+      name: Rage Healing
+      _id: 0ZNqlD7sAapd67Nq
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: whenever you deal damage with a Strength-based attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@scale.barbarian.rage-damage'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      img: ''
+    vS16x447fey11hXy:
+      type: heal
+      name: Vital Uptake
+      _id: vS16x447fey11hXy
+      sort: 0
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@item.uses.value'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: (@scaling)d12 + (@scaling * @abilities.con.mod)
+        scaling:
+          number: 1
+          mode: ''
+          formula: '@scaling * @abilities.con.mod'
+        number: 1
+        denomination: 12
+        bonus: '@abilities.con.mod'
+      img: ''
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@scale.barbarian.rages'
   advancement: []
   description:
     value: >-
       <p>The magic suffusing your body exacerbates the speed of your recovery.
       You gain the following benefits.</p><p><strong>Rage Healing.</strong>
-      While your Rage is active, you regain hit point equal to your Rage Damage
+      While your Rage is active, you regain hit points equal to your Rage Damage
       bonus whenever you deal damage with a Strength-based
-      attack.</p><p><strong>Vital Uptake.</strong> You regain all of your
-      Barbarian Hit Point Dice when you complete a long rest.</p>
+      attack.</p><p><strong>Vital Uptake.</strong> You have pool of d12s that
+      you can use to mend your wounds in times of calm. The number of dice in
+      the pools is equal to the number shown for your Barbarian level in the
+      Rages column of the Barbarian features table.</p><p>After you complete a
+      Short Rest, you can expend any number of these dice to heal yourself. Roll
+      the dice you expend, and restore a number of Hit Points equal to the
+      roll's total plus a bonus equal to your Constitution bonus times the
+      number of expended dice. Your pool regains all expended dice when you
+      finish a Long Rest.</p>
     chat: ''
   identifier: unnatural-recovery
   source:
@@ -30,7 +170,8 @@ system:
       - path-of-wonder
     repeatable: false
     level: 3
-  properties: []
+  properties:
+    - mgc
   requirements: Path of Wonder
   type:
     value: class
@@ -45,8 +186,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768861756969
-  modifiedTime: 1768863734756
+  modifiedTime: 1774682219752
   lastModifiedBy: draenalcommon000
 _key: '!items!x6ApTszAvoIuj3zi'

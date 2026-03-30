@@ -29,7 +29,9 @@ system:
       - path-of-wonder
     repeatable: false
     level: 14
-  properties: []
+  properties:
+    - mgc
+    - trait
   requirements: Path of Wonder
   type:
     value: class
@@ -44,8 +46,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768862823169
-  modifiedTime: 1768863720485
+  modifiedTime: 1774678803050
   lastModifiedBy: draenalcommon000
 _key: '!items!74MLhYrisfX6Sc5b'

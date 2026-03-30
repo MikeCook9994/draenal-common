@@ -61,7 +61,8 @@ system:
       - hexblade
     repeatable: false
     level: 3
-  properties: []
+  properties:
+    - mgc
   requirements: Hexblade Patron
   type:
     value: class
@@ -78,6 +79,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1768801150991
-  modifiedTime: 1774373677539
+  modifiedTime: 1774848572711
   lastModifiedBy: draenalcommon000
 _key: '!items!XUyIUOGMYIIXGWa6'

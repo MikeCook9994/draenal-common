@@ -1,7 +1,7 @@
 name: Accursed Specter
 type: npc
 _id: EjbxcVcvOSvNrdH5
-img: systems/dnd5e/icons/svg/actors/npc.svg
+img: icons/magic/death/skull-energy-light-purple.webp
 system:
   currency:
     pp: 0
@@ -489,7 +489,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: systems/dnd5e/icons/svg/actors/npc.svg
+    src: icons/magic/death/skull-energy-light-purple.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -1193,6 +1193,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768805866749
-  modifiedTime: 1768806129256
+  modifiedTime: 1774727965634
   lastModifiedBy: draenalcommon000
 _key: '!actors!EjbxcVcvOSvNrdH5'
