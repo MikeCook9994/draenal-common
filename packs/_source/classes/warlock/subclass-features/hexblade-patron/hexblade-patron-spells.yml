@@ -56,7 +56,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplBestowCurs
+            uuid: Compendium.draenal-common.spells.Item.phbsplBestowCurs
           - optional: false
             uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
         optional: false
@@ -125,7 +125,7 @@ system:
       @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict Wounds},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneVigo]{Arcane Vigor},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual
-      Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{Bestow
+      Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.draenal-common.spells.Item.phbsplBestowCurs]{Bestow
       Curse},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
       Killer},
