@@ -9,7 +9,21 @@ export default class PathOfWonder {
     }
 
     _wondrousVitality() {
-        
+        Hooks.on("dnd5e.computeSpellProgression", (progression, actor, cls, spellcasting, count) => {
+            if(actor.sourcedItems.has("Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5")) {
+                return true;
+            }
+
+            return true;
+        });
+
+        Hooks.on("dnd5e.prepareSpellSlots", (spells, actor, progression) => {
+            if(actor.sourcedItems.has("Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5")) {
+                return true;
+            }
+
+            return true;
+        });
     }
 
     _castAndSmash() {

@@ -4,7 +4,8 @@ _id: 5uIZ9zumyTsyxQk8
 img: icons/magic/light/orb-hands-humanoid-yellow.webp
 system:
   advancement:
-    - type: AbilityScoreImprovement
+    uBMWrBIpJFb1nBMl:
+      type: AbilityScoreImprovement
       configuration:
         points: 3
         cap: 2
@@ -27,7 +28,9 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: Trait
+      flags: {}
+    O2Mc9ch1hp43fTuS:
+      type: Trait
       title: Background Proficiencies
       _id: O2Mc9ch1hp43fTuS
       configuration:
@@ -40,7 +43,9 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    YyFlIeZi3SZZFG31:
+      type: ItemGrant
       title: Background Feat
       _id: YyFlIeZi3SZZFG31
       configuration:
@@ -52,7 +57,10 @@ system:
         spell: null
       value: {}
       level: 0
-    - type: Trait
+      flags: {}
+      hint: ''
+    gxAurIyUMvEc7Ca6:
+      type: Trait
       _id: gxAurIyUMvEc7Ca6
       configuration:
         allowReplacements: false
@@ -66,6 +74,7 @@ system:
       title: ''
       hint: ''
       value: {}
+      flags: {}
   description:
     value: >-
       <div class="ddb"><h1>Background: Rewarded</h1><p></p><p><strong>Ability
@@ -175,8 +184,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769464938310
-  modifiedTime: 1769492118102
+  modifiedTime: 1775008844088
   lastModifiedBy: draenalcommon000
 _key: '!items!5uIZ9zumyTsyxQk8'

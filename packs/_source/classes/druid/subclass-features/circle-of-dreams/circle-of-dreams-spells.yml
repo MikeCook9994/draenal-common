@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    jYuYrC1qwtWKFW4E:
+      type: ItemGrant
       _id: jYuYrC1qwtWKFW4E
       configuration:
         items:
@@ -32,7 +33,9 @@ system:
       level: 3
       title: 1st-Level Spells
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    28pGOZ9wx28ewzhU:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
@@ -54,7 +57,9 @@ system:
       title: 2nd-Level Spells
       hint: ''
       _id: 28pGOZ9wx28ewzhU
-    - type: ItemGrant
+      flags: {}
+    2RaBL2xRHznTyJ3t:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.draenal-common.spells.Item.1HkDkZmHcUPmD5WV
@@ -76,7 +81,9 @@ system:
       title: 3rd-Level Spells
       hint: ''
       _id: 2RaBL2xRHznTyJ3t
-    - type: ItemGrant
+      flags: {}
+    h5heLy1cK4EDWyT7:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells24.Item.phbsplAuraofLife
@@ -98,7 +105,9 @@ system:
       title: 4th-Level Spells
       hint: ''
       _id: h5heLy1cK4EDWyT7
-    - type: ItemGrant
+      flags: {}
+    SfFqAGJrkhc51uf9:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells24.Item.phbsplMassCureWo
@@ -120,6 +129,7 @@ system:
       title: 5th-Level Spells
       hint: ''
       _id: SfFqAGJrkhc51uf9
+      flags: {}
   description:
     value: >-
       <p>When you reach a Druid level specified in the Circle of Dreams Spells
@@ -165,8 +175,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767990242390
-  modifiedTime: 1774386201590
+  modifiedTime: 1775008843916
   lastModifiedBy: draenalcommon000
 _key: '!items!1znSvxEscd3VIcNy'

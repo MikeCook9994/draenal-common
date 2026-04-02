@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You can attack twice, instead of once, whenever you take the Attack
@@ -45,8 +45,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767988886887
-  modifiedTime: 1768718388338
+  modifiedTime: 1775008843943
   lastModifiedBy: draenalcommon000
 _key: '!items!GcHtMlmVmpReapTY'

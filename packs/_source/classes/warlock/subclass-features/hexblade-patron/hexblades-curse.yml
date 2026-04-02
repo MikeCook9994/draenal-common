@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    zBk8WnSKyRsb7Btv:
+      type: ItemGrant
       _id: zBk8WnSKyRsb7Btv
       configuration:
         items:
@@ -30,6 +31,7 @@ system:
       title: Hexblade's Curse
       hint: ''
       icon: icons/magic/symbols/star-yellow.webp
+      flags: {}
   description:
     value: >-
       <p>The occult power granted by the bond with your hexblade enhances your
@@ -77,8 +79,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768801150991
-  modifiedTime: 1774848572711
+  modifiedTime: 1775008843991
   lastModifiedBy: draenalcommon000
 _key: '!items!XUyIUOGMYIIXGWa6'

@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you cast
@@ -60,8 +60,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767987452925
-  modifiedTime: 1768718332308
+  modifiedTime: 1775008843950
   lastModifiedBy: draenalcommon000
 _key: '!items!IcyabR3GAehw0AZ7'

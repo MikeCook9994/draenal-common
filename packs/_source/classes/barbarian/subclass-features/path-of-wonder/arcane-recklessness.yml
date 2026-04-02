@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You've developed techniques to use your spells in combat at your own
@@ -46,8 +46,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768861771345
-  modifiedTime: 1774678850448
+  modifiedTime: 1775008843998
   lastModifiedBy: draenalcommon000
 _key: '!items!XY4ECPIxtLbFFOp2'

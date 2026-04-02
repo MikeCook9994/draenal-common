@@ -142,7 +142,7 @@ system:
       - period: lr
         type: recoverAll
     max: '@scale.barbarian.rages'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The magic suffusing your body exacerbates the speed of your recovery.
@@ -186,8 +186,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768861756969
-  modifiedTime: 1774682219752
+  modifiedTime: 1775008844059
   lastModifiedBy: draenalcommon000
 _key: '!items!x6ApTszAvoIuj3zi'

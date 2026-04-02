@@ -462,12 +462,9 @@ prototypeToken:
     src: icons/magic/holy/angel-winged-humanoid-blue.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -511,7 +508,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -533,6 +530,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 1
 items:
   - name: Heal
     type: feat
@@ -608,7 +606,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: "<p>Whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required).\_The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.</p><p><strong>At Higher Levels.</strong>\_When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 for each slot level above 2nd.</p>"
         chat: ''
@@ -638,7 +636,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.5
       createdTime: 1774382677634
@@ -711,7 +709,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p>As a bonus action on your turn, you can move the spirit up to 30
@@ -740,21 +738,18 @@ items:
         transfer: false
         _id: qE1sbz3oR5B9c3Y6
         type: base
-        system: {}
-        changes:
-          - key: '@flags.dnd5e.summon.attributes.movement.speed'
-            mode: 5
-            value: '30'
-            priority: null
+        system:
+          changes:
+            - key: '@flags.dnd5e.summon.attributes.movement.speed'
+              value: 30
+              priority: null
+              type: override
         disabled: false
         duration:
-          startTime: null
-          combat: null
-          seconds: null
-          rounds: null
-          turns: 1
-          startRound: null
-          startTurn: null
+          value: 1
+          units: turns
+          expiry: turnStart
+          expired: false
         description: ''
         tint: '#ffffff'
         statuses: []
@@ -767,12 +762,15 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.359'
           systemId: dnd5e
           systemVersion: 5.2.5
           createdTime: 1774384905760
           modifiedTime: 1774385025394
           lastModifiedBy: draenalcommon000
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!OP7ZP2BUAvR7Sfrb.Sz0KcRJ4n0biRdk4.qE1sbz3oR5B9c3Y6
     folder: null
@@ -784,7 +782,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.5
       createdTime: 1774384707945
@@ -800,10 +798,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1774382587395
-  modifiedTime: 1774384472422
+  modifiedTime: 1775008844188
   lastModifiedBy: draenalcommon000
 _key: '!actors!OP7ZP2BUAvR7Sfrb'

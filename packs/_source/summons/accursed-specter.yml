@@ -492,12 +492,9 @@ prototypeToken:
     src: icons/magic/death/skull-energy-light-purple.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -541,7 +538,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -563,6 +560,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 1
 items:
   - name: Cursed Bond
     type: feat
@@ -574,7 +572,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em><strong>Cursed Bond. </strong></em>Add your Proficiency Bonus
@@ -605,7 +603,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768806152051
@@ -622,7 +620,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em><strong>Incorporeal Movement.</strong></em> The specter can
@@ -655,7 +653,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768806331976
@@ -744,7 +742,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em><strong>Life Drain.</strong></em> <em>Melee Attack Roll:</em>
@@ -777,7 +775,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768807058394
@@ -861,7 +859,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em><strong>Horrific Visage.</strong></em> <em>Wisdom Saving
@@ -894,12 +892,14 @@ items:
         transfer: false
         _id: zfwoArLxbd21gTaC
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         disabled: false
         duration:
-          startTime: null
-          combat: null
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         statuses: []
@@ -909,12 +909,15 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.359'
           systemId: dnd5e
           systemVersion: 5.2.4
           createdTime: 1768808138101
           modifiedTime: 1768808138101
           lastModifiedBy: draenalcommon000
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!EjbxcVcvOSvNrdH5.tyJ2ViTxkD7GsPTX.zfwoArLxbd21gTaC
     folder: null
@@ -926,7 +929,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768808066717
@@ -996,7 +999,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em><strong>Shadow Stealth.</strong></em> While in Dim Light or
@@ -1024,17 +1027,14 @@ items:
           Compendium.draenal-common.summons.Actor.EjbxcVcvOSvNrdH5.Item.00cOv3Qd3akdMe1j
         _id: B3V9Hv1NBgdQVjce
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         disabled: false
         duration:
-          startTime: null
-          combat: null
-          seconds: null
-          rounds: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
@@ -1049,12 +1049,15 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.359'
           systemId: dnd5e
           systemVersion: 5.2.4
           createdTime: 1768808324451
           modifiedTime: 1768808374405
           lastModifiedBy: draenalcommon000
+        showIcon: 2
+        start: null
+        folder: null
         _key: >-
           !actors.items.effects!EjbxcVcvOSvNrdH5.00cOv3Qd3akdMe1j.B3V9Hv1NBgdQVjce
     folder: null
@@ -1066,7 +1069,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768808214890
@@ -1140,7 +1143,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em><strong>Bitter Delivery.</strong></em> <em>Trigger:</em> You
@@ -1173,7 +1176,7 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768808388552
@@ -1189,10 +1192,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768805866749
-  modifiedTime: 1774727965634
+  modifiedTime: 1775008844174
   lastModifiedBy: draenalcommon000
 _key: '!actors!EjbxcVcvOSvNrdH5'

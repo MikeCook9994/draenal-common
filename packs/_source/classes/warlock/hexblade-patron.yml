@@ -4,7 +4,8 @@ _id: 2lXC8zZ1MgCPKyIb
 img: modules/draenal-common/assets/icons/hexblade-patron-warlock.svg
 system:
   advancement:
-    - type: ItemGrant
+    kY3ua299gHkwuEmh:
+      type: ItemGrant
       _id: kY3ua299gHkwuEmh
       configuration:
         items:
@@ -20,7 +21,9 @@ system:
       level: 3
       title: Features
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    qxNiqpXry4cfvSpP:
+      type: ItemGrant
       title: Features
       _id: qxNiqpXry4cfvSpP
       configuration:
@@ -34,7 +37,9 @@ system:
       value: {}
       level: 6
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    DuU0f13dM66mneWi:
+      type: ItemGrant
       title: Features
       _id: DuU0f13dM66mneWi
       configuration:
@@ -46,7 +51,9 @@ system:
       value: {}
       level: 10
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    D7WYfipNcw8XrBnQ:
+      type: ItemGrant
       title: Features
       _id: D7WYfipNcw8XrBnQ
       configuration:
@@ -58,6 +65,7 @@ system:
       value: {}
       level: 14
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>You have forged a pact with some being who has chosen to manifest their
@@ -92,8 +100,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1774227816461
-  modifiedTime: 1774372176695
+  modifiedTime: 1775008843924
   lastModifiedBy: draenalcommon000
 _key: '!items!2lXC8zZ1MgCPKyIb'

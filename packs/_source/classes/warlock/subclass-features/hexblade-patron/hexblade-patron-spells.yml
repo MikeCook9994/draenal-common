@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    O5lFDzKZhCxPQzF1:
+      type: ItemGrant
       _id: O5lFDzKZhCxPQzF1
       configuration:
         items:
@@ -31,7 +32,9 @@ system:
       level: 9
       title: 5th-level spells
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    FjqnWursincsnUxH:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
@@ -52,13 +55,15 @@ system:
       title: 4th-level spells
       hint: ''
       _id: FjqnWursincsnUxH
-    - type: ItemGrant
+      flags: {}
+    bsNhtjIaeeWZ16zX:
+      type: ItemGrant
       configuration:
         items:
-          - optional: false
-            uuid: Compendium.draenal-common.spells.Item.phbsplBestowCurs
-          - optional: false
-            uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplBestowCurs
+            optional: false
         optional: false
         spell:
           ability: []
@@ -73,7 +78,9 @@ system:
       title: 3rd-level spells
       hint: ''
       _id: bsNhtjIaeeWZ16zX
-    - type: ItemGrant
+      flags: {}
+    vzIQip4KvpcXtr0X:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
@@ -94,7 +101,9 @@ system:
       title: 2nd-level spells
       hint: ''
       _id: vzIQip4KvpcXtr0X
-    - type: ItemGrant
+      flags: {}
+    kOD0ijIabizMVkqc:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
@@ -115,25 +124,26 @@ system:
       title: 1st-level spells
       hint: ''
       _id: kOD0ijIabizMVkqc
+      flags: {}
   description:
     value: >-
       <p>When you reach a Warlock level specified in the Patron Spells table,
       you thereafter always have the listed spells prepared.</p><h4>Patron
-      Spells</h4><table><thead><tr><td>Warlock Level</td><td>Patron
-      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt]{Armor
+      Spells</h4><table><thead><tr><td><p>Warlock Level</p></td><td><p>Patron
+      Spells</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt]{Armor
       of Agathys},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict Wounds},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneVigo]{Arcane Vigor},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual
-      Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.draenal-common.spells.Item.phbsplBestowCurs]{Bestow
+      Weapon}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{Bestow
       Curse},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000]{Haste}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000]{Haste}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
       Killer},
       @UUID[Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM]{Staggering
-      Smite}</td></tr><tr><td>9</td><td>@UUID[Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA]{Banishing
+      Smite}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA]{Banishing
       Smite},
       @UUID[Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr]{Destructive
-      Wave}</td></tr></tbody></table>
+      Wave}</p></td></tr></tbody></table>
     chat: ''
   identifier: feature
   source:
@@ -159,10 +169,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768776986116
-  modifiedTime: 1774373399981
+  modifiedTime: 1775088205417
   lastModifiedBy: draenalcommon000
 _key: '!items!e44LDzLni09L6dQp'

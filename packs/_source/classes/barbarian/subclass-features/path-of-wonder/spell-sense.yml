@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The weave itself comes to your defense when others, or even yourself,
@@ -46,8 +46,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768862823169
-  modifiedTime: 1774678803050
+  modifiedTime: 1775008843937
   lastModifiedBy: draenalcommon000
 _key: '!items!74MLhYrisfX6Sc5b'

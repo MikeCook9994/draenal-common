@@ -140,17 +140,14 @@ effects:
     transfer: false
     _id: 5KeKht5MgH4q94Hl
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: <p>The target has the &amp;Reference[prone apply=false] condition.</p>
     tint: '#ffffff'
     statuses:
@@ -164,12 +161,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.5
       createdTime: 1774332302392
       modifiedTime: 1774333242915
       lastModifiedBy: draenalcommon000
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!ZWjl2ws08IDeKnpr.5KeKht5MgH4q94Hl'
 sort: 0
 ownership:
@@ -178,7 +178,7 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1774331152634

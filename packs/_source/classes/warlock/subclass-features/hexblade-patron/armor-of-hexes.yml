@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Your curses can hold your assailant's hand. If a target you have cursed
@@ -42,8 +42,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768809123676
-  modifiedTime: 1768865812940
+  modifiedTime: 1775008843971
   lastModifiedBy: draenalcommon000
 _key: '!items!Nq2H0q8rPwAkwblh'

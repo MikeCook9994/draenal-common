@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    c3BmctzSuqzSWIqx:
+      type: Trait
       _id: c3BmctzSuqzSWIqx
       configuration:
         allowReplacements: false
@@ -22,6 +23,7 @@ system:
       title: ''
       hint: ''
       value: {}
+      flags: {}
   description:
     value: >-
       <p>You gain proficiency in the Arcana skill and it is now included amongst
@@ -54,8 +56,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768861794013
-  modifiedTime: 1774678828502
+  modifiedTime: 1775008843977
   lastModifiedBy: draenalcommon000
 _key: '!items!RIx1scDhOTZV6QoC'

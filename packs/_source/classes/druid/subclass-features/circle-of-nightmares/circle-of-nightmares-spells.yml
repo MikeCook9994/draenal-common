@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    jYuYrC1qwtWKFW4E:
+      type: ItemGrant
       _id: jYuYrC1qwtWKFW4E
       configuration:
         items:
@@ -32,7 +33,9 @@ system:
       level: 3
       title: 1st-Level Spells
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    zVoU41SUtgOYFMFD:
+      type: ItemGrant
       title: Cantrips
       _id: zVoU41SUtgOYFMFD
       configuration:
@@ -52,7 +55,9 @@ system:
       value: {}
       level: 3
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    GUSGGapoV7gFb1OG:
+      type: ItemGrant
       _id: GUSGGapoV7gFb1OG
       configuration:
         items:
@@ -74,7 +79,9 @@ system:
       level: 3
       title: 2nd-Level Spells
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    yJrZutwQTlxcaiGN:
+      type: ItemGrant
       _id: yJrZutwQTlxcaiGN
       configuration:
         items:
@@ -96,7 +103,9 @@ system:
       level: 5
       title: 3rd-Level Spells
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    1nfZlC49er7XRCH9:
+      type: ItemGrant
       _id: 1nfZlC49er7XRCH9
       configuration:
         items:
@@ -110,7 +119,9 @@ system:
       level: 7
       title: 4th-Level Spells
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    mJRIkDWqOp1ADEB6:
+      type: ItemGrant
       _id: mJRIkDWqOp1ADEB6
       configuration:
         items:
@@ -132,6 +143,7 @@ system:
       level: 9
       title: 5th-Level Spells
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>When you reach a Druid level specified in the Circle of Nightmares
@@ -182,8 +194,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767984099648
-  modifiedTime: 1774386703537
+  modifiedTime: 1775008844042
   lastModifiedBy: draenalcommon000
 _key: '!items!tJreQjIjAv5jmZoC'

@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    O1Rt4KTub5L0GtEp:
+      type: Trait
       _id: O1Rt4KTub5L0GtEp
       configuration:
         allowReplacements: false
@@ -23,7 +24,9 @@ system:
       title: Shield Proficiency
       hint: You gain proficiency with shields
       value: {}
-    - type: ItemChoice
+      flags: {}
+    oKO8Ud5dhIeb5v77:
+      type: ItemChoice
       configuration:
         allowDrops: true
         choices:
@@ -47,6 +50,7 @@ system:
         invocation, you gain one other invocation of your choice that you
         satisfy the prerequisites for.
       _id: oKO8Ud5dhIeb5v77
+      flags: {}
   description:
     value: >-
       <p>You gain the
@@ -81,8 +85,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768801359796
-  modifiedTime: 1774371826595
+  modifiedTime: 1775008844022
   lastModifiedBy: draenalcommon000
 _key: '!items!i4mYuk9duBBlB3o9'

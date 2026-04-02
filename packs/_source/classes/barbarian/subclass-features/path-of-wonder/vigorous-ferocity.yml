@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    QeoJLpFwBEfWZgZv:
+      type: ItemGrant
       _id: QeoJLpFwBEfWZgZv
       configuration:
         items:
@@ -31,6 +32,7 @@ system:
       level: 0
       title: Bonus Spells
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>You learn the
@@ -68,8 +70,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768861860573
-  modifiedTime: 1774678783427
+  modifiedTime: 1775008843931
   lastModifiedBy: draenalcommon000
 _key: '!items!36Mq4o1RTdQjuokp'

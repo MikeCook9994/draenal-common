@@ -118,17 +118,14 @@ effects:
     transfer: false
     _id: UdRLOuDbF8PAYX8r
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: 6
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 6
+      units: seconds
+      expiry: turnStart
+      expired: false
     description: <p>The target has the &amp;Reference[stunned apply=false] condition.</p>
     tint: '#ffffff'
     statuses:
@@ -142,12 +139,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.5
       createdTime: 1774332944418
       modifiedTime: 1774333331789
       lastModifiedBy: draenalcommon000
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!Fqp0KZz4OH4MfziM.UdRLOuDbF8PAYX8r'
 sort: 0
 ownership:
@@ -156,7 +156,7 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1774332613157

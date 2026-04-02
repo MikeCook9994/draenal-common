@@ -335,56 +335,53 @@ effects:
     name: 'Changed Form: Rapier'
     img: icons/weapons/swords/sword-katana.webp
     disabled: true
-    system: {}
-    changes:
-      - key: system.type.baseItem
-        mode: 5
-        value: rapier
-        priority: null
-      - key: name
-        mode: 5
-        value: '{} [rapier]'
-        priority: null
-      - key: system.type.value
-        mode: 5
-        value: martialM
-        priority: null
-      - key: img
-        mode: 5
-        value: icons/weapons/swords/sword-katana.webp
-        priority: null
-      - key: system.damage.base.types
-        mode: 2
-        value: piercing
-        priority: null
-      - key: system.mastery
-        mode: 5
-        value: vex
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: fin
-        priority: null
-      - key: system.damage.base.denomination
-        mode: 5
-        value: '8'
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: '-lgt'
-        priority: null
-      - key: system.damage.base.types
-        mode: 2
-        value: '-bludgeoning'
-        priority: null
+    system:
+      changes:
+        - key: system.type.baseItem
+          value: rapier
+          priority: null
+          type: override
+        - key: name
+          value: '{} [rapier]'
+          priority: null
+          type: override
+        - key: system.type.value
+          value: martialM
+          priority: null
+          type: override
+        - key: img
+          value: icons/weapons/swords/sword-katana.webp
+          priority: null
+          type: override
+        - key: system.damage.base.types
+          value: piercing
+          priority: null
+          type: add
+        - key: system.mastery
+          value: vex
+          priority: null
+          type: override
+        - key: system.properties
+          value: fin
+          priority: null
+          type: add
+        - key: system.damage.base.denomination
+          value: 8
+          priority: null
+          type: override
+        - key: system.properties
+          value: '-lgt'
+          priority: null
+          type: add
+        - key: system.damage.base.types
+          value: '-bludgeoning'
+          priority: null
+          type: add
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
@@ -399,64 +396,64 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1769548440493
       modifiedTime: 1769548532801
       lastModifiedBy: draenalcommon000
     _id: p02hoHkosW0dPWRJ
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!bkIs7zGWKk9qHJyh.p02hoHkosW0dPWRJ'
   - type: enchantment
     name: 'Changed Form: Scimitar'
     img: icons/weapons/swords/scimitar-guard-gold.webp
     disabled: true
-    system: {}
-    changes:
-      - key: system.type.baseItem
-        mode: 5
-        value: scimitar
-        priority: null
-      - key: name
-        mode: 5
-        value: '{} [scimitar]'
-        priority: null
-      - key: system.type.value
-        mode: 5
-        value: martialM
-        priority: null
-      - key: img
-        mode: 5
-        value: icons/weapons/swords/scimitar-guard-gold.webp
-        priority: null
-      - key: system.damage.base.types
-        mode: 2
-        value: slashing
-        priority: null
-      - key: system.mastery
-        mode: 5
-        value: nick
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: fin
-        priority: null
-      - key: system.damage.base.denomination
-        mode: 5
-        value: '6'
-        priority: null
-      - key: system.damage.base.types
-        mode: 2
-        value: '-bludgeoning'
-        priority: null
+    system:
+      changes:
+        - key: system.type.baseItem
+          value: scimitar
+          priority: null
+          type: override
+        - key: name
+          value: '{} [scimitar]'
+          priority: null
+          type: override
+        - key: system.type.value
+          value: martialM
+          priority: null
+          type: override
+        - key: img
+          value: icons/weapons/swords/scimitar-guard-gold.webp
+          priority: null
+          type: override
+        - key: system.damage.base.types
+          value: slashing
+          priority: null
+          type: add
+        - key: system.mastery
+          value: nick
+          priority: null
+          type: override
+        - key: system.properties
+          value: fin
+          priority: null
+          type: add
+        - key: system.damage.base.denomination
+          value: 6
+          priority: null
+          type: override
+        - key: system.damage.base.types
+          value: '-bludgeoning'
+          priority: null
+          type: add
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
@@ -471,72 +468,72 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1769548441979
       modifiedTime: 1769548687541
       lastModifiedBy: draenalcommon000
     _id: Xb3DqWWwbeslWzoq
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!bkIs7zGWKk9qHJyh.Xb3DqWWwbeslWzoq'
   - type: enchantment
     name: 'Changed Form: Longsword'
     img: icons/weapons/swords/sword-guard-bronze.webp
     disabled: true
-    system: {}
-    changes:
-      - key: system.type.baseItem
-        mode: 5
-        value: longsword
-        priority: null
-      - key: name
-        mode: 5
-        value: '{} [longsword]'
-        priority: null
-      - key: system.type.value
-        mode: 5
-        value: martialM
-        priority: null
-      - key: img
-        mode: 5
-        value: icons/weapons/swords/sword-guard-bronze.webp
-        priority: null
-      - key: system.damage.base.types
-        mode: 2
-        value: slashing
-        priority: null
-      - key: system.mastery
-        mode: 5
-        value: sap
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: ver
-        priority: null
-      - key: system.damage.base.denomination
-        mode: 5
-        value: '8'
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: '-lgt'
-        priority: null
-      - key: system.damage.base.types
-        mode: 2
-        value: '-bludgeoning'
-        priority: null
-      - key: system.damage.versatile.denomination
-        mode: 5
-        value: '10'
-        priority: null
+    system:
+      changes:
+        - key: system.type.baseItem
+          value: longsword
+          priority: null
+          type: override
+        - key: name
+          value: '{} [longsword]'
+          priority: null
+          type: override
+        - key: system.type.value
+          value: martialM
+          priority: null
+          type: override
+        - key: img
+          value: icons/weapons/swords/sword-guard-bronze.webp
+          priority: null
+          type: override
+        - key: system.damage.base.types
+          value: slashing
+          priority: null
+          type: add
+        - key: system.mastery
+          value: sap
+          priority: null
+          type: override
+        - key: system.properties
+          value: ver
+          priority: null
+          type: add
+        - key: system.damage.base.denomination
+          value: 8
+          priority: null
+          type: override
+        - key: system.properties
+          value: '-lgt'
+          priority: null
+          type: add
+        - key: system.damage.base.types
+          value: '-bludgeoning'
+          priority: null
+          type: add
+        - key: system.damage.versatile.denomination
+          value: 10
+          priority: null
+          type: override
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
@@ -551,38 +548,38 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1769548723839
       modifiedTime: 1769548861748
       lastModifiedBy: draenalcommon000
     _id: BBXmiGZEcTqdwfKq
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!bkIs7zGWKk9qHJyh.BBXmiGZEcTqdwfKq'
   - name: Rune of Skill (Deception)
     img: icons/weapons/staves/staff-simple-green.webp
     origin: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
     _id: VxUhyT4Est3eyFnu
     type: base
-    system: {}
-    changes:
-      - key: system.skills.dec.bonuses.check
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.skills.dec.bonuses.passive
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.skills.dec.bonuses.check
+          value: 1
+          priority: null
+          type: add
+        - key: system.skills.dec.bonuses.passive
+          value: 1
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>You gain a +1 bonus to Ability Checks you make with the Deception
       skill.</p>
@@ -598,33 +595,33 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.5
       createdTime: 1774494958226
       modifiedTime: 1774497401300
       lastModifiedBy: draenalcommon000
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!bkIs7zGWKk9qHJyh.VxUhyT4Est3eyFnu'
   - name: Rune of Mastery (Longsword)
     img: icons/weapons/staves/staff-simple-green.webp
     origin: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
     _id: WGE6aCXCc1DJLEEo
     type: base
-    system: {}
-    changes:
-      - key: system.traits.weaponProf.mastery.value
-        mode: 2
-        value: longsword
-        priority: null
+    system:
+      changes:
+        - key: system.traits.weaponProf.mastery.value
+          value: longsword
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>When you make an attack with this weapon, you can use the Sap weapon
       mastery property.</p>
@@ -640,12 +637,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.359'
       systemId: dnd5e
       systemVersion: 5.2.5
       createdTime: 1774496439479
       modifiedTime: 1774498236671
       lastModifiedBy: draenalcommon000
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!bkIs7zGWKk9qHJyh.WGE6aCXCc1DJLEEo'
 folder: WbqCEw0rImHkn5Xj
 sort: 100000
@@ -655,7 +655,7 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1769457555812

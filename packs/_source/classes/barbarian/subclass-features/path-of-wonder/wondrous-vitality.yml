@@ -92,7 +92,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ScaleValue
+    YQVMFe4KVywn2M3k:
+      type: ScaleValue
       _id: YQVMFe4KVywn2M3k
       configuration:
         identifier: ''
@@ -125,7 +126,9 @@ system:
       value: {}
       title: Maximum Spells Prepared
       hint: ''
-    - type: ScaleValue
+      flags: {}
+    g4BiIdiqmar2WwoH:
+      type: ScaleValue
       _id: g4BiIdiqmar2WwoH
       configuration:
         identifier: ''
@@ -144,7 +147,9 @@ system:
       value: {}
       title: Maximum Spell Slot Level
       hint: ''
-    - type: ScaleValue
+      flags: {}
+    Qt4NLi5kTTmrxDCW:
+      type: ScaleValue
       _id: Qt4NLi5kTTmrxDCW
       configuration:
         identifier: ''
@@ -159,6 +164,7 @@ system:
       value: {}
       title: Cantrips Known
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>Your intrinsic bond with the weave has given you the ability to
@@ -282,8 +288,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768858680841
-  modifiedTime: 1774683078952
+  modifiedTime: 1775008843962
   lastModifiedBy: draenalcommon000
 _key: '!items!K7dx4v9QiOjOqxXr'

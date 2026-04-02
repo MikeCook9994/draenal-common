@@ -4,7 +4,8 @@ _id: kUZEs7LuUEHNL38g
 img: modules/draenal-common/assets/icons/path-of-wonder-barbarian.svg
 system:
   advancement:
-    - type: ItemGrant
+    5sznsKmP1emRBGZZ:
+      type: ItemGrant
       _id: 5sznsKmP1emRBGZZ
       configuration:
         items:
@@ -20,7 +21,9 @@ system:
       level: 3
       title: Features
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    POvSPxOWLGQauXxa:
+      type: ItemGrant
       _id: POvSPxOWLGQauXxa
       configuration:
         items:
@@ -34,7 +37,9 @@ system:
       level: 6
       title: Features
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    AOfkND0DAmrKPAmA:
+      type: ItemGrant
       title: Features
       _id: AOfkND0DAmrKPAmA
       configuration:
@@ -46,7 +51,9 @@ system:
       value: {}
       level: 10
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    o27OQBXSoLkPNucH:
+      type: ItemGrant
       title: Features
       _id: o27OQBXSoLkPNucH
       configuration:
@@ -58,6 +65,7 @@ system:
       value: {}
       level: 14
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>Your time amongst the wilds has intertwined you with the weave of
@@ -90,8 +98,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768719155849
-  modifiedTime: 1774683728893
+  modifiedTime: 1775008844029
   lastModifiedBy: draenalcommon000
 _key: '!items!kUZEs7LuUEHNL38g'

@@ -5,7 +5,8 @@ _id: epUSDsracMjworsw
 img: modules/draenal-common/assets/icons/circle-of-nightmares-druid.svg
 system:
   advancement:
-    - type: ItemGrant
+    ha91bc5qQKB1w38Q:
+      type: ItemGrant
       _id: ha91bc5qQKB1w38Q
       configuration:
         items:
@@ -21,7 +22,9 @@ system:
       level: 3
       title: Subclass Features
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    6fQB4f8ltPSlLYBP:
+      type: ItemGrant
       _id: 6fQB4f8ltPSlLYBP
       configuration:
         items:
@@ -35,7 +38,9 @@ system:
       level: 6
       title: Subclass Features
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    7Xgp530T0A2sMNTi:
+      type: ItemGrant
       _id: 7Xgp530T0A2sMNTi
       configuration:
         items:
@@ -47,7 +52,9 @@ system:
       level: 10
       title: Subclass Features
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    Nq1cKBIhnUZUzVyP:
+      type: ItemGrant
       _id: Nq1cKBIhnUZUzVyP
       configuration:
         items:
@@ -59,6 +66,7 @@ system:
       level: 14
       title: Subclass Features
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>Druids of most other circles find purpose in shepparding and sheltering
@@ -95,8 +103,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767982496997
-  modifiedTime: 1768720133101
+  modifiedTime: 1775008844010
   lastModifiedBy: draenalcommon000
 _key: '!items!epUSDsracMjworsw'
