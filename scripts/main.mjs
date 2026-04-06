@@ -10,7 +10,7 @@ CONFIG.debug.hooks = true;
 (() => {
     var registeredItems = [];
 
-    Hooks.once('init', async () => {
+    Hooks.once('init', () => {
         console.log("[DC] Initializing Draenal Common Module");
         console.log(`[DC] Module Version: ${game.modules.get(DC_MODULE_NAME).version}`);
         // dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.point = PointSpellcasting;

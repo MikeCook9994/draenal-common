@@ -183,3 +183,15 @@
     - used to build the usage config and changes when casting a spell that requires a spell slot
       - Extending `ConsumptionTargetData` allows us to consume spell points properly
 - Spellbook layout seems to be the only place where we specifically want the system to think we're the same as multi-level.
+- ONLY spells can `requiresSpellSlot`. 
+- `consumeSpellSlots` will be invoked if the consumption type is `Spell Slots`. This fails for any casting system that isn't multi level spellcasting because the number of maximum slots for any level is 0.
+- Targeting the attribute doesn't let you scale the spell level.
+
+## Pact Magic Works
+
+- Utility Activities target the attribute. This works because pact magic scales internally, so they don't need to scale the level.
+- Spell activites hit the spell slot consumption branch of the activity mixin. This works fine for any spell slot type. 
+
+## Problem to Solve
+
+Need to support spell slot level scaling when targeting the attribute *or* get `consumeSpellSlot` to work with not spell slot casting types

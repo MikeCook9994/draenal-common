@@ -32,3 +32,25 @@ export class VitalMagic {
         }
     }
 }
+
+export class PointSpellcasting extends dnd5e.dataModels.spellcasting.MultiLevelSpellcasting {
+    /** @override */
+    static get TYPE() {
+        return "point";
+    }
+
+    /** @override */
+    getSpellSlotKey(level) {
+        if (level === 0) return "spell0";
+        return `point${level}`;
+    }
+
+    /** @override */
+    getLabel({ level }={}) {
+        if (level === 0) return "Cantrips";
+        else if (level === 1) return "1st Level";
+        else if (level === 2) return "2nd Level";
+        else if (level === 3) return "3rd Level";
+        else return `${level}th Level`;
+    }
+}

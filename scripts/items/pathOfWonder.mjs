@@ -1,4 +1,5 @@
 import { registerActiveEffectAdditions } from "../utils.mjs";
+import { PointSpellcasting } from "../vitalMagic.mjs";
 
 export default class PathOfWonder {
     hookRegistrations = {};
@@ -9,6 +10,45 @@ export default class PathOfWonder {
     }
 
     _wondrousVitality() {
+        CONFIG.DND5E.spellcasting["point"] = {
+            label: "Spellpoints",
+            type: "point",
+            cantrips: true,
+            prepares: true,
+            order: 30,
+            img: "systems/dnd5e/icons/spell-tiers/{id}.webp",
+            table: [
+                [1],
+                [1],
+                [1, 1],
+                [1, 1],
+                [1, 1, 1],
+                [1, 1, 1],
+                [1, 1, 1, 1],
+                [1, 1, 1, 1],
+                [1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1, 1, 1],
+                [1, 1, 1, 1, 1, 1, 1, 1, 1]
+            ],
+            progression: {
+                point_third: {
+                    label: "Third",
+                    divisor: 3
+                }
+            }
+        };
+
+        dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.point = PointSpellcasting;
+
         Hooks.on("dnd5e.computeSpellProgression", (progression, actor, cls, spellcasting, count) => {
             if(actor.sourcedItems.has("Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5")) {
                 return true;
@@ -35,12 +75,12 @@ export default class PathOfWonder {
                 {
                     key: "system.bonuses.msak.damage",
                     value: "+@scale.barbarian.rage-damage",
-                    mode: CONST.ACTIVE_EFFECT_MODES.ADD
+                    mode: CONST.ACTIVE_EFFECT_CHANGE_TYPES.ADD
                 },
                 {
                     key: "system.bonuses.rsak.damage",
                     value: "+@scale.barbarian.rage-damage",
-                    mode: CONST.ACTIVE_EFFECT_MODES.ADD
+                    mode: CONST.ACTIVE_EFFECT_CHANGE_TYPES.ADD
                 }
             ]
         );
