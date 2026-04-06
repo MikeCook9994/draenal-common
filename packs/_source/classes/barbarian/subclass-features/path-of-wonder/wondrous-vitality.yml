@@ -15,7 +15,7 @@ system:
         condition: ''
       consumption:
         scaling:
-          allowed: true
+          allowed: false
           max: >-
             min(@classes.barbarian.levels - @classes.barbarian.hd.spent,
             @scale.wondrous-vitality.maximum-spell-slot-level)
@@ -24,15 +24,11 @@ system:
           - type: hitDice
             value: '1'
             target: d12
-            scaling:
-              mode: amount
-              formula: ''
-          - type: spellSlots
+            scaling: {}
+          - type: attribute
             value: '-1'
-            target: '1'
-            scaling:
-              mode: level
-              formula: '1'
+            target: spells.point1.value
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -82,10 +78,8 @@ system:
             types:
               - force
             scaling:
-              mode: whole
               number: 1
-              formula: ''
-      name: Create Spell Slot
+      name: Create 1st Level Spell Slot
       img: ''
   uses:
     spent: 0
@@ -286,10 +280,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1768858680841
-  modifiedTime: 1775008843962
+  modifiedTime: 1775454801496
   lastModifiedBy: draenalcommon000
 _key: '!items!K7dx4v9QiOjOqxXr'
