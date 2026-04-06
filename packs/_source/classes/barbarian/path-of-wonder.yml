@@ -83,7 +83,7 @@ system:
     license: ''
   classIdentifier: barbarian
   spellcasting:
-    progression: third
+    progression: point_third
     preparation:
       formula: '@scale.wondrous-vitality.maximum-spells-prepared'
     ability: str
@@ -96,10 +96,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1768719155849
-  modifiedTime: 1775008844029
+  modifiedTime: 1775105515697
   lastModifiedBy: draenalcommon000
 _key: '!items!kUZEs7LuUEHNL38g'

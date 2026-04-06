@@ -1,14 +1,13 @@
 export default class HexbladePatron {
     hookRegistrations = {};
 
-    #relevantIdMap = {
-    }
-
     constructor() {
         this._hexbladesCurse();
     }
 
     _hexbladesCurse() {
+        let killedTarget = null;
+
         const effortlessAgonyUpgradeHookId = Hooks.on("createItem", (document, options, userId) => {
             if (!game.user.isGM || // skip if user is not the GM or
                 !options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb") || // if the character is not a hexblade or
@@ -95,16 +94,43 @@ export default class HexbladePatron {
             rollConfig.rolls.filter(roll => roll.base)[0].parts.push("1d6");
         });
 
-        const soulSiphonHookId = Hooks.on("createActiveEffect", (activeEffect, options, userId) => {
+        const soulSiphonHealHookId = Hooks.on("dnd5e.preRollDamage", (rollConfig, dialogConfig, messageConfig) => {
+            if (game.user.isGM && rollConfig.subject.name === "Soul Siphon") {
+                dialogConfig.configure = false;
+                rollConfig.rolls = [
+                    {
+                        parts: [
+                            "min(@target.attributes.hp.max, (@source.abilities.cha.mod + @source.classes.warlock.levels))",
+                        ],
+                        data: {
+                            source: {
+                                ...rollConfig.subject.actor.getRollData()
+                            },
+                            target: {
+                                ...killedTarget.getRollData(),
+                            }
+                        },
+                        options: {
+                            properties: [ "mgc" ],
+                            type: "healing",
+                        }
+                    }
+                ]
+            }
+
+            return true;
+        });
+
+        const soulSiphonDeathTriggerHookId = Hooks.on("createActiveEffect", (activeEffect, options, userId) => {
             if (game.user.isGM && activeEffect.id === "dnd5edead0000000") {
-                const targetMaxHp = activeEffect.parent.system.attributes.hp.max;
-                this._getCurseSourceHexblades(activeEffect.parent).forEach(sa => {
-                    const featureHealing = sa.system.abilities.cha.mod + (sa.classes.warlock?.system.levels ?? 0);
-                    sa.applyDamage([{
-                        properties: [ "mgc" ],
-                        type: "healing",
-                        value: Math.min(featureHealing, targetMaxHp)
-                    }]);
+                const target = activeEffect.parent;
+
+                const sourceHexblades = this._getCurseSourceHexblades(activeEffect.parent)
+                if (sourceHexblades.length > 0) killedTarget = target;
+
+                sourceHexblades.forEach(source => {
+                    const hexbladesCurse = source.sourcedItems.get("Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6").first();
+                    hexbladesCurse.system.activities.contents[0].use({}, { configure: false }, { create: false });
                 });
             }
 
@@ -116,7 +142,8 @@ export default class HexbladePatron {
             effortlessAgonyDowngrade: effortlessAgonyDowngradeHookId,
             improvedCritical: improvedCriticalHookId,
             bonusDamage: bonusDamageHookId,
-            soulSiphon: soulSiphonHookId
+            soulSiphonTrigger: soulSiphonDeathTriggerHookId,
+            soulSiphonHeal: soulSiphonHealHookId
         };
     }
 
@@ -149,8 +176,8 @@ export default class HexbladePatron {
 
     _getCurseSourceHexblades(actor) {
         return actor.effects
-            .filter(e => e.origin?.startsWith("Actor") && e.statuses.has("cursed"))
+            .filter(e => e.active && e.origin?.startsWith("Actor") && e.statuses.has("cursed"))
             .map(e => game.actors.get(e.origin.split(".")[1]))
-            .filter(s => s.subclasses.hasOwnProperty("hexblade"));
+            .filter(s => s?.subclasses.hasOwnProperty("hexblade"));
     }
 }
