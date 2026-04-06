@@ -183,3 +183,19 @@
     - used to build the usage config and changes when casting a spell that requires a spell slot
       - Extending `ConsumptionTargetData` allows us to consume spell points properly
 - Spellbook layout seems to be the only place where we specifically want the system to think we're the same as multi-level.
+
+## Get Spell Slot Key
+
+### Usages
+
+1. `dnd5e.mjs:350`: For spellcasting methods that use slots (`method.slots`), for each valid spell level (0-9), the key `spells.{lvl_key}.value` is added to the list of attributes that can be consumed
+  * You can append to this list directly, but you'd have to ensure the consumption config later uses the correct key and that key  exists in the actor data (`actor.system.spells.{lvl_key}.value`).
+    * The first probably comes for free as the key would be configured on the activity.
+2. `character-sheet.mjs:1149`: For spellcasting methods that use slots (`method.slots`), used as the id for dragData
+  * I believe this this most notable for favorite data? If you favorite a particular number of spell slots
+3. `base-actor-sheet.mjs:595:605`: for each available spell level, a section of the spellbook is registered under that key. This key also informs the max and currently available slots. It's also used to define the a `slot` property on the section that I can't see an obvious use of.
+4. `actor-spellbook.hbs:35`: references this properly through the spellbook context. Changing the number of spell slots is bound to the `system.spells.{key}.value` on the actor.
+5. `spell-slots.config.mjs:55`: uses the key to override the number of spell slots on an actor at a given level. Can only override if it uses spell slots.
+  * This is fine. we don't care about this flow, though you may want to override the number of spell points
+6. `mixin.mjs:463`: if an activity uses a spell and requires a spell slot, it gets the spell slot level from the actor data using the linked spell's method.
+  * This feels weird as hell.
