@@ -179,10 +179,10 @@ system:
       the casting of the spell, this spell slot is lost; however, the hit dice
       are not expended.</p><p>The maximum spell slot level you can create is
       shown in the Maximum Spell Slot Level column of the Path of Wonder
-      Spellcasting table below.</p><table><caption>Path of Wonder
-      Spellcasting</caption><thead><tr><th>Barbarian Level</th><th>Spells
-      Prepared</th><th>Maximum Spell Slot
-      Level</th></tr></thead><tbody><tr><td><p
+      Spellcasting table below.</p><table><caption><p>Path of Wonder
+      Spellcasting</p></caption><thead><tr><th><p>Barbarian
+      Level</p></th><th><p>Spells Prepared</p></th><th><p>Maximum Spell Slot
+      Level</p></th></tr></thead><tbody><tr><td><p
       style="text-align:center">3</p></td><td><p
       style="text-align:center">3</p></td><td><p
       style="text-align:center">1</p></td></tr><tr><td><p
@@ -284,6 +284,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1768858680841
-  modifiedTime: 1775454801496
+  modifiedTime: 1775539679620
   lastModifiedBy: draenalcommon000
 _key: '!items!K7dx4v9QiOjOqxXr'

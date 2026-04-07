@@ -115,7 +115,7 @@ export default class HexbladePatron {
                             type: "healing",
                         }
                     }
-                ]
+                ];
             }
 
             return true;
@@ -163,7 +163,7 @@ export default class HexbladePatron {
         });
     }
 
-    _targetIsCursedByHexblade(source, target) {
+    _targetIsCursedBySourceHexblade(source, target) {
         return target.effects.some(e => {
             if (e.statuses.has("cursed") && e.origin.startsWith("Actor")) {
                 const effectSourceActor = game.actors.get(e.origin.split(".")[1]);

@@ -1,0 +1,163 @@
+folder: WbqCEw0rImHkn5Xj
+name: Timberwolf
+type: weapon
+_id: lZQ9oZq5Olxo9L2f
+img: icons/weapons/staves/staff-animal-bird.webp
+system:
+  activities:
+    RNwMdqTE3j9cHN9O:
+      _id: RNwMdqTE3j9cHN9O
+      type: attack
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>This Quarterstaff is made from a knotted tree branch that has been
+      shaved of its bark. Bite marks apparently from some canine creature line
+      the staff. The wood is beginning to take a maroon hue. A short shard of
+      ivory is protruding from the side near one end.</p><p><em><strong>Scent of
+      Blood.</strong></em> Any bloodied creature you hit with the weapon takes
+      an extra 1d4 necrotic damage.</p><p><em><strong>Pack
+      Advantage.</strong></em> You cannot have disadvantage on attacks made with
+      this weapon against a creature if at least one of your allies is within 5
+      feet of the target.</p>
+    chat: ''
+  identifier: timberwolf
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: >-
+      <p>This Quarterstaff is made from a knotted tree branch that has been
+      shaved of its bark. Bite marks apparently from some canine creature line
+      the staff. The wood is beginning to take a maroon hue. A short shard of
+      ivory is protruding from the side near one end.</p>
+    name: Unidentified Weapon
+  container: null
+  quantity: 1
+  weight:
+    value: 4
+    units: lb
+  price:
+    value: 2
+    denomination: sp
+  rarity: uncommon
+  attunement: ''
+  attuned: false
+  equipped: false
+  crew:
+    value: []
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 6
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: null
+      bonus: ''
+  properties:
+    - mgc
+    - ver
+  proficient: null
+  range:
+    units: ft
+    value: null
+    long: null
+    reach: 5
+  type:
+    value: simpleM
+    baseItem: quarterstaff
+  mastery: topple
+  magicalBonus: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.359'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1775532389376
+  modifiedTime: 1775534300994
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!lZQ9oZq5Olxo9L2f'

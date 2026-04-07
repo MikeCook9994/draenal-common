@@ -1,0 +1,66 @@
+folder: Csr6OBfn5suOcgWw
+name: Waking Nightmare
+type: feat
+_id: IcyabR3GAehw0AZ7
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As a Bonus Action or when you roll initiative, you can spend one use of
+      your wild shape to assume the form of the nightmare. You gain the benefits
+      below for 10 minutes or until you end them (no action
+      required).</p><p><strong>Aura of Fear.</strong> You exude an aura of fear
+      in a 10-foot Emanation originating from you. You may designate creatures
+      to be unaffected by it when it appears. Any other creature must make a
+      Wisdom saving throw whenever the Emanation enters a creature's space and
+      whenever a creature enters the Emanation's space or ends its turn in
+      there. On a failed save, you gain a fear die and the creature has the
+      Frightened condition until the end of its next turn. Additionally, you can
+      target an unseen creature in the Emanation with <em>Nightmarish
+      Torment</em>.</p><p><strong>Druidic Violence.</strong> You can use your
+      Wisdom modifier instead of Strength or Dexterity for the attack and damage
+      rolls of attacks using weapons.</p><p><strong>Shrouded in Shadow.</strong>
+      You gain temporary hit points equal to the total of any Fear Dice that you
+      roll.</p>
+    chat: ''
+  identifier: violent-nightmare
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Circle of Nightmares
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.359'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1767987452925
+  modifiedTime: 1775539005327
+  lastModifiedBy: draenalcommon000
+_key: '!items!IcyabR3GAehw0AZ7'

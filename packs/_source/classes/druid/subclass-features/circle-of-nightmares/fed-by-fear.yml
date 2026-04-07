@@ -1,0 +1,82 @@
+folder: Csr6OBfn5suOcgWw
+name: Fed By Fear
+type: feat
+_id: ywlUonIOkLwkxyXN
+img: icons/magic/death/mouth-bite-fangs-vampire.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You feed off the fear of your enemies and amass it within yourself.
+      This amassed fear is represented as your Fear Dice, which are d8s. You
+      gain a Fear Die whenever a creature with a challenge rating greater than 0
+      is hit by an attack that you make or fails a saving throw against a spell
+      that you cast. When you score a critical hit, you gain an additional Fear
+      Die from that attack. Your current number of Fear Dice cannot exceed your
+      Druid Level. You lose any remaining Fear Dice when you complete a Long
+      Rest.</p><p>You expend these Fear Dice to fuel the options
+      below.</p><p><strong>Sudden Uncertainty.</strong> When a creature within
+      30 feet of you succeeds on an ability check or saving throw, you can take
+      a Reaction to expend one Fear Die; roll the Fear Die and subtract the
+      number rolled from the creature's roll, potentially turning the success
+      into a failure. You can use this feature a number of times equal to your
+      Wisdom modifier. You regain any expended uses after a Long
+      Rest.</p><p><strong>Painful Accessory.</strong> Once per turn when you hit
+      a creature with an attack with a weapon, you can expend up to two Fear
+      Dice to deal additional cold, fire, necrotic, poison, or psychic damage
+      (your choice) damage equal to the total rolls of the expended Fear
+      Dice.</p><p><strong>Nightmarish Torment.</strong> As an Action, you can
+      expend your Fear Dice to torment a creature within 30 feet of you that you
+      can see. The maximum number of Fear Dice that you can expend at once is
+      equal to your Wisdom Modifier. Roll the expended Fear Dice. The target
+      suffers cold, fire, necrotic, poison, or psychic damage (your choice)
+      equal to the total and is subjected to one of the effects of your choice
+      listed below.</p><p><em>Restraint.</em> The target must make a Dexterity
+      saving throw against your spell Save DC. On a failed save, the target is
+      Restrained until the end of their your next
+      turn.</p><p><em>Ignorance.</em> The target must make a Wisdom saving throw
+      against your spell Save DC. On a failed save, the target is Blinded and
+      Deafened until the end of your next turn. This effect applies to all types
+      of sight.</p><p><em>Contamination.</em> The target must make a
+      Constitution saving throw against your spell Save DC. On a failed save,
+      the target is poisoned until the end of your next turn.</p>
+    chat: ''
+  identifier: reapers-mark
+  source:
+    revision: 1
+    rules: '2024'
+    book: Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Circle of Nightmares
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.359'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1767988315535
+  modifiedTime: 1775539477253
+  lastModifiedBy: draenalcommon000
+_key: '!items!ywlUonIOkLwkxyXN'

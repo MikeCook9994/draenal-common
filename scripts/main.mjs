@@ -1,11 +1,11 @@
-import { VitalMagic } from "./vitalMagic.mjs";
-import { PointSpellcasting } from "./pointSpellcasting.mjs";
 import HexbladePatron from "./items/hexbladePatron.mjs"
 import PathOfWonder from "./items/pathOfWonder.mjs";
+import CircleOfNightmares from "./items/circleOfNightmares.mjs";
+import Timberwolf from "./items/timberwolf.mjs";
 
 export const DC_MODULE_NAME = 'draenal-common';
 
-CONFIG.debug.hooks = true;
+CONFIG.debug.hooks = false;
 
 (() => {
     var registeredItems = [];
@@ -13,13 +13,10 @@ CONFIG.debug.hooks = true;
     Hooks.once('init', () => {
         console.log("[DC] Initializing Draenal Common Module");
         console.log(`[DC] Module Version: ${game.modules.get(DC_MODULE_NAME).version}`);
-        // dnd5e.dataModels.spellcasting.SpellcastingModel.TYPES.point = PointSpellcasting;
 
         registeredItems.push(new PathOfWonder());
         registeredItems.push(new HexbladePatron());
+        registeredItems.push(new CircleOfNightmares());
+        registeredItems.push(new Timberwolf());
     });
-
-    // Hooks.once('init', PointSpellcasting.Init);
-    // Hooks.once('init', VitalMagic.Init);
-    // Hooks.on("dnd5e.prepareSpellSlots", VitalMagic.PrepareSpellSlots);
 })();

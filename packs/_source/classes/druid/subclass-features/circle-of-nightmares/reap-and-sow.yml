@@ -2,7 +2,7 @@ folder: Csr6OBfn5suOcgWw
 name: Reap and Sow
 type: feat
 _id: omsVGJ9dzNsFgyIM
-img: icons/magic/death/undead-ghost-scream-teal.webp
+img: icons/magic/time/day-night-sun-moon.webp
 system:
   activities:
     5RwXpqRyJaEnFDbR:
@@ -70,22 +70,16 @@ system:
   advancement: {}
   description:
     value: >-
-      <p>You have sowed the seeds of the nightmare, and the time has come to
-      reap the harvest. As an action, each creature of your choice within 60
-      feet of you has your Reaper's Mark violently removed. Each target suffers
-      1d8 damage for each level of the curse that was removed. You choose the
-      damage type from the following list: fire, necrotic, poison, or psychic.
-      Then choose one from one of the following effects. </p><p> 
-      <strong>Reap.</strong> You can restore hit points equal to the damage
-      dealt, divided as you choose among any number of creatures of your choice
-      that you can see within 60 feet of you.</p><p>  <strong>Sow.</strong>
-      Choose any number of creatures within 60 feet of you that you can see and
-      were not targeted by the previous effect of this action. You can apply a
-      number of Reaper's Mark curses equal to the total level of Reaper's Mark
-      curses you removed as part of this action, divided evenly among the chosen
-      creatures.</p><p>Once you use this action, you can't use it again until
-      you finish a Short Rest unless you spend a spell slot of 5th level or
-      higher (no action required) to restore your use of it. </p>
+      <p>When you cast <em>Dream</em> and choose to make the make the messenger
+      terrifying to the target, you can implant a seed of anguish within the
+      target that lasts for 7 days or until your harvest the seed. When a target
+      with an implanted seed of anguish makes a saving throw against your
+      <em>Aura of Fear</em>, you can harvest the seed. The target automatically
+      fails the saving throw and you gain a number of Fear Dice equal to your
+      wisdom modifier. The Frightened condition applied in this way ignores
+      immunity to the condition.</p><p>You can have only one creature under the
+      effect of this feature at a time. You can choose to remove an implanted
+      seed of anguish at any time (no action required).</p>
     chat: ''
   identifier: death-of-torment
   source:
@@ -114,10 +108,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.359'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1767989051734
-  modifiedTime: 1775008844035
+  modifiedTime: 1775538836647
   lastModifiedBy: draenalcommon000
 _key: '!items!omsVGJ9dzNsFgyIM'
