@@ -18,7 +18,6 @@ export default class CircleOfNightmares {
 //    - Damage Activity
 //  Nightmarish Torment
 //    - Damage Activity, choose effect and save from options
-
     }
 
     _wakingNightmare() {
