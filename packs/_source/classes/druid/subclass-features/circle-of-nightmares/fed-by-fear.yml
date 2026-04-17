@@ -4,12 +4,494 @@ type: feat
 _id: ywlUonIOkLwkxyXN
 img: icons/magic/death/mouth-bite-fangs-vampire.webp
 system:
-  activities: {}
+  activities:
+    PyIcnSoQlNVuhE1K:
+      type: utility
+      name: Gain Fear Die
+      _id: PyIcnSoQlNVuhE1K
+      img: icons/sundries/gaming/gaming-set-dice.webp
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@classes.druid.levels - @item.uses.value'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+    IPWQSmvCrYmeqHD4:
+      type: utility
+      name: Sudden Uncertainty
+      _id: IPWQSmvCrYmeqHD4
+      img: icons/magic/perception/eye-tendrils-web-purple.webp
+      sort: 100000
+      activation:
+        type: reaction
+        override: false
+        condition: >-
+          When a creature within 30 feet of you succeeds on an ability check or
+          saving throw
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '@mod'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Roll Penalty
+        formula: '@scale.reapers-mark.fear-die.die'
+    qvWus6Mpcy25Yy0U:
+      type: save
+      name: 'Nightmarish Torment: Restraint'
+      _id: qvWus6Mpcy25Yy0U
+      img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+      sort: 200000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@mod'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: 0d3zTMt9HESVRAep
+          level: {}
+          onSave: false
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: that you can see
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: full
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.reapers-mark.fear-die.die'
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+    CdngOpDIc3TUphAk:
+      type: damage
+      name: Painful Accessory
+      _id: CdngOpDIc3TUphAk
+      img: icons/skills/wounds/injury-pain-body-orange.webp
+      sort: 50000
+      activation:
+        type: special
+        override: false
+        condition: When you hit a creature with an attack with a weapon
+      consumption:
+        scaling:
+          allowed: true
+          max: '2'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+          - type: activityUses
+            value: '1'
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          special: ''
+          count: '1'
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery:
+          - period: turn
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.reapers-mark.fear-die.die'
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - cold
+              - fire
+              - necrotic
+              - poison
+              - psychic
+            scaling:
+              mode: ''
+              number: 1
+    gicbkhzSuHRmmQ3A:
+      type: save
+      name: 'Nightmarish Torment: Ignorance'
+      img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+      sort: 400000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@mod'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: W7CSTPpKolYsA993
+          level: {}
+          onSave: false
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: that you can see
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: full
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.reapers-mark.fear-die.die'
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: gicbkhzSuHRmmQ3A
+    8B1BAwtOh9hhBgwI:
+      type: save
+      name: 'Nightmarish Torment: Contamination'
+      img: icons/magic/unholy/strike-body-life-soul-green.webp
+      sort: 500000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@mod'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: FH71Qz7aGrmtWAvu
+          level: {}
+          onSave: false
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: that you can see
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: full
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scaling@scale.reapers-mark.fear-die.die'
+            number: null
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      _id: 8B1BAwtOh9hhBgwI
   uses:
-    spent: 0
-    recovery: []
-    max: ''
-  advancement: {}
+    spent: null
+    recovery:
+      - period: lr
+        type: loseAll
+    max: '@classes.druid.levels'
+  advancement:
+    vUCslJiBg5QGrJ2Q:
+      type: ScaleValue
+      title: Fear Die
+      _id: vUCslJiBg5QGrJ2Q
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '0':
+            number: 1
+            faces: 8
+      flags: {}
+      value: {}
+      hint: ''
   description:
     value: >-
       <p>You feed off the fear of your enemies and amass it within yourself.
@@ -65,7 +547,119 @@ system:
   type:
     value: class
     subtype: ''
-effects: []
+effects:
+  - name: 'Nightmarish Torment: Contamination'
+    img: icons/magic/unholy/strike-body-life-soul-green.webp
+    origin: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+    transfer: false
+    _id: FH71Qz7aGrmtWAvu
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnEnd
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - poisoned
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1776226074512
+      modifiedTime: 1776230025803
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ywlUonIOkLwkxyXN.FH71Qz7aGrmtWAvu'
+  - name: 'Nightmarish Torment: Ignorance'
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    origin: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+    transfer: false
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnEnd
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - blinded
+      - deafened
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1776226153415
+      modifiedTime: 1776230029122
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: W7CSTPpKolYsA993
+    _key: '!items.effects!ywlUonIOkLwkxyXN.W7CSTPpKolYsA993'
+  - name: 'Nightmarish Torment: Restraint'
+    img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+    origin: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+    transfer: false
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnEnd
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - restrained
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      createdTime: 1776226155916
+      modifiedTime: 1776230032228
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: 0d3zTMt9HESVRAep
+    _key: '!items.effects!ywlUonIOkLwkxyXN.0d3zTMt9HESVRAep'
 sort: 0
 ownership:
   default: 0
@@ -73,10 +667,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1767988315535
-  modifiedTime: 1775539477253
+  modifiedTime: 1776234714569
   lastModifiedBy: draenalcommon000
 _key: '!items!ywlUonIOkLwkxyXN'

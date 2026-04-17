@@ -10,8 +10,6 @@ export default class CircleOfNightmares {
 // Fed By Fear
 //  Fear Dice are part of the item
 //    - Automatically trigger gain on attack hit
-//    - Don't think I can do saving throws easily, would need to look at roll data
-//    - Rest on Long Rest
 //  Sudden Uncertainty
 //    - Utility Activity, has limited uses
 //  Painful Accessory
