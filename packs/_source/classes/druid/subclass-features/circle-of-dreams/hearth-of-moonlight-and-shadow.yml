@@ -1,0 +1,54 @@
+folder: MSVe4xsLrLiXSwVN
+name: Hearth of Moonlight and Shadow
+type: feat
+_id: VbPUiWFWapVR9xyW
+img: icons/magic/light/beams-strike-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>At 6th level, home can be wherever you are. During a short or long
+      rest, you can invoke the shadowy power of the Gloaming Court to help guard
+      your respite. At the start of the rest, you touch a point in space, and an
+      invisible, 30-foot-radius sphere of magic appears, centered on that point.
+      Total cover blocks the sphere.</p><p>While within the sphere, you and your
+      allies gain a +5 bonus to Dexterity (Stealth) and Wisdom (Perception)
+      checks, and any light from open flames in the sphere (a campfire, torches,
+      or the like) isn't visible outside it.</p><p>The sphere vanishes at the
+      end of the rest or when you leave the sphere.</p>
+    chat: ''
+  identifier: hearth-of-moonlight-and-shadow
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776662320293
+  modifiedTime: 1776662360439
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!VbPUiWFWapVR9xyW'

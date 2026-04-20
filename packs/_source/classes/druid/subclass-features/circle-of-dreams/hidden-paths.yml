@@ -1,0 +1,53 @@
+folder: MSVe4xsLrLiXSwVN
+name: Hidden Paths
+type: feat
+_id: fFf6fNgkedggRbUM
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Starting at 10th level, you can use the hidden, magical pathways that
+      some fey use to traverse space in the blink of an eye. As a bonus action
+      on your turn, you can teleport up to 60 feet to an unoccupied space you
+      can see. Alternatively, you can use your action to teleport one willing
+      creature you touch up to 30 feet to an unoccupied space you can
+      see.</p><p>You can use this feature a number of times equal to your Wisdom
+      modifier (minimum of once), and you regain all expended uses of it when
+      you finish a long rest.</p>
+    chat: ''
+  identifier: hidden-paths
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776662376213
+  modifiedTime: 1776662423326
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!fFf6fNgkedggRbUM'

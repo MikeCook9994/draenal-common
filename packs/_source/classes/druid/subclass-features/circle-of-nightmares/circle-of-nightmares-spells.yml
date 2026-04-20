@@ -149,8 +149,8 @@ system:
       <p>When you reach a Druid level specified in the Circle of Nightmares
       Spells table, you thereafter always have the listed spells
       prepared.</p><h4>Circle of Nightmares
-      Spells</h4><table><thead><tr><td>Druid Level</td><td>Circle
-      Spells</td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill
+      Spells</h4><table><thead><tr><td><p>Druid Level</p></td><td><p>Circle
+      Spells</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill
       Touch}, @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict Wounds},
       @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force},
@@ -192,10 +192,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.1
   createdTime: 1767984099648
-  modifiedTime: 1775008844042
+  modifiedTime: 1776658816420
   lastModifiedBy: draenalcommon000
 _key: '!items!tJreQjIjAv5jmZoC'

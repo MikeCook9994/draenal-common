@@ -1,7 +1,7 @@
 name: Hexblade Patron
 type: subclass
 _id: 2lXC8zZ1MgCPKyIb
-img: modules/draenal-common/assets/icons/hexblade-patron-warlock.svg
+img: modules/draenal-common/assets/icons/hexblade-patron-warlock.webp
 system:
   advancement:
     kY3ua299gHkwuEmh:
@@ -79,7 +79,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: XGtE Refresh
+    book: ''
     page: ''
     custom: ''
     license: ''
@@ -98,10 +98,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.1
   createdTime: 1774227816461
-  modifiedTime: 1775008843924
+  modifiedTime: 1776662171166
   lastModifiedBy: draenalcommon000
 _key: '!items!2lXC8zZ1MgCPKyIb'

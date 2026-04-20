@@ -1,0 +1,98 @@
+folder: LqiO7cAFbVwEOPNT
+name: Circle of Dreams
+type: subclass
+_id: xwBA4irByKSX1eHM
+img: modules/draenal-common/assets/icons/circle-of-dreams-druid.webp
+system:
+  advancement:
+    cUaQxfwBjjOtqARD:
+      type: ItemGrant
+      title: Subclass Features
+      _id: cUaQxfwBjjOtqARD
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.YmGBL9DCW3m08FYe
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 3
+      hint: ''
+    kz1kl5XuBaFo51tm:
+      type: ItemGrant
+      title: Subclass Features
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.VbPUiWFWapVR9xyW
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 6
+      hint: ''
+      _id: kz1kl5XuBaFo51tm
+    c86dc0590PxqDXyd:
+      type: ItemGrant
+      title: Subclass Features
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.fFf6fNgkedggRbUM
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 10
+      hint: ''
+      _id: c86dc0590PxqDXyd
+    VPct3qwbOgy1Wxvs:
+      type: ItemGrant
+      title: Subclass Features
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.HAr5z1NgYYVEjtW1
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 14
+      hint: ''
+      _id: VPct3qwbOgy1Wxvs
+  description:
+    value: >-
+      <p>Druids who are members of the Circle of Dreams hail from regions that
+      have strong ties to the Feywild and its dreamlike realms. The druids'
+      guardianship of the natural world makes for a natural alliance between
+      them and good-aligned fey. These druids seek to fill the world with dreamy
+      wonder. Their magic mends wounds and brings joy to downcast hearts, and
+      the realms they protect are gleaming, fruitful places, where dream and
+      reality blur together and where the weary can find rest.</p>
+    chat: ''
+  identifier: circle-of-dreams
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: druid
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776656152625
+  modifiedTime: 1776662603315
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xwBA4irByKSX1eHM'

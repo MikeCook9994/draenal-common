@@ -1,0 +1,130 @@
+folder: MSVe4xsLrLiXSwVN
+name: Balm of the Summer Court
+type: feat
+_id: YmGBL9DCW3m08FYe
+img: icons/magic/light/hand-sparks-smoke-green.webp
+system:
+  activities:
+    jAClg4Ubix5KgYSm:
+      type: heal
+      _id: jAClg4Ubix5KgYSm
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: floor(@classes.druid.levels / 2)
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: that you can see
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: 1d6[healing] + 1
+        scaling:
+          number: 1
+          mode: whole
+          formula: '1'
+        number: null
+        denomination: null
+        bonus: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@classes.druid.levels'
+  advancement: {}
+  description:
+    value: >-
+      <p>At 3rd level, you become imbued with the blessings of the Summer Court.
+      You are a font of energy that offers respite from injuries. You have a
+      pool of fey energy represented by a number of d6s equal to your druid
+      level.</p><p>As a bonus action, you can choose one creature you can see
+      within 120 feet of you and spend a number of those dice equal to half your
+      druid level or less. Roll the spent dice and add them together. The target
+      regains a number of hit points equal to the total. The target also gains 1
+      temporary hit point per die spent.</p><p>You regain all expended dice when
+      you finish a long rest.</p>
+    chat: ''
+  identifier: balm-of-the-summer-court
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - mgc
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776661126546
+  modifiedTime: 1776662723067
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YmGBL9DCW3m08FYe'

@@ -2,7 +2,7 @@ folder: LqiO7cAFbVwEOPNT
 name: Circle of Nightmares
 type: subclass
 _id: epUSDsracMjworsw
-img: modules/draenal-common/assets/icons/circle-of-nightmares-druid.svg
+img: modules/draenal-common/assets/icons/circle-of-nightmares-druid.webp
 system:
   advancement:
     ha91bc5qQKB1w38Q:
@@ -83,7 +83,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Homebrew
+    book: ''
     page: ''
     custom: ''
     license: ''
@@ -101,10 +101,10 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.1
   createdTime: 1767982496997
-  modifiedTime: 1775008844010
+  modifiedTime: 1776662157853
   lastModifiedBy: draenalcommon000
 _key: '!items!epUSDsracMjworsw'
