@@ -271,10 +271,8 @@ system:
         prompt: false
       uses:
         spent: 0
-        recovery:
-          - period: turn
-            type: recoverAll
-        max: '1'
+        recovery: []
+        max: ''
       visibility:
         level:
           min: null
@@ -520,13 +518,13 @@ system:
       equal to the total and is subjected to one of the effects of your choice
       listed below.</p><p><em>Restraint.</em> The target must make a Dexterity
       saving throw against your spell Save DC. On a failed save, the target is
-      Restrained until the end of their your next
-      turn.</p><p><em>Ignorance.</em> The target must make a Wisdom saving throw
-      against your spell Save DC. On a failed save, the target is Blinded and
-      Deafened until the end of your next turn. This effect applies to all types
-      of sight.</p><p><em>Contamination.</em> The target must make a
-      Constitution saving throw against your spell Save DC. On a failed save,
-      the target is poisoned until the end of your next turn.</p>
+      Restrained until the start of your next turn.</p><p><em>Ignorance.</em>
+      The target must make a Wisdom saving throw against your spell Save DC. On
+      a failed save, the target is Blinded and Deafened until the start of your
+      next turn. This effect applies to all types of
+      sight.</p><p><em>Contamination.</em> The target must make a Constitution
+      saving throw against your spell Save DC. On a failed save, the target is
+      poisoned until the start of your next turn.</p>
     chat: ''
   identifier: reapers-mark
   source:
@@ -561,7 +559,7 @@ effects:
     duration:
       value: 1
       units: rounds
-      expiry: turnEnd
+      expiry: turnStart
       expired: false
     description: ''
     tint: '#ffffff'
@@ -579,7 +577,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1776226074512
-      modifiedTime: 1776230025803
+      modifiedTime: 1776655571083
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
@@ -597,7 +595,7 @@ effects:
     duration:
       value: 1
       units: rounds
-      expiry: turnEnd
+      expiry: turnStart
       expired: false
     description: ''
     tint: '#ffffff'
@@ -616,7 +614,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1776226153415
-      modifiedTime: 1776230029122
+      modifiedTime: 1776655575582
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
@@ -635,7 +633,7 @@ effects:
     duration:
       value: 1
       units: rounds
-      expiry: turnEnd
+      expiry: turnStart
       expired: false
     description: ''
     tint: '#ffffff'
@@ -653,7 +651,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.3.0
       createdTime: 1776226155916
-      modifiedTime: 1776230032228
+      modifiedTime: 1776655579812
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
@@ -669,8 +667,8 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.1
   createdTime: 1767988315535
-  modifiedTime: 1776234714569
+  modifiedTime: 1776655551412
   lastModifiedBy: draenalcommon000
 _key: '!items!ywlUonIOkLwkxyXN'
