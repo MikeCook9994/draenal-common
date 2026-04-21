@@ -1,0 +1,92 @@
+folder: DdItyBgJb8l5oawG
+name: Hand of Fate
+type: feat
+_id: i4mYuk9duBBlB3o9
+img: icons/skills/melee/spear-tips-double-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    O1Rt4KTub5L0GtEp:
+      type: Trait
+      _id: O1Rt4KTub5L0GtEp
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:med
+          - armor:shl
+        mode: default
+      level: 3
+      title: Shield Proficiency
+      hint: You gain proficiency with shields
+      value: {}
+      flags: {}
+    oKO8Ud5dhIeb5v77:
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.dnd5e.classes24.Item.phbinvPactBlade0
+        restriction:
+          list: []
+          type: class
+          subtype: eldritchInvocation
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Hexblade Invocation
+      hint: >-
+        You gain the Pact of the Blade invocation. If you already have this
+        invocation, you gain one other invocation of your choice that you
+        satisfy the prerequisites for.
+      _id: oKO8Ud5dhIeb5v77
+      flags: {}
+  description:
+    value: >-
+      <p>You gain the
+      @UUID[Compendium.dnd5e.classes24.Item.phbinvPactBlade0]{Pact of the Blade}
+      invocation. If you already have this invocation, you gain one other
+      invocation of your choice that you satisfy the prerequisites for.
+      Additionally, you gain proficiency with medium armor and shields.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - hexblade
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1768801359796
+  modifiedTime: 1775008844022
+  lastModifiedBy: draenalcommon000
+_key: '!items!i4mYuk9duBBlB3o9'

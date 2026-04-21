@@ -100,6 +100,28 @@
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e"
+    },
+    {
+      "name": "npcs",
+      "label": "Non-Player Characters",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "NONE"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "pcs",
+      "label": "Player Characters",
+      "path": "packs/pcs",
+      "type": "Actor",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "LIMITED"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [

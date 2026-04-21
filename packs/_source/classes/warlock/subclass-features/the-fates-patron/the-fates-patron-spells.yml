@@ -1,0 +1,178 @@
+folder: DdItyBgJb8l5oawG
+name: The Fates Patron Spells
+type: feat
+_id: e44LDzLni09L6dQp
+img: icons/magic/unholy/hand-light-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    O5lFDzKZhCxPQzF1:
+      type: ItemGrant
+      _id: O5lFDzKZhCxPQzF1
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr
+        optional: false
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 9
+      title: 5th-level spells
+      hint: ''
+      flags: {}
+    FjqnWursincsnUxH:
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM
+        optional: false
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 7
+      title: 4th-level spells
+      hint: ''
+      _id: FjqnWursincsnUxH
+      flags: {}
+    bsNhtjIaeeWZ16zX:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplBestowCurs
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 5
+      title: 3rd-level spells
+      hint: ''
+      _id: bsNhtjIaeeWZ16zX
+      flags: {}
+    vzIQip4KvpcXtr0X:
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
+        optional: false
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 2nd-level spells
+      hint: ''
+      _id: vzIQip4KvpcXtr0X
+      flags: {}
+    kOD0ijIabizMVkqc:
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
+          - optional: false
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+        optional: false
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 1st-level spells
+      hint: ''
+      _id: kOD0ijIabizMVkqc
+      flags: {}
+  description:
+    value: >-
+      <p>When you reach a Warlock level specified in the Patron Spells table,
+      you thereafter always have the listed spells prepared.</p><h4>Patron
+      Spells</h4><table><thead><tr><td><p>Warlock Level</p></td><td><p>Patron
+      Spells</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt]{Armor
+      of Agathys},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict Wounds},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneVigo]{Arcane Vigor},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual
+      Weapon}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{Bestow
+      Curse},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000]{Haste}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
+      Killer},
+      @UUID[Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM]{Staggering
+      Smite}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA]{Banishing
+      Smite},
+      @UUID[Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr]{Destructive
+      Wave}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - hexblade
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.359'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1768776986116
+  modifiedTime: 1775088205417
+  lastModifiedBy: draenalcommon000
+_key: '!items!e44LDzLni09L6dQp'

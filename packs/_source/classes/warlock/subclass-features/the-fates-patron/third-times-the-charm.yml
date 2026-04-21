@@ -1,0 +1,76 @@
+folder: DdItyBgJb8l5oawG
+name: Third Time's the Charm
+type: feat
+_id: S6SnAx4mclBVWtQt
+img: icons/magic/death/weapon-sword-skull-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    F1LRI8qQ0RxokS4G:
+      type: ItemChoice
+      _id: F1LRI8qQ0RxokS4G
+      configuration:
+        allowDrops: true
+        choices:
+          '6':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.dnd5e.classes24.Item.phbinvThirstingB
+        restriction:
+          list: []
+          type: class
+          subtype: eldritchInvocation
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Hexblade Invocation
+      hint: >-
+        You gain the Thirsting Blade invocation. If you already have this
+        invocation, you gain one other invocation of your choice that you
+        satisfy the prerequisites for.
+      flags: {}
+  description:
+    value: >-
+      <p>You gain the
+      @UUID[Compendium.dnd5e.classes24.Item.phbinvThirstingB]{Thirsting Blade}
+      invocation. If you already have this invocation, you gain one other
+      invocation of your choice that you satisfy the prerequisites for.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - hexblade
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: Hexblade Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1768808829325
+  modifiedTime: 1775008843984
+  lastModifiedBy: draenalcommon000
+_key: '!items!S6SnAx4mclBVWtQt'
