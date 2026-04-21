@@ -1,7 +1,7 @@
-folder: DdItyBgJb8l5oawG
+folder: 
 name: Third Time's the Charm
 type: feat
-_id: S6SnAx4mclBVWtQt
+_id: 19BzmbKJLuU6mHGm
 img: icons/magic/death/weapon-sword-skull-purple.webp
 system:
   activities: {}
@@ -73,4 +73,4 @@ _stats:
   createdTime: 1768808829325
   modifiedTime: 1775008843984
   lastModifiedBy: draenalcommon000
-_key: '!items!S6SnAx4mclBVWtQt'
+_key: '!items!19BzmbKJLuU6mHGm'

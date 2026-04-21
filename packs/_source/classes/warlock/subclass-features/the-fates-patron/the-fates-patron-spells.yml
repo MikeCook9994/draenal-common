@@ -1,7 +1,7 @@
-folder: DdItyBgJb8l5oawG
+folder: 
 name: The Fates Patron Spells
 type: feat
-_id: e44LDzLni09L6dQp
+_id: ZkoFAcmphNv4XHWA
 img: icons/magic/unholy/hand-light-pink.webp
 system:
   activities: {}
@@ -175,4 +175,4 @@ _stats:
   createdTime: 1768776986116
   modifiedTime: 1775088205417
   lastModifiedBy: draenalcommon000
-_key: '!items!e44LDzLni09L6dQp'
+_key: '!items!ZkoFAcmphNv4XHWA'

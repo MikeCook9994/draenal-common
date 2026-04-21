@@ -1,7 +1,7 @@
-folder: DdItyBgJb8l5oawG
+folder: 
 name: Hand of Fate
 type: feat
-_id: i4mYuk9duBBlB3o9
+_id: Pp8ucFfGQR6SPijx
 img: icons/skills/melee/spear-tips-double-purple.webp
 system:
   activities: {}
@@ -89,4 +89,4 @@ _stats:
   createdTime: 1768801359796
   modifiedTime: 1775008844022
   lastModifiedBy: draenalcommon000
-_key: '!items!i4mYuk9duBBlB3o9'
+_key: '!items!Pp8ucFfGQR6SPijx'

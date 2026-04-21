@@ -1,7 +1,7 @@
-folder: DdItyBgJb8l5oawG
+folder: 
 name: Image of Ill Omen
 type: feat
-_id: wa1gQcGoB6QAci1n
+_id: WEH3yrOv9m8C2RYK
 img: icons/magic/death/skull-energy-light-purple.webp
 system:
   activities:
@@ -131,4 +131,4 @@ _stats:
   createdTime: 1768802291788
   modifiedTime: 1775008844054
   lastModifiedBy: draenalcommon000
-_key: '!items!wa1gQcGoB6QAci1n'
+_key: '!items!WEH3yrOv9m8C2RYK'

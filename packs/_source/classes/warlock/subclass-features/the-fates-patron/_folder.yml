@@ -3,7 +3,7 @@ folder: Zkn65fsyEcPvMU9E
 name: The Fates Patron
 color: null
 sorting: a
-_id: DdItyBgJb8l5oawG
+_id: lRvyCxyrsY7jNoBP
 description: ''
 sort: 0
 flags: {}
@@ -14,4 +14,4 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.5
   lastModifiedBy: draenalcommon000
-_key: '!folders!DdItyBgJb8l5oawG'
+_key: '!folders!'

@@ -10,10 +10,10 @@ export default class HexbladePatron {
 
         const effortlessAgonyUpgradeHookId = Hooks.on("createItem", (document, options, userId) => {
             if (!game.user.isGM || // skip if user is not the GM or
-                !options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb") || // if the character is not a hexblade or
+                !options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA") || // if the character is not a hexblade or
                 (document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and 
                 document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.classes24.Item.phbwlkMagicalCun" && // the item is not Magical Cunning and
-                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6") // the item is not hexblade's curse
+                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j") // the item is not hexblade's curse
             ) {
                 return;
             }
@@ -54,9 +54,9 @@ export default class HexbladePatron {
         });
 
         const effortlessAgonyDowngradeHookId = Hooks.on("deleteItem", (document, options, userId) => {
-            if (!game.user.isGM || (document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb" && // skip if the user is not game || item is not Hexblade Patron and
+            if (!game.user.isGM || (document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA" && // skip if the user is not game || item is not Hexblade Patron and
                 document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and
-                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6") // the item is not hexblade's curse
+                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j") // the item is not hexblade's curse
             ) {
                 return;
             }
@@ -129,7 +129,7 @@ export default class HexbladePatron {
                 if (sourceHexblades.length > 0) killedTarget = target;
 
                 sourceHexblades.forEach(source => {
-                    const hexbladesCurse = source.sourcedItems.get("Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6").first();
+                    const hexbladesCurse = source.sourcedItems.get("Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j").first();
                     hexbladesCurse.system.activities.contents[0].use({}, { configure: false }, { create: false });
                 });
             }

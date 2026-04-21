@@ -1,7 +1,7 @@
-folder: DdItyBgJb8l5oawG
+folder: 
 name: Weal or Woe
 type: feat
-_id: Nq2H0q8rPwAkwblh
+_id: hGf1Nl7BqGMxFe6d
 img: icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp
 system:
   activities: {}
@@ -46,4 +46,4 @@ _stats:
   createdTime: 1768809123676
   modifiedTime: 1775008843971
   lastModifiedBy: draenalcommon000
-_key: '!items!Nq2H0q8rPwAkwblh'
+_key: '!items!hGf1Nl7BqGMxFe6d'

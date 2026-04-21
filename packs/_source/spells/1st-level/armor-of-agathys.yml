@@ -177,6 +177,7 @@ system:
     affects:
       choice: false
       type: self
+      special: ''
 effects:
   - name: Armor of Agathys
     img: icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp
@@ -221,11 +222,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.1
   createdTime: 1774330411506
-  modifiedTime: 1774330411527
+  modifiedTime: 1776667082554
   lastModifiedBy: draenalcommon000
 ownership:
   default: 0

@@ -1,0 +1,107 @@
+name: Hexblade Patron
+type: subclass
+_id: HP7SJUQSZx72wngA
+img: modules/draenal-common/assets/icons/hexblade-patron-warlock.webp
+system:
+  advancement:
+    kY3ua299gHkwuEmh:
+      type: ItemGrant
+      _id: kY3ua299gHkwuEmh
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.ZkoFAcmphNv4XHWA
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.Pp8ucFfGQR6SPijx
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Features
+      hint: ''
+      flags: {}
+    qxNiqpXry4cfvSpP:
+      type: ItemGrant
+      title: Features
+      _id: qxNiqpXry4cfvSpP
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.WEH3yrOv9m8C2RYK
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.19BzmbKJLuU6mHGm
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      hint: ''
+      flags: {}
+    DuU0f13dM66mneWi:
+      type: ItemGrant
+      title: Features
+      _id: DuU0f13dM66mneWi
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.Nq2H0q8rPwAkwblh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+      flags: {}
+    D7WYfipNcw8XrBnQ:
+      type: ItemGrant
+      title: Features
+      _id: D7WYfipNcw8XrBnQ
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.IXhZgKhMThdn5Hhx
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      hint: ''
+      flags: {}
+  description:
+    value: >-
+      <p>You have forged a pact with some being who has chosen to manifest their
+      power bestowed upon you in the form of a magic weapon forged from the
+      occult and incomprehensible. Through this weapon, this hexblade, you
+      harness the power of curses and other malignancies to punish those that
+      would stand against your patron. Their little warrior; what good can you
+      do for them?</p>
+    chat: ''
+  identifier: hexblade
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  classIdentifier: warlock
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+folder: Tf1u3G57WTSucgzH
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1774227816461
+  modifiedTime: 1776662171166
+  lastModifiedBy: draenalcommon000
+_key: '!items!HP7SJUQSZx72wngA'
