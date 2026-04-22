@@ -1,0 +1,19 @@
+type: Item
+folder: 9FdMAMBzqxxiQq0o
+name: Changling
+color: null
+sorting: a
+_id: oLcAEKfoUODjH5eS
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776819365688
+  modifiedTime: 1776819365688
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!oLcAEKfoUODjH5eS'

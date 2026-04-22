@@ -1,0 +1,50 @@
+folder: zozbNAxqGOhPoQH6
+name: Sentry's Rest
+type: feat
+_id: QqyRuZHxqMBKHQkz
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <div class="ddb"><p>You don't need to sleep, and magic can't put you to
+      sleep. You can finish a Long Rest in 6 hours if you spend those hours in
+      an inactive, motionless state. During this time, you appear inert but
+      remain conscious.</p></div>
+    chat: ''
+  identifier: sentrys-rest
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: Warforged
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776819237142
+  modifiedTime: 1776819262045
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QqyRuZHxqMBKHQkz'

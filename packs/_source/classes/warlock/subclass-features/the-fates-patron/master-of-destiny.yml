@@ -28,22 +28,22 @@ system:
     repeatable: false
     level: 14
   properties: []
-  requirements: Hexblade Patron
+  requirements: The Fates Patron
   type:
     value: class
     subtype: ''
 effects: []
-sort: 0
+sort: 125000
 ownership:
   default: 0
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.1
   createdTime: 1768809159206
-  modifiedTime: 1775008844017
+  modifiedTime: 1776800911973
   lastModifiedBy: draenalcommon000
 _key: '!items!IXhZgKhMThdn5Hhx'

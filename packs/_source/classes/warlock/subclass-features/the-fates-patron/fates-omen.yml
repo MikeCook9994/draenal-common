@@ -96,10 +96,10 @@ system:
       flags: {}
   description:
     value: >-
-      <p>The occult power granted by the bond with your hexblade enhances your
-      curses and deepens the suffering of those afflicted by them. You gain the
-      following benefits.</p><p><strong>Effortless Agony.</strong> You always
-      have the @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Hex} spell
+      <p>Through the fates that grant you your magic, your curses bestow harken
+      the sign of ill omens for your enemies. You gain the following
+      benefits.</p><p><strong>Effortless Agony.</strong> You always have the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Hex} spell
       prepared. You can cast it without expending a spell slot and without the
       need for concentration. Casting the spell in this way casts it at the
       level of your Pact Magic spell slots. Once you use this feature, you can't
@@ -126,22 +126,22 @@ system:
     level: 3
   properties:
     - mgc
-  requirements: Hexblade Patron
+  requirements: The Fates Patron
   type:
     value: class
     subtype: ''
 effects: []
-sort: 0
+sort: 100000
 ownership:
   default: 0
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.1
   createdTime: 1768801150991
-  modifiedTime: 1775539542264
+  modifiedTime: 1776800896675
   lastModifiedBy: draenalcommon000
 _key: '!items!JuoWB9ngJ4v9L63j'

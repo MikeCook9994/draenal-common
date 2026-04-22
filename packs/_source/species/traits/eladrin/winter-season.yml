@@ -1,0 +1,46 @@
+folder: bg0sAuURuHmqUcuY
+name: Winter Season
+type: feat
+_id: erzSzSLs0v4SwsuN
+img: icons/magic/nature/leaf-glow-maple-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: winter-season
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: Eladrin
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776816682884
+  modifiedTime: 1776816759569
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!erzSzSLs0v4SwsuN'

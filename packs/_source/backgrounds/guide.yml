@@ -1,0 +1,167 @@
+name: Guide
+type: background
+_id: NchBwZSuntWQ0hle
+img: icons/environment/wilderness/mine-interior-dungeon-door.webp
+system:
+  advancement:
+    9qEPDnrBl8Oexvn7:
+      type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        cap: 2
+        fixed: {}
+        locked: []
+        recommendation: null
+      _id: 9qEPDnrBl8Oexvn7
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+    TADge7L2EFRc5jdS:
+      type: Trait
+      title: Background Proficiencies
+      _id: TADge7L2EFRc5jdS
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ste
+          - skills:sur
+          - tool:art:cartographer
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+    vrxusSUfKm1VUhCM:
+      type: Trait
+      title: Choose Languages
+      configuration:
+        grants:
+          - languages:standard:common
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:*
+        mode: default
+      _id: vrxusSUfKm1VUhCM
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+    QamK9sXUjMVRPXsv:
+      type: ItemGrant
+      title: Background Feat
+      _id: QamK9sXUjMVRPXsv
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.feats24.Item.phbftMagicInitia
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+  description:
+    value: >-
+      <p><strong>Ability Scores:</strong> Dexterity, Constitution,
+      Wisdom</p><p><strong>Feat:</strong>
+      @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate}
+      (Druid)</p><p><strong>Skill Proficiencies:</strong> Sealth and
+      Survival</p><p><strong>Tool Proficiency:</strong> Cartographer's
+      Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A)
+      @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow}, 20
+      @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbtulCartograph]{Cartographer's
+      Tools},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagTent0000000]{Tent},
+      @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesTrav]{Clothes,
+      Traveler's}, 3 GP; or (B) 50 GP</p>
+    chat: ''
+  identifier: guide
+  source:
+    revision: 1
+    rules: '2024'
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: qW1UO4tLVqVQhov6
+      group: ''
+      sort: 100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbwepShortbow00
+      requiresProficiency: false
+      _id: MthEstVpaAbsusqV
+      group: qW1UO4tLVqVQhov6
+      sort: 200000
+    - type: linked
+      count: 20
+      key: Compendium.dnd5e.equipment24.Item.phbamoArrows0000
+      requiresProficiency: false
+      _id: dwD5AreN8pyyXCsS
+      group: qW1UO4tLVqVQhov6
+      sort: 300000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbtulCartograph
+      requiresProficiency: false
+      _id: vigjCA00v4BUD5jZ
+      group: qW1UO4tLVqVQhov6
+      sort: 400000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
+      requiresProficiency: false
+      _id: AjTC2gZ8gw8Vpz4V
+      group: qW1UO4tLVqVQhov6
+      sort: 500000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagQuiver00000
+      requiresProficiency: false
+      _id: XB79k9ipGOrbjEvC
+      group: qW1UO4tLVqVQhov6
+      sort: 600000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagTent0000000
+      requiresProficiency: false
+      _id: e3gOsS7SuBlWPX7S
+      group: qW1UO4tLVqVQhov6
+      sort: 700000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagClothesTrav
+      requiresProficiency: false
+      _id: RYOtyRRdOwn5DAuV
+      group: qW1UO4tLVqVQhov6
+      sort: 800000
+    - type: currency
+      count: 3
+      key: gp
+      requiresProficiency: false
+      _id: 0JD4kPQYQ1IA5F5V
+      group: qW1UO4tLVqVQhov6
+      sort: 900000
+  wealth: '50'
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776819961805
+  modifiedTime: 1776820674585
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NchBwZSuntWQ0hle'

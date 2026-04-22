@@ -2,7 +2,7 @@ folder: lRvyCxyrsY7jNoBP
 name: Hand of Fate
 type: feat
 _id: Pp8ucFfGQR6SPijx
-img: icons/skills/melee/spear-tips-double-purple.webp
+img: icons/equipment/hand/glove-cuffed-leather-purple.webp
 system:
   activities: {}
   uses:
@@ -76,17 +76,17 @@ system:
     value: class
     subtype: ''
 effects: []
-sort: 0
+sort: 200000
 ownership:
   default: 0
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1768801359796
-  modifiedTime: 1775008844022
+  modifiedTime: 1776800807779
   lastModifiedBy: draenalcommon000
 _key: '!items!Pp8ucFfGQR6SPijx'

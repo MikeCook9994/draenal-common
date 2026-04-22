@@ -1,0 +1,102 @@
+folder: bg0sAuURuHmqUcuY
+name: Trance
+type: feat
+_id: vaUxwV6SK9RslzeY
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    KEJUPz8q74IDxj2V:
+      type: Trait
+      _id: KEJUPz8q74IDxj2V
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - weapon:*
+              - tool:*
+          - count: 1
+            pool:
+              - tool:*
+              - weapon:*
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      title: ''
+    SkPNiVF7rZQNOrV1:
+      type: ItemChoice
+      _id: SkPNiVF7rZQNOrV1
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+          - uuid: Compendium.draenal-common.species.Item.QVOLwwPwVE4zU0c2
+          - uuid: Compendium.draenal-common.species.Item.erzSzSLs0v4SwsuN
+          - uuid: Compendium.draenal-common.species.Item.hSQCcWAjbBS5AxFX
+        restriction:
+          list: []
+          type: race
+        spell: null
+        type: feat
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: Choose Season
+      icon: icons/magic/nature/leaf-glow-maple-green.webp
+  description:
+    value: >-
+      <div class="ddb"><p>You don't need to sleep, and magic can't put you to
+      sleep. You can finish a long rest in 4 hours if you spend those hours in a
+      trancelike meditation, during which you retain
+      consciousness.</p><p>Whenever you finish this trance, you can change your
+      season, and you can gain two proficiencies that you don't have, each one
+      with a weapon or a tool of your choice selected from the <a
+      title="Player's Handbook"
+      href="https://www.dndbeyond.com/sources/phb"><em>Player's
+      Handbook</em></a>. You mystically acquire these proficiencies by drawing
+      them from shared elven memory, and you retain them until you finish your
+      next long rest.</p></div>
+    chat: ''
+  identifier: trance
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: Eladrin
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776816263323
+  modifiedTime: 1776816830208
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vaUxwV6SK9RslzeY'

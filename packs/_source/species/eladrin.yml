@@ -1,0 +1,163 @@
+folder: null
+name: Eladrin
+type: race
+_id: jK79aeEGtkSXSBa4
+img: icons/magic/nature/leaf-glow-triple-green.webp
+system:
+  advancement:
+    YckTmpGRmFn8gvGJ:
+      type: Size
+      _id: YckTmpGRmFn8gvGJ
+      configuration:
+        sizes:
+          - sm
+          - med
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+      title: ''
+    7lBQjTrOrgLwdGeG:
+      type: Trait
+      _id: 7lBQjTrOrgLwdGeG
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:prc
+              - skills:sur
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      title: Keen Senses
+    X5wGVSGtuimEnkYJ:
+      type: ItemGrant
+      title: Traits
+      _id: X5wGVSGtuimEnkYJ
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
+            optional: false
+          - uuid: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
+            optional: false
+          - uuid: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+  description:
+    value: >-
+      <div class="ddb"><p>Eladrin are elves of the Feywild, a realm of perilous
+      beauty and boundless magic.</p><p><span style="font-family:'Roboto
+      Condensed'"><strong>Eladrin Traits</strong></span></p><p><span
+      style="font-family:'Roboto Condensed'">Elf,
+      &amp;Reference[darkvision]{Darkvision}, Fey Ancestry, Fey Step, Keen
+      Senses, Trance</span></p><p><strong>Ability Score
+      Increases</strong></p><p>When determining your character's ability scores,
+      increase one score by 2 and increase a different score by 1, or increase
+      three different scores by 1. Follow this rule regardless of the method you
+      use to determine the scores, such as rolling or point buy. The "Quick
+      Build" section for your character's class offers suggestions on which
+      scores to increase. You can follow those suggestions or ignore them, but
+      you can't raise any of your scores above
+      20.</p><p><strong>Languages</strong></p><p>Your character can speak, read,
+      and write Common and one other language that you and your DM agree is
+      appropriate for the character. The <a title="Player's Handbook"
+      href="https://www.dndbeyond.com/sources/phb"><em>Player's
+      Handbook</em></a> offers a list of languages to choose from. The DM is
+      free to modify that list for a campaign.</p><p><strong>Creature
+      Type</strong></p><p>You are a Humanoid. You are also considered an elf for
+      any prerequisite or effect that requires you to be an
+      elf.</p><p><strong>Size</strong></p><p>You are
+      Medium.</p><p><strong>Speed</strong></p><p>Your walking speed is 30
+      feet.</p><p><strong>&amp;Reference[darkvision]{Darkvision}</strong></p><p>You
+      can see in dim light within 60 feet of you as if it were bright light and
+      in darkness as if it were dim light. You discern colors in that darkness
+      only as shades of gray.</p><p><strong>Fey Ancestry</strong></p><p>You have
+      advantage on saving throws you make to avoid or end the charmed condition
+      on yourself.</p><p><strong>Fey Step</strong></p><p>As a bonus action, you
+      can magically teleport up to 30 feet to an unoccupied space you can see.
+      You can use this trait a number of times equal to your proficiency bonus,
+      and you regain all expended uses when you finish a long rest.</p><p>When
+      you reach 3rd level, your Fey Step gains an additional effect based on
+      your season; if the effect requires a saving throw, the DC equals 8 + your
+      proficiency bonus + your Intelligence, Wisdom, or Charisma modifier
+      (choose when you select this race):</p><p><strong>Autumn.</strong>
+      Immediately after you use your Fey Step, up to two creatures of your
+      choice that you can see within 10 feet of you must succeed on a [[/save
+      wis format=long]] or be charmed by you for 1 minute, or until you or your
+      companions deal any damage to the
+      creatures.</p><p><strong>Winter.</strong> When you use your Fey Step, one
+      creature of your choice that you can see within 5 feet of you before you
+      teleport must succeed on a [[/save wis format=long]] or be frightened of
+      you until the end of your next turn.</p><p><strong>Spring.</strong> When
+      you use your Fey Step, you can touch one willing creature within 5 feet of
+      you. That creature then teleports instead of you, appearing in an
+      unoccupied space of your choice that you can see within 30 feet of
+      you.</p><p><strong>Summer.</strong> Immediately after you use your Fey
+      Step, each creature of your choice that you can see within 5 feet of you
+      takes fire damage equal to your proficiency bonus.</p><p><strong>Eladrin
+      Season</strong></p><p>Choose your season or roll on the Eladrin Seasons
+      table. Your Trance trait lets you change your season.</p><p><strong>Keen
+      Senses</strong></p><p>You have proficiency in the
+      &amp;Reference[prc]{Perception}
+      skill.</p><p><strong>Trance</strong></p><p>You don't need to sleep, and
+      magic can't put you to sleep. You can finish a long rest in 4 hours if you
+      spend those hours in a trancelike meditation, during which you retain
+      consciousness.</p><p>Whenever you finish this trance, you can change your
+      season, and you can gain two proficiencies that you don't have, each one
+      with a weapon or a tool of your choice selected from the <a
+      title="Player's Handbook"
+      href="https://www.dndbeyond.com/sources/phb"><em>Player's
+      Handbook</em></a>. You mystically acquire these proficiencies by drawing
+      them from shared elven memory, and you retain them until you finish your
+      next long rest.</p></div>
+    chat: ''
+  identifier: eladrin
+  source:
+    revision: 1
+    rules: '2014'
+    book: Monsters of the Multiverse
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    ranges:
+      blindsight: null
+      darkvision: 60
+      tremorsense: null
+      truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776815090757
+  modifiedTime: 1776818713151
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!jK79aeEGtkSXSBa4'

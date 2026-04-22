@@ -1,0 +1,55 @@
+folder: oLcAEKfoUODjH5eS
+name: Shape-Shifter
+type: feat
+_id: I8tkpb44JH1zZxl9
+img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <div class="ddb"><p>As an action, you can shape-shift to change your
+      appearance and your voice. You determine the specifics of the changes,
+      including your coloration, hair length, and sex. You can also adjust your
+      height and weight and can change your size between Medium and Small. You
+      can make yourself appear as a member of another playable species, though
+      none of your game statistics change. You can't duplicate the appearance of
+      an individual you've never seen, and you must adopt a form that has the
+      same basic arrangement of limbs that you have. This trait doesn't change
+      your clothing and equipment.</p><p>You stay in the new form until you take
+      an action to revert to your true form.</p></div>
+    chat: ''
+  identifier: shape-shifter
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: Changling
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776819733121
+  modifiedTime: 1776819917706
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!I8tkpb44JH1zZxl9'

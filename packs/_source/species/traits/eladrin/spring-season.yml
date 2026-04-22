@@ -1,0 +1,131 @@
+folder: bg0sAuURuHmqUcuY
+name: Spring Season
+type: feat
+_id: NoVJTpExgcMfR2UQ
+img: icons/magic/nature/leaf-glow-maple-green.webp
+system:
+  activities:
+    ad0njoa0NNYyRXSh:
+      type: enchant
+      _id: ad0njoa0NNYyRXSh
+      img: null
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: d6laAOhiTNV8EYrH
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: spring-season
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: Eladrin
+  type:
+    value: race
+    subtype: ''
+effects:
+  - type: enchantment
+    name: Spring Season
+    img: icons/magic/nature/leaf-glow-maple-green.webp
+    disabled: true
+    _id: d6laAOhiTNV8EYrH
+    system:
+      changes: []
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.1
+      createdTime: 1776816884565
+      modifiedTime: 1776816884565
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!NoVJTpExgcMfR2UQ.d6laAOhiTNV8EYrH'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776816510762
+  modifiedTime: 1776816884578
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NoVJTpExgcMfR2UQ'

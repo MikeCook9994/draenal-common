@@ -1,0 +1,147 @@
+name: Changling
+type: race
+_id: Qr8kZpkBUhBJPPBa
+img: icons/creatures/magical/spirit-undead-masked-blue.webp
+system:
+  advancement:
+    QZqHBbOe0TVmJiKJ:
+      type: Size
+      _id: QZqHBbOe0TVmJiKJ
+      configuration:
+        sizes:
+          - sm
+          - med
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+      title: ''
+    Wp9ZzaIiwtmdUP9j:
+      type: Trait
+      _id: Wp9ZzaIiwtmdUP9j
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:dec
+              - skills:ins
+              - skills:itm
+              - skills:prf
+              - skills:per
+          - count: 1
+            pool:
+              - skills:dec
+              - skills:ins
+              - skills:itm
+              - skills:prf
+              - skills:per
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: >-
+        <div class="ddb"><p>Thanks to your connection to the fey realm, you gain
+        proficiency in two of the following skills of your choice:
+        &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
+        &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance}, or
+        &amp;Reference[per]{Persuasion}.</p></div>
+      title: Changling Instrincts
+      icon: icons/skills/social/diplomacy-handshake.webp
+    vf1aKruiiVZ4x2RO:
+      type: ItemGrant
+      title: Traits
+      _id: vf1aKruiiVZ4x2RO
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+  description:
+    value: >-
+      <div class="ddb"><p>With ever-changing appearances, changelings reside in
+      many societies undetected.</p><p><span style="font-family:'Roboto
+      Condensed'"><strong>Changeling Traits</strong></span></p><p><span
+      style="font-family:'Roboto Condensed'">Changeling Instincts,
+      Shape-Shifter</span></p><p><strong>Creature Type</strong></p><p>You're a
+      Fey.</p><p><strong>Size</strong></p><p>Medium (about 4–7 feet tall) or
+      Small (about 2–4 feet tall), chosen when you select this
+      species</p><p><strong>Speed</strong></p><p>Your Speed is 30
+      feet.</p><p><strong>Languages</strong></p><p>Your character knows at least
+      three languages: Common plus two languages you roll or choose from the
+      Standard Languages table. Knowledge of a language means your character can
+      communicate in it, read it, and write it. Your class and other features
+      might also give you languages.</p><p>The Standard Languages table lists
+      languages that are widespread on D&amp;D worlds. Every player character
+      knows Common, which originated in the planar metropolis of Sigil, the hub
+      of the multiverse. The other standard languages originated with the first
+      members of the most prominent species in the worlds of D&amp;D and have
+      since spread widely.</p><table
+      style="--sb-table-row-bg-hover:#b3d3df;--sb-table-row-bg-dark:#d7e8ee;--sb-table-row-bg-light:#f1f7f9;--dark-sb-table-row-bg-light:#5e7982;--dark-sb-table-row-bg-dark:#5c7f8c;--dark-sb-table-row-bg-hover:#78a2b0"
+      class="table-compendium table--generic-dice"><caption><p><strong>Standard
+      Languages</strong></p></caption><thead><tr><th><p>1d12</p></th><th><p>Language</p></th><th><p>Origin</p></th></tr></thead><tbody><tr><td><p>—</p></td><td><p>Common</p></td><td><p>Sigil</p></td></tr><tr><td><p>1</p></td><td><p>Common
+      Sign
+      Language</p></td><td><p>Sigil</p></td></tr><tr><td><p>2</p></td><td><p>Draconic</p></td><td><p>Dragons</p></td></tr><tr><td><p>3-4</p></td><td><p>Dwarvish</p></td><td><p>Dwarves</p></td></tr><tr><td><p>5-6</p></td><td><p>Elvish</p></td><td><p>Elves</p></td></tr><tr><td><p>7</p></td><td><p>Giant</p></td><td><p>Giants</p></td></tr><tr><td><p>8</p></td><td><p>Gnomish</p></td><td><p>Gnomes</p></td></tr><tr><td><p>9</p></td><td><p>Goblin</p></td><td><p>Goblinoids</p></td></tr><tr><td><p>10-11</p></td><td><p>Halfling</p></td><td><p>Halflings</p></td></tr><tr><td><p>12</p></td><td><p>Orc</p></td><td><p>Orcs</p></td></tr></tbody></table><p><strong>Changeling
+      Instincts</strong></p><p>Thanks to your connection to the fey realm, you
+      gain proficiency in two of the following skills of your choice:
+      &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
+      &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance}, or
+      &amp;Reference[per]{Persuasion}.</p><p><strong>Shape-Shifter</strong></p><p>As
+      an action, you can shape-shift to change your appearance and your voice.
+      You determine the specifics of the changes, including your coloration,
+      hair length, and sex. You can also adjust your height and weight and can
+      change your size between Medium and Small. You can make yourself appear as
+      a member of another playable species, though none of your game statistics
+      change. You can't duplicate the appearance of an individual you've never
+      seen, and you must adopt a form that has the same basic arrangement of
+      limbs that you have. This trait doesn't change your clothing and
+      equipment.</p><p>While shape-shifted with this trait, you have Advantage
+      on Charisma checks.</p><p>You stay in the new form until you take an
+      action to revert to your true form.</p></div>
+    chat: ''
+  identifier: changling
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    ranges:
+      blindsight: null
+      darkvision: null
+      tremorsense: null
+      truesight: null
+    units: ft
+    special: ''
+  type:
+    value: fey
+    custom: ''
+    subtype: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776819390243
+  modifiedTime: 1776819938269
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Qr8kZpkBUhBJPPBa'

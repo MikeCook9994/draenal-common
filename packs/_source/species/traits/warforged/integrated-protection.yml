@@ -1,0 +1,89 @@
+folder: zozbNAxqGOhPoQH6
+name: Integrated Protection
+type: feat
+_id: fbsqO6yqtNclkpm6
+img: icons/equipment/chest/breastplate-gorget-steel.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <div class="ddb"><p>You gain a +1 bonus to your Armor Class. In addition,
+      armor you have donned can't be removed against your will while you're
+      alive.</p></div>
+    chat: ''
+  identifier: integrated-protection
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: Warforged
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Integrated Protection
+    img: icons/equipment/chest/breastplate-gorget-steel.webp
+    origin: Compendium.draenal-common.species.Item.fbsqO6yqtNclkpm6
+    type: base
+    _id: zAXTz8iyBdQnNTOd
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          type: add
+          value: 1
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.1
+      createdTime: 1776819055097
+      modifiedTime: 1776819067407
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!fbsqO6yqtNclkpm6.zAXTz8iyBdQnNTOd'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776818883724
+  modifiedTime: 1776818914940
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!fbsqO6yqtNclkpm6'

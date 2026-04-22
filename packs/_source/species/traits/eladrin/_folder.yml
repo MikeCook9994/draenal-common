@@ -1,0 +1,19 @@
+type: Item
+folder: 9FdMAMBzqxxiQq0o
+name: Eladrin
+color: null
+sorting: a
+_id: bg0sAuURuHmqUcuY
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776815690321
+  modifiedTime: 1776818529633
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!bg0sAuURuHmqUcuY'

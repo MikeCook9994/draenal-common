@@ -68,12 +68,11 @@ system:
       flags: {}
   description:
     value: >-
-      <p>You have forged a pact with some being who has chosen to manifest their
-      power bestowed upon you in the form of a magic weapon forged from the
-      occult and incomprehensible. Through this weapon, this hexblade, you
-      harness the power of curses and other malignancies to punish those that
-      would stand against your patron. Their little warrior; what good can you
-      do for them?</p>
+      <p>Turns out you weren't just lucky. Willing or not, you have been made a
+      hand of fate tasked to guide the events of the world in their intended
+      direction according to whatever incomprehensible occult power that smiles
+      upon you. You wield the power of ill omens against the forces that wish to
+      usher in a future that the very fabric of reality disagrees with.</p>
     chat: ''
   identifier: hexblade
   source:
@@ -102,6 +101,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.1
   createdTime: 1774227816461
-  modifiedTime: 1776662171166
+  modifiedTime: 1776800305816
   lastModifiedBy: draenalcommon000
 _key: '!items!HP7SJUQSZx72wngA'

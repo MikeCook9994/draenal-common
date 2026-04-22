@@ -1,0 +1,19 @@
+type: Item
+folder: 9FdMAMBzqxxiQq0o
+name: Warforged
+color: null
+sorting: a
+_id: zozbNAxqGOhPoQH6
+description: ''
+sort: 200000
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.1
+  createdTime: 1776818487419
+  modifiedTime: 1776818532114
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!zozbNAxqGOhPoQH6'
