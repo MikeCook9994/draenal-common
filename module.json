@@ -59,6 +59,17 @@
       "system": "dnd5e"
     },
     {
+      "name": "species",
+      "label": "Species",
+      "path": "packs/species",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
       "name": "equipment",
       "label": "Equipment",
       "path": "packs/equipment",
@@ -131,11 +142,14 @@
       "sorting": "m",
       "packs": [
         "backgrounds",
+        "species",
         "classes",
         "equipment",
         "spells",
         "summons",
-        "treasure"
+        "treasure",
+        "npcs",
+        "pcs"
       ]
     }
   ]
