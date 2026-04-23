@@ -5,10 +5,10 @@ img: modules/draenal-common/assets/pc-images/fi_reyn_erebere_lharithlyn.Avatar.w
 system:
   currency:
     pp: 0
-    gp: 0
-    ep: 0
-    sp: 0
-    cp: 0
+    gp: 63
+    ep: 2
+    sp: 65
+    cp: 376
   abilities:
     str:
       value: 8
@@ -8638,8 +8638,9 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.1
   createdTime: 1776813204402
-  modifiedTime: 1776822190751
+  modifiedTime: 1776834566079
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
 _key: '!actors!DqLfAsayienM661c'
+
