@@ -2,7 +2,7 @@
   "id": "draenal-common",
   "title": "Draenal Common",
   "description": "<p>A collection of Draenal's homebrew and compendiums</p>",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "13.351",
     "verified": "14.359"
@@ -14,13 +14,16 @@
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
-          "verified": "5.3.0",
+          "verified": "5.3.2",
           "minimum": "5.0.0"
         }
       }
     ]
   },
-  "url": "https://github.com/MikeCook9994/draenal-common",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
   "authors": [
     {
       "name": "Draenal",
