@@ -155,15 +155,16 @@
       "color": "#00c000",
       "sorting": "m",
       "packs": [
+        "classes",
         "backgrounds",
         "species",
-        "classes",
-        "equipment",
+        "feats",
         "spells",
         "summons",
+        "equipment",
         "treasure",
-        "npcs",
-        "pcs"
+        "pcs",
+        "npcs"
       ]
     }
   ]

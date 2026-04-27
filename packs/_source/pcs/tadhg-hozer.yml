@@ -409,7 +409,7 @@ system:
     bond: ''
     flaw: ''
     race: DiRfkpEPeGiyPfBG
-    background: tctz53cFN1VnrM1P
+    background: zyawDH75ToLd8eJ1
     originalClass: XM26lkv6RY9W7the
     xp:
       value: 0
@@ -1214,8 +1214,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673556
-      modifiedTime: 1777238673556
+      createdTime: 1777267163678
+      modifiedTime: 1777267163678
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkWarlock000
@@ -1296,8 +1296,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673556
-      modifiedTime: 1777238673556
+      createdTime: 1777267163678
+      modifiedTime: 1777267163678
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkEldritchIn
@@ -1406,8 +1406,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673556
-      modifiedTime: 1777238673556
+      createdTime: 1777267163678
+      modifiedTime: 1777267163678
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkPactMagic0
@@ -1661,8 +1661,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777238673558
-          modifiedTime: 1777238673558
+          createdTime: 1777267163683
+          modifiedTime: 1777267163683
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -1685,8 +1685,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673557
-      modifiedTime: 1777238673557
+      createdTime: 1777267163682
+      modifiedTime: 1777267163682
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbinvPactBlade0
@@ -1850,8 +1850,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673557
-      modifiedTime: 1777238673557
+      createdTime: 1777267163678
+      modifiedTime: 1777267163678
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.Qr8kZpkBUhBJPPBa
       duplicateSource: null
@@ -1916,304 +1916,13 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673557
-      modifiedTime: 1777238673557
+      createdTime: 1777267163678
+      modifiedTime: 1777267163678
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!j7ySRfEobPDT5RZo.Rt6kK6MDQjbicvhK'
-  - name: Rewarded
-    type: background
-    _id: tctz53cFN1VnrM1P
-    img: icons/magic/light/orb-hands-humanoid-yellow.webp
-    system:
-      advancement:
-        uBMWrBIpJFb1nBMl:
-          type: AbilityScoreImprovement
-          configuration:
-            points: 3
-            cap: 2
-            fixed:
-              str: 0
-              dex: 0
-              con: 0
-              int: 0
-              wis: 0
-              cha: 0
-            locked:
-              - str
-              - dex
-              - con
-            recommendation: null
-            max: null
-          _id: uBMWrBIpJFb1nBMl
-          value:
-            type: asi
-            assignments:
-              cha: 2
-              int: 1
-          level: 0
-          title: ''
-          hint: ''
-          flags: {}
-        O2Mc9ch1hp43fTuS:
-          type: Trait
-          title: Background Proficiencies
-          _id: O2Mc9ch1hp43fTuS
-          configuration:
-            allowReplacements: false
-            choices: []
-            grants:
-              - skills:ins
-              - skills:per
-              - tool:game:card
-            mode: default
-          level: 0
-          hint: ''
-          value:
-            chosen:
-              - skills:ins
-              - skills:per
-              - tool:game:card
-          flags: {}
-        YyFlIeZi3SZZFG31:
-          type: ItemGrant
-          title: Background Feat
-          _id: YyFlIeZi3SZZFG31
-          configuration:
-            items:
-              - uuid: Compendium.world.feats.Item.KUsRN2N9oHzn50UR
-                optional: false
-            optional: false
-            spell: null
-          value:
-            added:
-              Vk0IdfHK7IWZyTLO: Compendium.world.feats.Item.KUsRN2N9oHzn50UR
-          level: 0
-          flags: {}
-          hint: ''
-        vrxusSUfKm1VUhCM:
-          type: Trait
-          title: Choose Languages
-          configuration:
-            grants:
-              - languages:standard:common
-            allowReplacements: false
-            choices:
-              - count: 2
-                pool:
-                  - languages:*
-            mode: default
-          _id: vrxusSUfKm1VUhCM
-          flags: {}
-          level: 0
-          hint: ''
-          value:
-            chosen:
-              - languages:standard:common
-              - languages:standard:dwarvish
-              - languages:standard:elvish
-      description:
-        value: >-
-          <div class="ddb"><h1>Background:
-          Rewarded</h1><p></p><p><strong>Ability Scores:</strong> Intelligence,
-          Wisdom, Charisma<br><strong>Feat:</strong> Skilled<br><strong>Skill
-          Proficiencies:</strong> &amp;Reference[ath]{Insight} and
-          &amp;Reference[prc]{Persuasion}<br><strong>Tool Proficiency:</strong>
-          <em>Choose one kind of Gaming Set</em><br><strong>Equipment:</strong>
-          <em>Choose A or B:</em> (A) a bottle of black ink, an ink pen,
-          Parchment (5 sheets), a gaming set (same as above), a signet ring,
-          Fine Clothes, a Pouch, 18 gp; or (B) 50 GP</p><p>You were living a
-          difficult life before your destiny suddenly changed through a
-          miraculous turn of good fortune. Perhaps a benevolent deity gave you
-          precisely what you most desired. You might have stumbled across a Deck
-          of Many Things and drawn a card with a potent, positive effect. Or
-          maybe you inherited a modest fortune from a distant relative you
-          didn't know you had.</p></div><p>Regardless, you left the daily
-          miseries of your old life behind in favor of a life of adventure and
-          excitement. Your old debts have been paid, responsibilities you
-          thought inescapable are behind you, or you suddenly possess rare and
-          unusual skills unknown to ordinary folk.</p><div class="ddb"><h2>Feat:
-          Skilled</h2></div>
-        chat: ''
-      identifier: rewarded
-      source:
-        revision: 1
-        rules: '2024'
-        book: The Book of Many Things
-        page: ''
-        custom: ''
-        license: ''
-      startingEquipment:
-        - type: AND
-          requiresProficiency: false
-          _id: J9PJ5qRLs9GWloPA
-          group: ''
-          sort: 300000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iiF1oFTvBLTbxemy
-          requiresProficiency: false
-          _id: kOqVdBBe7lQib9KU
-          group: J9PJ5qRLs9GWloPA
-          sort: 325000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.FKcNFpi61lEBq4zB
-          requiresProficiency: false
-          _id: cwkewhAzuNb8d9U0
-          group: J9PJ5qRLs9GWloPA
-          sort: 337500
-        - type: linked
-          count: 5
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iTxnjoMbsC3HeoB6
-          requiresProficiency: false
-          _id: 2V5UnHdiiy4HMETE
-          group: J9PJ5qRLs9GWloPA
-          sort: 343750
-        - type: tool
-          count: 1
-          key: game
-          requiresProficiency: false
-          _id: n9GA0T2MwBA5LAoG
-          group: J9PJ5qRLs9GWloPA
-          sort: 350000
-        - type: linked
-          count: 1
-          key: Compendium.draenal-common.treasure.Item.MhPsBq43bl7dxjvM
-          requiresProficiency: false
-          _id: ex9anqC92yKXn1n0
-          group: J9PJ5qRLs9GWloPA
-          sort: 900000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.LaOBA2voPjxnAcVB
-          requiresProficiency: false
-          _id: SAyhOQk8F6VDN8ud
-          group: J9PJ5qRLs9GWloPA
-          sort: 1000000
-        - type: currency
-          count: 18
-          key: gp
-          requiresProficiency: false
-          _id: 5lIRkV6lne6YUQzR
-          group: J9PJ5qRLs9GWloPA
-          sort: 1100000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
-          requiresProficiency: false
-          _id: xE5I9A0X3XLsibKf
-          group: J9PJ5qRLs9GWloPA
-          sort: 1050000
-      wealth: '50'
-    effects: []
-    folder: null
-    flags: {}
-    _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1777238673557
-      modifiedTime: 1777238673557
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.backgrounds.Item.5uIZ9zumyTsyxQk8
-    ownership:
-      default: 0
-    sort: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.tctz53cFN1VnrM1P'
-  - folder: czuxGSDEF9XXySRs
-    name: Skilled
-    type: feat
-    _id: Vk0IdfHK7IWZyTLO
-    img: icons/commodities/biological/organ-brain-pink.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement:
-        NNxKptkZYe3iIYqc:
-          type: Trait
-          _id: NNxKptkZYe3iIYqc
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - skills:*
-              - count: 1
-                pool:
-                  - skills:*
-              - count: 1
-                pool:
-                  - skills:*
-            grants: []
-            mode: default
-          flags: {}
-          level: 0
-          hint: ''
-          value:
-            chosen:
-              - skills:ste
-              - skills:acr
-              - skills:his
-          title: Skilled
-          icon: icons/commodities/biological/organ-brain-pink.webp
-      description:
-        value: >-
-          <div class="ddb"><p>You gain proficiency in any combination of three
-          skills or tools of your
-          choice.</p><p><em><strong>Repeatable.</strong></em> You can take this
-          feat more than once.</p></div>
-        chat: ''
-      identifier: skilled
-      source:
-        revision: 1
-        rules: '2024'
-        book: ''
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: true
-        level: null
-      properties:
-        - trait
-      requirements: Origin Feat
-      type:
-        value: feat
-        subtype: origin
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.world.feats.Item.KUsRN2N9oHzn50UR
-        advancementOrigin: tctz53cFN1VnrM1P.YyFlIeZi3SZZFG31
-        advancementRoot: tctz53cFN1VnrM1P.YyFlIeZi3SZZFG31
-        '-=riders': null
-    _stats:
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1777238673557
-      modifiedTime: 1777238673557
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.world.feats.Item.KUsRN2N9oHzn50UR
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!j7ySRfEobPDT5RZo.Vk0IdfHK7IWZyTLO'
   - _id: uH9sRx5vjWghcS45
     name: Magical Cunning
     type: feat
@@ -2328,13 +2037,14 @@ items:
         sourceId: Compendium.dnd5e.classes24.Item.phbwlkMagicalCun
         advancementOrigin: XM26lkv6RY9W7the.IUkGspfJYbVXFLjw
         advancementRoot: XM26lkv6RY9W7the.IUkGspfJYbVXFLjw
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673538
-      modifiedTime: 1777238673540
+      createdTime: 1777267163678
+      modifiedTime: 1777267163678
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkMagicalCun
@@ -2394,13 +2104,14 @@ items:
         sourceId: Compendium.dnd5e.classes24.Item.phbinvAgonizingB
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673539
-      modifiedTime: 1777238673540
+      createdTime: 1777267163679
+      modifiedTime: 1777267163679
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbinvAgonizingB
@@ -2477,8 +2188,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777238673539
-          modifiedTime: 1777238673539
+          createdTime: 1777267163683
+          modifiedTime: 1777267163683
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -2495,13 +2206,14 @@ items:
         sourceId: Compendium.dnd5e.classes24.Item.phbinvDevilsSigh
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238673539
-      modifiedTime: 1777238673540
+      createdTime: 1777267163683
+      modifiedTime: 1777267163683
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbinvDevilsSigh
@@ -2650,13 +2362,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238728718
-      modifiedTime: 1777238728718
+      createdTime: 1777267163679
+      modifiedTime: 1777267163679
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEldritchBl
@@ -2882,22 +2595,24 @@ items:
           systemId: dnd5e
           systemVersion: 5.3.2
           lastModifiedBy: draenalcommon000
-          createdTime: 1777238733920
-          modifiedTime: 1777238733920
+          createdTime: 1777267163684
+          modifiedTime: 1777267163684
         start: null
         showIcon: 1
         folder: null
         _key: >-
           !actors.items.effects!j7ySRfEobPDT5RZo.GgJeT7LtyuyLJOYq.f4WchdoGtphyv3TQ
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
       duplicateSource: null
       exportSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238733920
-      modifiedTime: 1777239137281
+      createdTime: 1777267163683
+      modifiedTime: 1777267163683
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
     ownership:
@@ -3054,8 +2769,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777238737936
-          modifiedTime: 1777238737936
+          createdTime: 1777267163684
+          modifiedTime: 1777267163684
           lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
@@ -3072,13 +2787,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238737936
-      modifiedTime: 1777239137630
+      createdTime: 1777267163684
+      modifiedTime: 1777267163684
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
@@ -3230,8 +2946,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777238741945
-          modifiedTime: 1777238741945
+          createdTime: 1777267163684
+          modifiedTime: 1777267163684
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -3248,13 +2964,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777238741945
-      modifiedTime: 1777239138108
+      createdTime: 1777267163684
+      modifiedTime: 1777267163684
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplComprehend
@@ -3491,8 +3208,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777239130644
-          modifiedTime: 1777239130644
+          createdTime: 1777267163685
+          modifiedTime: 1777267163685
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3502,13 +3219,15 @@ items:
     sort: 0
     ownership:
       default: 0
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239130644
-      modifiedTime: 1777239130644
+      createdTime: 1777267163685
+      modifiedTime: 1777267163685
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.spells.Item.nkqOrpF9L9prak5T
       duplicateSource: null
@@ -3932,8 +3651,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777239183866
-          modifiedTime: 1777239183866
+          createdTime: 1777267163686
+          modifiedTime: 1777267163686
           lastModifiedBy: draenalcommon000
         _id: p02hoHkosW0dPWRJ
         start: null
@@ -4014,8 +3733,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777239183866
-          modifiedTime: 1777239183866
+          createdTime: 1777267163687
+          modifiedTime: 1777267163687
           lastModifiedBy: draenalcommon000
         _id: Xb3DqWWwbeslWzoq
         start: null
@@ -4106,8 +3825,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777239183866
-          modifiedTime: 1777239183866
+          createdTime: 1777267163687
+          modifiedTime: 1777267163687
           lastModifiedBy: draenalcommon000
         _id: BBXmiGZEcTqdwfKq
         start: null
@@ -4156,8 +3875,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777239183866
-          modifiedTime: 1777239183866
+          createdTime: 1777267163687
+          modifiedTime: 1777267163687
           lastModifiedBy: draenalcommon000
         start: null
         showIcon: 1
@@ -4200,8 +3919,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777239183866
-          modifiedTime: 1777239183866
+          createdTime: 1777267163688
+          modifiedTime: 1777267163688
           lastModifiedBy: draenalcommon000
         start: null
         showIcon: 1
@@ -4212,15 +3931,17 @@ items:
     sort: 200000
     ownership:
       default: 0
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
       duplicateSource: null
       exportSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239183866
-      modifiedTime: 1777239186524
+      createdTime: 1777267163686
+      modifiedTime: 1777267163686
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
     _key: '!actors.items!j7ySRfEobPDT5RZo.R7goWvTr6WUc6FL5'
@@ -4387,13 +4108,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239257049
-      modifiedTime: 1777239257050
+      createdTime: 1777267163679
+      modifiedTime: 1777267163679
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepLongsword0
@@ -4563,13 +4285,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239261810
-      modifiedTime: 1777239261810
+      createdTime: 1777267163679
+      modifiedTime: 1777267163679
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
@@ -4618,8 +4341,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239266052
-      modifiedTime: 1777239266053
+      createdTime: 1777267163679
+      modifiedTime: 1777267163679
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagCrowbar0000
@@ -4693,13 +4416,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239270227
-      modifiedTime: 1777239271661
+      createdTime: 1777267163679
+      modifiedTime: 1777267163679
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbafcOrb0000000
@@ -4772,13 +4496,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239277128
-      modifiedTime: 1777239277128
+      createdTime: 1777267163680
+      modifiedTime: 1777267163680
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
@@ -4849,13 +4574,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239282655
-      modifiedTime: 1777239301269
+      createdTime: 1777267163680
+      modifiedTime: 1777267163680
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
@@ -4926,13 +4652,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239287701
-      modifiedTime: 1777239287701
+      createdTime: 1777267163680
+      modifiedTime: 1777267163680
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmChainShirt
@@ -5059,14 +4786,16 @@ items:
       attuned: false
       equipped: false
     effects: []
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239295552
-      modifiedTime: 1777239295552
+      createdTime: 1777267163680
+      modifiedTime: 1777267163680
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.dmgPotionOfHeali
@@ -5266,8 +4995,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777239307634
-          modifiedTime: 1777239307634
+          createdTime: 1777267163685
+          modifiedTime: 1777267163685
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -5278,14 +5007,16 @@ items:
     sort: 500000
     ownership:
       default: 0
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239307634
-      modifiedTime: 1777239311820
+      createdTime: 1777267163685
+      modifiedTime: 1777267163685
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagCaltrops000
@@ -5505,13 +5236,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239319728
-      modifiedTime: 1777239321993
+      createdTime: 1777267163680
+      modifiedTime: 1777267163680
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagOil00000000
@@ -5757,13 +5489,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239326045
-      modifiedTime: 1777239326045
+      createdTime: 1777267163680
+      modifiedTime: 1777267163680
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRope0000000
@@ -5917,13 +5650,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239330937
-      modifiedTime: 1777239333266
+      createdTime: 1777267163680
+      modifiedTime: 1777267163680
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTorch000000
@@ -5984,8 +5718,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239340067
-      modifiedTime: 1777239672658
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagWaterskin00
@@ -6105,13 +5839,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239340068
-      modifiedTime: 1777239340068
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.2nlARB78sJo8Z2W6
@@ -6166,8 +5901,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239347276
-      modifiedTime: 1777239347276
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBook0000000
@@ -6226,8 +5961,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239617081
-      modifiedTime: 1777239626743
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.treasure.Item.MhPsBq43bl7dxjvM
     _key: '!actors.items!j7ySRfEobPDT5RZo.tkzqWhtDhDNzZxpP'
@@ -6286,8 +6021,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239654754
-      modifiedTime: 1777239668274
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
@@ -6361,13 +6096,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239700796
-      modifiedTime: 1777239700796
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagClothesFine
@@ -6434,13 +6170,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239705258
-      modifiedTime: 1777239705258
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagInk00000000
@@ -6511,13 +6248,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239711650
-      modifiedTime: 1777239711650
+      createdTime: 1777267163681
+      modifiedTime: 1777267163681
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagInkPen00000
@@ -6564,8 +6302,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239718147
-      modifiedTime: 1777239720530
+      createdTime: 1777267163682
+      modifiedTime: 1777267163682
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPaper000000
@@ -6688,13 +6426,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239725455
-      modifiedTime: 1777239728913
+      createdTime: 1777267163682
+      modifiedTime: 1777267163682
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRations0000
@@ -6824,13 +6563,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239734270
-      modifiedTime: 1777239734270
+      createdTime: 1777267163682
+      modifiedTime: 1777267163682
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTinderbox00
@@ -7017,25 +6757,313 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777239738185
-      modifiedTime: 1777239738185
+      createdTime: 1777267163682
+      modifiedTime: 1777267163682
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbgstPlayingcar
     _key: '!actors.items!j7ySRfEobPDT5RZo.8kMc1s6Srbk9mf9n'
+  - name: Rewarded
+    type: background
+    _id: zyawDH75ToLd8eJ1
+    img: icons/magic/light/orb-hands-humanoid-yellow.webp
+    system:
+      advancement:
+        uBMWrBIpJFb1nBMl:
+          type: AbilityScoreImprovement
+          configuration:
+            points: 3
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked:
+              - str
+              - dex
+              - con
+            recommendation: null
+            max: null
+          _id: uBMWrBIpJFb1nBMl
+          value:
+            type: asi
+            assignments:
+              cha: 2
+              int: 1
+          level: 0
+          title: ''
+          hint: ''
+          flags: {}
+        O2Mc9ch1hp43fTuS:
+          type: Trait
+          title: Background Proficiencies
+          _id: O2Mc9ch1hp43fTuS
+          configuration:
+            allowReplacements: false
+            choices: []
+            grants:
+              - skills:ins
+              - skills:per
+              - tool:game:card
+            mode: default
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - skills:ins
+              - skills:per
+              - tool:game:card
+          flags: {}
+        YyFlIeZi3SZZFG31:
+          type: ItemGrant
+          title: Background Feat
+          _id: YyFlIeZi3SZZFG31
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              eEvWJAm8nKdy47My: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
+          level: 0
+          flags: {}
+          hint: ''
+        vrxusSUfKm1VUhCM:
+          type: Trait
+          title: Choose Languages
+          configuration:
+            grants:
+              - languages:standard:common
+            allowReplacements: false
+            choices:
+              - count: 2
+                pool:
+                  - languages:*
+            mode: default
+          _id: vrxusSUfKm1VUhCM
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - languages:standard:common
+              - languages:standard:dwarvish
+              - languages:standard:elvish
+      description:
+        value: >-
+          <div class="ddb"><h1>Background:
+          Rewarded</h1><p></p><p><strong>Ability Scores:</strong> Intelligence,
+          Wisdom, Charisma<br><strong>Feat:</strong> Skilled<br><strong>Skill
+          Proficiencies:</strong> &amp;Reference[ath]{Insight} and
+          &amp;Reference[prc]{Persuasion}<br><strong>Tool Proficiency:</strong>
+          <em>Choose one kind of Gaming Set</em><br><strong>Equipment:</strong>
+          <em>Choose A or B:</em> (A) a bottle of black ink, an ink pen,
+          Parchment (5 sheets), a gaming set (same as above), a signet ring,
+          Fine Clothes, a Pouch, 18 gp; or (B) 50 GP</p><p>You were living a
+          difficult life before your destiny suddenly changed through a
+          miraculous turn of good fortune. Perhaps a benevolent deity gave you
+          precisely what you most desired. You might have stumbled across a Deck
+          of Many Things and drawn a card with a potent, positive effect. Or
+          maybe you inherited a modest fortune from a distant relative you
+          didn't know you had.</p></div><p>Regardless, you left the daily
+          miseries of your old life behind in favor of a life of adventure and
+          excitement. Your old debts have been paid, responsibilities you
+          thought inescapable are behind you, or you suddenly possess rare and
+          unusual skills unknown to ordinary folk.</p><div class="ddb"><h2>Feat:
+          Skilled</h2></div>
+        chat: ''
+      identifier: rewarded
+      source:
+        revision: 1
+        rules: '2024'
+        book: The Book of Many Things
+        page: ''
+        custom: ''
+        license: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: J9PJ5qRLs9GWloPA
+          group: ''
+          sort: 300000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iiF1oFTvBLTbxemy
+          requiresProficiency: false
+          _id: kOqVdBBe7lQib9KU
+          group: J9PJ5qRLs9GWloPA
+          sort: 325000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.FKcNFpi61lEBq4zB
+          requiresProficiency: false
+          _id: cwkewhAzuNb8d9U0
+          group: J9PJ5qRLs9GWloPA
+          sort: 337500
+        - type: linked
+          count: 5
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iTxnjoMbsC3HeoB6
+          requiresProficiency: false
+          _id: 2V5UnHdiiy4HMETE
+          group: J9PJ5qRLs9GWloPA
+          sort: 343750
+        - type: tool
+          count: 1
+          key: game
+          requiresProficiency: false
+          _id: n9GA0T2MwBA5LAoG
+          group: J9PJ5qRLs9GWloPA
+          sort: 350000
+        - type: linked
+          count: 1
+          key: Compendium.draenal-common.treasure.Item.MhPsBq43bl7dxjvM
+          requiresProficiency: false
+          _id: ex9anqC92yKXn1n0
+          group: J9PJ5qRLs9GWloPA
+          sort: 900000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.LaOBA2voPjxnAcVB
+          requiresProficiency: false
+          _id: SAyhOQk8F6VDN8ud
+          group: J9PJ5qRLs9GWloPA
+          sort: 1000000
+        - type: currency
+          count: 18
+          key: gp
+          requiresProficiency: false
+          _id: 5lIRkV6lne6YUQzR
+          group: J9PJ5qRLs9GWloPA
+          sort: 1100000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
+          requiresProficiency: false
+          _id: xE5I9A0X3XLsibKf
+          group: J9PJ5qRLs9GWloPA
+          sort: 1050000
+      wealth: '50'
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777267163600
+      modifiedTime: 1777267163601
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.backgrounds.Item.5uIZ9zumyTsyxQk8
+    _key: '!actors.items!j7ySRfEobPDT5RZo.zyawDH75ToLd8eJ1'
+  - folder: czuxGSDEF9XXySRs
+    name: Skilled
+    type: feat
+    _id: eEvWJAm8nKdy47My
+    img: icons/commodities/biological/organ-brain-pink.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        NNxKptkZYe3iIYqc:
+          type: Trait
+          _id: NNxKptkZYe3iIYqc
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - skills:*
+              - count: 1
+                pool:
+                  - skills:*
+              - count: 1
+                pool:
+                  - skills:*
+            grants: []
+            mode: default
+          flags: {}
+          level: 0
+          hint: ''
+          title: Skilled
+          icon: icons/commodities/biological/organ-brain-pink.webp
+          value:
+            chosen:
+              - skills:acr
+              - skills:his
+              - skills:ste
+      description:
+        value: >-
+          <div class="ddb"><p>You gain proficiency in any combination of three
+          skills or tools of your
+          choice.</p><p><em><strong>Repeatable.</strong></em> You can take this
+          feat more than once.</p></div>
+        chat: ''
+      identifier: skilled
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: true
+        level: null
+      properties:
+        - trait
+      requirements: Origin Feat
+      type:
+        value: feat
+        subtype: origin
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
+        advancementOrigin: zyawDH75ToLd8eJ1.YyFlIeZi3SZZFG31
+        advancementRoot: zyawDH75ToLd8eJ1.YyFlIeZi3SZZFG31
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777267163601
+      modifiedTime: 1777267163601
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!j7ySRfEobPDT5RZo.eEvWJAm8nKdy47My'
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    showTokenPortrait: true
   tokenizer-2:
     layerStack:
       - id: HBX5yyXN2AH9ejGm
@@ -7210,7 +7238,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776813242680
-  modifiedTime: 1777245931022
+  modifiedTime: 1777267165245
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

@@ -424,7 +424,7 @@ system:
       Is mostly unfamiliar with the current world, thus gaining disadvantage to
       intelligence checks about modern history/current events.
     race: nttSqILmQCK11heY
-    background: zJu10YEACZikIJIZ
+    background: iWf0bjYmvYYWlqi8
     originalClass: S1EKW9QxuK6sVSvu
     xp:
       value: 0
@@ -466,8 +466,8 @@ system:
       value:
         - primordial
         - common
-        - dwarvish
         - terran
+        - dwarvish
       custom: ''
       communication:
         telepathy:
@@ -1266,8 +1266,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571228
-      modifiedTime: 1777241571228
+      createdTime: 1777267344746
+      modifiedTime: 1777267344746
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnPaladin000
@@ -1468,8 +1468,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571229
-      modifiedTime: 1777241571229
+      createdTime: 1777267344746
+      modifiedTime: 1777267344746
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnLayOnHands
@@ -1556,8 +1556,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571229
-      modifiedTime: 1777241571229
+      createdTime: 1777267344746
+      modifiedTime: 1777267344746
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnSpellcasti
@@ -1619,8 +1619,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571229
-      modifiedTime: 1777241571229
+      createdTime: 1777267344746
+      modifiedTime: 1777267344746
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnWeaponMast
@@ -1793,8 +1793,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571229
-      modifiedTime: 1777241571229
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.oKgMyQ86elquigMc
       duplicateSource: null
@@ -1875,8 +1875,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777241571233
-          modifiedTime: 1777241571233
+          createdTime: 1777267344749
+          modifiedTime: 1777267344749
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1896,8 +1896,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571233
-      modifiedTime: 1777241571233
+      createdTime: 1777267344749
+      modifiedTime: 1777267344749
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.fbsqO6yqtNclkpm6
       duplicateSource: null
@@ -1956,8 +1956,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571231
-      modifiedTime: 1777241571231
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.QqyRuZHxqMBKHQkz
       duplicateSource: null
@@ -2014,8 +2014,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571231
-      modifiedTime: 1777241571231
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.H6GWXj3NhSyrpFsF
       duplicateSource: null
@@ -2076,8 +2076,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571229
-      modifiedTime: 1777241571229
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
@@ -2136,8 +2136,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571229
-      modifiedTime: 1777241571229
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPouch000000
@@ -2312,8 +2312,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepMaul000000
@@ -2396,8 +2396,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn
@@ -2475,8 +2475,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmChainMail0
@@ -2636,8 +2636,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777241571232
-          modifiedTime: 1777241571232
+          createdTime: 1777267344750
+          modifiedTime: 1777267344750
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -2662,8 +2662,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571231
-      modifiedTime: 1777241571231
+      createdTime: 1777267344750
+      modifiedTime: 1777267344750
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.dnd5e.equipment24.Item.dmgSpellScroll2n
     ownership:
@@ -2798,8 +2798,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344747
+      modifiedTime: 1777267344747
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulMasonsTool
@@ -2945,8 +2945,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344748
+      modifiedTime: 1777267344748
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulSmithsTool
@@ -2993,8 +2993,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344748
+      modifiedTime: 1777267344748
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.treasure.Item.AGBXMOpTlsfALBeL
       duplicateSource: null
@@ -3042,8 +3042,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344748
+      modifiedTime: 1777267344748
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.treasure.Item.XFdoqaqnOVUfbGhH
       duplicateSource: null
@@ -3179,8 +3179,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344748
+      modifiedTime: 1777267344748
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
@@ -3327,8 +3327,8 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777241571232
-          modifiedTime: 1777241571232
+          createdTime: 1777267344750
+          modifiedTime: 1777267344750
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -3351,8 +3351,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571232
-      modifiedTime: 1777241571232
+      createdTime: 1777267344750
+      modifiedTime: 1777267344750
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDivineFavo
@@ -3555,8 +3555,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344748
+      modifiedTime: 1777267344748
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDivineSmit
@@ -3615,8 +3615,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344748
+      modifiedTime: 1777267344748
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnFightingSt
@@ -3680,8 +3680,8 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571230
-      modifiedTime: 1777241571230
+      createdTime: 1777267344749
+      modifiedTime: 1777267344749
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnPaladinsSm
@@ -3748,15 +3748,15 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571231
-      modifiedTime: 1777241571231
+      createdTime: 1777267344749
+      modifiedTime: 1777267344749
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.feats24.Item.phbfstGreatWeapo
     _key: '!actors.items!HsCEyyIEA7FD1HXJ.r17cjPRSolV4RF0A'
   - name: Time-Lost
     type: background
-    _id: zJu10YEACZikIJIZ
+    _id: iWf0bjYmvYYWlqi8
     img: systems/dnd5e/icons/backgrounds/soldier.webp
     system:
       advancement:
@@ -3816,13 +3816,13 @@ items:
           _id: QzyhFgc6irXZvH79
           configuration:
             items:
-              - uuid: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+              - uuid: Compendium.draenal-common.feats.Item.BQZ32XwIRrdwpcod
                 optional: false
             optional: false
             spell: null
           value:
             added:
-              AVurYqgAYT1V7uUm: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+              eqH0Lc3TlaKwiW3O: Compendium.draenal-common.feats.Item.BQZ32XwIRrdwpcod
           level: 0
           flags: {}
           hint: ''
@@ -3845,8 +3845,8 @@ items:
           value:
             chosen:
               - languages:standard:common
-              - languages:standard:dwarvish
               - languages:exotic:primordial:terran
+              - languages:standard:dwarvish
       description:
         value: >-
           <div class="ddb"><h1>Background:
@@ -3912,9 +3912,6 @@ items:
       wealth: '50'
     effects: []
     folder: null
-    sort: 0
-    ownership:
-      default: 0
     flags: {}
     _stats:
       duplicateSource: null
@@ -3922,16 +3919,19 @@ items:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571231
-      modifiedTime: 1777241571231
+      createdTime: 1777267344713
+      modifiedTime: 1777267344713
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.backgrounds.Item.S130hA7rho7fxCuQ
-    _key: '!actors.items!HsCEyyIEA7FD1HXJ.zJu10YEACZikIJIZ'
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.iWf0bjYmvYYWlqi8'
   - folder: czuxGSDEF9XXySRs
     name: Tough
     type: feat
-    _id: AVurYqgAYT1V7uUm
-    img: icons/skills/melee/unarmed-punch-fist.webp
+    _id: eqH0Lc3TlaKwiW3O
+    img: icons/magic/control/buff-strength-muscle-damage.webp
     system:
       activities: {}
       uses:
@@ -3950,6 +3950,7 @@ items:
       source:
         revision: 1
         rules: '2024'
+        book: ''
       crewed: false
       enchant: {}
       prerequisites:
@@ -3997,34 +3998,33 @@ items:
           coreVersion: '14.360'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777241571233
-          modifiedTime: 1777241571233
+          createdTime: 1777267344714
+          modifiedTime: 1777267344714
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _key: >-
-          !actors.items.effects!HsCEyyIEA7FD1HXJ.AVurYqgAYT1V7uUm.HoZYtOrrEet2VXIQ
+          !actors.items.effects!HsCEyyIEA7FD1HXJ.eqH0Lc3TlaKwiW3O.HoZYtOrrEet2VXIQ
     sort: 0
     ownership:
       default: 0
     flags:
       dnd5e:
-        sourceId: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
-        advancementOrigin: zJu10YEACZikIJIZ.QzyhFgc6irXZvH79
-        advancementRoot: zJu10YEACZikIJIZ.QzyhFgc6irXZvH79
-        '-=riders': null
+        sourceId: Compendium.draenal-common.feats.Item.BQZ32XwIRrdwpcod
+        advancementOrigin: iWf0bjYmvYYWlqi8.QzyhFgc6irXZvH79
+        advancementRoot: iWf0bjYmvYYWlqi8.QzyhFgc6irXZvH79
     _stats:
       coreVersion: '14.360'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777241571232
-      modifiedTime: 1777241571232
+      createdTime: 1777267344714
+      modifiedTime: 1777267344714
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+      compendiumSource: Compendium.draenal-common.feats.Item.BQZ32XwIRrdwpcod
       duplicateSource: null
       exportSource: null
-    _key: '!actors.items!HsCEyyIEA7FD1HXJ.AVurYqgAYT1V7uUm'
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.eqH0Lc3TlaKwiW3O'
 effects: []
 folder: null
 sort: 0
@@ -4264,7 +4264,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776813229521
-  modifiedTime: 1777246112878
+  modifiedTime: 1777267345005
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

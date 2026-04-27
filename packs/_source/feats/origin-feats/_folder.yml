@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Origin Feats
+color: null
+sorting: a
+_id: czuxGSDEF9XXySRs
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777266952972
+  modifiedTime: 1777266953000
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!czuxGSDEF9XXySRs'
+

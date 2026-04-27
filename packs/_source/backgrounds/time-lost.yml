@@ -53,7 +53,7 @@ system:
       _id: QzyhFgc6irXZvH79
       configuration:
         items:
-          - uuid: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+          - uuid: Compendium.draenal-common.feats.Item.BQZ32XwIRrdwpcod
             optional: false
         optional: false
         spell: null
@@ -152,7 +152,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1768850511676
-  modifiedTime: 1777238134631
+  modifiedTime: 1777267031217
   lastModifiedBy: draenalcommon000
 _key: '!items!S130hA7rho7fxCuQ'
 

@@ -1,0 +1,74 @@
+folder: czuxGSDEF9XXySRs
+name: Skilled
+type: feat
+_id: KUsRN2N9oHzn50UR
+img: icons/commodities/biological/organ-brain-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    NNxKptkZYe3iIYqc:
+      type: Trait
+      _id: NNxKptkZYe3iIYqc
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:*
+          - count: 1
+            pool:
+              - skills:*
+          - count: 1
+            pool:
+              - skills:*
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      title: Skilled
+      icon: icons/commodities/biological/organ-brain-pink.webp
+      value: {}
+  description:
+    value: >-
+      <div class="ddb"><p>You gain proficiency in any combination of three
+      skills or tools of your
+      choice.</p><p><em><strong>Repeatable.</strong></em> You can take this feat
+      more than once.</p></div>
+    chat: ''
+  identifier: skilled
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: true
+    level: null
+  properties:
+    - trait
+  requirements: Origin Feat
+  type:
+    value: feat
+    subtype: origin
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777266952993
+  modifiedTime: 1777266952993
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KUsRN2N9oHzn50UR'
+
