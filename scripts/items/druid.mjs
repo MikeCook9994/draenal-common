@@ -1,8 +1,9 @@
 export default class Druid {
-    hookRegistrations = {};
 
     constructor() {
         this._wildShape();
+        this.hookRegistrations = {};
+        this.transformingDruid = null;
     }
 
     _wildShape() {
@@ -10,13 +11,13 @@ export default class Druid {
             if (activity.item.flags.dnd5e.sourceId === "Compendium.dnd5e.classes24.Item.phbdrdWildShape0" && 
                 activity.item.actor.isOwner
             ) {
-                transformingDruid = activity.item.actor;
+                this.transformingDruid = activity.item.actor;
             }
         })
 
         Hooks.on('preRenderCompendiumBrowser', (application, context) => {
-            if (transformingDruid) {
-                let sourceKey = `${transformingDruid.name} Forms`;
+            if (this.transformingDruid) {
+                let sourceKey = `${this.transformingDruid.name} Forms`;
                 application.options.filters.locked.additional.source =
                 context.filters.additional.source = {
                     [sourceKey.slugify({strict: true})]: 1
@@ -31,7 +32,7 @@ export default class Druid {
                         }
                     }
                 })
-                transformingDruid = undefined;
+                this.transformingDruid = null;
             }
         });
     }

@@ -1,19 +1,19 @@
-export default class HexbladePatron {
+export default class TheFatesPatron {
     hookRegistrations = {};
 
     constructor() {
-        this._hexbladesCurse();
+        this._fatesOmen();
     }
 
-    _hexbladesCurse() {
+    _fatesOmen() {
         let killedTarget = null;
 
         const effortlessAgonyUpgradeHookId = Hooks.on("createItem", (document, options, userId) => {
-            if (!game.user.isGM || // skip if user is not the GM or
-                !options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA") || // if the character is not a hexblade or
+            if (!document.actor.isOwner || // skip if user is not the owner or 
+                !options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA") || // if the character is not a fate's patron or
                 (document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and 
                 document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.classes24.Item.phbwlkMagicalCun" && // the item is not Magical Cunning and
-                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j") // the item is not hexblade's curse
+                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j") // the item is not fate's omen
             ) {
                 return;
             }
@@ -54,9 +54,10 @@ export default class HexbladePatron {
         });
 
         const effortlessAgonyDowngradeHookId = Hooks.on("deleteItem", (document, options, userId) => {
-            if (!game.user.isGM || (document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA" && // skip if the user is not game || item is not Hexblade Patron and
+            if (!document.actor.isOwner || // skip if user is not the owner or 
+                (document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA" && // item is not Hexblade Patron and
                 document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and
-                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j") // the item is not hexblade's curse
+                document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j") // the item is not fate's omen
             ) {
                 return;
             }
@@ -86,11 +87,11 @@ export default class HexbladePatron {
                 foundry.utils.mergeObject(sourceObject, consumptionUpdate));
         });
 
-        const improvedCriticalHookId = this._registerHexbladesCurseAttackModifierHook("dnd5e.preRollAttack", (rollConfig) => {
+        const improvedCriticalHookId = this._registerFatesOmenAttackModifierHook("dnd5e.preRollAttack", (rollConfig) => {
             rollConfig.rolls.forEach(roll => roll.options.criticalSuccess = 19);
         });
 
-        const bonusDamageHookId = this._registerHexbladesCurseAttackModifierHook("dnd5e.preRollDamage", (rollConfig) => {
+        const bonusDamageHookId = this._registerFatesOmenAttackModifierHook("dnd5e.preRollDamage", (rollConfig) => {
             rollConfig.rolls.filter(roll => roll.base)[0].parts.push("1d6");
         });
 
@@ -128,16 +129,16 @@ export default class HexbladePatron {
                 const sourceHexblades = this._getCurseSourceHexblades(activeEffect.parent)
                 if (sourceHexblades.length > 0) killedTarget = target;
 
-                sourceHexblades.forEach(source => {
-                    const hexbladesCurse = source.sourcedItems.get("Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j").first();
-                    hexbladesCurse.system.activities.contents[0].use({}, { configure: false }, { create: false });
+                sourceHexblades.filter(source => source.isOwner).forEach(source => {
+                    const fatesOmen = source.sourcedItems.get("Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j").first();
+                    fatesOmen.system.activities.contents[0].use({}, { configure: false }, { create: false });
                 });
             }
 
             return true;
         });
 
-        this.hookRegistrations.hexbladesCurse = {
+        this.hookRegistrations.fatesOmen = {
             effortlessAgonyUpgrade: effortlessAgonyUpgradeHookId,
             effortlessAgonyDowngrade: effortlessAgonyDowngradeHookId,
             improvedCritical: improvedCriticalHookId,
@@ -147,10 +148,10 @@ export default class HexbladePatron {
         };
     }
 
-    _registerHexbladesCurseAttackModifierHook(hook, rollConfigMutationCallback) {
+    _registerFatesOmenAttackModifierHook(hook, rollConfigMutationCallback) {
         return Hooks.on(hook, (rollConfig, dialogConfig, messageConfig) => {
-            if (game.user.isGM &&
-                rollConfig.subject.actor.subclasses.hasOwnProperty("hexblade") &&
+            if (rollConfig.subject.actor.isOwner &&
+                rollConfig.subject.actor.subclasses.hasOwnProperty("the-fates-patron") &&
                 messageConfig.data.flags.dnd5e.targets.length === 1
             ) {
                 const target = fromUuidSync(messageConfig.data.flags.dnd5e.targets[0].uuid);
@@ -178,6 +179,6 @@ export default class HexbladePatron {
         return actor.effects
             .filter(e => e.active && e.origin?.startsWith("Actor") && e.statuses.has("cursed"))
             .map(e => game.actors.get(e.origin.split(".")[1]))
-            .filter(s => s?.subclasses.hasOwnProperty("hexblade"));
+            .filter(s => s?.subclasses.hasOwnProperty("the-fates-patron"));
     }
 }

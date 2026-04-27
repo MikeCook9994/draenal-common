@@ -8,7 +8,7 @@ export default class Timberwolf {
     _scentOfBlood() {
         const scentOfBloodBonusDamageHookId = Hooks.on("dnd5e.preRollDamage", (rollConfig, dialogConfig, messageConfig) => {
             const timberwolfItem = rollConfig.subject.actor.sourcedItems.get("Compendium.draenal-common.equipment.Item.lZQ9oZq5Olxo9L2f")?.first();
-            if (game.user.isGM &&
+            if (rollConfig.subject.actor.isOwner &&
                 timberwolfItem?.id === rollConfig.subject.item.id &&
                 messageConfig.data.flags.dnd5e.targets.length === 1 &&
                 fromUuidSync(messageConfig.data.flags.dnd5e.targets[0].uuid).system.attributes.hp.pct <= 50

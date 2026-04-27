@@ -73,6 +73,17 @@
       "system": "dnd5e"
     },
     {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "system": "dnd5e"
+    },
+    {
       "name": "equipment",
       "label": "Equipment",
       "path": "packs/equipment",

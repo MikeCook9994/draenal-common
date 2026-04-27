@@ -9,7 +9,7 @@ export default class HexbladePatron {
         let killedTarget = null;
 
         const effortlessAgonyUpgradeHookId = Hooks.on("createItem", (document, options, userId) => {
-            if (!game.user.isGM || // skip if user is not the GM or
+            if (!document.actor.isOwner || // skip if user is not the GM or owner or 
                 !options.parent.sourcedItems.has("Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb") || // if the character is not a hexblade or
                 (document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and 
                 document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.classes24.Item.phbwlkMagicalCun" && // the item is not Magical Cunning and
@@ -54,7 +54,8 @@ export default class HexbladePatron {
         });
 
         const effortlessAgonyDowngradeHookId = Hooks.on("deleteItem", (document, options, userId) => {
-            if (!game.user.isGM || (document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb" && // skip if the user is not game || item is not Hexblade Patron and
+            if (!document.actor.isOwner || // skip if user is not the GM or owner or 
+                (document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.2lXC8zZ1MgCPKyIb" && // skip if the user is not game || item is not Hexblade Patron and
                 document.flags?.dnd5e?.sourceId !== "Compendium.dnd5e.spells24.Item.phbsplHex0000000" && // the item is not Hex and
                 document.flags?.dnd5e?.sourceId !== "Compendium.draenal-common.classes.Item.XUyIUOGMYIIXGWa6") // the item is not hexblade's curse
             ) {
@@ -95,7 +96,7 @@ export default class HexbladePatron {
         });
 
         const soulSiphonHealHookId = Hooks.on("dnd5e.preRollDamage", (rollConfig, dialogConfig, messageConfig) => {
-            if (game.user.isGM && rollConfig.subject.name === "Soul Siphon") {
+            if (game.user.isOwner && rollConfig.subject.name === "Soul Siphon") {
                 dialogConfig.configure = false;
                 rollConfig.rolls = [
                     {
@@ -149,8 +150,8 @@ export default class HexbladePatron {
 
     _registerHexbladesCurseAttackModifierHook(hook, rollConfigMutationCallback) {
         return Hooks.on(hook, (rollConfig, dialogConfig, messageConfig) => {
-            if (game.user.isGM &&
-                rollConfig.subject.actor.subclasses.hasOwnProperty("hexblade") &&
+            if (rollConfig.subject.actor.isOwner &&
+                rollConfig.subject.actor.subclasses.hasOwnProperty("hexblade-patron") &&
                 messageConfig.data.flags.dnd5e.targets.length === 1
             ) {
                 const target = fromUuidSync(messageConfig.data.flags.dnd5e.targets[0].uuid);
@@ -178,6 +179,6 @@ export default class HexbladePatron {
         return actor.effects
             .filter(e => e.active && e.origin?.startsWith("Actor") && e.statuses.has("cursed"))
             .map(e => game.actors.get(e.origin.split(".")[1]))
-            .filter(s => s?.subclasses.hasOwnProperty("hexblade"));
+            .filter(s => s?.subclasses.hasOwnProperty("hexblade-patron"));
     }
 }
