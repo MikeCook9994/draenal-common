@@ -123,7 +123,7 @@ system:
   source:
     revision: 1
     rules: '2014'
-    book: Monsters of the Multiverse
+    book: 'Mordenkainen Presents: Monsters of the Multiverse'
     page: ''
     custom: ''
     license: ''
@@ -154,9 +154,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776815090757
-  modifiedTime: 1776818713151
+  modifiedTime: 1777220486391
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

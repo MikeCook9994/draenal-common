@@ -363,7 +363,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Homebrew
+    book: Draenal Homebrew
     page: ''
     custom: ''
     license: ''
@@ -511,9 +511,9 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1767987452925
-  modifiedTime: 1776234360466
+  modifiedTime: 1777233198434
   lastModifiedBy: draenalcommon000
 _key: '!items!IcyabR3GAehw0AZ7'
 

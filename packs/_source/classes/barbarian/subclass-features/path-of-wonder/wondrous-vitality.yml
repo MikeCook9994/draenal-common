@@ -259,6 +259,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -280,11 +284,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768858680841
-  modifiedTime: 1775539679620
+  modifiedTime: 1777233124923
   lastModifiedBy: draenalcommon000
 _key: '!items!K7dx4v9QiOjOqxXr'
 

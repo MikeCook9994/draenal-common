@@ -1,17 +1,17 @@
 name: Korda
 type: character
 _id: HsCEyyIEA7FD1HXJ
-img: modules/draenal-common/assets/pc-images/korda.Avatar.webp
+img: modules/draenal-common/assets/pc-images/Avatar.Korda.webp?v=1777246112866
 system:
   currency:
     pp: 0
-    gp: 0
-    ep: 0
-    sp: 0
-    cp: 0
+    gp: 112
+    ep: 2
+    sp: 62
+    cp: 377
   abilities:
     str:
-      value: 10
+      value: 18
       proficient: 0
       max: null
       bonuses:
@@ -28,7 +28,7 @@ system:
           max: null
           mode: 0
     dex:
-      value: 10
+      value: 12
       proficient: 0
       max: null
       bonuses:
@@ -45,7 +45,7 @@ system:
           max: null
           mode: 0
     con:
-      value: 10
+      value: 16
       proficient: 0
       max: null
       bonuses:
@@ -62,7 +62,7 @@ system:
           max: null
           mode: 0
     int:
-      value: 10
+      value: 7
       proficient: 0
       max: null
       bonuses:
@@ -80,7 +80,7 @@ system:
           mode: 0
     wis:
       value: 10
-      proficient: 0
+      proficient: 1
       max: null
       bonuses:
         check: ''
@@ -96,8 +96,8 @@ system:
           max: null
           mode: 0
     cha:
-      value: 10
-      proficient: 0
+      value: 14
+      proficient: 1
       max: null
       bonuses:
         check: ''
@@ -168,7 +168,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -248,7 +248,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -268,7 +268,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -278,7 +278,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -312,10 +312,28 @@ system:
       bonuses:
         check: ''
         passive: ''
-  tools: {}
+  tools:
+    mason:
+      value: 1
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        check: ''
+    smith:
+      value: 1
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        check: ''
   spells:
     spell1:
-      value: 0
+      value: 2
     spell2:
       value: 0
     spell3:
@@ -359,7 +377,7 @@ system:
         truesight: null
       units: null
       special: ''
-    spellcasting: ''
+    spellcasting: cha
     exhaustion: 0
     concentration:
       ability: ''
@@ -375,7 +393,7 @@ system:
       max: null
       temp: null
       tempmax: 0
-      value: 0
+      value: 28
       bonuses: {}
     death:
       roll:
@@ -395,24 +413,34 @@ system:
       value: ''
       public: ''
     alignment: ''
-    ideal: ''
-    bond: ''
-    flaw: ''
-    race: null
-    background: null
-    originalClass: ''
+    ideal: |-
+      My word is my bond.
+      Protect the weak, and never fear to act.
+      Let your honorable deeds be an example.
+    bond: >-
+      Is an ancient construct who mostly remembers ancient history, this gaining
+      advantage on intelligence checks based on the ancient world.
+    flaw: >-
+      Is mostly unfamiliar with the current world, thus gaining disadvantage to
+      intelligence checks about modern history/current events.
+    race: nttSqILmQCK11heY
+    background: zJu10YEACZikIJIZ
+    originalClass: S1EKW9QxuK6sVSvu
     xp:
       value: 0
-    appearance: ''
+    appearance: >-
+      Looks like a dwarf, but made from molten metal and earthen stone. Has the
+      symbol of an anvil with a flame atop forged into his chest. Wields a maul,
+      and has minimal belongings.
     trait: ''
-    eyes: ''
+    eyes: Orange, like molten metal.
     height: ''
-    faith: ''
-    hair: ''
+    faith: Devoted to Moradin
+    hair: Grey
     weight: ''
-    gender: ''
-    skin: ''
-    age: ''
+    gender: Male
+    skin: Metal
+    age: Unknown
   traits:
     size: med
     di:
@@ -420,7 +448,8 @@ system:
       custom: ''
       bypasses: []
     dr:
-      value: []
+      value:
+        - poison
       custom: ''
       bypasses: []
     dv:
@@ -434,17 +463,32 @@ system:
       value: []
       custom: ''
     languages:
-      value: []
+      value:
+        - primordial
+        - common
+        - dwarvish
+        - terran
       custom: ''
-      communication: {}
+      communication:
+        telepathy:
+          value: null
+          units: ft
     weaponProf:
-      value: []
+      value:
+        - sim
+        - mar
       custom: ''
       mastery:
-        value: []
+        value:
+          - maul
+          - warhammer
         bonus: []
     armorProf:
-      value: []
+      value:
+        - lgt
+        - med
+        - hvy
+        - shl
       custom: ''
   resources:
     primary:
@@ -474,12 +518,12 @@ prototypeToken:
   height: 1
   depth: 1
   texture:
-    src: modules/draenal-common/assets/pc-images/korda.Token.webp
+    src: modules/draenal-common/assets/pc-images/Token.Korda.webp?v=1777246111523
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
-    scaleX: 1
-    scaleY: 1
+    scaleX: 2
+    scaleY: 2
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -545,21 +589,3682 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
-items: []
+items:
+  - _id: S1EKW9QxuK6sVSvu
+    name: Paladin
+    type: class
+    folder: VHaxJHEReTihmspe
+    img: systems/dnd5e/icons/classes/paladin.webp
+    system:
+      description:
+        value: >-
+          <h3>Core Paladin Traits</h3><table
+          class="core-class-traits"><tbody><tr><th
+          scope="row"><p><strong>Primary
+          Ability</strong></p></th><td><p>Strength and
+          Charisma</p></td></tr><tr><th scope="row"><p><strong>Hit Point
+          Die</strong></p></th><td><p>D10 per Paladin level</p></td></tr><tr><th
+          scope="row"><p><strong>Saving Throw
+          Proficiencies</strong></p></th><td><p>Wisdom and
+          Charisma</p></td></tr><tr><th scope="row"><p><strong>Skill
+          Proficiencies</strong></p></th><td><p><em>Choose 2: </em>Athletics,
+          Insight, Intimidation, Medicine, Persuasion, or
+          Religion</p></td></tr><tr><th scope="row"><p><strong>Weapon
+          Proficiencies</strong></p></th><td><p>Simple and Martial
+          weapons</p></td></tr><tr><th scope="row"><p><strong>Armor
+          Training</strong></p></th><td><p>Light, Medium, and Heavy armor and
+          Shields</p></td></tr><tr><th scope="row"><p><strong>Starting
+          Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
+          @UUID[Compendium.dnd5e.equipment24.Item.phbarmChainMail0]{Chain Mail},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbwepLongsword0]{Longsword},
+          6 @UUID[Compendium.dnd5e.equipment24.Item.phbwepJavelin000]{Javelins},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy
+          Symbol},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagPriestsPack]{Priest's
+          Pack}, and [[/award 9GP]]; or (B) [[/award
+          150GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbpdnPaladin000
+          inline classes="free-rules-embed"]</p><h2>Becoming a Paladin
+          …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in
+          the Core Paladin Traits table.</li><li>Gain the Paladin's level 1
+          features, which are listed in the Paladin Features
+          table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the
+          following traits from the Core Paladin Traits table: Hit Point Die,
+          proficiency with Martial weapons, and training with Light and Medium
+          armor and Shields.</li><li>Gain the Paladin's level 1 features, which
+          are listed in the Paladin Features table. See the multiclassing rules
+          in chapter 2 to determine your available spell
+          slots.</li></ul><blockquote><p><strong>Breaking Your
+          Oath</strong></p><p>A Paladin tries to hold to the highest standards
+          of conduct, but even the most dedicated are fallible. Sometimes a
+          Paladin transgresses their oath.</p><p>A Paladin who has broken a vow
+          typically seeks absolution, spending an all-night vigil as a sign of
+          penitence or undertaking a fast. After a rite of forgiveness, the
+          Paladin starts fresh.</p><p>If your Paladin unrepentantly violates
+          their oath, talk to your DM. Your Paladin should probably take a more
+          appropriate subclass or even abandon the class and adopt another
+          one.</p></blockquote>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: 55QxZJqMqe2yhcIx
+          group: ''
+          sort: 100000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbarmChainMail0
+          requiresProficiency: false
+          _id: CMW1osn8yyeBlaFN
+          group: 55QxZJqMqe2yhcIx
+          sort: 200000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+          requiresProficiency: false
+          _id: DetedjFDDGEZPfHF
+          group: 55QxZJqMqe2yhcIx
+          sort: 300000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbwepLongsword0
+          requiresProficiency: false
+          _id: 2bS7ztlTwaWy3vBR
+          group: 55QxZJqMqe2yhcIx
+          sort: 400000
+        - type: linked
+          count: 6
+          key: Compendium.dnd5e.equipment24.Item.phbwepJavelin000
+          requiresProficiency: false
+          _id: ah68oZH9CElaDWV7
+          group: 55QxZJqMqe2yhcIx
+          sort: 500000
+        - type: focus
+          count: null
+          key: holy
+          requiresProficiency: false
+          _id: RDI84jZHYTkZIB8k
+          group: 55QxZJqMqe2yhcIx
+          sort: 600000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagPriestsPack
+          requiresProficiency: false
+          _id: QtswKbw3wDtJyho7
+          group: 55QxZJqMqe2yhcIx
+          sort: 650000
+        - type: currency
+          count: 9
+          key: gp
+          requiresProficiency: false
+          _id: YWOqClo8j5g8L4Ml
+          group: 55QxZJqMqe2yhcIx
+          sort: 750000
+      identifier: paladin
+      levels: 2
+      advancement:
+        H67dh2nWpE6JMoS2:
+          _id: H67dh2nWpE6JMoS2
+          type: HitPoints
+          configuration: {}
+          value:
+            '1': max
+            '2': 8
+          flags: {}
+          hint: ''
+        Cu9TxxKJqfAOPURY:
+          _id: Cu9TxxKJqfAOPURY
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnLayOnHands
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnSpellcasti
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnWeaponMast
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              l9CyVWrAers7OJIi: Compendium.dnd5e.classes24.Item.phbpdnLayOnHands
+              HfrnsSsDWQ777vgf: Compendium.dnd5e.classes24.Item.phbpdnSpellcasti
+              QpHELgx8bKzBoDle: Compendium.dnd5e.classes24.Item.phbpdnWeaponMast
+          level: 1
+          title: Class Features
+          flags: {}
+          hint: ''
+        AKkVlHKAVYHNqf6q:
+          _id: AKkVlHKAVYHNqf6q
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.classes24.Item.phbpdnFightingSt
+              - optional: false
+                uuid: Compendium.dnd5e.classes24.Item.phbpdnPaladinsSm
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplDivineSmit
+            optional: false
+            spell:
+              ability: []
+              uses:
+                max: '1'
+                per: lr
+                requireSlot: false
+              method: spell
+              prepared: 2
+          value:
+            added:
+              Rqdp27lFrgJGPX4J: Compendium.dnd5e.classes24.Item.phbpdnFightingSt
+              cbCOZK4gHcnHh21J: Compendium.dnd5e.classes24.Item.phbpdnPaladinsSm
+              7Ur2ttwp8pDber5A: Compendium.dnd5e.spells24.Item.phbsplDivineSmit
+          level: 2
+          title: Class Features
+          hint: ''
+          flags: {}
+        8I26b7hyVhhTyCho:
+          _id: 8I26b7hyVhhTyCho
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnChannelDiv
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 3
+          title: Class Features
+          flags: {}
+          hint: ''
+        ETE0AFEPZYVKhGeV:
+          _id: ETE0AFEPZYVKhGeV
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.classes24.Item.phbpdnExtraAttac
+              - optional: false
+                uuid: Compendium.dnd5e.classes24.Item.phbpdnFaithfulSt
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplFindSteed0
+            optional: false
+            spell:
+              ability: []
+              uses:
+                max: '1'
+                per: lr
+                requireSlot: false
+              method: spell
+              prepared: 2
+          value: {}
+          level: 5
+          title: Class Features
+          hint: ''
+          flags: {}
+        4ZvtY8dxJGz7VaDN:
+          _id: 4ZvtY8dxJGz7VaDN
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnProtection
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 6
+          title: Class Features
+          flags: {}
+          hint: ''
+        S2e43900sVur7sOK:
+          _id: S2e43900sVur7sOK
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnAbjureFoes
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 9
+          title: Class Features
+          flags: {}
+          hint: ''
+        7Nhpo9BJt103peym:
+          _id: 7Nhpo9BJt103peym
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnCourageAur
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 10
+          title: Class Features
+          flags: {}
+          hint: ''
+        sBD0PwAIuNSCs9Px:
+          _id: sBD0PwAIuNSCs9Px
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnRadiantStr
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 11
+          title: Class Features
+          flags: {}
+          hint: ''
+        G6XicWkWUTdMTmC9:
+          _id: G6XicWkWUTdMTmC9
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbpdnRestoringT
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 14
+          title: Class Features
+          flags: {}
+          hint: ''
+        dChGldRqBZQFRIoP:
+          _id: dChGldRqBZQFRIoP
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.classes24.Item.phbpdnAuraExpans
+            optional: false
+            spell: null
+          value: {}
+          level: 18
+          title: Class Features
+          hint: ''
+          flags: {}
+        bwCLOdauuzoHofil:
+          _id: bwCLOdauuzoHofil
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 4
+          title: ''
+          flags: {}
+          hint: ''
+        mRSh9oUVjLU33e7p:
+          _id: mRSh9oUVjLU33e7p
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 8
+          title: ''
+          flags: {}
+          hint: ''
+        mhZh3LfLMa15tXee:
+          _id: mhZh3LfLMa15tXee
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 12
+          title: ''
+          flags: {}
+          hint: ''
+        FOf5CkGnSs0OlppY:
+          _id: FOf5CkGnSs0OlppY
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 16
+          title: ''
+          flags: {}
+          hint: ''
+        xNrNjQXdjdqudAk8:
+          _id: xNrNjQXdjdqudAk8
+          type: ScaleValue
+          configuration:
+            identifier: aura
+            type: distance
+            distance:
+              units: ''
+            scale:
+              '6':
+                value: 10
+              '18':
+                value: 30
+          value: {}
+          title: Aura Distance
+          hint: ''
+          flags: {}
+        K0m33nbxbp3BfUKd:
+          _id: K0m33nbxbp3BfUKd
+          type: ScaleValue
+          configuration:
+            identifier: max-prepared
+            type: number
+            distance:
+              units: ''
+            scale:
+              '1':
+                value: 2
+              '2':
+                value: 3
+              '3':
+                value: 4
+              '4':
+                value: 5
+              '5':
+                value: 6
+              '7':
+                value: 7
+              '9':
+                value: 9
+              '11':
+                value: 10
+              '13':
+                value: 11
+              '15':
+                value: 12
+              '17':
+                value: 14
+              '19':
+                value: 15
+          value: {}
+          title: Max Prepared Spells
+          hint: ''
+          flags: {}
+        czWJhEH2Xw1gaXzl:
+          _id: czWJhEH2Xw1gaXzl
+          type: ScaleValue
+          configuration:
+            identifier: channel-divinity
+            type: number
+            distance:
+              units: ''
+            scale:
+              '3':
+                value: 2
+              '11':
+                value: 3
+          value: {}
+          title: Channel Divinity Uses
+          hint: ''
+          flags: {}
+        tU89l5dpMkYJBBJ5:
+          _id: tU89l5dpMkYJBBJ5
+          type: Subclass
+          configuration: {}
+          value:
+            document: null
+            uuid: null
+          level: 3
+          title: ''
+          hint: ''
+          flags: {}
+        eK65opSkuSD1C22h:
+          _id: eK65opSkuSD1C22h
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - saves:wis
+              - saves:cha
+            choices: []
+          value:
+            chosen:
+              - saves:wis
+              - saves:cha
+          level: 1
+          title: Saving Throw Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        WdtO0qeppSNvtel8:
+          _id: WdtO0qeppSNvtel8
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants: []
+            choices:
+              - count: 2
+                pool:
+                  - skills:ath
+                  - skills:ins
+                  - skills:itm
+                  - skills:med
+                  - skills:per
+                  - skills:rel
+          value:
+            chosen:
+              - skills:per
+              - skills:rel
+          level: 1
+          title: Skill Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        iZReGwulhKjVqgRD:
+          _id: iZReGwulhKjVqgRD
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - weapon:sim
+              - weapon:mar
+            choices: []
+          value:
+            chosen:
+              - weapon:sim
+              - weapon:mar
+          level: 1
+          title: Weapon Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        2sq0pcazOXs74X5l:
+          _id: 2sq0pcazOXs74X5l
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - armor:lgt
+              - armor:med
+              - armor:hvy
+              - armor:shl
+            choices: []
+          value:
+            chosen:
+              - armor:lgt
+              - armor:med
+              - armor:hvy
+              - armor:shl
+          level: 1
+          title: Armor Training
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        dSjz0J0F5cQLvWTd:
+          _id: dSjz0J0F5cQLvWTd
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - weapon:mar
+            choices: []
+          value:
+            chosen: []
+          level: 1
+          title: Weapon Proficiencies
+          hint: ''
+          classRestriction: secondary
+          flags: {}
+        TZP9M5VqcBv8D313:
+          _id: TZP9M5VqcBv8D313
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - armor:lgt
+              - armor:med
+              - armor:shl
+            choices: []
+          value:
+            chosen: []
+          level: 1
+          title: Armor Training
+          hint: ''
+          classRestriction: secondary
+          flags: {}
+        g88kf6OtX8abBt5c:
+          _id: g88kf6OtX8abBt5c
+          type: ItemChoice
+          configuration:
+            choices:
+              '2':
+                count: 1
+                replacement: false
+            allowDrops: true
+            type: feat
+            pool:
+              - uuid: Compendium.dnd5e.feats24.Item.phbfstArchery000
+              - uuid: Compendium.dnd5e.feats24.Item.phbfstDefense000
+              - uuid: Compendium.dnd5e.feats24.Item.phbfstGreatWeapo
+              - uuid: Compendium.dnd5e.feats24.Item.phbfstTwoWeaponF
+              - uuid: Compendium.dnd5e.classes24.Item.phbfstBlessedWar
+            spell: null
+            restriction:
+              type: feat
+              subtype: fightingStyle
+              list: []
+          value:
+            added:
+              '2':
+                r17cjPRSolV4RF0A: Compendium.dnd5e.feats24.Item.phbfstGreatWeapo
+            replaced: {}
+          title: Fighting Style
+          hint: ''
+          flags: {}
+        H2wzREytOuzt7qqC:
+          _id: H2wzREytOuzt7qqC
+          type: Trait
+          configuration:
+            mode: mastery
+            allowReplacements: false
+            grants: []
+            choices:
+              - count: 2
+                pool:
+                  - weapon:*
+          value:
+            chosen:
+              - weapon:mar:maul
+              - weapon:mar:warhammer
+          level: 1
+          title: Weapon Mastery
+          hint: ''
+          flags: {}
+        dZtoyI6cd2vRIicZ:
+          type: AbilityScoreImprovement
+          _id: dZtoyI6cd2vRIicZ
+          configuration:
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked: []
+            points: 2
+            recommendation: Compendium.dnd5e.feats24.Item.phbBoonofTruesig
+            max: null
+          value: {}
+          level: 19
+          title: ''
+          hint: ''
+          flags: {}
+      spellcasting:
+        progression: half
+        ability: cha
+        preparation:
+          formula: '@scale.paladin.max-prepared'
+      wealth: '150'
+      primaryAbility:
+        value:
+          - str
+          - cha
+        all: true
+      hd:
+        denomination: d10
+        spent: 0
+        additional: ''
+      properties: []
+    effects: []
+    flags: {}
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571228
+      modifiedTime: 1777241571228
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnPaladin000
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.S1EKW9QxuK6sVSvu'
+  - _id: l9CyVWrAers7OJIi
+    name: Lay on Hands
+    type: feat
+    folder: 6uMLnndK8UPkb7Uy
+    img: icons/magic/light/orbs-firefly-hand-yellow.webp
+    system:
+      description:
+        value: >-
+          <p>Your blessed touch can heal wounds. You have a pool of healing
+          power that replenishes when you finish a Long Rest. With that pool,
+          you can restore a total number of Hit Points equal to five times your
+          Paladin level.</p><p>As a Bonus Action, you can touch a creature
+          (which could be yourself) and draw power from the pool of healing to
+          restore a number of Hit Points to that creature, up to the maximum
+          amount remaining in the pool.</p><p>You can also expend 5 Hit Points
+          from the pool of healing power to remove the Poisoned condition from
+          the creature; those points don't also restore Hit Points to the
+          creature.</p><section id="secret-CgxYFHh5PcKwwbwk"
+          class="secret"><p><strong>Foundry Note</strong></p><p>The
+          <strong>Heal</strong> activity allows you to select the number of Hit
+          Points you would like to restore and reduces your Lay on Hands pool by
+          that amount.</p><p>The <strong>Remove Poison</strong> activity reduces
+          your pool by 5 but does not automatically remove the Poisoned
+          condition.</p></section>
+        chat: ''
+      source:
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: 5 * @classes.paladin.levels
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities:
+        gXZh9aGHcywV9huC:
+          type: heal
+          _id: gXZh9aGHcywV9huC
+          activation:
+            type: bonus
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: 5 * @classes.paladin.levels - @item.uses.spent
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling:
+                  mode: amount
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: '1'
+              type: creature
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          healing:
+            number: null
+            denomination: 0
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: '@scaling'
+            scaling:
+              number: 1
+              mode: ''
+            bonus: ''
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        K6UeXQwTyDHWvis8:
+          type: utility
+          name: Remove Poison
+          _id: K6UeXQwTyDHWvis8
+          activation:
+            type: bonus
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '5'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: '1'
+              type: creature
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: lay-on-hands
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbpdnLayOnHands
+        advancementOrigin: S1EKW9QxuK6sVSvu.Cu9TxxKJqfAOPURY
+        advancementRoot: S1EKW9QxuK6sVSvu.Cu9TxxKJqfAOPURY
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571229
+      modifiedTime: 1777241571229
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnLayOnHands
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.l9CyVWrAers7OJIi'
+  - _id: HfrnsSsDWQ777vgf
+    name: Spellcasting
+    type: feat
+    folder: 6uMLnndK8UPkb7Uy
+    img: icons/magic/symbols/chevron-elipse-circle-blue.webp
+    system:
+      description:
+        value: >-
+          <p>You have learned to cast spells through prayer and meditation. See
+          the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules
+          on spellcasting}. The information below details how you use those
+          rules with Paladin spells, which appear in the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.8yD9Jgp404hfZ9ie]{Paladin
+          spell list}.</p><p><strong>Spell Slots.</strong> The
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbPaladin000000.JournalEntryPage.A34CXe4HdzXHoBEl#class-features]{Paladin
+          Features table} shows how many spell slots you have to cast your level
+          1+ spells. You regain all expended slots when you finish a Long
+          Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare
+          the list of level 1+ spells that are available for you to cast with
+          this feature. To start, choose two level 1 Paladin spells.
+          <em>Heroism</em> and <em>Searing Smite</em> are recommended.</p><p>The
+          number of spells on your list increases as you gain Paladin levels, as
+          shown in the Prepared Spells column of the Paladin Features table.
+          Whenever that number increases, choose additional Paladin spells until
+          the number of spells on your list matches the number in the Paladin
+          Features table. The chosen spells must be of a level for which you
+          have spell slots. For example, if you're a level 5 Paladin, your list
+          of prepared spells can include six Paladin spells of level 1 or 2 in
+          any combination.</p><p>If another Paladin feature gives you spells
+          that you always have prepared, those spells don't count against the
+          number of spells you can prepare with this feature, but those spells
+          otherwise count as Paladin spells for you.</p><p><strong>Changing Your
+          Prepared Spells.</strong> Whenever you finish a Long Rest, you can
+          replace one spell on your list with another Paladin spell for which
+          you have spell slots.</p><p><strong>Spellcasting Ability.
+          </strong>Charisma is your spellcasting ability for your Paladin
+          spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Holy
+          Symbol as a Spellcasting Focus for your Paladin spells.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: spellcasting
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbpdnSpellcasti
+        advancementOrigin: S1EKW9QxuK6sVSvu.Cu9TxxKJqfAOPURY
+        advancementRoot: S1EKW9QxuK6sVSvu.Cu9TxxKJqfAOPURY
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571229
+      modifiedTime: 1777241571229
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnSpellcasti
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.HfrnsSsDWQ777vgf'
+  - _id: QpHELgx8bKzBoDle
+    name: Weapon Mastery
+    type: feat
+    folder: 6uMLnndK8UPkb7Uy
+    img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+    system:
+      description:
+        value: >-
+          <p>Your training with weapons allows you to use the mastery properties
+          of two kinds of weapons of your choice with which you have
+          proficiency, such as Longswords and Javelins.</p><p>Whenever you
+          finish a Long Rest, you can change the kinds of weapons you chose. For
+          example, you could switch to using the mastery properties of Halberds
+          and Flails.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: weapon-mastery
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbpdnWeaponMast
+        advancementOrigin: S1EKW9QxuK6sVSvu.Cu9TxxKJqfAOPURY
+        advancementRoot: S1EKW9QxuK6sVSvu.Cu9TxxKJqfAOPURY
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571229
+      modifiedTime: 1777241571229
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnWeaponMast
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.QpHELgx8bKzBoDle'
+  - folder: null
+    name: Warforged
+    type: race
+    _id: nttSqILmQCK11heY
+    img: icons/commodities/metal/clasp-skull.webp
+    system:
+      advancement:
+        qIxlYJraGZbrNSOv:
+          type: Size
+          _id: qIxlYJraGZbrNSOv
+          configuration:
+            sizes:
+              - sm
+              - med
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            size: med
+          title: ''
+        BVk4gDwT3PzfcMdE:
+          type: Trait
+          _id: BVk4gDwT3PzfcMdE
+          configuration:
+            allowReplacements: false
+            choices: []
+            grants:
+              - dr:poison
+            mode: default
+          flags: {}
+          level: 0
+          hint: >-
+            <div class="ddb"><p>You have Resistance to Poison damage.You also
+            have Advantage on saving throws to avoid or end the Poisoned
+            condition.</p></div>
+          title: Construct Resilience
+          icon: icons/consumables/potions/potion-tube-corked-bubbling-green.webp
+          value:
+            chosen:
+              - dr:poison
+        F6nbIXy0yizofidd:
+          type: Trait
+          title: Specialized Design
+          _id: F6nbIXy0yizofidd
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - tool:*
+              - count: 1
+                pool:
+                  - skills:*
+            grants: []
+            mode: default
+          flags: {}
+          level: 0
+          hint: >-
+            <div class="ddb"><p>You gain one skill proficiency and one tool
+            proficiency of your choice.</p></div>
+          icon: icons/tools/smithing/hammer-maul-steel-grey.webp
+          value:
+            chosen:
+              - tool:art:mason
+              - skills:itm
+        jHZWjX7Zr2OvFA9K:
+          type: ItemGrant
+          title: Traits
+          _id: jHZWjX7Zr2OvFA9K
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.species.Item.fbsqO6yqtNclkpm6
+                optional: false
+              - uuid: Compendium.draenal-common.species.Item.QqyRuZHxqMBKHQkz
+                optional: false
+              - uuid: Compendium.draenal-common.species.Item.H6GWXj3NhSyrpFsF
+                optional: false
+            optional: false
+            spell: null
+          flags: {}
+          value:
+            added:
+              CBLBlAz6YTCs8IIX: Compendium.draenal-common.species.Item.fbsqO6yqtNclkpm6
+              RA9ZUCaLeyOXRsud: Compendium.draenal-common.species.Item.QqyRuZHxqMBKHQkz
+              QLHoW6TIWjeu2sPd: Compendium.draenal-common.species.Item.H6GWXj3NhSyrpFsF
+          level: 0
+          hint: ''
+      description:
+        value: >-
+          <div class="ddb"><p>Warforged are mechanical beings built as weapons
+          to fight in the Last War.</p><p><span style="font-family:'Roboto
+          Condensed'"><strong>Warforged Traits</strong></span></p><p><span
+          style="font-family:'Roboto Condensed'">Construct Resilience,
+          Integrated Protection, Sentry's Rest, Specialized Design,
+          Tireless</span></p><p><strong>Creature Type</strong></p><p>You're a
+          Construct.</p><p><strong>Size</strong></p><p>Your Size is Medium
+          (about 6–8 feet tall) or Small (about 3–4 feet tall), chosen when you
+          select this species.</p><p><strong>Speed</strong></p><p>Your Speed is
+          30 feet.</p><p><strong>Languages</strong></p><p>Your character knows
+          at least three languages: Common plus two languages you roll or choose
+          from the Standard Languages table. Knowledge of a language means your
+          character can communicate in it, read it, and write it. Your class and
+          other features might also give you languages.</p><p>The Standard
+          Languages table lists languages that are widespread on D&amp;D worlds.
+          Every player character knows Common, which originated in the planar
+          metropolis of Sigil, the hub of the multiverse. The other standard
+          languages originated with the first members of the most prominent
+          species in the worlds of D&amp;D and have since spread
+          widely.</p><table
+          style="--sb-table-row-bg-hover:#b3d3df;--sb-table-row-bg-dark:#d7e8ee;--sb-table-row-bg-light:#f1f7f9;--dark-sb-table-row-bg-light:#5e7982;--dark-sb-table-row-bg-dark:#5c7f8c;--dark-sb-table-row-bg-hover:#78a2b0"
+          class="table-compendium
+          table--generic-dice"><caption><p><strong>Standard
+          Languages</strong></p></caption><thead><tr><th><p>1d12</p></th><th><p>Language</p></th><th><p>Origin</p></th></tr></thead><tbody><tr><td><p>—</p></td><td><p>Common</p></td><td><p>Sigil</p></td></tr><tr><td><p>1</p></td><td><p>Common
+          Sign
+          Language</p></td><td><p>Sigil</p></td></tr><tr><td><p>2</p></td><td><p>Draconic</p></td><td><p>Dragons</p></td></tr><tr><td><p>3-4</p></td><td><p>Dwarvish</p></td><td><p>Dwarves</p></td></tr><tr><td><p>5-6</p></td><td><p>Elvish</p></td><td><p>Elves</p></td></tr><tr><td><p>7</p></td><td><p>Giant</p></td><td><p>Giants</p></td></tr><tr><td><p>8</p></td><td><p>Gnomish</p></td><td><p>Gnomes</p></td></tr><tr><td><p>9</p></td><td><p>Goblin</p></td><td><p>Goblinoids</p></td></tr><tr><td><p>10-11</p></td><td><p>Halfling</p></td><td><p>Halflings</p></td></tr><tr><td><p>12</p></td><td><p>Orc</p></td><td><p>Orcs</p></td></tr></tbody></table><p><strong>Construct
+          Resilience</strong></p><p>You have Resistance to Poison damage.You
+          also have Advantage on saving throws to avoid or end the Poisoned
+          condition.</p><p><strong>Integrated Protection</strong></p><p>You gain
+          a +1 bonus to your Armor Class. In addition, armor you have donned
+          can't be removed against your will while you're
+          alive.</p><p><strong>Sentry's Rest</strong></p><p>You don't need to
+          sleep, and magic can't put you to sleep. You can finish a Long Rest in
+          6 hours if you spend those hours in an inactive, motionless state.
+          During this time, you appear inert but remain
+          conscious.</p><p><strong>Specialized Design</strong></p><p>You gain
+          one skill proficiency and one tool proficiency of your
+          choice.</p><p><strong>Tireless</strong></p><p>You don't gain
+          Exhaustion levels from dehydration, malnutrition, or
+          suffocation.</p></div>
+        chat: ''
+      identifier: warforged
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artifcer'
+        page: ''
+        custom: ''
+        license: ''
+      movement:
+        units: ft
+        hover: false
+        ignoredDifficultTerrain: []
+        walk: '30'
+        burrow: ''
+        climb: ''
+        fly: ''
+        swim: ''
+      senses:
+        ranges:
+          blindsight: null
+          darkvision: null
+          tremorsense: null
+          truesight: null
+        units: ft
+        special: ''
+      type:
+        value: construct
+        custom: ''
+        subtype: ''
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571229
+      modifiedTime: 1777241571229
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.oKgMyQ86elquigMc
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.nttSqILmQCK11heY'
+  - folder: zozbNAxqGOhPoQH6
+    name: Integrated Protection
+    type: feat
+    _id: CBLBlAz6YTCs8IIX
+    img: icons/equipment/chest/breastplate-gorget-steel.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <div class="ddb"><p>You gain a +1 bonus to your Armor Class. In
+          addition, armor you have donned can't be removed against your will
+          while you're alive.</p></div>
+        chat: ''
+      identifier: integrated-protection
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artifcer'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: Warforged
+      type:
+        value: ''
+        subtype: ''
+    effects:
+      - name: Integrated Protection
+        img: icons/equipment/chest/breastplate-gorget-steel.webp
+        origin: Compendium.draenal-common.species.Item.fbsqO6yqtNclkpm6
+        type: base
+        _id: zAXTz8iyBdQnNTOd
+        system:
+          changes:
+            - key: system.attributes.ac.bonus
+              type: add
+              value: 1
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777241571233
+          modifiedTime: 1777241571233
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!HsCEyyIEA7FD1HXJ.CBLBlAz6YTCs8IIX.zAXTz8iyBdQnNTOd
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.fbsqO6yqtNclkpm6
+        advancementOrigin: nttSqILmQCK11heY.jHZWjX7Zr2OvFA9K
+        advancementRoot: nttSqILmQCK11heY.jHZWjX7Zr2OvFA9K
+        '-=riders': null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571233
+      modifiedTime: 1777241571233
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.fbsqO6yqtNclkpm6
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.CBLBlAz6YTCs8IIX'
+  - folder: zozbNAxqGOhPoQH6
+    name: Sentry's Rest
+    type: feat
+    _id: RA9ZUCaLeyOXRsud
+    img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <div class="ddb"><p>You don't need to sleep, and magic can't put you
+          to sleep. You can finish a Long Rest in 6 hours if you spend those
+          hours in an inactive, motionless state. During this time, you appear
+          inert but remain conscious.</p></div>
+        chat: ''
+      identifier: sentrys-rest
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artifcer'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: Warforged
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.QqyRuZHxqMBKHQkz
+        advancementOrigin: nttSqILmQCK11heY.jHZWjX7Zr2OvFA9K
+        advancementRoot: nttSqILmQCK11heY.jHZWjX7Zr2OvFA9K
+        '-=riders': null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571231
+      modifiedTime: 1777241571231
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.QqyRuZHxqMBKHQkz
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.RA9ZUCaLeyOXRsud'
+  - folder: zozbNAxqGOhPoQH6
+    name: Tireless
+    type: feat
+    _id: QLHoW6TIWjeu2sPd
+    img: icons/magic/time/arrows-circling-green.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <div class="ddb"><p>You don't gain Exhaustion levels from dehydration,
+          malnutrition, or suffocation.</p></div>
+        chat: ''
+      identifier: tireless
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artifcer'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: Warforged
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.H6GWXj3NhSyrpFsF
+        advancementOrigin: nttSqILmQCK11heY.jHZWjX7Zr2OvFA9K
+        advancementRoot: nttSqILmQCK11heY.jHZWjX7Zr2OvFA9K
+        '-=riders': null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571231
+      modifiedTime: 1777241571231
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.H6GWXj3NhSyrpFsF
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.QLHoW6TIWjeu2sPd'
+  - name: Backpack
+    system:
+      description:
+        value: >-
+          <p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also
+          serve as a saddlebag.</p>
+        chat: ''
+      price:
+        value: 2
+        denomination: gp
+      quantity: 1
+      source:
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 5
+        units: lb
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 0
+        cp: 0
+      properties: []
+      capacity:
+        weight:
+          value: 30
+          units: lb
+        volume:
+          units: cubicFoot
+      identifier: backpack
+      attuned: false
+      equipped: false
+    _id: yUOT0pygJLQALvBv
+    type: container
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/containers/bags/pack-simple-leather.webp
+    effects: []
+    sort: 7300000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571229
+      modifiedTime: 1777241571229
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.yUOT0pygJLQALvBv'
+  - name: Pouch
+    system:
+      description:
+        value: <p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>
+        chat: ''
+      price:
+        value: 5
+        denomination: sp
+      quantity: 1
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 1
+        units: lb
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 0
+        cp: 0
+      properties: []
+      capacity:
+        weight:
+          value: 6
+          units: lb
+        volume:
+          units: cubicFoot
+      identifier: pouch
+      attuned: false
+      equipped: false
+    _id: 32R1Vam9ON1DDuJu
+    type: container
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/containers/bags/coinpouch-simple-tan.webp
+    effects: []
+    sort: 4900000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571229
+      modifiedTime: 1777241571229
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPouch000000
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.32R1Vam9ON1DDuJu'
+  - name: Maul
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 10
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      range:
+        value: null
+        long: null
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      damage:
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: true
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 2
+          denomination: 6
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: martialM
+        baseItem: maul
+      properties:
+        - hvy
+        - two
+      proficient: null
+      activities:
+        wVGKly5R472acaHj:
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: wVGKly5R472acaHj
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      ammunition: {}
+      mastery: topple
+      identifier: maul
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: xsXMZBhXqdKi8yaG
+    type: weapon
+    folder: fd3qxAXCv2FhExPp
+    img: icons/weapons/hammers/hammer-double-stone-worn.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepMaul000000
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.xsXMZBhXqdKi8yaG'
+  - name: Emblem
+    system:
+      description:
+        value: >-
+          <p><em><strong>Usage Requirement: </strong>Borne on fabric or a
+          Shield</em></p><p>A
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{Holy Symbol}
+          takes one of the forms in the Holy Symbol table and is bejeweled or
+          painted to channel divine magic. A Cleric or Paladin can use a Holy
+          Symbol as a Spellcasting Focus.</p>
+        chat: ''
+      price:
+        value: 5
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: null
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: trinket
+        baseItem: ''
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: null
+      proficient: null
+      activities: {}
+      identifier: emblem
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: jlIzseJ8sDyaYs7W
+    type: equipment
+    folder: z3BNNUO43nbnbTy7
+    img: icons/sundries/flags/banner-symbol-sun-gold-red.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.jlIzseJ8sDyaYs7W'
+  - name: Chain Mail
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 75
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 55
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 16
+        dex: 0
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: heavy
+        baseItem: chainmail
+      properties:
+        - stealthDisadvantage
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: 13
+      proficient: null
+      activities: {}
+      identifier: chain-mail
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: frYYqzP43wrawDyG
+    type: equipment
+    folder: zqXSu2wOJljt7AsS
+    img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmChainMail0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.frYYqzP43wrawDyG'
+  - name: 'Spell Scroll: Prayer of Healing'
+    type: consumable
+    img: icons/sundries/scrolls/scroll-bound-blue-tan.webp
+    system:
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: minute
+            value: 10
+            override: true
+            condition: ''
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: true
+            value: ''
+            concentration: false
+          effects:
+            - _id: BrBVse9ezicC6IVW
+              level: {}
+          range:
+            override: true
+            value: '30'
+            units: ft
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+              count: '5'
+              type: creature
+            override: true
+          healing:
+            number: 2
+            denomination: 8
+            bonus: ''
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        autoDestroy: true
+        max: '1'
+      description:
+        value: >-
+          <p><em>2nd Level &amp;Reference[Spell Scroll]</em></p><p>Up to five
+          creatures of your choice who remain within range for the spell's
+          entire casting gain the benefits of a &amp;Reference[shortrest] and
+          also regain 2d8 Hit Points. A creature can't be affected by this spell
+          again until that creature finishes a Long Rest.</p><p><strong>Using a
+          Higher-Level Spell Slot. </strong>The healing increases by 1d8 for
+          each spell slot level above 2.</p>
+        chat: ''
+      identifier: spell-scroll
+      source:
+        revision: 1
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        custom: ''
+      identified: true
+      unidentified:
+        description: ''
+        name: Unidentified Consumable
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 200
+        denomination: gp
+      rarity: uncommon
+      attunement: ''
+      attuned: false
+      equipped: false
+      type:
+        value: scroll
+        subtype: ''
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        replace: false
+      properties:
+        - mgc
+        - vocal
+    effects:
+      - name: Healed by Prayer
+        origin: Compendium.dnd5e.spells24.Item.phbsplPrayerofHe
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+        _id: BrBVse9ezicC6IVW
+        type: base
+        system:
+          changes: []
+        description: >-
+          <p>A creature can’t be affected by the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe] spell again
+          until that creature finishes a Long Rest.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777241571232
+          modifiedTime: 1777241571232
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!HsCEyyIEA7FD1HXJ.si8TmvlC48SBZVeW.BrBVse9ezicC6IVW
+    folder: a2UFIyuviRp94dzx
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        scaling: 0
+        spellLevel:
+          value: 2
+          base: 2
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571231
+      modifiedTime: 1777241571231
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.dnd5e.equipment24.Item.dmgSpellScroll2n
+    ownership:
+      default: 0
+    _id: si8TmvlC48SBZVeW
+    sort: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.si8TmvlC48SBZVeW'
+  - name: Mason's Tools
+    system:
+      description:
+        value: >-
+          <p class="phb-meta"><strong>Ability:</strong> Strength</p><p
+          class="phb-meta"><strong>Utilize:</strong> Chisel a symbol or hole in
+          stone (DC 10)</p><p class="phb-meta"><strong>Craft:</strong>
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagBlockandTac]{Block and
+          Tackle}</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: yUOT0pygJLQALvBv
+      quantity: 1
+      weight:
+        value: 8
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: art
+        baseItem: mason
+      ability: str
+      chatFlavor: ''
+      proficient: null
+      properties: []
+      bonus: ''
+      activities:
+        fEjYUIHLH9OahqE8:
+          type: check
+          activation:
+            type: action
+            value: null
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          check:
+            ability: str
+            dc:
+              calculation: ''
+              formula: '10'
+            associated: []
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: fEjYUIHLH9OahqE8
+          name: Chisel a Symbol or Hole
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: masons-tools
+    _id: JkFCOwEhARKWmgl7
+    type: tool
+    folder: V8KHbNkEWoXQP3Pj
+    img: icons/tools/hand/hammer-and-nail.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulMasonsTool
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.JkFCOwEhARKWmgl7'
+  - name: Smith's Tools
+    system:
+      description:
+        value: >-
+          <p class="phb-meta"><strong>Ability:</strong> Strength</p><p
+          class="phb-meta"><strong>Utilize:</strong> Pry open a door or
+          container (DC 20)</p><p class="phb-meta"><strong>Craft:</strong> Any
+          Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium
+          armor (except Hide), Heavy armor,
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball
+          Bearings},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagBucket00000]{Bucket},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagChain000000]{Chain},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{Firearm
+          Bullets},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagGrapplingHo]{Grappling
+          Hook}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Iron Pot},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagSpikesIron0]{Iron
+          Spikes},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{Sling
+          Bullets}</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: yUOT0pygJLQALvBv
+      quantity: 1
+      weight:
+        value: 8
+        units: lb
+      price:
+        value: 20
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: art
+        baseItem: smith
+      ability: str
+      chatFlavor: ''
+      proficient: null
+      properties: []
+      bonus: ''
+      activities:
+        NkpANzY0LKUz2Vm0:
+          type: check
+          activation:
+            type: action
+            value: null
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          check:
+            ability: str
+            dc:
+              calculation: ''
+              formula: '20'
+            associated: []
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: NkpANzY0LKUz2Vm0
+          name: Pry Open
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: smiths-tools
+    _id: M4erYeEZzEwwrDmA
+    type: tool
+    folder: V8KHbNkEWoXQP3Pj
+    img: icons/skills/trades/smithing-tongs-metal-red.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulSmithsTool
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.M4erYeEZzEwwrDmA'
+  - name: Adamantite
+    type: loot
+    _id: v2v0ejYhVufzWZ5n
+    img: icons/commodities/metal/ingot-teal.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      identifier: adamantite
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0.1
+        units: lb
+      price:
+        value: 50
+        denomination: gp
+      rarity: rare
+      properties: []
+      type:
+        value: trade
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.treasure.Item.AGBXMOpTlsfALBeL
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.v2v0ejYhVufzWZ5n'
+  - name: Mithral
+    type: loot
+    _id: aKwet6jTKjXkLV8F
+    img: icons/commodities/metal/ingot-worn-steel.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      identifier: mithral
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 1
+        units: lb
+      price:
+        value: 50
+        denomination: gp
+      rarity: rare
+      properties: []
+      type:
+        value: trade
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.treasure.Item.XFdoqaqnOVUfbGhH
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.aKwet6jTKjXkLV8F'
+  - name: Cure Wounds
+    system:
+      description:
+        value: >-
+          <p>A creature you touch regains a number of Hit Points equal to 2d8
+          plus your spellcasting ability modifier.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> The healing increases by 2d8 for
+          each spell slot level above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          healing:
+            number: 2
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 2
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: cure-wounds
+      method: spell
+      sourceItem: class:paladin
+      prepared: 1
+    _id: CqPfGyBBjeQe0kNm
+    type: spell
+    img: icons/magic/nature/leaf-drip-light-green.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4300000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.CqPfGyBBjeQe0kNm'
+  - name: Divine Favor
+    system:
+      description:
+        value: >-
+          <p>Until the spell ends, your attacks with weapons deal an extra 1d4
+          Radiant damage on a hit.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: bonus
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: trs
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        2vvUcsXMnaLKMB0s:
+          type: utility
+          _id: 2vvUcsXMnaLKMB0s
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: xvEfaqPYJUNKaM58
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: divine-favor
+      method: spell
+      sourceItem: class:paladin
+      prepared: 1
+    _id: vVfuZpU5n4T8kDnh
+    type: spell
+    img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+    effects:
+      - name: Divine Favor
+        origin: Compendium.dnd5e.spells24.Item.phbsplDivineFavo
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+        _id: xvEfaqPYJUNKaM58
+        type: base
+        system:
+          changes:
+            - key: system.bonuses.mwak.damage
+              value: 1d4[radiant]
+              priority: null
+              type: add
+              phase: initial
+            - key: system.bonuses.rwak.damage
+              value: 1d4[radiant]
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777241571232
+          modifiedTime: 1777241571232
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!HsCEyyIEA7FD1HXJ.vVfuZpU5n4T8kDnh.xvEfaqPYJUNKaM58
+    folder: pBaAAtXBCq9FVEnL
+    sort: 3700000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571232
+      modifiedTime: 1777241571232
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDivineFavo
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.vVfuZpU5n4T8kDnh'
+  - name: Divine Smite
+    system:
+      description:
+        value: >-
+          <p>The target takes an extra 2d8 Radiant damage from the attack. The
+          damage increases by 1d8 if the target is a Fiend or an
+          Undead.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The
+          damage increases by 1d8 for each spell slot level above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: bonus
+        condition: >-
+          Immediately after hitting a target with a Melee weapon or an Unarmed
+          Strike
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: evo
+      properties:
+        - vocal
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: damage
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            critical:
+              allow: true
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 3
+                denomination: 8
+                bonus: ''
+                types:
+                  - radiant
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 200000
+          name: Unholy Creature Damage
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        dnd5eactivity200:
+          _id: dnd5eactivity200
+          type: damage
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            critical:
+              allow: true
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - radiant
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 100000
+          name: Cast
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: divine-smite
+      method: spell
+      sourceItem: class:paladin
+      prepared: 1
+    _id: LLwOmmjzmUBCpz7A
+    type: spell
+    img: icons/skills/melee/strike-flail-destructive-yellow.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 3600000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDivineSmit
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.LLwOmmjzmUBCpz7A'
+  - _id: Rqdp27lFrgJGPX4J
+    name: Fighting Style
+    type: feat
+    folder: 6uMLnndK8UPkb7Uy
+    img: icons/skills/melee/hand-grip-staff-blue.webp
+    system:
+      description:
+        value: >-
+          <p>You gain a
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting
+          Style feat} of your choice. Instead of choosing one of those feats,
+          you can choose the option
+          below.</p><hr><p>@Embed[Compendium.dnd5e.classes24.Item.phbfstBlessedWar
+          caption=false]</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: fighting-style
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbpdnFightingSt
+        advancementOrigin: S1EKW9QxuK6sVSvu.AKkVlHKAVYHNqf6q
+        advancementRoot: S1EKW9QxuK6sVSvu.AKkVlHKAVYHNqf6q
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnFightingSt
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.Rqdp27lFrgJGPX4J'
+  - _id: cbCOZK4gHcnHh21J
+    name: Paladin's Smite
+    type: feat
+    folder: 6uMLnndK8UPkb7Uy
+    img: icons/skills/melee/strike-flail-destructive-yellow.webp
+    system:
+      description:
+        value: >-
+          <p>You always have the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplDivineSmit]{Divine Smite}
+          spell prepared. In addition, you can cast it without expending a spell
+          slot, but you must finish a Long Rest before you can cast it in this
+          way again.</p><section id="secret-47mDL7wHB8aQP7SD"
+          class="secret"><p><strong>Foundry Note</strong></p><p>When you reach
+          this level the Divine Smite spell is added to your spells as Always
+          Prepared and with a free use.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 2
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: paladins-smite
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbpdnPaladinsSm
+        advancementOrigin: S1EKW9QxuK6sVSvu.AKkVlHKAVYHNqf6q
+        advancementRoot: S1EKW9QxuK6sVSvu.AKkVlHKAVYHNqf6q
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571230
+      modifiedTime: 1777241571230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbpdnPaladinsSm
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.cbCOZK4gHcnHh21J'
+  - name: Great Weapon Fighting
+    system:
+      description:
+        value: >-
+          <p><em>(Prerequisite: Fighting Style Feature)</em></p><p>When you roll
+          damage for an attack you make with a Melee weapon that you are holding
+          with two hands, you can treat any 1 or 2 on a damage die as a 3. The
+          weapon must have the Two-Handed or Versatile property to gain this
+          benefit.</p><section id="secret-jkbP75uR9eNGIRN0"
+          class="secret"><p><strong>Foundry Note</strong></p><p>This effect is
+          not automated.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: feat
+        subtype: fightingStyle
+      prerequisites:
+        level: null
+        repeatable: false
+        items:
+          - fighting-style
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: great-weapon-fighting
+      advancement: {}
+      crewed: false
+    _id: r17cjPRSolV4RF0A
+    type: feat
+    img: icons/weapons/swords/greatsword-guard-gold-worn.webp
+    effects: []
+    folder: O942K0m1gZMIIoMB
+    sort: 112500
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.feats24.Item.phbfstGreatWeapo
+        advancementOrigin: S1EKW9QxuK6sVSvu.g88kf6OtX8abBt5c
+        advancementRoot: S1EKW9QxuK6sVSvu.g88kf6OtX8abBt5c
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571231
+      modifiedTime: 1777241571231
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.feats24.Item.phbfstGreatWeapo
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.r17cjPRSolV4RF0A'
+  - name: Time-Lost
+    type: background
+    _id: zJu10YEACZikIJIZ
+    img: systems/dnd5e/icons/backgrounds/soldier.webp
+    system:
+      advancement:
+        smULNS6DdqHYmZ3N:
+          type: AbilityScoreImprovement
+          configuration:
+            points: 3
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked:
+              - dex
+              - int
+              - cha
+            recommendation: null
+            max: null
+          _id: smULNS6DdqHYmZ3N
+          value:
+            type: asi
+            assignments:
+              str: 2
+              con: 1
+          level: 0
+          title: ''
+          hint: ''
+          flags: {}
+        kY11ABZp1LBuAhHp:
+          type: Trait
+          title: Background Proficiencies
+          _id: kY11ABZp1LBuAhHp
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - tool:*
+            grants:
+              - skills:ath
+              - skills:prc
+            mode: default
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - skills:ath
+              - skills:prc
+              - tool:art:smith
+          flags: {}
+        QzyhFgc6irXZvH79:
+          type: ItemGrant
+          title: Background Feat
+          _id: QzyhFgc6irXZvH79
+          configuration:
+            items:
+              - uuid: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              AVurYqgAYT1V7uUm: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+          level: 0
+          flags: {}
+          hint: ''
+        vrxusSUfKm1VUhCM:
+          type: Trait
+          title: Choose Languages
+          configuration:
+            grants:
+              - languages:standard:common
+            allowReplacements: false
+            choices:
+              - count: 2
+                pool:
+                  - languages:*
+            mode: default
+          _id: vrxusSUfKm1VUhCM
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - languages:standard:common
+              - languages:standard:dwarvish
+              - languages:exotic:primordial:terran
+      description:
+        value: >-
+          <div class="ddb"><h1>Background:
+          Time-Lost</h1><p></p><p><strong>Ability Scores:</strong> Strength,
+          Constitution, Wisdom<br><strong>Feat:</strong> Tough<br><strong>Skill
+          Proficiencies:</strong> &amp;Reference[ath]{Athletics} and
+          &amp;Reference[prc]{Perception}<br><strong>Tool Proficiency:</strong>
+          <em>Choose one kind of Artisan's
+          Tools</em><br><strong>Equipment:</strong> <em>Choose A or B:</em> (A)
+          Artisan's Tools (same as above), 2 Pouches, Traveler's Clothes, 32 GP;
+          or (B) 50 GP</p><p>By some magical means, you were frozen in time
+          during a time long past. The world you knew has passed and modernity
+          has been thrust upon you. While the knowledge you carry has been
+          replaced by the marvel of invention, the wisdom you keep is timeless.
+          With head held high and the strength of the ages at your back, you've
+          bravely taken your steps into this new world, beckoning the thrill of
+          a new adventure.</p><h2>Feat: Tough</h2></div>
+        chat: ''
+      identifier: time-lost
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: m7XPyjspWkPLTdl2
+          group: ''
+          sort: 500000
+        - type: linked
+          count: 2
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
+          requiresProficiency: false
+          _id: oyE2TG6qBoILOTAG
+          group: m7XPyjspWkPLTdl2
+          sort: 0
+        - type: linked
+          count: null
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.OOldUCQRCnpeGVVL
+          requiresProficiency: false
+          _id: NQVuvsOeRAvLwXwm
+          group: m7XPyjspWkPLTdl2
+          sort: 50000
+        - type: currency
+          count: 32
+          key: gp
+          requiresProficiency: false
+          _id: wW0Ot2Yi5anHt3PV
+          group: m7XPyjspWkPLTdl2
+          sort: 75000
+        - type: tool
+          count: null
+          key: art
+          requiresProficiency: false
+          _id: gOqrmX4UUT3FkQOK
+          group: m7XPyjspWkPLTdl2
+          sort: -100000
+      wealth: '50'
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571231
+      modifiedTime: 1777241571231
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.backgrounds.Item.S130hA7rho7fxCuQ
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.zJu10YEACZikIJIZ'
+  - folder: czuxGSDEF9XXySRs
+    name: Tough
+    type: feat
+    _id: AVurYqgAYT1V7uUm
+    img: icons/skills/melee/unarmed-punch-fist.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <div class="ddb"><p>Your Hit Point maximum increases by an amount
+          equal to twice your character level when you gain this feat. Whenever
+          you gain a character level thereafter, your Hit Point maximum
+          increases by an additional 2 Hit Points.</p></div>
+        chat: ''
+      identifier: tough
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: Origin Feat
+      type:
+        value: feat
+        subtype: origin
+    effects:
+      - name: Tough
+        img: icons/skills/melee/unarmed-punch-fist.webp
+        origin: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+        type: base
+        _id: HoZYtOrrEet2VXIQ
+        system:
+          changes:
+            - key: system.attributes.hp.bonuses.level
+              type: add
+              value: 2
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777241571233
+          modifiedTime: 1777241571233
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!HsCEyyIEA7FD1HXJ.AVurYqgAYT1V7uUm.HoZYtOrrEet2VXIQ
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+        advancementOrigin: zJu10YEACZikIJIZ.QzyhFgc6irXZvH79
+        advancementRoot: zJu10YEACZikIJIZ.QzyhFgc6irXZvH79
+        '-=riders': null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777241571232
+      modifiedTime: 1777241571232
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.AVurYqgAYT1V7uUm'
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    showTokenPortrait: true
+  tokenizer-2:
+    layerStack:
+      - id: VkP7VUCtALmEKXbS
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/Avatar.Korda.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: -1.6925619834710801
+          'y': -2.53884297520662
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: 11DghFpr0CcgGt7o
+            type: frame-ray
+            src: modules/token-frames/token_frames/TokenTool_Smooth_Lava.webp
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: 9i27D6DofFGKFOnW
+        type: ring
+        name: Ring
+        src: null
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.475
+          scaleY: 0.475
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          blur: 0
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        ringConfig:
+          shape: circle
+          strokeWidth: 40
+          strokeColor: '#ffffff'
+          strokeOpacity: 1
+          glowColor: null
+          glowBlur: 0
+          innerFeather: 0
+          maskMode: none
+          texture: null
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: 4bPV1ltko6Zxeutl
+        type: image
+        name: TokenTool Smooth Lava
+        src: modules/token-frames/token_frames/TokenTool_Smooth_Lava.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    avatarLayerStack:
+      - id: qlB9w24cAsuzIvyO
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/Avatar.Korda.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: square
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: true
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776813229521
-  modifiedTime: 1776821040016
+  modifiedTime: 1777246112878
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

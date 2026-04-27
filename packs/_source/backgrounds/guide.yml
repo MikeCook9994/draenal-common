@@ -86,6 +86,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Player's Handbook 2024
+    page: ''
+    custom: ''
+    license: ''
   startingEquipment:
     - type: AND
       requiresProficiency: false
@@ -158,9 +162,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776819961805
-  modifiedTime: 1776820674585
+  modifiedTime: 1777234293534
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

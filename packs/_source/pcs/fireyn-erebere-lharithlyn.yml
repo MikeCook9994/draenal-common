@@ -1,7 +1,8 @@
 name: Fi'Reyn'Erebere Lharithlyn
 type: character
 _id: DqLfAsayienM661c
-img: modules/draenal-common/assets/pc-images/fi_reyn_erebere_lharithlyn.Avatar.webp
+img: >-
+  modules/draenal-common/assets/pc-images/Avatar.Fi%27Reyn%27Erebere_Lharithlyn.webp?v=1777157419232
 system:
   currency:
     pp: 0
@@ -402,7 +403,7 @@ system:
       max: null
       temp: null
       tempmax: 0
-      value: 8
+      value: 19
       bonuses: {}
     death:
       roll:
@@ -452,7 +453,7 @@ system:
 
       Where other elves can temper their wild impulses, Eladrin are creatures
       ruled by emotion.
-    race: 9SYAaCzmPrY14Tp3
+    race: HsOQjT6QffmP1U37
     background: 9vws184vQueKIDk1
     originalClass: hHkYc7htKciW7Nw4
     xp:
@@ -539,12 +540,12 @@ prototypeToken:
   depth: 1
   texture:
     src: >-
-      modules/draenal-common/assets/pc-images/fi_reyn_erebere_lharithlyn.Token.webp
+      modules/draenal-common/assets/pc-images/Token.Fi%27Reyn%27Erebere_Lharithlyn.webp?v=1777157417089
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
-    scaleX: 1
-    scaleY: 1
+    scaleX: 2
+    scaleY: 2
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -1322,9 +1323,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680747
-      modifiedTime: 1776821680747
+      systemVersion: 5.3.2
+      createdTime: 1777235097274
+      modifiedTime: 1777235097274
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruid00000
@@ -1426,9 +1427,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
+      systemVersion: 5.3.2
+      createdTime: 1777235097274
+      modifiedTime: 1777235097274
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
@@ -1494,9 +1495,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
+      systemVersion: 5.3.2
+      createdTime: 1777235097274
+      modifiedTime: 1777235097274
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
@@ -1561,9 +1562,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
+      systemVersion: 5.3.2
+      createdTime: 1777235097274
+      modifiedTime: 1777235097274
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
@@ -1711,9 +1712,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680749
-          modifiedTime: 1776821680749
+          systemVersion: 5.3.2
+          createdTime: 1777235097278
+          modifiedTime: 1777235097278
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -1738,9 +1739,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680749
-      modifiedTime: 1776821680749
+      systemVersion: 5.3.2
+      createdTime: 1777235097278
+      modifiedTime: 1777235097278
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
@@ -1828,9 +1829,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680750
-          modifiedTime: 1776821680750
+          systemVersion: 5.3.2
+          createdTime: 1777235097278
+          modifiedTime: 1777235097278
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -1852,9 +1853,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680750
-      modifiedTime: 1776821680750
+      systemVersion: 5.3.2
+      createdTime: 1777235097278
+      modifiedTime: 1777235097278
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
@@ -2078,9 +2079,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
+      systemVersion: 5.3.2
+      createdTime: 1777235097274
+      modifiedTime: 1777235097274
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
@@ -2332,9 +2333,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
@@ -2342,913 +2343,6 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!DqLfAsayienM661c.vpqdcCaqA6UMe5YD'
-  - folder: null
-    name: Eladrin
-    type: race
-    _id: 9SYAaCzmPrY14Tp3
-    img: icons/magic/nature/leaf-glow-triple-green.webp
-    system:
-      advancement:
-        YckTmpGRmFn8gvGJ:
-          type: Size
-          _id: YckTmpGRmFn8gvGJ
-          configuration:
-            sizes:
-              - sm
-              - med
-          flags: {}
-          level: 0
-          hint: ''
-          value:
-            size: med
-          title: ''
-        7lBQjTrOrgLwdGeG:
-          type: Trait
-          _id: 7lBQjTrOrgLwdGeG
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - skills:prc
-                  - skills:sur
-            grants: []
-            mode: default
-          flags: {}
-          level: 0
-          hint: ''
-          title: Keen Senses
-          value:
-            chosen:
-              - skills:prc
-        X5wGVSGtuimEnkYJ:
-          type: ItemGrant
-          title: Traits
-          _id: X5wGVSGtuimEnkYJ
-          configuration:
-            items:
-              - uuid: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
-                optional: false
-              - uuid: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
-                optional: false
-              - uuid: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
-                optional: false
-            optional: false
-            spell: null
-          flags: {}
-          value:
-            added:
-              GkyQ01zjHVLFduMW: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
-              UVnnxVWXlqYB1Kk3: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
-              EbvSDFyBERZ3eG3S: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
-          level: 0
-          hint: ''
-      description:
-        value: >-
-          <div class="ddb"><p>Eladrin are elves of the Feywild, a realm of
-          perilous beauty and boundless magic.</p><p><span
-          style="font-family:'Roboto Condensed'"><strong>Eladrin
-          Traits</strong></span></p><p><span style="font-family:'Roboto
-          Condensed'">Elf, &amp;Reference[darkvision]{Darkvision}, Fey Ancestry,
-          Fey Step, Keen Senses, Trance</span></p><p><strong>Ability Score
-          Increases</strong></p><p>When determining your character's ability
-          scores, increase one score by 2 and increase a different score by 1,
-          or increase three different scores by 1. Follow this rule regardless
-          of the method you use to determine the scores, such as rolling or
-          point buy. The "Quick Build" section for your character's class offers
-          suggestions on which scores to increase. You can follow those
-          suggestions or ignore them, but you can't raise any of your scores
-          above 20.</p><p><strong>Languages</strong></p><p>Your character can
-          speak, read, and write Common and one other language that you and your
-          DM agree is appropriate for the character. The <a title="Player's
-          Handbook" href="https://www.dndbeyond.com/sources/phb"><em>Player's
-          Handbook</em></a> offers a list of languages to choose from. The DM is
-          free to modify that list for a campaign.</p><p><strong>Creature
-          Type</strong></p><p>You are a Humanoid. You are also considered an elf
-          for any prerequisite or effect that requires you to be an
-          elf.</p><p><strong>Size</strong></p><p>You are
-          Medium.</p><p><strong>Speed</strong></p><p>Your walking speed is 30
-          feet.</p><p><strong>&amp;Reference[darkvision]{Darkvision}</strong></p><p>You
-          can see in dim light within 60 feet of you as if it were bright light
-          and in darkness as if it were dim light. You discern colors in that
-          darkness only as shades of gray.</p><p><strong>Fey
-          Ancestry</strong></p><p>You have advantage on saving throws you make
-          to avoid or end the charmed condition on yourself.</p><p><strong>Fey
-          Step</strong></p><p>As a bonus action, you can magically teleport up
-          to 30 feet to an unoccupied space you can see. You can use this trait
-          a number of times equal to your proficiency bonus, and you regain all
-          expended uses when you finish a long rest.</p><p>When you reach 3rd
-          level, your Fey Step gains an additional effect based on your season;
-          if the effect requires a saving throw, the DC equals 8 + your
-          proficiency bonus + your Intelligence, Wisdom, or Charisma modifier
-          (choose when you select this race):</p><p><strong>Autumn.</strong>
-          Immediately after you use your Fey Step, up to two creatures of your
-          choice that you can see within 10 feet of you must succeed on a
-          [[/save wis format=long]] or be charmed by you for 1 minute, or until
-          you or your companions deal any damage to the
-          creatures.</p><p><strong>Winter.</strong> When you use your Fey Step,
-          one creature of your choice that you can see within 5 feet of you
-          before you teleport must succeed on a [[/save wis format=long]] or be
-          frightened of you until the end of your next
-          turn.</p><p><strong>Spring.</strong> When you use your Fey Step, you
-          can touch one willing creature within 5 feet of you. That creature
-          then teleports instead of you, appearing in an unoccupied space of
-          your choice that you can see within 30 feet of
-          you.</p><p><strong>Summer.</strong> Immediately after you use your Fey
-          Step, each creature of your choice that you can see within 5 feet of
-          you takes fire damage equal to your proficiency
-          bonus.</p><p><strong>Eladrin Season</strong></p><p>Choose your season
-          or roll on the Eladrin Seasons table. Your Trance trait lets you
-          change your season.</p><p><strong>Keen Senses</strong></p><p>You have
-          proficiency in the &amp;Reference[prc]{Perception}
-          skill.</p><p><strong>Trance</strong></p><p>You don't need to sleep,
-          and magic can't put you to sleep. You can finish a long rest in 4
-          hours if you spend those hours in a trancelike meditation, during
-          which you retain consciousness.</p><p>Whenever you finish this trance,
-          you can change your season, and you can gain two proficiencies that
-          you don't have, each one with a weapon or a tool of your choice
-          selected from the <a title="Player's Handbook"
-          href="https://www.dndbeyond.com/sources/phb"><em>Player's
-          Handbook</em></a>. You mystically acquire these proficiencies by
-          drawing them from shared elven memory, and you retain them until you
-          finish your next long rest.</p></div>
-        chat: ''
-      identifier: eladrin
-      source:
-        revision: 1
-        rules: '2014'
-        book: Monsters of the Multiverse
-        page: ''
-        custom: ''
-        license: ''
-      movement:
-        units: ft
-        hover: false
-        ignoredDifficultTerrain: []
-        walk: '30'
-        burrow: ''
-        climb: ''
-        fly: ''
-        swim: ''
-      senses:
-        ranges:
-          blindsight: null
-          darkvision: 60
-          tremorsense: null
-          truesight: null
-        units: ft
-        special: ''
-      type:
-        value: humanoid
-    effects: []
-    sort: 100000
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.jK79aeEGtkSXSBa4
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!DqLfAsayienM661c.9SYAaCzmPrY14Tp3'
-  - folder: bg0sAuURuHmqUcuY
-    name: Fey Step
-    type: feat
-    _id: GkyQ01zjHVLFduMW
-    img: icons/magic/nature/root-vine-entangle-foot-green.webp
-    system:
-      activities:
-        xWXZcaicB68MjIaz:
-          type: utility
-          name: Fey Step
-          _id: xWXZcaicB68MjIaz
-          img: icons/magic/nature/root-vine-entangle-foot-green.webp
-          sort: 0
-          activation:
-            type: bonus
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets:
-              - type: itemUses
-                value: '1'
-                target: ''
-                scaling: {}
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          flags: {}
-          range:
-            units: self
-            override: false
-            special: ''
-            value: ''
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-              type: circle
-              size: '30'
-              count: ''
-            affects:
-              choice: true
-              type: space
-              count: '1'
-              special: ''
-            override: false
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: null
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          roll:
-            prompt: false
-            visible: false
-            name: ''
-            formula: ''
-        vGxLEH86T3WiZgYX:
-          type: save
-          name: Autumn (Save)
-          _id: vGxLEH86T3WiZgYX
-          img: icons/magic/nature/leaf-glow-maple-orange.webp
-          sort: 100000
-          activation:
-            type: special
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: wJ0c2JY5OY8YOhzS
-              onSave: false
-              level:
-                min: null
-                max: null
-          flags: {}
-          range:
-            units: self
-            override: false
-            special: ''
-            value: '10'
-          target:
-            template:
-              contiguous: false
-              stationary: true
-              units: ft
-              type: circle
-              size: '10'
-              count: ''
-            affects:
-              choice: false
-              type: creature
-              count: '2'
-              special: ''
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: 3
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          damage:
-            onSave: none
-            parts: []
-          save:
-            ability:
-              - wis
-            dc:
-              calculation: wis
-              formula: ''
-        q9dBjOYh10cHWb4d:
-          type: damage
-          name: Summer (Damage)
-          _id: q9dBjOYh10cHWb4d
-          img: icons/magic/nature/leaf-glow-maple-orange-purple.webp
-          sort: 200000
-          activation:
-            type: special
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          flags: {}
-          range:
-            units: self
-            override: false
-            special: ''
-            value: '5'
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-              type: circle
-              size: '5'
-              count: ''
-            affects:
-              choice: true
-              type: creature
-              count: ''
-              special: ''
-            override: false
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: 3
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          damage:
-            critical:
-              allow: false
-            parts:
-              - custom:
-                  enabled: false
-                  formula: ''
-                number: null
-                denomination: null
-                bonus: '@prof'
-                types:
-                  - fire
-                scaling:
-                  number: 1
-        eMZ7yuJgCBYk96nn:
-          type: save
-          name: Winter (Save)
-          _id: eMZ7yuJgCBYk96nn
-          img: icons/magic/nature/leaf-glow-maple-teal.webp
-          sort: 300000
-          activation:
-            type: ''
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: ITsehHMcBKhOZFIO
-              onSave: false
-              level:
-                min: null
-                max: null
-          flags: {}
-          range:
-            units: self
-            override: false
-            special: ''
-            value: '5'
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-              type: circle
-              size: '5'
-              count: ''
-            affects:
-              choice: true
-              type: creature
-              count: '1'
-              special: ''
-            override: false
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: 3
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          damage:
-            onSave: none
-            parts: []
-          save:
-            ability:
-              - wis
-            dc:
-              calculation: wis
-              formula: ''
-      uses:
-        spent: 0
-        recovery:
-          - period: lr
-            type: recoverAll
-        max: '@prof'
-      advancement: {}
-      description:
-        value: >-
-          <div class="ddb"><p>As a bonus action, you can magically teleport up
-          to 30 feet to an unoccupied space you can see. You can use this trait
-          a number of times equal to your proficiency bonus, and you regain all
-          expended uses when you finish a long rest.</p><p>When you reach 3rd
-          level, your Fey Step gains an additional effect based on your season;
-          if the effect requires a saving throw, the DC equals 8 + your
-          proficiency bonus + your Intelligence, Wisdom, or Charisma modifier
-          (choose when you select this race):</p><p><strong>Autumn.</strong>
-          Immediately after you use your Fey Step, up to two creatures of your
-          choice that you can see within 10 feet of you must succeed on a
-          [[/save wis format=long]] or be charmed by you for 1 minute, or until
-          you or your companions deal any damage to the
-          creatures.</p><p><strong>Winter.</strong> When you use your Fey Step,
-          one creature of your choice that you can see within 5 feet of you
-          before you teleport must succeed on a [[/save wis format=long]] or be
-          frightened of you until the end of your next
-          turn.</p><p><strong>Spring.</strong> When you use your Fey Step, you
-          can touch one willing creature within 5 feet of you. That creature
-          then teleports instead of you, appearing in an unoccupied space of
-          your choice that you can see within 30 feet of
-          you.</p><p><strong>Summer.</strong> Immediately after you use your Fey
-          Step, each creature of your choice that you can see within 5 feet of
-          you takes fire damage equal to your proficiency bonus.</p></div>
-        chat: ''
-      identifier: fey-step
-      source:
-        revision: 1
-        rules: '2024'
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties: []
-      requirements: Eladrin
-      type:
-        value: race
-        subtype: ''
-    effects:
-      - name: Fey Charm
-        img: icons/magic/nature/root-vine-entangle-foot-green.webp
-        origin: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
-        transfer: false
-        _id: wJ0c2JY5OY8YOhzS
-        type: base
-        system:
-          changes: []
-        disabled: false
-        start: null
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        description: ''
-        tint: '#ffffff'
-        statuses:
-          - charmed
-        showIcon: 1
-        folder: null
-        sort: 0
-        flags:
-          dnd5e:
-            riders:
-              statuses: []
-        _stats:
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680752
-          modifiedTime: 1776821680752
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !actors.items.effects!DqLfAsayienM661c.GkyQ01zjHVLFduMW.wJ0c2JY5OY8YOhzS
-      - name: Feyr
-        img: icons/magic/nature/root-vine-entangle-foot-green.webp
-        origin: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
-        transfer: false
-        _id: ITsehHMcBKhOZFIO
-        type: base
-        system:
-          changes: []
-        disabled: false
-        start: null
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        description: ''
-        tint: '#ffffff'
-        statuses: []
-        showIcon: 1
-        folder: null
-        sort: 0
-        flags:
-          dnd5e:
-            riders:
-              statuses:
-                - frightened
-        _stats:
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680752
-          modifiedTime: 1776821680752
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !actors.items.effects!DqLfAsayienM661c.GkyQ01zjHVLFduMW.ITsehHMcBKhOZFIO
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
-        advancementOrigin: 9SYAaCzmPrY14Tp3.X5wGVSGtuimEnkYJ
-        advancementRoot: 9SYAaCzmPrY14Tp3.X5wGVSGtuimEnkYJ
-        '-=riders': null
-    _stats:
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680751
-      modifiedTime: 1776821680751
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!DqLfAsayienM661c.GkyQ01zjHVLFduMW'
-  - folder: bg0sAuURuHmqUcuY
-    name: Fey Ancestry
-    type: feat
-    _id: UVnnxVWXlqYB1Kk3
-    img: icons/creatures/mammals/elk-moose-marked-green.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement: {}
-      description:
-        value: >-
-          <p>You have Advantage on saving throws you make to avoid or end the
-          &amp;Reference[Charmed] condition.</p>
-        chat: ''
-      identifier: fey-ancestry
-      source:
-        revision: 1
-        rules: '2024'
-        book: Monsters of the Multiverse
-        page: ''
-        custom: ''
-        license: ''
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties:
-        - trait
-      requirements: Eladrin
-      type:
-        value: race
-        subtype: ''
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
-        advancementOrigin: 9SYAaCzmPrY14Tp3.X5wGVSGtuimEnkYJ
-        advancementRoot: 9SYAaCzmPrY14Tp3.X5wGVSGtuimEnkYJ
-        '-=riders': null
-    _stats:
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!DqLfAsayienM661c.UVnnxVWXlqYB1Kk3'
-  - folder: bg0sAuURuHmqUcuY
-    name: Trance
-    type: feat
-    _id: EbvSDFyBERZ3eG3S
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement:
-        KEJUPz8q74IDxj2V:
-          type: Trait
-          _id: KEJUPz8q74IDxj2V
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - weapon:*
-                  - tool:*
-              - count: 1
-                pool:
-                  - tool:*
-                  - weapon:*
-            grants: []
-            mode: default
-          flags: {}
-          level: 0
-          hint: ''
-          title: ''
-          value:
-            chosen:
-              - weapon:mar:shortsword
-              - tool:art:cook
-        SkPNiVF7rZQNOrV1:
-          type: ItemChoice
-          _id: SkPNiVF7rZQNOrV1
-          configuration:
-            allowDrops: false
-            choices:
-              '0':
-                count: 1
-                replacement: false
-            pool:
-              - uuid: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-              - uuid: Compendium.draenal-common.species.Item.QVOLwwPwVE4zU0c2
-              - uuid: Compendium.draenal-common.species.Item.erzSzSLs0v4SwsuN
-              - uuid: Compendium.draenal-common.species.Item.hSQCcWAjbBS5AxFX
-            restriction:
-              list: []
-              type: race
-            spell: null
-            type: feat
-          flags: {}
-          value:
-            added:
-              '0':
-                BSnn1ZTe07edJsEv: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-            replaced: {}
-          hint: ''
-          title: Choose Season
-          icon: icons/magic/nature/leaf-glow-maple-green.webp
-      description:
-        value: >-
-          <div class="ddb"><p>You don't need to sleep, and magic can't put you
-          to sleep. You can finish a long rest in 4 hours if you spend those
-          hours in a trancelike meditation, during which you retain
-          consciousness.</p><p>Whenever you finish this trance, you can change
-          your season, and you can gain two proficiencies that you don't have,
-          each one with a weapon or a tool of your choice selected from the <a
-          title="Player's Handbook"
-          href="https://www.dndbeyond.com/sources/phb"><em>Player's
-          Handbook</em></a>. You mystically acquire these proficiencies by
-          drawing them from shared elven memory, and you retain them until you
-          finish your next long rest.</p></div>
-        chat: ''
-      identifier: trance
-      source:
-        revision: 1
-        rules: '2024'
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties: []
-      requirements: Eladrin
-      type:
-        value: ''
-        subtype: ''
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
-        advancementOrigin: 9SYAaCzmPrY14Tp3.X5wGVSGtuimEnkYJ
-        advancementRoot: 9SYAaCzmPrY14Tp3.X5wGVSGtuimEnkYJ
-        '-=riders': null
-    _stats:
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!DqLfAsayienM661c.EbvSDFyBERZ3eG3S'
-  - folder: bg0sAuURuHmqUcuY
-    name: Spring Season
-    type: feat
-    _id: BSnn1ZTe07edJsEv
-    img: icons/magic/nature/leaf-glow-maple-green.webp
-    system:
-      activities:
-        ad0njoa0NNYyRXSh:
-          type: enchant
-          _id: ad0njoa0NNYyRXSh
-          img: null
-          sort: 0
-          activation:
-            type: action
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: d6laAOhiTNV8EYrH
-              level: {}
-              riders:
-                activity: []
-                effect: []
-                item: []
-          flags: {}
-          range:
-            units: self
-            override: false
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-          enchant:
-            self: false
-          restrictions:
-            allowMagical: false
-            categories: []
-            properties: []
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement: {}
-      description:
-        value: ''
-        chat: ''
-      identifier: spring-season
-      source:
-        revision: 1
-        rules: '2024'
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties:
-        - trait
-      requirements: Eladrin
-      type:
-        value: race
-        subtype: ''
-    effects:
-      - type: enchantment
-        name: Spring Season
-        img: icons/magic/nature/leaf-glow-maple-green.webp
-        disabled: true
-        _id: d6laAOhiTNV8EYrH
-        system:
-          changes: []
-        start: null
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        description: ''
-        origin: null
-        tint: '#ffffff'
-        transfer: true
-        statuses: []
-        showIcon: 1
-        folder: null
-        sort: 0
-        flags: {}
-        _stats:
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680750
-          modifiedTime: 1776821680750
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !actors.items.effects!DqLfAsayienM661c.BSnn1ZTe07edJsEv.d6laAOhiTNV8EYrH
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-        advancementOrigin: EbvSDFyBERZ3eG3S.SkPNiVF7rZQNOrV1
-        advancementRoot: 9SYAaCzmPrY14Tp3.X5wGVSGtuimEnkYJ
-        '-=riders': null
-    _stats:
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680750
-      modifiedTime: 1776821680750
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!DqLfAsayienM661c.BSnn1ZTe07edJsEv'
   - name: Acolyte
     system:
       description:
@@ -3370,8 +2464,8 @@ items:
           level: 0
           title: Background Proficiencies
           hint: >-
-            Your background grants you proficiency in Insight and Religion. It
-            also grants you proficiency in Calligrapher's Supplies.
+            <p>Your background grants you proficiency in Insight and Religion.
+            It also grants you proficiency in Calligrapher's Supplies.</p>
           flags: {}
         ygyW1bVUTnCnjxY2:
           _id: ygyW1bVUTnCnjxY2
@@ -3424,9 +2518,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680748
-      modifiedTime: 1776821680748
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777238170935
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.origins24.Item.phbbgAcolyte0000
@@ -3577,9 +2671,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680749
-      modifiedTime: 1776821680749
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.feats24.Item.phbftMagicInitia
@@ -3749,9 +2843,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680749
-      modifiedTime: 1776821680749
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
@@ -3930,9 +3024,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680752
-          modifiedTime: 1776821680752
+          systemVersion: 5.3.2
+          createdTime: 1777235097283
+          modifiedTime: 1777235097283
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -3968,9 +3062,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680753
-          modifiedTime: 1776821680753
+          systemVersion: 5.3.2
+          createdTime: 1777235097283
+          modifiedTime: 1777235097283
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: y6aODSkiubtFt6Ap
@@ -4007,9 +3101,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680753
-          modifiedTime: 1776821680753
+          systemVersion: 5.3.2
+          createdTime: 1777235097284
+          modifiedTime: 1777235097284
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Vlfh8IFOezrSpeBZ
@@ -4046,9 +3140,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680753
-          modifiedTime: 1776821680753
+          systemVersion: 5.3.2
+          createdTime: 1777235097284
+          modifiedTime: 1777235097284
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: sPkLWVpkJ7NqDQT0
@@ -4085,9 +3179,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680753
-          modifiedTime: 1776821680753
+          systemVersion: 5.3.2
+          createdTime: 1777235097284
+          modifiedTime: 1777235097284
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Je4xWElmaiSDsOjU
@@ -4124,9 +3218,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680753
-          modifiedTime: 1776821680753
+          systemVersion: 5.3.2
+          createdTime: 1777235097284
+          modifiedTime: 1777235097284
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: cw02ZbuiRn6GyoEv
@@ -4163,9 +3257,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680753
-          modifiedTime: 1776821680753
+          systemVersion: 5.3.2
+          createdTime: 1777235097284
+          modifiedTime: 1777235097284
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: VsU5vUhMioT9pCwG
@@ -4202,9 +3296,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680754
-          modifiedTime: 1776821680754
+          systemVersion: 5.3.2
+          createdTime: 1777235097284
+          modifiedTime: 1777235097284
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: UQixxmOdHUDjVYNh
@@ -4241,9 +3335,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680754
-          modifiedTime: 1776821680754
+          systemVersion: 5.3.2
+          createdTime: 1777235097284
+          modifiedTime: 1777235097284
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Cpte6tynFFJbraX2
@@ -4280,9 +3374,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680754
-          modifiedTime: 1776821680754
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Vl1YSG1DlZvx9nSI
@@ -4319,9 +3413,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680754
-          modifiedTime: 1776821680754
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: IqxGXju1tYDWoda6
@@ -4358,9 +3452,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680754
-          modifiedTime: 1776821680754
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: fCdLUO5DoSIT4wVK
@@ -4397,9 +3491,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680754
-          modifiedTime: 1776821680754
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: qPowjrduxnzKpH8x
@@ -4436,9 +3530,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680754
-          modifiedTime: 1776821680754
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: E4BqoCkyoKLJbGmb
@@ -4475,9 +3569,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680755
-          modifiedTime: 1776821680755
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: jVKWknHHFuMwvTct
@@ -4514,9 +3608,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680755
-          modifiedTime: 1776821680755
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: pwFahx7uqM4DOgnu
@@ -4553,9 +3647,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680755
-          modifiedTime: 1776821680755
+          systemVersion: 5.3.2
+          createdTime: 1777235097285
+          modifiedTime: 1777235097285
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Vb4iRJ73Nw78UUMW
@@ -4592,9 +3686,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680755
-          modifiedTime: 1776821680755
+          systemVersion: 5.3.2
+          createdTime: 1777235097286
+          modifiedTime: 1777235097286
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: A1T0X0DUFIxx3qhE
@@ -4620,9 +3714,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680752
-      modifiedTime: 1776821680752
+      systemVersion: 5.3.2
+      createdTime: 1777235097283
+      modifiedTime: 1777235097283
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGuidance00
@@ -4764,9 +3858,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821680751
-          modifiedTime: 1776821680751
+          systemVersion: 5.3.2
+          createdTime: 1777235097279
+          modifiedTime: 1777235097279
           lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
@@ -4791,9 +3885,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821680751
-      modifiedTime: 1776821680751
+      systemVersion: 5.3.2
+      createdTime: 1777235097279
+      modifiedTime: 1777235097279
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSparetheDy
@@ -4930,13 +4024,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821726569
-      modifiedTime: 1776821726570
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
@@ -5061,13 +4156,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821738493
-      modifiedTime: 1776821738493
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMessage000
@@ -5233,9 +4329,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821747091
-          modifiedTime: 1776821747091
+          systemVersion: 5.3.2
+          createdTime: 1777235097280
+          modifiedTime: 1777235097280
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -5252,191 +4348,18 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821747091
-      modifiedTime: 1776821783477
+      systemVersion: 5.3.2
+      createdTime: 1777235097279
+      modifiedTime: 1777235097279
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
     _key: '!actors.items!DqLfAsayienM661c.BQQo4nI7tIZFw0do'
-  - name: Detect Magic
-    system:
-      description:
-        value: >-
-          <p>For the duration, you sense the presence of magical effects within
-          30 feet of yourself. If you sense such effects, you can take the Magic
-          action to see a faint aura around any visible creature or object in
-          the area that bears the magic, and if an effect was created by a
-          spell, you learn the spell's school of magic.</p><p>The spell is
-          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
-          sheet of lead.</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      activation:
-        type: action
-        condition: ''
-        value: null
-      duration:
-        value: '10'
-        units: minute
-      target:
-        affects:
-          type: self
-          count: ''
-          choice: false
-          special: ''
-        template:
-          units: ft
-          contiguous: false
-          type: radius
-          size: '30'
-          count: ''
-          stationary: false
-      range:
-        value: ''
-        units: self
-        special: ''
-      uses:
-        max: ''
-        recovery: []
-        spent: 0
-      level: 1
-      school: div
-      properties:
-        - vocal
-        - somatic
-        - concentration
-        - ritual
-      materials:
-        value: ''
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: utility
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: false
-            concentration: false
-          effects:
-            - _id: BHw91lQmVgdx39WZ
-              level: {}
-          range:
-            override: false
-            units: self
-          target:
-            prompt: false
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-          roll:
-            formula: ''
-            name: ''
-            prompt: false
-            visible: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          sort: 0
-          name: ''
-          img: ''
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: detect-magic
-      method: spell
-      sourceItem: class:druid
-      prepared: 1
-    _id: LBvwtrqoRePH1NOc
-    type: spell
-    img: icons/magic/symbols/runes-carved-stone-green.webp
-    effects:
-      - name: Detect Magic
-        origin: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
-        duration:
-          value: 600
-          units: seconds
-          expiry: turnStart
-          expired: false
-        disabled: false
-        flags: {}
-        img: icons/magic/symbols/runes-carved-stone-green.webp
-        _id: BHw91lQmVgdx39WZ
-        type: base
-        system:
-          changes: []
-        description: ''
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        _stats:
-          compendiumSource: >-
-            Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
-          duplicateSource: null
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821753353
-          modifiedTime: 1776821753353
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!DqLfAsayienM661c.LBvwtrqoRePH1NOc.BHw91lQmVgdx39WZ
-    folder: pBaAAtXBCq9FVEnL
-    sort: 4100000
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821753353
-      modifiedTime: 1776821788696
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
-    _key: '!actors.items!DqLfAsayienM661c.LBvwtrqoRePH1NOc'
   - name: Faerie Fire
     system:
       description:
@@ -5547,7 +4470,7 @@ items:
       identifier: faerie-fire
       method: spell
       sourceItem: class:druid
-      prepared: 0
+      prepared: 1
     _id: BomXcOjXxDTFIdTT
     type: spell
     img: icons/magic/fire/projectile-meteor-salvo-strong-pink.webp
@@ -5580,9 +4503,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821802847
-          modifiedTime: 1776821802847
+          systemVersion: 5.3.2
+          createdTime: 1777235097280
+          modifiedTime: 1777235097280
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -5599,13 +4522,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821802847
-      modifiedTime: 1776821802848
+      systemVersion: 5.3.2
+      createdTime: 1777235097280
+      modifiedTime: 1777235097280
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
@@ -5717,7 +4641,7 @@ items:
       identifier: healing-word
       method: spell
       sourceItem: class:druid
-      prepared: 0
+      prepared: 1
     _id: 8SCdQeVKCKtYpVsL
     type: spell
     img: icons/magic/life/cross-beam-green.webp
@@ -5731,13 +4655,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821807790
-      modifiedTime: 1776821807790
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHealingWor
@@ -5857,7 +4782,7 @@ items:
       identifier: protection-from-evil-and-good
       method: spell
       sourceItem: class:druid
-      prepared: 0
+      prepared: 1
     effects:
       - name: Protected
         img: icons/magic/holy/yin-yang-balance-symbol.webp
@@ -5887,9 +4812,9 @@ items:
           duplicateSource: null
           coreVersion: '14.360'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776821812996
-          modifiedTime: 1776821812996
+          systemVersion: 5.3.2
+          createdTime: 1777235097281
+          modifiedTime: 1777235097281
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -5903,13 +4828,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821812996
-      modifiedTime: 1776821812996
+      systemVersion: 5.3.2
+      createdTime: 1777235097280
+      modifiedTime: 1777235097280
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
@@ -5971,9 +4897,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821861047
-      modifiedTime: 1776821861047
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
@@ -6193,13 +5119,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821866862
-      modifiedTime: 1776821870650
+      systemVersion: 5.3.2
+      createdTime: 1777235097275
+      modifiedTime: 1777235097275
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagOil00000000
@@ -6322,13 +5249,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821876142
-      modifiedTime: 1776821879034
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRations0000
@@ -6458,13 +5386,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821893108
-      modifiedTime: 1776821893108
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTinderbox00
@@ -6618,13 +5547,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821897762
-      modifiedTime: 1776821904128
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTorch000000
@@ -6684,9 +5614,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821913758
-      modifiedTime: 1776821913758
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagWaterskin00
@@ -6806,13 +5736,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821913759
-      modifiedTime: 1776821913759
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.2nlARB78sJo8Z2W6
@@ -7062,13 +5993,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821919951
-      modifiedTime: 1776821919951
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRope0000000
@@ -7118,9 +6050,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821927644
-      modifiedTime: 1776821927644
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
@@ -7276,13 +6208,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821947905
-      modifiedTime: 1776821947905
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbdfcWoodenstaf
@@ -7450,13 +6383,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776821952629
-      modifiedTime: 1776821952629
+      systemVersion: 5.3.2
+      createdTime: 1777235097276
+      modifiedTime: 1777235097276
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepSickle0000
@@ -7529,13 +6463,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822004564
-      modifiedTime: 1776822010351
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
@@ -7612,13 +6547,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822022559
-      modifiedTime: 1776822024318
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn
@@ -7689,154 +6625,18 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822031063
-      modifiedTime: 1776822032686
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
     _key: '!actors.items!DqLfAsayienM661c.cwGr84Yexd5FuunN'
-  - name: Potion of Lesser Healing
-    type: consumable
-    _id: AYv2r38YWo3PtRMC
-    img: icons/consumables/potions/potion-tube-corked-glowing-red.webp
-    system:
-      activities:
-        B7pRNpLuGdqoL3zR:
-          type: heal
-          _id: B7pRNpLuGdqoL3zR
-          sort: 0
-          activation:
-            type: bonus
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets:
-              - type: itemUses
-                value: '1'
-                target: ''
-                scaling: {}
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          flags: {}
-          range:
-            units: touch
-            override: false
-            special: ''
-          target:
-            template:
-              contiguous: false
-              units: ft
-              type: ''
-              stationary: false
-            affects:
-              choice: false
-              type: creature
-              count: '1'
-              special: ''
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: null
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          healing:
-            types:
-              - healing
-            custom:
-              enabled: false
-            scaling:
-              number: 1
-            number: null
-            denomination: null
-            bonus: '2'
-          name: ''
-          img: null
-      uses:
-        spent: 0
-        recovery: []
-        autoDestroy: true
-        max: '1'
-      description:
-        value: >-
-          <div class="ddb"><p>This potion is a magic item. As a Bonus Action,
-          you can drink it or administer it to another creature within 5 feet of
-          yourself. The creature that drinks the magical red fluid in this vial
-          regains 2 Hit Points.</p></div>
-        chat: ''
-      identifier: consumable
-      source:
-        revision: 1
-        rules: '2024'
-        book: Homebrew
-        page: ''
-        custom: ''
-        license: ''
-      identified: true
-      unidentified:
-        description: ''
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 20
-        denomination: gp
-      rarity: common
-      attunement: ''
-      damage:
-        base:
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-        replace: false
-      properties:
-        - mgc
-      type:
-        value: potion
-        subtype: ''
-      attuned: false
-      equipped: false
-    effects: []
-    folder: NN8G1Foyh9Tr2oZw
-    sort: 100000
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822042854
-      modifiedTime: 1776822042854
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.equipment.Item.OdY7mIZdFXE3fyFj
-    _key: '!actors.items!DqLfAsayienM661c.AYv2r38YWo3PtRMC'
   - name: Parchment
     system:
       description:
@@ -7878,9 +6678,9 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822048104
-      modifiedTime: 1776822080263
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagParchment00
@@ -7954,13 +6754,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822058490
-      modifiedTime: 1776822065021
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRobe0000000
@@ -8100,14 +6901,16 @@ items:
     sort: 2600000
     ownership:
       default: 0
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822071235
-      modifiedTime: 1776822074673
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagHolyWater00
@@ -8234,13 +7037,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822085329
-      modifiedTime: 1776822085329
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulCalligraph
@@ -8429,13 +7233,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822090976
-      modifiedTime: 1776822090977
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulCooksUtens
@@ -8564,13 +7369,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822095272
-      modifiedTime: 1776822095272
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulHerbalismK
@@ -8620,25 +7426,1728 @@ items:
       duplicateSource: null
       coreVersion: '14.360'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776822101296
-      modifiedTime: 1776822101296
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBook0000000
     _key: '!actors.items!DqLfAsayienM661c.jFIUkDqDtM0wWgK6'
+  - folder: ok52NyQ37ye1xW8K
+    name: Absorb Elements
+    type: spell
+    _id: 9mUBthIDZuQahjc4
+    img: icons/magic/lightning/orb-ball-purple.webp
+    system:
+      activities:
+        UYhxaw3tXUKgH7Ay:
+          type: utility
+          name: Absorb Elements Effect
+          sort: 0
+          activation:
+            type: action
+            override: false
+          consumption:
+            spellSlot: true
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+          description:
+            chatFlavor: >-
+              Uses the damage type of the triggered attack: Acid, Cold, Fire,
+              Lightning, or Poison.
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: BbmVmtCGZOno3Dbk
+              level:
+                min: null
+                max: null
+            - _id: 2t1ucq3XfdqGHVso
+              level:
+                min: null
+                max: null
+            - _id: 81Xy2rtemoJofKnI
+              level:
+                min: null
+                max: null
+            - _id: kmf5cSwMuvKBRixR
+              level:
+                min: null
+                max: null
+            - _id: l7wlV7N9dPGAOUFf
+              level: {}
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          _id: UYhxaw3tXUKgH7Ay
+          img: ''
+        BUDsiQkiinIIxG5T:
+          type: damage
+          name: Elemental Damage
+          sort: 100000
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags:
+            ddbimporter:
+              noeffect: true
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          damage:
+            parts:
+              - number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - acid
+                  - cold
+                  - fire
+                  - lightning
+                  - thunder
+                custom:
+                  enabled: false
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+            critical:
+              allow: false
+          _id: BUDsiQkiinIIxG5T
+          img: null
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <div class="ddb"><p>The spell captures some of the incoming energy,
+          lessening its effect on you and storing it for your next melee attack.
+          You have resistance to the triggering damage type until the start of
+          your next turn. Also, the first time you hit with a melee attack on
+          your next turn, the target takes an extra 1d6 damage of the triggering
+          type, and the spell ends.</p><p><em><strong>At Higher
+          Levels.</strong></em> When you cast this spell using a spell slot of
+          2nd level or higher, the extra damage increases by 1d6 for each slot
+          level above 1st.</p></div>
+        chat: ''
+      identifier: absorb-elements
+      source:
+        revision: 1
+        rules: '2024'
+        book: Xanathar's Guide to Everything
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        type: reaction
+        condition: >-
+          which you take when you take acid, cold, fire, lightning, or thunder
+          damage
+      duration:
+        units: round
+        value: '1'
+      level: 1
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      method: spell
+      properties:
+        - somatic
+      range:
+        units: self
+        special: ''
+      school: abj
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+      sourceItem: class:druid
+      prepared: 1
+    effects:
+      - name: 'Absorbed Element: Acid'
+        img: icons/magic/acid/projectile-glowing-bubbles.webp
+        origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+        transfer: false
+        _id: BbmVmtCGZOno3Dbk
+        type: base
+        system:
+          changes:
+            - key: system.traits.dr.value
+              type: add
+              value: acid
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097282
+          modifiedTime: 1777235097282
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.9mUBthIDZuQahjc4.BbmVmtCGZOno3Dbk
+      - name: 'Absorbed Element: Cold'
+        img: icons/magic/water/snowflake-ice-blue.webp
+        origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+        transfer: false
+        type: base
+        system:
+          changes:
+            - key: system.traits.dr.value
+              type: add
+              value: cold
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097282
+          modifiedTime: 1777235097282
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: 2t1ucq3XfdqGHVso
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.9mUBthIDZuQahjc4.2t1ucq3XfdqGHVso
+      - name: 'Absorbed Element: Fire'
+        img: icons/magic/fire/projectile-fireball-red-yellow.webp
+        origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+        transfer: false
+        type: base
+        system:
+          changes:
+            - key: system.traits.dr.value
+              type: add
+              value: fire
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097282
+          modifiedTime: 1777235097282
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: 81Xy2rtemoJofKnI
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.9mUBthIDZuQahjc4.81Xy2rtemoJofKnI
+      - name: 'Absorbed Element: Lightning'
+        img: icons/magic/lightning/bolt-cloud-sky-white.webp
+        origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+        transfer: false
+        type: base
+        system:
+          changes:
+            - key: system.traits.dr.value
+              type: add
+              value: lightning
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097283
+          modifiedTime: 1777235097283
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: kmf5cSwMuvKBRixR
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.9mUBthIDZuQahjc4.kmf5cSwMuvKBRixR
+      - name: 'Absorbed Element: Thunder'
+        img: icons/magic/sonic/projectile-shock-wave-blue.webp
+        origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+        transfer: false
+        type: base
+        system:
+          changes:
+            - key: system.traits.dr.value
+              type: add
+              value: thunder
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097283
+          modifiedTime: 1777235097283
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: l7wlV7N9dPGAOUFf
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.9mUBthIDZuQahjc4.l7wlV7N9dPGAOUFf
+    sort: 4400000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        '-=riders': null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097282
+      modifiedTime: 1777235097282
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!DqLfAsayienM661c.9mUBthIDZuQahjc4'
+  - name: Detect Magic
+    system:
+      description:
+        value: >-
+          <p>For the duration, you sense the presence of magical effects within
+          30 feet of yourself. If you sense such effects, you can take the Magic
+          action to see a faint aura around any visible creature or object in
+          the area that bears the magic, and if an effect was created by a
+          spell, you learn the spell's school of magic.</p><p>The spell is
+          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
+          sheet of lead.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: radius
+          size: '30'
+          count: ''
+          stationary: false
+      range:
+        value: ''
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - concentration
+        - ritual
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: BHw91lQmVgdx39WZ
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: false
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: detect-magic
+      method: spell
+      sourceItem: class:druid
+      prepared: 1
+    _id: E3C4iYyJAyXitSTv
+    type: spell
+    img: icons/magic/symbols/runes-carved-stone-green.webp
+    effects:
+      - name: Detect Magic
+        origin: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+        duration:
+          value: 600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/symbols/runes-carved-stone-green.webp
+        _id: BHw91lQmVgdx39WZ
+        type: base
+        system:
+          changes: []
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          duplicateSource: null
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097281
+          modifiedTime: 1777235097281
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.E3C4iYyJAyXitSTv.BHw91lQmVgdx39WZ
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4100000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097281
+      modifiedTime: 1777235097281
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+    _key: '!actors.items!DqLfAsayienM661c.E3C4iYyJAyXitSTv'
+  - name: Potion of Lesser Healing
+    type: consumable
+    _id: MOwT66tJVbsAfTpr
+    img: icons/consumables/potions/potion-tube-corked-glowing-red.webp
+    system:
+      activities:
+        B7pRNpLuGdqoL3zR:
+          type: heal
+          _id: B7pRNpLuGdqoL3zR
+          sort: 0
+          activation:
+            type: bonus
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: touch
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: creature
+              count: '1'
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          healing:
+            types:
+              - healing
+            custom:
+              enabled: false
+            scaling:
+              number: 1
+            number: null
+            denomination: null
+            bonus: '2'
+          name: ''
+          img: null
+      uses:
+        spent: 0
+        recovery: []
+        autoDestroy: true
+        max: '1'
+      description:
+        value: >-
+          <div class="ddb"><p>This potion is a magic item. As a Bonus Action,
+          you can drink it or administer it to another creature within 5 feet of
+          yourself. The creature that drinks the magical red fluid in this vial
+          regains 2 Hit Points.</p></div>
+        chat: ''
+      identifier: consumable
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 20
+        denomination: gp
+      rarity: common
+      attunement: ''
+      damage:
+        base:
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        replace: false
+      properties:
+        - mgc
+      type:
+        value: potion
+        subtype: ''
+      attuned: false
+      equipped: false
+    effects: []
+    folder: NN8G1Foyh9Tr2oZw
+    sort: 100000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097277
+      modifiedTime: 1777235097277
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.equipment.Item.OdY7mIZdFXE3fyFj
+    _key: '!actors.items!DqLfAsayienM661c.MOwT66tJVbsAfTpr'
+  - folder: null
+    name: Eladrin
+    type: race
+    _id: HsOQjT6QffmP1U37
+    img: icons/magic/nature/leaf-glow-triple-green.webp
+    system:
+      advancement:
+        YckTmpGRmFn8gvGJ:
+          type: Size
+          _id: YckTmpGRmFn8gvGJ
+          configuration:
+            sizes:
+              - sm
+              - med
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            size: med
+          title: ''
+        7lBQjTrOrgLwdGeG:
+          type: Trait
+          _id: 7lBQjTrOrgLwdGeG
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - skills:prc
+                  - skills:sur
+            grants: []
+            mode: default
+          flags: {}
+          level: 0
+          hint: ''
+          title: Keen Senses
+          value:
+            chosen:
+              - skills:prc
+        X5wGVSGtuimEnkYJ:
+          type: ItemGrant
+          title: Traits
+          _id: X5wGVSGtuimEnkYJ
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
+                optional: false
+              - uuid: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
+                optional: false
+              - uuid: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+                optional: false
+            optional: false
+            spell: null
+          flags: {}
+          value:
+            added:
+              wQAZuTkD6xcmjUoL: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
+              IeZTjwRRjimCWunh: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
+              HzlT9TZ6V1PiuSuY: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+          level: 0
+          hint: ''
+      description:
+        value: >-
+          <div class="ddb"><p>Eladrin are elves of the Feywild, a realm of
+          perilous beauty and boundless magic.</p><p><span
+          style="font-family:'Roboto Condensed'"><strong>Eladrin
+          Traits</strong></span></p><p><span style="font-family:'Roboto
+          Condensed'">Elf, &amp;Reference[darkvision]{Darkvision}, Fey Ancestry,
+          Fey Step, Keen Senses, Trance</span></p><p><strong>Ability Score
+          Increases</strong></p><p>When determining your character's ability
+          scores, increase one score by 2 and increase a different score by 1,
+          or increase three different scores by 1. Follow this rule regardless
+          of the method you use to determine the scores, such as rolling or
+          point buy. The "Quick Build" section for your character's class offers
+          suggestions on which scores to increase. You can follow those
+          suggestions or ignore them, but you can't raise any of your scores
+          above 20.</p><p><strong>Languages</strong></p><p>Your character can
+          speak, read, and write Common and one other language that you and your
+          DM agree is appropriate for the character. The <a title="Player's
+          Handbook" href="https://www.dndbeyond.com/sources/phb"><em>Player's
+          Handbook</em></a> offers a list of languages to choose from. The DM is
+          free to modify that list for a campaign.</p><p><strong>Creature
+          Type</strong></p><p>You are a Humanoid. You are also considered an elf
+          for any prerequisite or effect that requires you to be an
+          elf.</p><p><strong>Size</strong></p><p>You are
+          Medium.</p><p><strong>Speed</strong></p><p>Your walking speed is 30
+          feet.</p><p><strong>&amp;Reference[darkvision]{Darkvision}</strong></p><p>You
+          can see in dim light within 60 feet of you as if it were bright light
+          and in darkness as if it were dim light. You discern colors in that
+          darkness only as shades of gray.</p><p><strong>Fey
+          Ancestry</strong></p><p>You have advantage on saving throws you make
+          to avoid or end the charmed condition on yourself.</p><p><strong>Fey
+          Step</strong></p><p>As a bonus action, you can magically teleport up
+          to 30 feet to an unoccupied space you can see. You can use this trait
+          a number of times equal to your proficiency bonus, and you regain all
+          expended uses when you finish a long rest.</p><p>When you reach 3rd
+          level, your Fey Step gains an additional effect based on your season;
+          if the effect requires a saving throw, the DC equals 8 + your
+          proficiency bonus + your Intelligence, Wisdom, or Charisma modifier
+          (choose when you select this race):</p><p><strong>Autumn.</strong>
+          Immediately after you use your Fey Step, up to two creatures of your
+          choice that you can see within 10 feet of you must succeed on a
+          [[/save wis format=long]] or be charmed by you for 1 minute, or until
+          you or your companions deal any damage to the
+          creatures.</p><p><strong>Winter.</strong> When you use your Fey Step,
+          one creature of your choice that you can see within 5 feet of you
+          before you teleport must succeed on a [[/save wis format=long]] or be
+          frightened of you until the end of your next
+          turn.</p><p><strong>Spring.</strong> When you use your Fey Step, you
+          can touch one willing creature within 5 feet of you. That creature
+          then teleports instead of you, appearing in an unoccupied space of
+          your choice that you can see within 30 feet of
+          you.</p><p><strong>Summer.</strong> Immediately after you use your Fey
+          Step, each creature of your choice that you can see within 5 feet of
+          you takes fire damage equal to your proficiency
+          bonus.</p><p><strong>Eladrin Season</strong></p><p>Choose your season
+          or roll on the Eladrin Seasons table. Your Trance trait lets you
+          change your season.</p><p><strong>Keen Senses</strong></p><p>You have
+          proficiency in the &amp;Reference[prc]{Perception}
+          skill.</p><p><strong>Trance</strong></p><p>You don't need to sleep,
+          and magic can't put you to sleep. You can finish a long rest in 4
+          hours if you spend those hours in a trancelike meditation, during
+          which you retain consciousness.</p><p>Whenever you finish this trance,
+          you can change your season, and you can gain two proficiencies that
+          you don't have, each one with a weapon or a tool of your choice
+          selected from the <a title="Player's Handbook"
+          href="https://www.dndbeyond.com/sources/phb"><em>Player's
+          Handbook</em></a>. You mystically acquire these proficiencies by
+          drawing them from shared elven memory, and you retain them until you
+          finish your next long rest.</p></div>
+        chat: ''
+      identifier: eladrin
+      source:
+        revision: 1
+        rules: '2014'
+        book: 'Mordenkainen Presents: Monsters of the Multiverse'
+        page: ''
+        custom: ''
+        license: ''
+      movement:
+        units: ft
+        hover: false
+        ignoredDifficultTerrain: []
+        walk: '30'
+        burrow: ''
+        climb: ''
+        fly: ''
+        swim: ''
+      senses:
+        ranges:
+          blindsight: null
+          darkvision: 60
+          tremorsense: null
+          truesight: null
+        units: ft
+        special: ''
+      type:
+        value: humanoid
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097185
+      modifiedTime: 1777235097185
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.jK79aeEGtkSXSBa4
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!DqLfAsayienM661c.HsOQjT6QffmP1U37'
+  - folder: bg0sAuURuHmqUcuY
+    name: Fey Step
+    type: feat
+    _id: wQAZuTkD6xcmjUoL
+    img: icons/magic/nature/root-vine-entangle-foot-green.webp
+    system:
+      activities:
+        xWXZcaicB68MjIaz:
+          type: utility
+          name: Fey Step
+          _id: xWXZcaicB68MjIaz
+          img: icons/magic/nature/root-vine-entangle-foot-green.webp
+          sort: 0
+          activation:
+            type: bonus
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+            value: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: circle
+              size: '30'
+              count: ''
+            affects:
+              choice: true
+              type: space
+              count: '1'
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '@prof'
+      advancement: {}
+      description:
+        value: >-
+          <div class="ddb"><p>As a bonus action, you can magically teleport up
+          to 30 feet to an unoccupied space you can see. You can use this trait
+          a number of times equal to your proficiency bonus, and you regain all
+          expended uses when you finish a long rest.</p><p>When you reach 3rd
+          level, your Fey Step gains an additional effect based on your season;
+          if the effect requires a saving throw, the DC equals 8 + your
+          proficiency bonus + your Intelligence, Wisdom, or Charisma modifier
+          (choose when you select this race):</p><p><strong>Autumn.</strong>
+          Immediately after you use your Fey Step, up to two creatures of your
+          choice that you can see within 10 feet of you must succeed on a
+          [[/save wis format=long]] or be charmed by you for 1 minute, or until
+          you or your companions deal any damage to the
+          creatures.</p><p><strong>Winter.</strong> When you use your Fey Step,
+          one creature of your choice that you can see within 5 feet of you
+          before you teleport must succeed on a [[/save wis format=long]] or be
+          frightened of you until the end of your next
+          turn.</p><p><strong>Spring.</strong> When you use your Fey Step, you
+          can touch one willing creature within 5 feet of you. That creature
+          then teleports instead of you, appearing in an unoccupied space of
+          your choice that you can see within 30 feet of
+          you.</p><p><strong>Summer.</strong> Immediately after you use your Fey
+          Step, each creature of your choice that you can see within 5 feet of
+          you takes fire damage equal to your proficiency bonus.</p></div>
+        chat: ''
+      identifier: fey-step
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Mordenkainen Presents: Monsters of the Multiverse'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: Eladrin
+      type:
+        value: race
+        subtype: ''
+    effects:
+      - name: Fey Charm
+        img: icons/magic/nature/root-vine-entangle-foot-green.webp
+        origin: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
+        transfer: false
+        _id: wJ0c2JY5OY8YOhzS
+        type: base
+        system:
+          changes: []
+        disabled: false
+        start: null
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - charmed
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097186
+          modifiedTime: 1777235097186
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.wQAZuTkD6xcmjUoL.wJ0c2JY5OY8YOhzS
+      - name: Feyrd
+        img: icons/magic/nature/root-vine-entangle-foot-green.webp
+        origin: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
+        transfer: false
+        _id: ITsehHMcBKhOZFIO
+        type: base
+        system:
+          changes: []
+        disabled: false
+        start: null
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses:
+                - frightened
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097186
+          modifiedTime: 1777235097186
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.wQAZuTkD6xcmjUoL.ITsehHMcBKhOZFIO
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
+        advancementOrigin: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097186
+      modifiedTime: 1777235097186
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!DqLfAsayienM661c.wQAZuTkD6xcmjUoL'
+  - folder: bg0sAuURuHmqUcuY
+    name: Fey Ancestry
+    type: feat
+    _id: IeZTjwRRjimCWunh
+    img: icons/creatures/mammals/elk-moose-marked-green.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>You have Advantage on saving throws you make to avoid or end the
+          &amp;Reference[Charmed] condition.</p>
+        chat: ''
+      identifier: fey-ancestry
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Mordenkainen Presents: Monsters of the Multiverse'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: Eladrin
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
+        advancementOrigin: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097186
+      modifiedTime: 1777235097186
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!DqLfAsayienM661c.IeZTjwRRjimCWunh'
+  - folder: bg0sAuURuHmqUcuY
+    name: Trance
+    type: feat
+    _id: HzlT9TZ6V1PiuSuY
+    img: icons/magic/perception/third-eye-blue-red.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        KEJUPz8q74IDxj2V:
+          type: Trait
+          _id: KEJUPz8q74IDxj2V
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - weapon:*
+                  - tool:*
+              - count: 1
+                pool:
+                  - tool:*
+                  - weapon:*
+            grants: []
+            mode: default
+          flags: {}
+          level: 0
+          hint: ''
+          title: ''
+          value:
+            chosen:
+              - weapon:mar:shortsword
+              - tool:art:cook
+        SkPNiVF7rZQNOrV1:
+          type: ItemChoice
+          _id: SkPNiVF7rZQNOrV1
+          configuration:
+            allowDrops: false
+            choices:
+              '0':
+                count: 1
+                replacement: false
+            pool:
+              - uuid: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+              - uuid: Compendium.draenal-common.species.Item.QVOLwwPwVE4zU0c2
+              - uuid: Compendium.draenal-common.species.Item.erzSzSLs0v4SwsuN
+              - uuid: Compendium.draenal-common.species.Item.hSQCcWAjbBS5AxFX
+            restriction:
+              list: []
+              type: race
+            spell: null
+            type: feat
+          flags: {}
+          value:
+            added:
+              '0':
+                Eu1yS4k5pMaZ7Yqm: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+            replaced: {}
+          hint: ''
+          title: Choose Eladrin Season
+          icon: icons/magic/nature/leaf-glow-maple-green.webp
+      description:
+        value: >-
+          <div class="ddb"><p>You don't need to sleep, and magic can't put you
+          to sleep. You can finish a long rest in 4 hours if you spend those
+          hours in a trancelike meditation, during which you retain
+          consciousness.</p><p>Whenever you finish this trance, you can change
+          your season, and you can gain two proficiencies that you don't have,
+          each one with a weapon or a tool of your choice selected from the <a
+          title="Player's Handbook"
+          href="https://www.dndbeyond.com/sources/phb"><em>Player's
+          Handbook</em></a>. You mystically acquire these proficiencies by
+          drawing them from shared elven memory, and you retain them until you
+          finish your next long rest.</p></div>
+        chat: ''
+      identifier: trance
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Mordenkainen Presents: Monsters of the Multiverse'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: Eladrin
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+        advancementOrigin: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097187
+      modifiedTime: 1777235097187
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!DqLfAsayienM661c.HzlT9TZ6V1PiuSuY'
+  - folder: bg0sAuURuHmqUcuY
+    name: Spring Eladrin
+    type: feat
+    _id: Eu1yS4k5pMaZ7Yqm
+    img: icons/magic/nature/leaf-glow-maple-green.webp
+    system:
+      activities:
+        sqcT36LpbUTa07dg:
+          type: enchant
+          name: Enhance Fey Step
+          img: icons/magic/nature/leaf-glow-maple-green.webp
+          sort: 0
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: 48HlATy7kqoUTsTL
+              level:
+                min: 3
+                max: null
+              riders:
+                activity:
+                  - 9S1rcRYONFCV2dq1
+                effect: []
+                item: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: 3
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          enchant:
+            self: false
+          restrictions:
+            allowMagical: false
+            categories: []
+            properties: []
+            type: feat
+          _id: sqcT36LpbUTa07dg
+        9S1rcRYONFCV2dq1:
+          type: utility
+          _id: 9S1rcRYONFCV2dq1
+          img: icons/magic/nature/leaf-glow-maple-green.webp
+          sort: 100000
+          activation:
+            type: special
+            override: false
+            condition: When you use Fey Step
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '5'
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: circle
+              size: '30'
+              count: ''
+            affects:
+              choice: false
+              type: willing
+              count: '1'
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: Spring Fey Step Teleport
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>When you use your Fey Step, you can touch one willing creature
+          within 5 feet of you. That creature then teleports instead of you,
+          appearing in an unoccupied space of your choice that you can see
+          within 30 feet of you.</p>
+        chat: ''
+      identifier: spring-eladrin
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Mordenkainen Presents: Monsters of the Multiverse'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: Eladrin
+      type:
+        value: race
+        subtype: ''
+    effects:
+      - name: Spring Eladrin
+        img: icons/magic/nature/leaf-glow-maple-green.webp
+        origin: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+        type: enchantment
+        _id: 48HlATy7kqoUTsTL
+        system:
+          changes: []
+        disabled: true
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1777235097187
+          modifiedTime: 1777235097187
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.Eu1yS4k5pMaZ7Yqm.48HlATy7kqoUTsTL
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity:
+            - 9S1rcRYONFCV2dq1
+        sourceId: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+        advancementOrigin: HzlT9TZ6V1PiuSuY.SkPNiVF7rZQNOrV1
+        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777235097187
+      modifiedTime: 1777235097187
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!DqLfAsayienM661c.Eu1yS4k5pMaZ7Yqm'
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  tokenizer-2:
+    layerStack:
+      - id: oh5ATcXSyfsLRItF
+        type: image
+        name: Image Layer
+        src: >-
+          modules/draenal-common/assets/pc-images/Avatar.fi_reyn_erebere_lharithlyn.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.3549144840151799
+          scaleY: 0.3549144840151799
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: tikfXDAF709V0C5B
+            type: frame-ray
+            src: >-
+              modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: fA25I7o1oOqJrerc
+        type: image
+        name: TokenTool Decorated Picture%20Frame%2C%20Silver
+        src: >-
+          modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.49750312500000005
+          scaleY: 0.49750312500000005
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    avatarLayerStack:
+      - id: JHWPO1nMGyhrGkx7
+        type: image
+        name: Image Layer
+        src: >-
+          modules/draenal-common/assets/pc-images/Avatar.fi_reyn_erebere_lharithlyn.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: square
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: true
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776813204402
-  modifiedTime: 1776834566079
+  modifiedTime: 1777235097866
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

@@ -85,12 +85,14 @@ system:
       Note</strong></p><p>This item includes an Active Effect that automates the
       bonus.</p></section>
     chat: ''
-  identifier: stone-of-good-luck-luckstone
+  identifier: seed-of-shinalaestra
   source:
     revision: 1
     rules: '2024'
-    license: CC-BY-4.0
-    book: ''
+    license: ''
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
   identified: true
   unidentified:
     description: ''
@@ -178,15 +180,15 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776803320590
-  modifiedTime: 1776813116711
+  modifiedTime: 1777237226649
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 ownership:
   default: 0
 _id: JDUhQ3jjshmW7dSr
-sort: 50000
+sort: 400000
 _key: '!items!JDUhQ3jjshmW7dSr'
 

@@ -75,6 +75,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   classIdentifier: druid
   spellcasting:
     progression: none
@@ -89,9 +93,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776656152625
-  modifiedTime: 1776662603315
+  modifiedTime: 1777233141259
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

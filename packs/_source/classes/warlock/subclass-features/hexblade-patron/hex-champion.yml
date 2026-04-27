@@ -43,15 +43,18 @@ system:
       invocation. If you already have this invocation, you gain one other
       invocation of your choice that you satisfy the prerequisites for.</p>
     chat: ''
-  identifier: feature
+  identifier: hex-champion
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 6
   properties: []
@@ -67,11 +70,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768808829325
-  modifiedTime: 1775008843984
+  modifiedTime: 1777233467988
   lastModifiedBy: draenalcommon000
 _key: '!items!S6SnAx4mclBVWtQt'
 

@@ -1,0 +1,415 @@
+folder: ok52NyQ37ye1xW8K
+name: Absorb Elements
+type: spell
+_id: qGfir2YIJu2Da3tR
+img: icons/magic/lightning/orb-ball-purple.webp
+system:
+  activities:
+    UYhxaw3tXUKgH7Ay:
+      type: utility
+      name: Absorb Elements Effect
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        spellSlot: true
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+      description:
+        chatFlavor: >-
+          Uses the damage type of the triggered attack: Acid, Cold, Fire,
+          Lightning, or Poison.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: BbmVmtCGZOno3Dbk
+          level:
+            min: null
+            max: null
+        - _id: 2t1ucq3XfdqGHVso
+          level:
+            min: null
+            max: null
+        - _id: 81Xy2rtemoJofKnI
+          level:
+            min: null
+            max: null
+        - _id: kmf5cSwMuvKBRixR
+          level:
+            min: null
+            max: null
+        - _id: l7wlV7N9dPGAOUFf
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      _id: UYhxaw3tXUKgH7Ay
+      img: ''
+    BUDsiQkiinIIxG5T:
+      type: damage
+      name: Elemental Damage
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags:
+        ddbimporter:
+          noeffect: true
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - acid
+              - cold
+              - fire
+              - lightning
+              - thunder
+            custom:
+              enabled: false
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        critical:
+          allow: false
+      _id: BUDsiQkiinIIxG5T
+      img: null
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <div class="ddb"><p>The spell captures some of the incoming energy,
+      lessening its effect on you and storing it for your next melee attack. You
+      have resistance to the triggering damage type until the start of your next
+      turn. Also, the first time you hit with a melee attack on your next turn,
+      the target takes an extra 1d6 damage of the triggering type, and the spell
+      ends.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this
+      spell using a spell slot of 2nd level or higher, the extra damage
+      increases by 1d6 for each slot level above 1st.</p></div>
+    chat: ''
+  identifier: absorb-elements
+  source:
+    revision: 1
+    rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: reaction
+    condition: >-
+      which you take when you take acid, cold, fire, lightning, or thunder
+      damage
+  duration:
+    units: round
+    value: '1'
+  level: 1
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - somatic
+  range:
+    units: self
+    special: ''
+  school: abj
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: self
+effects:
+  - name: 'Absorbed Element: Acid'
+    img: icons/magic/acid/projectile-glowing-bubbles.webp
+    origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+    transfer: false
+    _id: BbmVmtCGZOno3Dbk
+    type: base
+    system:
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: acid
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777187579103
+      modifiedTime: 1777188000299
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!qGfir2YIJu2Da3tR.BbmVmtCGZOno3Dbk'
+  - name: 'Absorbed Element: Cold'
+    img: icons/magic/water/snowflake-ice-blue.webp
+    origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+    transfer: false
+    type: base
+    system:
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: cold
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777187763097
+      modifiedTime: 1777187980229
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: 2t1ucq3XfdqGHVso
+    _key: '!items.effects!qGfir2YIJu2Da3tR.2t1ucq3XfdqGHVso'
+  - name: 'Absorbed Element: Fire'
+    img: icons/magic/fire/projectile-fireball-red-yellow.webp
+    origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+    transfer: false
+    type: base
+    system:
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: fire
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777187773995
+      modifiedTime: 1777188022941
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: 81Xy2rtemoJofKnI
+    _key: '!items.effects!qGfir2YIJu2Da3tR.81Xy2rtemoJofKnI'
+  - name: 'Absorbed Element: Lightning'
+    img: icons/magic/lightning/bolt-cloud-sky-white.webp
+    origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+    transfer: false
+    type: base
+    system:
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: lightning
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777187775398
+      modifiedTime: 1777188036276
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: kmf5cSwMuvKBRixR
+    _key: '!items.effects!qGfir2YIJu2Da3tR.kmf5cSwMuvKBRixR'
+  - name: 'Absorbed Element: Thunder'
+    img: icons/magic/sonic/projectile-shock-wave-blue.webp
+    origin: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+    transfer: false
+    type: base
+    system:
+      changes:
+        - key: system.traits.dr.value
+          type: add
+          value: thunder
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777187776665
+      modifiedTime: 1777188113303
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _id: l7wlV7N9dPGAOUFf
+    _key: '!items.effects!qGfir2YIJu2Da3tR.l7wlV7N9dPGAOUFf'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777187179030
+  modifiedTime: 1777188140225
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!qGfir2YIJu2Da3tR'
+

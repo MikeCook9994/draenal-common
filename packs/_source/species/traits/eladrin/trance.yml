@@ -54,7 +54,7 @@ system:
         added: {}
         replaced: {}
       hint: ''
-      title: Choose Season
+      title: Choose Eladrin Season
       icon: icons/magic/nature/leaf-glow-maple-green.webp
   description:
     value: >-
@@ -74,6 +74,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: 'Mordenkainen Presents: Monsters of the Multiverse'
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -83,7 +87,7 @@ system:
   properties: []
   requirements: Eladrin
   type:
-    value: ''
+    value: race
     subtype: ''
 effects: []
 sort: 0
@@ -93,9 +97,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776816263323
-  modifiedTime: 1776816830208
+  modifiedTime: 1777234068141
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

@@ -102,6 +102,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Player's Handbook 2024
+    page: ''
+    custom: ''
+    license: ''
   activation:
     type: action
     condition: ''
@@ -178,11 +182,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.2
   createdTime: 1774331152634
-  modifiedTime: 1774332333799
+  modifiedTime: 1777234593270
   lastModifiedBy: draenalcommon000
 _key: '!items!ZWjl2ws08IDeKnpr'
 

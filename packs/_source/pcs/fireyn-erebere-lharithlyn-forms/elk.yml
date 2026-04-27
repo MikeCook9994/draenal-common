@@ -1,0 +1,1019 @@
+name: Elk
+type: npc
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 2
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 6
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      walk: '50'
+      units: null
+      hover: false
+      ignoredDifficultTerrain: []
+    attunement:
+      max: 3
+    senses:
+      units: null
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+    spellcasting: str
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 11
+      calc: natural
+    hd:
+      spent: 0
+    hp:
+      value: 11
+      max: 11
+      temp: null
+      tempmax: null
+      formula: 2d10
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty:
+      value: null
+    price:
+      value: null
+      denomination: gp
+  details:
+    biography:
+      value: >-
+        <p><em>Token artwork by <a href="https://www.forgotten-adventures.net/"
+        target="_blank" rel="noopener">Forgotten
+        Adventures</a>.</em></p><p><em>Token artwork by <a
+        href="https://www.forgotten-adventures.net/" target="_blank"
+        rel="noopener">Forgotten Adventures</a>.</em></p>
+      public: ''
+    alignment: Unaligned
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: beast
+    cr: 0.25
+    habitat:
+      value:
+        - type: forest
+        - type: grassland
+        - type: hill
+      custom: ''
+    treasure:
+      value: []
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+    book: Fi'Reyn'Erebere Lharithlyn Forms
+    license: CC-BY-4.0
+    page: ''
+    custom: ''
+  traits:
+    size: lg
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+      communication: {}
+    important: false
+_id: mmElk00000000000
+img: modules/draenal-common/assets/npc-images/Avatar.Elk.webp?v=1777156282485
+prototypeToken:
+  name: Elk
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 2
+  height: 2
+  texture:
+    src: modules/draenal-common/assets/npc-images/Token.Elk.webp?v=1777156281207
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  depth: 2
+items:
+  - _id: mmRam00000000000
+    name: Ram
+    type: weapon
+    system:
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        z58sUDUmqxECJgT3:
+          _id: z58sUDUmqxECJgT3
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: creature
+              count: '1'
+              special: Large or smaller
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: ''
+            ability: str
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        hAnQ4KbZpJFBPEPg:
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: GF5aJ8BZ8yVEuVJp
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: creature
+              count: '1'
+              special: Large or smaller
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: ''
+            ability: str
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - bludgeoning
+                scaling:
+                  number: 1
+          name: Moving Attack
+          _id: hAnQ4KbZpJFBPEPg
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p class="feature">[[/attack extended]]. [[/damage average extended]].
+          If the target is a [[lookup @target.affects.special
+          activity=z58sUDUmqxECJgT3]] creature and the [[lookup @name
+          lowercase]]{monster} moved 20+ feet straight toward it immediately
+          before the hit, the target takes an extra [[/damage 1d6 bludgeoning
+          average]] damage and has the &amp;Reference[Prone apply=false]
+          condition.</p>
+        chat: ''
+      identifier: ram
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      armor:
+        value: null
+      cover: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      damage:
+        base:
+          number: 1
+          denomination: 6
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      properties: []
+      proficient: null
+      range:
+        value: null
+        long: null
+        reach: 5
+        units: ft
+      mastery: ''
+      crew:
+        value: []
+    folder: pSCWWdqMX9eUATRJ
+    img: icons/creatures/mammals/elk-moose-marked-green.webp
+    effects:
+      - name: Prone
+        img: systems/dnd5e/icons/svg/statuses/prone.svg
+        origin: Compendium.dnd5e.actors24.Actor.mmElk00000000000.Item.mmRam00000000000
+        _id: GF5aJ8BZ8yVEuVJp
+        type: base
+        system:
+          changes: []
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: <p>The target the &amp;Reference[Prone apply=false] condition.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses:
+          - prone
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.360'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          lastModifiedBy: draenalcommon000
+          createdTime: 1777153658662
+          modifiedTime: 1777153658662
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
+        _key: >-
+          !actors.items.effects!mmElk00000000000.mmRam00000000000.GF5aJ8BZ8yVEuVJp
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      lastModifiedBy: draenalcommon000
+      createdTime: 1777153658662
+      modifiedTime: 1777153658662
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!mmElk00000000000.mmRam00000000000'
+effects: []
+folder: KPBZVagXjdKsuo73
+ownership:
+  default: 0
+flags:
+  tokenizer-2:
+    layerStack:
+      - id: ujN1LVkRiqZbfQuL
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/reyn-elk.Avatar.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: -2.9619834710744044
+          'y': -5.500826446280968
+          scaleX: 0.39227390338519896
+          scaleY: 0.39227390338519896
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: rbWnn7SArWRNhe8L
+            type: frame-ray
+            src: >-
+              modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: 7HZMLp8gQTxOC14h
+        type: image
+        name: TokenTool Decorated Picture%20Frame%2C%20Silver
+        src: >-
+          modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    avatarLayerStack:
+      - id: APffU0365MUX2ukH
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/reyn-elk.Avatar.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: custom
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: true
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777153658662
+  modifiedTime: 1777157041043
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+sort: 100000
+_key: '!actors!mmElk00000000000'
+

@@ -59,15 +59,18 @@ system:
       invocation of your choice that you satisfy the prerequisites for.
       Additionally, you gain proficiency with medium armor and shields.</p>
     chat: ''
-  identifier: feature
+  identifier: hex-warrior
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 3
   properties: []
@@ -83,11 +86,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768801359796
-  modifiedTime: 1775008844022
+  modifiedTime: 1777233487027
   lastModifiedBy: draenalcommon000
 _key: '!items!i4mYuk9duBBlB3o9'
 

@@ -90,7 +90,7 @@ system:
           prepared: 2
       value: {}
       level: 3
-      title: Hexblade's Curse
+      title: Fate's Omen
       hint: ''
       icon: icons/magic/symbols/star-yellow.webp
       flags: {}
@@ -113,15 +113,18 @@ system:
       Charisma modifier (minimum of 1 hit point). The hit points you gain cannot
       exceed the perished creature's maximum hit points.</p>
     chat: ''
-  identifier: feature
+  identifier: fates-omen
   source:
     revision: 1
     rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 3
   properties:
@@ -140,9 +143,9 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1768801150991
-  modifiedTime: 1776800896675
+  modifiedTime: 1777243932177
   lastModifiedBy: draenalcommon000
 _key: '!items!JuoWB9ngJ4v9L63j'
 

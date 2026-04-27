@@ -16,15 +16,18 @@ system:
       hits you with an attack roll, you can use your reaction to roll a d6. On a
       4 or higher, the attack misses you, regardless of its roll.</p>
     chat: ''
-  identifier: feature
+  identifier: weal-or-woe
   source:
     revision: 1
     rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 10
   properties: []
@@ -42,9 +45,9 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1768809123676
-  modifiedTime: 1776800892797
+  modifiedTime: 1777233401026
   lastModifiedBy: draenalcommon000
 _key: '!items!hGf1Nl7BqGMxFe6d'
 

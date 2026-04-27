@@ -35,7 +35,10 @@ system:
       _id: kY11ABZp1LBuAhHp
       configuration:
         allowReplacements: false
-        choices: []
+        choices:
+          - count: 1
+            pool:
+              - tool:*
         grants:
           - skills:ath
           - skills:prc
@@ -50,8 +53,7 @@ system:
       _id: QzyhFgc6irXZvH79
       configuration:
         items:
-          - uuid: >-
-              Compendium.draenal-common.ddb-draenals-sandbox-ddb-feats.Item.THjvxAhXyyxP6V9H
+          - uuid: Compendium.world.feats.Item.BQZ32XwIRrdwpcod
             optional: false
         optional: false
         spell: null
@@ -59,44 +61,44 @@ system:
       level: 0
       flags: {}
       hint: ''
-    OfQtv3e88GWrOJWn:
+    vrxusSUfKm1VUhCM:
       type: Trait
-      _id: OfQtv3e88GWrOJWn
+      title: Choose Languages
       configuration:
+        grants:
+          - languages:standard:common
         allowReplacements: false
         choices:
-          - count: 1
+          - count: 2
             pool:
-              - tool:art:*
-        grants: []
+              - languages:*
         mode: default
-      level: 0
-      title: ''
-      hint: ''
-      value: {}
+      _id: vrxusSUfKm1VUhCM
       flags: {}
+      level: 0
+      hint: ''
   description:
     value: >-
       <div class="ddb"><h1>Background: Time-Lost</h1><p></p><p><strong>Ability
-      Scores:</strong> Strength, Constitution, Wisdom<br
-      /><strong>Feat:</strong> Tough<br /><strong>Skill Proficiencies:</strong>
-      &amp;Reference[ath]{Athletics} and &amp;Reference[prc]{Perception}<br
-      /><strong>Tool Proficiency:</strong> <em>Choose one kind of Artisan's
-      Tools</em><br /><strong>Equipment:</strong> <em>Choose A or B:</em> (A)
-      Artisan's Tools (same as above), 2 Pouches, Traveler's Clothes, 32 GP; or
-      (B) 50 GP</p><p>By some magical means, you were frozen in time during a
-      time long past. The world you knew has passed and modernity has been
-      thrust upon you. While the knowledge you carry has been replaced by the
-      marvel of invention, the wisdom you keep is timeless. With head held high
-      and the strength of the ages at your back, you've bravely taken your steps
-      into this new world, beckoning the thrill of a new adventure.</p><h2>Feat:
-      Tough</h2></div>
+      Scores:</strong> Strength, Constitution, Wisdom<br><strong>Feat:</strong>
+      Tough<br><strong>Skill Proficiencies:</strong>
+      &amp;Reference[ath]{Athletics} and
+      &amp;Reference[prc]{Perception}<br><strong>Tool Proficiency:</strong>
+      <em>Choose one kind of Artisan's Tools</em><br><strong>Equipment:</strong>
+      <em>Choose A or B:</em> (A) Artisan's Tools (same as above), 2 Pouches,
+      Traveler's Clothes, 32 GP; or (B) 50 GP</p><p>By some magical means, you
+      were frozen in time during a time long past. The world you knew has passed
+      and modernity has been thrust upon you. While the knowledge you carry has
+      been replaced by the marvel of invention, the wisdom you keep is timeless.
+      With head held high and the strength of the ages at your back, you've
+      bravely taken your steps into this new world, beckoning the thrill of a
+      new adventure.</p><h2>Feat: Tough</h2></div>
     chat: ''
   identifier: time-lost
   source:
     revision: 1
     rules: '2024'
-    book: Homebrew
+    book: Draenal Homebrew
     page: ''
     custom: ''
     license: ''
@@ -146,11 +148,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768850511676
-  modifiedTime: 1775008844095
+  modifiedTime: 1777238134631
   lastModifiedBy: draenalcommon000
 _key: '!items!S130hA7rho7fxCuQ'
 

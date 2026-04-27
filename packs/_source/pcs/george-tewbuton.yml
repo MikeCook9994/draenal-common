@@ -1,7 +1,8 @@
 name: George Tewbuton
 type: character
 _id: AhxdTivoYwlt8A68
-img: modules/draenal-common/assets/pc-images/george_tewbuton.Avatar.webp
+img: >-
+  modules/draenal-common/assets/pc-images/Avatar.George_Tewbuton.webp?v=1777157732897
 system:
   currency:
     pp: 0
@@ -493,12 +494,13 @@ prototypeToken:
   height: 1
   depth: 1
   texture:
-    src: modules/draenal-common/assets/pc-images/george_tewbuton.Token.webp
+    src: >-
+      modules/draenal-common/assets/pc-images/Token.George_Tewbuton.webp?v=1777157731266
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
-    scaleX: 1
-    scaleY: 1
+    scaleX: 2
+    scaleY: 2
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -3698,342 +3700,6 @@ items:
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
     _key: '!actors.items!AhxdTivoYwlt8A68.r17ko3TvqDxXU2T4'
-  - name: 'Spell Scroll: Remove Curse'
-    type: consumable
-    img: icons/sundries/scrolls/scroll-bound-orange-tan.webp
-    system:
-      activities:
-        dnd5escrollspell:
-          _id: dnd5escrollspell
-          type: cast
-          consumption:
-            targets:
-              - type: itemUses
-                value: '1'
-                scaling: {}
-            scaling:
-              allowed: false
-            spellSlot: true
-          spell:
-            challenge:
-              attack: 7
-              save: 15
-              override: true
-            level: 3
-            uuid: Compendium.dnd5e.spells24.Item.phbsplRemoveCurs
-            properties:
-              - vocal
-              - somatic
-              - material
-            spellbook: true
-          img: null
-          sort: 0
-          activation:
-            type: action
-            override: false
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          flags: {}
-          range:
-            units: self
-            override: false
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      uses:
-        spent: 0
-        recovery: []
-        autoDestroy: true
-        max: '1'
-      description:
-        value: >-
-          <p><em>3rd Level &amp;Reference[Spell
-          Scroll]</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs
-          inline]</p>
-        chat: ''
-      identifier: spell-scroll
-      source:
-        revision: 1
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-      identified: false
-      unidentified:
-        description: ''
-        name: Unidentified Consumable
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 300
-        denomination: gp
-      rarity: uncommon
-      attunement: ''
-      type:
-        value: scroll
-        subtype: ''
-      damage:
-        base:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-        replace: false
-      properties:
-        - mgc
-      attuned: false
-      equipped: false
-    effects: []
-    folder: a2UFIyuviRp94dzx
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-    _stats:
-      duplicateSource: Item.swVBgzuupMde8VDz
-      exportSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776831616148
-      modifiedTime: 1776831789327
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.dnd5e.equipment24.Item.dmgSpellScroll3r
-    ownership:
-      default: 0
-    _id: j0qSK5GW5fqAVQIs
-    sort: 0
-    _key: '!actors.items!AhxdTivoYwlt8A68.j0qSK5GW5fqAVQIs'
-  - name: Remove Curse
-    system:
-      description:
-        value: >-
-          <p>At your touch, all curses affecting one creature or object end. If
-          the object is a cursed magic item, its curse remains, but the spell
-          breaks its owner's Attunement to the object so it can be removed or
-          discarded.</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      activation:
-        type: action
-        condition: ''
-        value: null
-      duration:
-        value: ''
-        units: inst
-      target:
-        affects:
-          type: creatureOrObject
-          count: '1'
-          choice: false
-          special: ''
-        template:
-          units: ft
-          contiguous: false
-          type: ''
-          stationary: false
-      range:
-        units: touch
-        special: ''
-      uses:
-        max: ''
-        recovery: []
-        spent: 0
-      level: 3
-      school: abj
-      properties:
-        - vocal
-        - somatic
-      materials:
-        value: ''
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: utility
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: false
-            concentration: false
-          effects: []
-          range:
-            override: false
-            units: self
-          target:
-            prompt: true
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-          roll:
-            formula: ''
-            name: ''
-            prompt: false
-            visible: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          sort: 0
-          name: ''
-          img: ''
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: remove-curse
-      method: spell
-      prepared: 0
-      sourceItem: consumable:spell-scroll
-    type: spell
-    img: icons/skills/melee/sword-damaged-broken-glow-red.webp
-    effects:
-      - _id: dnd5espellchange
-        type: enchantment
-        name: Spell Changes
-        img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: null
-        flags:
-          core:
-            originText: >-
-              Compendium.draenal-common.pcs.Actor.AhxdTivoYwlt8A68.Item.j0qSK5GW5fqAVQIs.Activity.dnd5escrollspell
-        system:
-          changes:
-            - key: system.method
-              value: spell
-              type: override
-              phase: initial
-            - key: system.properties
-              value: '-vocal'
-              type: add
-              phase: initial
-            - key: system.properties
-              value: '-somatic'
-              type: add
-              phase: initial
-            - key: system.properties
-              value: '-material'
-              type: add
-              phase: initial
-            - key: activities[attack].attack.bonus
-              value: 7
-              type: override
-              phase: initial
-            - key: activities[attack].attack.flat
-              value: true
-              type: override
-              phase: initial
-            - key: activities[summon].flat.attack
-              value: 7
-              type: override
-              phase: initial
-            - key: activities[save].save.dc.calculation
-              value: ''
-              type: override
-              phase: initial
-            - key: activities[save].save.dc.formula
-              value: 15
-              type: override
-              phase: initial
-            - key: activities[summon].flat.save
-              value: 15
-              type: override
-              phase: initial
-        disabled: false
-        start: null
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        description: ''
-        tint: '#ffffff'
-        transfer: true
-        statuses: []
-        showIcon: 1
-        folder: null
-        sort: 0
-        _stats:
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776831616199
-          modifiedTime: 1776831616199
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !actors.items.effects!AhxdTivoYwlt8A68.NdjUxfIHOALonUul.dnd5espellchange
-    folder: HCovEE4VoPGlIbKi
-    sort: 300000
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-        cachedFor: .Item.j0qSK5GW5fqAVQIs.Activity.dnd5escrollspell
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776831616199
-      modifiedTime: 1776831616200
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplRemoveCurs
-    _id: NdjUxfIHOALonUul
-    _key: '!actors.items!AhxdTivoYwlt8A68.NdjUxfIHOALonUul'
   - name: Potion of Healing
     system:
       description:
@@ -5257,20 +4923,780 @@ items:
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
     _key: '!actors.items!AhxdTivoYwlt8A68.q8emxcxJ8Y2t67AP'
+  - _id: GhUVxQV4tCFz9ghv
+    name: Bronzefist's Silk Pouch
+    type: container
+    flags: {}
+    img: icons/containers/bags/coinpouch-cloth-purple.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: pbsoIarnosWooden
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 0
+        cp: 0
+      properties: []
+      capacity:
+        count: null
+        volume:
+          value: null
+          units: cubicFoot
+        weight:
+          value: null
+          units: lb
+      identifier: iarnos-silk-pouch
+      attuned: false
+      equipped: false
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 3550000
+    _stats:
+      compendiumSource: null
+      duplicateSource: Item.pbsoIarnosSilkPo
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777221770454
+      modifiedTime: 1777221779761
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.GhUVxQV4tCFz9ghv'
+  - _id: QFbtoYKkxe1IAaal
+    name: Carnelian
+    type: loot
+    img: icons/commodities/gems/gem-rough-oval-orange.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: GhUVxQV4tCFz9ghv
+      quantity: 5
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: carnelian
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 150587
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777221770454
+      modifiedTime: 1777221770454
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.QFbtoYKkxe1IAaal'
+  - _id: d6Y8vFQl9u2qFcvR
+    name: Peridot
+    type: loot
+    img: icons/commodities/gems/gem-rough-cushion-yellow.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: GhUVxQV4tCFz9ghv
+      quantity: 2
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 15
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: peridot
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 303125
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777221770455
+      modifiedTime: 1777221770455
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.d6Y8vFQl9u2qFcvR'
+  - _id: LVIXo9TSgkCNqrvD
+    name: Urmon's Journal
+    type: loot
+    img: icons/sundries/books/book-black-grey.webp
+    system:
+      description:
+        value: >-
+          <p>The journal of an adventurer named Urmon, found in the Redbrand's
+          Hideout and written in Dwarvish. It conveys the following
+          information:</p><blockquote><p>More than 500 years ago, clans of
+          dwarves and gnomes made an agreement known as the Phandelver Pact, by
+          which they would share a rich mine in a wondrous cavern known as Wave
+          Echo Cave. In addition to its mineral wealth, the mine contained great
+          magical power. Human spellcasters allied themselves with dwarves and
+          gnomes to channel and bind that energy into a great forge called the
+          Forge of Spells, where magic items could be crafted. Times were good,
+          and the nearby town of Phandalin prospered as well. The society
+          flourished for over a hundred years before bandit raids suddenly and
+          continuously began to threaten settlements bound between the Sword
+          Mountains and Neverwinter River.</p><p>After countless raids on the
+          settlement of Phandalin itself, the bandits launched a concentrated
+          attack on Wave Echo Cave. The human wizards fought alongside their
+          dwarven and gnome allies equipped with enchanted armor and armaments
+          birthed forth from the Forge. No feasible number of bandits should
+          have made a successful siege possible. The surviving tattered tales
+          from the region tell of some amongst the bandits wielding magic. Some
+          speak of sorcery, others of psionics. The archdruids of the the Sword
+          Mountains have told stories of earthquakes and tremors in the area
+          around the time. It can only be assumed that the battle drew the cave
+          closed and lost to the age. Until just now, no one apparent knew the
+          state of the caves and the facilities that lie within. The secrets it
+          holds may be enough to usher Phandalin into a new age of prosperity.
+          Or it may be that the founders of Phandalin intended it to remain
+          sealed, not to keep things out, but to keep something
+          in.</p></blockquote>
+        chat: ''
+      source:
+        book: 'Phandelver and Below: The Shattered Obelisk'
+        page: ''
+        custom: ''
+        license: ''
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: art
+        subtype: ''
+      identifier: urmons-journal
+    effects: []
+    folder: iQkX4Xu0BVhkYpXn
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      coreVersion: '14.360'
+      createdTime: 1777221801453
+      modifiedTime: 1777221818794
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.dnd-phandelver-below.pbso-items.Item.pbsoUrmonsJourna
+      duplicateSource: null
+      exportSource: null
+    sort: 140870
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.LVIXo9TSgkCNqrvD'
+  - _id: QL1bRQffFfRZvXO6
+    name: Agate
+    type: loot
+    img: icons/commodities/gems/gem-shattered-orange.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        book: PBSO
+        rules: '2014'
+        revision: 1
+      quantity: 2
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      rarity: common
+      identified: true
+      container: pbsoHamunsChest0
+      type:
+        value: ''
+        subtype: ''
+      unidentified:
+        description: ''
+      properties: []
+      identifier: agate
+    effects: []
+    folder: iQkX4Xu0BVhkYpXn
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      coreVersion: '14.360'
+      createdTime: 1777221833215
+      modifiedTime: 1777221848864
+      lastModifiedBy: draenalcommon000
+      compendiumSource: >-
+        Compendium.dnd-phandelver-below.dnd-phandelver-below-items.Item.pbsoAgate0000000
+      duplicateSource: null
+      exportSource: null
+    sort: 900000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.QL1bRQffFfRZvXO6'
+  - _id: HN6SaReACeJQaDh8
+    name: Garnet
+    type: loot
+    img: icons/commodities/gems/gem-rough-cushion-red-white.webp
+    system:
+      description:
+        value: <p>A beautiful garnet gemstone.</p>
+        chat: ''
+      source:
+        book: PBSO
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: pbsoThirdRedbran
+      quantity: 2
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: garnet
+    effects: []
+    folder: iQkX4Xu0BVhkYpXn
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      coreVersion: '14.360'
+      createdTime: 1777221845997
+      modifiedTime: 1777221845997
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.dnd-phandelver-below.pbso-items.Item.pbsoGarnet000000
+      duplicateSource: null
+      exportSource: null
+    sort: 145631
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.HN6SaReACeJQaDh8'
+  - _id: 9kUgCXMqa5cOX0Uc
+    name: Jade Statuette
+    type: loot
+    img: icons/environment/creatures/frog-spotted-green.webp
+    system:
+      description:
+        value: <p>A jade statuette of a frog with tiny golden orbs for eyes.</p>
+        chat: ''
+      source:
+        book: 'Phandelver and Below: The Shattered Obelisk'
+        page: ''
+        custom: ''
+        license: ''
+        rules: '2014'
+        revision: 1
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 40
+        denomination: gp
+      rarity: common
+      identified: true
+      container: pbsoKlargsTreasu
+      type:
+        value: ''
+        subtype: ''
+      unidentified:
+        description: ''
+      properties: []
+      identifier: jade-statuette
+    effects: []
+    folder: iQkX4Xu0BVhkYpXn
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      coreVersion: '14.360'
+      createdTime: 1777221853082
+      modifiedTime: 1777221853083
+      lastModifiedBy: draenalcommon000
+      compendiumSource: >-
+        Compendium.dnd-phandelver-below.dnd-phandelver-below-items.Item.pbsoJadeStatuett
+      duplicateSource: null
+      exportSource: null
+    sort: 350000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.9kUgCXMqa5cOX0Uc'
+  - _id: 9uSyxe4iBTtlybZg
+    name: Scarlet Cloak
+    type: equipment
+    img: icons/equipment/chest/coat-collared-red.webp
+    system:
+      description:
+        value: >-
+          <p>A dirty scarlet cloak worn by the Redbrand Ruffians in
+          Phandalin.</p>
+        chat: ''
+      source:
+        book: PBSO
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 3
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: null
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: clothing
+        baseItem: ''
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: null
+      proficient: null
+      identifier: scarlet-cloak
+      activities: {}
+      crew:
+        value: []
+      attuned: false
+      equipped: false
+    effects: []
+    folder: NzHZYPKyibx6mKI1
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      coreVersion: '14.360'
+      createdTime: 1777221880525
+      modifiedTime: 1777221883074
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.dnd-phandelver-below.pbso-items.Item.pbsoScarletCloak
+      duplicateSource: null
+      exportSource: null
+    sort: 125000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.9uSyxe4iBTtlybZg'
+  - name: 'Spell Scroll: Remove Curse'
+    type: consumable
+    img: icons/sundries/scrolls/scroll-bound-orange-tan.webp
+    system:
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: true
+            value: ''
+            concentration: false
+          effects: []
+          range:
+            override: true
+            units: touch
+            special: ''
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+              type: ''
+            affects:
+              choice: false
+              count: '1'
+              type: creatureOrObject
+              special: ''
+            override: true
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        autoDestroy: true
+        max: '1'
+      description:
+        value: >-
+          <p><em>3rd Level &amp;Reference[Spell Scroll]</em></p><p>At your
+          touch, all curses affecting one creature or object end. If the object
+          is a cursed magic item, its curse remains, but the spell breaks its
+          owner's Attunement to the object so it can be removed or
+          discarded.</p>
+        chat: ''
+      identifier: spell-scroll
+      source:
+        revision: 1
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        custom: ''
+      identified: false
+      unidentified:
+        description: ''
+        name: Unidentified Consumable
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 300
+        denomination: gp
+      rarity: uncommon
+      attunement: ''
+      attuned: false
+      equipped: false
+      type:
+        value: scroll
+        subtype: ''
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        replace: false
+      properties:
+        - mgc
+        - vocal
+        - somatic
+        - vocal
+        - somatic
+    effects: []
+    folder: a2UFIyuviRp94dzx
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        scaling: 0
+        spellLevel:
+          value: 3
+          base: 3
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777237543157
+      modifiedTime: 1777237553200
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.dnd5e.equipment24.Item.dmgSpellScroll3r
+    ownership:
+      default: 0
+    _id: ky2mGaeQf7dF9ScD
+    sort: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.ky2mGaeQf7dF9ScD'
 effects: []
 folder: null
 sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    showTokenPortrait: true
+  tokenizer-2:
+    layerStack:
+      - id: xhBbGThoG7ZlKTQ2
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/fuckin_windows.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.37735360253530714
+          scaleY: 0.37735360253530714
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: mecmIYd29mMhcq3n
+            type: frame-ray
+            src: modules/token-frames/token_frames/volfied_tech_feathers.webp
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: FCxKaRNjIsvCS6Ir
+        type: image
+        name: volfied tech feathers
+        src: modules/token-frames/token_frames/volfied_tech_feathers.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    avatarLayerStack:
+      - id: RkpoJK7HsglwBG4u
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/fuckin_windows.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: square
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: true
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776813219383
-  modifiedTime: 1776834366884
+  modifiedTime: 1777157732912
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

@@ -16,15 +16,18 @@ system:
       hits you with an attack roll, you can use your reaction to roll a d6. On a
       4 or higher, the attack misses you, regardless of its roll.</p>
     chat: ''
-  identifier: feature
+  identifier: armor-of-hexes
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 10
   properties: []
@@ -40,11 +43,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768809123676
-  modifiedTime: 1775008843971
+  modifiedTime: 1777233472314
   lastModifiedBy: draenalcommon000
 _key: '!items!Nq2H0q8rPwAkwblh'
 

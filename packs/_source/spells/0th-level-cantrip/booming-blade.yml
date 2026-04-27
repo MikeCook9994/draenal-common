@@ -1,0 +1,253 @@
+folder: dtXfybmcZj17GujL
+name: Booming Blade
+type: spell
+_id: nkqOrpF9L9prak5T
+img: icons/skills/melee/sword-stuck-glowing-pink.webp
+system:
+  activities:
+    Jqne3yTadQYfwJSn:
+      type: damage
+      name: Extra Attack Damage
+      sort: 0
+      activation:
+        type: ''
+        condition: Creature moves more than 5 ft
+        override: true
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 2qkd33UDBqWj5N5J
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        value: '5'
+        units: ft
+        override: true
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: true
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: false
+            scaling:
+              mode: whole
+              number: 1
+              formula: 1d8
+        critical:
+          allow: true
+      _id: Jqne3yTadQYfwJSn
+      img: null
+    KeSd4ZwIz3eBcCmg:
+      type: damage
+      name: Movement Damage
+      sort: 100000
+      activation:
+        type: ''
+        condition: Creature moves more than 5 ft
+        override: true
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags:
+        ddbimporter:
+          noeffect: true
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: true
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: false
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+        critical:
+          allow: false
+      _id: KeSd4ZwIz3eBcCmg
+      img: null
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <div class="ddb"><p>You brandish the weapon used in the spell's casting
+      and make a melee attack with it against one creature within 5 feet of you.
+      On a hit, the target suffers the weapon attack's normal effects and then
+      becomes sheathed in booming energy until the start of your next turn. If
+      the target willingly moves 5 feet or more before then, the target takes
+      1d8 thunder damage, and the spell ends.</p><p>This spell's damage
+      increases when you reach certain levels. At 5th level, the melee attack
+      deals an extra 1d8 thunder damage to the target on a hit, and the damage
+      the target takes for moving increases to 2d8. Both damage rolls increase
+      by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and
+      4d8).</p></div>
+    chat: ''
+  identifier: booming-blade
+  source:
+    revision: 1
+    rules: '2024'
+    book: Tasha's Cauldron of Everything
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: round
+    value: '1'
+  level: 0
+  materials:
+    value: a melee weapon worth at least 1 sp
+    consumed: false
+    cost: 0.1
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - somatic
+    - material
+  range:
+    units: self
+    special: ''
+  school: ''
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: sphere
+      size: '5'
+      count: ''
+    affects:
+      choice: false
+      type: creatureOrObject
+      special: A melee weapon which you can make an attack with
+      count: '1'
+effects:
+  - name: 'Booming Blade: Sheathed in Booming Energy'
+    img: icons/skills/melee/sword-stuck-glowing-pink.webp
+    origin: Compendium.draenal-common.spells.Item.nkqOrpF9L9prak5T
+    type: base
+    _id: RlK1Yr4r1fTl4EJu
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    description: >-
+      <p>If the target willingly moves 5 feet or more before then, [[/item
+      Booming Blade activity="Movement Damage"]](it takes thunder damage), and
+      the spell ends.</p>
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777238982937
+      modifiedTime: 1777239117095
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!nkqOrpF9L9prak5T.RlK1Yr4r1fTl4EJu'
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777238755843
+  modifiedTime: 1777238975871
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!nkqOrpF9L9prak5T'
+

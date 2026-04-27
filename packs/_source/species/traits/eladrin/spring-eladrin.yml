@@ -1,0 +1,221 @@
+folder: bg0sAuURuHmqUcuY
+name: Spring Eladrin
+type: feat
+_id: NoVJTpExgcMfR2UQ
+img: icons/magic/nature/leaf-glow-maple-green.webp
+system:
+  activities:
+    sqcT36LpbUTa07dg:
+      type: enchant
+      name: Enhance Fey Step
+      img: icons/magic/nature/leaf-glow-maple-green.webp
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 48HlATy7kqoUTsTL
+          level:
+            min: 3
+            max: null
+          riders:
+            activity:
+              - 9S1rcRYONFCV2dq1
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 3
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: feat
+      _id: sqcT36LpbUTa07dg
+    9S1rcRYONFCV2dq1:
+      type: utility
+      _id: 9S1rcRYONFCV2dq1
+      img: icons/magic/nature/leaf-glow-maple-green.webp
+      sort: 100000
+      activation:
+        type: special
+        override: false
+        condition: When you use Fey Step
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: circle
+          size: '30'
+          count: ''
+        affects:
+          choice: false
+          type: willing
+          count: '1'
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Spring Fey Step Teleport
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you use your Fey Step, you can touch one willing creature within 5
+      feet of you. That creature then teleports instead of you, appearing in an
+      unoccupied space of your choice that you can see within 30 feet of
+      you.</p>
+    chat: ''
+  identifier: spring-eladrin
+  source:
+    revision: 1
+    rules: '2024'
+    book: 'Mordenkainen Presents: Monsters of the Multiverse'
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: Eladrin
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Spring Eladrin
+    img: icons/magic/nature/leaf-glow-maple-green.webp
+    origin: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+    type: enchantment
+    _id: 48HlATy7kqoUTsTL
+    system:
+      changes: []
+    disabled: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777220064073
+      modifiedTime: 1777220077091
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!NoVJTpExgcMfR2UQ.48HlATy7kqoUTsTL'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - 9S1rcRYONFCV2dq1
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1776816510762
+  modifiedTime: 1777234079752
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NoVJTpExgcMfR2UQ'
+

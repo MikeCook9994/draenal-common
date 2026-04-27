@@ -1,0 +1,20 @@
+type: Actor
+folder: null
+name: Fi'Reyn'Erebere Lharithlyn Forms
+color: '#ffb347'
+sorting: a
+_id: KPBZVagXjdKsuo73
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777153590909
+  modifiedTime: 1777154073078
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!KPBZVagXjdKsuo73'
+

@@ -75,11 +75,11 @@ system:
       would stand against your patron. Their little warrior; what good can you
       do for them?</p>
     chat: ''
-  identifier: hexblade
+  identifier: hexblade-patron
   source:
     revision: 1
     rules: '2024'
-    book: ''
+    book: Xanathar's Guide to Everything
     page: ''
     custom: ''
     license: ''
@@ -100,9 +100,9 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1774227816461
-  modifiedTime: 1776801067560
+  modifiedTime: 1777233558399
   lastModifiedBy: draenalcommon000
 _key: '!items!2lXC8zZ1MgCPKyIb'
 

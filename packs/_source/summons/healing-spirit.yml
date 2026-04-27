@@ -427,6 +427,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   traits:
     size: med
     di:
@@ -798,11 +802,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.2
   createdTime: 1774382587395
-  modifiedTime: 1775008844188
+  modifiedTime: 1777234657409
   lastModifiedBy: draenalcommon000
 _key: '!actors!OP7ZP2BUAvR7Sfrb'
 

@@ -74,11 +74,11 @@ system:
       upon you. You wield the power of ill omens against the forces that wish to
       usher in a future that the very fabric of reality disagrees with.</p>
     chat: ''
-  identifier: hexblade
+  identifier: the-fates-patron
   source:
     revision: 1
     rules: '2024'
-    book: ''
+    book: Draenal Homebrew
     page: ''
     custom: ''
     license: ''
@@ -99,9 +99,9 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1774227816461
-  modifiedTime: 1776800305816
+  modifiedTime: 1777233356041
   lastModifiedBy: draenalcommon000
 _key: '!items!HP7SJUQSZx72wngA'
 

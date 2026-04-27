@@ -113,15 +113,18 @@ system:
       Charisma modifier (minimum of 1 hit point). The hit points you gain cannot
       exceed the perished creature's maximum hit points.</p>
     chat: ''
-  identifier: feature
+  identifier: hexblades-curse
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 3
   properties:
@@ -138,11 +141,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768801150991
-  modifiedTime: 1775539542264
+  modifiedTime: 1777233527635
   lastModifiedBy: draenalcommon000
 _key: '!items!XUyIUOGMYIIXGWa6'
 

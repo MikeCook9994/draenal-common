@@ -145,15 +145,18 @@ system:
       @UUID[Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr]{Destructive
       Wave}</p></td></tr></tbody></table>
     chat: ''
-  identifier: feature
+  identifier: hexblade-patron-spells
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 3
   properties: []
@@ -169,11 +172,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768776986116
-  modifiedTime: 1775088205417
+  modifiedTime: 1777233531847
   lastModifiedBy: draenalcommon000
 _key: '!items!e44LDzLni09L6dQp'
 

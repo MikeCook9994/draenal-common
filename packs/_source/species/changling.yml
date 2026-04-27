@@ -108,6 +108,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: 'Eberron: Forge of the Artificer'
+    page: ''
+    custom: ''
+    license: ''
   movement:
     units: ft
     hover: false
@@ -138,9 +142,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776819390243
-  modifiedTime: 1776819938269
+  modifiedTime: 1777233918433
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

@@ -1,0 +1,557 @@
+name: Party
+type: group
+_id: cB8Vk5IOdXDSnNxg
+img: modules/draenal-common/assets/npc-images/Avatar.Party.webp?v=1777237177470
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  description:
+    full: ''
+    summary: ''
+  attributes:
+    travel:
+      pace: normal
+      paces: {}
+      speeds: {}
+      time: 8
+      units: mph
+  details:
+    xp:
+      value: null
+  members: []
+  primaryVehicle: null
+prototypeToken:
+  name: Party
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: modules/draenal-common/assets/npc-images/Token.Party.webp?v=1777237175910
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - folder: WbqCEw0rImHkn5Xj
+    name: Charlatan's Die
+    type: equipment
+    _id: t2ohdE5f0DLcebsv
+    img: icons/sundries/gaming/gaming-set-dice.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <div class="ddb"><p>Whenever you roll this six-sided die, you can
+          control which number it rolls.</p></div>
+        chat: ''
+      identifier: charlatans-die
+      source:
+        revision: 1
+        rules: '2024'
+        book: Dungeon Master's Guide 2024
+        page: ''
+        custom: ''
+        license: ''
+      identified: false
+      unidentified:
+        description: ''
+        name: Unidentified Equipment
+      container: null
+      quantity: 2
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 100
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      crew:
+        value: []
+      armor:
+        value: null
+        dex: null
+        magicalBonus: ''
+      proficient: null
+      properties:
+        - mgc
+      strength: null
+      type:
+        value: trinket
+        baseItem: ''
+      attuned: false
+      equipped: false
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777237214364
+      modifiedTime: 1777237219433
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.equipment.Item.jwIXHVCONolZHK7U
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!cB8Vk5IOdXDSnNxg.t2ohdE5f0DLcebsv'
+  - _id: a4BGjBbH0MSPH8RB
+    name: Knucklebones Pot
+    type: container
+    flags: {}
+    img: icons/commodities/currency/coins-plain-stack-gold-yellow.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 15
+        ep: 22
+        sp: 55
+        cp: 75
+      properties: []
+      capacity:
+        count: null
+        volume:
+          value: null
+          units: cubicFoot
+        weight:
+          value: null
+          units: lb
+      identifier: knucklebones-pot
+      attuned: false
+      equipped: false
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 3100000
+    _stats:
+      compendiumSource: null
+      duplicateSource: Item.pbsoKnucklebones
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777237269052
+      modifiedTime: 1777237269052
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!cB8Vk5IOdXDSnNxg.a4BGjBbH0MSPH8RB'
+  - _id: P2DVzxlFdMl4v9fW
+    name: Golden Earring
+    type: loot
+    img: icons/commodities/currency/coin-engraved-square-gold.webp
+    system:
+      description:
+        value: <p>A simple golden earring set with a tiny ruby.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: a4BGjBbH0MSPH8RB
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 30
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: golden-earring
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 1600000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777237269052
+      modifiedTime: 1777237269052
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!cB8Vk5IOdXDSnNxg.P2DVzxlFdMl4v9fW'
+  - _id: z1SwqnuYspnUInAh
+    name: Nosk's Belt Pouch
+    type: container
+    flags: {}
+    img: icons/containers/bags/coinpouch-simple-tan.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 13
+        cp: 0
+      properties: []
+      capacity:
+        count: null
+        volume:
+          value: null
+          units: cubicFoot
+        weight:
+          value: null
+          units: lb
+      identifier: nosks-belt-pouch
+      attuned: false
+      equipped: false
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 3200000
+    _stats:
+      compendiumSource: null
+      duplicateSource: Item.pbsoNosksBeltPou
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777237275360
+      modifiedTime: 1777237275360
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!cB8Vk5IOdXDSnNxg.z1SwqnuYspnUInAh'
+  - _id: jKespc25ZlIifjMD
+    name: Nosk's Iron Key
+    type: loot
+    img: icons/sundries/misc/key-steel-grey.webp
+    system:
+      description:
+        value: <p>An iron key found on Nosk in the Redbrand's Hideout.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: z1SwqnuYspnUInAh
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: nosks-iron-key
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 1700000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777237275360
+      modifiedTime: 1777237275360
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!cB8Vk5IOdXDSnNxg.jKespc25ZlIifjMD'
+  - _id: PmuHbOp18ugkRNp2
+    name: Semiprecious Stones
+    type: loot
+    img: icons/commodities/gems/gem-fragmented-pink.webp
+    system:
+      description:
+        value: <p>Some semiprecious stones.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: z1SwqnuYspnUInAh
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 50
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: semiprecious-stones
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 1800000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1777237275361
+      modifiedTime: 1777237275361
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!cB8Vk5IOdXDSnNxg.PmuHbOp18ugkRNp2'
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  tokenizer-2:
+    layerStack:
+      - id: mDDr3cf5iO1hkihU
+        type: image
+        name: Image Layer
+        src: modules/dnd-phandelver-below/assets/tokens/party-dnd-red.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5095016347979998
+          scaleY: 0.5095016347979998
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarLayerStack:
+      - id: IXwmaFpIdFNNkDHD
+        type: image
+        name: Image Layer
+        src: modules/dnd-phandelver-below/assets/tokens/party-dnd-red.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: custom
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: true
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777237072449
+  modifiedTime: 1777237185493
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!cB8Vk5IOdXDSnNxg'
+

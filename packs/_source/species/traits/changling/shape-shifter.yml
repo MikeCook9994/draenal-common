@@ -27,6 +27,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: 'Eberron: Forge of the Artificer'
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -36,7 +40,7 @@ system:
   properties: []
   requirements: Changling
   type:
-    value: ''
+    value: race
     subtype: ''
 effects: []
 sort: 0
@@ -46,9 +50,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776819733121
-  modifiedTime: 1776819917706
+  modifiedTime: 1777233944227
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

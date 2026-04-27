@@ -28,16 +28,21 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: null
-  properties: []
+    level: 14
+  properties:
+    - mgc
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
 effects: []
 sort: 0
@@ -47,9 +52,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776662435459
-  modifiedTime: 1776662547156
+  modifiedTime: 1777233744372
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

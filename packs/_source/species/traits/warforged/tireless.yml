@@ -19,6 +19,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: 'Eberron: Forge of the Artifcer'
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -39,9 +43,9 @@ flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.1
+  systemVersion: 5.3.2
   createdTime: 1776819288839
-  modifiedTime: 1776819325013
+  modifiedTime: 1777234180004
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

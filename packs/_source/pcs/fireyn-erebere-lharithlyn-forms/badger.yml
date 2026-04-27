@@ -1,0 +1,904 @@
+name: Badger
+type: npc
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 2
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 5
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: '5'
+      walk: '20'
+      units: null
+      hover: false
+      ignoredDifficultTerrain: []
+    attunement:
+      max: 3
+    senses:
+      units: null
+      special: ''
+      ranges:
+        darkvision: 30
+        blindsight: null
+        tremorsense: null
+        truesight: null
+    spellcasting: str
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 11
+      calc: natural
+    hd:
+      spent: 0
+    hp:
+      value: 5
+      max: 5
+      temp: null
+      tempmax: null
+      formula: 1d4 + 3
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty:
+      value: null
+    price:
+      value: null
+      denomination: gp
+  details:
+    biography:
+      value: >-
+        <p><em>Token artwork by <a href="https://www.forgotten-adventures.net/"
+        target="_blank" rel="noopener">Forgotten
+        Adventures</a>.</em></p><p><em>Token artwork by <a
+        href="https://www.forgotten-adventures.net/" target="_blank"
+        rel="noopener">Forgotten Adventures</a>.</em></p>
+      public: ''
+    alignment: Unaligned
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: beast
+    cr: 0
+    habitat:
+      value:
+        - type: forest
+      custom: ''
+    treasure:
+      value: []
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+    book: Fi'Reyn'Erebere Lharithlyn Forms
+    license: CC-BY-4.0
+    page: ''
+    custom: ''
+  traits:
+    size: tiny
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+      communication: {}
+    important: false
+_id: mmBadger00000000
+img: modules/draenal-common/assets/npc-images/Avatar.Badger.webp?v=1777156432095
+prototypeToken:
+  name: Badger
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 0.5
+  height: 0.5
+  texture:
+    src: modules/draenal-common/assets/npc-images/Token.Badger.webp?v=1777156434243
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  depth: 0.5
+items:
+  - _id: mmBite0000000000
+    name: Bite
+    type: weapon
+    system:
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        xWlMeXFjELfSUWX9:
+          type: attack
+          _id: xWlMeXFjELfSUWX9
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ''
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: null
+                denomination: 0
+                bonus: '1'
+                types:
+                  - piercing
+                scaling:
+                  number: 1
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: <p>[[/attack extended]]. [[/damage average extended]].</p>
+        chat: ''
+      identifier: bite
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      properties: []
+      identified: true
+      unidentified:
+        name: Unidentified Weapon
+        description: ''
+      mastery: ''
+      range:
+        units: ft
+        value: null
+        long: null
+        reach: null
+      damage:
+        base:
+          denomination: 0
+          bonus: ''
+          number: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      cover: null
+      ammunition: {}
+      armor:
+        value: null
+      proficient: null
+      crew:
+        value: []
+    folder: pSCWWdqMX9eUATRJ
+    img: icons/creatures/abilities/fangs-teeth-bite.webp
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      lastModifiedBy: draenalcommon000
+      createdTime: 1777153679703
+      modifiedTime: 1777153679703
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!mmBadger00000000.mmBite0000000000'
+effects: []
+folder: KPBZVagXjdKsuo73
+ownership:
+  default: 0
+flags:
+  tokenizer-2:
+    layerStack:
+      - id: 1R91FTcoy9Tpfv9D
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/reyn-badger.Avatar.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: -1.8806244260789526
+          'y': -12.6942148760331
+          scaleX: 0.4139547852633678
+          scaleY: 0.4139547852633678
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: 7nHG0ORFX8UTG62E
+            type: frame-ray
+            src: >-
+              modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: hb9U5FqrAJo7UGV9
+        type: image
+        name: TokenTool Decorated Picture%20Frame%2C%20Silver
+        src: >-
+          modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    avatarLayerStack:
+      - id: sJc1KgBKJ71pE8H9
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/pc-images/reyn-badger.Avatar.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: custom
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777153679703
+  modifiedTime: 1777156434569
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+sort: 400000
+_key: '!actors!mmBadger00000000'
+

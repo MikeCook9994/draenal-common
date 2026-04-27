@@ -44,11 +44,11 @@ system:
       value:
         added: {}
         replaced: {}
-      title: Hexblade Invocation
+      title: Fate's Patron Invocation
       hint: >-
-        You gain the Pact of the Blade invocation. If you already have this
+        <p>You gain the Pact of the Blade invocation. If you already have this
         invocation, you gain one other invocation of your choice that you
-        satisfy the prerequisites for.
+        satisfy the prerequisites for.</p>
       _id: oKO8Ud5dhIeb5v77
       flags: {}
   description:
@@ -59,15 +59,18 @@ system:
       invocation of your choice that you satisfy the prerequisites for.
       Additionally, you gain proficiency with medium armor and shields.</p>
     chat: ''
-  identifier: feature
+  identifier: hand-of-fate
   source:
     revision: 1
     rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - hexblade
+    items: []
     repeatable: false
     level: 3
   properties: []
@@ -85,9 +88,9 @@ _stats:
   exportSource: null
   coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.3.2
   createdTime: 1768801359796
-  modifiedTime: 1776800807779
+  modifiedTime: 1777243956430
   lastModifiedBy: draenalcommon000
 _key: '!items!Pp8ucFfGQR6SPijx'
 

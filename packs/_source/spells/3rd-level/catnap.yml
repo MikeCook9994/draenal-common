@@ -25,6 +25,10 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
   activation:
     type: action
     condition: ''
@@ -65,11 +69,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.2
   createdTime: 1774385316803
-  modifiedTime: 1774385432308
+  modifiedTime: 1777234495554
   lastModifiedBy: draenalcommon000
 _key: '!items!1HkDkZmHcUPmD5WV'
 

@@ -272,7 +272,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Homebrew
+    book: Draenal Homebrew
     page: ''
     custom: ''
     license: ''
@@ -648,18 +648,18 @@ effects:
     folder: null
     _key: '!items.effects!bkIs7zGWKk9qHJyh.WGE6aCXCc1DJLEEo'
 folder: WbqCEw0rImHkn5Xj
-sort: 100000
+sort: 200000
 ownership:
   default: 0
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.359'
+  coreVersion: '14.360'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.2
   createdTime: 1769457555812
-  modifiedTime: 1774498659677
+  modifiedTime: 1777237226648
   lastModifiedBy: draenalcommon000
 _key: '!items!bkIs7zGWKk9qHJyh'
 
