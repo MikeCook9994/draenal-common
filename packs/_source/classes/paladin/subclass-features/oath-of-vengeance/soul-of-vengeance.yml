@@ -1,0 +1,49 @@
+folder: rxmougeY8UB7FcFX
+name: Soul of Vengeance
+type: feat
+_id: rVhTJCcEvrM8yPRk
+img: icons/magic/life/heart-cross-strong-purple-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Immediately after a creature under the effect of your Vow of Enmity
+      hits or misses with an attack roll, you can take a Reaction to make a
+      melee attack against that creature if it's within range.</p>
+    chat: ''
+  identifier: soul-of-vengeance
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: Oath of Vengeance
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777262797604
+  modifiedTime: 1777262849720
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rVhTJCcEvrM8yPRk'
+

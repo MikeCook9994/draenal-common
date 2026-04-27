@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Artificer
+color: '#d59139'
+sorting: a
+_id: QqwCn2wiSsMm1yIw
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777260894983
+  modifiedTime: 1777260894983
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!QqwCn2wiSsMm1yIw'
+

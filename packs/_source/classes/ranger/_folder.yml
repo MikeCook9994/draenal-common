@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Ranger
+color: '#507f62'
+sorting: a
+_id: czJ1ze45XbRaXf1Q
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777260814292
+  modifiedTime: 1777260814292
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!czJ1ze45XbRaXf1Q'
+

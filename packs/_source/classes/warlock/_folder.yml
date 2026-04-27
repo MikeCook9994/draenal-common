@@ -1,7 +1,7 @@
 type: Item
 folder: null
 name: Warlock
-color: null
+color: '#7b469b'
 sorting: a
 _id: Tf1u3G57WTSucgzH
 description: ''
@@ -10,11 +10,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1774227849992
-  modifiedTime: 1774728487304
+  modifiedTime: 1777260708825
   lastModifiedBy: draenalcommon000
 _key: '!folders!Tf1u3G57WTSucgzH'
 

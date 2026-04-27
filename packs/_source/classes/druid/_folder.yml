@@ -1,7 +1,7 @@
 type: Item
 folder: null
 name: Druid
-color: null
+color: '#7a853b'
 sorting: a
 _id: LqiO7cAFbVwEOPNT
 description: ''
@@ -10,10 +10,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
   systemVersion: 5.2.5
   lastModifiedBy: draenalcommon000
-  modifiedTime: 1774728487304
+  modifiedTime: 1777260675262
+  createdTime: 1777260548817
 _key: '!folders!LqiO7cAFbVwEOPNT'
 

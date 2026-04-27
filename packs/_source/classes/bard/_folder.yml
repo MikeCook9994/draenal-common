@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Bard
+color: '#ab6dac'
+sorting: a
+_id: Hbf1NwHuRDbSvTcf
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777260743639
+  modifiedTime: 1777260743639
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!Hbf1NwHuRDbSvTcf'
+

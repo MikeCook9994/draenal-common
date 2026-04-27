@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Paladin
+color: '#b59e54'
+sorting: a
+_id: 1qf0qntplJc68pjk
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777260422642
+  modifiedTime: 1777260696653
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!1qf0qntplJc68pjk'
+

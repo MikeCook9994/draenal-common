@@ -1,7 +1,7 @@
 type: Item
 folder: null
 name: Barbarian
-color: null
+color: '#c73032'
 sorting: a
 _id: CAlNYLK1njp3oLDr
 description: ''
@@ -10,10 +10,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.360'
   systemId: dnd5e
   systemVersion: 5.2.5
   lastModifiedBy: draenalcommon000
-  modifiedTime: 1774728487304
+  modifiedTime: 1777260661927
+  createdTime: 1777260519103
 _key: '!folders!CAlNYLK1njp3oLDr'
 

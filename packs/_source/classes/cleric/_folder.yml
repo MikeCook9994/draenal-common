@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Cleric
+color: '#91a1b2'
+sorting: a
+_id: TbJAVjmdZPTUJrYp
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777260758177
+  modifiedTime: 1777260758177
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!TbJAVjmdZPTUJrYp'
+

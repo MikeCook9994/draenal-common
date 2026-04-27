@@ -1,0 +1,20 @@
+type: Item
+folder: Nfh311X8yiOGYtv8
+name: Oath of Vengeance
+color: null
+sorting: a
+_id: rxmougeY8UB7FcFX
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777261536234
+  modifiedTime: 1777261536234
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!rxmougeY8UB7FcFX'
+

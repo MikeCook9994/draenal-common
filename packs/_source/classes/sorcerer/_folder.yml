@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Sorcerer
+color: '#992e2e'
+sorting: a
+_id: KQFh8ygvwA6nfCJn
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777260831800
+  modifiedTime: 1777260831800
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!KQFh8ygvwA6nfCJn'
+

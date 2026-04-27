@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Wizard
+color: '#2a50a1'
+sorting: a
+_id: RWUPYPHWb3RYR7yA
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777260840757
+  modifiedTime: 1777260840757
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!RWUPYPHWb3RYR7yA'
+
