@@ -45,8 +45,8 @@
       "path": "packs/classes",
       "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
       },
       "system": "dnd5e"
     },
@@ -56,8 +56,8 @@
       "path": "packs/backgrounds",
       "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
       },
       "system": "dnd5e"
     },
@@ -67,8 +67,8 @@
       "path": "packs/species",
       "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
       },
       "system": "dnd5e"
     },
@@ -84,35 +84,35 @@
       "system": "dnd5e"
     },
     {
-      "name": "equipment",
-      "label": "Equipment",
-      "path": "packs/equipment",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
-    },
-    {
       "name": "spells",
       "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
       },
       "system": "dnd5e"
     },
     {
-      "name": "summons",
-      "label": "Summons",
-      "path": "packs/summons",
-      "type": "Actor",
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
       "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "private-equipment",
+      "label": "[Private] Equipment",
+      "path": "packs/private-equipment",
+      "type": "Item",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "NONE"
       },
       "system": "dnd5e"
     },
@@ -122,7 +122,30 @@
       "path": "packs/treasure",
       "type": "Item",
       "ownership": {
-        "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "private-treasure",
+      "label": "[Private] Treasure",
+      "path": "packs/private-treasure",
+      "type": "Item",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "NONE"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "pcs",
+      "label": "Player Characters",
+      "path": "packs/pcs",
+      "type": "Actor",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "NONE"
       },
       "system": "dnd5e"
     },
@@ -138,13 +161,24 @@
       "system": "dnd5e"
     },
     {
-      "name": "pcs",
-      "label": "Player Characters",
-      "path": "packs/pcs",
+      "name": "summons",
+      "label": "Summons & Transformations",
+      "path": "packs/summons",
       "type": "Actor",
       "ownership": {
         "ASSISTANT": "OWNER",
-        "PLAYER": "LIMITED"
+        "PLAYER": "OBSERVER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "NONE"
       },
       "system": "dnd5e"
     }
@@ -160,11 +194,20 @@
         "species",
         "feats",
         "spells",
-        "summons",
-        "equipment",
         "treasure",
+        "summons"
+      ]
+    },
+    {
+      "name": "[Private] Draenal's Compendia",
+      "color": "#00b000",
+      "sorting": "m",
+      "packs": [
+        "private-treasure",
+        "private-equipment",
         "pcs",
-        "npcs"
+        "npcs",
+        "scenes"
       ]
     }
   ]
