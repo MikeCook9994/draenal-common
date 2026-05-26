@@ -1,7 +1,6 @@
-folder: WbqCEw0rImHkn5Xj
+folder: cGU25ieVxpiolPUO
 name: Timberwolf
 type: weapon
-_id: lZQ9oZq5Olxo9L2f
 img: icons/weapons/staves/staff-animal-bird.webp
 system:
   activities:
@@ -151,18 +150,19 @@ system:
   mastery: topple
   magicalBonus: ''
 effects: []
-sort: 100000
-ownership:
-  default: 0
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1775532389376
-  modifiedTime: 1777246386966
+  createdTime: 1779757490642
+  modifiedTime: 1779757490654
   lastModifiedBy: draenalcommon000
-  duplicateSource: null
   exportSource: null
-_key: '!items!lZQ9oZq5Olxo9L2f'
+  duplicateSource: null
+ownership:
+  default: 0
+_id: 9j3vij4HlQE5KXN8
+sort: 200000
+_key: '!items!9j3vij4HlQE5KXN8'
 

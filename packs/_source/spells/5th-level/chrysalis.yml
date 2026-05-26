@@ -1,0 +1,84 @@
+folder: ng8nlgN1sKOdBQAP
+name: Chrysalis
+type: spell
+_id: h0NKCivqgQgod8n4
+img: icons/creatures/invertebrates/beetle-grub-larvae-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Choose a living creature that has 0 hit points and that you can see
+      within range. The target is stablized and becomes swathed in a protective
+      chrysalis that has hit points equal to 10d8 + 10 times your spellcasting
+      ability modifier. When the target would take damage, the chrysalis takes
+      the damage instead. The chrysalis is destroyed when it has 0 hit points.
+      While the chrysalis persists, the target has three-quarters cover and
+      cannot have the prone condition; however, they are incapacitated and
+      grappled.</p><p>If the chrysalis remains at the beginning of your next
+      turn, the target regains hit points equal to the remaining hit points of
+      the chrysalis and the chrysalis is destroyed. Additionally, spectral wings
+      manifest on the target's back granting them a fly speed of 30 feet for 1
+      minute.</p>
+    chat: ''
+  identifier: chrysalis
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: round
+    value: '1'
+  level: 5
+  materials:
+    value: a caterpillar cocoon
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - vocal
+    - somatic
+    - material
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: trs
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: '1'
+      special: that has 0 hit points that you can see
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779293613953
+  modifiedTime: 1779294099809
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!h0NKCivqgQgod8n4'
+

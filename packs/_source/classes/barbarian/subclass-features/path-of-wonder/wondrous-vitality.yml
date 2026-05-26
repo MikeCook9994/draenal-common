@@ -165,95 +165,266 @@ system:
       exchange a fraction of your life essence to manifest arcane effects, known
       to others as "spells", into the world. See chapter 7 of the 2024 Player's
       Handbook for the rules on spellcasting. The information below details how
-      you use those rules as a Path of Wonder
-      Barbarian.</p><p><strong>Cantrips.</strong> You know two cantrips of your
-      choice from the Sorcerer spell list. Whenever you gain a Barbarian level,
-      you can replace one of these cantrips with another cantrip of your choice
-      from the Sorcerer spell list. When you reach Barbarian level 10, you learn
-      another Sorcerer cantrip of your choice.</p><p><strong>Spell
-      Slots.</strong> When you take the Magic action to cast a spell, you create
-      a spell slot by expending a number of your Barbarian Hit Point Dice equal
-      to the spell's level. Immediately after the casting of the spell, roll the
-      expended Hit Point Dice, then take force damage equal to the value rolled.
-      This damage cannot be reduced in any way. If a spell or feature prevents
-      the casting of the spell, this spell slot is lost; however, the hit dice
-      are not expended.</p><p>The maximum spell slot level you can create is
-      shown in the Maximum Spell Slot Level column of the Path of Wonder
-      Spellcasting table below.</p><table><caption><p>Path of Wonder
-      Spellcasting</p></caption><thead><tr><th><p>Barbarian
-      Level</p></th><th><p>Spells Prepared</p></th><th><p>Maximum Spell Slot
-      Level</p></th></tr></thead><tbody><tr><td><p
-      style="text-align:center">3</p></td><td><p
-      style="text-align:center">3</p></td><td><p
-      style="text-align:center">1</p></td></tr><tr><td><p
-      style="text-align:center">4</p></td><td><p
-      style="text-align:center">4</p></td><td><p
-      style="text-align:center">1</p></td></tr><tr><td><p
-      style="text-align:center">5</p></td><td><p
-      style="text-align:center">4</p></td><td><p
-      style="text-align:center">1</p></td></tr><tr><td><p
-      style="text-align:center">6</p></td><td><p
-      style="text-align:center">4</p></td><td><p
-      style="text-align:center">1</p></td></tr><tr><td><p
-      style="text-align:center">7</p></td><td><p
-      style="text-align:center">5</p></td><td><p
-      style="text-align:center">2</p></td></tr><tr><td><p
-      style="text-align:center">8</p></td><td><p
-      style="text-align:center">6</p></td><td><p
-      style="text-align:center">2</p></td></tr><tr><td><p
-      style="text-align:center">9</p></td><td><p
-      style="text-align:center">6</p></td><td><p
-      style="text-align:center">2</p></td></tr><tr><td><p
-      style="text-align:center">10</p></td><td><p
-      style="text-align:center">7</p></td><td><p
-      style="text-align:center">2</p></td></tr><tr><td><p
-      style="text-align:center">11</p></td><td><p
-      style="text-align:center">8</p></td><td><p
-      style="text-align:center">2</p></td></tr><tr><td><p
-      style="text-align:center">12</p></td><td><p
-      style="text-align:center">8</p></td><td><p
-      style="text-align:center">2</p></td></tr><tr><td><p
-      style="text-align:center">13</p></td><td><p
-      style="text-align:center">9</p></td><td><p
-      style="text-align:center">3</p></td></tr><tr><td><p
-      style="text-align:center">14</p></td><td><p
-      style="text-align:center">10</p></td><td><p
-      style="text-align:center">3</p></td></tr><tr><td><p
-      style="text-align:center">15</p></td><td><p
-      style="text-align:center">10</p></td><td><p
-      style="text-align:center">3</p></td></tr><tr><td><p
-      style="text-align:center">16</p></td><td><p
-      style="text-align:center">11</p></td><td><p
-      style="text-align:center">3</p></td></tr><tr><td><p
-      style="text-align:center">17</p></td><td><p
-      style="text-align:center">11</p></td><td><p
-      style="text-align:center">3</p></td></tr><tr><td><p
-      style="text-align:center">18</p></td><td><p
-      style="text-align:center">11</p></td><td><p
-      style="text-align:center">3</p></td></tr><tr><td><p
-      style="text-align:center">19</p></td><td><p
-      style="text-align:center">12</p></td><td><p
-      style="text-align:center">4</p></td></tr><tr><td><p
-      style="text-align:center">20</p></td><td><p
-      style="text-align:center">13</p></td><td><p
-      style="text-align:center">4</p></td></tr></tbody></table><p><strong>Prepared
-      Spells of Level 1+.</strong> You prepare the list of level 1+ spells that
-      are available for you to cast with this feature. To start, choose three
-      level 1 spells from the Sorcerer spell list. The number of spells on your
-      list increases as you gain Barbarian levels, as shown in the Spells
-      Prepared column of the Path of Wonder Spellcasting table. Whenever that
-      number increases, choose additional spells from the Sorcerer spell list
-      until the number of spells on your list matches the number on the table.
-      The chosen spells must be of a level for which you can create a spell
-      slot. For example, if you're a level 7 Barbarian, your list of prepared
-      spells can include 5 Sorcerer spells of levels 1 and 2 in any
-      combination.</p><p><strong>Changing Your Prepared Spells.</strong>
-      Whenever you gain a Barbarian level, you can replace one spell on your
-      list with another Sorcerer spell for which you can create spell slots
-      for.</p><p><strong>Spellcasting Ability.</strong> Strength is your
-      spellcasting ability for your Sorcerer spells.</p><p><strong>Spellcasting
-      Focus.</strong> You can use any martial melee weapon as a Spellcasting
-      Focus for your Sorcerer spells.</p>
+      you use those rules as a Path of Wonder Barbarian.</p>
+
+      <p><strong>Cantrips.</strong> You know two cantrips of your choice from
+      the Sorcerer spell list. Whenever you gain a Barbarian level, you can
+      replace one of these cantrips with another cantrip of your choice from the
+      Sorcerer spell list. When you reach Barbarian level 10, you learn another
+      Sorcerer cantrip of your choice.</p>
+
+      <p><strong>Spell Slots.</strong> When you take the Magic action to cast a
+      spell, you create a spell slot by expending a number of your Barbarian Hit
+      Point Dice equal to the spell's level. Immediately after the casting of
+      the spell, roll the expended Hit Point Dice, then take force damage equal
+      to the value rolled. This damage cannot be reduced in any way. If a spell
+      or feature prevents the casting of the spell, this spell slot is lost;
+      however, the hit dice are not expended.</p>
+
+      <p>The maximum spell slot level you can create is shown in the Maximum
+      Spell Slot Level column of the Path of Wonder Spellcasting table
+      below.</p>
+
+      <table>
+          <caption>
+              <p>Path of Wonder Spellcasting</p>
+          </caption>
+          <thead>
+              <tr>
+                  <th>
+                      <p>Barbarian Level</p>
+                  </th>
+                  <th>
+                      <p>Spells Prepared</p>
+                  </th>
+                  <th>
+                      <p>Maximum Spell Slot Level</p>
+                  </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">1</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">4</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">4</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">1</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">5</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">4</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">1</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">6</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">4</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">1</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">7</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">5</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">2</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">8</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">6</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">2</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">9</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">6</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">2</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">10</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">7</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">2</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">11</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">8</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">2</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">12</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">8</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">2</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">13</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">9</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">14</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">10</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">15</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">10</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">16</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">11</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">17</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">11</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">18</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">11</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">3</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">19</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">12</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">4</p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p style="text-align:center">20</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">13</p>
+                  </td>
+                  <td>
+                      <p style="text-align:center">4</p>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+
+      <p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of
+      level 1+ spells that are available for you to cast with this feature. To
+      start, choose three level 1 spells from the Sorcerer spell list. The
+      number of spells on your list increases as you gain Barbarian levels, as
+      shown in the Spells Prepared column of the Path of Wonder Spellcasting
+      table. Whenever that number increases, choose additional spells from the
+      Sorcerer spell list until the number of spells on your list matches the
+      number on the table. The chosen spells must be of a level for which you
+      can create a spell slot. For example, if you're a level 7 Barbarian, your
+      list of prepared spells can include 5 Sorcerer spells of levels 1 and 2 in
+      any combination.</p>
+
+      <p><strong>Changing Your Prepared Spells.</strong> Whenever you gain a
+      Barbarian level, you can replace one spell on your list with another
+      Sorcerer spell for which you can create spell slots for.</p>
+
+      <p><strong>Spellcasting Ability.</strong> Strength is your spellcasting
+      ability for your Sorcerer spells.</p>
+
+      <p><strong>Spellcasting Focus.</strong> You can use any martial melee
+      weapon as a Spellcasting Focus for your Sorcerer spells.</p>
     chat: ''
   identifier: wondrous-vitality
   source:
@@ -284,11 +455,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1768858680841
-  modifiedTime: 1777233124923
+  modifiedTime: 1779765317708
   lastModifiedBy: draenalcommon000
 _key: '!items!K7dx4v9QiOjOqxXr'
 

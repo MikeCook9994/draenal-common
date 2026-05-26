@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Equipment
+color: null
+sorting: a
+_id: ErT2cFYNC4ZBLPc5
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779757418079
+  modifiedTime: 1779757418079
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!ErT2cFYNC4ZBLPc5'
+

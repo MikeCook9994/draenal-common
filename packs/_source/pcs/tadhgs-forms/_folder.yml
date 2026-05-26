@@ -1,0 +1,20 @@
+type: Actor
+folder: null
+name: Tadhg's Forms
+color: '#81d600'
+sorting: a
+_id: Dbt5HRnwj9T6hL5w
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779745041688
+  modifiedTime: 1779747972653
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!Dbt5HRnwj9T6hL5w'
+

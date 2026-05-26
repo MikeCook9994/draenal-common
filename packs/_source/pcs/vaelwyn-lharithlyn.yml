@@ -6,10 +6,10 @@ img: >-
 system:
   currency:
     pp: 0
-    gp: 64
-    ep: 3
-    sp: 64
-    cp: 377
+    gp: 107
+    ep: 7
+    sp: 78
+    cp: 392
   abilities:
     str:
       value: 8
@@ -352,9 +352,9 @@ system:
         check: ''
   spells:
     spell1:
-      value: 0
+      value: 4
     spell2:
-      value: 0
+      value: 2
     spell3:
       value: 0
     spell4:
@@ -412,7 +412,7 @@ system:
       max: null
       temp: null
       tempmax: 0
-      value: 20
+      value: 28
       bonuses: {}
     death:
       roll:
@@ -791,7 +791,7 @@ items:
           group: SE7gQkJVBVBLku2Z
           sort: 900000
       identifier: druid
-      levels: 2
+      levels: 3
       advancement:
         wp38UtjwG71SVceB:
           _id: wp38UtjwG71SVceB
@@ -800,6 +800,7 @@ items:
           value:
             '1': max
             '2': 8
+            '3': 6
           flags: {}
           hint: ''
         P65WodekLKSPQLGZ:
@@ -1224,8 +1225,8 @@ items:
           type: Subclass
           configuration: {}
           value:
-            document: null
-            uuid: null
+            document: xDrvG0oslCuqEj7D
+            uuid: Compendium.draenal-common.classes.Item.epUSDsracMjworsw
           level: 3
           title: ''
           hint: ''
@@ -1384,11 +1385,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476027
-      modifiedTime: 1777240476027
+      createdTime: 1779758443399
+      modifiedTime: 1779758443399
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruid00000
@@ -1488,11 +1489,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443400
+      modifiedTime: 1779758443400
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
@@ -1556,11 +1557,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443400
+      modifiedTime: 1779758443400
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
@@ -1623,11 +1624,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443400
+      modifiedTime: 1779758443400
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
@@ -1773,11 +1774,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240476029
-          modifiedTime: 1777240476029
+          createdTime: 1779758443405
+          modifiedTime: 1779758443405
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -1800,11 +1801,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476029
-      modifiedTime: 1777240476029
+      createdTime: 1779758443405
+      modifiedTime: 1779758443405
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
@@ -1880,11 +1881,11 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde.ActiveEffect.FZ2cZXwJx1f7bUxQ
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240476029
-          modifiedTime: 1777240476029
+          createdTime: 1779758443406
+          modifiedTime: 1779758443406
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -1904,11 +1905,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476029
-      modifiedTime: 1777240476029
+      createdTime: 1779758443406
+      modifiedTime: 1779758443406
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbPrimalOrderWa
@@ -2010,7 +2011,7 @@ items:
           - period: sr
             type: formula
             formula: '1'
-        spent: 0
+        spent: 1
       type:
         value: class
         subtype: ''
@@ -2066,46 +2067,35 @@ items:
             recovery: []
             max: ''
           profiles:
-            - cr: '0.25'
-              name: CR ¼
-              _id: xUPf0uISOwKy3mhO
-              uuid: null
-              sizes: []
-              types:
-                - beast
-              movement:
-                - fly
-              level:
-                min: null
-                max: 3
-            - cr: '0.5'
-              name: CR ½
-              _id: yu86xk21fVzHg9r5
-              uuid: null
-              sizes: []
-              types:
-                - beast
-              movement:
-                - fly
-              level:
-                min: 4
-                max: 7
-            - cr: '1'
-              name: CR 1
-              _id: ZFqKHYlY9JhLYnx0
-              uuid: null
-              sizes: []
-              types:
-                - beast
+            - _id: 9C9swboyIytKQavr
+              level: {}
               movement: []
-              level:
-                min: 8
-                max: null
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.summons.Actor.mmCat00000000000
+            - _id: uN4oMLTWvrNqb7Gb
+              level: {}
+              movement: []
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.summons.Actor.mmGiantBadger000
+            - _id: Q5mGWTPQtVIAITWa
+              level: {}
+              movement: []
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.summons.Actor.mmGiantWolfSpide
+            - _id: Hexqho2PnfgAc6c8
+              level: {}
+              movement: []
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.summons.Actor.qnMlOhlKCGBcB9wL
           settings: null
           transform:
             customize: false
             preset: wildshape
-            mode: cr
+            mode: ''
           name: ''
           img: systems/dnd5e/icons/svg/abilities/intelligence.svg
           visibility:
@@ -2130,11 +2120,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443400
+      modifiedTime: 1779758473656
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
@@ -2384,11 +2374,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443400
+      modifiedTime: 1779758443400
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
@@ -2560,11 +2550,11 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443400
+      modifiedTime: 1779758443400
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.jK79aeEGtkSXSBa4
       duplicateSource: null
@@ -2721,11 +2711,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240476030
-          modifiedTime: 1777240476030
+          createdTime: 1779758443409
+          modifiedTime: 1779758443409
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2759,11 +2749,11 @@ items:
               statuses:
                 - frightened
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240476030
-          modifiedTime: 1777240476030
+          createdTime: 1779758443409
+          modifiedTime: 1779758443409
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2780,11 +2770,11 @@ items:
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
         '-=riders': null
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476030
-      modifiedTime: 1777240476030
+      createdTime: 1779758443409
+      modifiedTime: 1779758443409
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
       duplicateSource: null
@@ -2838,11 +2828,11 @@ items:
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
         '-=riders': null
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443401
+      modifiedTime: 1779758443401
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
       duplicateSource: null
@@ -2956,11 +2946,11 @@ items:
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
         '-=riders': null
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476028
-      modifiedTime: 1777240476028
+      createdTime: 1779758443401
+      modifiedTime: 1779758443401
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
       duplicateSource: null
@@ -3167,11 +3157,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240476031
-          modifiedTime: 1777240476031
+          createdTime: 1779758443410
+          modifiedTime: 1779758443410
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3205,11 +3195,11 @@ items:
               statuses:
                 - frightened
         _stats:
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240476031
-          modifiedTime: 1777240476031
+          createdTime: 1779758443410
+          modifiedTime: 1779758443410
           lastModifiedBy: draenalcommon000
           compendiumSource: >-
             Compendium.draenal-common.species.Item.547OT2jzwterxvmg.ActiveEffect.ITsehHMcBKhOZFIO
@@ -3230,11 +3220,11 @@ items:
         advancementOrigin: xA9yVobXnTkI6TXt.SkPNiVF7rZQNOrV1
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476030
-      modifiedTime: 1777240476030
+      createdTime: 1779758443409
+      modifiedTime: 1779758443409
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.erzSzSLs0v4SwsuN
       duplicateSource: null
@@ -3413,11 +3403,11 @@ items:
     folder: null
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476003
-      modifiedTime: 1777240476003
+      createdTime: 1779758443401
+      modifiedTime: 1779758443401
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.backgrounds.Item.NchBwZSuntWQ0hle
       duplicateSource: null
@@ -3564,13 +3554,14 @@ items:
         sourceId: Compendium.dnd5e.feats24.Item.phbftMagicInitia
         advancementOrigin: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476004
-      modifiedTime: 1777240476005
+      createdTime: 1779758443401
+      modifiedTime: 1779758443401
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.feats24.Item.phbftMagicInitia
@@ -3732,13 +3723,14 @@ items:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplHealingWor
         advancementOrigin: i2S3bm0M9HYQ6AUw.ZbKHs2FVCkJVNW8p
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476004
-      modifiedTime: 1777240476006
+      createdTime: 1779758443401
+      modifiedTime: 1779758443401
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHealingWor
@@ -3903,11 +3895,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240476005
-          modifiedTime: 1777240476005
+          createdTime: 1779758443407
+          modifiedTime: 1779758443407
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -3927,13 +3919,14 @@ items:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
         advancementOrigin: i2S3bm0M9HYQ6AUw.ElkyDafWSUXOkPdJ
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476005
-      modifiedTime: 1777240476006
+      createdTime: 1779758443406
+      modifiedTime: 1779758443406
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
@@ -4062,13 +4055,14 @@ items:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplMessage000
         advancementOrigin: i2S3bm0M9HYQ6AUw.ElkyDafWSUXOkPdJ
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240476005
-      modifiedTime: 1777240476006
+      createdTime: 1779758443402
+      modifiedTime: 1779758443402
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMessage000
@@ -4207,732 +4201,20 @@ items:
     sort: 0
     ownership:
       default: 0
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240585196
-      modifiedTime: 1777240585196
+      createdTime: 1779758443402
+      modifiedTime: 1779758443402
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.spells.Item.NissLHQ03AWLHGKU
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!73mrLnim6n3ngDYD.jsktgqCNINRV3JVS'
-  - name: Shillelagh
-    system:
-      description:
-        value: >-
-          <p>A Club or Quarterstaff you are holding is imbued with nature's
-          power. For the duration, you can use your spellcasting ability instead
-          of Strength for the attack and damage rolls of melee attacks using
-          that weapon, and the weapon's damage die becomes a d8. If the attack
-          deals damage, it can be Force damage or the weapon's normal damage
-          type (your choice).</p><p>The spell ends early if you cast it again or
-          if you let go of the weapon.</p><p><strong>Cantrip Upgrade.</strong>
-          The damage die changes when you reach levels 5 (d10), 11 (d12), and 17
-          (2d6).</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: SRD 5.2
-        revision: 2
-      activation:
-        type: bonus
-        condition: ''
-        value: null
-      duration:
-        value: '1'
-        units: minute
-      target:
-        affects:
-          choice: false
-          count: '1'
-          type: object
-          special: held Club or Quarterstaff
-        template:
-          units: ft
-          contiguous: false
-          type: ''
-          stationary: false
-      range:
-        units: self
-        special: ''
-      uses:
-        max: ''
-        spent: 0
-        recovery: []
-      level: 0
-      school: trs
-      properties:
-        - vocal
-        - somatic
-        - material
-      materials:
-        value: mistletoe
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        B4nxtIzrCEGEzq1T:
-          type: enchant
-          _id: B4nxtIzrCEGEzq1T
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: QPsqj6jfS0iXSrTs
-              level:
-                min: null
-                max: 4
-              riders:
-                activity: []
-                effect: []
-                item: []
-            - _id: Oy8fnNNzPmehxXio
-              level:
-                min: 5
-                max: 10
-              riders:
-                activity: []
-                effect: []
-                item: []
-            - _id: advnpQaBnsbuv02y
-              level:
-                min: 11
-                max: 16
-              riders:
-                activity: []
-                effect: []
-                item: []
-            - _id: X9xoN8qHUiCc4SZR
-              level:
-                min: 17
-                max: null
-              riders:
-                activity: []
-                effect: []
-                item: []
-          range:
-            override: false
-            units: self
-          target:
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          enchant:
-            self: false
-          restrictions:
-            allowMagical: true
-            categories:
-              - simpleM
-            properties: []
-            type: weapon
-          name: Imbue Weapon
-          img: ''
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-        ONVab5lmTqJwwMBC:
-          type: attack
-          activation:
-            type: action
-            value: null
-            condition: ''
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            value: ''
-            units: inst
-            special: ''
-            override: false
-            concentration: false
-          effects: []
-          range:
-            units: self
-            special: ''
-            override: false
-          target:
-            template:
-              count: ''
-              contiguous: false
-              type: ''
-              size: ''
-              width: ''
-              height: ''
-              units: ft
-              stationary: false
-            affects:
-              count: ''
-              type: ''
-              choice: false
-              special: ''
-            prompt: true
-            override: false
-          attack:
-            ability: spellcasting
-            bonus: ''
-            critical:
-              threshold: null
-            flat: false
-            type:
-              value: melee
-              classification: weapon
-          damage:
-            critical:
-              bonus: ''
-            includeBase: true
-            parts: []
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          sort: 0
-          _id: ONVab5lmTqJwwMBC
-          name: Spellcasting Attack
-          img: ''
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: shillelagh
-      method: spell
-      sourceItem: class:druid
-      prepared: 1
-    _id: HqexG1ewdUNCBCJN
-    type: spell
-    img: icons/magic/nature/root-vine-coiled-crook.webp
-    effects:
-      - type: enchantment
-        name: Shillelagh (1d8)
-        img: icons/magic/nature/root-vine-coiled-crook.webp
-        disabled: false
-        _id: QPsqj6jfS0iXSrTs
-        system:
-          changes:
-            - key: system.damage.base.denomination
-              value: 8
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.types
-              value: force
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.number
-              value: 1
-              priority: null
-              type: override
-              phase: initial
-            - key: name
-              value: '{} Shillelagh'
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.custom.enabled
-              value: 0
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.ability
-              value: none
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        description: ''
-        origin: null
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        flags: {}
-        _stats:
-          compendiumSource: null
-          duplicateSource: null
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1777240589906
-          modifiedTime: 1777240589906
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!73mrLnim6n3ngDYD.HqexG1ewdUNCBCJN.QPsqj6jfS0iXSrTs
-      - type: enchantment
-        name: Shillelagh (1d10)
-        img: icons/magic/nature/root-vine-coiled-crook.webp
-        disabled: false
-        system:
-          changes:
-            - key: system.damage.base.denomination
-              value: 10
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.types
-              value: force
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.number
-              value: 1
-              priority: null
-              type: override
-              phase: initial
-            - key: name
-              value: '{} (Shillelagh)'
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.custom.enabled
-              value: 0
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.ability
-              value: none
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        description: ''
-        origin: null
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        flags: {}
-        _stats:
-          compendiumSource: null
-          duplicateSource: null
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1777240589906
-          modifiedTime: 1777240589906
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        _id: Oy8fnNNzPmehxXio
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!73mrLnim6n3ngDYD.HqexG1ewdUNCBCJN.Oy8fnNNzPmehxXio
-      - type: enchantment
-        name: Shillelagh (1d12)
-        img: icons/magic/nature/root-vine-coiled-crook.webp
-        disabled: false
-        system:
-          changes:
-            - key: system.damage.base.denomination
-              value: 12
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.types
-              value: force
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.number
-              value: 1
-              priority: null
-              type: override
-              phase: initial
-            - key: name
-              value: '{} (Shillelagh)'
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.custom.enabled
-              value: 0
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.ability
-              value: none
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        description: ''
-        origin: null
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        flags: {}
-        _stats:
-          compendiumSource: null
-          duplicateSource: null
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1777240589906
-          modifiedTime: 1777240589906
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        _id: advnpQaBnsbuv02y
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!73mrLnim6n3ngDYD.HqexG1ewdUNCBCJN.advnpQaBnsbuv02y
-      - type: enchantment
-        name: Shillelagh (2d6)
-        img: icons/magic/nature/root-vine-coiled-crook.webp
-        disabled: false
-        system:
-          changes:
-            - key: system.damage.base.denomination
-              value: 6
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.types
-              value: force
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.number
-              value: 2
-              priority: null
-              type: override
-              phase: initial
-            - key: name
-              value: '{} (Shillelagh)'
-              priority: null
-              type: override
-              phase: initial
-            - key: system.damage.base.custom.enabled
-              value: 0
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.ability
-              value: none
-              priority: null
-              type: override
-              phase: initial
-            - key: activities[attack].attack.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-            - key: system.damage.base.bonus
-              value: max(@abilities.str.mod, @attributes.spell.mod)
-              priority: null
-              type: add
-              phase: initial
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        description: ''
-        origin: null
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        flags: {}
-        _stats:
-          compendiumSource: null
-          duplicateSource: null
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1777240589906
-          modifiedTime: 1777240589906
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        _id: X9xoN8qHUiCc4SZR
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!73mrLnim6n3ngDYD.HqexG1ewdUNCBCJN.X9xoN8qHUiCc4SZR
-    folder: 4FhsY9FJQd7h7MZb
-    sort: 112500
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1777240589906
-      modifiedTime: 1777240589907
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplShillelagh
-    _key: '!actors.items!73mrLnim6n3ngDYD.HqexG1ewdUNCBCJN'
-  - name: Charm Person
-    system:
-      description:
-        value: >-
-          <p>One Humanoid you can see within range makes a Wisdom saving throw.
-          It does so with Advantage if you or your allies are fighting it. On a
-          failed save, the target has the &amp;Reference[charmed apply=false]
-          condition until the spell ends or until you or your allies damage it.
-          The Charmed creature is Friendly to you. When the spell ends, the
-          target knows it was Charmed by you.</p><p><strong>Using a Higher-Level
-          Spell Slot.</strong> You can target one additional creature for each
-          spell slot level above 1.</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      activation:
-        type: action
-        condition: ''
-        value: null
-      duration:
-        value: '1'
-        units: hour
-      target:
-        affects:
-          type: creature
-          count: '@item.level'
-          choice: false
-          special: ''
-        template:
-          units: ft
-          contiguous: false
-          type: ''
-          stationary: false
-      range:
-        value: '30'
-        units: ft
-        special: ''
-      uses:
-        max: ''
-        recovery: []
-        spent: 0
-      level: 1
-      school: enc
-      properties:
-        - vocal
-        - somatic
-      materials:
-        value: ''
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: save
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: false
-            concentration: false
-          effects:
-            - _id: 78JcD7wFiSCOfmns
-              onSave: false
-              level: {}
-          range:
-            override: false
-            units: self
-          target:
-            prompt: true
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-          damage:
-            onSave: half
-            parts: []
-          save:
-            ability:
-              - wis
-            dc:
-              calculation: spellcasting
-              formula: ''
-          uses:
-            spent: 0
-            recovery: []
-          sort: 0
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: charm-person
-      method: spell
-      sourceItem: class:druid
-      prepared: 1
-    _id: GfWNx3bcf7rfC5FI
-    type: spell
-    img: icons/magic/control/hypnosis-mesmerism-eye.webp
-    effects:
-      - name: Charmed
-        origin: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
-        duration:
-          value: 3600
-          units: seconds
-          expiry: turnStart
-          expired: false
-        disabled: false
-        flags: {}
-        img: systems/dnd5e/icons/svg/statuses/charmed.svg
-        _id: 78JcD7wFiSCOfmns
-        type: base
-        system:
-          changes: []
-        description: >-
-          <p>the target has the &amp;Reference[charmed apply=false] condition
-          until the spell ends or until you or your allies damage it. The
-          Charmed creature is Friendly to you. When the spell ends, the target
-          knows it was Charmed by you.</p>
-        tint: '#ffffff'
-        transfer: false
-        statuses:
-          - charmed
-        sort: 0
-        _stats:
-          compendiumSource: null
-          duplicateSource: null
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1777240595989
-          modifiedTime: 1777240595989
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        showIcon: 2
-        start: null
-        folder: null
-        _key: >-
-          !actors.items.effects!73mrLnim6n3ngDYD.GfWNx3bcf7rfC5FI.78JcD7wFiSCOfmns
-    folder: pBaAAtXBCq9FVEnL
-    sort: 5000000
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1777240595989
-      modifiedTime: 1777240624367
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
-    _key: '!actors.items!73mrLnim6n3ngDYD.GfWNx3bcf7rfC5FI'
   - name: Entangle
     system:
       description:
@@ -5082,11 +4364,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1777240606096
-          modifiedTime: 1777240606096
+          createdTime: 1779758443408
+          modifiedTime: 1779758443408
           lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
@@ -5103,13 +4385,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240606096
-      modifiedTime: 1777240625050
+      createdTime: 1779758443407
+      modifiedTime: 1779758443407
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEntangle00
@@ -5326,192 +4609,18 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240613108
-      modifiedTime: 1777240626406
+      createdTime: 1779758443402
+      modifiedTime: 1779758443402
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplIceKnife00
     _key: '!actors.items!73mrLnim6n3ngDYD.M2k2xNaIBSxsn6iE'
-  - _id: xSyVu7wnV60DWp5L
-    name: Protection from Evil and Good
-    type: spell
-    img: icons/magic/symbols/fleur-de-lis-yellow.webp
-    system:
-      description:
-        value: >-
-          <div><p>Until the spell ends, one willing creature you touch is
-          protected against creatures that are Aberrations, Celestials,
-          Elementals, Fey, Fiends, or Undead. The protection grants several
-          benefits. Creatures of those types have Disadvantage on attack rolls
-          against the target. The target also can't be possessed by or gain the
-          &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened
-          apply=false] conditions from them. If the target is already possessed,
-          Charmed, or Frightened by such a creature, the target has Advantage on
-          any new saving throw against the relevant effect.</p></div>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      activation:
-        type: action
-        condition: ''
-        value: null
-      duration:
-        value: '10'
-        units: minute
-      target:
-        affects:
-          choice: false
-          count: '1'
-          type: willing
-          special: ''
-        template:
-          units: ft
-          contiguous: false
-          type: ''
-          stationary: false
-      range:
-        units: touch
-        special: ''
-      uses:
-        max: ''
-        spent: 0
-        recovery: []
-      level: 1
-      school: abj
-      properties:
-        - vocal
-        - somatic
-        - material
-        - concentration
-      materials:
-        value: a flask of Holy Water worth 25+ GP, which the spell consumes
-        consumed: true
-        cost: 0
-        supply: 0
-      activities:
-        zFTMr0vFdY214UIY:
-          type: utility
-          _id: zFTMr0vFdY214UIY
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: 0WW6DMPuabIZh1Tv
-              level: {}
-          range:
-            override: false
-            units: self
-          target:
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          roll:
-            prompt: false
-            visible: false
-            name: ''
-            formula: ''
-          name: ''
-          img: ''
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: protection-from-evil-and-good
-      method: spell
-      sourceItem: class:druid
-      prepared: 1
-    effects:
-      - name: Protected
-        img: icons/magic/holy/yin-yang-balance-symbol.webp
-        origin: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
-        transfer: false
-        _id: 0WW6DMPuabIZh1Tv
-        type: base
-        system:
-          changes: []
-        disabled: false
-        duration:
-          value: 600
-          units: seconds
-          expiry: turnStart
-          expired: false
-        description: >-
-          <p>Creatures of those types have Disadvantage on attack rolls against
-          the target. The target also can’t be possessed by or gain the
-          &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened
-          apply=false] conditions from them. </p>
-        tint: '#ffffff'
-        statuses: []
-        sort: 0
-        flags: {}
-        _stats:
-          compendiumSource: null
-          duplicateSource: null
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1777240619258
-          modifiedTime: 1777240619258
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!73mrLnim6n3ngDYD.xSyVu7wnV60DWp5L.0WW6DMPuabIZh1Tv
-    folder: pBaAAtXBCq9FVEnL
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1777240619258
-      modifiedTime: 1777240626978
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
-    sort: 100782
-    ownership:
-      default: 0
-    _key: '!actors.items!73mrLnim6n3ngDYD.xSyVu7wnV60DWp5L'
   - name: Cure Wounds
     system:
       description:
@@ -5636,13 +4745,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240787062
-      modifiedTime: 1777240788238
+      createdTime: 1779758443403
+      modifiedTime: 1779758443403
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
@@ -5699,11 +4809,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240856387
-      modifiedTime: 1777240856387
+      createdTime: 1779758443403
+      modifiedTime: 1779758443403
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
@@ -5761,11 +4871,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240863811
-      modifiedTime: 1777240863812
+      createdTime: 1779758443403
+      modifiedTime: 1779758443403
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagWaterskin00
@@ -5885,13 +4995,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240863812
-      modifiedTime: 1777240863812
+      createdTime: 1779758443403
+      modifiedTime: 1779758443403
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.2nlARB78sJo8Z2W6
@@ -5968,13 +5079,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240869114
-      modifiedTime: 1777241040588
+      createdTime: 1779758443403
+      modifiedTime: 1779758443403
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
@@ -6045,13 +5157,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240873493
-      modifiedTime: 1777241038826
+      createdTime: 1779758443403
+      modifiedTime: 1779758443403
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmStuddedLea
@@ -6180,13 +5293,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240879102
-      modifiedTime: 1777240879103
+      createdTime: 1779758443403
+      modifiedTime: 1779758443403
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulHerbalismK
@@ -6432,179 +5546,18 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240884021
-      modifiedTime: 1777241042067
+      createdTime: 1779758443404
+      modifiedTime: 1779758443404
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRope0000000
     _key: '!actors.items!73mrLnim6n3ngDYD.JHob9mrfUbX8nZI6'
-  - name: Wooden staff
-    system:
-      description:
-        value: >-
-          <p>A @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic
-          Focus} takes one of the forms in the Druidic Focuses table and is
-          carved, tied with ribbon, or painted to channel primal magic. A Druid
-          or Ranger can use such an object as a Spellcasting Focus.</p><p>This
-          item also functions as a
-          @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}</p><section
-          class="secret" id="secret-XEbhgCaozZsnw6QT"><p><strong>Foundry
-          Note</strong></p><p>This item has been configured with the additional
-          properties of a Quarterstaff.</p></section>
-        chat: ''
-      price:
-        value: 5
-        denomination: gp
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      identified: true
-      unidentified:
-        description: ''
-      container: null
-      quantity: 1
-      weight:
-        value: 4
-        units: lb
-      rarity: ''
-      attunement: ''
-      cover: null
-      range:
-        value: null
-        long: null
-        units: ft
-        reach: null
-      uses:
-        max: ''
-        spent: 0
-        recovery: []
-      damage:
-        versatile:
-          number: null
-          denomination: 0
-          bonus: ''
-          types: []
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        base:
-          number: 1
-          denomination: 6
-          types:
-            - bludgeoning
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-          bonus: ''
-      armor:
-        value: null
-      hp:
-        value: null
-        max: null
-        dt: null
-        conditions: ''
-      type:
-        value: simpleM
-        baseItem: quarterstaff
-      properties:
-        - foc
-        - ver
-      proficient: null
-      activities:
-        8F63re0OqRLG0LzQ:
-          type: attack
-          _id: 8F63re0OqRLG0LzQ
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-            units: self
-          target:
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type: {}
-          damage:
-            critical: {}
-            includeBase: true
-            parts: []
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      ammunition: {}
-      identifier: wooden-staff
-      mastery: topple
-      crew:
-        value: []
-      attuned: false
-      equipped: false
-    _id: HdrF15nnXQbcnW0z
-    type: weapon
-    folder: kECSduSbNoLHv8fK
-    img: icons/weapons/staves/staff-nature-spiral.webp
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1777240887870
-      modifiedTime: 1777240887870
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbdfcWoodenstaf
-    _key: '!actors.items!73mrLnim6n3ngDYD.HdrF15nnXQbcnW0z'
   - name: Sickle
     system:
       description:
@@ -6768,13 +5721,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240892469
-      modifiedTime: 1777240892470
+      createdTime: 1779758443404
+      modifiedTime: 1779758443404
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepSickle0000
@@ -6994,13 +5948,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240902437
-      modifiedTime: 1777240905311
+      createdTime: 1779758443404
+      modifiedTime: 1779758443404
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagOil00000000
@@ -7123,13 +6078,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240909730
-      modifiedTime: 1777240913626
+      createdTime: 1779758443404
+      modifiedTime: 1779758443404
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRations0000
@@ -7259,13 +6215,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240918342
-      modifiedTime: 1777240918342
+      createdTime: 1779758443404
+      modifiedTime: 1779758443404
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTinderbox00
@@ -7419,13 +6376,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240924163
-      modifiedTime: 1777240927702
+      createdTime: 1779758443404
+      modifiedTime: 1779758443404
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTorch000000
@@ -7473,15 +6431,3743 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777240934073
-      modifiedTime: 1777240934073
+      createdTime: 1779758443405
+      modifiedTime: 1779758443405
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
     _key: '!actors.items!73mrLnim6n3ngDYD.wXiRXqkOhWGMQxl3'
+  - folder: LqiO7cAFbVwEOPNT
+    name: Circle of Nightmares
+    type: subclass
+    _id: xDrvG0oslCuqEj7D
+    img: modules/draenal-common/assets/icons/circle-of-nightmares-druid.webp
+    system:
+      advancement:
+        ha91bc5qQKB1w38Q:
+          type: ItemGrant
+          _id: ha91bc5qQKB1w38Q
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.tJreQjIjAv5jmZoC
+                optional: false
+              - uuid: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+                optional: false
+              - uuid: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              fNLVltZYWlEM1D4g: Compendium.draenal-common.classes.Item.tJreQjIjAv5jmZoC
+              jAwtuaJyOSnNHkfB: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+              QkDIz6ekYJJfDvW5: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+          level: 3
+          title: Subclass Features
+          hint: ''
+          flags: {}
+        6fQB4f8ltPSlLYBP:
+          type: ItemGrant
+          _id: 6fQB4f8ltPSlLYBP
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.GcHtMlmVmpReapTY
+                optional: false
+              - uuid: Compendium.draenal-common.classes.Item.xs9Cimk6kiDg1gHU
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 6
+          title: Subclass Features
+          hint: ''
+          flags: {}
+        7Xgp530T0A2sMNTi:
+          type: ItemGrant
+          _id: 7Xgp530T0A2sMNTi
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.omsVGJ9dzNsFgyIM
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 10
+          title: Subclass Features
+          hint: ''
+          flags: {}
+        Nq1cKBIhnUZUzVyP:
+          type: ItemGrant
+          _id: Nq1cKBIhnUZUzVyP
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.wZnnGcrFzGB8ASJk
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 14
+          title: Subclass Features
+          hint: ''
+          flags: {}
+      description:
+        value: >-
+          <p>Druids of most other circles find purpose in shepparding and
+          sheltering living beasts and creatures alike. They guide them to where
+          they seek and provide them healing in times of need. Yet, these other
+          druid circles also recognize the importance of preserving the natural
+          balance. What lives must eventually die, so life can be born anew.
+          However, there are those that pervert this cycle by toying with life
+          before or beyond its time is up. Druids of the Circle of Nightmares
+          carry the heavy burden of balancing the scales against these
+          perversions. You are the darkness, for without it, light would have no
+          purpose.</p>
+        chat: ''
+      identifier: nightmares
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      classIdentifier: druid
+      spellcasting:
+        progression: none
+        preparation:
+          formula: ''
+        ability: ''
+    effects: []
+    sort: 100000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.epUSDsracMjworsw
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443309
+      modifiedTime: 1779758443319
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.epUSDsracMjworsw
+    _key: '!actors.items!73mrLnim6n3ngDYD.xDrvG0oslCuqEj7D'
+  - folder: Csr6OBfn5suOcgWw
+    name: Circle of Nightmares Spells
+    type: feat
+    _id: fNLVltZYWlEM1D4g
+    img: icons/magic/unholy/barrier-fire-pink.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        jYuYrC1qwtWKFW4E:
+          type: ItemGrant
+          _id: jYuYrC1qwtWKFW4E
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+            optional: false
+            spell:
+              ability:
+                - wis
+              method: spell
+              uses:
+                max: ''
+                per: ''
+                requireSlot: true
+              prepared: 2
+          value:
+            ability: wis
+            added:
+              ZI7HWs8mLpuO7Uwm: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+              JBQybaDQGFuBZ57B: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+          level: 3
+          title: 1st-Level Spells
+          hint: ''
+          flags: {}
+        zVoU41SUtgOYFMFD:
+          type: ItemGrant
+          title: Cantrips
+          _id: zVoU41SUtgOYFMFD
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+            optional: false
+            spell:
+              ability:
+                - wis
+              method: spell
+              uses:
+                max: ''
+                per: ''
+                requireSlot: true
+              prepared: 2
+          value:
+            ability: wis
+            added:
+              VZvNdreEg64c6fyV: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+          level: 3
+          hint: ''
+          flags: {}
+        GUSGGapoV7gFb1OG:
+          type: ItemGrant
+          _id: GUSGGapoV7gFb1OG
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+            optional: false
+            spell:
+              ability:
+                - wis
+              method: spell
+              uses:
+                max: ''
+                per: ''
+                requireSlot: true
+              prepared: 2
+          value:
+            ability: wis
+            added:
+              wMRgJvtoJtkHiHKb: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+              SCGpFqrmyS0o1bcO: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+          level: 3
+          title: 2nd-Level Spells
+          hint: ''
+          flags: {}
+        yJrZutwQTlxcaiGN:
+          type: ItemGrant
+          _id: yJrZutwQTlxcaiGN
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+                optional: false
+              - uuid: Compendium.draenal-common.spells.Item.n0Os88EE3zXzlOkg
+                optional: false
+            optional: false
+            spell:
+              ability:
+                - wis
+              method: spell
+              uses:
+                max: ''
+                per: ''
+                requireSlot: true
+              prepared: 0
+          value: {}
+          level: 5
+          title: 3rd-Level Spells
+          hint: ''
+          flags: {}
+        1nfZlC49er7XRCH9:
+          type: ItemGrant
+          _id: 1nfZlC49er7XRCH9
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
+                optional: false
+              - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 7
+          title: 4th-Level Spells
+          hint: ''
+          flags: {}
+        mJRIkDWqOp1ADEB6:
+          type: ItemGrant
+          _id: mJRIkDWqOp1ADEB6
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.spells24.Item.phbsplDream00000
+                optional: false
+              - uuid: Compendium.draenal-common.spells.Item.6EjvXAf41kgrNqD9
+                optional: false
+            optional: false
+            spell:
+              ability:
+                - wis
+              method: spell
+              uses:
+                max: ''
+                per: ''
+                requireSlot: true
+              prepared: 0
+          value: {}
+          level: 9
+          title: 5th-Level Spells
+          hint: ''
+          flags: {}
+      description:
+        value: >-
+          <p>When you reach a Druid level specified in the Circle of Nightmares
+          Spells table, you thereafter always have the listed spells
+          prepared.</p><h4>Circle of Nightmares
+          Spells</h4><table><thead><tr><td><p>Druid Level</p></td><td><p>Circle
+          Spells</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill
+          Touch},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict
+          Wounds},
+          @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal
+          Force},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFear000000]{Fear},
+          @UUID[Compendium.draenal-common.spells.Item.n0Os88EE3zXzlOkg]{Spirit
+          Shroud}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEvardsBlac]{Black
+          Tentacles},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplPhantasmal]{Phantasmal
+          Killer}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDream00000]{Dream},
+          @UUID[Compendium.draenal-common.spells.Item.6EjvXAf41kgrNqD9]{Negative
+          Energy Flood}</p></td></tr></tbody></table>
+        chat: ''
+      identifier: circle-of-nightmares-spells
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 3
+      properties:
+        - mgc
+        - trait
+      requirements: Circle of Nightmares
+      type:
+        value: class
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.tJreQjIjAv5jmZoC
+        advancementOrigin: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443311
+      modifiedTime: 1779758443320
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.tJreQjIjAv5jmZoC
+    _key: '!actors.items!73mrLnim6n3ngDYD.fNLVltZYWlEM1D4g'
+  - folder: Csr6OBfn5suOcgWw
+    name: Fed By Fear
+    type: feat
+    _id: jAwtuaJyOSnNHkfB
+    img: icons/magic/death/mouth-bite-fangs-vampire.webp
+    system:
+      activities:
+        PyIcnSoQlNVuhE1K:
+          type: utility
+          name: Gain Fear Die
+          _id: PyIcnSoQlNVuhE1K
+          img: icons/sundries/gaming/gaming-set-dice.webp
+          sort: 0
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '@classes.druid.levels - @item.uses.value'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '-1'
+                target: ''
+                scaling:
+                  mode: amount
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+        IPWQSmvCrYmeqHD4:
+          type: utility
+          name: Sudden Uncertainty
+          _id: IPWQSmvCrYmeqHD4
+          img: icons/magic/perception/eye-tendrils-web-purple.webp
+          sort: 100000
+          activation:
+            type: reaction
+            override: false
+            condition: >-
+              When a creature within 30 feet of you succeeds on an ability check
+              or saving throw
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+              - type: activityUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '30'
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: creature
+              count: '1'
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery:
+              - period: lr
+                type: recoverAll
+            max: '@mod'
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: Roll Penalty
+            formula: '@scale.reapers-mark.fear-die.die'
+        qvWus6Mpcy25Yy0U:
+          type: save
+          name: 'Nightmarish Torment: Restraint'
+          _id: qvWus6Mpcy25Yy0U
+          img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+          sort: 200000
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '@mod'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling:
+                  mode: amount
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+            value: '1'
+          effects:
+            - _id: 0d3zTMt9HESVRAep
+              level: {}
+              onSave: false
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '30'
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: creature
+              count: '1'
+              special: that you can see
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          damage:
+            onSave: full
+            parts:
+              - custom:
+                  enabled: true
+                  formula: '@scaling@scale.reapers-mark.fear-die.die'
+                number: null
+                denomination: null
+                bonus: ''
+                types: []
+                scaling:
+                  mode: ''
+                  number: 1
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+        CdngOpDIc3TUphAk:
+          type: damage
+          name: Painful Accessory
+          _id: CdngOpDIc3TUphAk
+          img: icons/skills/wounds/injury-pain-body-orange.webp
+          sort: 50000
+          activation:
+            type: special
+            override: false
+            condition: When you hit a creature with an attack with a weapon
+          consumption:
+            scaling:
+              allowed: true
+              max: '2'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling:
+                  mode: ''
+              - type: activityUses
+                value: '1'
+                scaling:
+                  mode: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: creature
+              special: ''
+              count: '1'
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          damage:
+            critical:
+              allow: true
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: true
+                  formula: '@scaling@scale.reapers-mark.fear-die.die'
+                number: null
+                denomination: null
+                bonus: ''
+                types:
+                  - cold
+                  - fire
+                  - necrotic
+                  - poison
+                  - psychic
+                scaling:
+                  mode: ''
+                  number: 1
+        gicbkhzSuHRmmQ3A:
+          type: save
+          name: 'Nightmarish Torment: Ignorance'
+          img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+          sort: 400000
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '@mod'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling:
+                  mode: amount
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+            value: '1'
+          effects:
+            - _id: W7CSTPpKolYsA993
+              level: {}
+              onSave: false
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '30'
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: creature
+              count: '1'
+              special: that you can see
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          damage:
+            onSave: full
+            parts:
+              - custom:
+                  enabled: true
+                  formula: '@scaling@scale.reapers-mark.fear-die.die'
+                number: null
+                denomination: null
+                bonus: ''
+                types: []
+                scaling:
+                  mode: ''
+                  number: 1
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          _id: gicbkhzSuHRmmQ3A
+        8B1BAwtOh9hhBgwI:
+          type: save
+          name: 'Nightmarish Torment: Contamination'
+          img: icons/magic/unholy/strike-body-life-soul-green.webp
+          sort: 500000
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '@mod'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling:
+                  mode: amount
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+            value: '1'
+          effects:
+            - _id: FH71Qz7aGrmtWAvu
+              level: {}
+              onSave: false
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '30'
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: creature
+              count: '1'
+              special: that you can see
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          damage:
+            onSave: full
+            parts:
+              - custom:
+                  enabled: true
+                  formula: '@scaling@scale.reapers-mark.fear-die.die'
+                number: null
+                denomination: null
+                bonus: ''
+                types: []
+                scaling:
+                  mode: ''
+                  number: 1
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          _id: 8B1BAwtOh9hhBgwI
+      uses:
+        spent: null
+        recovery:
+          - period: lr
+            type: loseAll
+        max: '@classes.druid.levels'
+      advancement:
+        vUCslJiBg5QGrJ2Q:
+          type: ScaleValue
+          title: Fear Die
+          _id: vUCslJiBg5QGrJ2Q
+          configuration:
+            identifier: ''
+            type: dice
+            distance:
+              units: ''
+            scale:
+              '0':
+                number: 1
+                faces: 8
+                modifiers: []
+          flags: {}
+          value: {}
+          hint: ''
+      description:
+        value: >-
+          <p>You feed off the fear of your enemies and amass it within yourself.
+          This amassed fear is represented as your Fear Dice, which are d8s. You
+          gain a Fear Die whenever a creature with a challenge rating greater
+          than 0 is hit by an attack that you make or fails a saving throw
+          against a spell that you cast. When you score a critical hit, you gain
+          an additional Fear Die from that attack. Your current number of Fear
+          Dice cannot exceed your Druid Level. You lose any remaining Fear Dice
+          when you complete a Long Rest.</p><p>You expend these Fear Dice to
+          fuel the options below.</p><p><strong>Sudden Uncertainty.</strong>
+          When a creature within 30 feet of you succeeds on an ability check or
+          saving throw, you can take a Reaction to expend one Fear Die; roll the
+          Fear Die and subtract the number rolled from the creature's roll,
+          potentially turning the success into a failure. You can use this
+          feature a number of times equal to your Wisdom modifier. You regain
+          any expended uses after a Long Rest.</p><p><strong>Painful
+          Accessory.</strong> Once per turn when you hit a creature with an
+          attack with a weapon, you can expend up to two Fear Dice to deal
+          additional cold, fire, necrotic, poison, or psychic damage (your
+          choice) damage equal to the total rolls of the expended Fear
+          Dice.</p><p><strong>Nightmarish Torment.</strong> As an Action, you
+          can expend your Fear Dice to torment a creature within 30 feet of you
+          that you can see. The maximum number of Fear Dice that you can expend
+          at once is equal to your Wisdom Modifier. Roll the expended Fear Dice.
+          The target suffers cold, fire, necrotic, poison, or psychic damage
+          (your choice) equal to the total and is subjected to one of the
+          effects of your choice listed below.</p><p><em>Restraint.</em> The
+          target must make a Dexterity saving throw against your spell Save DC.
+          On a failed save, the target is Restrained until the start of your
+          next turn.</p><p><em>Ignorance.</em> The target must make a Wisdom
+          saving throw against your spell Save DC. On a failed save, the target
+          is Blinded and Deafened until the start of your next turn. This effect
+          applies to all types of sight.</p><p><em>Contamination.</em> The
+          target must make a Constitution saving throw against your spell Save
+          DC. On a failed save, the target is poisoned until the start of your
+          next turn.</p>
+        chat: ''
+      identifier: reapers-mark
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 3
+      properties: []
+      requirements: Circle of Nightmares
+      type:
+        value: class
+        subtype: ''
+    effects:
+      - name: 'Nightmarish Torment: Contamination'
+        img: icons/magic/unholy/strike-body-life-soul-green.webp
+        origin: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+        transfer: false
+        _id: FH71Qz7aGrmtWAvu
+        type: base
+        system:
+          changes: []
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - poisoned
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443313
+          modifiedTime: 1779758443313
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.jAwtuaJyOSnNHkfB.FH71Qz7aGrmtWAvu
+      - name: 'Nightmarish Torment: Ignorance'
+        img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+        origin: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+        transfer: false
+        type: base
+        system:
+          changes: []
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - blinded
+          - deafened
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443313
+          modifiedTime: 1779758443313
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: W7CSTPpKolYsA993
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.jAwtuaJyOSnNHkfB.W7CSTPpKolYsA993
+      - name: 'Nightmarish Torment: Restraint'
+        img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+        origin: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+        transfer: false
+        type: base
+        system:
+          changes: []
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - restrained
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443313
+          modifiedTime: 1779758443313
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: 0d3zTMt9HESVRAep
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.jAwtuaJyOSnNHkfB.0d3zTMt9HESVRAep
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+        advancementOrigin: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443313
+      modifiedTime: 1779758443320
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+    _key: '!actors.items!73mrLnim6n3ngDYD.jAwtuaJyOSnNHkfB'
+  - folder: Csr6OBfn5suOcgWw
+    name: Waking Nightmare
+    type: feat
+    _id: QkDIz6ekYJJfDvW5
+    img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+    system:
+      activities:
+        3CUC844q2dgynBHG:
+          type: save
+          name: Aura of Fear
+          _id: 3CUC844q2dgynBHG
+          img: icons/magic/control/fear-fright-monster-purple-blue.webp
+          sort: 200000
+          activation:
+            type: ''
+            override: false
+            condition: >-
+              Whenever the Emanation enters a creature's space and whenever a
+              creature enters the Emanation's space or ends its turn in there
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: coCxNSaxOjFdoXE1
+              onSave: false
+              level:
+                min: null
+                max: null
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '10'
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+              size: '10'
+              count: ''
+            affects:
+              choice: true
+              type: creature
+              count: '1'
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          damage:
+            onSave: none
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+        gX1dbof8muyEkJbu:
+          type: enchant
+          name: Embrace Druidic Violence
+          _id: gX1dbof8muyEkJbu
+          img: icons/magic/death/weapon-scythe-rune-green.webp
+          sort: 300000
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: Ze6Xtm4hhL10DfHK
+              level:
+                min: null
+                max: null
+              riders:
+                activity:
+                  - reuLLb2GjpUGNCyu
+                effect: []
+                item: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+              special: ''
+              count: '1'
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          enchant:
+            self: false
+          restrictions:
+            allowMagical: true
+            categories:
+              - simpleM
+              - martialM
+            properties: []
+            type: weapon
+        reuLLb2GjpUGNCyu:
+          type: attack
+          _id: reuLLb2GjpUGNCyu
+          img: icons/magic/death/weapon-scythe-rune-green.webp
+          sort: 400000
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: spellcasting
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          name: Druidic Violence
+        cY2JvJNpdsla2T77:
+          type: heal
+          name: Shrouded In Shadow
+          _id: cY2JvJNpdsla2T77
+          img: icons/magic/control/buff-flight-wings-purple.webp
+          sort: 500000
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: self
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          healing:
+            types:
+              - temphp
+            custom:
+              enabled: false
+            scaling:
+              number: 1
+            number: null
+            denomination: null
+            bonus: ''
+        x1ip50bgIlmfZqZI:
+          type: utility
+          name: Awake Nightmare
+          _id: x1ip50bgIlmfZqZI
+          img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+          sort: 100000
+          activation:
+            type: bonus
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: ZPd0Ac3Z8oP0aAIX
+              level:
+                min: null
+                max: null
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: self
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>As a Bonus Action or when you roll initiative, you can spend one
+          use of your wild shape to assume the form of the nightmare. You gain
+          the benefits below for 10 minutes or until you end them (no action
+          required).</p><p><strong>Aura of Fear.</strong> You exude an aura of
+          fear in a 10-foot Emanation originating from you. You may designate
+          creatures to be unaffected by it when it appears. Any other creature
+          must make a Wisdom saving throw whenever the Emanation enters a
+          creature's space and whenever a creature enters the Emanation's space
+          or ends its turn in there. On a failed save, you gain a fear die and
+          the creature has the Frightened condition until the end of its next
+          turn. Additionally, you can target an unseen creature in the Emanation
+          with <em>Nightmarish Torment</em>.</p><p><strong>Druidic
+          Violence.</strong> You can use your Wisdom modifier instead of
+          Strength or Dexterity for the attack and damage rolls of attacks using
+          melee weapons.</p><p><strong>Shrouded in Shadow.</strong> You gain
+          temporary hit points equal to the total of any Fear Dice that you
+          roll.</p>
+        chat: ''
+      identifier: violent-nightmare
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 3
+      properties: []
+      requirements: Circle of Nightmares
+      type:
+        value: class
+        subtype: ''
+    effects:
+      - name: Aura of Fear
+        img: icons/magic/control/fear-fright-monster-purple-blue.webp
+        origin: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+        transfer: false
+        _id: coCxNSaxOjFdoXE1
+        type: base
+        system:
+          changes: []
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnEnd
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses:
+          - frightened
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443315
+          modifiedTime: 1779758443315
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.QkDIz6ekYJJfDvW5.coCxNSaxOjFdoXE1
+      - type: enchantment
+        name: Druidic Violence
+        img: icons/magic/death/weapon-scythe-rune-green.webp
+        disabled: true
+        _id: Ze6Xtm4hhL10DfHK
+        system:
+          changes:
+            - key: name
+              type: add
+              value: ', Druidic Violence'
+              phase: initial
+              priority: null
+        start: null
+        duration:
+          value: 600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443315
+          modifiedTime: 1779758443315
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.QkDIz6ekYJJfDvW5.Ze6Xtm4hhL10DfHK
+      - name: Waking Nightmare
+        img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+        origin: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+        transfer: false
+        _id: ZPd0Ac3Z8oP0aAIX
+        type: base
+        system:
+          changes:
+            - key: ''
+              type: add
+              value: ''
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: 10
+          units: minutes
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443315
+          modifiedTime: 1779758443315
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.QkDIz6ekYJJfDvW5.ZPd0Ac3Z8oP0aAIX
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity:
+            - reuLLb2GjpUGNCyu
+        sourceId: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+        advancementOrigin: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443315
+      modifiedTime: 1779758443320
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+    _key: '!actors.items!73mrLnim6n3ngDYD.QkDIz6ekYJJfDvW5'
+  - name: Sleep
+    system:
+      description:
+        value: >-
+          <p>Each creature of your choice in a 5-foot-radius Sphere centered on
+          a point within range must succeed on a Wisdom saving throw or have the
+          &amp;Reference[incapacitated apply=false] condition until the end of
+          its next turn, at which point it must repeat the save. If the target
+          fails the second save, the target has the &amp;Reference[unconscious]
+          condition for the duration. The spell ends on a target if it takes
+          damage or someone within 5 feet of it takes an action to shake it out
+          of the spell's effect.</p><p>Creatures that don't sleep, such as
+          elves, or that have Immunity to the Exhaustion condition automatically
+          succeed on saves against this spell.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: sphere
+          size: '5'
+          contiguous: false
+          stationary: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: enc
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a pinch of sand or rose petals
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: 04Wa4xUzjA31kPno
+              onSave: false
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: sleep
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:circle-of-nightmares-spells
+    _id: ZI7HWs8mLpuO7Uwm
+    type: spell
+    img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
+    effects:
+      - name: Sleeping
+        origin: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/control/sleep-bubble-purple.webp
+        _id: 04Wa4xUzjA31kPno
+        type: base
+        system:
+          changes: []
+        description: >-
+          <p>The target has the &amp;Reference[incapacitated apply=false]
+          condition until the end of its next turn, at which point it must
+          repeat the save. If the target fails the second save, the target has
+          the &amp;Reference[unconscious] condition for the duration. The spell
+          ends on a target if it takes damage or someone within 5 feet of it
+          takes an action to shake it out of the spell’s effect.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses:
+          - incapacitated
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443316
+          modifiedTime: 1779758443316
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.ZI7HWs8mLpuO7Uwm.04Wa4xUzjA31kPno
+    folder: pBaAAtXBCq9FVEnL
+    sort: 400000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+        advancementOrigin: fNLVltZYWlEM1D4g.jYuYrC1qwtWKFW4E
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443316
+      modifiedTime: 1779758443321
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+    _key: '!actors.items!73mrLnim6n3ngDYD.ZI7HWs8mLpuO7Uwm'
+  - name: Inflict Wounds
+    system:
+      description:
+        value: >-
+          <p>A creature you touch makes a Constitution saving throw, taking 2d10
+          Necrotic damage on a failed save or half as much damage on a
+          successful one.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d10 for each spell slot level
+          above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: nec
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 2
+                denomination: 10
+                bonus: ''
+                types:
+                  - necrotic
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: inflict-wounds
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:circle-of-nightmares-spells
+    _id: JBQybaDQGFuBZ57B
+    type: spell
+    img: icons/skills/wounds/injury-pain-body-orange.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 1500000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+        advancementOrigin: fNLVltZYWlEM1D4g.jYuYrC1qwtWKFW4E
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443317
+      modifiedTime: 1779758443321
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+    _key: '!actors.items!73mrLnim6n3ngDYD.JBQybaDQGFuBZ57B'
+  - name: Darkness
+    system:
+      description:
+        value: >-
+          <p>For the duration, magical &amp;Reference[darkness] spreads from a
+          point within range and fills a 15-foot-radius Sphere. Darkvision can't
+          see through it, and nonmagical light can't illuminate
+          it.</p><p>Alternatively, you cast the spell on an object that isn't
+          being worn or carried, causing the Darkness to fill a 15-foot
+          Emanation originating from that object. Covering that object with
+          something opaque, such as a bowl or helm, blocks the
+          Darkness.</p><p>If any of this spell's area overlaps with an area of
+          Bright Light or Dim Light created by a spell of level 2 or lower, that
+          other spell is dispelled.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: sphere
+          size: '15'
+          contiguous: false
+          stationary: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: evo
+      properties:
+        - vocal
+        - material
+        - concentration
+      materials:
+        value: bat fur and a piece of coal
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: darkness
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:circle-of-nightmares-spells
+    _id: wMRgJvtoJtkHiHKb
+    type: spell
+    img: icons/magic/unholy/orb-rays-blue.webp
+    effects: []
+    folder: 3SjcO2acsFnWegp4
+    sort: 4200000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+        advancementOrigin: fNLVltZYWlEM1D4g.GUSGGapoV7gFb1OG
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443317
+      modifiedTime: 1779758443321
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+    _key: '!actors.items!73mrLnim6n3ngDYD.wMRgJvtoJtkHiHKb'
+  - _id: SCGpFqrmyS0o1bcO
+    name: Phantasmal Force
+    type: spell
+    img: icons/creatures/magical/spirit-undead-winged-ghost.webp
+    system:
+      description:
+        value: >-
+          <div><p>You attempt to craft an illusion in the mind of a creature you
+          can see within range. The target makes an Intelligence saving throw.
+          On a failed save, you create a phantasmal object, creature, or other
+          phenomenon that is no larger than a 10-foot Cube and that is
+          perceivable only to the target for the duration. The phantasm includes
+          sound, temperature, and other stimuli.</p><p>The target can take a
+          &amp;Reference[Study]{Study} action to examine the phantasm with an
+          [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against
+          your spell save DC. If the check succeeds, the target realizes that
+          the phantasm is an illusion, and the spell ends.</p><p>While affected
+          by the spell, the target treats the phantasm as if it were real and
+          rationalizes any illogical outcomes from interacting with it. For
+          example, if the target steps through a phantasmal bridge and survives
+          the fall, it believes the bridge exists and something else caused it
+          to fall.</p><p>An affected target can even take damage from the
+          illusion if the phantasm represents a dangerous creature or hazard. On
+          each of your turns, such a phantasm can deal 2d8 Psychic damage to the
+          target if it is in the phantasm's area or within 5 feet of the
+          phantasm. The target perceives the damage as a type appropriate to the
+          illusion.</p></div>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        book: ''
+        page: ''
+        license: CC-BY-4.0
+        revision: 2
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '60'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 2
+      school: ill
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a bit of fleece
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        5LLVXOLZf1fTstUw:
+          type: save
+          name: Cast
+          _id: 5LLVXOLZf1fTstUw
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: QyPQcXhcl8sTDQ3d
+              onSave: false
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: cube
+              size: '10'
+              count: ''
+              stationary: false
+            affects:
+              choice: false
+              count: '1'
+              type: creature
+              special: ''
+            override: true
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            parts: []
+            onSave: none
+          save:
+            ability:
+              - int
+            dc:
+              calculation: spellcasting
+              formula: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        QCUpctimdMH6E6F8:
+          type: damage
+          name: Phantasm Damage
+          _id: QCUpctimdMH6E6F8
+          sort: 0
+          activation:
+            type: ''
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: true
+          effects: []
+          range:
+            override: true
+            units: ft
+            special: ''
+            value: '5'
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            critical:
+              allow: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - psychic
+                scaling:
+                  mode: ''
+                  number: 1
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: phantasmal-force
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:circle-of-nightmares-spells
+    effects:
+      - name: Seeing Illusions
+        img: icons/magic/control/hypnosis-mesmerism-eye.webp
+        origin: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+        transfer: false
+        _id: QyPQcXhcl8sTDQ3d
+        type: base
+        system:
+          changes: []
+        disabled: false
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>The target can take a &amp;Reference[Study]{Study} action to
+          examine the phantasm with an [[/check ability=int skill=inv]] check
+          against your spell save DC. If the check succeeds, the target realizes
+          that the phantasm is an illusion, and the spell ends.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443318
+          modifiedTime: 1779758443318
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.SCGpFqrmyS0o1bcO.QyPQcXhcl8sTDQ3d
+    folder: 3SjcO2acsFnWegp4
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+        advancementOrigin: fNLVltZYWlEM1D4g.GUSGGapoV7gFb1OG
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443318
+      modifiedTime: 1779758443321
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+    sort: 100782
+    ownership:
+      default: 0
+    _key: '!actors.items!73mrLnim6n3ngDYD.SCGpFqrmyS0o1bcO'
+  - name: Chill Touch
+    system:
+      description:
+        value: >-
+          <p>Channeling the chill of the grave, make a melee spell attack
+          against a target within reach. On a hit, the target takes 1d10
+          Necrotic damage, and it can't regain Hit Points until the end of your
+          next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage
+          increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17
+          (4d10).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: any
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: nec
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        mUy5EZouOr5kqvYN:
+          type: attack
+          _id: mUy5EZouOr5kqvYN
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: zwks0mAqBHGZC1Pk
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 10
+                bonus: ''
+                types:
+                  - necrotic
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: chill-touch
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:circle-of-nightmares-spells
+    _id: VZvNdreEg64c6fyV
+    type: spell
+    img: icons/magic/unholy/strike-hand-glow-pink.webp
+    effects:
+      - name: Blocked Healing
+        img: icons/magic/life/heart-broken-red.webp
+        origin: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+        transfer: false
+        _id: zwks0mAqBHGZC1Pk
+        type: base
+        system:
+          changes: []
+        disabled: false
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>The target can’t regain Hit Points until the end of your next
+          turn.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779758443319
+          modifiedTime: 1779758443319
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.VZvNdreEg64c6fyV.zwks0mAqBHGZC1Pk
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1900000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+        advancementOrigin: fNLVltZYWlEM1D4g.zVoU41SUtgOYFMFD
+        advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758443319
+      modifiedTime: 1779758443322
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+    _key: '!actors.items!73mrLnim6n3ngDYD.VZvNdreEg64c6fyV'
+  - name: Holy Water
+    system:
+      description:
+        value: >-
+          <p>When you take the Attack action, you can replace one of your
+          attacks with throwing a flask of Holy Water. Target one creature you
+          can see within 20 feet of yourself. The target must succeed on a
+          Dexterity saving throw (DC 8 plus your Dexterity modifier and
+          Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an
+          Undead.</p>
+        chat: ''
+      price:
+        value: 25
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: phbagPriestsPack
+      quantity: 1
+      weight:
+        value: 1
+        units: lb
+      rarity: ''
+      attunement: ''
+      uses:
+        max: '1'
+        autoDestroy: true
+        spent: 0
+        recovery: []
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        replace: false
+      type:
+        value: potion
+        subtype: ''
+      properties: []
+      activities:
+        ArV3jMOIvfj5c5y9:
+          type: save
+          name: Throw
+          _id: ArV3jMOIvfj5c5y9
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: ft
+            special: ''
+            value: '20'
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: '1'
+              type: creature
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - radiant
+                scaling:
+                  number: 1
+            onSave: half
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: dex
+              formula: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: holy-water
+      attuned: false
+      equipped: false
+    _id: gy3vgsISmpMYlcwW
+    type: consumable
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/consumables/potions/bottle-round-empty-glass.webp
+    effects: []
+    sort: 65610
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758569783
+      modifiedTime: 1779758569783
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.nshr9PBVyB03T7wB
+    _key: '!actors.items!73mrLnim6n3ngDYD.gy3vgsISmpMYlcwW'
+  - name: Potion of Healing
+    system:
+      description:
+        value: >-
+          <p>This potion is a magic item. As a Bonus Action, you can drink it or
+          administer it to another creature within 5 feet of yourself. The
+          creature that drinks the magical red fluid in this vial regains 2d4 +
+          2 Hit Points.</p>
+        chat: ''
+      price:
+        value: 50
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0.5
+        units: lb
+      rarity: ''
+      attunement: ''
+      uses:
+        max: '1'
+        autoDestroy: true
+        spent: 0
+        recovery: []
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        replace: false
+      type:
+        value: potion
+        subtype: ''
+      properties:
+        - mgc
+      activities:
+        cNvH4obx5XJ2myYr:
+          type: heal
+          activation:
+            type: bonus
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: touch
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: '1'
+              type: creature
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          healing:
+            number: 2
+            denomination: 4
+            bonus: '2'
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: cNvH4obx5XJ2myYr
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: potion-of-healing
+      attuned: false
+      equipped: false
+    _id: 7NBcNAoWq6ce33UA
+    type: consumable
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/consumables/potions/potion-tube-corked-red.webp
+    effects: []
+    sort: 4800000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779758619906
+      modifiedTime: 1779758619907
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPotionofHea
+    _key: '!actors.items!73mrLnim6n3ngDYD.7NBcNAoWq6ce33UA'
+  - name: Produce Flame
+    system:
+      description:
+        value: >-
+          <p>A flickering flame appears in your hand and remains there for the
+          duration. While there, the flame emits no heat and ignites nothing,
+          and it sheds Bright Light in a 20-foot radius and Dim Light for an
+          additional 20 feet. The spell ends if you cast it again.</p><p>Until
+          the spell ends, you can take a Magic action to hurl fire at a creature
+          or an object within 60 feet of you. Make a ranged spell attack. On a
+          hit, the target takes 1d8 Fire damage.</p><p><strong>Cantrip
+          Upgrade.</strong> The damage increases by 1d8 when you reach levels 5
+          (2d8), 11 (3d8), and 17 (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: bonus
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: con
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        MModRd17Oi6hhztj:
+          type: utility
+          name: Cast
+          _id: MModRd17Oi6hhztj
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        tqKlIEdglRYdqHrp:
+          type: attack
+          name: Hurl Fire
+          _id: tqKlIEdglRYdqHrp
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: true
+          effects: []
+          range:
+            override: true
+            units: ft
+            special: ''
+            value: '60'
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: '1'
+              type: creatureOrObject
+              special: ''
+            override: true
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - fire
+                scaling:
+                  mode: whole
+                  number: 1
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: produce-flame
+      method: spell
+      sourceItem: class:druid
+      prepared: 1
+    _id: EeQ8MlBVMapGgADW
+    type: spell
+    img: icons/magic/light/hand-sparks-glow-yellow.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 300000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779759504523
+      modifiedTime: 1779759504523
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplProduceFla
+    _key: '!actors.items!73mrLnim6n3ngDYD.EeQ8MlBVMapGgADW'
+  - name: Augury
+    system:
+      description:
+        value: >-
+          <p>You receive an omen from an otherworldly entity about the results
+          of a course of action that you plan to take within the next 30
+          minutes. The DM chooses the omen from the Omens
+          table.</p><table><thead><tr><td>Omen</td><td>For Results That Will Be
+          …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal
+          and woe</td><td>Good and
+          bad</td></tr><tr><td>Indifference</td><td>Neither good nor
+          bad</td></tr></tbody></table><p>The spell doesn't account for
+          circumstances, such as other spells, that might change the
+          results.</p><p>If you cast the spell more than once before finishing a
+          Long Rest, there is a cumulative 25 percent chance for each casting
+          after the first that you get no answer.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: minute
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - material
+        - ritual
+      materials:
+        value: >-
+          specially marked sticks, bones, cards, or other divinatory tokens
+          worth 25+ GP
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: augury
+      method: spell
+      sourceItem: class:druid
+      prepared: 1
+    _id: XfIIAEHBvvNGMF9l
+    type: spell
+    img: icons/sundries/gaming/playing-cards-black.webp
+    effects: []
+    folder: 3SjcO2acsFnWegp4
+    sort: 5200000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779759563737
+      modifiedTime: 1779759589249
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplAugury0000
+    _key: '!actors.items!73mrLnim6n3ngDYD.XfIIAEHBvvNGMF9l'
+  - name: Heat Metal
+    system:
+      description:
+        value: >-
+          <p>Choose a manufactured metal object, such as a metal weapon or a
+          suit of Heavy or Medium metal armor, that you can see within range.
+          You cause the object to glow red-hot. Any creature in physical contact
+          with the object takes 2d8 Fire damage when you cast the spell. Until
+          the spell ends, you can take a Bonus Action on each of your later
+          turns to deal this damage again if the object is within
+          range.</p><p>If a creature is holding or wearing the object and takes
+          the damage from it, the creature must succeed on a Constitution saving
+          throw or drop the object if it can. If it doesn't drop the object, it
+          has Disadvantage on attack rolls and ability checks until the start of
+          your next turn.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d8 for each spell slot level
+          above 2.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 2
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: object
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        value: '60'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a piece of iron and a flame
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: ''
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: false
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: true
+            concentration: false
+          effects:
+            - _id: VVQbCUE5W44bF4QU
+              onSave: false
+              level: {}
+          range:
+            override: true
+            units: any
+            special: ''
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: '1'
+              type: creature
+              special: ''
+            override: true
+          damage:
+            onSave: none
+            parts: []
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 100000
+          name: On Damage Save
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        2jWlvr2titPfBMEm:
+          type: damage
+          _id: 2jWlvr2titPfBMEm
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            critical:
+              allow: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - fire
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          name: Cast and Heat
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        YPEmwJHX7g68307N:
+          type: damage
+          sort: 0
+          activation:
+            type: bonus
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: true
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            critical:
+              allow: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - fire
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          name: Reheat
+          _id: YPEmwJHX7g68307N
+          img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: heat-metal
+      method: spell
+      sourceItem: class:druid
+      prepared: 1
+    _id: rJqkfJ98knbTHySQ
+    type: spell
+    img: icons/magic/fire/flame-burning-chain.webp
+    effects:
+      - name: Heated Metal
+        img: icons/magic/fire/flame-burning-chain.webp
+        origin: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
+        transfer: false
+        _id: VVQbCUE5W44bF4QU
+        type: base
+        system:
+          changes: []
+        disabled: false
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>If a creature is holding or wearing the object and takes the damage
+          from it, The creature must succeed on a [[/save ability=con
+          format=long]] or drop the object if it can. If it doesn’t drop the
+          object, it has Disadvantage on attack rolls and ability checks until
+          the start of your next turn.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779759574640
+          modifiedTime: 1779759574640
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.rJqkfJ98knbTHySQ.VVQbCUE5W44bF4QU
+    folder: 3SjcO2acsFnWegp4
+    sort: 2900000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779759574640
+      modifiedTime: 1779759588369
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
+    _key: '!actors.items!73mrLnim6n3ngDYD.rJqkfJ98knbTHySQ'
+  - name: Lesser Restoration
+    system:
+      description:
+        value: >-
+          <p>You touch a creature and end one condition on it:
+          &amp;Reference[blinded], &amp;Reference[deafened],
+          &amp;Reference[paralyzed], or &amp;Reference[poisoned].</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: bonus
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ft
+          contiguous: false
+          stationary: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: lesser-restoration
+      method: spell
+      sourceItem: class:druid
+      prepared: 1
+    _id: UEZgIYZPmJsLgivG
+    type: spell
+    img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+    effects: []
+    folder: 3SjcO2acsFnWegp4
+    sort: 2500000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779759581789
+      modifiedTime: 1779759587899
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplLesserRest
+    _key: '!actors.items!73mrLnim6n3ngDYD.UEZgIYZPmJsLgivG'
+  - folder: cGU25ieVxpiolPUO
+    name: Timberwolf
+    type: weapon
+    img: icons/weapons/staves/staff-animal-bird.webp
+    system:
+      activities:
+        RNwMdqTE3j9cHN9O:
+          _id: RNwMdqTE3j9cHN9O
+          type: attack
+          img: ''
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ''
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          name: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>This Quarterstaff is made from a knotted tree branch that has been
+          shaved of its bark. Bite marks apparently from some canine creature
+          line the staff. The wood is beginning to take a maroon hue. A short
+          shard of ivory is protruding from the side near one
+          end.</p><p><em><strong>Scent of Blood.</strong></em> Any bloodied
+          creature you hit with the weapon takes an extra 1d4 necrotic
+          damage.</p><p><em><strong>Pack Advantage.</strong></em> You cannot
+          have disadvantage on attacks made with this weapon against a creature
+          if at least one of your allies is within 5 feet of the target.</p>
+        chat: ''
+      identifier: timberwolf
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: >-
+          <p>This Quarterstaff is made from a knotted tree branch that has been
+          shaved of its bark. Bite marks apparently from some canine creature
+          line the staff. The wood is beginning to take a maroon hue. A short
+          shard of ivory is protruding from the side near one end.</p>
+        name: Unidentified Weapon
+      container: null
+      quantity: 1
+      weight:
+        value: 4
+        units: lb
+      price:
+        value: 2
+        denomination: sp
+      rarity: uncommon
+      attunement: required
+      crew:
+        value: []
+      ammunition: {}
+      armor: {}
+      damage:
+        base:
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          number: 1
+          denomination: 6
+          bonus: ''
+        versatile:
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          number: 1
+          denomination: null
+          bonus: ''
+      properties:
+        - mgc
+        - ver
+      proficient: null
+      range:
+        units: ft
+        value: null
+        long: null
+        reach: 5
+      type:
+        value: simpleM
+        baseItem: quarterstaff
+      mastery: topple
+      magicalBonus: ''
+      attuned: true
+      equipped: true
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779760057328
+      modifiedTime: 1779760059573
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.draenal-common.private-equipment.Item.9j3vij4HlQE5KXN8
+      duplicateSource: null
+    ownership:
+      default: 0
+    _id: t4z04n7IlqTWFt9M
+    sort: 200000
+    _key: '!actors.items!73mrLnim6n3ngDYD.t4z04n7IlqTWFt9M'
 effects: []
 folder: null
 sort: 0
@@ -7660,11 +10346,11 @@ flags:
     isDynamicRingMode: false
     modeIsOversized: true
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776813256847
-  modifiedTime: 1777246087295
+  modifiedTime: 1779758496513
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

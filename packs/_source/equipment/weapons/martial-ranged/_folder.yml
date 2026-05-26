@@ -1,0 +1,20 @@
+type: Item
+folder: BFHxydnPCL2maui6
+name: Martial Ranged
+color: null
+sorting: a
+_id: gPavSSaoT3tMcwMn
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779757464578
+  modifiedTime: 1779757464578
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!gPavSSaoT3tMcwMn'
+

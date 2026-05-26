@@ -1,0 +1,20 @@
+type: Item
+folder: WbqCEw0rImHkn5Xj
+name: Wands
+color: null
+sorting: a
+_id: llbyK41U1W8pTZ04
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779757532581
+  modifiedTime: 1779757532581
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!llbyK41U1W8pTZ04'
+

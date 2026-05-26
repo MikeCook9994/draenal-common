@@ -1,15 +1,21 @@
+folder: NjqQMLDSpgkNVXmC
 name: Fate's Touch
-type: loot
-_id: MhPsBq43bl7dxjvM
+type: equipment
+_id: 6Q0y2xezfh7422xa
 img: icons/equipment/finger/ring-cabochon-bronze-green.webp
 system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
   description:
     value: >-
       <p>Small rectangles are engraved into and encircle the band. A small
       blue-hued gemstone of unknown identity is inset on the outer perimeter of
       the ring. It hums softly.</p>
     chat: ''
-  identifier: signet-ring
+  identifier: fates-touch
   source:
     revision: 1
     rules: '2024'
@@ -17,7 +23,7 @@ system:
     page: ''
     custom: ''
     license: ''
-  identified: false
+  identified: true
   unidentified:
     description: >-
       <p>You found this small golden ring on your person sometime after you were
@@ -35,25 +41,34 @@ system:
     value: 0
     denomination: gp
   rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  crew:
+    value: []
+  armor:
+    value: null
+    dex: null
+  proficient: null
   properties:
     - mgc
+  strength: null
   type:
-    value: treasure
-    subtype: ''
+    value: ring
+    baseItem: ''
 effects: []
-folder: null
 sort: 0
 ownership:
   default: 0
 flags: {}
 _stats:
-  duplicateSource: null
-  exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1769466137134
-  modifiedTime: 1777239611405
+  createdTime: 1779759826961
+  modifiedTime: 1779759953519
   lastModifiedBy: draenalcommon000
-_key: '!items!MhPsBq43bl7dxjvM'
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6Q0y2xezfh7422xa'
 

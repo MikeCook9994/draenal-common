@@ -1,0 +1,132 @@
+folder: gPavSSaoT3tMcwMn
+name: Revolver
+type: weapon
+_id: eCMrFyeVUUZllahL
+img: icons/weapons/guns/pistol-revolver-long.webp
+system:
+  activities:
+    zBefGX7bPnZ3FHkY:
+      _id: zBefGX7bPnZ3FHkY
+      type: attack
+      img: null
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: revolver
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: veryRare
+  attunement: ''
+  attuned: false
+  equipped: false
+  crew:
+    value: []
+  ammunition:
+    type: firearmBullet
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 8
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - amm
+    - rel
+  proficient: null
+  range:
+    units: ft
+    value: 40
+    long: 120
+    reach: null
+  type:
+    value: martialR
+    baseItem: pistol
+  mastery: sap
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779295894296
+  modifiedTime: 1779757466417
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!eCMrFyeVUUZllahL'
+

@@ -1,6 +1,5 @@
 name: Changing Fate
 type: weapon
-_id: bkIs7zGWKk9qHJyh
 img: icons/weapons/staves/staff-simple-green.webp
 system:
   activities:
@@ -33,6 +32,7 @@ system:
           contiguous: false
           units: ft
           type: ''
+          stationary: false
         affects:
           choice: false
           type: ''
@@ -120,6 +120,7 @@ system:
           contiguous: false
           units: ft
           type: ''
+          stationary: false
         affects:
           choice: false
           type: ''
@@ -329,7 +330,6 @@ system:
     value: simpleM
     baseItem: club
   mastery: slow
-  magicalBonus: null
 effects:
   - type: enchantment
     name: 'Changed Form: Rapier'
@@ -341,42 +341,52 @@ effects:
           value: rapier
           priority: null
           type: override
+          phase: initial
         - key: name
           value: '{} [rapier]'
           priority: null
           type: override
+          phase: initial
         - key: system.type.value
           value: martialM
           priority: null
           type: override
+          phase: initial
         - key: img
           value: icons/weapons/swords/sword-katana.webp
           priority: null
           type: override
+          phase: initial
         - key: system.damage.base.types
           value: piercing
           priority: null
           type: add
+          phase: initial
         - key: system.mastery
           value: vex
           priority: null
           type: override
+          phase: initial
         - key: system.properties
           value: fin
           priority: null
           type: add
+          phase: initial
         - key: system.damage.base.denomination
           value: 8
           priority: null
           type: override
+          phase: initial
         - key: system.properties
           value: '-lgt'
           priority: null
           type: add
+          phase: initial
         - key: system.damage.base.types
           value: '-bludgeoning'
           priority: null
           type: add
+          phase: initial
     duration:
       value: null
       units: seconds
@@ -393,20 +403,20 @@ effects:
         riders:
           statuses: []
     _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779756303842
+      modifiedTime: 1779756303842
+      lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.359'
-      systemId: dnd5e
-      systemVersion: 5.2.4
-      createdTime: 1769548440493
-      modifiedTime: 1769548532801
-      lastModifiedBy: draenalcommon000
     _id: p02hoHkosW0dPWRJ
     start: null
     showIcon: 1
     folder: null
-    _key: '!items.effects!bkIs7zGWKk9qHJyh.p02hoHkosW0dPWRJ'
+    _key: '!items.effects!S9M8wjKuNSwnXaVe.p02hoHkosW0dPWRJ'
   - type: enchantment
     name: 'Changed Form: Scimitar'
     img: icons/weapons/swords/scimitar-guard-gold.webp
@@ -417,38 +427,47 @@ effects:
           value: scimitar
           priority: null
           type: override
+          phase: initial
         - key: name
           value: '{} [scimitar]'
           priority: null
           type: override
+          phase: initial
         - key: system.type.value
           value: martialM
           priority: null
           type: override
+          phase: initial
         - key: img
           value: icons/weapons/swords/scimitar-guard-gold.webp
           priority: null
           type: override
+          phase: initial
         - key: system.damage.base.types
           value: slashing
           priority: null
           type: add
+          phase: initial
         - key: system.mastery
           value: nick
           priority: null
           type: override
+          phase: initial
         - key: system.properties
           value: fin
           priority: null
           type: add
+          phase: initial
         - key: system.damage.base.denomination
           value: 6
           priority: null
           type: override
+          phase: initial
         - key: system.damage.base.types
           value: '-bludgeoning'
           priority: null
           type: add
+          phase: initial
     duration:
       value: null
       units: seconds
@@ -465,20 +484,20 @@ effects:
         riders:
           statuses: []
     _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779756303842
+      modifiedTime: 1779756303842
+      lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.359'
-      systemId: dnd5e
-      systemVersion: 5.2.4
-      createdTime: 1769548441979
-      modifiedTime: 1769548687541
-      lastModifiedBy: draenalcommon000
     _id: Xb3DqWWwbeslWzoq
     start: null
     showIcon: 1
     folder: null
-    _key: '!items.effects!bkIs7zGWKk9qHJyh.Xb3DqWWwbeslWzoq'
+    _key: '!items.effects!S9M8wjKuNSwnXaVe.Xb3DqWWwbeslWzoq'
   - type: enchantment
     name: 'Changed Form: Longsword'
     img: icons/weapons/swords/sword-guard-bronze.webp
@@ -489,46 +508,57 @@ effects:
           value: longsword
           priority: null
           type: override
+          phase: initial
         - key: name
           value: '{} [longsword]'
           priority: null
           type: override
+          phase: initial
         - key: system.type.value
           value: martialM
           priority: null
           type: override
+          phase: initial
         - key: img
           value: icons/weapons/swords/sword-guard-bronze.webp
           priority: null
           type: override
+          phase: initial
         - key: system.damage.base.types
           value: slashing
           priority: null
           type: add
+          phase: initial
         - key: system.mastery
           value: sap
           priority: null
           type: override
+          phase: initial
         - key: system.properties
           value: ver
           priority: null
           type: add
+          phase: initial
         - key: system.damage.base.denomination
           value: 8
           priority: null
           type: override
+          phase: initial
         - key: system.properties
           value: '-lgt'
           priority: null
           type: add
+          phase: initial
         - key: system.damage.base.types
           value: '-bludgeoning'
           priority: null
           type: add
+          phase: initial
         - key: system.damage.versatile.denomination
           value: 10
           priority: null
           type: override
+          phase: initial
     duration:
       value: null
       units: seconds
@@ -545,20 +575,20 @@ effects:
         riders:
           statuses: []
     _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779756303842
+      modifiedTime: 1779756303842
+      lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.359'
-      systemId: dnd5e
-      systemVersion: 5.2.4
-      createdTime: 1769548723839
-      modifiedTime: 1769548861748
-      lastModifiedBy: draenalcommon000
     _id: BBXmiGZEcTqdwfKq
     start: null
     showIcon: 1
     folder: null
-    _key: '!items.effects!bkIs7zGWKk9qHJyh.BBXmiGZEcTqdwfKq'
+    _key: '!items.effects!S9M8wjKuNSwnXaVe.BBXmiGZEcTqdwfKq'
   - name: Rune of Skill (Deception)
     img: icons/weapons/staves/staff-simple-green.webp
     origin: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
@@ -570,10 +600,12 @@ effects:
           value: 1
           priority: null
           type: add
+          phase: initial
         - key: system.skills.dec.bonuses.passive
           value: 1
           priority: null
           type: add
+          phase: initial
     disabled: false
     duration:
       value: null
@@ -592,19 +624,19 @@ effects:
         riders:
           statuses: []
     _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779756303842
+      modifiedTime: 1779756303842
+      lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.359'
-      systemId: dnd5e
-      systemVersion: 5.2.5
-      createdTime: 1774494958226
-      modifiedTime: 1774497401300
-      lastModifiedBy: draenalcommon000
     start: null
     showIcon: 1
     folder: null
-    _key: '!items.effects!bkIs7zGWKk9qHJyh.VxUhyT4Est3eyFnu'
+    _key: '!items.effects!S9M8wjKuNSwnXaVe.VxUhyT4Est3eyFnu'
   - name: Rune of Mastery (Longsword)
     img: icons/weapons/staves/staff-simple-green.webp
     origin: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
@@ -616,6 +648,7 @@ effects:
           value: longsword
           priority: null
           type: add
+          phase: initial
     disabled: false
     duration:
       value: null
@@ -634,32 +667,76 @@ effects:
         riders:
           statuses: []
     _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779756303842
+      modifiedTime: 1779756303842
+      lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.359'
-      systemId: dnd5e
-      systemVersion: 5.2.5
-      createdTime: 1774496439479
-      modifiedTime: 1774498236671
-      lastModifiedBy: draenalcommon000
     start: null
     showIcon: 1
     folder: null
-    _key: '!items.effects!bkIs7zGWKk9qHJyh.WGE6aCXCc1DJLEEo'
-folder: WbqCEw0rImHkn5Xj
-sort: 200000
-ownership:
-  default: 0
+    _key: '!items.effects!S9M8wjKuNSwnXaVe.WGE6aCXCc1DJLEEo'
+  - name: Rune of Mastery (Scimitar)
+    img: icons/weapons/staves/staff-simple-green.webp
+    origin: Compendium.draenal-common.equipment.Item.bkIs7zGWKk9qHJyh
+    type: base
+    system:
+      changes:
+        - key: system.traits.weaponProf.mastery.value
+          type: add
+          value: scimitar
+          phase: initial
+          priority: null
+    disabled: false
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>When you make an attack with this weapon, you can use the Sap weapon
+      mastery property.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779760327531
+      modifiedTime: 1779760346938
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
+    _id: nBFSxPWiv7YUWMbF
+    _key: '!items.effects!S9M8wjKuNSwnXaVe.nBFSxPWiv7YUWMbF'
+folder: cGU25ieVxpiolPUO
 flags: {}
 _stats:
-  duplicateSource: null
-  exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1769457555812
-  modifiedTime: 1777237226648
+  createdTime: 1779756303842
+  modifiedTime: 1779757406102
   lastModifiedBy: draenalcommon000
-_key: '!items!bkIs7zGWKk9qHJyh'
+  exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+_id: S9M8wjKuNSwnXaVe
+sort: 100000
+_key: '!items!S9M8wjKuNSwnXaVe'
 

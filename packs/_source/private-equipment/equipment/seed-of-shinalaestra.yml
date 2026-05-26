@@ -1,6 +1,6 @@
 name: Seed of Shinalaestra
 type: equipment
-folder: WbqCEw0rImHkn5Xj
+folder: ErT2cFYNC4ZBLPc5
 img: icons/consumables/nuts/acorn-glowing-brown.webp
 system:
   activities:
@@ -163,11 +163,11 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776803320590
-      modifiedTime: 1776803320590
+      systemVersion: 5.3.2
+      createdTime: 1779757499873
+      modifiedTime: 1779757499873
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
@@ -175,20 +175,20 @@ effects:
     start: null
     showIcon: 1
     folder: null
-    _key: '!items.effects!JDUhQ3jjshmW7dSr.FqUhrsOwuBjoJjwK'
+    _key: '!items.effects!hx8nZkMTn8MzhCcH.FqUhrsOwuBjoJjwK'
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1776803320590
-  modifiedTime: 1777237226649
+  createdTime: 1779757499873
+  modifiedTime: 1779757499888
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 ownership:
   default: 0
-_id: JDUhQ3jjshmW7dSr
-sort: 400000
-_key: '!items!JDUhQ3jjshmW7dSr'
+_id: hx8nZkMTn8MzhCcH
+sort: 100000
+_key: '!items!hx8nZkMTn8MzhCcH'
 

@@ -5,16 +5,16 @@ color: null
 sorting: a
 _id: WbqCEw0rImHkn5Xj
 description: ''
-sort: 0
+sort: 300000
 flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.2.5
   createdTime: 1774494937176
-  modifiedTime: 1774494937176
+  modifiedTime: 1779756257310
   lastModifiedBy: draenalcommon000
 _key: '!folders!WbqCEw0rImHkn5Xj'
 

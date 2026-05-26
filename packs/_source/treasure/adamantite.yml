@@ -32,16 +32,16 @@ system:
     subtype: ''
 effects: []
 folder: null
-sort: 0
+sort: 100000
 ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1777236221514
-  modifiedTime: 1777236742948
+  modifiedTime: 1779757142851
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

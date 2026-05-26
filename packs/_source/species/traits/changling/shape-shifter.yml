@@ -4,7 +4,72 @@ type: feat
 _id: I8tkpb44JH1zZxl9
 img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
 system:
-  activities: {}
+  activities:
+    d7if2E4vE6uxiOiL:
+      type: transform
+      name: Shape-Shift
+      _id: d7if2E4vE6uxiOiL
+      img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      profiles:
+        - name: ''
+          _id: mz0Mr6C1NLihx6lw
+          uuid: null
+          level:
+            min: null
+            max: null
+          movement: []
+          sizes: []
+          types: []
+      settings: null
+      transform:
+        customize: false
+        mode: ''
+        preset: polymorphSelf
   uses:
     spent: 0
     recovery: []
@@ -48,11 +113,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776819733121
-  modifiedTime: 1777233944227
+  modifiedTime: 1779296205128
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

@@ -56,6 +56,8 @@ system:
         items:
           - uuid: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
             optional: false
+          - uuid: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+            optional: false
         optional: false
         spell: null
       flags: {}
@@ -140,11 +142,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776819390243
-  modifiedTime: 1777233918433
+  modifiedTime: 1779747161004
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

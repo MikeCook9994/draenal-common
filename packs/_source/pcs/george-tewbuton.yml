@@ -239,7 +239,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -369,7 +369,7 @@ system:
         truesight: null
       units: null
       special: ''
-    spellcasting: ''
+    spellcasting: str
     exhaustion: 0
     concentration:
       ability: ''
@@ -385,7 +385,7 @@ system:
       max: null
       temp: null
       tempmax: 0
-      value: 23
+      value: 22
       bonuses: {}
     death:
       roll:
@@ -616,7 +616,7 @@ items:
           group: 0Yx0DOCxeeNYZw7n
           sort: 700000
       identifier: barbarian
-      levels: 2
+      levels: 3
       advancement:
         JsGU20wwFmwSQ5He:
           _id: JsGU20wwFmwSQ5He
@@ -709,7 +709,9 @@ items:
                 optional: false
             optional: false
             spell: null
-          value: {}
+          value:
+            added:
+              DKFZw1hjz2rcKOz3: Compendium.dnd5e.classes24.Item.phbbrbPrimalKnow
           level: 3
           title: Class Features
           flags: {}
@@ -931,6 +933,7 @@ items:
           value:
             '1': max
             '2': 3
+            '3': 10
           title: ''
           flags: {}
           hint: ''
@@ -951,7 +954,8 @@ items:
                   - skills:prc
                   - skills:sur
           value:
-            chosen: []
+            chosen:
+              - skills:nat
           level: 3
           title: Primal Knowledge
           hint: >-
@@ -984,8 +988,8 @@ items:
           type: Subclass
           configuration: {}
           value:
-            document: null
-            uuid: null
+            document: gPjz9NwJqNT0XtQs
+            uuid: Compendium.draenal-common.classes.Item.kUZEs7LuUEHNL38g
           level: 3
           title: ''
           hint: ''
@@ -1229,11 +1233,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943373
-      modifiedTime: 1776830943373
+      systemVersion: 5.3.2
+      createdTime: 1779754508580
+      modifiedTime: 1779754508580
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbbrbBarbarian0
@@ -1399,11 +1403,11 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO.ActiveEffect.eWhL8hUr0c2ujDUm
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776830943375
-          modifiedTime: 1776830943375
+          systemVersion: 5.3.2
+          createdTime: 1779754508584
+          modifiedTime: 1779754508584
           lastModifiedBy: draenalcommon000
           exportSource: null
         img: icons/creatures/abilities/mouth-teeth-human.webp
@@ -1458,11 +1462,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943374
-      modifiedTime: 1776830943374
+      systemVersion: 5.3.2
+      createdTime: 1779754508583
+      modifiedTime: 1779754508583
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbbrbRage000000
@@ -1524,11 +1528,11 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.classfeatures.Item.SZbsNbaxFFGwBpNK.ActiveEffect.hEgUnQNVxtBo2zkK
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776830943375
-          modifiedTime: 1776830943375
+          systemVersion: 5.3.2
+          createdTime: 1779754508584
+          modifiedTime: 1779754508584
           lastModifiedBy: draenalcommon000
           exportSource: null
         img: icons/magic/control/silhouette-hold-change-blue.webp
@@ -1558,11 +1562,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943375
-      modifiedTime: 1776830943375
+      systemVersion: 5.3.2
+      createdTime: 1779754508584
+      modifiedTime: 1779754508584
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbbrbUnarmoredD
@@ -1623,11 +1627,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943373
-      modifiedTime: 1776830943373
+      systemVersion: 5.3.2
+      createdTime: 1779754508580
+      modifiedTime: 1779754508580
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbbrbWeaponMast
@@ -1794,7 +1798,7 @@ items:
       rarity: ''
       attunement: ''
       attuned: false
-      equipped: false
+      equipped: true
       armor:
         value: null
       cover: null
@@ -1864,11 +1868,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776830943377
-          modifiedTime: 1776830943377
+          systemVersion: 5.3.2
+          createdTime: 1779754508587
+          modifiedTime: 1779754508587
           lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
@@ -1902,11 +1906,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776830943377
-          modifiedTime: 1776830943377
+          systemVersion: 5.3.2
+          createdTime: 1779754508587
+          modifiedTime: 1779754508587
           lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
@@ -1926,11 +1930,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943376
-      modifiedTime: 1776831110170
+      systemVersion: 5.3.2
+      createdTime: 1779754508587
+      modifiedTime: 1779755115401
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbUnarmedStrike
@@ -2088,11 +2092,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943374
-      modifiedTime: 1776830943374
+      systemVersion: 5.3.2
+      createdTime: 1779754508580
+      modifiedTime: 1779754508580
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.origins24.Item.phbspGoliath0000
@@ -2163,11 +2167,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943374
-      modifiedTime: 1776830943374
+      systemVersion: 5.3.2
+      createdTime: 1779754508580
+      modifiedTime: 1779754508580
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.origins24.Item.phbsptGiantAnces
@@ -2242,11 +2246,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776830943376
-          modifiedTime: 1776830943376
+          systemVersion: 5.3.2
+          createdTime: 1779754508584
+          modifiedTime: 1779754508584
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -2263,11 +2267,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943376
-      modifiedTime: 1776830943376
+      systemVersion: 5.3.2
+      createdTime: 1779754508584
+      modifiedTime: 1779754508584
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.origins24.Item.phbsptPowerfulBu
@@ -2383,11 +2387,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943374
-      modifiedTime: 1776830943374
+      systemVersion: 5.3.2
+      createdTime: 1779754508581
+      modifiedTime: 1779754508581
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.origins24.Item.phbsptCloudsJaun
@@ -2585,11 +2589,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943374
-      modifiedTime: 1776830943374
+      systemVersion: 5.3.2
+      createdTime: 1779754508581
+      modifiedTime: 1779754508581
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.origins24.Item.phbbgSoldier0000
@@ -2648,11 +2652,11 @@ items:
         '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943374
-      modifiedTime: 1776830943374
+      systemVersion: 5.3.2
+      createdTime: 1779754508581
+      modifiedTime: 1779754508581
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.feats24.Item.phbftSavageAttac
@@ -2731,11 +2735,11 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776830943345
-          modifiedTime: 1776830943345
+          systemVersion: 5.3.2
+          createdTime: 1779754508585
+          modifiedTime: 1779754508585
           lastModifiedBy: draenalcommon000
         start: null
         showIcon: 1
@@ -2748,13 +2752,14 @@ items:
         sourceId: Compendium.dnd5e.classes24.Item.phbbrbDangerSens
         advancementOrigin: KSmnJ2d0XdsxvqdF.vbNdqiHqN2qTbnUw
         advancementRoot: KSmnJ2d0XdsxvqdF.vbNdqiHqN2qTbnUw
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943345
-      modifiedTime: 1776830943347
+      systemVersion: 5.3.2
+      createdTime: 1779754508585
+      modifiedTime: 1779754508585
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbbrbDangerSens
@@ -2826,11 +2831,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776830943347
-          modifiedTime: 1776830943347
+          systemVersion: 5.3.2
+          createdTime: 1779754508586
+          modifiedTime: 1779754508586
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -2847,13 +2852,14 @@ items:
         sourceId: Compendium.dnd5e.classes24.Item.phbbrbRecklessAt
         advancementOrigin: KSmnJ2d0XdsxvqdF.vbNdqiHqN2qTbnUw
         advancementRoot: KSmnJ2d0XdsxvqdF.vbNdqiHqN2qTbnUw
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776830943347
-      modifiedTime: 1776830943348
+      systemVersion: 5.3.2
+      createdTime: 1779754508585
+      modifiedTime: 1779754508585
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbbrbRecklessAt
@@ -3012,7 +3018,7 @@ items:
       crew:
         value: []
       attuned: false
-      equipped: true
+      equipped: false
     _id: 3TWYqRPAceFfCAb6
     type: weapon
     folder: fd3qxAXCv2FhExPp
@@ -3026,13 +3032,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776831074124
-      modifiedTime: 1776833331868
+      systemVersion: 5.3.2
+      createdTime: 1779754508581
+      modifiedTime: 1779754780739
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepGlaive0000
@@ -3201,13 +3208,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776831083029
-      modifiedTime: 1776833331097
+      systemVersion: 5.3.2
+      createdTime: 1779754508581
+      modifiedTime: 1779754508581
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepGreataxe00
@@ -3453,13 +3461,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776831094635
-      modifiedTime: 1776831094635
+      systemVersion: 5.3.2
+      createdTime: 1779754508581
+      modifiedTime: 1779754508581
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRope0000000
@@ -3628,13 +3637,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776831112582
-      modifiedTime: 1776833330700
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepHandaxe000
@@ -3691,11 +3701,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776831143843
-      modifiedTime: 1776831143843
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
@@ -3839,13 +3849,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776832191816
-      modifiedTime: 1776834349875
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPotionofHea
@@ -4001,11 +4012,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.360'
+          coreVersion: '14.361'
           systemId: dnd5e
-          systemVersion: 5.3.1
-          createdTime: 1776833177047
-          modifiedTime: 1776833177047
+          systemVersion: 5.3.2
+          createdTime: 1779754508586
+          modifiedTime: 1779754508586
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -4013,14 +4024,16 @@ items:
         folder: null
         _key: >-
           !actors.items.effects!AhxdTivoYwlt8A68.046KtlyVxstdEnGu.ja1TakW2VVvY8HW3
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776833177047
-      modifiedTime: 1776833177047
+      systemVersion: 5.3.2
+      createdTime: 1779754508586
+      modifiedTime: 1779754508586
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.dmgStonePotionOf
@@ -4081,11 +4094,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776833205097
-      modifiedTime: 1776833205098
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagWaterskin00
@@ -4205,13 +4218,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776833205098
-      modifiedTime: 1776833205098
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.2nlARB78sJo8Z2W6
@@ -4435,13 +4449,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776834378410
-      modifiedTime: 1776834379980
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagOil00000000
@@ -4564,13 +4579,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776834387860
-      modifiedTime: 1776834389656
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRations0000
@@ -4700,13 +4716,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776834395773
-      modifiedTime: 1776834395773
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTinderbox00
@@ -4860,13 +4877,14 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776834402414
-      modifiedTime: 1776834405278
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTorch000000
@@ -4914,11 +4932,11 @@ items:
     flags: {}
     _stats:
       duplicateSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
-      systemVersion: 5.3.1
-      createdTime: 1776834411256
-      modifiedTime: 1776834411256
+      systemVersion: 5.3.2
+      createdTime: 1779754508582
+      modifiedTime: 1779754508582
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
@@ -4961,7 +4979,7 @@ items:
           value: null
           units: cubicFoot
         weight:
-          value: null
+          value: 6
           units: lb
       identifier: iarnos-silk-pouch
       attuned: false
@@ -4973,11 +4991,11 @@ items:
       compendiumSource: null
       duplicateSource: Item.pbsoIarnosSilkPo
       exportSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777221770454
-      modifiedTime: 1777221779761
+      createdTime: 1779754508583
+      modifiedTime: 1779754627311
       lastModifiedBy: draenalcommon000
     ownership:
       default: 0
@@ -5018,11 +5036,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777221770454
-      modifiedTime: 1777221770454
+      createdTime: 1779754508583
+      modifiedTime: 1779754508583
       lastModifiedBy: draenalcommon000
     ownership:
       default: 0
@@ -5063,11 +5081,11 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777221770455
-      modifiedTime: 1777221770455
+      createdTime: 1779754508583
+      modifiedTime: 1779754508583
       lastModifiedBy: draenalcommon000
     ownership:
       default: 0
@@ -5138,9 +5156,9 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 5.3.2
-      coreVersion: '14.360'
-      createdTime: 1777221801453
-      modifiedTime: 1777221818794
+      coreVersion: '14.361'
+      createdTime: 1779754508583
+      modifiedTime: 1779754508583
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.dnd-phandelver-below.pbso-items.Item.pbsoUrmonsJourna
       duplicateSource: null
@@ -5170,7 +5188,7 @@ items:
         denomination: gp
       rarity: common
       identified: true
-      container: pbsoHamunsChest0
+      container: GhUVxQV4tCFz9ghv
       type:
         value: ''
         subtype: ''
@@ -5179,14 +5197,14 @@ items:
       properties: []
       identifier: agate
     effects: []
-    folder: iQkX4Xu0BVhkYpXn
+    folder: null
     flags: {}
     _stats:
       systemId: dnd5e
       systemVersion: 5.3.2
-      coreVersion: '14.360'
-      createdTime: 1777221833215
-      modifiedTime: 1777221848864
+      coreVersion: '14.361'
+      createdTime: 1779754508583
+      modifiedTime: 1779754652272
       lastModifiedBy: draenalcommon000
       compendiumSource: >-
         Compendium.dnd-phandelver-below.dnd-phandelver-below-items.Item.pbsoAgate0000000
@@ -5211,7 +5229,7 @@ items:
       identified: true
       unidentified:
         description: ''
-      container: pbsoThirdRedbran
+      container: GhUVxQV4tCFz9ghv
       quantity: 2
       weight:
         value: 0
@@ -5226,14 +5244,14 @@ items:
         subtype: ''
       identifier: garnet
     effects: []
-    folder: iQkX4Xu0BVhkYpXn
+    folder: null
     flags: {}
     _stats:
       systemId: dnd5e
       systemVersion: 5.3.2
-      coreVersion: '14.360'
-      createdTime: 1777221845997
-      modifiedTime: 1777221845997
+      coreVersion: '14.361'
+      createdTime: 1779754508583
+      modifiedTime: 1779754584950
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.dnd-phandelver-below.pbso-items.Item.pbsoGarnet000000
       duplicateSource: null
@@ -5266,7 +5284,7 @@ items:
         denomination: gp
       rarity: common
       identified: true
-      container: pbsoKlargsTreasu
+      container: GhUVxQV4tCFz9ghv
       type:
         value: ''
         subtype: ''
@@ -5275,14 +5293,14 @@ items:
       properties: []
       identifier: jade-statuette
     effects: []
-    folder: iQkX4Xu0BVhkYpXn
+    folder: null
     flags: {}
     _stats:
       systemId: dnd5e
       systemVersion: 5.3.2
-      coreVersion: '14.360'
-      createdTime: 1777221853082
-      modifiedTime: 1777221853083
+      coreVersion: '14.361'
+      createdTime: 1779754508583
+      modifiedTime: 1779754654446
       lastModifiedBy: draenalcommon000
       compendiumSource: >-
         Compendium.dnd-phandelver-below.dnd-phandelver-below-items.Item.pbsoJadeStatuett
@@ -5355,12 +5373,13 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
     _stats:
       systemId: dnd5e
       systemVersion: 5.3.2
-      coreVersion: '14.360'
-      createdTime: 1777221880525
-      modifiedTime: 1777221883074
+      coreVersion: '14.361'
+      createdTime: 1779754508583
+      modifiedTime: 1779754508583
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.dnd-phandelver-below.pbso-items.Item.pbsoScarletCloak
       duplicateSource: null
@@ -5369,25 +5388,1214 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!AhxdTivoYwlt8A68.9uSyxe4iBTtlybZg'
-  - name: 'Spell Scroll: Remove Curse'
-    type: consumable
-    img: icons/sundries/scrolls/scroll-bound-orange-tan.webp
+  - _id: DKFZw1hjz2rcKOz3
+    name: Primal Knowledge
+    type: feat
+    img: icons/creatures/birds/raptor-owl-flying-moon.webp
     system:
+      description:
+        value: >-
+          <p>You gain proficiency in another skill of your choice from the skill
+          list available to Barbarians at level 1.</p><p>In addition, while your
+          Rage is active, you can channel primal power when you attempt certain
+          tasks; whenever you make an ability check using one of the following
+          skills, you can make it as a Strength check even if it normally uses a
+          different ability: Acrobatics, Intimidation, Perception, Stealth, or
+          Survival. When you use this ability, your Strength represents primal
+          power coursing through you, honing your agility, bearing, and
+          senses.</p><section class="secret"
+          id="secret-himIRZuFGInNkZgU"><p><strong>Foundry
+          Note</strong></p><p>This feature includes an Active Effect which will
+          cause those skills to automatically use your Strength modifier if it
+          is higher than the normal Ability Score associated with the
+          Skill.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 3
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Barbarian
+      activities: {}
+      enchant: {}
+      identifier: primal-knowledge
+      advancement: {}
+      crewed: false
+    effects:
+      - name: Primal Knowledge
+        img: icons/creatures/birds/raptor-owl-flying-moon.webp
+        _id: ufbJRsGGW3REMmJm
+        type: base
+        system:
+          changes:
+            - key: system.skills.acr.bonuses.check
+              value: max(0, @abilities.str.mod - @mod)
+              priority: null
+              type: add
+              phase: initial
+            - key: system.skills.itm.bonuses.check
+              value: max(0, @abilities.str.mod - @mod)
+              priority: null
+              type: add
+              phase: initial
+            - key: system.skills.prc.bonuses.check
+              value: max(0, @abilities.str.mod - @mod)
+              priority: null
+              type: add
+              phase: initial
+            - key: system.skills.ste.bonuses.check
+              value: max(0, @abilities.str.mod - @mod)
+              priority: null
+              type: add
+              phase: initial
+            - key: system.skills.sur.bonuses.check
+              value: max(0, @abilities.str.mod - @mod)
+              priority: null
+              type: add
+              phase: initial
+        disabled: false
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        origin: Compendium.dnd5e.classes24.Item.phbbrbPrimalKnow
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd5e.classes24.Item.phbbrbPrimalKnow.ActiveEffect.ktAO4M4jvixfzyuO
+          duplicateSource: null
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779754508519
+          modifiedTime: 1779754508519
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start:
+          combat: null
+          round: null
+          time: 0
+          turn: null
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!AhxdTivoYwlt8A68.DKFZw1hjz2rcKOz3.ufbJRsGGW3REMmJm
+    folder: p6WDpW0gzmKfhGad
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbbrbPrimalKnow
+        advancementOrigin: KSmnJ2d0XdsxvqdF.MUU3y634K3edUdyL
+        advancementRoot: KSmnJ2d0XdsxvqdF.MUU3y634K3edUdyL
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754508519
+      modifiedTime: 1779754508524
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbbrbPrimalKnow
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.DKFZw1hjz2rcKOz3'
+  - name: Path of Wonder
+    type: subclass
+    _id: gPjz9NwJqNT0XtQs
+    img: modules/draenal-common/assets/icons/path-of-wonder-barbarian.webp
+    system:
+      advancement:
+        5sznsKmP1emRBGZZ:
+          type: ItemGrant
+          _id: 5sznsKmP1emRBGZZ
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.K7dx4v9QiOjOqxXr
+                optional: false
+              - uuid: Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5
+                optional: false
+              - uuid: Compendium.draenal-common.classes.Item.x6ApTszAvoIuj3zi
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              5Uh2NIC0ejw2KpvV: Compendium.draenal-common.classes.Item.K7dx4v9QiOjOqxXr
+              bKZWF9HkmAqIMl8L: Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5
+              1EpiBBMTicSNT4Ov: Compendium.draenal-common.classes.Item.x6ApTszAvoIuj3zi
+          level: 3
+          title: Features
+          hint: ''
+          flags: {}
+        POvSPxOWLGQauXxa:
+          type: ItemGrant
+          _id: POvSPxOWLGQauXxa
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.RIx1scDhOTZV6QoC
+                optional: false
+              - uuid: Compendium.draenal-common.classes.Item.XY4ECPIxtLbFFOp2
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 6
+          title: Features
+          hint: ''
+          flags: {}
+        AOfkND0DAmrKPAmA:
+          type: ItemGrant
+          title: Features
+          _id: AOfkND0DAmrKPAmA
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.36Mq4o1RTdQjuokp
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 10
+          hint: ''
+          flags: {}
+        o27OQBXSoLkPNucH:
+          type: ItemGrant
+          title: Features
+          _id: o27OQBXSoLkPNucH
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.classes.Item.74MLhYrisfX6Sc5b
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 14
+          hint: ''
+          flags: {}
+      description:
+        value: >-
+          <p>Your time amongst the wilds has intertwined you with the weave of
+          magic. Its magic now suffuses you and manifests itself through your
+          rage. These gifts are a wonder to even you. You can only imagine what
+          your enemies feel. If they still could.</p>
+        chat: ''
+      identifier: path-of-wonder
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      classIdentifier: barbarian
+      spellcasting:
+        progression: point_third
+        preparation:
+          formula: '@scale.wondrous-vitality.maximum-spells-prepared'
+        ability: str
+    effects: []
+    folder: CAlNYLK1njp3oLDr
+    sort: 100000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.kUZEs7LuUEHNL38g
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754508520
+      modifiedTime: 1779754508524
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.kUZEs7LuUEHNL38g
+    _key: '!actors.items!AhxdTivoYwlt8A68.gPjz9NwJqNT0XtQs'
+  - folder: YeiaPdE0ykexwOc4
+    name: Wondrous Vitality
+    type: feat
+    _id: 5Uh2NIC0ejw2KpvV
+    img: icons/magic/symbols/circle-ouroboros.webp
+    system:
+      activities:
+        N3svQC7tduc3Gvbt:
+          type: damage
+          _id: N3svQC7tduc3Gvbt
+          sort: 0
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+              max: >-
+                min(@classes.barbarian.levels - @classes.barbarian.hd.spent,
+                @scale.wondrous-vitality.maximum-spell-slot-level)
+            spellSlot: true
+            targets:
+              - type: hitDice
+                value: '1'
+                target: d12
+                scaling: {}
+              - type: attribute
+                value: '-1'
+                target: spells.point1.value
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: self
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: true
+            identifier: ''
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 12
+                bonus: ''
+                types:
+                  - force
+                scaling:
+                  number: 1
+          name: Create 1st Level Spell Slot
+          img: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        YQVMFe4KVywn2M3k:
+          type: ScaleValue
+          _id: YQVMFe4KVywn2M3k
+          configuration:
+            identifier: ''
+            type: number
+            distance:
+              units: ''
+            scale:
+              '3':
+                value: 3
+              '4':
+                value: 4
+              '7':
+                value: 5
+              '8':
+                value: 6
+              '10':
+                value: 7
+              '11':
+                value: 8
+              '13':
+                value: 9
+              '14':
+                value: 10
+              '16':
+                value: 11
+              '19':
+                value: 12
+              '20':
+                value: 13
+          value: {}
+          title: Maximum Spells Prepared
+          hint: ''
+          flags: {}
+        g4BiIdiqmar2WwoH:
+          type: ScaleValue
+          _id: g4BiIdiqmar2WwoH
+          configuration:
+            identifier: ''
+            type: number
+            distance:
+              units: ''
+            scale:
+              '3':
+                value: 1
+              '7':
+                value: 2
+              '13':
+                value: 3
+              '19':
+                value: 4
+          value: {}
+          title: Maximum Spell Slot Level
+          hint: ''
+          flags: {}
+        Qt4NLi5kTTmrxDCW:
+          type: ScaleValue
+          _id: Qt4NLi5kTTmrxDCW
+          configuration:
+            identifier: ''
+            type: number
+            distance:
+              units: ''
+            scale:
+              '3':
+                value: 2
+              '10':
+                value: 3
+          value: {}
+          title: Cantrips Known
+          hint: ''
+          flags: {}
+      description:
+        value: >-
+          <p>Your intrinsic bond with the weave has given you the ability to
+          exchange a fraction of your life essence to manifest arcane effects,
+          known to others as "spells", into the world. See chapter 7 of the 2024
+          Player's Handbook for the rules on spellcasting. The information below
+          details how you use those rules as a Path of Wonder
+          Barbarian.</p><p><strong>Cantrips.</strong> You know two cantrips of
+          your choice from the Sorcerer spell list. Whenever you gain a
+          Barbarian level, you can replace one of these cantrips with another
+          cantrip of your choice from the Sorcerer spell list. When you reach
+          Barbarian level 10, you learn another Sorcerer cantrip of your
+          choice.</p><p><strong>Spell Slots.</strong> When you take the Magic
+          action to cast a spell, you create a spell slot by expending a number
+          of your Barbarian Hit Point Dice equal to the spell's level.
+          Immediately after the casting of the spell, roll the expended Hit
+          Point Dice, then take force damage equal to the value rolled. This
+          damage cannot be reduced in any way. If a spell or feature prevents
+          the casting of the spell, this spell slot is lost; however, the hit
+          dice are not expended.</p><p>The maximum spell slot level you can
+          create is shown in the Maximum Spell Slot Level column of the Path of
+          Wonder Spellcasting table below.</p><table><caption><p>Path of Wonder
+          Spellcasting</p></caption><thead><tr><th><p>Barbarian
+          Level</p></th><th><p>Spells Prepared</p></th><th><p>Maximum Spell Slot
+          Level</p></th></tr></thead><tbody><tr><td><p
+          style="text-align:center">3</p></td><td><p
+          style="text-align:center">3</p></td><td><p
+          style="text-align:center">1</p></td></tr><tr><td><p
+          style="text-align:center">4</p></td><td><p
+          style="text-align:center">4</p></td><td><p
+          style="text-align:center">1</p></td></tr><tr><td><p
+          style="text-align:center">5</p></td><td><p
+          style="text-align:center">4</p></td><td><p
+          style="text-align:center">1</p></td></tr><tr><td><p
+          style="text-align:center">6</p></td><td><p
+          style="text-align:center">4</p></td><td><p
+          style="text-align:center">1</p></td></tr><tr><td><p
+          style="text-align:center">7</p></td><td><p
+          style="text-align:center">5</p></td><td><p
+          style="text-align:center">2</p></td></tr><tr><td><p
+          style="text-align:center">8</p></td><td><p
+          style="text-align:center">6</p></td><td><p
+          style="text-align:center">2</p></td></tr><tr><td><p
+          style="text-align:center">9</p></td><td><p
+          style="text-align:center">6</p></td><td><p
+          style="text-align:center">2</p></td></tr><tr><td><p
+          style="text-align:center">10</p></td><td><p
+          style="text-align:center">7</p></td><td><p
+          style="text-align:center">2</p></td></tr><tr><td><p
+          style="text-align:center">11</p></td><td><p
+          style="text-align:center">8</p></td><td><p
+          style="text-align:center">2</p></td></tr><tr><td><p
+          style="text-align:center">12</p></td><td><p
+          style="text-align:center">8</p></td><td><p
+          style="text-align:center">2</p></td></tr><tr><td><p
+          style="text-align:center">13</p></td><td><p
+          style="text-align:center">9</p></td><td><p
+          style="text-align:center">3</p></td></tr><tr><td><p
+          style="text-align:center">14</p></td><td><p
+          style="text-align:center">10</p></td><td><p
+          style="text-align:center">3</p></td></tr><tr><td><p
+          style="text-align:center">15</p></td><td><p
+          style="text-align:center">10</p></td><td><p
+          style="text-align:center">3</p></td></tr><tr><td><p
+          style="text-align:center">16</p></td><td><p
+          style="text-align:center">11</p></td><td><p
+          style="text-align:center">3</p></td></tr><tr><td><p
+          style="text-align:center">17</p></td><td><p
+          style="text-align:center">11</p></td><td><p
+          style="text-align:center">3</p></td></tr><tr><td><p
+          style="text-align:center">18</p></td><td><p
+          style="text-align:center">11</p></td><td><p
+          style="text-align:center">3</p></td></tr><tr><td><p
+          style="text-align:center">19</p></td><td><p
+          style="text-align:center">12</p></td><td><p
+          style="text-align:center">4</p></td></tr><tr><td><p
+          style="text-align:center">20</p></td><td><p
+          style="text-align:center">13</p></td><td><p
+          style="text-align:center">4</p></td></tr></tbody></table><p><strong>Prepared
+          Spells of Level 1+.</strong> You prepare the list of level 1+ spells
+          that are available for you to cast with this feature. To start, choose
+          three level 1 spells from the Sorcerer spell list. The number of
+          spells on your list increases as you gain Barbarian levels, as shown
+          in the Spells Prepared column of the Path of Wonder Spellcasting
+          table. Whenever that number increases, choose additional spells from
+          the Sorcerer spell list until the number of spells on your list
+          matches the number on the table. The chosen spells must be of a level
+          for which you can create a spell slot. For example, if you're a level
+          7 Barbarian, your list of prepared spells can include 5 Sorcerer
+          spells of levels 1 and 2 in any combination.</p><p><strong>Changing
+          Your Prepared Spells.</strong> Whenever you gain a Barbarian level,
+          you can replace one spell on your list with another Sorcerer spell for
+          which you can create spell slots for.</p><p><strong>Spellcasting
+          Ability.</strong> Strength is your spellcasting ability for your
+          Sorcerer spells.</p><p><strong>Spellcasting Focus.</strong> You can
+          use any martial melee weapon as a Spellcasting Focus for your Sorcerer
+          spells.</p>
+        chat: ''
+      identifier: wondrous-vitality
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items:
+          - path-of-wonder
+        repeatable: false
+        level: 3
+      properties:
+        - mgc
+      requirements: Path of Wonder
+      type:
+        value: class
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.K7dx4v9QiOjOqxXr
+        advancementOrigin: gPjz9NwJqNT0XtQs.5sznsKmP1emRBGZZ
+        advancementRoot: gPjz9NwJqNT0XtQs.5sznsKmP1emRBGZZ
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754508523
+      modifiedTime: 1779754508524
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.K7dx4v9QiOjOqxXr
+    _key: '!actors.items!AhxdTivoYwlt8A68.5Uh2NIC0ejw2KpvV'
+  - folder: YeiaPdE0ykexwOc4
+    name: Cast and Smash
+    type: feat
+    _id: bKZWF9HkmAqIMl8L
+    img: icons/skills/melee/sword-damaged-broken-purple.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>You are a practiced magus and martial in combat. When take a Magic
+          action to cast a Sorcerer spell while you are raging, you gain the
+          following benefits.</p><p><strong>Spell fury.</strong> You can add
+          your Rage bonus to one damage roll of the spell.</p><p><strong>Follow
+          up.</strong> You can immediately make one melee attack with a weapon
+          as a bonus action.</p>
+        chat: ''
+      identifier: cast-and-smash
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items:
+          - path-of-wonder
+        repeatable: false
+        level: 3
+      properties:
+        - mgc
+        - trait
+      requirements: Path of Wonder
+      type:
+        value: class
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5
+        advancementOrigin: gPjz9NwJqNT0XtQs.5sznsKmP1emRBGZZ
+        advancementRoot: gPjz9NwJqNT0XtQs.5sznsKmP1emRBGZZ
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754508523
+      modifiedTime: 1779754508525
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5
+    _key: '!actors.items!AhxdTivoYwlt8A68.bKZWF9HkmAqIMl8L'
+  - folder: YeiaPdE0ykexwOc4
+    name: Unnatural Recovery
+    type: feat
+    _id: 1EpiBBMTicSNT4Ov
+    img: icons/magic/life/cross-worn-green.webp
+    system:
+      activities:
+        0ZNqlD7sAapd67Nq:
+          type: heal
+          name: Rage Healing
+          _id: 0ZNqlD7sAapd67Nq
+          sort: 0
+          activation:
+            type: special
+            override: false
+            condition: whenever you deal damage with a Strength-based attack
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: self
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          healing:
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: '@scale.barbarian.rage-damage'
+            scaling:
+              number: 1
+            number: null
+            denomination: null
+            bonus: ''
+          img: ''
+        vS16x447fey11hXy:
+          type: heal
+          name: Vital Uptake
+          _id: vS16x447fey11hXy
+          sort: 0
+          activation:
+            type: shortRest
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '@item.uses.value'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling:
+                  mode: amount
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: self
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          healing:
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: (@scaling)d12 + (@scaling * @abilities.con.mod)
+            scaling:
+              number: 1
+              mode: ''
+              formula: '@scaling * @abilities.con.mod'
+            number: 1
+            denomination: 12
+            bonus: '@abilities.con.mod'
+          img: ''
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '@scale.barbarian.rages'
+      advancement: {}
+      description:
+        value: >-
+          <p>The magic suffusing your body exacerbates the speed of your
+          recovery. You gain the following benefits.</p><p><strong>Rage
+          Healing.</strong> While your Rage is active, you regain hit points
+          equal to your Rage Damage bonus whenever you deal damage with a
+          Strength-based attack.</p><p><strong>Vital Uptake.</strong> You have
+          pool of d12s that you can use to mend your wounds in times of calm.
+          The number of dice in the pools is equal to the number shown for your
+          Barbarian level in the Rages column of the Barbarian features
+          table.</p><p>After you complete a Short Rest, you can expend any
+          number of these dice to heal yourself. Roll the dice you expend, and
+          restore a number of Hit Points equal to the roll's total plus a bonus
+          equal to your Constitution bonus times the number of expended dice.
+          Your pool regains all expended dice when you finish a Long Rest.</p>
+        chat: ''
+      identifier: unnatural-recovery
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items:
+          - path-of-wonder
+        repeatable: false
+        level: 3
+      properties:
+        - mgc
+      requirements: Path of Wonder
+      type:
+        value: class
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.x6ApTszAvoIuj3zi
+        advancementOrigin: gPjz9NwJqNT0XtQs.5sznsKmP1emRBGZZ
+        advancementRoot: gPjz9NwJqNT0XtQs.5sznsKmP1emRBGZZ
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754508524
+      modifiedTime: 1779754508525
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.classes.Item.x6ApTszAvoIuj3zi
+    _key: '!actors.items!AhxdTivoYwlt8A68.1EpiBBMTicSNT4Ov'
+  - _id: dz6Q5lNFwuGIHZUA
+    name: Golden Earring
+    type: loot
+    img: icons/commodities/currency/coin-engraved-square-gold.webp
+    system:
+      description:
+        value: <p>A simple golden earring set with a tiny ruby.</p>
+        chat: ''
+      source:
+        book: PBSO
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: GhUVxQV4tCFz9ghv
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 30
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: golden-earring
+    effects: []
+    folder: null
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      coreVersion: '14.361'
+      createdTime: 1779754557606
+      modifiedTime: 1779754591106
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.dnd-phandelver-below.pbso-items.Item.pbsoGoldenEarrin
+      duplicateSource: null
+      exportSource: null
+    sort: 1600000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.dz6Q5lNFwuGIHZUA'
+  - _id: 6qUhqpfvB6fmXVDN
+    name: Nosk's Belt Pouch
+    type: container
+    flags: {}
+    img: icons/containers/bags/coinpouch-simple-tan.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 13
+        cp: 0
+      properties: []
+      capacity:
+        count: null
+        volume:
+          value: null
+          units: cubicFoot
+        weight:
+          value: 6
+          units: lb
+      identifier: nosks-belt-pouch
+      attuned: false
+      equipped: false
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 3200000
+    _stats:
+      compendiumSource: null
+      duplicateSource: Item.pbsoNosksBeltPou
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754693952
+      modifiedTime: 1779754717072
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.6qUhqpfvB6fmXVDN'
+  - _id: 76Gnjv13le4euDnh
+    name: Nosk's Iron Key
+    type: loot
+    img: icons/sundries/misc/key-steel-grey.webp
+    system:
+      description:
+        value: <p>An iron key found on Nosk in the Redbrand's Hideout.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: 6qUhqpfvB6fmXVDN
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: nosks-iron-key
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 1700000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754693952
+      modifiedTime: 1779754693952
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.76Gnjv13le4euDnh'
+  - _id: owKdLxVgxwetFJu3
+    name: Semiprecious Stones
+    type: loot
+    img: icons/commodities/gems/gem-fragmented-pink.webp
+    system:
+      description:
+        value: <p>Some semiprecious stones.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: 6qUhqpfvB6fmXVDN
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 50
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: ''
+        subtype: ''
+      identifier: semiprecious-stones
+    effects: []
+    folder: pOAh0mmFrtbGtDAr
+    sort: 1800000
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754693952
+      modifiedTime: 1779754693952
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!AhxdTivoYwlt8A68.owKdLxVgxwetFJu3'
+  - folder: WbqCEw0rImHkn5Xj
+    name: Lesser Wand of Magic Missiles
+    type: equipment
+    _id: ExrUImem1HHqZiAx
+    img: icons/weapons/wands/wand-gem-pink.webp
+    system:
+      activities:
+        32BqiF9kremPNKzq:
+          type: cast
+          name: Magic Missiles
+          _id: 32BqiF9kremPNKzq
+          img: icons/magic/light/projectiles-pink-purple.webp
+          sort: 0
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          spell:
+            challenge:
+              override: false
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells24.Item.phbsplMagicMissi
+            ability: ''
+      uses:
+        spent: 0
+        recovery:
+          - period: dawn
+            type: formula
+            formula: 1d6+1
+        max: '7'
+      description:
+        value: >-
+          <p>This wand has 7 charges. While holding it, you can expend 1 charge
+          to cast Magic Missile from it.</p><p>Regaining Charges. The wand
+          regains 1d6 + 1 expended charges daily at dawn. If you expend the
+          wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes
+          and is destroyed.</p>
+        chat: ''
+      identifier: lesser-wand-of-magic-missiles
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      crew:
+        value: []
+      armor:
+        value: null
+        dex: null
+        magicalBonus: ''
+      proficient: null
+      properties:
+        - mgc
+      strength: null
+      type:
+        value: wand
+        baseItem: ''
+      attuned: false
+      equipped: false
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754744277
+      modifiedTime: 1779754744277
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.equipment.Item.a31ZC2xFJZP2fV4N
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!AhxdTivoYwlt8A68.ExrUImem1HHqZiAx'
+  - name: Magic Missile
+    system:
+      description:
+        value: >-
+          <p>You create three glowing darts of magical force. Each dart strikes
+          a creature of your choice that you can see within range. A dart deals
+          1d4 + 1 Force damage to its target. The darts all strike
+          simultaneously, and you can direct them to hit one creature or
+          several.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
+          spell creates one more dart for each spell slot level above
+          1.</p><p>[[2 + @item.level]]{Level [[lookup @item.level]] darts}</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: 2 + @item.level
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        value: '120'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
       activities:
         dnd5eactivity000:
           _id: dnd5eactivity000
-          type: utility
+          type: damage
           activation:
             type: action
             value: null
-            override: true
-            condition: ''
+            override: false
           consumption:
-            targets:
-              - type: itemUses
-                target: ''
-                value: '1'
-                scaling: {}
+            targets: []
             scaling:
               allowed: false
               max: ''
@@ -5396,27 +6604,220 @@ items:
             chatFlavor: ''
           duration:
             units: inst
-            override: true
-            value: ''
+            override: false
             concentration: false
           effects: []
           range:
-            override: true
-            units: touch
-            special: ''
+            override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
               stationary: false
-              type: ''
             affects:
               choice: false
-              count: '1'
-              type: creatureOrObject
-              special: ''
-            override: true
+            override: false
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 4
+                bonus: '1'
+                types:
+                  - force
+                scaling:
+                  mode: ''
+                  number: 1
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: magic-missile
+      method: spell
+      prepared: 0
+      sourceItem: equipment:lesser-wand-of-magic-missiles
+    type: spell
+    img: icons/magic/light/projectiles-pink-purple.webp
+    effects:
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.pcs.Actor.AhxdTivoYwlt8A68.Item.ExrUImem1HHqZiAx.Activity.32BqiF9kremPNKzq
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779754744419
+          modifiedTime: 1779754744419
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!AhxdTivoYwlt8A68.wgrQKLXd7wHDosAL.dnd5espellchange
+    folder: pBaAAtXBCq9FVEnL
+    sort: 1100000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.ExrUImem1HHqZiAx.Activity.32BqiF9kremPNKzq
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779754744419
+      modifiedTime: 1779754744420
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMagicMissi
+    _id: wgrQKLXd7wHDosAL
+    _key: '!actors.items!AhxdTivoYwlt8A68.wgrQKLXd7wHDosAL'
+  - name: Shield
+    system:
+      description:
+        value: >-
+          <p>An imperceptible barrier of magical force protects you. Until the
+          start of your next turn, you have a +5 bonus to AC, including against
+          the triggering attack, and you take no damage from
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic
+          Missile}</em>.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: reaction
+        condition: >-
+          when you are hit by an attack roll or targeted by the Magic Missile
+          spell
+        value: null
+      duration:
+        value: '1'
+        units: round
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: Bv3EoHGfYCprLdG1
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
           roll:
             formula: ''
             name: ''
@@ -5435,87 +6836,861 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-      uses:
-        spent: 0
-        recovery: []
-        autoDestroy: true
-        max: '1'
-      description:
-        value: >-
-          <p><em>3rd Level &amp;Reference[Spell Scroll]</em></p><p>At your
-          touch, all curses affecting one creature or object end. If the object
-          is a cursed magic item, its curse remains, but the spell breaks its
-          owner's Attunement to the object so it can be removed or
-          discarded.</p>
-        chat: ''
-      identifier: spell-scroll
-      source:
-        revision: 1
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        custom: ''
-      identified: false
-      unidentified:
-        description: ''
-        name: Unidentified Consumable
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 300
-        denomination: gp
-      rarity: uncommon
-      attunement: ''
-      attuned: false
-      equipped: false
-      type:
-        value: scroll
-        subtype: ''
-      damage:
-        base:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-        replace: false
-      properties:
-        - mgc
-        - vocal
-        - somatic
-        - vocal
-        - somatic
-    effects: []
-    folder: a2UFIyuviRp94dzx
+      identifier: shield
+      method: point
+      sourceItem: class:barbarian
+      prepared: 1
+    _id: Yw6JQW2ctipSGLo3
+    type: spell
+    img: icons/equipment/shield/heater-crystal-blue.webp
+    effects:
+      - _id: Bv3EoHGfYCprLdG1
+        flags: {}
+        disabled: true
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        origin: Compendium.dnd5e.spells24.Item.phbsplShield0000
+        tint: '#ffffff'
+        transfer: false
+        name: Imperceptible Barrier
+        description: >-
+          <p>Until the start of your next turn, you have a +5 bonus to AC,
+          including against the triggering attack, and you take no damage from
+          <em>Magic Missile</em>.</p>
+        statuses: []
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
+          duplicateSource: null
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779760683612
+          modifiedTime: 1779760683612
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        img: icons/equipment/shield/heater-steel-crystal-red.webp
+        type: base
+        system:
+          changes:
+            - key: system.attributes.ac.bonus
+              value: 5
+              priority: null
+              type: add
+              phase: initial
+        sort: 0
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!AhxdTivoYwlt8A68.Yw6JQW2ctipSGLo3.Bv3EoHGfYCprLdG1
+    folder: pBaAAtXBCq9FVEnL
+    sort: 700000
+    ownership:
+      default: 0
     flags:
       dnd5e:
         riders:
           activity: []
           effect: []
-        scaling: 0
-        spellLevel:
-          value: 3
-          base: 3
     _stats:
       duplicateSource: null
-      exportSource: null
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1777237543157
-      modifiedTime: 1777237553200
+      createdTime: 1779760683612
+      modifiedTime: 1779760690730
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.dnd5e.equipment24.Item.dmgSpellScroll3r
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplShield0000
+    _key: '!actors.items!AhxdTivoYwlt8A68.Yw6JQW2ctipSGLo3'
+  - name: Thunderwave
+    system:
+      description:
+        value: >-
+          <p>You unleash a wave of thunderous energy. Each creature in a 15-foot
+          Cube originating from you makes a Constitution saving throw. On a
+          failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet
+          away from you. On a successful save, a creature takes half as much
+          damage only.</p><p>In addition, unsecured objects that are entirely
+          within the Cube are pushed 10 feet away from you, and a thunderous
+          boom is audible within 300 feet.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> The damage increases by 1d8 for each spell slot
+          level above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          type: cube
+          size: '15'
+          contiguous: false
+          count: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - thunder
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: thunderwave
+      method: point
+      sourceItem: class:barbarian
+      prepared: 1
+    _id: GQLwijqXtmdjzWiO
+    type: spell
+    img: icons/magic/sonic/explosion-shock-wave-teal.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 112500
     ownership:
       default: 0
-    _id: ky2mGaeQf7dF9ScD
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779760689240
+      modifiedTime: 1779760691524
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplThunderwav
+    _key: '!actors.items!AhxdTivoYwlt8A68.GQLwijqXtmdjzWiO'
+  - folder: dtXfybmcZj17GujL
+    name: Green-Flame Blade
+    type: spell
+    _id: FFt08LD9FUyRDdeI
+    img: icons/weapons/swords/greatsword-evil-green.webp
+    system:
+      activities:
+        3Ha33GRrQV7SwBXg:
+          type: enchant
+          name: Enflame Blade
+          _id: 3Ha33GRrQV7SwBXg
+          img: ''
+          sort: 0
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: tq0nO3lL0GtaBSSj
+              level:
+                min: null
+                max: null
+              riders:
+                activity:
+                  - UiWxHbnv7bCL4wR7
+                  - yLWAke4JoG3hXNfj
+                effect: []
+                item: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          enchant:
+            self: false
+          restrictions:
+            allowMagical: false
+            categories: []
+            properties: []
+            type: ''
+        UiWxHbnv7bCL4wR7:
+          type: attack
+          name: Enflamed Attack
+          _id: UiWxHbnv7bCL4wR7
+          img: ''
+          sort: 100000
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+        yLWAke4JoG3hXNfj:
+          type: damage
+          name: Green Flame Leap
+          _id: yLWAke4JoG3hXNfj
+          img: ''
+          sort: 200000
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          damage:
+            critical:
+              allow: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: null
+                denomination: null
+                bonus: '@mod'
+                types:
+                  - fire
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: d8
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>You brandish the weapon used in the spell's casting and make a
+          melee attack with it against one creature within 5 feet of you. On a
+          hit, the target suffers the weapon attack's normal effects, and you
+          can cause green fire to leap from the target to a different creature
+          of your choice that you can see within 5 feet of it. The second
+          creature takes fire damage equal to your spellcasting ability
+          modifier.</p><p>This spell's damage increases when you reach certain
+          levels. At 5th level, the melee attack deals an extra 1d8 fire damage
+          to the target on a hit, and the fire damage to the second creature
+          increases to 1d8 + your spellcasting ability modifier. Both damage
+          rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8
+          and 3d8).</p>
+        chat: ''
+      identifier: green-flame-blade
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+      activation:
+        type: action
+        condition: ''
+      duration:
+        units: inst
+      level: 0
+      materials:
+        value: >-
+          a melee weapon with which you have proficiency and that is worth worth
+          1+ CP
+        consumed: false
+        cost: 0.01
+        supply: 1
+      method: point
+      properties:
+        - somatic
+        - material
+      range:
+        units: self
+        special: ''
+      school: evo
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+      sourceItem: class:barbarian
+      prepared: 1
+    effects:
+      - type: enchantment
+        name: Green-Flamed
+        img: icons/weapons/swords/greatsword-evil-green.webp
+        disabled: false
+        _id: tq0nO3lL0GtaBSSj
+        system:
+          changes:
+            - key: name
+              type: override
+              value: '{} (Green-Flamed)'
+              phase: initial
+              priority: null
+            - key: system.damage.parts
+              type: add
+              value: >-
+                `[["(floor((@details.level + 1) / 6))d8","fire"],
+                ["(floor((@details.level + 1) / 6))d8","radiant"]]`
+              phase: initial
+              priority: null
+        start: null
+        duration:
+          value: 1
+          units: turns
+          expiry: turnStart
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779762664611
+          modifiedTime: 1779762664611
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!AhxdTivoYwlt8A68.FFt08LD9FUyRDdeI.tq0nO3lL0GtaBSSj
     sort: 0
-    _key: '!actors.items!AhxdTivoYwlt8A68.ky2mGaeQf7dF9ScD'
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity:
+            - UiWxHbnv7bCL4wR7
+            - yLWAke4JoG3hXNfj
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779762664611
+      modifiedTime: 1779762664611
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.spells.Item.PmuzFFyAY54j5T7a
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!AhxdTivoYwlt8A68.FFt08LD9FUyRDdeI'
+  - name: Sword Burst
+    type: spell
+    _id: GiTslkl6zPwzxUjp
+    img: icons/weapons/swords/swords-sharp-worn.webp
+    system:
+      activities:
+        fbQzQqpCKwnGmfze:
+          type: save
+          name: Save
+          _id: fbQzQqpCKwnGmfze
+          img: ''
+          sort: 0
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          damage:
+            onSave: none
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - force
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>You create a momentary circle of spectral blades that sweep around
+          you. All other creatures within 5 feet of you must succeed on a
+          Dexterity saving throw or take 1d6 force damage.</p><p><strong>Cantrip
+          Upgrade. </strong>This spell's damage increases by 1d6 when you reach
+          5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+        chat: ''
+      identifier: sword-burst
+      source:
+        revision: 1
+        rules: '2024'
+      activation:
+        type: action
+        condition: ''
+      duration:
+        units: inst
+      level: 0
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      method: point
+      properties:
+        - vocal
+      range:
+        units: self
+        special: ''
+      school: con
+      target:
+        template:
+          contiguous: false
+          stationary: true
+          units: ft
+          count: ''
+          type: radius
+          size: '5'
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+      sourceItem: class:barbarian
+      prepared: 1
+    effects: []
+    folder: dtXfybmcZj17GujL
+    sort: 100000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779765626755
+      modifiedTime: 1779765626755
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.spells.Item.g1CS24DA1hMSvRuL
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!AhxdTivoYwlt8A68.GiTslkl6zPwzxUjp'
+  - folder: ok52NyQ37ye1xW8K
+    name: Chaos Bolt
+    type: spell
+    _id: 2DO1Gq3FgTPAquOb
+    img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    system:
+      activities:
+        4qhrWN5RSjsjtZ7b:
+          type: attack
+          _id: 4qhrWN5RSjsjtZ7b
+          img: ''
+          sort: 0
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 6
+                bonus: ''
+                types: []
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: d6
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types: []
+                scaling:
+                  mode: ''
+                  number: 1
+          name: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>You hurl an undulating, warbling mass of chaotic energy at one
+          creature in range. Make a ranged spell attack against the target. On a
+          hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The
+          number rolled on that die determines the attack's damage type, as
+          shown below.</p><table><thead><tr><th><p>d8</p></th><th><p>Damage
+          Type</p></th></tr></thead><tbody><tr><td><p
+          style="text-align:center">1</p></td><td><p
+          style="text-align:center">Acid</p></td></tr><tr><td><p
+          style="text-align:center">2</p></td><td><p
+          style="text-align:center">Cold</p></td></tr><tr><td><p
+          style="text-align:center">3</p></td><td><p
+          style="text-align:center">Fire</p></td></tr><tr><td><p
+          style="text-align:center">4</p></td><td><p
+          style="text-align:center">Force</p></td></tr><tr><td><p
+          style="text-align:center">5</p></td><td><p
+          style="text-align:center">Lightning</p></td></tr><tr><td><p
+          style="text-align:center">6</p></td><td><p
+          style="text-align:center">Poison</p></td></tr><tr><td><p
+          style="text-align:center">7</p></td><td><p
+          style="text-align:center">Psychic</p></td></tr><tr><td><p
+          style="text-align:center">8</p></td><td><p
+          style="text-align:center">Thunder</p></td></tr></tbody></table><p>If
+          you roll the same number on both d8s, the chaotic energy leaps from
+          the target to a different creature of your choice within 30 feet of
+          it. Make a new attack roll against the new target, and make a new
+          damage roll, which could cause the chaotic energy to leap again.A
+          creature can be targeted only once by each casting of this
+          spell.</p><p><strong>At Higher Levels.</strong> When you cast this
+          spell using a spell slot of 2nd level or higher, each target takes 1d6
+          extra damage of the type rolled for each slot level above 1st.</p>
+        chat: ''
+      identifier: chaos-bolt
+      source:
+        revision: 1
+        rules: '2024'
+      activation:
+        type: action
+        condition: ''
+      duration:
+        units: inst
+      level: 1
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      method: point
+      properties:
+        - vocal
+        - somatic
+      range:
+        units: ft
+        special: ''
+        value: '120'
+      school: evo
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+      sourceItem: class:barbarian
+      prepared: 1
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779767339651
+      modifiedTime: 1779767341321
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.spells.Item.LZXXg7T6DCQbNR8I
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!AhxdTivoYwlt8A68.2DO1Gq3FgTPAquOb'
 effects: []
 folder: null
 sort: 0
@@ -5692,11 +7867,11 @@ flags:
       height: 512
     isOversized: true
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776813219383
-  modifiedTime: 1777157732912
+  modifiedTime: 1779755134826
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

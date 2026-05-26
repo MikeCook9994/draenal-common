@@ -15,9 +15,9 @@ system:
       _id: jYuYrC1qwtWKFW4E
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
-            optional: false
           - uuid: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
             optional: false
         optional: false
         spell:
@@ -110,9 +110,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd5e.spells24.Item.phbsplMassCureWo
-            optional: false
           - uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterRes
+            optional: false
+          - uuid: Compendium.draenal-common.spells.Item.h0NKCivqgQgod8n4
             optional: false
         optional: false
         spell:
@@ -134,21 +134,22 @@ system:
     value: >-
       <p>When you reach a Druid level specified in the Circle of Dreams Spells
       table, you thereafter always have the listed spells
-      prepared.</p><h4>Circle of Dreams Spells</h4><table><thead><tr><td>Druid
-      Level</td><td>Circle
-      Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplCalmEmotio]{Calm
-      Emotions}, @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure
-      Wounds},
+      prepared.</p><h4>Circle of Dreams
+      Spells</h4><table><thead><tr><td><p>Druid Level</p></td><td><p>Circle
+      Spells</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCalmEmotio]{Calm
+      Emotions},
+      @UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from
+      Evil and Good},
       @UUID[Compendium.draenal-common.spells.Item.AGoLJRS1CHl5SJsr]{Healing
       Spirit},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.draenal-common.spells.Item.1HkDkZmHcUPmD5WV]{Catnap},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.draenal-common.spells.Item.1HkDkZmHcUPmD5WV]{Catnap},
       @UUID[Compendium.draenal-common.spells.Item.wBM6mpW0lpWSUONK]{Summon
-      Fey}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura
+      Fey}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplAuraofLife]{Aura
       of Life},
       @UUID[Compendium.draenal-common.spells.Item.iYWoDIwMGxQtyCPD]{Grasping
-      Vine}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
-      Restoration}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMassCureWo]{Mass
-      Cure Wounds}</td></tr></tbody></table>
+      Vine}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater
+      Restoration},
+      @UUID[Compendium.draenal-common.spells.Item.h0NKCivqgQgod8n4]{Chrysalis}</p></td></tr></tbody></table>
     chat: ''
   identifier: circle-of-dreams-spells
   source:
@@ -177,11 +178,11 @@ flags: {}
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1767990242390
-  modifiedTime: 1777233592440
+  modifiedTime: 1779754114331
   lastModifiedBy: draenalcommon000
 _key: '!items!1znSvxEscd3VIcNy'
 

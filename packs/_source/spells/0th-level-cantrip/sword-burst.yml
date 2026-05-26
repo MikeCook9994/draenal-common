@@ -1,34 +1,30 @@
-folder: dtXfybmcZj17GujL
-name: Frostbite
+name: Sword Burst
 type: spell
-_id: NissLHQ03AWLHGKU
-img: icons/magic/water/barrier-ice-crystal-wall-jagged.webp
+_id: g1CS24DA1hMSvRuL
+img: icons/weapons/swords/swords-sharp-worn.webp
 system:
   activities:
-    RwMsLy3AUVgx1Tdo:
+    fbQzQqpCKwnGmfze:
       type: save
+      name: Save
+      _id: fbQzQqpCKwnGmfze
+      img: ''
       sort: 0
       activation:
         type: action
         override: false
       consumption:
-        spellSlot: true
-        targets: []
         scaling:
           allowed: false
-          max: ''
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-        - _id: eVXN58BLWC8XLolO
-          level:
-            min: null
-            max: null
-          onSave: false
+      effects: []
       flags: {}
       range:
         units: self
@@ -36,8 +32,8 @@ system:
       target:
         template:
           contiguous: false
-          units: ft
           stationary: false
+          units: ft
         affects:
           choice: false
         override: false
@@ -45,55 +41,51 @@ system:
       uses:
         spent: 0
         recovery: []
+        max: ''
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
       damage:
+        onSave: none
         parts:
-          - number: 1
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
             denomination: 6
             bonus: ''
             types:
-              - cold
-            custom:
-              enabled: false
-              formula: ''
+              - force
             scaling:
               mode: whole
               number: 1
               formula: ''
-        onSave: none
       save:
         ability:
-          - con
+          - dex
         dc:
-          formula: ''
           calculation: spellcasting
-      _id: RwMsLy3AUVgx1Tdo
-      img: null
+          formula: ''
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
     value: >-
-      <div class="ddb"><p>You cause numbing frost to form on one creature that
-      you can see within range. The target must make a [[/save con
-      format=long]]. On a failed save, the target takes 1d6 cold damage, and it
-      has disadvantage on the next weapon attack roll it makes before the end of
-      its next turn.</p><p>The spell's damage increases by 1d6 when you reach
-      5th level (2d6), 11th level (3d6), and 17th level (4d6).</p></div>
+      <p>You create a momentary circle of spectral blades that sweep around you.
+      All other creatures within 5 feet of you must succeed on a Dexterity
+      saving throw or take 1d6 force damage.</p><p><strong>Cantrip Upgrade.
+      </strong>This spell's damage increases by 1d6 when you reach 5th level
+      (2d6), 11th level (3d6), and 17th level (4d6).</p>
     chat: ''
-  identifier: frostbite
+  identifier: sword-burst
   source:
     revision: 1
     rules: '2024'
-    book: Xanathar's Guide to Everything
-    page: ''
-    custom: ''
-    license: ''
   activation:
     type: action
     condition: ''
@@ -109,25 +101,26 @@ system:
   prepared: 2
   properties:
     - vocal
-    - somatic
   range:
-    units: ft
+    units: self
     special: ''
-    value: '60'
-  school: evo
+  school: con
   target:
     template:
       contiguous: false
-      stationary: false
+      stationary: true
       units: ft
-      type: ''
+      type: radius
+      size: '5'
+      count: ''
     affects:
       choice: false
       type: creature
-      count: '1'
+      count: ''
       special: ''
 effects: []
-sort: 0
+folder: dtXfybmcZj17GujL
+sort: 100000
 ownership:
   default: 0
 flags: {}
@@ -135,10 +128,10 @@ _stats:
   coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1777188180459
-  modifiedTime: 1779766991753
+  createdTime: 1779764767694
+  modifiedTime: 1779767017403
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
-_key: '!items!NissLHQ03AWLHGKU'
+_key: '!items!g1CS24DA1hMSvRuL'
 

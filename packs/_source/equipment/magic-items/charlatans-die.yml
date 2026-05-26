@@ -22,7 +22,7 @@ system:
     page: ''
     custom: ''
     license: ''
-  identified: false
+  identified: true
   unidentified:
     description: ''
     name: Unidentified Equipment
@@ -57,11 +57,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1777236959016
-  modifiedTime: 1777237226649
+  modifiedTime: 1779750350951
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

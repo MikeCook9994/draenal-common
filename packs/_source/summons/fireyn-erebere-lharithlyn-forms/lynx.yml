@@ -1,4 +1,4 @@
-name: Cat
+name: Lynx
 type: npc
 system:
   currency:
@@ -444,7 +444,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Vaelwyn Lharithlyn Forms
+    book: Fi'Reyn'Erebere Lharithlyn Forms
     license: CC-BY-4.0
     page: ''
     custom: ''
@@ -473,8 +473,7 @@ system:
       custom: ''
       communication: {}
     important: false
-_id: mmCat00000000000
-img: modules/draenal-common/assets/npc-images/Avatar.Cat.webp?v=1777156555403
+img: modules/draenal-common/assets/npc-images/Avatar.Lynx.webp?v=1777157271138
 prototypeToken:
   name: Cat
   displayName: 20
@@ -484,7 +483,7 @@ prototypeToken:
   width: 0.5
   height: 0.5
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Cat.webp?v=1777156554458
+    src: modules/draenal-common/assets/npc-images/Token.Lynx.webp?v=1777157273500
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -595,19 +594,19 @@ items:
     effects: []
     flags: {}
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
       lastModifiedBy: draenalcommon000
-      createdTime: 1777153613977
-      modifiedTime: 1777153613977
+      createdTime: 1779753583806
+      modifiedTime: 1779753583806
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
     sort: 0
-    _key: '!actors.items!mmCat00000000000.mmJumper00000000'
+    _key: '!actors.items!2AfEL3jxx6WI1yHz.mmJumper00000000'
   - _id: mmScratch0000000
     name: Scratch
     type: weapon
@@ -763,38 +762,38 @@ items:
           activity: []
           effect: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
       lastModifiedBy: draenalcommon000
-      createdTime: 1777153613977
-      modifiedTime: 1777153613977
+      createdTime: 1779753583806
+      modifiedTime: 1779753583806
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
     sort: 1
-    _key: '!actors.items!mmCat00000000000.mmScratch0000000'
+    _key: '!actors.items!2AfEL3jxx6WI1yHz.mmScratch0000000'
 effects: []
-folder: BMVGdQUg4DpY6dI1
+folder: KPBZVagXjdKsuo73
 ownership:
   default: 0
 flags:
   tokenizer-2:
     layerStack:
-      - id: 3zP7LBOob5dFM8q3
+      - id: rRKmndDOOmPQJQoA
         type: image
         name: Image Layer
-        src: modules/draenal-common/assets/pc-images/vaelwyncat.Avatar.webp
+        src: modules/draenal-common/assets/npc-images/Cat.png
         visible: true
         locked: false
         blendMode: source-over
         transform:
           x: 0
           'y': 0
-          scaleX: 0.34916864804687486
-          scaleY: 0.34916864804687486
+          scaleX: 0.3754691929826464
+          scaleY: 0.3754691929826464
           rotation: 0
         adjustments:
           brightness: 1
@@ -830,19 +829,21 @@ flags:
             amount: 100
             radius: 1
         masks:
-          - id: l0KTDSH6Mcg5oMr8
+          - id: Xu29Jj2Pcnch5pz3
             type: frame-ray
-            src: modules/token-frames/token_frames/volfied_blue_and_silver.webp
+            src: >-
+              modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
             ringConfig: null
         lasso:
           regions: []
         paintMask: null
         animation: null
         isVideo: false
-      - id: iUExaBFqzxmlg8m3
+      - id: wY7uujAwcE2UdybD
         type: image
-        name: volfied blue and silver
-        src: modules/token-frames/token_frames/volfied_blue_and_silver.webp
+        name: TokenTool Decorated Picture%20Frame%2C%20Silver
+        src: >-
+          modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
         visible: true
         locked: false
         blendMode: source-over
@@ -893,10 +894,10 @@ flags:
         isVideo: false
         isFrame: true
     avatarLayerStack:
-      - id: xwE2ASjVTbwloPmm
+      - id: eMO26abSp0HVbRHp
         type: image
         name: Image Layer
-        src: modules/draenal-common/assets/pc-images/vaelwyncat.Avatar.webp
+        src: modules/draenal-common/assets/npc-images/Cat.png
         visible: true
         locked: false
         blendMode: source-over
@@ -951,14 +952,15 @@ flags:
       height: 512
     isOversized: true
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1777153613977
-  modifiedTime: 1777156555413
+  createdTime: 1779753583806
+  modifiedTime: 1779753583811
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
-sort: 100000
-_key: '!actors!mmCat00000000000'
+_id: 2AfEL3jxx6WI1yHz
+sort: 200000
+_key: '!actors!2AfEL3jxx6WI1yHz'
 

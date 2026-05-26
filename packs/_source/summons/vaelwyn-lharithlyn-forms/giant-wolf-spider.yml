@@ -1,5 +1,8 @@
-name: Panther
+_id: mmGiantWolfSpide
+name: Giant Wolf Spider
 type: npc
+img: >-
+  modules/draenal-common/assets/npc-images/Avatar.Giant_Wolf_Spider.webp?v=1777156620554
 system:
   currency:
     pp: 0
@@ -9,7 +12,7 @@ system:
     cp: 0
   abilities:
     str:
-      value: 14
+      value: 12
       proficient: 0
       max: null
       bonuses:
@@ -43,7 +46,7 @@ system:
           max: null
           mode: 0
     con:
-      value: 10
+      value: 13
       proficient: 0
       max: null
       bonuses:
@@ -77,7 +80,7 @@ system:
           max: null
           mode: 0
     wis:
-      value: 14
+      value: 12
       proficient: 0
       max: null
       bonuses:
@@ -94,7 +97,7 @@ system:
           max: null
           mode: 0
     cha:
-      value: 7
+      value: 4
       proficient: 0
       max: null
       bonuses:
@@ -352,7 +355,7 @@ system:
       bonus: ''
     movement:
       climb: '40'
-      walk: '50'
+      walk: '40'
       units: null
       hover: false
       ignoredDifficultTerrain: []
@@ -363,7 +366,7 @@ system:
       special: ''
       ranges:
         darkvision: 60
-        blindsight: null
+        blindsight: 10
         tremorsense: null
         truesight: null
     spellcasting: str
@@ -383,11 +386,11 @@ system:
     hd:
       spent: 0
     hp:
-      value: 13
-      max: 13
+      value: 11
+      max: 11
       temp: null
       tempmax: null
-      formula: 3d8
+      formula: 2d8 + 2
     death:
       roll:
         min: null
@@ -423,8 +426,12 @@ system:
     cr: 0.25
     habitat:
       value:
+        - type: desert
         - type: forest
-        - type: hill
+        - type: grassland
+        - type: swamp
+        - type: underdark
+        - type: urban
       custom: ''
     treasure:
       value: []
@@ -442,7 +449,7 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Fi'Reyn'Erebere Lharithlyn Forms
+    book: Vaelwyn Lharithlyn Forms
     license: CC-BY-4.0
     page: ''
     custom: ''
@@ -471,10 +478,8 @@ system:
       custom: ''
       communication: {}
     important: false
-_id: mmPanther0000000
-img: tokenizer/npc-avatars/Avatar.Panther.webp?v=1777156020245
 prototypeToken:
-  name: Panther
+  name: Giant Wolf Spider
   displayName: 20
   actorLink: false
   appendNumber: false
@@ -483,7 +488,7 @@ prototypeToken:
   height: 1
   texture:
     src: >-
-      modules/draenal-common/assets/npc-images/Token.Panther.webp?v=1777156019060
+      modules/draenal-common/assets/npc-images/Token.Giant_Wolf_Spider.webp?v=1777156619476
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -554,17 +559,70 @@ prototypeToken:
   movementAction: null
   depth: 1
 items:
-  - _id: mmRend0000000000
-    name: Rend
+  - _id: mmSpiderClimb000
+    name: Spider Climb
+    type: feat
+    system:
+      type:
+        value: monster
+        subtype: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>The [[lookup @name lowercase]]{monster} can climb difficult
+          surfaces, including along ceilings, without needing to make an ability
+          check.</p>
+        chat: ''
+      identifier: spider-climb
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties:
+        - trait
+      requirements: ''
+      advancement: {}
+      cover: null
+      crewed: false
+    folder: L9Zgr8qAPc3ngKhb
+    img: icons/creatures/invertebrates/spider-pink-purple.webp
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      lastModifiedBy: draenalcommon000
+      createdTime: 1779753587520
+      modifiedTime: 1779753587520
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!mmGiantWolfSpide.mmSpiderClimb000'
+  - _id: mmBite0000000000
+    name: Bite
     type: weapon
     system:
       type:
         value: natural
         baseItem: ''
       activities:
-        VP3t6lmmuXKGCRwX:
-          _id: VP3t6lmmuXKGCRwX
+        xWlMeXFjELfSUWX9:
           type: attack
+          _id: xWlMeXFjELfSUWX9
           sort: 0
           activation:
             type: action
@@ -614,7 +672,17 @@ items:
             critical:
               bonus: ''
             includeBase: true
-            parts: []
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 4
+                bonus: ''
+                types:
+                  - poison
+                scaling:
+                  number: 1
           name: ''
           img: null
           flags: {}
@@ -630,15 +698,42 @@ items:
       description:
         value: <p>[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
-      identifier: rend
+      identifier: bite
       source:
         revision: 1
         rules: '2024'
         book: ''
         license: CC-BY-4.0
+      properties: []
       identified: true
       unidentified:
+        name: Unidentified Weapon
         description: ''
+      mastery: ''
+      range:
+        units: ft
+        value: null
+        long: null
+        reach: null
+      damage:
+        base:
+          denomination: 4
+          bonus: ''
+          number: 1
+          types:
+            - piercing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
       container: null
       quantity: 1
       weight:
@@ -651,46 +746,15 @@ items:
       attunement: ''
       attuned: false
       equipped: true
+      cover: null
+      ammunition: {}
       armor:
         value: null
-      cover: null
-      hp:
-        value: null
-        max: null
-        dt: null
-        conditions: ''
-      ammunition: {}
-      damage:
-        base:
-          number: 1
-          denomination: 6
-          types:
-            - slashing
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-          bonus: ''
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      properties: []
       proficient: null
-      range:
-        value: null
-        long: null
-        reach: null
-        units: ft
-      mastery: ''
       crew:
         value: []
     folder: pSCWWdqMX9eUATRJ
-    img: icons/skills/melee/shield-damaged-broken-orange.webp
+    img: icons/creatures/abilities/fangs-teeth-bite.webp
     effects: []
     flags:
       dnd5e:
@@ -698,191 +762,37 @@ items:
           activity: []
           effect: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
       lastModifiedBy: draenalcommon000
-      createdTime: 1777153853454
-      modifiedTime: 1777153853454
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    sort: 0
-    _key: '!actors.items!mmPanther0000000.mmRend0000000000'
-  - _id: mmNimbleEscape00
-    name: Nimble Escape
-    type: feat
-    system:
-      type:
-        value: monster
-        subtype: ''
-      activities:
-        CcMi6Alf0pup7o81:
-          type: utility
-          _id: CcMi6Alf0pup7o81
-          sort: 0
-          activation:
-            type: bonus
-            value: null
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: 7U7Pe61lsMZgN7qh
-              level: {}
-          range:
-            override: false
-            units: self
-            special: ''
-          target:
-            template:
-              contiguous: false
-              units: ft
-              type: ''
-              stationary: false
-            affects:
-              choice: false
-              type: ''
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          roll:
-            prompt: false
-            visible: false
-            name: ''
-            formula: ''
-          name: Expend Use
-          img: systems/dnd5e/icons/svg/monster.svg
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      description:
-        value: >-
-          <p class="feature">The [[lookup @name lowercase]]{monster} takes the
-          &amp;Reference[Disengage] or &amp;Reference[Hide] action.</p>
-        chat: ''
-      identifier: nimble-escape
-      source:
-        revision: 1
-        rules: '2024'
-        book: ''
-        license: CC-BY-4.0
-      enchant: {}
-      prerequisites:
-        level: null
-        repeatable: false
-        items: []
-      properties: []
-      requirements: ''
-      advancement: {}
-      cover: null
-      crewed: false
-    folder: 4T18pEvubPMQLzvD
-    img: icons/skills/movement/ball-spinning-blue.webp
-    effects:
-      - name: Apply Hide Action to Target
-        img: systems/dnd5e/icons/svg/statuses/hiding.svg
-        origin: Item.mmNimbleEscape00
-        _id: 7U7Pe61lsMZgN7qh
-        type: base
-        system:
-          changes: []
-        disabled: false
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        description: ''
-        tint: '#ffffff'
-        transfer: false
-        statuses:
-          - hiding
-        sort: 0
-        flags:
-          core:
-            overlay: false
-        _stats:
-          coreVersion: '14.360'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          lastModifiedBy: draenalcommon000
-          createdTime: 1777153853454
-          modifiedTime: 1777153853454
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        showIcon: 2
-        start:
-          combat: null
-          round: null
-          time: 0
-          turn: null
-          combatant: null
-          initiative: null
-        folder: null
-        _key: >-
-          !actors.items.effects!mmPanther0000000.mmNimbleEscape00.7U7Pe61lsMZgN7qh
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-    _stats:
-      coreVersion: '14.360'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      lastModifiedBy: draenalcommon000
-      createdTime: 1777153853454
-      modifiedTime: 1777153853454
+      createdTime: 1779753587520
+      modifiedTime: 1779753587520
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
     sort: 1
-    _key: '!actors.items!mmPanther0000000.mmNimbleEscape00'
+    _key: '!actors.items!mmGiantWolfSpide.mmBite0000000000'
 effects: []
-folder: KPBZVagXjdKsuo73
-ownership:
-  default: 0
+folder: BMVGdQUg4DpY6dI1
 flags:
   tokenizer-2:
     layerStack:
-      - id: CdNA09QILXTy43Ot
+      - id: uKE43BfmKI2y6nJm
         type: image
         name: Image Layer
-        src: modules/draenal-common/assets/pc-images/reyn-panther.Avatar.webp
+        src: >-
+          modules/draenal-common/assets/pc-images/vaelwyngiant_wolf_spider.Avatar.webp
         visible: true
         locked: false
         blendMode: source-over
         transform:
-          x: -4.231404958677672
-          'y': 12.694214876033044
-          scaleX: 0.41395478526336776
-          scaleY: 0.41395478526336776
+          x: 0
+          'y': 0
+          scaleX: 0.3558039940001803
+          scaleY: 0.3558039940001803
           rotation: 0
         adjustments:
           brightness: 1
@@ -918,22 +828,20 @@ flags:
             amount: 100
             radius: 1
         masks:
-          - id: 5SqV3EhvhJ2l2ZiY
+          - id: 0QpmSpWuokFX5Q0e
             type: frame-ray
-            src: >-
-              modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
+            src: modules/token-frames/token_frames/volfied_blue_and_silver.webp
             ringConfig: null
         lasso:
           regions: []
         paintMask: null
         animation: null
         isVideo: false
-      - id: 5NmzTHmoLlv0DdnD
+      - id: 9DxVZcwjaCunbVAF
         type: image
-        name: TokenTool Decorated Picture%20Frame%2C%20Silver
-        src: >-
-          modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
-        visible: true
+        name: Painted Mask 1
+        src: tokenizer/_masks/2026-04-25/mask-9DxVZcwjaCunbVAF.png
+        visible: false
         locked: false
         blendMode: source-over
         transform:
@@ -982,11 +890,121 @@ flags:
         animation: null
         isVideo: false
         isFrame: true
+        isAlphaMask: true
+        paintCanvasSize:
+          w: 1024
+          h: 1024
+      - id: xZh0HXWSOB8sgGGT
+        type: image
+        name: volfied blue and silver
+        src: modules/token-frames/token_frames/volfied_blue_and_silver.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.4937811719726074
+          scaleY: 0.4937811719726074
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
     avatarLayerStack:
-      - id: VexYxbYsTNOdEcnK
+      - id: Eu86I5cy1JHKU6Oi
+        type: image
+        name: Giant Wolf Spider
+        src: systems/dnd5e/tokens/beast/GiantWolfSpider.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: Piu8CGlP0OwXiQpH
         type: image
         name: Image Layer
-        src: modules/draenal-common/assets/pc-images/reyn-panther.Avatar.webp
+        src: >-
+          modules/draenal-common/assets/pc-images/vaelwyngiant_wolf_spider.Avatar.webp
         visible: true
         locked: false
         blendMode: source-over
@@ -1041,14 +1059,16 @@ flags:
       height: 512
     isOversized: true
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1777153853454
-  modifiedTime: 1777156020253
+  createdTime: 1779753587520
+  modifiedTime: 1779753587524
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
-sort: 300000
-_key: '!actors!mmPanther0000000'
+ownership:
+  default: 0
+sort: 200000
+_key: '!actors!mmGiantWolfSpide'
 

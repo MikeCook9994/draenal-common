@@ -175,14 +175,14 @@ system:
     cost: 0.1
     supply: 0
   method: spell
-  prepared: 0
+  prepared: 2
   properties:
     - somatic
     - material
   range:
     units: self
     special: ''
-  school: ''
+  school: evo
   target:
     template:
       contiguous: false
@@ -241,11 +241,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1777238755843
-  modifiedTime: 1777238975871
+  modifiedTime: 1779766983606
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

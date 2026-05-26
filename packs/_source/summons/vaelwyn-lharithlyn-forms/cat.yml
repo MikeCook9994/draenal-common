@@ -1,4 +1,4 @@
-name: Giant Badger
+name: Cat
 type: npc
 system:
   currency:
@@ -9,7 +9,7 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 3
       proficient: 0
       max: null
       bonuses:
@@ -26,6 +26,23 @@ system:
           max: null
           mode: 0
     dex:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
       value: 10
       proficient: 0
       max: null
@@ -42,25 +59,8 @@ system:
           min: null
           max: null
           mode: 0
-    con:
-      value: 17
-      proficient: 0
-      max: null
-      bonuses:
-        check: ''
-        save: ''
-      check:
-        roll:
-          min: null
-          max: null
-          mode: 0
-      save:
-        roll:
-          min: null
-          max: null
-          mode: 0
     int:
-      value: 2
+      value: 3
       proficient: 0
       max: null
       bonuses:
@@ -94,7 +94,7 @@ system:
           max: null
           mode: 0
     cha:
-      value: 5
+      value: 7
       proficient: 0
       max: null
       bonuses:
@@ -296,7 +296,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -351,8 +351,8 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: '10'
-      walk: '30'
+      climb: '40'
+      walk: '40'
       units: null
       hover: false
       ignoredDifficultTerrain: []
@@ -378,16 +378,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: natural
+      flat: null
+      calc: default
     hd:
       spent: 0
     hp:
-      value: 15
-      max: 15
+      value: 2
+      max: 2
       temp: null
       tempmax: null
-      formula: 2d8 + 6
+      formula: 1d4
     death:
       roll:
         min: null
@@ -420,10 +420,13 @@ system:
     race: null
     type:
       value: beast
-    cr: 0.25
+    cr: 0
     habitat:
       value:
+        - type: desert
         - type: forest
+        - type: grassland
+        - type: urban
       custom: ''
     treasure:
       value: []
@@ -446,7 +449,7 @@ system:
     page: ''
     custom: ''
   traits:
-    size: med
+    size: tiny
     di:
       bypasses: []
       value: []
@@ -470,20 +473,18 @@ system:
       custom: ''
       communication: {}
     important: false
-_id: mmGiantBadger000
-img: >-
-  modules/draenal-common/assets/npc-images/Avatar.Giant_Badger.webp?v=1777156603943
+_id: mmCat00000000000
+img: modules/draenal-common/assets/npc-images/Avatar.Cat.webp?v=1777156555403
 prototypeToken:
-  name: Giant Badger
+  name: Cat
   displayName: 20
   actorLink: false
   appendNumber: false
   prependAdjective: false
-  width: 1
-  height: 1
+  width: 0.5
+  height: 0.5
   texture:
-    src: >-
-      modules/draenal-common/assets/npc-images/Token.Giant_Badger.webp?v=1777156606135
+    src: modules/draenal-common/assets/npc-images/Token.Cat.webp?v=1777156554458
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -545,37 +546,92 @@ prototypeToken:
       scale: 1
       texture: null
   flags: {}
-  randomImg: false
+  randomImg: true
   turnMarker:
     mode: 1
     animation: null
     src: null
     disposition: false
   movementAction: null
-  depth: 1
+  depth: 0.5
 items:
-  - _id: mmBite0000000000
-    name: Bite
+  - _id: mmJumper00000000
+    name: Jumper
+    type: feat
+    system:
+      type:
+        value: monster
+        subtype: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p class="feature">The [[lookup @name lowercase]]{monster}'s jump
+          distance is determined using its Dexterity rather than its
+          Strength.</p>
+        chat: ''
+      identifier: jumper
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties:
+        - trait
+      requirements: ''
+      advancement: {}
+      cover: null
+      crewed: false
+    folder: L9Zgr8qAPc3ngKhb
+    img: icons/skills/movement/arrow-upward-blue.webp
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      lastModifiedBy: draenalcommon000
+      createdTime: 1779753587518
+      modifiedTime: 1779753587518
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!mmCat00000000000.mmJumper00000000'
+  - _id: mmScratch0000000
+    name: Scratch
     type: weapon
     system:
       type:
         value: natural
         baseItem: ''
       activities:
-        xWlMeXFjELfSUWX9:
+        m9s3pmhoNA9tnQzX:
+          _id: m9s3pmhoNA9tnQzX
           type: attack
-          _id: xWlMeXFjELfSUWX9
           sort: 0
           activation:
             type: action
             value: null
             override: false
+            condition: ''
           consumption:
             scaling:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -588,23 +644,42 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
               stationary: false
             affects:
               choice: false
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
           attack:
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            ability: dex
+            bonus: ''
           damage:
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
-            parts: []
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: null
+                denomination: 0
+                bonus: '1'
+                types:
+                  - slashing
+                scaling:
+                  number: 1
+          name: ''
           img: null
           flags: {}
           visibility:
@@ -617,44 +692,19 @@ items:
         recovery: []
         max: ''
       description:
-        value: <p>[[/attack extended]]. [[/damage average extended]].</p>
+        value: >-
+          <p class="feature">[[/attack extended]]. [[/damage average
+          extended]].</p>
         chat: ''
-      identifier: bite
+      identifier: scratch
       source:
         revision: 1
         rules: '2024'
         book: ''
         license: CC-BY-4.0
-      properties: []
       identified: true
       unidentified:
-        name: Unidentified Weapon
         description: ''
-      mastery: ''
-      range:
-        units: ft
-        value: null
-        long: null
-        reach: null
-      damage:
-        base:
-          denomination: 4
-          bonus: ''
-          number: 2
-          types:
-            - piercing
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
       container: null
       quantity: 1
       weight:
@@ -667,15 +717,45 @@ items:
       attunement: ''
       attuned: false
       equipped: true
-      cover: null
-      ammunition: {}
       armor:
         value: null
+      cover: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      damage:
+        base:
+          number: null
+          denomination: 0
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      properties: []
       proficient: null
+      range:
+        value: null
+        long: null
+        reach: 5
+        units: ft
+      mastery: ''
       crew:
         value: []
     folder: pSCWWdqMX9eUATRJ
-    img: icons/creatures/abilities/fangs-teeth-bite.webp
+    img: icons/skills/melee/blood-slash-foam-red.webp
     effects: []
     flags:
       dnd5e:
@@ -683,19 +763,19 @@ items:
           activity: []
           effect: []
     _stats:
-      coreVersion: '14.360'
+      coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
       lastModifiedBy: draenalcommon000
-      createdTime: 1777153681034
-      modifiedTime: 1777153681034
+      createdTime: 1779753587518
+      modifiedTime: 1779753587518
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
-    sort: 0
-    _key: '!actors.items!mmGiantBadger000.mmBite0000000000'
+    sort: 1
+    _key: '!actors.items!mmCat00000000000.mmScratch0000000'
 effects: []
 folder: BMVGdQUg4DpY6dI1
 ownership:
@@ -703,19 +783,18 @@ ownership:
 flags:
   tokenizer-2:
     layerStack:
-      - id: NjL2xmjzZ9RcMzpE
+      - id: 3zP7LBOob5dFM8q3
         type: image
         name: Image Layer
-        src: >-
-          modules/draenal-common/assets/pc-images/vaelwyngiant_badger.Avatar.webp
+        src: modules/draenal-common/assets/pc-images/vaelwyncat.Avatar.webp
         visible: true
         locked: false
         blendMode: source-over
         transform:
-          x: -5.684341886080802e-14
-          'y': 0.4231404958677274
-          scaleX: 0.3745305200001898
-          scaleY: 0.3745305200001898
+          x: 0
+          'y': 0
+          scaleX: 0.34916864804687486
+          scaleY: 0.34916864804687486
           rotation: 0
         adjustments:
           brightness: 1
@@ -751,7 +830,7 @@ flags:
             amount: 100
             radius: 1
         masks:
-          - id: iMvZ1F54Mx1P0c8G
+          - id: l0KTDSH6Mcg5oMr8
             type: frame-ray
             src: modules/token-frames/token_frames/volfied_blue_and_silver.webp
             ringConfig: null
@@ -760,7 +839,7 @@ flags:
         paintMask: null
         animation: null
         isVideo: false
-      - id: RGAljjpyph9A5d5d
+      - id: iUExaBFqzxmlg8m3
         type: image
         name: volfied blue and silver
         src: modules/token-frames/token_frames/volfied_blue_and_silver.webp
@@ -814,11 +893,10 @@ flags:
         isVideo: false
         isFrame: true
     avatarLayerStack:
-      - id: J0xhnLRvdbzAMcdS
+      - id: xwE2ASjVTbwloPmm
         type: image
         name: Image Layer
-        src: >-
-          modules/draenal-common/assets/pc-images/vaelwyngiant_badger.Avatar.webp
+        src: modules/draenal-common/assets/pc-images/vaelwyncat.Avatar.webp
         visible: true
         locked: false
         blendMode: source-over
@@ -873,14 +951,14 @@ flags:
       height: 512
     isOversized: true
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
-  createdTime: 1777153681034
-  modifiedTime: 1777156606317
+  createdTime: 1779753587518
+  modifiedTime: 1779753587522
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
-sort: 0
-_key: '!actors!mmGiantBadger000'
+sort: 100000
+_key: '!actors!mmCat00000000000'
 

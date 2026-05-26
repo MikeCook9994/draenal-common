@@ -17,7 +17,7 @@ system:
       consumption:
         scaling:
           allowed: true
-          max: floor(@classes.druid.levels / 2)
+          max: '@classes.druid.levels'
         spellSlot: true
         targets:
           - type: itemUses
@@ -69,7 +69,7 @@ system:
           - temphp
         custom:
           enabled: true
-          formula: 1d6[healing] + 1
+          formula: 1d8[healing] + 1
         scaling:
           number: 1
           mode: whole
@@ -78,6 +78,67 @@ system:
         denomination: null
         bonus: ''
       name: ''
+    UnoAUhRhuTsV8oA4:
+      type: utility
+      name: Recover Die
+      _id: UnoAUhRhuTsV8oA4
+      img: ''
+      sort: 100000
+      activation:
+        type: special
+        override: false
+        condition: >-
+          When a spell that you cast with a spell slot restores Hit Points to a
+          creature
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   uses:
     spent: 0
     recovery:
@@ -123,11 +184,11 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.361'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776661126546
-  modifiedTime: 1777233689171
+  modifiedTime: 1779753462609
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

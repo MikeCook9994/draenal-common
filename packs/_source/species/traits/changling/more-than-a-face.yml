@@ -1,0 +1,72 @@
+folder: oLcAEKfoUODjH5eS
+name: More than a Face
+type: feat
+_id: rC3SaUB2Esxw43hg
+img: icons/equipment/head/hood-cloth-blue-white.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    e1XHkRRDlDEXW5JG:
+      type: Trait
+      title: Skill or Tool Proficiency
+      _id: e1XHkRRDlDEXW5JG
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:*
+              - tool:*
+        grants: []
+        mode: upgrade
+      flags: {}
+      level: 3
+      hint: ''
+  description:
+    value: >-
+      <p>A proper disguise goes beyond the face and mannerisms. Changlings must
+      adapt the skills and vocations of those that they are attempting to
+      impersonate. Starting at character level 3, while you are shape-shifted
+      with your Shape-Shifter trait, you gain proficiency in one skill or tool
+      of your choice. You instead gain Expertise in the chosen tool or skill if
+      you already proficient.</p>
+    chat: ''
+  identifier: more-than-a-face
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Changling
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779745366738
+  modifiedTime: 1779751896084
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rC3SaUB2Esxw43hg'
+

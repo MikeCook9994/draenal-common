@@ -1,0 +1,20 @@
+type: Item
+folder: ErT2cFYNC4ZBLPc5
+name: Rings
+color: null
+sorting: a
+_id: NjqQMLDSpgkNVXmC
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779757426198
+  modifiedTime: 1779757426198
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!NjqQMLDSpgkNVXmC'
+

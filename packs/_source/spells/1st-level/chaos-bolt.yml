@@ -1,0 +1,176 @@
+folder: ok52NyQ37ye1xW8K
+name: Chaos Bolt
+type: spell
+_id: LZXXg7T6DCQbNR8I
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  activities:
+    4qhrWN5RSjsjtZ7b:
+      type: attack
+      _id: 4qhrWN5RSjsjtZ7b
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types: []
+            scaling:
+              mode: whole
+              number: 1
+              formula: d6
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: ''
+            types: []
+            scaling:
+              mode: ''
+              number: 1
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You hurl an undulating, warbling mass of chaotic energy at one creature
+      in range. Make a ranged spell attack against the target. On a hit, the
+      target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on
+      that die determines the attack's damage type, as shown
+      below.</p><table><thead><tr><th><p>d8</p></th><th><p>Damage
+      Type</p></th></tr></thead><tbody><tr><td><p
+      style="text-align:center">1</p></td><td><p
+      style="text-align:center">Acid</p></td></tr><tr><td><p
+      style="text-align:center">2</p></td><td><p
+      style="text-align:center">Cold</p></td></tr><tr><td><p
+      style="text-align:center">3</p></td><td><p
+      style="text-align:center">Fire</p></td></tr><tr><td><p
+      style="text-align:center">4</p></td><td><p
+      style="text-align:center">Force</p></td></tr><tr><td><p
+      style="text-align:center">5</p></td><td><p
+      style="text-align:center">Lightning</p></td></tr><tr><td><p
+      style="text-align:center">6</p></td><td><p
+      style="text-align:center">Poison</p></td></tr><tr><td><p
+      style="text-align:center">7</p></td><td><p
+      style="text-align:center">Psychic</p></td></tr><tr><td><p
+      style="text-align:center">8</p></td><td><p
+      style="text-align:center">Thunder</p></td></tr></tbody></table><p>If you
+      roll the same number on both d8s, the chaotic energy leaps from the target
+      to a different creature of your choice within 30 feet of it. Make a new
+      attack roll against the new target, and make a new damage roll, which
+      could cause the chaotic energy to leap again.A creature can be targeted
+      only once by each casting of this spell.</p><p><strong>At Higher
+      Levels.</strong> When you cast this spell using a spell slot of 2nd level
+      or higher, each target takes 1d6 extra damage of the type rolled for each
+      slot level above 1st.</p>
+    chat: ''
+  identifier: chaos-bolt
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 1
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: ''
+  prepared: 0
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '120'
+  school: evo
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: '1'
+      special: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779765060283
+  modifiedTime: 1779767297843
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LZXXg7T6DCQbNR8I'
+
