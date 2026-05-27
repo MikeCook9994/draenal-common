@@ -323,18 +323,18 @@ system:
         mode: 0
       bonuses:
         check: ''
-    cook:
+    calligrapher:
       value: 1
-      ability: wis
+      ability: dex
       roll:
         min: null
         max: null
         mode: 0
       bonuses:
         check: ''
-    calligrapher:
+    cook:
       value: 1
-      ability: dex
+      ability: wis
       roll:
         min: null
         max: null
@@ -1325,8 +1325,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291955
-      modifiedTime: 1779770291955
+      createdTime: 1779777236189
+      modifiedTime: 1779777236189
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruid00000
@@ -1429,8 +1429,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291955
-      modifiedTime: 1779770291955
+      createdTime: 1779777236189
+      modifiedTime: 1779777236189
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
@@ -1497,8 +1497,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291955
-      modifiedTime: 1779770291955
+      createdTime: 1779777236189
+      modifiedTime: 1779777236189
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
@@ -1564,8 +1564,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291955
-      modifiedTime: 1779770291955
+      createdTime: 1779777236189
+      modifiedTime: 1779777236189
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
@@ -1714,8 +1714,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291960
-          modifiedTime: 1779770291960
+          createdTime: 1779777236195
+          modifiedTime: 1779777236195
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -1741,8 +1741,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291960
-      modifiedTime: 1779770291960
+      createdTime: 1779777236195
+      modifiedTime: 1779777236195
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
@@ -1831,8 +1831,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291960
-          modifiedTime: 1779770291960
+          createdTime: 1779777236195
+          modifiedTime: 1779777236195
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -1855,8 +1855,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291960
-      modifiedTime: 1779770291960
+      createdTime: 1779777236195
+      modifiedTime: 1779777236195
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
@@ -2070,8 +2070,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291955
-      modifiedTime: 1779770291955
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
@@ -2324,8 +2324,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
@@ -2509,8 +2509,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.origins24.Item.phbbgAcolyte0000
@@ -2662,8 +2662,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.feats24.Item.phbftMagicInitia
@@ -2834,8 +2834,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
@@ -3015,8 +3015,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291968
-          modifiedTime: 1779770291968
+          createdTime: 1779777236203
+          modifiedTime: 1779777236203
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -3053,8 +3053,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291968
-          modifiedTime: 1779770291968
+          createdTime: 1779777236203
+          modifiedTime: 1779777236203
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: y6aODSkiubtFt6Ap
@@ -3092,8 +3092,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291968
-          modifiedTime: 1779770291968
+          createdTime: 1779777236203
+          modifiedTime: 1779777236203
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Vlfh8IFOezrSpeBZ
@@ -3131,8 +3131,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291968
-          modifiedTime: 1779770291968
+          createdTime: 1779777236204
+          modifiedTime: 1779777236204
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: sPkLWVpkJ7NqDQT0
@@ -3170,8 +3170,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291968
-          modifiedTime: 1779770291968
+          createdTime: 1779777236204
+          modifiedTime: 1779777236204
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Je4xWElmaiSDsOjU
@@ -3209,8 +3209,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291969
-          modifiedTime: 1779770291969
+          createdTime: 1779777236204
+          modifiedTime: 1779777236204
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: cw02ZbuiRn6GyoEv
@@ -3248,8 +3248,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291969
-          modifiedTime: 1779770291969
+          createdTime: 1779777236204
+          modifiedTime: 1779777236204
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: VsU5vUhMioT9pCwG
@@ -3287,8 +3287,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291969
-          modifiedTime: 1779770291969
+          createdTime: 1779777236204
+          modifiedTime: 1779777236204
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: UQixxmOdHUDjVYNh
@@ -3326,8 +3326,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291969
-          modifiedTime: 1779770291969
+          createdTime: 1779777236204
+          modifiedTime: 1779777236204
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Cpte6tynFFJbraX2
@@ -3365,8 +3365,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291969
-          modifiedTime: 1779770291969
+          createdTime: 1779777236205
+          modifiedTime: 1779777236205
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Vl1YSG1DlZvx9nSI
@@ -3404,8 +3404,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291969
-          modifiedTime: 1779770291969
+          createdTime: 1779777236205
+          modifiedTime: 1779777236205
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: IqxGXju1tYDWoda6
@@ -3443,8 +3443,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291969
-          modifiedTime: 1779770291969
+          createdTime: 1779777236205
+          modifiedTime: 1779777236205
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: fCdLUO5DoSIT4wVK
@@ -3482,8 +3482,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291970
-          modifiedTime: 1779770291970
+          createdTime: 1779777236205
+          modifiedTime: 1779777236205
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: qPowjrduxnzKpH8x
@@ -3521,8 +3521,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291970
-          modifiedTime: 1779770291970
+          createdTime: 1779777236205
+          modifiedTime: 1779777236205
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: E4BqoCkyoKLJbGmb
@@ -3560,8 +3560,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291970
-          modifiedTime: 1779770291970
+          createdTime: 1779777236205
+          modifiedTime: 1779777236205
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: jVKWknHHFuMwvTct
@@ -3599,8 +3599,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291970
-          modifiedTime: 1779770291970
+          createdTime: 1779777236205
+          modifiedTime: 1779777236205
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: pwFahx7uqM4DOgnu
@@ -3638,8 +3638,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291970
-          modifiedTime: 1779770291970
+          createdTime: 1779777236206
+          modifiedTime: 1779777236206
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Vb4iRJ73Nw78UUMW
@@ -3677,8 +3677,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291970
-          modifiedTime: 1779770291970
+          createdTime: 1779777236206
+          modifiedTime: 1779777236206
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: A1T0X0DUFIxx3qhE
@@ -3705,8 +3705,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291967
-      modifiedTime: 1779770291967
+      createdTime: 1779777236203
+      modifiedTime: 1779777236203
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGuidance00
@@ -3849,8 +3849,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291961
-          modifiedTime: 1779770291961
+          createdTime: 1779777236196
+          modifiedTime: 1779777236196
           lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
@@ -3876,8 +3876,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291961
-      modifiedTime: 1779770291961
+      createdTime: 1779777236196
+      modifiedTime: 1779777236196
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSparetheDy
@@ -4020,8 +4020,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
@@ -4152,8 +4152,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMessage000
@@ -4320,8 +4320,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291961
-          modifiedTime: 1779770291961
+          createdTime: 1779777236196
+          modifiedTime: 1779777236196
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -4344,8 +4344,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291961
-      modifiedTime: 1779770291961
+      createdTime: 1779777236196
+      modifiedTime: 1779777236196
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
@@ -4477,8 +4477,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236190
+      modifiedTime: 1779777236190
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHealingWor
@@ -4538,8 +4538,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
@@ -4765,8 +4765,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291956
-      modifiedTime: 1779770291956
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagOil00000000
@@ -4895,8 +4895,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRations0000
@@ -5032,8 +5032,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTinderbox00
@@ -5193,8 +5193,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTorch000000
@@ -5255,8 +5255,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagWaterskin00
@@ -5382,8 +5382,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.2nlARB78sJo8Z2W6
@@ -5639,8 +5639,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRope0000000
@@ -5691,8 +5691,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236191
+      modifiedTime: 1779777236191
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
@@ -5854,8 +5854,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbdfcWoodenstaf
@@ -6029,8 +6029,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepSickle0000
@@ -6109,8 +6109,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291957
-      modifiedTime: 1779770291957
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
@@ -6193,90 +6193,12 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn
     _key: '!actors.items!DqLfAsayienM661c.CqSes8JT6TVDHLI7'
-  - name: Leather Armor
-    system:
-      description:
-        value: ''
-        chat: ''
-      price:
-        value: 10
-        denomination: gp
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      identified: true
-      unidentified:
-        description: ''
-      container: null
-      quantity: 1
-      weight:
-        value: 10
-        units: lb
-      rarity: ''
-      attunement: ''
-      cover: null
-      uses:
-        max: ''
-        spent: 0
-        recovery: []
-      armor:
-        value: 11
-        dex: null
-      hp:
-        value: null
-        max: null
-        dt: null
-        conditions: ''
-      type:
-        value: light
-        baseItem: leather
-      properties: []
-      speed:
-        value: null
-        conditions: ''
-        units: ft
-      strength: null
-      proficient: null
-      activities: {}
-      identifier: leather-armor
-      crew:
-        value: []
-      attuned: false
-      equipped: true
-    _id: cwGr84Yexd5FuunN
-    type: equipment
-    folder: G3X11BbtmEqLmEnK
-    img: icons/equipment/chest/breastplate-scale-leather.webp
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-        '-=riders': null
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
-    _key: '!actors.items!DqLfAsayienM661c.cwGr84Yexd5FuunN'
   - name: Parchment
     system:
       description:
@@ -6319,8 +6241,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagParchment00
@@ -6400,8 +6322,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRobe0000000
@@ -6549,8 +6471,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagHolyWater00
@@ -6683,8 +6605,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulCalligraph
@@ -6879,8 +6801,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulCooksUtens
@@ -7015,8 +6937,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236192
+      modifiedTime: 1779777236192
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulHerbalismK
@@ -7067,8 +6989,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236193
+      modifiedTime: 1779777236193
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBook0000000
@@ -7304,8 +7226,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291965
-          modifiedTime: 1779770291965
+          createdTime: 1779777236200
+          modifiedTime: 1779777236200
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7345,8 +7267,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291965
-          modifiedTime: 1779770291965
+          createdTime: 1779777236200
+          modifiedTime: 1779777236200
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7387,8 +7309,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291965
-          modifiedTime: 1779770291965
+          createdTime: 1779777236200
+          modifiedTime: 1779777236200
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7429,8 +7351,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291965
-          modifiedTime: 1779770291965
+          createdTime: 1779777236201
+          modifiedTime: 1779777236201
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7471,8 +7393,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291965
-          modifiedTime: 1779770291965
+          createdTime: 1779777236201
+          modifiedTime: 1779777236201
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7490,8 +7412,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291965
-      modifiedTime: 1779770291965
+      createdTime: 1779777236200
+      modifiedTime: 1779777236200
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
       duplicateSource: null
@@ -7642,8 +7564,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291963
-          modifiedTime: 1779770291963
+          createdTime: 1779777236197
+          modifiedTime: 1779777236197
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -7666,8 +7588,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291962
-      modifiedTime: 1779770291962
+      createdTime: 1779777236197
+      modifiedTime: 1779777236197
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
@@ -7806,8 +7728,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236193
+      modifiedTime: 1779777236193
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.equipment.Item.OdY7mIZdFXE3fyFj
     _key: '!actors.items!DqLfAsayienM661c.MOwT66tJVbsAfTpr'
@@ -7869,7 +7791,7 @@ items:
             added:
               wQAZuTkD6xcmjUoL: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
               IeZTjwRRjimCWunh: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
-              HzlT9TZ6V1PiuSuY: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+              HQDpHtT5oL7AMXU3: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
           level: 0
           hint: ''
       description:
@@ -7975,8 +7897,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291958
-      modifiedTime: 1779770291958
+      createdTime: 1779777236193
+      modifiedTime: 1779777236193
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.jK79aeEGtkSXSBa4
       duplicateSource: null
@@ -8139,8 +8061,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291964
-          modifiedTime: 1779770291964
+          createdTime: 1779777236199
+          modifiedTime: 1779777236199
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8177,8 +8099,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291964
-          modifiedTime: 1779770291964
+          createdTime: 1779777236200
+          modifiedTime: 1779777236200
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8198,8 +8120,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291964
-      modifiedTime: 1779770291964
+      createdTime: 1779777236199
+      modifiedTime: 1779777236199
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
       duplicateSource: null
@@ -8256,357 +8178,13 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!DqLfAsayienM661c.IeZTjwRRjimCWunh'
-  - folder: bg0sAuURuHmqUcuY
-    name: Trance
-    type: feat
-    _id: HzlT9TZ6V1PiuSuY
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement:
-        KEJUPz8q74IDxj2V:
-          type: Trait
-          _id: KEJUPz8q74IDxj2V
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - weapon:*
-                  - tool:*
-              - count: 1
-                pool:
-                  - tool:*
-                  - weapon:*
-            grants: []
-            mode: default
-          flags: {}
-          level: 0
-          hint: ''
-          title: ''
-          value:
-            chosen:
-              - weapon:mar:shortsword
-              - tool:art:cook
-        SkPNiVF7rZQNOrV1:
-          type: ItemChoice
-          _id: SkPNiVF7rZQNOrV1
-          configuration:
-            allowDrops: false
-            choices:
-              '0':
-                count: 1
-                replacement: false
-            pool:
-              - uuid: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-              - uuid: Compendium.draenal-common.species.Item.QVOLwwPwVE4zU0c2
-              - uuid: Compendium.draenal-common.species.Item.erzSzSLs0v4SwsuN
-              - uuid: Compendium.draenal-common.species.Item.hSQCcWAjbBS5AxFX
-            restriction:
-              list: []
-              type: race
-            spell: null
-            type: feat
-          flags: {}
-          value:
-            added:
-              '0':
-                Eu1yS4k5pMaZ7Yqm: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-            replaced: {}
-          hint: ''
-          title: Choose Eladrin Season
-          icon: icons/magic/nature/leaf-glow-maple-green.webp
-      description:
-        value: >-
-          <div class="ddb"><p>You don't need to sleep, and magic can't put you
-          to sleep. You can finish a long rest in 4 hours if you spend those
-          hours in a trancelike meditation, during which you retain
-          consciousness.</p><p>Whenever you finish this trance, you can change
-          your season, and you can gain two proficiencies that you don't have,
-          each one with a weapon or a tool of your choice selected from the <a
-          title="Player's Handbook"
-          href="https://www.dndbeyond.com/sources/phb"><em>Player's
-          Handbook</em></a>. You mystically acquire these proficiencies by
-          drawing them from shared elven memory, and you retain them until you
-          finish your next long rest.</p></div>
-        chat: ''
-      identifier: trance
-      source:
-        revision: 1
-        rules: '2024'
-        book: 'Mordenkainen Presents: Monsters of the Multiverse'
-        page: ''
-        custom: ''
-        license: ''
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties: []
-      requirements: Eladrin
-      type:
-        value: race
-        subtype: ''
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
-        advancementOrigin: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
-        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
-        '-=riders': null
-    _stats:
-      coreVersion: '14.361'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!DqLfAsayienM661c.HzlT9TZ6V1PiuSuY'
-  - folder: bg0sAuURuHmqUcuY
-    name: Spring Eladrin
-    type: feat
-    _id: Eu1yS4k5pMaZ7Yqm
-    img: icons/magic/nature/leaf-glow-maple-green.webp
-    system:
-      activities:
-        sqcT36LpbUTa07dg:
-          type: enchant
-          name: Enhance Fey Step
-          img: icons/magic/nature/leaf-glow-maple-green.webp
-          sort: 0
-          activation:
-            type: ''
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: 48HlATy7kqoUTsTL
-              level:
-                min: 3
-                max: null
-              riders:
-                activity:
-                  - 9S1rcRYONFCV2dq1
-                effect: []
-                item: []
-          flags: {}
-          range:
-            units: self
-            override: false
-            special: ''
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-              type: ''
-            affects:
-              choice: false
-              type: ''
-            override: false
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: 3
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          enchant:
-            self: false
-          restrictions:
-            allowMagical: false
-            categories: []
-            properties: []
-            type: feat
-          _id: sqcT36LpbUTa07dg
-        9S1rcRYONFCV2dq1:
-          type: utility
-          _id: 9S1rcRYONFCV2dq1
-          img: icons/magic/nature/leaf-glow-maple-green.webp
-          sort: 100000
-          activation:
-            type: special
-            override: false
-            condition: When you use Fey Step
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          flags: {}
-          range:
-            units: ft
-            override: false
-            special: ''
-            value: '5'
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-              type: circle
-              size: '30'
-              count: ''
-            affects:
-              choice: false
-              type: willing
-              count: '1'
-              special: ''
-            override: false
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: null
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          roll:
-            prompt: false
-            visible: false
-            name: ''
-            formula: ''
-          name: Spring Fey Step Teleport
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement: {}
-      description:
-        value: >-
-          <p>When you use your Fey Step, you can touch one willing creature
-          within 5 feet of you. That creature then teleports instead of you,
-          appearing in an unoccupied space of your choice that you can see
-          within 30 feet of you.</p>
-        chat: ''
-      identifier: spring-eladrin
-      source:
-        revision: 1
-        rules: '2024'
-        book: 'Mordenkainen Presents: Monsters of the Multiverse'
-        page: ''
-        custom: ''
-        license: ''
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties:
-        - trait
-      requirements: Eladrin
-      type:
-        value: race
-        subtype: ''
-    effects:
-      - name: Spring Eladrin
-        img: icons/magic/nature/leaf-glow-maple-green.webp
-        origin: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-        type: enchantment
-        _id: 48HlATy7kqoUTsTL
-        system:
-          changes: []
-        disabled: true
-        start: null
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        description: ''
-        tint: '#ffffff'
-        transfer: true
-        statuses: []
-        showIcon: 1
-        folder: null
-        sort: 0
-        flags:
-          dnd5e:
-            riders:
-              statuses: []
-        _stats:
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770291963
-          modifiedTime: 1779770291963
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !actors.items.effects!DqLfAsayienM661c.Eu1yS4k5pMaZ7Yqm.48HlATy7kqoUTsTL
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity:
-            - 9S1rcRYONFCV2dq1
-          '-=effect': null
-        sourceId: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-        advancementOrigin: HzlT9TZ6V1PiuSuY.SkPNiVF7rZQNOrV1
-        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
-    _stats:
-      coreVersion: '14.361'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770291963
-      modifiedTime: 1779770291963
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!DqLfAsayienM661c.Eu1yS4k5pMaZ7Yqm'
   - name: Bullets, Firearm
     system:
       description:
@@ -8681,8 +8259,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
+      createdTime: 1779777236193
+      modifiedTime: 1779777236193
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbamoBulletsFir
@@ -8817,8 +8395,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
+      createdTime: 1779777236193
+      modifiedTime: 1779777236193
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.dmgPotionOfHeali
@@ -8953,8 +8531,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
+      createdTime: 1779777236193
+      modifiedTime: 1779777236193
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.equipment.Item.eCMrFyeVUUZllahL
       duplicateSource: null
@@ -9064,8 +8642,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
       lastModifiedBy: draenalcommon000
       duplicateSource: null
       exportSource: null
@@ -9253,8 +8831,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291966
-          modifiedTime: 1779770291966
+          createdTime: 1779777236201
+          modifiedTime: 1779777236201
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -9292,8 +8870,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291966
-          modifiedTime: 1779770291966
+          createdTime: 1779777236201
+          modifiedTime: 1779777236201
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: cTNQ2KRJLj4CRpQJ
@@ -9332,8 +8910,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291966
-          modifiedTime: 1779770291966
+          createdTime: 1779777236202
+          modifiedTime: 1779777236202
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: 6hOGzq87iQntkHE5
@@ -9372,8 +8950,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291967
-          modifiedTime: 1779770291967
+          createdTime: 1779777236202
+          modifiedTime: 1779777236202
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: Fs7zeTW4u9SvteWO
@@ -9412,8 +8990,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291967
-          modifiedTime: 1779770291967
+          createdTime: 1779777236202
+          modifiedTime: 1779777236202
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: o1Gvp7nIrEHqdn3g
@@ -9452,8 +9030,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291967
-          modifiedTime: 1779770291967
+          createdTime: 1779777236202
+          modifiedTime: 1779777236202
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: n4jjrd9bNOaDkos7
@@ -9492,8 +9070,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291967
-          modifiedTime: 1779770291967
+          createdTime: 1779777236202
+          modifiedTime: 1779777236202
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: EHMDA2J47jwUUTKu
@@ -9532,8 +9110,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291967
-          modifiedTime: 1779770291967
+          createdTime: 1779777236202
+          modifiedTime: 1779777236202
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: YnQP5Rd6w5NwZVLN
@@ -9554,8 +9132,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291966
-      modifiedTime: 1779770291966
+      createdTime: 1779777236201
+      modifiedTime: 1779777236201
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplAid0000000
@@ -9714,8 +9292,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells.Item.9eOZDBImVKxbeOyZ
@@ -9838,8 +9416,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291959
-      modifiedTime: 1779770291959
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplLesserRest
@@ -10012,8 +9590,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291964
-          modifiedTime: 1779770291964
+          createdTime: 1779777236197
+          modifiedTime: 1779777236197
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10030,8 +9608,8 @@ items:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291963
-      modifiedTime: 1779770291963
+      createdTime: 1779777236197
+      modifiedTime: 1779777236197
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.draenal-common.private-equipment.Item.hx8nZkMTn8MzhCcH
@@ -10232,12 +9810,13 @@ items:
         sourceId: Compendium.draenal-common.classes.Item.YmGBL9DCW3m08FYe
         advancementOrigin: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
         advancementRoot: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
+        '-=riders': null
     _stats:
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291834
-      modifiedTime: 1779770291838
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
       lastModifiedBy: draenalcommon000
       duplicateSource: null
       exportSource: null
@@ -10432,14 +10011,15 @@ items:
         sourceId: Compendium.draenal-common.classes.Item.1znSvxEscd3VIcNy
         advancementOrigin: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
         advancementRoot: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
+        '-=riders': null
     _stats:
       duplicateSource: null
       exportSource: null
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291835
-      modifiedTime: 1779770291838
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.classes.Item.1znSvxEscd3VIcNy
     _key: '!actors.items!DqLfAsayienM661c.vmw6xcLpCKbiweav'
@@ -10596,8 +10176,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291835
-          modifiedTime: 1779770291835
+          createdTime: 1779777236198
+          modifiedTime: 1779777236198
           lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
@@ -10617,13 +10197,14 @@ items:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplSleep00000
         advancementOrigin: vmw6xcLpCKbiweav.jYuYrC1qwtWKFW4E
         advancementRoot: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291835
-      modifiedTime: 1779770291838
+      createdTime: 1779777236198
+      modifiedTime: 1779777236198
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSleep00000
@@ -10775,8 +10356,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291836
-          modifiedTime: 1779770291836
+          createdTime: 1779777236198
+          modifiedTime: 1779777236198
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -10793,13 +10374,14 @@ items:
         sourceId: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
         advancementOrigin: vmw6xcLpCKbiweav.jYuYrC1qwtWKFW4E
         advancementRoot: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291836
-      modifiedTime: 1779770291839
+      createdTime: 1779777236198
+      modifiedTime: 1779777236198
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
@@ -10968,8 +10550,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291837
-          modifiedTime: 1779770291837
+          createdTime: 1779777236199
+          modifiedTime: 1779777236199
           lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
@@ -11006,8 +10588,8 @@ items:
           coreVersion: '14.361'
           systemId: dnd5e
           systemVersion: 5.3.2
-          createdTime: 1779770291837
-          modifiedTime: 1779770291837
+          createdTime: 1779777236199
+          modifiedTime: 1779777236199
           lastModifiedBy: draenalcommon000
           exportSource: null
         _id: cb3KFq1j9UkOUV2l
@@ -11028,13 +10610,14 @@ items:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
         advancementOrigin: vmw6xcLpCKbiweav.28pGOZ9wx28ewzhU
         advancementRoot: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
+        '-=riders': null
     _stats:
       duplicateSource: null
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291837
-      modifiedTime: 1779770291839
+      createdTime: 1779777236199
+      modifiedTime: 1779777236199
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
@@ -11178,17 +10761,438 @@ items:
         sourceId: Compendium.draenal-common.spells.Item.AGoLJRS1CHl5SJsr
         advancementOrigin: vmw6xcLpCKbiweav.28pGOZ9wx28ewzhU
         advancementRoot: ToJmn9vpm3DuGyuJ.cUaQxfwBjjOtqARD
+        '-=riders': null
     _stats:
       duplicateSource: null
       exportSource: null
       coreVersion: '14.361'
       systemId: dnd5e
       systemVersion: 5.3.2
-      createdTime: 1779770291838
-      modifiedTime: 1779770291839
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.spells.Item.AGoLJRS1CHl5SJsr
     _key: '!actors.items!DqLfAsayienM661c.HpqDrtXXJmeEWD97'
+  - name: Studded Leather Armor
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 45
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 13
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 12
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: light
+        baseItem: studded
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: null
+      proficient: null
+      activities: {}
+      identifier: studded-leather-armor
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: sN0jK5L3Id6rmDc9
+    type: equipment
+    folder: G3X11BbtmEqLmEnK
+    img: icons/equipment/chest/breastplate-rivited-red.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779777236194
+      modifiedTime: 1779777236194
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmStuddedLea
+    _key: '!actors.items!DqLfAsayienM661c.sN0jK5L3Id6rmDc9'
+  - folder: bg0sAuURuHmqUcuY
+    name: Trance
+    type: feat
+    _id: HQDpHtT5oL7AMXU3
+    img: icons/magic/perception/third-eye-blue-red.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        KEJUPz8q74IDxj2V:
+          type: Trait
+          _id: KEJUPz8q74IDxj2V
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - weapon:*
+                  - tool:*
+              - count: 1
+                pool:
+                  - tool:*
+                  - weapon:*
+            grants: []
+            mode: default
+          flags: {}
+          level: 0
+          hint: ''
+          title: ''
+          value:
+            chosen:
+              - weapon:mar:pistol
+              - tool:art:cook
+        SkPNiVF7rZQNOrV1:
+          type: ItemChoice
+          _id: SkPNiVF7rZQNOrV1
+          configuration:
+            allowDrops: false
+            choices:
+              '0':
+                count: 1
+                replacement: false
+            pool:
+              - uuid: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+              - uuid: Compendium.draenal-common.species.Item.QVOLwwPwVE4zU0c2
+              - uuid: Compendium.draenal-common.species.Item.erzSzSLs0v4SwsuN
+              - uuid: Compendium.draenal-common.species.Item.hSQCcWAjbBS5AxFX
+            restriction:
+              list: []
+              type: race
+            spell: null
+            type: feat
+          flags: {}
+          value:
+            added:
+              '0':
+                9iC5zhLIjSRkK4lb: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+            replaced: {}
+          hint: ''
+          title: Choose Eladrin Season
+          icon: icons/magic/nature/leaf-glow-maple-green.webp
+      description:
+        value: >-
+          <div class="ddb"><p>You don't need to sleep, and magic can't put you
+          to sleep. You can finish a long rest in 4 hours if you spend those
+          hours in a trancelike meditation, during which you retain
+          consciousness.</p><p>Whenever you finish this trance, you can change
+          your season, and you can gain two proficiencies that you don't have,
+          each one with a weapon or a tool of your choice selected from the <a
+          title="Player's Handbook"
+          href="https://www.dndbeyond.com/sources/phb"><em>Player's
+          Handbook</em></a>. You mystically acquire these proficiencies by
+          drawing them from shared elven memory, and you retain them until you
+          finish your next long rest.</p></div>
+        chat: ''
+      identifier: trance
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Mordenkainen Presents: Monsters of the Multiverse'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: Eladrin
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+        advancementOrigin: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779777236046
+      modifiedTime: 1779777236047
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
+    _key: '!actors.items!DqLfAsayienM661c.HQDpHtT5oL7AMXU3'
+  - folder: bg0sAuURuHmqUcuY
+    name: Spring Eladrin
+    type: feat
+    _id: 9iC5zhLIjSRkK4lb
+    img: icons/magic/nature/leaf-glow-maple-green.webp
+    system:
+      activities:
+        sqcT36LpbUTa07dg:
+          type: enchant
+          name: Enhance Fey Step
+          img: icons/magic/nature/leaf-glow-maple-green.webp
+          sort: 0
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: 48HlATy7kqoUTsTL
+              level:
+                min: 3
+                max: null
+              riders:
+                activity:
+                  - 9S1rcRYONFCV2dq1
+                effect: []
+                item: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: 3
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          enchant:
+            self: false
+          restrictions:
+            allowMagical: false
+            categories: []
+            properties: []
+            type: feat
+          _id: sqcT36LpbUTa07dg
+        9S1rcRYONFCV2dq1:
+          type: utility
+          _id: 9S1rcRYONFCV2dq1
+          img: icons/magic/nature/leaf-glow-maple-green.webp
+          sort: 100000
+          activation:
+            type: special
+            override: false
+            condition: When you use Fey Step
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: ft
+            override: false
+            special: ''
+            value: '5'
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: circle
+              size: '30'
+              count: ''
+            affects:
+              choice: false
+              type: willing
+              count: '1'
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: Spring Fey Step Teleport
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>When you use your Fey Step, you can touch one willing creature
+          within 5 feet of you. That creature then teleports instead of you,
+          appearing in an unoccupied space of your choice that you can see
+          within 30 feet of you.</p>
+        chat: ''
+      identifier: spring-eladrin
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Mordenkainen Presents: Monsters of the Multiverse'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: Eladrin
+      type:
+        value: race
+        subtype: ''
+    effects:
+      - name: Spring Eladrin
+        img: icons/magic/nature/leaf-glow-maple-green.webp
+        origin: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+        type: enchantment
+        _id: 48HlATy7kqoUTsTL
+        system:
+          changes: []
+        disabled: true
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779777236047
+          modifiedTime: 1779777236047
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!DqLfAsayienM661c.9iC5zhLIjSRkK4lb.48HlATy7kqoUTsTL
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity:
+            - 9S1rcRYONFCV2dq1
+        sourceId: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+        advancementOrigin: HQDpHtT5oL7AMXU3.SkPNiVF7rZQNOrV1
+        advancementRoot: HsOQjT6QffmP1U37.X5wGVSGtuimEnkYJ
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779777236047
+      modifiedTime: 1779777236047
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: Compendium.draenal-common.species.Item.NoVJTpExgcMfR2UQ
+    _key: '!actors.items!DqLfAsayienM661c.9iC5zhLIjSRkK4lb'
 effects: []
 folder: null
 sort: 0
@@ -11373,7 +11377,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776813204402
-  modifiedTime: 1779754392738
+  modifiedTime: 1779777236238
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

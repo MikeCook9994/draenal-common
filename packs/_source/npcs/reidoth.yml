@@ -1,0 +1,4409 @@
+name: Reidoth
+type: character
+_id: thWYLXtTB4OruDhr
+img: modules/draenal-common/assets/pc-images/Avatar.Reidoth.webp?v=1779822484111
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 7
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 10
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 20
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+  tools:
+    cartographer:
+      value: 1
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        check: ''
+    herb:
+      value: 1
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        check: ''
+  spells:
+    spell1:
+      value: 0
+    spell2:
+      value: 0
+    spell3:
+      value: 0
+    spell4:
+      value: 0
+    spell5:
+      value: 0
+    spell6:
+      value: 0
+    spell7:
+      value: 0
+    spell8:
+      value: 0
+    spell9:
+      value: 0
+    pact:
+      value: 0
+  attributes:
+    ac:
+      calc: default
+      flat: null
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      units: null
+      hover: false
+      ignoredDifficultTerrain: []
+    attunement:
+      max: 3
+    senses:
+      ranges:
+        blindsight: null
+        darkvision: null
+        tremorsense: null
+        truesight: null
+      units: null
+      special: ''
+    spellcasting: wis
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hp:
+      max: null
+      temp: null
+      tempmax: 0
+      value: 37
+      bonuses: {}
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    inspiration: false
+  bastion:
+    name: ''
+    description: ''
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: ''
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: MUHB6XnZ6XwYhdqZ
+    background: NYWoaA5hNKaXaHVR
+    originalClass: QxjD0rIC3QGCDr6z
+    xp:
+      value: 0
+    appearance: ''
+    trait: ''
+    gender: ''
+    eyes: ''
+    height: ''
+    faith: ''
+    hair: ''
+    skin: ''
+    age: ''
+    weight: ''
+  traits:
+    size: med
+    di:
+      value: []
+      custom: ''
+      bypasses: []
+    dr:
+      value: []
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+        - elvish
+        - halfling
+        - druidic
+      custom: ''
+      communication: {}
+    weaponProf:
+      value:
+        - sim
+      custom: ''
+      mastery:
+        value: []
+        bonus: []
+    armorProf:
+      value:
+        - lgt
+        - shl
+      custom: ''
+  resources:
+    primary:
+      value: 0
+      max: 0
+      sr: false
+      lr: false
+      label: ''
+    secondary:
+      value: 0
+      max: 0
+      sr: false
+      lr: false
+      label: ''
+    tertiary:
+      value: 0
+      max: 0
+      sr: false
+      lr: false
+      label: ''
+  favorites: []
+prototypeToken:
+  name: Reidoth
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: modules/draenal-common/assets/pc-images/Token.Reidoth.webp?v=1779822482726
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Changling
+    type: race
+    _id: MUHB6XnZ6XwYhdqZ
+    img: icons/creatures/magical/spirit-undead-masked-blue.webp
+    system:
+      advancement:
+        QZqHBbOe0TVmJiKJ:
+          type: Size
+          _id: QZqHBbOe0TVmJiKJ
+          configuration:
+            sizes:
+              - sm
+              - med
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            size: med
+          title: ''
+        Wp9ZzaIiwtmdUP9j:
+          type: Trait
+          _id: Wp9ZzaIiwtmdUP9j
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - skills:dec
+                  - skills:ins
+                  - skills:itm
+                  - skills:prf
+                  - skills:per
+              - count: 1
+                pool:
+                  - skills:dec
+                  - skills:ins
+                  - skills:itm
+                  - skills:prf
+                  - skills:per
+            grants: []
+            mode: default
+          flags: {}
+          level: 0
+          hint: >-
+            <div class="ddb"><p>Thanks to your connection to the fey realm, you
+            gain proficiency in two of the following skills of your choice:
+            &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
+            &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance},
+            or &amp;Reference[per]{Persuasion}.</p></div>
+          title: Changling Instrincts
+          icon: icons/skills/social/diplomacy-handshake.webp
+          value:
+            chosen:
+              - skills:ins
+              - skills:per
+        vf1aKruiiVZ4x2RO:
+          type: ItemGrant
+          title: Traits
+          _id: vf1aKruiiVZ4x2RO
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+                optional: false
+              - uuid: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+                optional: false
+            optional: false
+            spell: null
+          flags: {}
+          value:
+            added:
+              ZSnJzIl1oFOg4B79: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+              HZhHuHsVva1ALgh9: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+          level: 0
+          hint: ''
+      description:
+        value: >-
+          <div class="ddb"><p>With ever-changing appearances, changelings reside
+          in many societies undetected.</p><p><span style="font-family:'Roboto
+          Condensed'"><strong>Changeling Traits</strong></span></p><p><span
+          style="font-family:'Roboto Condensed'">Changeling Instincts,
+          Shape-Shifter</span></p><p><strong>Creature Type</strong></p><p>You're
+          a Fey.</p><p><strong>Size</strong></p><p>Medium (about 4–7 feet tall)
+          or Small (about 2–4 feet tall), chosen when you select this
+          species</p><p><strong>Speed</strong></p><p>Your Speed is 30
+          feet.</p><p><strong>Languages</strong></p><p>Your character knows at
+          least three languages: Common plus two languages you roll or choose
+          from the Standard Languages table. Knowledge of a language means your
+          character can communicate in it, read it, and write it. Your class and
+          other features might also give you languages.</p><p>The Standard
+          Languages table lists languages that are widespread on D&amp;D worlds.
+          Every player character knows Common, which originated in the planar
+          metropolis of Sigil, the hub of the multiverse. The other standard
+          languages originated with the first members of the most prominent
+          species in the worlds of D&amp;D and have since spread
+          widely.</p><table
+          style="--sb-table-row-bg-hover:#b3d3df;--sb-table-row-bg-dark:#d7e8ee;--sb-table-row-bg-light:#f1f7f9;--dark-sb-table-row-bg-light:#5e7982;--dark-sb-table-row-bg-dark:#5c7f8c;--dark-sb-table-row-bg-hover:#78a2b0"
+          class="table-compendium
+          table--generic-dice"><caption><p><strong>Standard
+          Languages</strong></p></caption><thead><tr><th><p>1d12</p></th><th><p>Language</p></th><th><p>Origin</p></th></tr></thead><tbody><tr><td><p>—</p></td><td><p>Common</p></td><td><p>Sigil</p></td></tr><tr><td><p>1</p></td><td><p>Common
+          Sign
+          Language</p></td><td><p>Sigil</p></td></tr><tr><td><p>2</p></td><td><p>Draconic</p></td><td><p>Dragons</p></td></tr><tr><td><p>3-4</p></td><td><p>Dwarvish</p></td><td><p>Dwarves</p></td></tr><tr><td><p>5-6</p></td><td><p>Elvish</p></td><td><p>Elves</p></td></tr><tr><td><p>7</p></td><td><p>Giant</p></td><td><p>Giants</p></td></tr><tr><td><p>8</p></td><td><p>Gnomish</p></td><td><p>Gnomes</p></td></tr><tr><td><p>9</p></td><td><p>Goblin</p></td><td><p>Goblinoids</p></td></tr><tr><td><p>10-11</p></td><td><p>Halfling</p></td><td><p>Halflings</p></td></tr><tr><td><p>12</p></td><td><p>Orc</p></td><td><p>Orcs</p></td></tr></tbody></table><p><strong>Changeling
+          Instincts</strong></p><p>Thanks to your connection to the fey realm,
+          you gain proficiency in two of the following skills of your choice:
+          &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
+          &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance},
+          or
+          &amp;Reference[per]{Persuasion}.</p><p><strong>Shape-Shifter</strong></p><p>As
+          an action, you can shape-shift to change your appearance and your
+          voice. You determine the specifics of the changes, including your
+          coloration, hair length, and sex. You can also adjust your height and
+          weight and can change your size between Medium and Small. You can make
+          yourself appear as a member of another playable species, though none
+          of your game statistics change. You can't duplicate the appearance of
+          an individual you've never seen, and you must adopt a form that has
+          the same basic arrangement of limbs that you have. This trait doesn't
+          change your clothing and equipment.</p><p>While shape-shifted with
+          this trait, you have Advantage on Charisma checks.</p><p>You stay in
+          the new form until you take an action to revert to your true
+          form.</p></div>
+        chat: ''
+      identifier: changling
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artificer'
+        page: ''
+        custom: ''
+        license: ''
+      movement:
+        units: ft
+        hover: false
+        ignoredDifficultTerrain: []
+        walk: '30'
+        burrow: ''
+        climb: ''
+        fly: ''
+        swim: ''
+      senses:
+        ranges:
+          blindsight: null
+          darkvision: null
+          tremorsense: null
+          truesight: null
+        units: ft
+        special: ''
+      type:
+        value: fey
+        custom: ''
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.MUHB6XnZ6XwYhdqZ'
+  - folder: oLcAEKfoUODjH5eS
+    name: Shape-Shifter
+    type: feat
+    _id: ZSnJzIl1oFOg4B79
+    img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+    system:
+      activities:
+        d7if2E4vE6uxiOiL:
+          type: transform
+          name: Shape-Shift
+          _id: d7if2E4vE6uxiOiL
+          img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          profiles:
+            - name: ''
+              _id: mz0Mr6C1NLihx6lw
+              uuid: null
+              level:
+                min: null
+                max: null
+              movement: []
+              sizes: []
+              types: []
+          settings: null
+          transform:
+            customize: false
+            mode: ''
+            preset: polymorphSelf
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <div class="ddb"><p>As an action, you can shape-shift to change your
+          appearance and your voice. You determine the specifics of the changes,
+          including your coloration, hair length, and sex. You can also adjust
+          your height and weight and can change your size between Medium and
+          Small. You can make yourself appear as a member of another playable
+          species, though none of your game statistics change. You can't
+          duplicate the appearance of an individual you've never seen, and you
+          must adopt a form that has the same basic arrangement of limbs that
+          you have. This trait doesn't change your clothing and
+          equipment.</p><p>You stay in the new form until you take an action to
+          revert to your true form.</p></div>
+        chat: ''
+      identifier: shape-shifter
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artificer'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: Changling
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+        advancementOrigin: MUHB6XnZ6XwYhdqZ.vf1aKruiiVZ4x2RO
+        advancementRoot: MUHB6XnZ6XwYhdqZ.vf1aKruiiVZ4x2RO
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.ZSnJzIl1oFOg4B79'
+  - folder: oLcAEKfoUODjH5eS
+    name: More than a Face
+    type: feat
+    _id: HZhHuHsVva1ALgh9
+    img: icons/equipment/head/hood-cloth-blue-white.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        e1XHkRRDlDEXW5JG:
+          type: Trait
+          title: Skill or Tool Proficiency
+          _id: e1XHkRRDlDEXW5JG
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - skills:*
+                  - tool:*
+            grants: []
+            mode: upgrade
+          flags: {}
+          level: 3
+          hint: ''
+          value:
+            chosen:
+              - skills:ins
+      description:
+        value: >-
+          <p>A proper disguise goes beyond the face and mannerisms. Changlings
+          must adapt the skills and vocations of those that they are attempting
+          to impersonate. Starting at character level 3, while you are
+          shape-shifted with your Shape-Shifter trait, you gain proficiency in
+          one skill or tool of your choice. You instead gain Expertise in the
+          chosen tool or skill if you already proficient.</p>
+        chat: ''
+      identifier: more-than-a-face
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 3
+      properties: []
+      requirements: Changling
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+        advancementOrigin: MUHB6XnZ6XwYhdqZ.vf1aKruiiVZ4x2RO
+        advancementRoot: MUHB6XnZ6XwYhdqZ.vf1aKruiiVZ4x2RO
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.HZhHuHsVva1ALgh9'
+  - name: Guide
+    type: background
+    _id: NYWoaA5hNKaXaHVR
+    img: icons/environment/wilderness/mine-interior-dungeon-door.webp
+    system:
+      advancement:
+        9qEPDnrBl8Oexvn7:
+          type: AbilityScoreImprovement
+          configuration:
+            points: 3
+            cap: 2
+            fixed: {}
+            locked: []
+            recommendation: null
+          _id: 9qEPDnrBl8Oexvn7
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            type: asi
+            assignments:
+              con: 1
+              wis: 2
+        TADge7L2EFRc5jdS:
+          type: Trait
+          title: Background Proficiencies
+          _id: TADge7L2EFRc5jdS
+          configuration:
+            allowReplacements: false
+            choices: []
+            grants:
+              - skills:ste
+              - skills:sur
+              - tool:art:cartographer
+            mode: default
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - skills:ste
+              - skills:sur
+              - tool:art:cartographer
+        vrxusSUfKm1VUhCM:
+          type: Trait
+          title: Choose Languages
+          configuration:
+            grants:
+              - languages:standard:common
+            allowReplacements: false
+            choices:
+              - count: 2
+                pool:
+                  - languages:*
+            mode: default
+          _id: vrxusSUfKm1VUhCM
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - languages:standard:common
+              - languages:standard:elvish
+              - languages:standard:halfling
+        QamK9sXUjMVRPXsv:
+          type: ItemGrant
+          title: Background Feat
+          _id: QamK9sXUjMVRPXsv
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.feats24.Item.phbftMagicInitia
+                optional: false
+            optional: false
+            spell: null
+          flags: {}
+          value:
+            added:
+              XwkwBmeqyGkXFnzW: Compendium.dnd5e.feats24.Item.phbftMagicInitia
+          level: 0
+          hint: ''
+      description:
+        value: >-
+          <p><strong>Ability Scores:</strong> Dexterity, Constitution,
+          Wisdom</p><p><strong>Feat:</strong>
+          @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate}
+          (Druid)</p><p><strong>Skill Proficiencies:</strong> Sealth and
+          Survival</p><p><strong>Tool Proficiency:</strong> Cartographer's
+          Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A)
+          @UUID[Compendium.dnd5e.equipment24.Item.phbwepShortbow00]{Shortbow},
+          20 @UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{Arrows},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbtulCartograph]{Cartographer's
+          Tools},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{Quiver},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagTent0000000]{Tent},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagClothesTrav]{Clothes,
+          Traveler's}, 3 GP; or (B) 50 GP</p>
+        chat: ''
+      identifier: guide
+      source:
+        revision: 1
+        rules: '2024'
+        book: Player's Handbook 2024
+        page: ''
+        custom: ''
+        license: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: qW1UO4tLVqVQhov6
+          group: ''
+          sort: 100000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbwepShortbow00
+          requiresProficiency: false
+          _id: MthEstVpaAbsusqV
+          group: qW1UO4tLVqVQhov6
+          sort: 200000
+        - type: linked
+          count: 20
+          key: Compendium.dnd5e.equipment24.Item.phbamoArrows0000
+          requiresProficiency: false
+          _id: dwD5AreN8pyyXCsS
+          group: qW1UO4tLVqVQhov6
+          sort: 300000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbtulCartograph
+          requiresProficiency: false
+          _id: vigjCA00v4BUD5jZ
+          group: qW1UO4tLVqVQhov6
+          sort: 400000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
+          requiresProficiency: false
+          _id: AjTC2gZ8gw8Vpz4V
+          group: qW1UO4tLVqVQhov6
+          sort: 500000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagQuiver00000
+          requiresProficiency: false
+          _id: XB79k9ipGOrbjEvC
+          group: qW1UO4tLVqVQhov6
+          sort: 600000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagTent0000000
+          requiresProficiency: false
+          _id: e3gOsS7SuBlWPX7S
+          group: qW1UO4tLVqVQhov6
+          sort: 700000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagClothesTrav
+          requiresProficiency: false
+          _id: RYOtyRRdOwn5DAuV
+          group: qW1UO4tLVqVQhov6
+          sort: 800000
+        - type: currency
+          count: 3
+          key: gp
+          requiresProficiency: false
+          _id: 0JD4kPQYQ1IA5F5V
+          group: qW1UO4tLVqVQhov6
+          sort: 900000
+      wealth: '50'
+    effects: []
+    folder: null
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.NYWoaA5hNKaXaHVR'
+  - name: Magic Initiate
+    system:
+      description:
+        value: >-
+          <p>You gain the following benefits.</p><p><strong>Two
+          Cantrips.</strong> You learn two cantrips of your choice from the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric},
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid},
+          or
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard}
+          spell list. Intelligence, Wisdom, or Charisma is your spellcasting
+          ability for this feat's spells (choose when you select this
+          feat).</p><p><strong>Level 1 Spell.</strong> Choose a level 1 spell
+          from the same list you selected for this feat's cantrips. You always
+          have that spell prepared. You can cast it once without a spell slot,
+          and you regain the ability to cast it in that way when you finish a
+          Long Rest. You can also cast the spell using any spell slots you
+          have.</p><p><strong>Spell Change.</strong> Whenever you gain a new
+          level, you can replace one of the spells you chose for this feat with
+          a different spell of the same level from the chosen spell
+          list.</p><p><strong>Repeatable.</strong> You can take this feat more
+          than once, but you must choose a different spell list each time.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: feat
+        subtype: origin
+      prerequisites:
+        level: null
+        repeatable: true
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: magic-initiate
+      advancement:
+        ElkyDafWSUXOkPdJ:
+          type: ItemChoice
+          _id: ElkyDafWSUXOkPdJ
+          configuration:
+            allowDrops: true
+            choices:
+              '0':
+                count: 2
+                replacement: false
+            pool: []
+            restriction:
+              list:
+                - class:cleric
+                - class:druid
+                - class:wizard
+              level: '0'
+            spell:
+              ability:
+                - int
+                - wis
+                - cha
+              method: ''
+              uses:
+                max: ''
+                per: ''
+                requireSlot: false
+              prepared: 0
+            type: spell
+          value:
+            added:
+              '0':
+                fzGDz4YiJT4Pk2bk: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
+                vDkY4shPgWoOzs88: Compendium.dnd5e.spells24.Item.phbsplMending000
+            replaced: {}
+            ability: wis
+          title: Two Cantrips
+          hint: ''
+          flags: {}
+        ZbKHs2FVCkJVNW8p:
+          type: ItemChoice
+          configuration:
+            allowDrops: true
+            choices:
+              '0':
+                count: 1
+                replacement: false
+            pool: []
+            restriction:
+              list:
+                - class:cleric
+                - class:druid
+                - class:wizard
+              level: '1'
+            spell:
+              ability:
+                - int
+                - wis
+                - cha
+              method: spell
+              uses:
+                max: '1'
+                per: lr
+                requireSlot: false
+              prepared: 2
+            type: spell
+          value:
+            added:
+              '0':
+                8BhZ7IJwCg1iNxTg: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+            replaced: {}
+            ability: wis
+          title: Level 1 Spell
+          hint: ''
+          _id: ZbKHs2FVCkJVNW8p
+          flags: {}
+      crewed: false
+    _id: XwkwBmeqyGkXFnzW
+    type: feat
+    img: icons/magic/symbols/chevron-elipse-circle-blue.webp
+    effects: []
+    folder: d5jrO8A6QpjEV9rn
+    sort: 112500
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.feats24.Item.phbftMagicInitia
+        advancementOrigin: NYWoaA5hNKaXaHVR.QamK9sXUjMVRPXsv
+        advancementRoot: NYWoaA5hNKaXaHVR.QamK9sXUjMVRPXsv
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.XwkwBmeqyGkXFnzW'
+  - name: Detect Evil and Good
+    system:
+      description:
+        value: >-
+          <p>For the duration, you sense the location of any Aberration,
+          Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
+          yourself. You also sense whether the
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
+          spell is active there and, if so, where.</p><p>The spell is blocked by
+          1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
+          lead.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: radius
+          size: '30'
+          count: ''
+          stationary: false
+      range:
+        value: ''
+        units: self
+        special: ''
+      uses:
+        max: '1'
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
+      level: 1
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - concentration
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: pOgbtXbKVGdbwjjE
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: false
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        N102c2IK9o8AQShm:
+          _id: N102c2IK9o8AQShm
+          type: forward
+          name: (free casting)
+          sort: 1
+          activity:
+            id: dnd5eactivity000
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+            spellSlot: true
+          img: null
+          activation:
+            type: action
+            override: false
+          description: {}
+          flags: {}
+          uses:
+            spent: 0
+            recovery: []
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: detect-evil-and-good
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:magic-initiate
+    _id: 8BhZ7IJwCg1iNxTg
+    type: spell
+    img: icons/magic/perception/eye-ringed-green.webp
+    effects:
+      - name: Detect Evil and Good
+        origin: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+        duration:
+          value: 600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/perception/eye-ringed-green.webp
+        _id: pOgbtXbKVGdbwjjE
+        type: base
+        system:
+          changes: []
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779822660531
+          modifiedTime: 1779822660531
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!thWYLXtTB4OruDhr.8BhZ7IJwCg1iNxTg.pOgbtXbKVGdbwjjE
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4200000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+        advancementOrigin: XwkwBmeqyGkXFnzW.ZbKHs2FVCkJVNW8p
+        advancementRoot: NYWoaA5hNKaXaHVR.QamK9sXUjMVRPXsv
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.8BhZ7IJwCg1iNxTg'
+  - name: Starry Wisp
+    system:
+      description:
+        value: >-
+          <p>You launch a mote of light at one creature or object within range.
+          Make a ranged spell attack against the target. On a hit, the target
+          takes 1d8 Radiant damage, and until the end of your next turn, it
+          emits Dim Light in a 10-foot radius and can't benefit from the
+          &amp;Reference[Invisible] condition.</p><p><strong>Cantrip
+          Upgrade.</strong> The damage increases by 1d8 when you reach levels 5
+          (2d8), 11 (3d8), and 17 (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creatureOrObject
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '60'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        iuVRPWuNTiTm0fkj:
+          type: attack
+          _id: iuVRPWuNTiTm0fkj
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: T9kBIL7LS3j0Upwz
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - radiant
+                scaling:
+                  mode: whole
+                  number: 1
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: starry-wisp
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:magic-initiate
+    _id: fzGDz4YiJT4Pk2bk
+    type: spell
+    img: icons/magic/light/orb-hand-green.webp
+    effects:
+      - name: Illuminated
+        img: icons/sundries/lights/lantern-iron-lit-yellow.webp
+        origin: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
+        transfer: false
+        _id: T9kBIL7LS3j0Upwz
+        type: base
+        system:
+          changes: []
+        disabled: false
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>Until the end of your next turn, it emits Dim Light in a 10-foot
+          radius and can’t benefit from the &amp;Reference[Invisible]
+          condition.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779822660531
+          modifiedTime: 1779822660531
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!thWYLXtTB4OruDhr.fzGDz4YiJT4Pk2bk.T9kBIL7LS3j0Upwz
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 100782
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
+        advancementOrigin: XwkwBmeqyGkXFnzW.ElkyDafWSUXOkPdJ
+        advancementRoot: NYWoaA5hNKaXaHVR.QamK9sXUjMVRPXsv
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.fzGDz4YiJT4Pk2bk'
+  - name: Mending
+    system:
+      description:
+        value: >-
+          <p>This spell repairs a single break or tear in an object you touch,
+          such as a broken chain link, two halves of a broken key, a torn cloak,
+          or a leaking wineskin. As long as the break or tear is no larger than
+          1 foot in any dimension, you mend it, leaving no trace of the former
+          damage.</p><p>This spell can physically repair a magic item, but it
+          can't restore magic to such an object.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: minute
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: two lodestones
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        KWnXo7varYgjCDuk:
+          type: utility
+          _id: KWnXo7varYgjCDuk
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: mending
+      method: spell
+      prepared: 2
+      ability: wis
+      sourceItem: feat:magic-initiate
+    _id: vDkY4shPgWoOzs88
+    type: spell
+    img: icons/commodities/metal/barstock-broken-steel.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 900000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplMending000
+        advancementOrigin: XwkwBmeqyGkXFnzW.ElkyDafWSUXOkPdJ
+        advancementRoot: NYWoaA5hNKaXaHVR.QamK9sXUjMVRPXsv
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.vDkY4shPgWoOzs88'
+  - _id: QxjD0rIC3QGCDr6z
+    name: Druid
+    type: class
+    folder: 5WSAEI5S847BwZ8e
+    img: systems/dnd5e/icons/classes/druid.webp
+    system:
+      description:
+        value: >-
+          <h3>Core Druid Traits</h3><table
+          class="core-class-traits"><tbody><tr><th
+          scope="row"><p><strong>Primary
+          Ability</strong></p></th><td><p>Wisdom</p></td></tr><tr><th
+          scope="row"><p><strong>Hit Point Die</strong></p></th><td><p>D8 per
+          Druid level</p></td></tr><tr><th scope="row"><p><strong>Saving Throw
+          Proficiencies</strong></p></th><td><p>Intelligence and
+          Wisdom</p></td></tr><tr><th scope="row"><p><strong>Skill
+          Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal
+          Handling, Arcana, Insight, Medicine, Nature, Perception, Religion, or
+          Survival</p></td></tr><tr><th scope="row"><p><strong>Weapon
+          Proficiencies</strong></p></th><td><p>Simple
+          weapons</p></td></tr><tr><th scope="row"><p><strong>Tool
+          Proficiencies</strong></p></th><td><p>Herbalism
+          Kit</p></td></tr><tr><th scope="row"><p><strong>Armor
+          Training</strong></p></th><td><p>Light armor and
+          Shields</p></td></tr><tr><th scope="row"><p><strong>Starting
+          Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A)
+          @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{Leather
+          Armor},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{Shield},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbwepSickle0000]{Sickle},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{Druidic
+          Focus}
+          (@UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}),
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{Explorer's
+          Pack},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbtulHerbalismK]{Herbalism
+          Kit}, and [[/award 9GP]]; or (B) [[/award
+          50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbdrdDruid00000
+          inline classes="free-rules-embed"]</p><h2>Becoming a Druid
+          …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in
+          the Core Druid Traits table.</li><li>Gain the Druid's level 1
+          features, which are listed in the Druid Features
+          table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the
+          following traits from the Core Druid Traits table: Hit Point Die and
+          training with Light armor and Shields.</li><li>Gain the Druid's level
+          1 features, which are listed in the Druid Features table. See the
+          multiclassing rules in chapter 2 to determine your available spell
+          slots.</li></ul>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 2
+        license: CC-BY-4.0
+        book: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: SE7gQkJVBVBLku2Z
+          group: ''
+          sort: 100000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+          requiresProficiency: false
+          _id: rkPZmPWx6nzImWwC
+          group: SE7gQkJVBVBLku2Z
+          sort: 200000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+          requiresProficiency: false
+          _id: 9zoKn2Wfan8s4Zrw
+          group: SE7gQkJVBVBLku2Z
+          sort: 300000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbwepSickle0000
+          requiresProficiency: false
+          _id: CVZKjmb4PIYJViPx
+          group: SE7gQkJVBVBLku2Z
+          sort: 400000
+        - type: OR
+          requiresProficiency: false
+          _id: LSQ0jJVeVhuSyjFF
+          group: SE7gQkJVBVBLku2Z
+          sort: 500000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa
+          requiresProficiency: false
+          _id: QSpEE9Vk7jat3iJF
+          group: LSQ0jJVeVhuSyjFF
+          sort: 800000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagExplorersPa
+          requiresProficiency: false
+          _id: anr8GUJzm5gPRqAR
+          group: SE7gQkJVBVBLku2Z
+          sort: 600000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbtulHerbalismK
+          requiresProficiency: false
+          _id: f6RriL1CTIForH9O
+          group: SE7gQkJVBVBLku2Z
+          sort: 700000
+        - type: currency
+          count: 9
+          key: gp
+          requiresProficiency: false
+          _id: lSik2V9Hely7gsff
+          group: SE7gQkJVBVBLku2Z
+          sort: 900000
+      identifier: druid
+      levels: 5
+      advancement:
+        wp38UtjwG71SVceB:
+          _id: wp38UtjwG71SVceB
+          type: HitPoints
+          configuration: {}
+          value:
+            '1': max
+            '2': 4
+            '3': 5
+            '4': 2
+            '5': 8
+          flags: {}
+          hint: ''
+        P65WodekLKSPQLGZ:
+          _id: P65WodekLKSPQLGZ
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
+                optional: false
+            optional: false
+            spell:
+              ability: []
+              uses:
+                max: ''
+                per: ''
+                requireSlot: false
+              prepared: 0
+          value:
+            added:
+              XnF9qaAmROQ8Vkot: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
+              9pEf8gnY2fVfY8EI: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
+              FO2HdyfgQb8zesIM: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
+          level: 1
+          title: Class Features
+          hint: ''
+          flags: {}
+        hmO24ovOBpmXAb4U:
+          _id: hmO24ovOBpmXAb4U
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              ZqBv1ysnDrdqxRLC: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+              J2MECHV3IexyuUzU: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
+          level: 2
+          title: Class Features
+          flags: {}
+          hint: ''
+        J2JpbQEZhVD3Dnjz:
+          _id: J2JpbQEZhVD3Dnjz
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdWildResurg
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              Xh2AO64soLHQFcaP: Compendium.dnd5e.classes24.Item.phbdrdWildResurg
+          level: 5
+          title: Class Features
+          flags: {}
+          hint: ''
+        2G5tFifGdMns95Jw:
+          _id: 2G5tFifGdMns95Jw
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdElementalF
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 7
+          title: Class Features
+          flags: {}
+          hint: ''
+        uNjxqZQ9lZuOKmU7:
+          _id: uNjxqZQ9lZuOKmU7
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdImprovedEl
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 15
+          title: Class Features
+          flags: {}
+          hint: ''
+        3DZ1Olv41g5BzP4z:
+          _id: 3DZ1Olv41g5BzP4z
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.classes24.Item.phbdrdBeastSpell
+            optional: false
+            spell: null
+          value: {}
+          level: 18
+          title: Class Features
+          flags: {}
+          hint: ''
+        K72jypxSpzVJRXDh:
+          _id: K72jypxSpzVJRXDh
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdArchdruid0
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 20
+          title: Class Features
+          flags: {}
+          hint: ''
+        bwCLOdauuzoHofil:
+          _id: bwCLOdauuzoHofil
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value:
+            type: asi
+            assignments:
+              wis: 2
+          level: 4
+          title: ''
+          flags: {}
+          hint: ''
+        mRSh9oUVjLU33e7p:
+          _id: mRSh9oUVjLU33e7p
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 8
+          title: ''
+          flags: {}
+          hint: ''
+        mhZh3LfLMa15tXee:
+          _id: mhZh3LfLMa15tXee
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 12
+          title: ''
+          flags: {}
+          hint: ''
+        FOf5CkGnSs0OlppY:
+          _id: FOf5CkGnSs0OlppY
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 16
+          title: ''
+          flags: {}
+          hint: ''
+        JoHnvnMWRhadHGwf:
+          _id: JoHnvnMWRhadHGwf
+          type: ScaleValue
+          configuration:
+            identifier: ''
+            type: number
+            distance:
+              units: ''
+            scale:
+              '1':
+                value: 2
+              '4':
+                value: 3
+              '10':
+                value: 4
+          value: {}
+          title: Cantrips Known
+          hint: ''
+          flags: {}
+        VmNGSY7Jbmy4AwBb:
+          _id: VmNGSY7Jbmy4AwBb
+          type: ScaleValue
+          configuration:
+            identifier: max-prepared
+            type: number
+            distance:
+              units: ''
+            scale:
+              '1':
+                value: 4
+              '2':
+                value: 5
+              '3':
+                value: 6
+              '4':
+                value: 7
+              '5':
+                value: 9
+              '6':
+                value: 10
+              '7':
+                value: 11
+              '8':
+                value: 12
+              '9':
+                value: 14
+              '10':
+                value: 15
+              '11':
+                value: 16
+              '13':
+                value: 17
+              '15':
+                value: 18
+              '17':
+                value: 19
+              '18':
+                value: 20
+              '19':
+                value: 21
+              '20':
+                value: 22
+          value: {}
+          title: Max Prepared Spells
+          hint: ''
+          flags: {}
+        pIfdGSkqdp00omkE:
+          _id: pIfdGSkqdp00omkE
+          type: ScaleValue
+          configuration:
+            identifier: wild-shape
+            type: cr
+            distance:
+              units: ''
+            scale:
+              '2':
+                value: 0.25
+              '4':
+                value: 0.5
+              '8':
+                value: 1
+          value: {}
+          title: Wild Shape CR
+          hint: ''
+          flags: {}
+        MIVwoANGkc6gmUWN:
+          _id: MIVwoANGkc6gmUWN
+          type: ScaleValue
+          configuration:
+            identifier: ''
+            type: number
+            distance:
+              units: ''
+            scale:
+              '2':
+                value: 2
+              '6':
+                value: 3
+              '17':
+                value: 4
+          value: {}
+          title: Wild Shape Uses
+          hint: ''
+          flags: {}
+        EoM7g9kruaS8VvhA:
+          _id: EoM7g9kruaS8VvhA
+          type: ScaleValue
+          configuration:
+            identifier: ''
+            type: number
+            distance:
+              units: ''
+            scale:
+              '2':
+                value: 4
+              '4':
+                value: 6
+              '8':
+                value: 8
+          value: {}
+          title: Known Forms
+          hint: ''
+          flags: {}
+        SpGvDfOabbJrOR3K:
+          _id: SpGvDfOabbJrOR3K
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+            optional: false
+            spell:
+              ability: []
+              uses:
+                max: ''
+                per: ''
+                requireSlot: false
+              method: spell
+              prepared: 2
+          value:
+            added:
+              16IBCfgJgICWEpfe: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+          level: 1
+          title: Druidic Spells
+          hint: ''
+          flags: {}
+        NpBpNlHOO43gMD0U:
+          _id: NpBpNlHOO43gMD0U
+          type: ItemChoice
+          configuration:
+            choices:
+              '1':
+                count: 1
+                replacement: false
+            allowDrops: false
+            type: feat
+            pool:
+              - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
+              - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderWa
+            spell: null
+            restriction:
+              type: class
+              subtype: ''
+              list: []
+          value:
+            added:
+              '1':
+                HBYg3TQ1FiI2tZ19: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
+            replaced: {}
+          title: Primal Order
+          hint: >-
+            You have dedicated yourself to one of the following sacred roles of
+            your choice.
+          flags: {}
+        HYDmnuNUbI5liP08:
+          _id: HYDmnuNUbI5liP08
+          type: ItemChoice
+          configuration:
+            choices:
+              '7':
+                count: 1
+                replacement: false
+            allowDrops: false
+            type: feat
+            pool:
+              - uuid: Compendium.dnd5e.classes24.Item.phbFuryPotentSpe
+              - uuid: Compendium.dnd5e.classes24.Item.phbFuryPrimalStr
+            spell: null
+            restriction:
+              type: class
+              list: []
+          value:
+            added: {}
+            replaced: {}
+          title: Elemental Fury
+          hint: >-
+            The might of the elements flows through you. You gain one of the
+            following options of your choice.
+          flags: {}
+        W0d3c6X31SgnFFYM:
+          _id: W0d3c6X31SgnFFYM
+          type: ScaleValue
+          configuration:
+            identifier: ''
+            type: dice
+            distance:
+              units: ''
+            scale:
+              '7':
+                number: 1
+                faces: 8
+                modifiers: []
+              '15':
+                number: 2
+                faces: 8
+                modifiers: []
+          value: {}
+          title: Elemental Fury
+          hint: ''
+          flags: {}
+        jOMGuG8a0KfmaeJd:
+          _id: jOMGuG8a0KfmaeJd
+          type: Subclass
+          configuration: {}
+          value:
+            document: 8zkGcXCcnY7uXhzh
+            uuid: Compendium.dnd5e.classes24.Item.phbdrdCirland000
+          level: 3
+          title: ''
+          hint: ''
+          flags: {}
+        Kx19MYNjomUt6m4p:
+          _id: Kx19MYNjomUt6m4p
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - saves:int
+              - saves:wis
+            choices: []
+          value:
+            chosen:
+              - saves:int
+              - saves:wis
+          level: 1
+          title: Saving Throw Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        ail7EZ56O8d037cL:
+          _id: ail7EZ56O8d037cL
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants: []
+            choices:
+              - count: 2
+                pool:
+                  - skills:ani
+                  - skills:arc
+                  - skills:ins
+                  - skills:med
+                  - skills:nat
+                  - skills:prc
+                  - skills:rel
+                  - skills:sur
+          value:
+            chosen:
+              - skills:nat
+              - skills:med
+          level: 1
+          title: Skill Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        Eq4uHvKtlKorid7h:
+          _id: Eq4uHvKtlKorid7h
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - weapon:sim
+            choices: []
+          value:
+            chosen:
+              - weapon:sim
+          level: 1
+          title: Weapon Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        wB9ulPjnFnueTfr5:
+          _id: wB9ulPjnFnueTfr5
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - tool:herb
+            choices: []
+          value:
+            chosen:
+              - tool:herb
+          level: 1
+          title: Tool Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        iqdFykNhppeEsmtM:
+          _id: iqdFykNhppeEsmtM
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - armor:lgt
+              - armor:shl
+            choices: []
+          value:
+            chosen:
+              - armor:lgt
+              - armor:shl
+          level: 1
+          title: Armor Training
+          hint: ''
+          flags: {}
+        fwwJ7sF6UAsgWaLf:
+          _id: fwwJ7sF6UAsgWaLf
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - languages:exotic:druidic
+            choices: []
+          value:
+            chosen:
+              - languages:exotic:druidic
+          level: 1
+          title: Druidic
+          hint: You know Druidic, the secret language of Druids.
+          flags: {}
+        gLRZK2OjtSnWNVJv:
+          type: AbilityScoreImprovement
+          _id: gLRZK2OjtSnWNVJv
+          configuration:
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked: []
+            points: 2
+            recommendation: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
+            max: null
+          value: {}
+          level: 19
+          title: ''
+          hint: ''
+          flags: {}
+      spellcasting:
+        progression: full
+        ability: wis
+        preparation:
+          formula: '@scale.druid.max-prepared'
+      wealth: '50'
+      primaryAbility:
+        value:
+          - wis
+        all: true
+      hd:
+        denomination: d8
+        spent: 0
+        additional: ''
+      properties: []
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.QxjD0rIC3QGCDr6z'
+  - _id: XnF9qaAmROQ8Vkot
+    name: Spellcasting
+    type: feat
+    folder: EXYmwRGoNyMbByN1
+    img: icons/magic/nature/beam-hand-leaves-green.webp
+    system:
+      description:
+        value: >-
+          <p>You have learned to cast spells through studying the mystical
+          forces of nature. See
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{chapter
+          7} for the rules on spellcasting. The information below details how
+          you use those rules with Druid spells, which appear on the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid
+          spell list}.</p><p><strong>Cantrips.</strong> You know two cantrips of
+          your choice from the Druid spell list.
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} and
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplProduceFla]{Produce Flame}
+          are recommended.</p><p>Whenever you gain a Druid level, you can
+          replace one of your cantrips with another cantrip of your choice from
+          the Druid spell list.</p><p>When you reach Druid levels 4 and 10, you
+          learn another cantrip of your choice from the Druid spell list, as
+          shown in the Cantrips column of the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid
+          Features} table.</p><p><strong>Spell Slots.</strong> The Druid
+          Features table shows how many spell slots you have to cast your level
+          1+ spells. You regain all expended slots when you finish a Long
+          Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare
+          the list of level 1+ spells that are available for you to cast with
+          this feature. To start, choose four level 1 spells from the Druid
+          spell list.
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalFrie]{Animal
+          Friendship},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplCureWounds]{Cure Wounds},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire},
+          and
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplThunderwav]{Thunderwave}
+          are recommended.</p><p>The number of spells on your list increases as
+          you gain Druid levels, as shown in the Prepared Spells column of the
+          Druid Features table. Whenever that number increases, choose
+          additional spells from the Druid spell list until the number of spells
+          on your list matches the number on the table. The chosen spells must
+          be of a level for which you have spell slots. For example, if you're a
+          level 3 Druid, your list of prepared spells can include six spells of
+          levels 1 and 2 in any combination.</p><p>If another Druid feature
+          gives you spells that you always have prepared, those spells don't
+          count against the number of spells you can prepare with this feature,
+          but those spells otherwise count as Druid spells for
+          you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever
+          you finish a Long Rest, you can change your list of prepared spells,
+          replacing any of the spells with other Druid spells for which you have
+          spell slots.</p><p><strong>Spellcasting Ability. </strong>Wisdom is
+          your spellcasting ability for your Druid
+          spells.</p><p><strong>Spellcasting Focus. </strong>You can use a
+          Druidic Focus as a Spellcasting Focus for your Druid spells.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Druid
+      activities: {}
+      enchant: {}
+      identifier: spellcasting
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
+        advancementOrigin: QxjD0rIC3QGCDr6z.P65WodekLKSPQLGZ
+        advancementRoot: QxjD0rIC3QGCDr6z.P65WodekLKSPQLGZ
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 800000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.XnF9qaAmROQ8Vkot'
+  - _id: 9pEf8gnY2fVfY8EI
+    name: Druidic
+    type: feat
+    folder: EXYmwRGoNyMbByN1
+    img: icons/commodities/treasure/token-runed-circle-green.webp
+    system:
+      description:
+        value: >-
+          <p>You know Druidic, the secret language of Druids. While learning
+          this ancient tongue, you also unlocked the magic of communicating with
+          animals; you always have the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]{Speak with
+          Animals} spell prepared.</p><p>You can use Druidic to leave hidden
+          messages. You and others who know Druidic automatically spot such a
+          message. Others spot the message's presence with a successful [[/check
+          inv 15]] check but can't decipher it without magic.</p><section
+          class="secret" id="secret-5uD3Qi61JX7q2Fk8"><p><strong>Foundry
+          Note</strong></p><p>Druidic and Speak with Animals are automatically
+          added during advancement.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Druid
+      activities: {}
+      enchant: {}
+      identifier: druidic
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
+        advancementOrigin: QxjD0rIC3QGCDr6z.P65WodekLKSPQLGZ
+        advancementRoot: QxjD0rIC3QGCDr6z.P65WodekLKSPQLGZ
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 300000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.9pEf8gnY2fVfY8EI'
+  - _id: FO2HdyfgQb8zesIM
+    name: Primal Order
+    type: feat
+    folder: EXYmwRGoNyMbByN1
+    img: icons/magic/nature/leaf-juggle-humanoid-green.webp
+    system:
+      description:
+        value: >-
+          <p>You have dedicated yourself to one of the following sacred roles of
+          your choice.</p><p><strong>Magician.</strong> You know one extra
+          cantrip from the Druid spell list. In addition, your mystical
+          connection to nature gives you a bonus to your Intelligence (Arcana or
+          Nature) checks. The bonus equals your Wisdom modifier (minimum bonus
+          of +1).</p><p><strong>Warden.</strong> Trained for battle, you gain
+          proficiency with Martial weapons and training with Medium
+          armor.</p><section id="secret-SgYOtpnQW9hL4WJ8"
+          class="secret"><p><strong>Foundry Note</strong></p><p>You will be
+          prompted to choose during advancement.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Druid
+      activities: {}
+      enchant: {}
+      identifier: primal-order
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
+        advancementOrigin: QxjD0rIC3QGCDr6z.P65WodekLKSPQLGZ
+        advancementRoot: QxjD0rIC3QGCDr6z.P65WodekLKSPQLGZ
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 700000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.FO2HdyfgQb8zesIM'
+  - name: Speak with Animals
+    system:
+      description:
+        value: >-
+          <p>For the duration, you can comprehend and verbally communicate with
+          Beasts, and you can use any of the Influence action's skill options
+          with them.</p><p>Most Beasts have little to say about topics that
+          don't pertain to survival or companionship, but at minimum, a Beast
+          can give you information about nearby locations and monsters,
+          including whatever it has perceived within the past day.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - ritual
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: lHx55SIuimKR3ALR
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: speak-with-animals
+      method: spell
+      prepared: 2
+      sourceItem: class:druid
+    _id: 16IBCfgJgICWEpfe
+    type: spell
+    img: icons/creatures/mammals/dog-husky-white-blue.webp
+    effects:
+      - name: Bestial Communication
+        origin: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+        duration:
+          value: 600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/creatures/mammals/dog-husky-white-blue.webp
+        _id: lHx55SIuimKR3ALR
+        type: base
+        system:
+          changes:
+            - key: system.traits.languages.custom
+              value: ;comprehend and verbally communicate with Beasts
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779822660531
+          modifiedTime: 1779822660531
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!thWYLXtTB4OruDhr.16IBCfgJgICWEpfe.lHx55SIuimKR3ALR
+    folder: pBaAAtXBCq9FVEnL
+    sort: 300000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+        advancementOrigin: QxjD0rIC3QGCDr6z.SpGvDfOabbJrOR3K
+        advancementRoot: QxjD0rIC3QGCDr6z.SpGvDfOabbJrOR3K
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!thWYLXtTB4OruDhr.16IBCfgJgICWEpfe'
+  - _id: HBYg3TQ1FiI2tZ19
+    name: 'Primal Order: Magician'
+    type: feat
+    img: icons/magic/nature/leaf-hand-green.webp
+    system:
+      description:
+        value: >-
+          <p>You know one extra cantrip from the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU#cantrip]{Druid
+          spell list}. In addition, your mystical connection to nature gives you
+          a bonus to your Intelligence (Arcana or Nature) checks. The bonus
+          equals your Wisdom modifier (minimum bonus of +1, currently [[lookup
+          @abilities.wis.mod]]).</p><section class="secret"
+          id="secret-adiIB9wCX5zZdZ9F"><p><strong>Foundry
+          Note</strong></p><p>This feature includes an Active Effect which
+          automates the increase to your known cantrips and the bonus to your
+          Arcane and Nature checks.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Druid
+      activities: {}
+      enchant: {}
+      identifier: primal-order-magician
+      advancement: {}
+      crewed: false
+    effects:
+      - name: Magician
+        origin: Item.phbPrimalOrderMa
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/nature/leaf-hand-green.webp
+        _id: IqjrvuQ2ORv65hxB
+        type: base
+        system:
+          changes:
+            - key: system.scale.druid.cantrips-known
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+            - key: system.skills.arc.bonuses.check
+              value: (max(1,@abilities.wis.mod))
+              priority: null
+              type: add
+              phase: initial
+            - key: system.skills.nat.bonuses.check
+              value: (max(1,@abilities.wis.mod))
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.361'
+          systemId: dnd5e
+          systemVersion: 5.3.2
+          createdTime: 1779822660531
+          modifiedTime: 1779822660531
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!thWYLXtTB4OruDhr.HBYg3TQ1FiI2tZ19.IqjrvuQ2ORv65hxB
+    folder: EXYmwRGoNyMbByN1
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
+        advancementOrigin: QxjD0rIC3QGCDr6z.NpBpNlHOO43gMD0U
+        advancementRoot: QxjD0rIC3QGCDr6z.NpBpNlHOO43gMD0U
+        '-=riders': null
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 1100000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.HBYg3TQ1FiI2tZ19'
+  - _id: ZqBv1ysnDrdqxRLC
+    name: Wild Shape
+    type: feat
+    folder: EXYmwRGoNyMbByN1
+    img: icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp
+    system:
+      description:
+        value: >-
+          <p>The power of nature allows you to assume the form of an animal. As
+          a Bonus Action, you shape-shift into a Beast form that you have
+          learned for this feature (see "Known Forms" below). You stay in that
+          form for a number of hours equal to half your Druid level (currently
+          [[lookup @classes.druid.levels]]) or until you use Wild Shape again,
+          have the Incapacitated condition, or die. You can also leave the form
+          early as a Bonus Action.</p><p><strong>Number of Uses.</strong> You
+          can use Wild Shape twice. You regain one expended use when you finish
+          a Short Rest, and you regain all expended uses when you finish a Long
+          Rest.</p><p>You gain additional uses when you reach certain Druid
+          levels, as shown in the Wild Shape column of the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid
+          Features} table.</p><p><strong>Current Number of Uses:</strong>
+          [[lookup @scale.druid.wild-shape-uses]]</p><p><strong>Known Forms.
+          </strong>You know four Beast forms for this feature, chosen from among
+          Beast stat blocks that have a maximum Challenge Rating of 1/4 and that
+          lack a Fly Speed. The
+          @UUID[Compendium.dnd5e.actors24.Actor.mmRat00000000000]{Rat},
+          @UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding Horse},
+          @UUID[Compendium.dnd5e.actors24.Actor.mmSpider00000000]{Spider}, and
+          @UUID[Compendium.dnd5e.actors24.Actor.mmWolf0000000000]{Wolf} are
+          recommended. Whenever you finish a Long Rest, you can replace one of
+          your known forms with another eligible form.</p><section class="fvtt
+          advice"><figure class="icon"><img
+          src="icons/vtt-512.png"></figure><article><h3>Wild Shape
+          Automation</h3><p>When you've selected the creature you would like to
+          wild shape into you can drag it onto your character sheet, select the
+          Wild Shape option, and Foundry will automatically update your sheet.
+          You can revert the transformation at the top of your sheet or by right
+          clicking on your Actor in the sidebar.</p></article></section><p>When
+          you reach certain Druid levels, your number of known forms and the
+          maximum Challenge Rating for those forms increases, as shown in the
+          Beast Shapes table. In addition, starting at level 8, you can adopt a
+          form that has a Fly Speed.</p><p><strong>Current Known Forms
+          Limit:</strong> [[lookup
+          @scale.druid.known-forms]]</p><p><strong>Current CR Limit:</strong>
+          [[lookup @scale.druid.wild-shape]]</p><p>When choosing known forms,
+          you may look in the <em>Monster Manual</em> or elsewhere for eligible
+          Beasts if the Dungeon Master permits you to do
+          so.</p><table><caption>Beast Shapes</caption><thead><tr><td>Druid
+          Level</td><td>Known Forms</td><td>Max CR</td><td>Fly
+          Speed</td></tr></thead><tbody><tr><td>2</td><td>4</td><td>1/4</td><td>No</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>No</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Yes</td></tr></tbody></table><p><strong>Rules
+          While Shape-Shifted.</strong> While in a form, you retain your
+          personality, memories, and ability to speak, and the following rules
+          apply:</p><p><strong>Temporary Hit Points. </strong>When you assume a
+          Wild Shape form, you gain a number of Temporary Hit Points equal to
+          your Druid level.</p><p><strong>Game Statistics.</strong> Your game
+          statistics are replaced by the Beast's stat block, but you retain your
+          creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and
+          Charisma scores; class features; languages; and feats. You also retain
+          your skill and saving throw proficiencies and use your Proficiency
+          Bonus for them, in addition to gaining the proficiencies of the
+          creature. If a skill or saving throw modifier in the Beast's stat
+          block is higher than yours, use the one in the stat
+          block.</p><p><strong>No Spellcasting.</strong> You can't cast spells,
+          but shape-shifting doesn't break your Concentration or otherwise
+          interfere with a spell you've already cast.</p><p><strong>Objects.
+          </strong>Your ability to handle objects is determined by the form's
+          limbs rather than your own. In addition, you choose whether your
+          equipment falls in your space, merges into your new form, or is worn
+          by it. Worn equipment functions as normal, but the DM decides whether
+          it's practical for the new form to wear a piece of equipment based on
+          the creature's size and shape. Your equipment doesn't change size or
+          shape to match the new form, and any equipment that the new form can't
+          wear must either fall to the ground or merge with the form. Equipment
+          that merges with the form has no effect while you're in that
+          form.</p><section class="secret"
+          id="secret-FZNGONDktXDnwY0x"><p><strong>Foundry
+          Note</strong></p><p>You can activate this feature to track uses of
+          your Wild Shape.</p><p>It will automatically restore a use on a Short
+          Rest and all uses on a Long Rest.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: '@scale.druid.wild-shape-uses'
+        recovery:
+          - period: lr
+            type: recoverAll
+          - period: sr
+            type: formula
+            formula: '1'
+        spent: 0
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 2
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Druid
+      activities:
+        FsDnynyqno8XNHgf:
+          type: transform
+          _id: FsDnynyqno8XNHgf
+          sort: 0
+          activation:
+            type: bonus
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: self
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          profiles:
+            - cr: '0.25'
+              name: CR ¼
+              _id: xUPf0uISOwKy3mhO
+              uuid: null
+              sizes: []
+              types:
+                - beast
+              movement:
+                - fly
+              level:
+                min: null
+                max: 3
+            - cr: '0.5'
+              name: CR ½
+              _id: yu86xk21fVzHg9r5
+              uuid: null
+              sizes: []
+              types:
+                - beast
+              movement:
+                - fly
+              level:
+                min: 4
+                max: 7
+            - cr: '1'
+              name: CR 1
+              _id: ZFqKHYlY9JhLYnx0
+              uuid: null
+              sizes: []
+              types:
+                - beast
+              movement: []
+              level:
+                min: 8
+                max: null
+          settings: null
+          transform:
+            customize: false
+            preset: wildshape
+            mode: cr
+          name: ''
+          img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+          visibility:
+            level:
+              min: null
+              max: null
+            identifier: druid
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          flags: {}
+      enchant: {}
+      identifier: wild-shape
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+        advancementOrigin: QxjD0rIC3QGCDr6z.hmO24ovOBpmXAb4U
+        advancementRoot: QxjD0rIC3QGCDr6z.hmO24ovOBpmXAb4U
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 1200000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.ZqBv1ysnDrdqxRLC'
+  - _id: J2MECHV3IexyuUzU
+    name: Wild Companion
+    type: feat
+    img: icons/creatures/mammals/spirit-deer-herd-blue.webp
+    system:
+      description:
+        value: >-
+          <p>You can summon a nature spirit that assumes an animal form to aid
+          you. As a Magic action, you can expend a spell slot or a use of Wild
+          Shape to cast the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplFindFamili]{Find Familiar}
+          spell without Material components.</p><p>When you cast the spell in
+          this way, the familiar is Fey and disappears when you finish a Long
+          Rest.</p><section id="secret-4iYtjsPCmpeQTKY5"
+          class="secret"><p><strong>Foundry Note</strong></p><p>This feature
+          includes a Summon activity which can be used to summon your wild
+          companion. You can choose whether to expend a use of wild shape or a
+          spell slot when activating it.</p><p>The summon does not automatically
+          disappear when you finish a Long Rest.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 2
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Druid
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: summon
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: spellSlots
+                value: '1'
+                target: '1'
+                scaling:
+                  mode: level
+                  formula: ''
+            scaling:
+              allowed: true
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            value: ''
+            units: inst
+            special: ''
+            override: false
+            concentration: false
+          range:
+            value: ''
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          bonuses:
+            ac: ''
+            hd: ''
+            hp: ''
+            attackDamage: ''
+            saveDamage: ''
+            healing: ''
+          creatureSizes: []
+          creatureTypes:
+            - fey
+          match:
+            proficiency: false
+            attacks: false
+            saves: false
+            disposition: false
+          profiles:
+            - count: ''
+              cr: '0'
+              name: ''
+              _id: wz56r4MyxNcdIyIf
+              uuid: null
+              types:
+                - beast
+              level:
+                min: null
+                max: null
+          summon:
+            mode: cr
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Summon with Spell Slot
+          effects: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        jKEcwnfOpZdxX2JV:
+          type: summon
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                value: '1'
+                target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+                scaling:
+                  mode: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            value: ''
+            units: inst
+            special: ''
+            override: false
+            concentration: false
+          range:
+            value: ''
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          bonuses:
+            ac: ''
+            hd: ''
+            hp: ''
+            attackDamage: ''
+            saveDamage: ''
+            healing: ''
+          creatureSizes: []
+          creatureTypes:
+            - fey
+          match:
+            proficiency: false
+            attacks: false
+            saves: false
+            disposition: false
+          profiles:
+            - count: ''
+              cr: '0'
+              name: ''
+              _id: wz56r4MyxNcdIyIf
+              uuid: null
+              types:
+                - beast
+              level:
+                min: null
+                max: null
+          summon:
+            mode: cr
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Summon with Wild Shape
+          effects: []
+          _id: jKEcwnfOpZdxX2JV
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: wild-companion
+      advancement: {}
+      crewed: false
+    effects: []
+    folder: EXYmwRGoNyMbByN1
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
+        advancementOrigin: QxjD0rIC3QGCDr6z.hmO24ovOBpmXAb4U
+        advancementRoot: QxjD0rIC3QGCDr6z.hmO24ovOBpmXAb4U
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 900000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.J2MECHV3IexyuUzU'
+  - _id: 8zkGcXCcnY7uXhzh
+    name: Circle of the Land
+    type: subclass
+    folder: 5WSAEI5S847BwZ8e
+    img: systems/dnd5e/icons/classes/land.webp
+    system:
+      description:
+        value: >-
+          <blockquote><p>Celebrate Connection to the Natural
+          World</p></blockquote><p>The Circle of the Land comprises mystics and
+          sages who safeguard ancient knowledge and rites. These Druids meet
+          within sacred circles of trees or standing stones to whisper primal
+          secrets in Druidic. The circle's wisest members preside as the chief
+          priests of their communities.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      identifier: land
+      classIdentifier: druid
+      advancement:
+        amRVULpFLpOQ2gPC:
+          _id: amRVULpFLpOQ2gPC
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdLandSpells
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdLandsAid00
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              h0ofUCAG23VY438a: Compendium.dnd5e.classes24.Item.phbdrdLandSpells
+              1R8jRtDFgg4W5SEj: Compendium.dnd5e.classes24.Item.phbdrdLandsAid00
+          level: 3
+          title: Subclass Features
+          flags: {}
+          hint: ''
+        9l1ICcnaGx27bdOp:
+          _id: 9l1ICcnaGx27bdOp
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdNaturalRec
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 6
+          title: Subclass Features
+          flags: {}
+          hint: ''
+        tQpnSPCulIWNV3ZV:
+          _id: tQpnSPCulIWNV3ZV
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdNaturesWar
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 10
+          title: Subclass Features
+          flags: {}
+          hint: ''
+        tdzTZSOWJgyhnk5X:
+          _id: tdzTZSOWJgyhnk5X
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbdrdNaturesSan
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 14
+          title: Subclass Features
+          flags: {}
+          hint: ''
+        3QzkY4MkeL5QLWfM:
+          _id: 3QzkY4MkeL5QLWfM
+          type: ScaleValue
+          configuration:
+            identifier: lands-aid
+            type: dice
+            distance:
+              units: ''
+            scale:
+              '3':
+                number: 2
+                faces: 6
+                modifiers: []
+              '10':
+                number: 3
+                faces: 6
+                modifiers: []
+              '14':
+                number: 4
+                faces: 6
+                modifiers: []
+          value: {}
+          title: Lands Aid Damage
+          hint: ''
+          flags: {}
+      spellcasting:
+        progression: none
+        ability: ''
+        preparation:
+          formula: ''
+    effects: []
+    flags:
+      dnd5e:
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdCirland000
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 100000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.8zkGcXCcnY7uXhzh'
+  - _id: h0ofUCAG23VY438a
+    name: Circle of the Land Spells
+    type: feat
+    img: icons/magic/nature/leaf-glow-triple-green.webp
+    system:
+      description:
+        value: >-
+          <p>Whenever you finish a Long Rest, choose one type of land: arid,
+          polar, temperate, or tropical. Consult the table below that
+          corresponds to the chosen type; you have the spells listed for your
+          Druid level and lower prepared.</p><table><caption>Arid
+          Land</caption><thead><tr><td>Druid Level</td><td>Circle
+          Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlur000000]{Blur},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire
+          Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlight0000]{Blight}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall
+          of Stone}</td></tr></tbody></table><table><caption>Polar
+          Land</caption><thead><tr><td>Druid Level</td><td>Circle
+          Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{Fog
+          Cloud}, @UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold
+          Person}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of
+          Frost}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplSleetStorm]{Sleet
+          Storm}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{Ice
+          Storm}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{Cone
+          of Cold}</td></tr></tbody></table><table><caption>Temperate
+          Land</caption><thead><tr><td>Druid Level</td><td>Circle
+          Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{Misty
+          Step}, @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking
+          Grasp},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplLightningB]{Lightning
+          Bolt}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFreedomofM]{Freedom
+          of
+          Movement}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplTreeStride]{Tree
+          Stride}</td></tr></tbody></table><table><caption>Tropical
+          Land</caption><thead><tr><td>Druid Level</td><td>Circle
+          Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplAcidSplash]{Acid
+          Splash}, @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{Ray of
+          Sickness},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking
+          Cloud}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplPolymorph0]{Polymorph}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplInsectPlag]{Insect
+          Plague}</td></tr></tbody></table><section class="secret"
+          id="secret-0B8V69GLRm5swkth"><p><strong>Foundry
+          Note</strong></p><p>This feature does not automate swapping between
+          prepared spell options.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 3
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Circle of Land
+      activities: {}
+      enchant: {}
+      identifier: circle-of-the-land-spells
+      advancement: {}
+      crewed: false
+    effects: []
+    folder: WJ4IXskgADlprLEA
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdLandSpells
+        advancementOrigin: 8zkGcXCcnY7uXhzh.amRVULpFLpOQ2gPC
+        advancementRoot: 8zkGcXCcnY7uXhzh.amRVULpFLpOQ2gPC
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 200000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.h0ofUCAG23VY438a'
+  - _id: 1R8jRtDFgg4W5SEj
+    name: Land's Aid
+    type: feat
+    folder: WJ4IXskgADlprLEA
+    img: icons/magic/nature/root-vines-grow-brown.webp
+    system:
+      description:
+        value: >-
+          <p>As a Magic action, you can expend a use of your Wild Shape and
+          choose a point within 60 feet of yourself. Vitality-giving flowers and
+          life-draining thorns appear for a moment in a 10-foot-radius Sphere
+          centered on that point. Each creature of your choice in the Sphere
+          must make a Constitution saving throw against your spell save DC,
+          taking 2d6 Necrotic damage on a failed save or half as much damage on
+          a successful one. One creature of your choice in that area regains
+          [[/healing @scale.land.lands-aid]]{[[lookup @scale.land.lands-aid]]
+          Hit Points}.</p><p>The damage and healing increase by 1d6 when you
+          reach Druid levels 10 (3d6) and 14 (4d6).</p><section class="secret"
+          id="secret-T1DFK6QJjzeJsysz"><p><strong>Foundry
+          Note</strong></p><p>This feature includes an activity for the saving
+          throw and the healing.</p><p>The healing/damage values automatically
+          scale as you level up.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 3
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Circle of Land
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                value: '1'
+                target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+                scaling: {}
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            value: ''
+            units: inst
+            special: ''
+            override: false
+            concentration: false
+          effects: []
+          range:
+            value: '60'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: sphere
+              size: '10'
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: creature
+              choice: true
+              special: ''
+            prompt: true
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - custom:
+                  enabled: true
+                  formula: '@scale.land.lands-aid'
+                number: null
+                denomination: 0
+                bonus: ''
+                types:
+                  - necrotic
+                scaling:
+                  number: 1
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        LI4RB1gsoHK0bS5n:
+          type: heal
+          _id: LI4RB1gsoHK0bS5n
+          activation:
+            type: ''
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: ft
+            special: ''
+            value: '60'
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: sphere
+              size: '10'
+              count: ''
+              stationary: false
+            affects:
+              choice: true
+              count: '1'
+              type: creature
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          healing:
+            number: null
+            denomination: 0
+            types:
+              - healing
+            custom:
+              enabled: true
+              formula: '@scale.land.lands-aid'
+            scaling:
+              number: 1
+            bonus: ''
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: lands-aid
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdLandsAid00
+        advancementOrigin: 8zkGcXCcnY7uXhzh.amRVULpFLpOQ2gPC
+        advancementRoot: 8zkGcXCcnY7uXhzh.amRVULpFLpOQ2gPC
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 100000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.1R8jRtDFgg4W5SEj'
+  - _id: Xh2AO64soLHQFcaP
+    name: Wild Resurgence
+    type: feat
+    folder: EXYmwRGoNyMbByN1
+    img: icons/magic/life/cross-worn-green.webp
+    system:
+      description:
+        value: >-
+          <p>Once on each of your turns, if you have no uses of Wild Shape left,
+          you can give yourself one use by expending a spell slot (no action
+          required).</p><p>In addition, you can expend one use of Wild Shape (no
+          action required) to give yourself a level 1 spell slot, but you can't
+          do so again until you finish a Long Rest.</p><section class="secret"
+          id="secret-b0eq9t1Lkei4tN53"><p><strong>Foundry
+          Note</strong></p><p>The <strong>Regain Wild Shape</strong> activity
+          consumes a spell slot and grants you another use of Wild
+          Shape.</p><p>The <strong>Regain Spell Slot</strong> activity will
+          consume a use of Wild Shape and grant you a level 1 spell
+          slot.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        revision: 1
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: '1'
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 5
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Druid
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: ''
+            value: null
+            condition: Once on each of your turns
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+              - type: itemUses
+                value: '1'
+                target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+                scaling: {}
+              - type: spellSlots
+                value: '-1'
+                target: '1'
+                scaling: {}
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            value: ''
+            units: inst
+            special: ''
+            override: false
+            concentration: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: self
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Regain Spell Slot
+          img: systems/dnd5e/icons/svg/trait.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        7nAgPNN2dth7SR0D:
+          type: utility
+          activation:
+            type: ''
+            value: null
+            condition: Once on each of your turns
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                value: '-1'
+                target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+                scaling:
+                  mode: ''
+              - type: spellSlots
+                value: '1'
+                target: '1'
+                scaling:
+                  mode: level
+                  formula: ''
+            scaling:
+              allowed: true
+              max: '9'
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            value: ''
+            units: inst
+            special: ''
+            override: false
+            concentration: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: self
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: -100000
+          name: Regain Wild Shape
+          _id: 7nAgPNN2dth7SR0D
+          img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: wild-resurgence
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbdrdWildResurg
+        advancementOrigin: QxjD0rIC3QGCDr6z.J2JpbQEZhVD3Dnjz
+        advancementRoot: QxjD0rIC3QGCDr6z.J2JpbQEZhVD3Dnjz
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1779822660531
+      modifiedTime: 1779822660531
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 1000000
+    ownership:
+      default: 0
+    _key: '!actors.items!thWYLXtTB4OruDhr.Xh2AO64soLHQFcaP'
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  tokenizer-2:
+    layerStack:
+      - id: 5TdaHpKRACXLiMG6
+        type: image
+        name: Reidoth (Avatar)
+        src: >-
+          modules/draenal-common/assets/pc-images/Avatar.Reidoth.webp?v=1779822409325
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.411887598554459
+          scaleY: 0.411887598554459
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: Fg28vSg7S8Bu85NS
+            type: frame-ray
+            src: modules/tokenizer-2/img/thegreatnacho/theGreatNacho-14.webp
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: nlNyU3BeXSbEuMMF
+        type: image
+        name: theGreatNacho 14
+        src: modules/tokenizer-2/img/thegreatnacho/theGreatNacho-14.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    avatarLayerStack:
+      - id: 33JhC4GTRnnSayKs
+        type: image
+        name: Pasted Image
+        src: tokenizer/pasted/504c28ec03c106c1.png
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 1.5671870217324226
+          'y': 101.867156412611
+          scaleX: 1.5397223175232235
+          scaleY: 1.5397223175232235
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: custom
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: true
+    isDynamicRingMode: false
+    modeIsOversized: true
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1779822660531
+  modifiedTime: 1779835856692
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+sort: 0
+_key: '!actors!thWYLXtTB4OruDhr'
+
