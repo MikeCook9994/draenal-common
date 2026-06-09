@@ -172,8 +172,8 @@
       "system": "dnd5e"
     },
     {
-      "name": "[Private] scenes",
-      "label": "Scenes",
+      "name": "scenes",
+      "label": "[Private] Scenes",
       "path": "packs/scenes",
       "type": "Scene",
       "ownership": {
