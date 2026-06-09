@@ -10,9 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "createSymlinks": "node ./tools/create-symlinks.mjs",
-    "build:clean-packs": "node ./utils/packs.mjs package clean",
-    "build:db": "node ./utils/packs.mjs package pack",
-    "build:source": "node ./utils/packs.mjs package unpack"
+    "pack:clean": "node ./utils/packs.mjs package clean",
+    "pack:compile": "node ./utils/packs.mjs package pack",
+    "pack:decompile": "node ./utils/packs.mjs package unpack"
   },
   "repository": {
     "type": "git",

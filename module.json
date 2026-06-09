@@ -140,7 +140,7 @@
     },
     {
       "name": "pcs",
-      "label": "Player Characters",
+      "label": "[Private] Player Characters",
       "path": "packs/pcs",
       "type": "Actor",
       "ownership": {
@@ -151,7 +151,7 @@
     },
     {
       "name": "npcs",
-      "label": "Non-Player Characters",
+      "label": "[Private] Non-Player Characters",
       "path": "packs/npcs",
       "type": "Actor",
       "ownership": {
@@ -172,7 +172,7 @@
       "system": "dnd5e"
     },
     {
-      "name": "scenes",
+      "name": "[Private] scenes",
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
