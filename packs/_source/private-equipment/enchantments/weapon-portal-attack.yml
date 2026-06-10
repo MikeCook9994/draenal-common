@@ -1,0 +1,302 @@
+folder: kxzV9Th7qQK79BLx
+name: Weapon, Portal Attack
+type: weapon
+_id: hmIYOmA6AQzpESCn
+img: icons/magic/movement/portal-vortex-orange.webp
+system:
+  activities:
+    Yb6f1tLmCr9zPU7a:
+      type: enchant
+      name: Weapon, Portal Attack
+      _id: Yb6f1tLmCr9zPU7a
+      img: ''
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: EU1PQfPgiiMGFkN1
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - YvoWspUEJBIxmkuM
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories:
+          - simpleM
+          - martialM
+        properties: []
+        type: weapon
+    YvoWspUEJBIxmkuM:
+      type: attack
+      name: Portal Attack
+      _id: YvoWspUEJBIxmkuM
+      img: icons/magic/movement/portal-vortex-orange.webp
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: true
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: dawn
+            type: recoverAll
+        max: '3'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: true
+        requireIdentification: true
+        requireMagic: true
+        identifier: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p><strong>Portal Attack. </strong>This weapon has 3 charges and regains
+      all expended charges daily at dawn. When you make an attack with this
+      weapon, you can expend a charge to increase your reach to 120 feet by
+      momentarily opening a portal adjacent to your target that you attack
+      through.</p><p>  </p>
+    chat: ''
+  identifier: weapon
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: <p> </p>
+    name: Unidentified Weapon
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  crew:
+    value: []
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties: []
+  proficient: null
+  range:
+    units: ft
+    value: null
+    long: null
+    reach: null
+  type:
+    value: simpleM
+    baseItem: ''
+  mastery: ''
+effects:
+  - name: Weapon, Portal Attack
+    img: icons/magic/movement/portal-vortex-orange.webp
+    origin: Compendium.draenal-common.private-equipment.Item.hmIYOmA6AQzpESCn
+    type: enchantment
+    _id: EU1PQfPgiiMGFkN1
+    system:
+      changes:
+        - key: system.rarity
+          type: override
+          value: uncommon
+          phase: initial
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<p>@Embed[Compendium.draenal-common.private-equipment.Item.hmIYOmA6AQzpESCn
+            caption=false]</p>
+          phase: initial
+          priority: null
+        - key: system.properties
+          type: add
+          value: mgc
+          phase: initial
+          priority: null
+        - key: system.price.value
+          type: add
+          value: 400
+          phase: initial
+          priority: null
+        - key: system.price.denomination
+          type: override
+          value: gp
+          phase: initial
+          priority: null
+        - key: system.attunement
+          type: override
+          value: required
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1781028602582
+      modifiedTime: 1781028766648
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!hmIYOmA6AQzpESCn.EU1PQfPgiiMGFkN1'
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - YvoWspUEJBIxmkuM
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1781023112155
+  modifiedTime: 1781030617918
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hmIYOmA6AQzpESCn'
+

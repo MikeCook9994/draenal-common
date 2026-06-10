@@ -1,0 +1,391 @@
+name: Conjurmaceon
+system:
+  description:
+    value: >-
+      <p>A finely-made mace with three thick flanges. The exterior face of each
+      flange features a glowing runic circle that imbues the weapon with the
+      power to conjure portals to distant locations when attacking. A rune dims
+      after its been used for the day.</p>
+    chat: ''
+  price:
+    value: 5
+    denomination: gp
+  source:
+    custom: ''
+    rules: '2024'
+    license: CC-BY-4.0
+    book: Draenal Homebrew
+    revision: 1
+    page: ''
+  identified: false
+  unidentified:
+    description: >-
+      <p>A finely-made mace with three thick flanges. The exterior face of each
+      flange features a glowing runic circle.</p>
+    name: Unidentified Mace
+  container: null
+  quantity: 1
+  weight:
+    value: 4
+    units: lb
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  cover: null
+  range:
+    value: null
+    long: null
+    units: ft
+    reach: null
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  damage:
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: true
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 6
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      bonus: ''
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: simpleM
+    baseItem: mace
+  properties: []
+  proficient: null
+  activities:
+    KiHlb6kIDAvWmnhv:
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      _id: KiHlb6kIDAvWmnhv
+      name: ''
+      img: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    gbNXv8nWPSfxibWr:
+      type: attack
+      name: Portal Attack
+      _id: gbNXv8nWPSfxibWr
+      img: icons/magic/movement/portal-vortex-orange.webp
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags:
+        dnd5e:
+          dependentOn: gngKuDn6dkyt3Kxn
+      range:
+        units: ft
+        override: true
+        special: ''
+        value: '120'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: dawn
+            type: recoverAll
+        max: '3'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: true
+        requireIdentification: true
+        requireMagic: true
+        identifier: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+  ammunition: {}
+  mastery: sap
+  identifier: mace
+  crew:
+    value: []
+  magicalBonus: ''
+type: weapon
+folder: cGU25ieVxpiolPUO
+img: icons/weapons/maces/mace-flanged-steel.webp
+effects:
+  - type: enchantment
+    name: Weapon +1
+    img: systems/dnd5e/icons/spell-tiers/spell2.webp
+    disabled: false
+    _id: qMcFSuGRuIe8Wlv6
+    system:
+      changes:
+        - key: name
+          value: '{} +1'
+          priority: null
+          type: override
+          phase: initial
+        - key: system.magicalBonus
+          value: 1
+          priority: null
+          type: upgrade
+          phase: initial
+        - key: system.rarity
+          value: uncommon
+          priority: null
+          type: override
+          phase: initial
+        - key: system.description.value
+          value: >-
+            {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgWeapon12or300
+            caption=false]</p>
+          priority: null
+          type: override
+          phase: initial
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
+          phase: initial
+        - key: system.price.value
+          value: 400
+          priority: null
+          type: add
+          phase: initial
+        - key: system.price.denomination
+          value: gp
+          priority: null
+          type: override
+          phase: initial
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    origin: Compendium.dnd5e.equipment24.Item.dmgWeapon12or300
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1781028899552
+      modifiedTime: 1781028899552
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
+    _key: '!items.effects!mveR2eSQS9Z2ec6l.qMcFSuGRuIe8Wlv6'
+  - name: Weapon, Portal Attack
+    img: icons/magic/movement/portal-vortex-orange.webp
+    origin: Compendium.draenal-common.private-equipment.Item.hmIYOmA6AQzpESCn
+    type: enchantment
+    _id: gngKuDn6dkyt3Kxn
+    system:
+      changes:
+        - key: system.rarity
+          type: override
+          value: uncommon
+          phase: initial
+          priority: null
+        - key: system.description.value
+          type: override
+          value: >-
+            {}<p>@Embed[Compendium.draenal-common.private-equipment.Item.hmIYOmA6AQzpESCn
+            caption=false]</p>
+          phase: initial
+          priority: null
+        - key: system.properties
+          type: add
+          value: mgc
+          phase: initial
+          priority: null
+        - key: system.price.value
+          type: add
+          value: 400
+          phase: initial
+          priority: null
+        - key: system.price.denomination
+          type: override
+          value: gp
+          phase: initial
+          priority: null
+        - key: system.attunement
+          type: override
+          value: required
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.361'
+      systemId: dnd5e
+      systemVersion: 5.3.2
+      createdTime: 1781030624017
+      modifiedTime: 1781030624017
+      lastModifiedBy: draenalcommon000
+      compendiumSource: >-
+        Compendium.draenal-common.private-equipment.Item.hmIYOmA6AQzpESCn.ActiveEffect.EU1PQfPgiiMGFkN1
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!mveR2eSQS9Z2ec6l.gngKuDn6dkyt3Kxn'
+flags: {}
+_stats:
+  coreVersion: '14.361'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1781028899552
+  modifiedTime: 1781030673429
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+_id: mveR2eSQS9Z2ec6l
+sort: 150000
+_key: '!items!mveR2eSQS9Z2ec6l'
+

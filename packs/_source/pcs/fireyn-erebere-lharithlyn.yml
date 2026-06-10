@@ -581,15 +581,18 @@ prototypeToken:
       max: 1
   sight:
     enabled: true
-    range: 0
+    range: 60
     angle: 360
-    visionMode: basic
+    visionMode: darkvision
     color: null
-    attenuation: 0.1
+    attenuation: 0
     brightness: 0
-    saturation: 0
+    saturation: -1
     contrast: 0
-  detectionModes: {}
+  detectionModes:
+    basicSight:
+      range: 60
+      enabled: true
   occludable:
     radius: 0
   ring:
@@ -597,7 +600,7 @@ prototypeToken:
     colors:
       ring: null
       background: null
-    effects: 1
+    effects: 0
     subject:
       scale: 1
       texture: null
@@ -11377,7 +11380,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776813204402
-  modifiedTime: 1779777236238
+  modifiedTime: 1781043447986
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
