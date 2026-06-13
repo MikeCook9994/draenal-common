@@ -410,7 +410,7 @@ system:
     loyalty: {}
     hp:
       max: null
-      temp: null
+      temp: 5
       tempmax: 0
       value: 28
       bonuses: {}
@@ -644,7 +644,7 @@ prototypeToken:
       max: 1
   sight:
     enabled: true
-    range: 60
+    range: 0
     angle: 360
     visionMode: basic
     color: null
@@ -663,7 +663,7 @@ prototypeToken:
     colors:
       ring: null
       background: null
-    effects: 0
+    effects: 1
     subject:
       scale: 1
       texture: null
@@ -1387,18 +1387,18 @@ items:
     effects: []
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347015
-      modifiedTime: 1779770347015
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruid00000
+      compendiumSource: null
+      duplicateSource: null
+    sort: 0
     ownership:
       default: 0
-    sort: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.B4RcR568GHtvVVaP'
   - _id: tAWubWVDKuTCb4Wk
     name: Spellcasting
@@ -1483,23 +1483,20 @@ items:
     effects: []
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
         advancementOrigin: B4RcR568GHtvVVaP.P65WodekLKSPQLGZ
         advancementRoot: B4RcR568GHtvVVaP.P65WodekLKSPQLGZ
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347015
-      modifiedTime: 1779770347015
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdSpellcasti
+      compendiumSource: null
+      duplicateSource: null
     sort: 800000
     ownership:
       default: 0
@@ -1551,23 +1548,20 @@ items:
     effects: []
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
         advancementOrigin: B4RcR568GHtvVVaP.P65WodekLKSPQLGZ
         advancementRoot: B4RcR568GHtvVVaP.P65WodekLKSPQLGZ
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdDruidic000
+      compendiumSource: null
+      duplicateSource: null
     sort: 300000
     ownership:
       default: 0
@@ -1618,23 +1612,20 @@ items:
     effects: []
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
         advancementOrigin: B4RcR568GHtvVVaP.P65WodekLKSPQLGZ
         advancementRoot: B4RcR568GHtvVVaP.P65WodekLKSPQLGZ
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde
+      compendiumSource: null
+      duplicateSource: null
     sort: 700000
     ownership:
       default: 0
@@ -1775,14 +1766,14 @@ items:
         statuses: []
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347019
-          modifiedTime: 1779770347019
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -1791,27 +1782,24 @@ items:
           !actors.items.effects!73mrLnim6n3ngDYD.cF0UbZKancaoAnJt.lHx55SIuimKR3ALR
     folder: pBaAAtXBCq9FVEnL
     sort: 300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
         advancementOrigin: B4RcR568GHtvVVaP.SpGvDfOabbJrOR3K
         advancementRoot: B4RcR568GHtvVVaP.SpGvDfOabbJrOR3K
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347019
-      modifiedTime: 1779770347019
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.cF0UbZKancaoAnJt'
   - _id: o0LMek4aW5IzN0qw
     name: 'Primal Order: Warden'
@@ -1881,15 +1869,14 @@ items:
         statuses: []
         sort: 0
         _stats:
-          compendiumSource: >-
-            Compendium.dnd5e.classes24.Item.phbdrdPrimalOrde.ActiveEffect.FZ2cZXwJx1f7bUxQ
-          duplicateSource: null
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347020
-          modifiedTime: 1779770347020
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
           exportSource: null
         start: null
         showIcon: 1
@@ -1899,23 +1886,20 @@ items:
     folder: EXYmwRGoNyMbByN1
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbPrimalOrderWa
         advancementOrigin: B4RcR568GHtvVVaP.NpBpNlHOO43gMD0U
         advancementRoot: B4RcR568GHtvVVaP.NpBpNlHOO43gMD0U
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347019
-      modifiedTime: 1779770347019
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbPrimalOrderWa
+      compendiumSource: null
+      duplicateSource: null
     sort: 1050000
     ownership:
       default: 0
@@ -2122,15 +2106,15 @@ items:
         advancementRoot: B4RcR568GHtvVVaP.hmO24ovOBpmXAb4U
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+      compendiumSource: null
+      duplicateSource: null
     sort: 1200000
     ownership:
       default: 0
@@ -2368,23 +2352,20 @@ items:
     folder: EXYmwRGoNyMbByN1
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
         advancementOrigin: B4RcR568GHtvVVaP.hmO24ovOBpmXAb4U
         advancementRoot: B4RcR568GHtvVVaP.hmO24ovOBpmXAb4U
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbdrdWildCompan
+      compendiumSource: null
+      duplicateSource: null
     sort: 900000
     ownership:
       default: 0
@@ -2549,19 +2530,19 @@ items:
         value: humanoid
     effects: []
     sort: 100000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.jK79aeEGtkSXSBa4
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.O2SzOE7WUO7EtyqW'
   - folder: bg0sAuURuHmqUcuY
     name: Fey Step
@@ -2714,11 +2695,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347022
-          modifiedTime: 1779770347022
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2752,11 +2733,11 @@ items:
               statuses:
                 - frightened
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347022
-          modifiedTime: 1779770347022
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2764,8 +2745,6 @@ items:
         _key: >-
           !actors.items.effects!73mrLnim6n3ngDYD.zJ5vOqDWWHYKfPoz.ITsehHMcBKhOZFIO
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
@@ -2773,15 +2752,17 @@ items:
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347022
-      modifiedTime: 1779770347022
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.547OT2jzwterxvmg
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.zJ5vOqDWWHYKfPoz'
   - folder: bg0sAuURuHmqUcuY
     name: Fey Ancestry
@@ -2822,8 +2803,6 @@ items:
         subtype: ''
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
@@ -2831,15 +2810,17 @@ items:
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.WwJNjbPlJZNG4sw7
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.qYmTvAMrSDTIpJOA'
   - folder: bg0sAuURuHmqUcuY
     name: Trance
@@ -2940,8 +2921,6 @@ items:
         subtype: ''
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
@@ -2949,15 +2928,17 @@ items:
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.vaUxwV6SK9RslzeY
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.xA9yVobXnTkI6TXt'
   - folder: bg0sAuURuHmqUcuY
     name: Winter Eladrin
@@ -3160,11 +3141,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347023
-          modifiedTime: 1779770347023
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3198,21 +3179,18 @@ items:
               statuses:
                 - frightened
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347023
-          modifiedTime: 1779770347023
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
-          compendiumSource: >-
-            Compendium.draenal-common.species.Item.547OT2jzwterxvmg.ActiveEffect.ITsehHMcBKhOZFIO
+          compendiumSource: null
           duplicateSource: null
           exportSource: null
         _key: >-
           !actors.items.effects!73mrLnim6n3ngDYD.Wv2hhNCIHiuC2qZ2.gn3CeHgZMf1TbPaH
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         riders:
@@ -3223,15 +3201,17 @@ items:
         advancementOrigin: xA9yVobXnTkI6TXt.SkPNiVF7rZQNOrV1
         advancementRoot: O2SzOE7WUO7EtyqW.X5wGVSGtuimEnkYJ
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347023
-      modifiedTime: 1779770347023
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.erzSzSLs0v4SwsuN
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.Wv2hhNCIHiuC2qZ2'
   - name: Guide
     type: background
@@ -3406,18 +3386,18 @@ items:
     folder: null
     flags: {}
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.backgrounds.Item.NchBwZSuntWQ0hle
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    sort: 0
     ownership:
       default: 0
-    sort: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.4WczKmyfq45RvBOz'
   - name: Magic Initiate
     system:
@@ -3547,27 +3527,24 @@ items:
     effects: []
     folder: d5jrO8A6QpjEV9rn
     sort: 112500
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.feats24.Item.phbftMagicInitia
         advancementOrigin: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.feats24.Item.phbftMagicInitia
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.i2S3bm0M9HYQ6AUw'
   - name: Healing Word
     system:
@@ -3716,27 +3693,24 @@ items:
     effects: []
     folder: pBaAAtXBCq9FVEnL
     sort: 2300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplHealingWor
         advancementOrigin: i2S3bm0M9HYQ6AUw.ZbKHs2FVCkJVNW8p
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347016
-      modifiedTime: 1779770347016
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHealingWor
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.GNzKVit3QltWdBZ2'
   - name: Starry Wisp
     system:
@@ -3896,14 +3870,14 @@ items:
         sort: 0
         flags: {}
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347020
-          modifiedTime: 1779770347020
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -3912,27 +3886,24 @@ items:
           !actors.items.effects!73mrLnim6n3ngDYD.FCk9gldRBHLwloMM.T9kBIL7LS3j0Upwz
     folder: 4FhsY9FJQd7h7MZb
     sort: 100782
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
         advancementOrigin: i2S3bm0M9HYQ6AUw.ElkyDafWSUXOkPdJ
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347020
-      modifiedTime: 1779770347020
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.FCk9gldRBHLwloMM'
   - name: Message
     system:
@@ -4048,27 +4019,24 @@ items:
     effects: []
     folder: 4FhsY9FJQd7h7MZb
     sort: 800000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplMessage000
         advancementOrigin: i2S3bm0M9HYQ6AUw.ElkyDafWSUXOkPdJ
         advancementRoot: 4WczKmyfq45RvBOz.QamK9sXUjMVRPXsv
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMessage000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.76d2WcYn9rs0Ajss'
   - folder: dtXfybmcZj17GujL
     name: Frostbite
@@ -4202,204 +4170,22 @@ items:
       prepared: 1
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.spells.Item.NissLHQ03AWLHGKU
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.jsktgqCNINRV3JVS'
-  - name: Entangle
-    system:
-      description:
-        value: >-
-          <p>Grasping plants sprout from the ground in a 20-foot square within
-          range. For the duration, these plants turn the ground in the area into
-          &amp;Reference[difficultterrain]. They disappear when the spell
-          ends.</p><p>Each creature (other than you) in the area when you cast
-          the spell must succeed on a Strength saving throw or have the
-          &amp;Reference[restrained apply=false] condition until the spell ends.
-          A Restrained creature can take an action to make a [[/check
-          ability=str skill=ath dc=@attributes.spell.dc]] check against your
-          spell save DC. On a success, it frees itself from the grasping plants
-          and is no longer Restrained by them.</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 2
-      activation:
-        type: action
-        condition: ''
-        value: null
-      duration:
-        value: '1'
-        units: minute
-      target:
-        affects:
-          choice: false
-          type: ''
-        template:
-          units: ft
-          type: cube
-          size: '20'
-          contiguous: false
-          count: ''
-          stationary: false
-      range:
-        value: '90'
-        units: ft
-        special: ''
-      uses:
-        max: ''
-        recovery: []
-        spent: 0
-      level: 1
-      school: con
-      properties:
-        - vocal
-        - somatic
-        - concentration
-      materials:
-        value: ''
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: save
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: false
-            concentration: false
-          effects:
-            - _id: wn7K2m4XhXhItgPT
-              onSave: false
-              level: {}
-          range:
-            override: false
-            units: self
-          target:
-            prompt: true
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-          damage:
-            onSave: half
-            parts: []
-          save:
-            ability:
-              - str
-            dc:
-              calculation: spellcasting
-              formula: ''
-          uses:
-            spent: 0
-            recovery: []
-          sort: 0
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: entangle
-      method: spell
-      sourceItem: class:druid
-      prepared: 1
-    _id: 3T2PaZhP1cGToHlY
-    type: spell
-    img: icons/magic/nature/root-vine-entangle-foot-green.webp
-    effects:
-      - name: Restrained
-        origin: Compendium.dnd5e.spells24.Item.phbsplEntangle00
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        disabled: false
-        flags: {}
-        img: systems/dnd5e/icons/svg/statuses/restrained.svg
-        _id: wn7K2m4XhXhItgPT
-        type: base
-        system:
-          changes: []
-        description: >-
-          <p>A Restrained creature can take an action to make a [[/check
-          ability=str skill=ath]] check against your spell save DC. On a
-          success, it frees itself from the grasping plants and is no longer
-          Restrained by them.</p>
-        tint: '#ffffff'
-        transfer: false
-        statuses:
-          - restrained
-        sort: 0
-        _stats:
-          compendiumSource: null
-          duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347020
-          modifiedTime: 1779770347020
-          lastModifiedBy: draenalcommon000
-          exportSource: null
-        showIcon: 2
-        start: null
-        folder: null
-        _key: >-
-          !actors.items.effects!73mrLnim6n3ngDYD.3T2PaZhP1cGToHlY.wn7K2m4XhXhItgPT
-    folder: pBaAAtXBCq9FVEnL
-    sort: 3400000
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-        '-=riders': null
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347020
-      modifiedTime: 1779770347020
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEntangle00
-    _key: '!actors.items!73mrLnim6n3ngDYD.3T2PaZhP1cGToHlY'
   - name: Ice Knife
     system:
       description:
@@ -4605,24 +4391,21 @@ items:
     effects: []
     folder: pBaAAtXBCq9FVEnL
     sort: 1800000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplIceKnife00
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.M2k2xNaIBSxsn6iE'
   - name: Cure Wounds
     system:
@@ -4741,24 +4524,21 @@ items:
     effects: []
     folder: pBaAAtXBCq9FVEnL
     sort: 4300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.KYXMXc4EQKWdJCxF'
   - name: Backpack
     system:
@@ -4807,19 +4587,19 @@ items:
     img: icons/containers/bags/pack-simple-leather.webp
     effects: []
     sort: 7300000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.7IAVFl0Gc762X1rt'
   - name: Waterskin
     system:
@@ -4869,19 +4649,19 @@ items:
     img: icons/sundries/survival/waterskin-leather-brown.webp
     effects: []
     sort: 6900000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagWaterskin00
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.Yh6E5BV56SJBfuyq'
   - name: Water (Pint)
     type: consumable
@@ -4995,24 +4775,21 @@ items:
     folder: uDk4FBYfcP2JnX6t
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.2nlARB78sJo8Z2W6
-    ownership:
-      default: 0
+      compendiumSource: null
+      duplicateSource: null
     _id: KmJrpOS6mHDR7Kaj
     sort: 100000
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.KmJrpOS6mHDR7Kaj'
   - name: Shield
     system:
@@ -5075,24 +4852,21 @@ items:
     img: icons/equipment/shield/round-wooden-boss-steel-brown.webp
     effects: []
     sort: 100000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.WNHDHgMcOAGKQG6q'
   - name: Studded Leather Armor
     system:
@@ -5153,24 +4927,21 @@ items:
     img: icons/equipment/chest/breastplate-rivited-red.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmStuddedLea
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.UloFZbOUPOccVWOe'
   - name: Herbalism Kit
     system:
@@ -5289,24 +5060,21 @@ items:
     img: icons/containers/bags/pouch-leather-green.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulHerbalismK
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.rF9zQIIUsUaGq0E5'
   - name: Rope
     system:
@@ -5542,24 +5310,21 @@ items:
     img: icons/sundries/survival/rope-wrapped-brown.webp
     effects: []
     sort: 5500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347017
-      modifiedTime: 1779770347017
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRope0000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.JHob9mrfUbX8nZI6'
   - name: Sickle
     system:
@@ -5717,24 +5482,21 @@ items:
     img: icons/weapons/sickles/sickle-curved.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepSickle0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.POkbQaXgl5ep1guK'
   - name: Oil
     system:
@@ -5944,24 +5706,21 @@ items:
     img: icons/consumables/potions/bottle-bulb-empty-glass.webp
     effects: []
     sort: 4100000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagOil00000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.BlwCtL1LmGDt0O5H'
   - name: Rations
     system:
@@ -6074,24 +5833,21 @@ items:
     img: icons/consumables/food/berries-ration-round-red.webp
     effects: []
     sort: 5300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRations0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.hjDva8ghavkKmMIm'
   - name: Tinderbox
     system:
@@ -6211,24 +5967,21 @@ items:
     img: icons/sundries/lights/torch-black.webp
     effects: []
     sort: 6500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTinderbox00
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.MG2FF60t4Dg6SZbH'
   - name: Torch
     system:
@@ -6372,24 +6125,21 @@ items:
     img: icons/sundries/lights/torch-brown-lit.webp
     effects: []
     sort: 6600000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTorch000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.5joFB5wfL3Ejcr1O'
   - name: Bedroll
     system:
@@ -6429,19 +6179,19 @@ items:
     img: icons/sundries/survival/bedroll-grey.webp
     effects: []
     sort: 7600000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.wXiRXqkOhWGMQxl3'
   - folder: LqiO7cAFbVwEOPNT
     name: Circle of Nightmares
@@ -6545,21 +6295,21 @@ items:
         ability: ''
     effects: []
     sort: 100000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.epUSDsracMjworsw
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.epUSDsracMjworsw
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.xDrvG0oslCuqEj7D'
   - name: Holy Water
     system:
@@ -6694,24 +6444,21 @@ items:
     img: icons/consumables/potions/bottle-round-empty-glass.webp
     effects: []
     sort: 65610
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.nshr9PBVyB03T7wB
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.gy3vgsISmpMYlcwW'
   - name: Potion of Healing
     system:
@@ -6845,24 +6592,21 @@ items:
     img: icons/consumables/potions/potion-tube-corked-red.webp
     effects: []
     sort: 4800000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPotionofHea
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.7NBcNAoWq6ce33UA'
   - name: Produce Flame
     system:
@@ -7051,164 +6795,22 @@ items:
     effects: []
     folder: 4FhsY9FJQd7h7MZb
     sort: 300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347018
-      modifiedTime: 1779770347018
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplProduceFla
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.EeQ8MlBVMapGgADW'
-  - name: Augury
-    system:
-      description:
-        value: >-
-          <p>You receive an omen from an otherworldly entity about the results
-          of a course of action that you plan to take within the next 30
-          minutes. The DM chooses the omen from the Omens
-          table.</p><table><thead><tr><td>Omen</td><td>For Results That Will Be
-          …</td></tr></thead><tbody><tr><td>Weal</td><td>Good</td></tr><tr><td>Woe</td><td>Bad</td></tr><tr><td>Weal
-          and woe</td><td>Good and
-          bad</td></tr><tr><td>Indifference</td><td>Neither good nor
-          bad</td></tr></tbody></table><p>The spell doesn't account for
-          circumstances, such as other spells, that might change the
-          results.</p><p>If you cast the spell more than once before finishing a
-          Long Rest, there is a cumulative 25 percent chance for each casting
-          after the first that you get no answer.</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      activation:
-        type: minute
-        condition: ''
-        value: 1
-      duration:
-        value: ''
-        units: inst
-      target:
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        template:
-          units: ft
-          contiguous: false
-          type: ''
-          stationary: false
-      range:
-        units: self
-        special: ''
-      uses:
-        max: ''
-        recovery: []
-        spent: 0
-      level: 2
-      school: div
-      properties:
-        - vocal
-        - somatic
-        - material
-        - ritual
-      materials:
-        value: >-
-          specially marked sticks, bones, cards, or other divinatory tokens
-          worth 25+ GP
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: utility
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: false
-            concentration: false
-          effects: []
-          range:
-            override: false
-            units: self
-          target:
-            prompt: true
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-          roll:
-            formula: ''
-            name: ''
-            prompt: false
-            visible: false
-          uses:
-            spent: 0
-            recovery: []
-          sort: 0
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: augury
-      method: spell
-      sourceItem: class:druid
-      prepared: 1
-    _id: XfIIAEHBvvNGMF9l
-    type: spell
-    img: icons/sundries/gaming/playing-cards-black.webp
-    effects: []
-    folder: 3SjcO2acsFnWegp4
-    sort: 5200000
-    ownership:
-      default: 0
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-        '-=riders': null
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
-      systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347019
-      modifiedTime: 1779770347019
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplAugury0000
-    _key: '!actors.items!73mrLnim6n3ngDYD.XfIIAEHBvvNGMF9l'
   - name: Heat Metal
     system:
       description:
@@ -7489,14 +7091,14 @@ items:
         sort: 0
         flags: {}
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770347021
-          modifiedTime: 1779770347021
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -7505,24 +7107,21 @@ items:
           !actors.items.effects!73mrLnim6n3ngDYD.rJqkfJ98knbTHySQ.VVQbCUE5W44bF4QU
     folder: 3SjcO2acsFnWegp4
     sort: 2900000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347021
-      modifiedTime: 1779770347021
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.rJqkfJ98knbTHySQ'
   - name: Lesser Restoration
     system:
@@ -7629,24 +7228,21 @@ items:
     effects: []
     folder: 3SjcO2acsFnWegp4
     sort: 2500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347019
-      modifiedTime: 1779770347019
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplLesserRest
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.UEZgIYZPmJsLgivG'
   - folder: cGU25ieVxpiolPUO
     name: Timberwolf
@@ -7717,6 +7313,72 @@ items:
             includeBase: true
             parts: []
           name: ''
+        yfkaTxJpHQPHYcVB:
+          type: attack
+          _id: yfkaTxJpHQPHYcVB
+          img: icons/magic/death/weapon-scythe-rune-green.webp
+          sort: 400000
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags:
+            dnd5e:
+              dependentOn: wyHhx7G9g35M4INr
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: spellcasting
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          name: Druidic Violence
       uses:
         spent: 0
         recovery: []
@@ -7799,24 +7461,73 @@ items:
       magicalBonus: ''
       attuned: true
       equipped: true
-    effects: []
+    effects:
+      - type: enchantment
+        name: Druidic Violence
+        img: icons/magic/death/weapon-scythe-rune-green.webp
+        disabled: false
+        system:
+          changes:
+            - key: name
+              type: override
+              value: '{} [Druidic Violence]'
+              phase: initial
+              priority: null
+        start: null
+        duration:
+          value: 600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+            enchantmentProfile: Ze6Xtm4hhL10DfHK
+          core:
+            originText: >-
+              Actor.73mrLnim6n3ngDYD.Item.6JCwaBC9BNU8cTaN.Activity.gX1dbof8muyEkJbu
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: wyHhx7G9g35M4INr
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.t4z04n7IlqTWFt9M.wyHhx7G9g35M4INr
     flags:
       dnd5e:
         '-=riders': null
+        last:
+          yfkaTxJpHQPHYcVB:
+            attackMode: oneHanded
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770347019
-      modifiedTime: 1779770347019
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.draenal-common.private-equipment.Item.9j3vij4HlQE5KXN8
+      compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
     _id: t4z04n7IlqTWFt9M
     sort: 200000
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.t4z04n7IlqTWFt9M'
   - folder: Csr6OBfn5suOcgWw
     name: Circle of Nightmares Spells
@@ -8020,23 +7731,23 @@ items:
         subtype: ''
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.tJreQjIjAv5jmZoC
         advancementOrigin: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346939
-      modifiedTime: 1779770346943
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.tJreQjIjAv5jmZoC
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.nobrLcYLWhsXy7J9'
   - folder: Csr6OBfn5suOcgWw
     name: Fed By Fear
@@ -8508,7 +8219,7 @@ items:
               formula: ''
           _id: 8B1BAwtOh9hhBgwI
       uses:
-        spent: null
+        spent: 3
         recovery:
           - period: lr
             type: loseAll
@@ -8616,11 +8327,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346940
-          modifiedTime: 1779770346940
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8654,11 +8365,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346940
-          modifiedTime: 1779770346940
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8692,11 +8403,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346940
-          modifiedTime: 1779770346940
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8705,23 +8416,23 @@ items:
         _key: >-
           !actors.items.effects!73mrLnim6n3ngDYD.JQPBnmIuieS0Xu6z.0d3zTMt9HESVRAep
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
         advancementOrigin: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346940
-      modifiedTime: 1779770346944
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.ywlUonIOkLwkxyXN
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.JQPBnmIuieS0Xu6z'
   - folder: Csr6OBfn5suOcgWw
     name: Waking Nightmare
@@ -9132,11 +8843,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346941
-          modifiedTime: 1779770346941
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9174,11 +8885,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346941
-          modifiedTime: 1779770346941
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9216,11 +8927,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346941
-          modifiedTime: 1779770346941
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9228,8 +8939,6 @@ items:
         _key: >-
           !actors.items.effects!73mrLnim6n3ngDYD.6JCwaBC9BNU8cTaN.ZPd0Ac3Z8oP0aAIX
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         riders:
@@ -9239,15 +8948,17 @@ items:
         advancementOrigin: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346941
-      modifiedTime: 1779770346944
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.IcyabR3GAehw0AZ7
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.6JCwaBC9BNU8cTaN'
   - name: Sleep
     system:
@@ -9397,14 +9108,14 @@ items:
           - incapacitated
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346941
-          modifiedTime: 1779770346941
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -9413,8 +9124,6 @@ items:
           !actors.items.effects!73mrLnim6n3ngDYD.8we7v83Rbg5geGnb.04Wa4xUzjA31kPno
     folder: pBaAAtXBCq9FVEnL
     sort: 400000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         riders:
@@ -9424,15 +9133,17 @@ items:
         advancementOrigin: nobrLcYLWhsXy7J9.jYuYrC1qwtWKFW4E
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346941
-      modifiedTime: 1779770346944
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.8we7v83Rbg5geGnb'
   - name: Inflict Wounds
     system:
@@ -9561,8 +9272,6 @@ items:
     effects: []
     folder: pBaAAtXBCq9FVEnL
     sort: 1500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         riders:
@@ -9572,15 +9281,17 @@ items:
         advancementOrigin: nobrLcYLWhsXy7J9.jYuYrC1qwtWKFW4E
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346942
-      modifiedTime: 1779770346945
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.0gJlAR0AmuYh78qX'
   - name: Darkness
     system:
@@ -9697,8 +9408,6 @@ items:
     effects: []
     folder: 3SjcO2acsFnWegp4
     sort: 4200000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         riders:
@@ -9708,15 +9417,17 @@ items:
         advancementOrigin: nobrLcYLWhsXy7J9.GUSGGapoV7gFb1OG
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346942
-      modifiedTime: 1779770346945
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.d5kU13ZmCnhjd2be'
   - _id: IWGmwXbmHKg76TJS
     name: Phantasmal Force
@@ -9949,14 +9660,14 @@ items:
         sort: 0
         flags: {}
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346943
-          modifiedTime: 1779770346943
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -9973,15 +9684,15 @@ items:
         advancementOrigin: nobrLcYLWhsXy7J9.GUSGGapoV7gFb1OG
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346943
-      modifiedTime: 1779770346945
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+      compendiumSource: null
+      duplicateSource: null
     sort: 100782
     ownership:
       default: 0
@@ -10142,14 +9853,14 @@ items:
         sort: 0
         flags: {}
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779770346943
-          modifiedTime: 1779770346943
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -10158,8 +9869,6 @@ items:
           !actors.items.effects!73mrLnim6n3ngDYD.GaNnwZO6AjHThSXR.zwks0mAqBHGZC1Pk
     folder: 4FhsY9FJQd7h7MZb
     sort: 1900000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         riders:
@@ -10169,21 +9878,507 @@ items:
         advancementOrigin: nobrLcYLWhsXy7J9.zVoU41SUtgOYFMFD
         advancementRoot: xDrvG0oslCuqEj7D.ha91bc5qQKB1w38Q
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779770346943
-      modifiedTime: 1779770346945
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!73mrLnim6n3ngDYD.GaNnwZO6AjHThSXR'
-effects: []
+  - name: Darkvision
+    system:
+      description:
+        value: >-
+          <p>For the duration, a willing creature you touch has
+          &amp;Reference[darkvision] with a range of 150 feet.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '8'
+        units: hour
+      target:
+        affects:
+          type: willing
+          count: '1'
+          choice: false
+        template:
+          units: ft
+          contiguous: false
+          stationary: false
+      range:
+        units: touch
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a dried carrot
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: ZWNC1jxea2RuIRVc
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: darkvision
+      method: spell
+      sourceItem: class:druid
+      prepared: 1
+    _id: EgOIm00IUQgul00q
+    type: spell
+    img: icons/magic/perception/eye-winged-pink.webp
+    effects:
+      - name: Darkvision
+        origin: Compendium.dnd5e.spells24.Item.phbsplDarkvision
+        duration:
+          value: 28800
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        _id: ZWNC1jxea2RuIRVc
+        description: >-
+          <p>For the duration, a willing creature you touch has
+          &amp;Reference[darkvision] with a range of 150 feet.</p>
+        transfer: false
+        statuses: []
+        flags: {}
+        tint: '#ffffff'
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        img: icons/magic/perception/eye-winged-pink.webp
+        type: base
+        system:
+          changes:
+            - key: system.attributes.senses.darkvision
+              value: 120
+              priority: null
+              type: upgrade
+              phase: initial
+        sort: 0
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.EgOIm00IUQgul00q.ZWNC1jxea2RuIRVc
+    folder: 3SjcO2acsFnWegp4
+    sort: 4100000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!73mrLnim6n3ngDYD.EgOIm00IUQgul00q'
+  - name: Pass without Trace
+    system:
+      description:
+        value: >-
+          <p>You radiate a concealing aura in a 30-foot Emanation for the
+          duration. While in the aura, you and each creature you choose have a
+          +10 bonus to [[/check ability=dex skill=ste]] checks and leave no
+          tracks.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: creature
+          count: ''
+          choice: false
+        template:
+          units: ft
+          contiguous: false
+          stationary: false
+      range:
+        units: self
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: abj
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: ashes from burned mistletoe
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: MDdoug4Lfu8klZRO
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: pass-without-trace
+      method: spell
+      sourceItem: class:druid
+      prepared: 1
+    _id: Q2q1TbZCDSTfiyDu
+    type: spell
+    img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+    effects:
+      - name: Concealed
+        origin: Compendium.dnd5e.spells24.Item.phbsplPasswithou
+        duration:
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
+        _id: MDdoug4Lfu8klZRO
+        type: base
+        system:
+          changes:
+            - key: system.skills.ste.bonuses.check
+              value: 10
+              priority: null
+              type: add
+              phase: initial
+        description: >-
+          <p>While in the aura, you and each creature you choose have a +10
+          bonus to [[/check ability=dex skill=ste]] checks and leave no
+          tracks.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085062
+          modifiedTime: 1781328085062
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!73mrLnim6n3ngDYD.Q2q1TbZCDSTfiyDu.MDdoug4Lfu8klZRO
+    folder: 3SjcO2acsFnWegp4
+    sort: 1400000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!73mrLnim6n3ngDYD.Q2q1TbZCDSTfiyDu'
+effects:
+  - name: Waking Nightmare
+    img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+    origin: Actor.73mrLnim6n3ngDYD.Item.6JCwaBC9BNU8cTaN.ActiveEffect.ZPd0Ac3Z8oP0aAIX
+    transfer: false
+    _id: JYF8UxuJjDhWq5eJ
+    type: base
+    system:
+      changes:
+        - key: ''
+          type: add
+          value: ''
+          phase: initial
+          priority: null
+    disabled: false
+    start:
+      time: -308735988
+      combat: 0Bu5NSgj6YoZw7mg
+      combatant: null
+      initiative: null
+      round: 2
+      turn: null
+    duration:
+      value: 10
+      units: minutes
+      expiry: turnStart
+      expired: true
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+        dependentOn: >-
+          Actor.73mrLnim6n3ngDYD.Item.6JCwaBC9BNU8cTaN.ActiveEffect.ZPd0Ac3Z8oP0aAIX
+        scaling: 0
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.effects!73mrLnim6n3ngDYD.JYF8UxuJjDhWq5eJ'
+  - name: Concealed
+    origin: Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn.ActiveEffect.MDdoug4Lfu8klZRO
+    duration:
+      value: 3600
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: true
+    flags:
+      dnd5e:
+        dependentOn: >-
+          Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn.ActiveEffect.MDdoug4Lfu8klZRO
+        scaling: 0
+        spellLevel: 2
+    img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
+    _id: M3eH0FLUG89S7pmw
+    type: base
+    system:
+      changes:
+        - key: system.skills.ste.bonuses.check
+          value: 10
+          priority: null
+          type: add
+          phase: initial
+    description: >-
+      <p>While in the aura, you and each creature you choose have a +10 bonus to
+      [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    start:
+      time: 13086
+      combat: null
+      combatant: null
+      initiative: null
+      round: null
+      turn: null
+    showIcon: 1
+    folder: null
+    _key: '!actors.effects!73mrLnim6n3ngDYD.M3eH0FLUG89S7pmw'
+  - name: Concealed
+    origin: Actor.DqLfAsayienM661c.ActiveEffect.fqpwnjdwSx4R5LWm
+    duration:
+      value: 3600
+      units: seconds
+      expiry: turnStart
+      expired: false
+    disabled: false
+    flags:
+      dnd5e:
+        dependentOn: Actor.DqLfAsayienM661c.ActiveEffect.fqpwnjdwSx4R5LWm
+        scaling: 0
+        spellLevel: 2
+    img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
+    _id: GEHeupku60V2flz5
+    type: base
+    system:
+      changes:
+        - key: system.skills.ste.bonuses.check
+          value: 10
+          priority: null
+          type: add
+          phase: initial
+    description: >-
+      <p>While in the aura, you and each creature you choose have a +10 bonus to
+      [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085062
+      modifiedTime: 1781328085062
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    start:
+      time: -308735988
+      combat: 0Bu5NSgj6YoZw7mg
+      combatant: null
+      initiative: null
+      round: 2
+      turn: null
+    showIcon: 1
+    folder: null
+    _key: '!actors.effects!73mrLnim6n3ngDYD.GEHeupku60V2flz5'
 folder: null
-sort: 0
-ownership:
-  default: 0
 flags:
   tokenizer-2:
     layerStack:
@@ -10357,13 +10552,16 @@ flags:
     isDynamicRingMode: false
     modeIsOversized: true
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
-  createdTime: 1776813256847
-  modifiedTime: 1781043521138
+  systemVersion: 5.3.3
+  createdTime: 1781328085062
+  modifiedTime: 1781328085086
   lastModifiedBy: draenalcommon000
-  duplicateSource: null
   exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+sort: 0
 _key: '!actors!73mrLnim6n3ngDYD'
 

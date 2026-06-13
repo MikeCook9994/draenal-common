@@ -532,9 +532,6 @@ prototypeToken:
   prependAdjective: false
 items: []
 effects: []
-sort: 0
-ownership:
-  default: 0
 flags:
   tokenizer-2:
     layerStack:
@@ -706,13 +703,16 @@ flags:
       height: 508
     isOversized: false
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
-  createdTime: 1779748687377
-  modifiedTime: 1779752490033
+  systemVersion: 5.3.3
+  createdTime: 1781328085067
+  modifiedTime: 1781328085090
   lastModifiedBy: draenalcommon000
-  duplicateSource: null
   exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+sort: 0
 _key: '!actors!jZJbkFviyihgc3D8'
 

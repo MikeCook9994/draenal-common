@@ -18,7 +18,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -51,7 +50,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -84,7 +82,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -118,7 +115,6 @@ levels:
       alphaThreshold: 0.75
     fog:
       src: null
-      tint: '#ffffff'
     textures:
       anchorX: 0.5
       anchorY: 0.5
@@ -7171,7 +7167,7 @@ grid:
   units: ft
 _id: sjHgKkZpMzooVLZm
 navigation: false
-thumb: worlds/module-development/assets/scenes/thumb-S16KKMWycHqLJsq1JOn27Q.webp
+thumb: worlds/module-development/assets/scenes/thumb-KCN6qEIfWtqU4P7hk8Dbuw.webp
 shiftX: 0
 shiftY: 0
 initial:
@@ -7344,11 +7340,11 @@ tokens:
           sort: 0
           flags: {}
           _stats:
-            coreVersion: '14.361'
+            coreVersion: '14.364'
             systemId: dnd5e
-            systemVersion: 5.3.2
-            createdTime: 1781022325341
-            modifiedTime: 1781022325341
+            systemVersion: 5.3.3
+            createdTime: 1781325239049
+            modifiedTime: 1781325239049
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7492,11 +7488,11 @@ tokens:
           sort: 0
           flags: {}
           _stats:
-            coreVersion: '14.361'
+            coreVersion: '14.364'
             systemId: dnd5e
-            systemVersion: 5.3.2
-            createdTime: 1781022325341
-            modifiedTime: 1781022325341
+            systemVersion: 5.3.3
+            createdTime: 1781325239049
+            modifiedTime: 1781325239049
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -11887,11 +11883,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1781022325341
-          modifiedTime: 1781022325341
+          systemVersion: 5.3.3
+          createdTime: 1781325239049
+          modifiedTime: 1781325239049
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11947,11 +11943,11 @@ regions:
         disabled: false
         flags: {}
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1781022325341
-          modifiedTime: 1781022325341
+          systemVersion: 5.3.3
+          createdTime: 1781325239049
+          modifiedTime: 1781325239049
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11976,18 +11972,18 @@ ownership:
   default: 0
 flags: {}
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
-  createdTime: 1781022325341
-  modifiedTime: 1781022327625
+  systemVersion: 5.3.3
+  createdTime: 1781325239049
+  modifiedTime: 1781327645472
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 navName: ''
-navOrder: 0
 active: false
-sort: 0
+navOrder: 0
+sort: 100000
 _key: '!scenes!sjHgKkZpMzooVLZm'
 templates: []
 

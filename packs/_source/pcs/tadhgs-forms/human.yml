@@ -532,9 +532,6 @@ prototypeToken:
   prependAdjective: false
 items: []
 effects: []
-sort: 0
-ownership:
-  default: 0
 flags:
   dnd5e:
     showTokenPortrait: true
@@ -708,13 +705,16 @@ flags:
       height: 508
     isOversized: true
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
-  createdTime: 1779748722253
-  modifiedTime: 1779752504797
+  systemVersion: 5.3.3
+  createdTime: 1781328085068
+  modifiedTime: 1781328085090
   lastModifiedBy: draenalcommon000
-  duplicateSource: null
   exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+sort: 0
 _key: '!actors!ag9FB174tGer3kvw'
 

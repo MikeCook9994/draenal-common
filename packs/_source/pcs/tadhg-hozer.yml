@@ -533,7 +533,7 @@ prototypeToken:
       max: 1
   sight:
     enabled: true
-    range: 120
+    range: 0
     angle: 360
     visionMode: basic
     color: null
@@ -552,7 +552,7 @@ prototypeToken:
     colors:
       ring: null
       background: null
-    effects: 0
+    effects: 1
     subject:
       scale: 1
       texture: null
@@ -1217,18 +1217,18 @@ items:
     effects: []
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686517
-      modifiedTime: 1779759686517
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkWarlock000
+      compendiumSource: null
+      duplicateSource: null
+    sort: 0
     ownership:
       default: 0
-    sort: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.XM26lkv6RY9W7the'
   - _id: QygQbot20aB14vis
     name: Eldritch Invocations
@@ -1291,23 +1291,20 @@ items:
     effects: []
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbwlkEldritchIn
         advancementOrigin: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         advancementRoot: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686518
-      modifiedTime: 1779759686518
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkEldritchIn
+      compendiumSource: null
+      duplicateSource: null
     sort: 0
     ownership:
       default: 0
@@ -1401,23 +1398,20 @@ items:
     effects: []
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbwlkPactMagic0
         advancementOrigin: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         advancementRoot: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686518
-      modifiedTime: 1779759686518
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkPactMagic0
+      compendiumSource: null
+      duplicateSource: null
     sort: 0
     ownership:
       default: 0
@@ -1663,14 +1657,14 @@ items:
         sort: 0
         flags: {}
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686524
-          modifiedTime: 1779759686524
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -1688,15 +1682,15 @@ items:
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686523
-      modifiedTime: 1779759686523
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbinvPactBlade0
+      compendiumSource: null
+      duplicateSource: null
     sort: 0
     ownership:
       default: 0
@@ -1809,23 +1803,20 @@ items:
     effects: []
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbwlkMagicalCun
         advancementOrigin: XM26lkv6RY9W7the.IUkGspfJYbVXFLjw
         advancementRoot: XM26lkv6RY9W7the.IUkGspfJYbVXFLjw
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686518
-      modifiedTime: 1779759686518
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbwlkMagicalCun
+      compendiumSource: null
+      duplicateSource: null
     sort: 0
     ownership:
       default: 0
@@ -1876,23 +1867,20 @@ items:
     folder: BjeMHiqnKNWkWhox
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbinvAgonizingB
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686518
-      modifiedTime: 1779759686518
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbinvAgonizingB
+      compendiumSource: null
+      duplicateSource: null
     sort: 0
     ownership:
       default: 0
@@ -1961,14 +1949,14 @@ items:
         sort: 0
         flags: {}
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686524
-          modifiedTime: 1779759686524
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -1978,23 +1966,20 @@ items:
     folder: BjeMHiqnKNWkWhox
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbinvDevilsSigh
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686524
-      modifiedTime: 1779759686524
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbinvDevilsSigh
+      compendiumSource: null
+      duplicateSource: null
     sort: 0
     ownership:
       default: 0
@@ -2136,21 +2121,21 @@ items:
     effects: []
     folder: 4FhsY9FJQd7h7MZb
     sort: 1600000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686518
-      modifiedTime: 1779759686518
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEldritchBl
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.8XfUDKZYXv9ApDxa'
   - name: Charm Person
     system:
@@ -2296,14 +2281,14 @@ items:
           - charmed
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686526
-          modifiedTime: 1779759686526
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -2312,24 +2297,21 @@ items:
           !actors.items.effects!j7ySRfEobPDT5RZo.K0fL9mNqHezsKIPS.78JcD7wFiSCOfmns
     folder: pBaAAtXBCq9FVEnL
     sort: 5000000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686525
-      modifiedTime: 1779759686525
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.K0fL9mNqHezsKIPS'
   - name: Comprehend Languages
     system:
@@ -2473,14 +2455,14 @@ items:
         statuses: []
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686526
-          modifiedTime: 1779759686526
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -2489,24 +2471,21 @@ items:
           !actors.items.effects!j7ySRfEobPDT5RZo.bRVmnWIlufTEhzzC.ANhwNb9xKRpWs4Q2
     folder: pBaAAtXBCq9FVEnL
     sort: 4500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686526
-      modifiedTime: 1779759686526
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplComprehend
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.bRVmnWIlufTEhzzC'
   - name: Longsword
     system:
@@ -2664,24 +2643,21 @@ items:
     img: icons/weapons/swords/greatsword-guard.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepLongsword0
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.HIPj373cXnpEgPH5'
   - name: Dagger
     system:
@@ -2841,24 +2817,21 @@ items:
     img: icons/weapons/daggers/dagger-straight-blue.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.J94zW7pdy0snVBqs'
   - name: Crowbar
     system:
@@ -2896,19 +2869,19 @@ items:
     img: icons/tools/hand/pickaxe-steel-white.webp
     effects: []
     sort: 1600000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagCrowbar0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.OJondBXXw2AqyxxO'
   - name: Orb
     system:
@@ -2972,24 +2945,21 @@ items:
     img: icons/commodities/gems/pearl-purple-smooth.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbafcOrb0000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.YCwMyAJKlArbZ9kE'
   - name: Shield
     system:
@@ -3045,31 +3015,28 @@ items:
       crew:
         value: []
       attuned: false
-      equipped: false
+      equipped: true
     _id: pFWNxjvC4AaJmTWb
     type: equipment
     folder: Iyyec8ij0PAfdLBd
     img: icons/equipment/shield/round-wooden-boss-steel-brown.webp
     effects: []
     sort: 100000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmShield0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.pFWNxjvC4AaJmTWb'
   - name: Leather Armor
     system:
@@ -3123,31 +3090,28 @@ items:
       crew:
         value: []
       attuned: false
-      equipped: true
+      equipped: false
     _id: T1hRUWJVJkBgrJYK
     type: equipment
     folder: G3X11BbtmEqLmEnK
     img: icons/equipment/chest/breastplate-scale-leather.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.T1hRUWJVJkBgrJYK'
   - name: Chain Shirt
     system:
@@ -3201,31 +3165,28 @@ items:
       crew:
         value: []
       attuned: false
-      equipped: false
+      equipped: true
     _id: wkiBjxUkMIl8uz71
     type: equipment
     folder: tNySLDnz2qPVahU7
     img: icons/equipment/chest/breastplate-scale-grey.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmChainShirt
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.wkiBjxUkMIl8uz71'
   - name: Caltrops
     system:
@@ -3414,14 +3375,14 @@ items:
         sort: 0
         flags: {}
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686527
-          modifiedTime: 1779759686527
-          lastModifiedBy: draenalcommon000
           exportSource: null
         start: null
         showIcon: 1
@@ -3429,21 +3390,21 @@ items:
         _key: >-
           !actors.items.effects!j7ySRfEobPDT5RZo.O9l2iVo06IFTMkfa.HsbtDDdiWhk4d7WB
     sort: 500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686527
-      modifiedTime: 1779759686527
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagCaltrops000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.O9l2iVo06IFTMkfa'
   - name: Oil
     system:
@@ -3653,24 +3614,21 @@ items:
     img: icons/consumables/potions/bottle-bulb-empty-glass.webp
     effects: []
     sort: 4100000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686519
-      modifiedTime: 1779759686519
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagOil00000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.Geb9hxD7FGDSmNyd'
   - name: Rope
     system:
@@ -3906,24 +3864,21 @@ items:
     img: icons/sundries/survival/rope-wrapped-brown.webp
     effects: []
     sort: 5500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRope0000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.b7Yt4cLUTY4QPj6w'
   - name: Torch
     system:
@@ -4067,24 +4022,21 @@ items:
     img: icons/sundries/lights/torch-brown-lit.webp
     effects: []
     sort: 6600000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTorch000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.oToTqmZoq6WeV51V'
   - name: Waterskin
     system:
@@ -4134,19 +4086,19 @@ items:
     img: icons/sundries/survival/waterskin-leather-brown.webp
     effects: []
     sort: 6900000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagWaterskin00
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.tPvs3o6NxVnEtXNM'
   - name: Water (Pint)
     type: consumable
@@ -4260,24 +4212,21 @@ items:
     folder: uDk4FBYfcP2JnX6t
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.2nlARB78sJo8Z2W6
-    ownership:
-      default: 0
+      compendiumSource: null
+      duplicateSource: null
     _id: u5lFTbYfDuyqM3tc
     sort: 100000
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.u5lFTbYfDuyqM3tc'
   - name: Book
     system:
@@ -4317,19 +4266,19 @@ items:
     img: icons/sundries/books/book-worn-brown.webp
     effects: []
     sort: 100000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBook0000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.62I5ppyZ0hfKc9NT'
   - name: Backpack
     system:
@@ -4378,19 +4327,19 @@ items:
     img: icons/containers/bags/pack-simple-leather.webp
     effects: []
     sort: 7300000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBackpack000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.WsBzeSZzu37w86rc'
   - name: Clothes, Fine
     system:
@@ -4454,24 +4403,21 @@ items:
     img: icons/equipment/back/cloak-collared-feathers-green.webp
     effects: []
     sort: 1200000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagClothesFine
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.bAQg4PmJAnXKAyLn'
   - name: Ink
     system:
@@ -4528,24 +4474,21 @@ items:
     img: icons/tools/scribal/ink-quill-red.webp
     effects: []
     sort: 2800000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagInk00000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.Q1VvZty6WcrpQcFS'
   - name: Ink Pen
     system:
@@ -4606,24 +4549,21 @@ items:
     img: icons/tools/scribal/pen-steel-grey-brown.webp
     effects: []
     sort: 2900000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686520
-      modifiedTime: 1779759686520
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagInkPen00000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.hWjO37ThtAVJ4Bld'
   - name: Paper
     system:
@@ -4659,19 +4599,19 @@ items:
     img: icons/sundries/documents/paper-plain-white.webp
     effects: []
     sort: 4200000
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPaper000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.ZhhJzdQRgn8w400q'
   - name: Rations
     system:
@@ -4784,24 +4724,21 @@ items:
     img: icons/consumables/food/berries-ration-round-red.webp
     effects: []
     sort: 5300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagRations0000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.WsVYObjKyUXukKZh'
   - name: Tinderbox
     system:
@@ -4921,24 +4858,21 @@ items:
     img: icons/sundries/lights/torch-black.webp
     effects: []
     sort: 6500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagTinderbox00
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.S5yPlVVUgAZIPeEq'
   - name: Playing Cards
     system:
@@ -5115,24 +5049,21 @@ items:
     img: icons/sundries/gaming/playing-cards.webp
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbgstPlayingcar
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.8kMc1s6Srbk9mf9n'
   - name: Rewarded
     type: background
@@ -5327,19 +5258,19 @@ items:
     effects: []
     folder: null
     sort: 0
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.backgrounds.Item.5uIZ9zumyTsyxQk8
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.zyawDH75ToLd8eJ1'
   - folder: czuxGSDEF9XXySRs
     name: Skilled
@@ -5405,8 +5336,6 @@ items:
         subtype: origin
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
@@ -5414,15 +5343,17 @@ items:
         advancementRoot: zyawDH75ToLd8eJ1.YyFlIeZi3SZZFG31
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.eEvWJAm8nKdy47My'
   - name: The Fates Patron
     type: subclass
@@ -5522,21 +5453,21 @@ items:
     effects: []
     folder: Tf1u3G57WTSucgzH
     sort: 100000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.VerO4z1bp2oCvaVr'
   - folder: lRvyCxyrsY7jNoBP
     name: The Fates Patron Spells
@@ -5714,8 +5645,6 @@ items:
         subtype: ''
     effects: []
     sort: 112500
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.ZkoFAcmphNv4XHWA
@@ -5723,15 +5652,17 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686521
-      modifiedTime: 1779759686521
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.ZkoFAcmphNv4XHWA
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.POYrGyVbh4BbR1i5'
   - folder: lRvyCxyrsY7jNoBP
     name: Fate's Omen
@@ -5872,8 +5803,6 @@ items:
         subtype: ''
     effects: []
     sort: 100000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j
@@ -5881,15 +5810,17 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686522
-      modifiedTime: 1779759686522
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.aE6RwbddbNn1hRUE'
   - folder: lRvyCxyrsY7jNoBP
     name: Hand of Fate
@@ -5977,8 +5908,6 @@ items:
         subtype: ''
     effects: []
     sort: 200000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.Pp8ucFfGQR6SPijx
@@ -5986,15 +5915,17 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686522
-      modifiedTime: 1779759686522
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.classes.Item.Pp8ucFfGQR6SPijx
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.WcBWOjMrZ2vxFpRt'
   - folder: ok52NyQ37ye1xW8K
     name: Armor of Agathys
@@ -6210,15 +6141,15 @@ items:
             riders:
               statuses: []
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          lastModifiedBy: draenalcommon000
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          lastModifiedBy: draenalcommon000
-          createdTime: 1779759686528
-          modifiedTime: 1779759686528
         start: null
         showIcon: 1
         folder: null
@@ -6231,19 +6162,19 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686528
-      modifiedTime: 1779759686528
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
-    ownership:
-      default: 0
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
     _id: 0kvm5DvC6QGjfeWK
     sort: 100000
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.0kvm5DvC6QGjfeWK'
   - name: Inflict Wounds
     system:
@@ -6371,8 +6302,6 @@ items:
     effects: []
     folder: pBaAAtXBCq9FVEnL
     sort: 1500000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplInflictWou
@@ -6380,15 +6309,17 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686522
-      modifiedTime: 1779759686522
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.Pw7IWX99n30G1Z6x'
   - name: Spiritual Weapon
     system:
@@ -6531,8 +6462,6 @@ items:
     effects: []
     folder: 3SjcO2acsFnWegp4
     sort: 200000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
@@ -6540,15 +6469,17 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686522
-      modifiedTime: 1779759686522
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.mjTsjTDO5Pewc2zd'
   - name: Arcane Vigor
     system:
@@ -6992,8 +6923,6 @@ items:
     effects: []
     folder: 3SjcO2acsFnWegp4
     sort: 5300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
@@ -7001,15 +6930,17 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686522
-      modifiedTime: 1779759686522
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.Kqd5XnkQiTWFg5Eg'
   - name: Hex
     system:
@@ -7328,14 +7259,14 @@ items:
           - cursed
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686532
-          modifiedTime: 1779759686532
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -7373,14 +7304,14 @@ items:
           - cursed
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686532
-          modifiedTime: 1779759686532
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -7418,14 +7349,14 @@ items:
           - cursed
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686532
-          modifiedTime: 1779759686532
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -7463,14 +7394,14 @@ items:
           - cursed
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686532
-          modifiedTime: 1779759686532
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -7508,14 +7439,14 @@ items:
           - cursed
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686533
-          modifiedTime: 1779759686533
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -7553,14 +7484,14 @@ items:
           - cursed
         sort: 0
         _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686533
-          modifiedTime: 1779759686533
-          lastModifiedBy: draenalcommon000
           exportSource: null
         showIcon: 2
         start: null
@@ -7569,8 +7500,6 @@ items:
           !actors.items.effects!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE.sC2IXWDs07oTt5JN
     folder: pBaAAtXBCq9FVEnL
     sort: 2000000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.dnd5e.spells24.Item.phbsplHex0000000
@@ -7578,15 +7507,17 @@ items:
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686531
-      modifiedTime: 1779759686531
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplHex0000000
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE'
   - name: Changling
     type: race
@@ -7740,19 +7671,19 @@ items:
     effects: []
     folder: null
     sort: 0
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686522
-      modifiedTime: 1779759686522
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      duplicateSource: null
       exportSource: null
-      compendiumSource: Compendium.draenal-common.species.Item.Qr8kZpkBUhBJPPBa
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.Sc7ufhKGxfgN33uv'
   - folder: oLcAEKfoUODjH5eS
     name: Shape-Shifter
@@ -7881,8 +7812,6 @@ items:
         subtype: ''
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
@@ -7890,15 +7819,17 @@ items:
         advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686522
-      modifiedTime: 1779759686522
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      duplicateSource: null
       exportSource: null
-      compendiumSource: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.vFkqxzF0eGy7xGz8'
   - folder: oLcAEKfoUODjH5eS
     name: More than a Face
@@ -7961,8 +7892,6 @@ items:
         subtype: ''
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
@@ -7970,15 +7899,17 @@ items:
         advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686523
-      modifiedTime: 1779759686523
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.KC8c1WkINBucTC1n'
   - folder: WbqCEw0rImHkn5Xj
     name: Charlatan's Die
@@ -8035,21 +7966,21 @@ items:
       equipped: false
     effects: []
     sort: 300000
-    ownership:
-      default: 0
     flags:
       dnd5e:
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686523
-      modifiedTime: 1779759686523
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      duplicateSource: null
       exportSource: null
-      compendiumSource: Compendium.draenal-common.equipment.Item.jwIXHVCONolZHK7U
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.SuhtZdDmd1b3bYjr'
   - name: Potion of Healing
     system:
@@ -8183,24 +8114,21 @@ items:
     img: icons/consumables/potions/potion-tube-corked-red.webp
     effects: []
     sort: 4800000
-    ownership:
-      default: 0
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686523
-      modifiedTime: 1779759686523
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPotionofHea
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.xfR77eEtXoHCWTRO'
   - folder: dtXfybmcZj17GujL
     name: Booming Blade
@@ -8431,11 +8359,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779759686529
-          modifiedTime: 1779759686529
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8443,21 +8371,21 @@ items:
         _key: >-
           !actors.items.effects!j7ySRfEobPDT5RZo.mBylMZe88syrVS8i.RlK1Yr4r1fTl4EJu
     sort: 0
-    ownership:
-      default: 0
     flags:
       dnd5e:
         '-=riders': null
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686528
-      modifiedTime: 1779759686528
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      duplicateSource: null
       exportSource: null
-      compendiumSource: Compendium.draenal-common.spells.Item.nkqOrpF9L9prak5T
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.mBylMZe88syrVS8i'
   - _id: 8MYwYsJMHWNuntda
     name: Fiendish Vigor
@@ -8565,23 +8493,20 @@ items:
     folder: BjeMHiqnKNWkWhox
     flags:
       dnd5e:
-        riders:
-          activity: []
-          effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
         advancementOrigin: WcBWOjMrZ2vxFpRt.oKO8Ud5dhIeb5v77
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
     _stats:
-      duplicateSource: null
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759686523
-      modifiedTime: 1779759686523
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
+      compendiumSource: null
+      duplicateSource: null
     sort: 0
     ownership:
       default: 0
@@ -8646,19 +8571,19 @@ items:
       equipped: true
     effects: []
     sort: 0
-    ownership:
-      default: 0
     flags: {}
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779759967313
-      modifiedTime: 1779759974594
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.draenal-common.private-equipment.Item.6Q0y2xezfh7422xa
-      duplicateSource: null
       exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.DD0bcduT9KudrnSX'
   - name: Changing Fate
     type: weapon
@@ -8809,6 +8734,71 @@ items:
             type: ''
           name: Change Form
           img: icons/magic/symbols/runes-etched-steel-blade.webp
+        NVnVwXM9s11VzsDu:
+          type: attack
+          name: Spellcasting Attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: spellcasting
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          img: systems/dnd5e/icons/svg/properties/magical.svg
+          _id: NVnVwXM9s11VzsDu
+          flags:
+            dnd5e:
+              dependentOn: S7PgIxxMH7RUVk9a
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -9071,11 +9061,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779760389889
-          modifiedTime: 1779760389889
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9153,11 +9143,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779760389889
-          modifiedTime: 1779760389889
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9245,11 +9235,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779760389889
-          modifiedTime: 1779760389889
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9295,11 +9285,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779760389889
-          modifiedTime: 1779760389889
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9339,11 +9329,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779760389889
-          modifiedTime: 1779760389889
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9382,11 +9372,11 @@ items:
             riders:
               statuses: []
         _stats:
-          coreVersion: '14.361'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 5.3.2
-          createdTime: 1779760389889
-          modifiedTime: 1779760389889
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9397,28 +9387,673 @@ items:
         _id: nBFSxPWiv7YUWMbF
         _key: >-
           !actors.items.effects!j7ySRfEobPDT5RZo.VDgQpFMWRpAvA7Cc.nBFSxPWiv7YUWMbF
+      - type: enchantment
+        name: Pact Weapon
+        img: icons/skills/melee/weapons-crossed-swords-teal.webp
+        disabled: false
+        system:
+          changes:
+            - key: name
+              value: ', Pact Weapon'
+              priority: null
+              type: add
+              phase: initial
+            - key: system.proficient
+              value: 1
+              priority: null
+              type: override
+              phase: initial
+            - key: system.properties
+              value: foc
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.base.types
+              value: necrotic
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.base.types
+              value: psychic
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.base.types
+              value: radiant
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.versatile.types
+              value: necrotic
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.versatile.types
+              value: psychic
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.versatile.types
+              value: radiant
+              priority: null
+              type: add
+              phase: initial
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags:
+          dnd5e:
+            enchantmentProfile: QElum2XYhYUYQ5l2
+          core:
+            originText: >-
+              Actor.j7ySRfEobPDT5RZo.Item.Zz379Imb8atWST0r.Activity.8MSXmrGSgc6xHotB
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _id: S7PgIxxMH7RUVk9a
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.VDgQpFMWRpAvA7Cc.S7PgIxxMH7RUVk9a
+      - type: enchantment
+        name: 'Changed Form: Longsword'
+        img: icons/weapons/swords/sword-guard-bronze.webp
+        disabled: false
+        system:
+          changes:
+            - key: system.type.baseItem
+              value: longsword
+              priority: null
+              type: override
+              phase: initial
+            - key: name
+              value: '{} [longsword]'
+              priority: null
+              type: override
+              phase: initial
+            - key: system.type.value
+              value: martialM
+              priority: null
+              type: override
+              phase: initial
+            - key: img
+              value: icons/weapons/swords/sword-guard-bronze.webp
+              priority: null
+              type: override
+              phase: initial
+            - key: system.damage.base.types
+              value: slashing
+              priority: null
+              type: add
+              phase: initial
+            - key: system.mastery
+              value: sap
+              priority: null
+              type: override
+              phase: initial
+            - key: system.properties
+              value: ver
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.base.denomination
+              value: 8
+              priority: null
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-lgt'
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.base.types
+              value: '-bludgeoning'
+              priority: null
+              type: add
+              phase: initial
+            - key: system.damage.versatile.denomination
+              value: 10
+              priority: null
+              type: override
+              phase: initial
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+            enchantmentProfile: BBXmiGZEcTqdwfKq
+          core:
+            originText: >-
+              Actor.j7ySRfEobPDT5RZo.Item.VDgQpFMWRpAvA7Cc.Activity.pRX7h0y1jsXRUEPp
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _id: 84gqJazPl8ap3Uy6
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.VDgQpFMWRpAvA7Cc.84gqJazPl8ap3Uy6
     folder: cGU25ieVxpiolPUO
     flags: {}
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
-      createdTime: 1779760389889
-      modifiedTime: 1779760391592
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
       lastModifiedBy: draenalcommon000
       exportSource: null
-      compendiumSource: Compendium.draenal-common.private-equipment.Item.S9M8wjKuNSwnXaVe
+      compendiumSource: null
+      duplicateSource: null
+    _id: VDgQpFMWRpAvA7Cc
+    sort: 100000
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.VDgQpFMWRpAvA7Cc'
+  - name: Invisibility
+    system:
+      description:
+        value: >-
+          <p>A creature you touch has the &amp;Reference[invisible apply=false]
+          condition until the spell ends. The spell ends early immediately after
+          the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
+          target one additional creature for each spell slot level above 2.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: creature
+          count: '@item.level - 1'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: ill
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: an eyelash in gum arabic
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: 9svfDetqjhsFP3ey
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: invisibility
+      method: pact
+      sourceItem: class:warlock
+      prepared: 1
+    _id: V264dzrgtYVFOtP7
+    type: spell
+    img: icons/creatures/magical/spirit-undead-ghost-purple.webp
+    effects:
+      - name: Invisible
+        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        duration:
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: systems/dnd5e/icons/svg/statuses/invisible.svg
+        _id: 9svfDetqjhsFP3ey
+        type: base
+        system:
+          changes: []
+        description: >-
+          <p>The spell ends early immediately after the target makes an attack
+          roll, deals damage, or casts a spell.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses:
+          - invisible
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.V264dzrgtYVFOtP7.9svfDetqjhsFP3ey
+    folder: 3SjcO2acsFnWegp4
+    sort: 2700000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
-    _id: VDgQpFMWRpAvA7Cc
-    sort: 100000
-    _key: '!actors.items!j7ySRfEobPDT5RZo.VDgQpFMWRpAvA7Cc'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.V264dzrgtYVFOtP7'
+  - name: Mirror Image
+    system:
+      description:
+        value: >-
+          <p>Three illusory duplicates of yourself appear in your space. Until
+          the spell ends, the duplicates move with you and mimic your actions,
+          shifting position so it's impossible to track which image is
+          real.</p><p>Each time a creature hits you with an attack roll during
+          the spell's duration, roll a [[/r
+          (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate
+          destroyed]]{d6 for each} of your remaining duplicates. If any of the
+          d6s rolls a 3 or higher, one of the duplicates is hit instead of you,
+          and the duplicate is destroyed. The duplicates otherwise ignore all
+          other damage and effects. The spell ends when all three duplicates are
+          destroyed.</p><p>A creature is unaffected by this spell if it has the
+          &amp;Reference[blinded apply=false] condition,
+          &amp;Reference[blindsight], or &amp;Reference[truesight].</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          contiguous: false
+          stationary: false
+      range:
+        units: self
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: ill
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: VUqQIaiZoIzxUdf1
+              level: {}
+            - _id: XcTQl9DhT9lC3bxI
+              level: {}
+            - _id: uMsGEsbEZ2hckOKW
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: (@flags.dnd-players-handbook.mirrorImages)d6kh
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: mirror-image
+      method: pact
+      sourceItem: class:warlock
+      prepared: 1
+    _id: ALjIC7vy6KGovnB6
+    type: spell
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    effects:
+      - name: Duplicate A
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/sundries/flags/banner-pink.webp
+        _id: VUqQIaiZoIzxUdf1
+        type: base
+        system:
+          changes:
+            - key: flags.dnd-players-handbook.mirrorImages
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.VUqQIaiZoIzxUdf1
+      - name: Duplicate B
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/sundries/flags/banner-green.webp
+        _id: XcTQl9DhT9lC3bxI
+        type: base
+        system:
+          changes:
+            - key: flags.dnd-players-handbook.mirrorImages
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.XcTQl9DhT9lC3bxI
+      - name: Duplicate C
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/sundries/flags/banner-blue.webp
+        _id: uMsGEsbEZ2hckOKW
+        type: base
+        system:
+          changes:
+            - key: flags.dnd-players-handbook.mirrorImages
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1781328085043
+          modifiedTime: 1781328085043
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.uMsGEsbEZ2hckOKW
+    folder: 3SjcO2acsFnWegp4
+    sort: 5700000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6'
+  - _id: HADeM94JLwFdAQDI
+    name: Gold Necklace with Emerald Pendant
+    type: loot
+    img: icons/equipment/neck/amulet-round-engraved-green.webp
+    system:
+      description:
+        value: <p>A gold necklace with a fine emerald pendant.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 200
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: art
+        subtype: ''
+      identifier: gold-necklace-with-emerald-pendant
+    effects: []
+    folder: KAYxa2YunS2ZhhTJ
+    sort: 104688
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781328085043
+      modifiedTime: 1781328085043
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.HADeM94JLwFdAQDI'
 effects: []
 folder: null
-sort: 0
-ownership:
-  default: 0
 flags:
   tokenizer-2:
     layerStack:
@@ -9590,13 +10225,16 @@ flags:
       height: 512
     isOversized: true
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
-  createdTime: 1776813242680
-  modifiedTime: 1781043502083
+  systemVersion: 5.3.3
+  createdTime: 1781328085043
+  modifiedTime: 1781328085082
   lastModifiedBy: draenalcommon000
-  duplicateSource: null
   exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+sort: 0
 _key: '!actors!j7ySRfEobPDT5RZo'
 

@@ -22,7 +22,12 @@ system:
   details:
     xp:
       value: null
-  members: []
+  members:
+    - actor: DqLfAsayienM661c
+    - actor: AhxdTivoYwlt8A68
+    - actor: HsCEyyIEA7FD1HXJ
+    - actor: 73mrLnim6n3ngDYD
+    - actor: 0jCNFLY9X1ePRp1g
   primaryVehicle: null
 prototypeToken:
   name: Party
@@ -106,9 +111,6 @@ prototypeToken:
 items: []
 effects: []
 folder: null
-sort: 0
-ownership:
-  default: 0
 flags:
   tokenizer-2:
     layerStack:
@@ -223,13 +225,16 @@ flags:
       height: 512
     isOversized: true
 _stats:
-  coreVersion: '14.360'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
-  createdTime: 1777237072449
-  modifiedTime: 1777237185493
+  systemVersion: 5.3.3
+  createdTime: 1781328085006
+  modifiedTime: 1781328085079
   lastModifiedBy: draenalcommon000
-  duplicateSource: null
   exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+sort: 0
 _key: '!actors!cB8Vk5IOdXDSnNxg'
 
