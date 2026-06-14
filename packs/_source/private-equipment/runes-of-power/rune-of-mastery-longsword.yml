@@ -1,0 +1,113 @@
+folder: nY8L2IYFxZEYe5TQ
+name: Rune of Mastery (Longsword)
+type: loot
+_id: ycs2BWMulBiojNHQ
+img: modules/sc-simple-sockets/assets/runes/runeword-call-to-arms.webp
+system:
+  description:
+    value: >-
+      <p>When you make an attack with this weapon, you can use the Sap weapon
+      mastery property.</p>
+    chat: ''
+  identifier: rune-of-mastery
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  properties:
+    - mgc
+  type:
+    value: rune-of-power
+    subtype: ''
+effects:
+  - name: Rune of Mastery (Longsword)
+    img: modules/sc-simple-sockets/assets/runes/runeword-call-to-arms.webp
+    origin: Compendium.draenal-common.private-equipment.Item.ycs2BWMulBiojNHQ
+    type: base
+    _id: HhubrQNtYb9oG2Hq
+    system:
+      changes:
+        - key: system.traits.weaponProf.mastery.value
+          type: add
+          value: longsword
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>When you make an attack with this weapon, you can use the Sap weapon
+      mastery property.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781472704864
+      modifiedTime: 1781473468957
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!ycs2BWMulBiojNHQ.HhubrQNtYb9oG2Hq'
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: rune-of-power
+    gemAllowedTypes:
+      - weapon
+      - weapon:improv
+      - weapon:martialM
+      - weapon:martialR
+      - weapon:natural
+      - weapon:siege
+      - weapon:simpleM
+      - weapon:simpleR
+    gemCritThreshold: null
+    gemCritMultiplier: null
+    gemAttackBonus: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1781472421110
+  modifiedTime: 1781473411883
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ycs2BWMulBiojNHQ'
+

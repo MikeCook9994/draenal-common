@@ -1,0 +1,118 @@
+folder: nY8L2IYFxZEYe5TQ
+name: Rune of Skill (Deception)
+type: loot
+img: modules/sc-simple-sockets/assets/runes/runeword-chains-of-honor.webp
+system:
+  description:
+    value: >-
+      <p>You gain a +1 bonus to Ability Checks you make with the Deception
+      skill.</p>
+    chat: ''
+  identifier: rune-of-mastery
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  properties:
+    - mgc
+  type:
+    value: rune-of-power
+    subtype: ''
+effects:
+  - name: Rune of Mastery (Longsword)
+    img: modules/sc-simple-sockets/assets/runes/runeword-chains-of-honor.webp
+    origin: Compendium.draenal-common.private-equipment.Item.ycs2BWMulBiojNHQ
+    type: base
+    _id: HhubrQNtYb9oG2Hq
+    system:
+      changes:
+        - key: system.skills.dec.bonuses.check
+          type: add
+          value: 1
+          phase: initial
+          priority: null
+        - key: system.skills.dec.bonuses.passive
+          type: add
+          value: 1
+          phase: initial
+          priority: null
+    disabled: true
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>You gain a +1 bonus to Ability Checks you make with the Deception
+      skill.</p>
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781473515196
+      modifiedTime: 1781473776829
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!TsJllNOgtEkyoHih.HhubrQNtYb9oG2Hq'
+flags:
+  sc-simple-sockets:
+    gemSubtype: rune-of-power
+    gemAllowedTypes:
+      - weapon
+      - weapon:improv
+      - weapon:martialM
+      - weapon:martialR
+      - weapon:natural
+      - weapon:siege
+      - weapon:simpleM
+      - weapon:simpleR
+    gemCritThreshold: null
+    gemCritMultiplier: null
+    gemAttackBonus: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1781473515196
+  modifiedTime: 1781473782050
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+_id: TsJllNOgtEkyoHih
+sort: 50000
+_key: '!items!TsJllNOgtEkyoHih'
+

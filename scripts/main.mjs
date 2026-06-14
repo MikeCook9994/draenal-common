@@ -19,4 +19,8 @@ CONFIG.debug.hooks = false;
         registeredItems.push(new CircleOfNightmares());
         registeredItems.push(new Timberwolf());
     });
+
+    Hooks.once('ready', () => {
+        CONFIG.DND5E.sourceBooks["Draenal Homebrew"] = "DHB";
+    })
 })();

@@ -5588,12 +5588,12 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781401768417
-  modifiedTime: 1781401768498
+  modifiedTime: 1781474321288
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 ownership:
   default: 0
-sort: 0
+sort: 500000
 _key: '!actors!HsCEyyIEA7FD1HXJ'
 
