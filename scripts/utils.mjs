@@ -16,7 +16,7 @@ export function registerActiveEffectAdditions(targetEffectRelativeUuid, sourceFe
             !additionalChanges.some(ac => 
                 ac.key === c.key &&
                 ac.value === c.value &&
-                ac.mode === c.mode));
+                ac.type === c.type));
 
         // put 'em back if it's being enabled
         if (!changed.disabled) {

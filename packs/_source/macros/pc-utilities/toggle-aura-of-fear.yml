@@ -1,0 +1,68 @@
+name: Toggle Aura of Fear
+type: script
+_id: GpZgRjOMRoGgan7h
+author: eDQM6H9v2Xf0fBZR
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+scope: global
+command: >-
+  const auraRegion = canvas.scene.regions.find(r => r?.name === "Aura of Fear")
+
+
+  if (auraRegion) {
+    return await auraRegion.delete();
+  }
+
+
+  const vaelwynToken = canvas.scene.tokens.find(t => t.actor?.name === "Vaelwyn
+  Lharithlyn")
+
+
+  const regionData = {
+    name: "Aura of Fear",
+    attachment: {
+      token: vaelwynToken
+    },
+    elevation: {
+      bottom: -10,
+      top: 10,
+      topInclusive: true
+    },
+    hidden: false,
+    highlightMode: "shapes",
+    locked: true,
+    shapes: [
+      {
+        base: {
+          type: "token",
+          x: vaelwynToken.x,
+          y: vaelwynToken.y,
+          width: 1,
+          height: 1,
+          shape: 4
+        },
+        radius: (10 / canvas.grid.distance) * canvas.grid.size,
+        type: "emanation",
+        gridBased: true
+      }
+    ],
+    visibility: 2,
+    color: "#7D6991"
+  }
+
+  await canvas.scene.createEmbeddedDocuments("Region", [regionData])
+folder: 9J9syu6UuvT42Acn
+sort: 200000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1781448686441
+  modifiedTime: 1781448686441
+  lastModifiedBy: draenalcommon000
+  duplicateSource: Macro.GpZgRjOMRoGgan7h
+  exportSource: null
+_key: '!macros!GpZgRjOMRoGgan7h'
+

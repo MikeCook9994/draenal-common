@@ -181,6 +181,17 @@
         "PLAYER": "NONE"
       },
       "system": "dnd5e"
+    },
+    {
+      "name": "macros",
+      "label": "[Private] Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "NONE"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -207,7 +218,8 @@
         "private-equipment",
         "pcs",
         "npcs",
-        "scenes"
+        "scenes",
+        "macros"
       ]
     }
   ]

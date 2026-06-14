@@ -53,22 +53,23 @@ export default class PathOfWonder {
 
     _castAndSmash() {
         // Spell Fury
-        this.hookRegistrations.castAndSmash = registerActiveEffectAdditions(
-            ".ActiveEffect.G5XZTi4zYTFiHVll",
-            "Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5",
-            [
-                {
-                    key: "system.bonuses.msak.damage",
-                    value: "+@scale.barbarian.rage-damage",
-                    mode: CONST.ACTIVE_EFFECT_CHANGE_TYPES.ADD
-                },
-                {
-                    key: "system.bonuses.rsak.damage",
-                    value: "+@scale.barbarian.rage-damage",
-                    mode: CONST.ACTIVE_EFFECT_CHANGE_TYPES.ADD
-                }
-            ]
-        );
+        // Spell Fury is an activity now
+        // this.hookRegistrations.castAndSmash = registerActiveEffectAdditions(
+        //     ".ActiveEffect.G5XZTi4zYTFiHVll",
+        //     "Compendium.draenal-common.classes.Item.J9dHLyG43bYxmNC5",
+        //     [
+        //         {
+        //             key: "system.bonuses.msak.damage",
+        //             value: "+@scale.barbarian.rage-damage",
+        //             type: "add"
+        //         },
+        //         {
+        //             key: "system.bonuses.rsak.damage",
+        //             value: "+@scale.barbarian.rage-damage",
+        //             type: "add"
+        //         }
+        //     ]
+        // );
     }
 
     _unnaturalRecovery() {
