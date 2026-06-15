@@ -396,8 +396,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 300000
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -408,11 +406,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.L0MudLNU8S98rS8X.L0MudLNU8S98rS8X.XbNHC5OBGT6VQF40
       effects: []
@@ -764,8 +764,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 300000
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -776,11 +774,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.qV99uULc53q4H7EZ.qV99uULc53q4H7EZ.XbNHC5OBGT6VQF40
       effects: []
@@ -1132,8 +1132,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -1144,11 +1142,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.Um3R1znNw89RF42X.Um3R1znNw89RF42X.wKUi0YkXW5KapyxP
       effects: []
@@ -1500,8 +1500,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -1512,11 +1510,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.299we8h4OyMkl8bA.299we8h4OyMkl8bA.wKUi0YkXW5KapyxP
       effects: []
@@ -1868,8 +1868,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -1880,11 +1878,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.fK0lDaVvR2Keo77i.fK0lDaVvR2Keo77i.wKUi0YkXW5KapyxP
       effects: []
@@ -2236,8 +2236,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -2248,11 +2246,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.TN01aQy9CxR11OLX.TN01aQy9CxR11OLX.wKUi0YkXW5KapyxP
       effects: []
@@ -2604,8 +2604,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -2616,11 +2614,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.RWq6YFp7FRcH52of.RWq6YFp7FRcH52of.wKUi0YkXW5KapyxP
       effects: []
@@ -2972,8 +2972,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -2984,11 +2982,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.32NBJXyphHbseIMs.32NBJXyphHbseIMs.wKUi0YkXW5KapyxP
       effects: []
@@ -3340,8 +3340,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -3352,11 +3350,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.xinwHZzlHC432AeA.xinwHZzlHC432AeA.wKUi0YkXW5KapyxP
       effects: []
@@ -3708,8 +3708,6 @@ tokens:
           img: icons/weapons/bows/shortbow-leather.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -3720,11 +3718,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.ztj72Zq7mnJLusJu.ztj72Zq7mnJLusJu.wKUi0YkXW5KapyxP
       effects: []
@@ -4075,8 +4075,6 @@ tokens:
           img: icons/weapons/swords/scimitar-worn-blue.webp
           effects: []
           sort: 100000
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -4087,11 +4085,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.yg0d30N9xLv3jgBV.yg0d30N9xLv3jgBV.8gwXLDcYj3mk6Kr3
       effects: []
@@ -4442,8 +4442,6 @@ tokens:
           img: icons/weapons/swords/scimitar-worn-blue.webp
           effects: []
           sort: 100000
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -4454,11 +4452,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.63llGs5A4CmeKscY.63llGs5A4CmeKscY.8gwXLDcYj3mk6Kr3
       effects: []
@@ -4809,8 +4809,6 @@ tokens:
           img: icons/weapons/swords/scimitar-worn-blue.webp
           effects: []
           sort: 0
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -4821,11 +4819,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.qovV0Cf9fQUUROhL.qovV0Cf9fQUUROhL.9RULzqhnPi3lqw1u
       effects: []
@@ -5176,8 +5176,6 @@ tokens:
           img: icons/weapons/swords/scimitar-worn-blue.webp
           effects: []
           sort: 100000
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -5188,11 +5186,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.ttasB5vqCArWPEiL.ttasB5vqCArWPEiL.8gwXLDcYj3mk6Kr3
       effects: []
@@ -5752,8 +5752,6 @@ tokens:
           img: icons/weapons/swords/scimitar-worn-blue.webp
           effects: []
           sort: 100000
-          ownership:
-            default: 0
           flags:
             dnd5e:
               riders:
@@ -5764,11 +5762,13 @@ tokens:
             systemId: dnd5e
             systemVersion: 5.3.3
             lastModifiedBy: eDQM6H9v2Xf0fBZR
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             exportSource: null
             compendiumSource: null
             duplicateSource: null
+          ownership:
+            default: 0
           _key: >-
             !scenes.tokens.delta.items!Hrp0FaOS0TJDM0tv.YcUqMOemgim41d58.ttasB5vqCArWPEiL.8gwXLDcYj3mk6Kr3
       effects: []
@@ -6438,8 +6438,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -8230,8 +8230,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781327644492
-            modifiedTime: 1781327644492
+            createdTime: 1781539798420
+            modifiedTime: 1781539798420
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -9944,8 +9944,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9953,11 +9953,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.WJKLJkj4I1nvk7Gi.VTOKNhDMVRRbVCc6
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.WJKLJkj4I1nvk7Gi'
   - color: '#28cc8e'
     elevation:
@@ -10002,8 +10001,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10011,11 +10010,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.zChPR8s2B5MogKYB.dQpudHrvAMCKFlbb
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.zChPR8s2B5MogKYB'
   - color: '#cc2890'
     elevation:
@@ -10070,8 +10068,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10079,11 +10077,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.CVpEA4HSxLEUM7Zz.RMDGf4IsY4CMRAz4
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.CVpEA4HSxLEUM7Zz'
   - color: '#2882cc'
     elevation:
@@ -10127,11 +10124,10 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.5aY1A00Acp93nCgr'
   - color: '#6d28cc'
     elevation:
@@ -10196,8 +10192,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10205,11 +10201,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.FgHUOC0w2LhfnhuF.XvLrMalxvQ0YYgU6
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.FgHUOC0w2LhfnhuF'
   - color: '#28cc31'
     elevation:
@@ -10274,8 +10269,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10283,11 +10278,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.O79zap2TeS1cyxtn.u2Tj8DTDp6yIe2IJ
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.O79zap2TeS1cyxtn'
   - color: '#cc28c5'
     elevation:
@@ -10342,8 +10336,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10351,11 +10345,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.Mf2kO2wmiuI6s9vH.f2luOMf5LQcLluDr
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.Mf2kO2wmiuI6s9vH'
   - color: '#28cc39'
     elevation:
@@ -10399,11 +10392,10 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.YS8JlVIiAgfIZW2N'
   - color: '#28bdcc'
     elevation:
@@ -10458,8 +10450,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10467,11 +10459,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.qlUIBANWbfayRhGW.Wt7BeoLZvJUXIMUT
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.qlUIBANWbfayRhGW'
   - color: '#a4cc28'
     elevation:
@@ -10526,8 +10517,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10535,11 +10526,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.3U0jRM9HDnySMqZu.IjS0J3LilJmSYZiE
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.3U0jRM9HDnySMqZu'
   - color: '#ccac28'
     elevation:
@@ -10583,11 +10573,10 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.kwz8xodkHIqF9GNE'
   - color: '#7028cc'
     elevation:
@@ -10652,8 +10641,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10661,11 +10650,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.rgkhJ2i2VZoZh3e7.wew1XDyaPXkKbQ4b
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.rgkhJ2i2VZoZh3e7'
   - color: '#6828cc'
     elevation:
@@ -10709,11 +10697,10 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.wNkW8iILwVTQVBcn'
   - color: '#28a9cc'
     elevation:
@@ -10778,8 +10765,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10787,11 +10774,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.0AGjuzce8ZelwWuW.0D90Cr6NoojqOuAr
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.0AGjuzce8ZelwWuW'
   - name: Ground Floor Ceiling & Floor
     color: '#cc5f28'
@@ -10804,9 +10790,6 @@ regions:
     visibility: 4
     highlightMode: coverage
     displayMeasurements: true
-    ownership:
-      eDQM6H9v2Xf0fBZR: 3
-      default: 0
     _id: NYpOwOI7GWXGHR5N
     shapes:
       - type: circle
@@ -10922,8 +10905,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10948,8 +10931,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10960,6 +10943,8 @@ regions:
     locked: true
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.NYpOwOI7GWXGHR5N'
   - color: '#2874cc'
     elevation:
@@ -11004,8 +10989,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11030,8 +11015,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11039,11 +11024,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.8lGCqZOfXejk617d.B0Mqt2AT1AFFu1AV
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.8lGCqZOfXejk617d'
   - color: '#b928cc'
     elevation:
@@ -11088,8 +11072,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11114,8 +11098,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11123,11 +11107,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.uf51ADtOxD6qIJpu.Dvpyf5xCjfw7kjgZ
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.uf51ADtOxD6qIJpu'
   - color: '#28cc88'
     elevation:
@@ -11171,8 +11154,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11195,8 +11178,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11204,11 +11187,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.HMjmnoRTzysszCOM.KZm1tRR8vAvBX6m8
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.HMjmnoRTzysszCOM'
   - color: '#28cc97'
     elevation:
@@ -11493,8 +11475,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11519,8 +11501,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11528,11 +11510,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.C02iF23xz6Ep7hVv.DItHIAy2ejWXXuzb
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.C02iF23xz6Ep7hVv'
   - color: '#28cc98'
     elevation:
@@ -11578,8 +11559,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11604,8 +11585,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11613,11 +11594,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.nShUdspP9HHtTqro.de0RMh2NSU5eSRln
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.nShUdspP9HHtTqro'
   - color: '#b428cc'
     elevation:
@@ -11692,8 +11672,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781327644492
-          modifiedTime: 1781327644492
+          createdTime: 1781539798420
+          modifiedTime: 1781539798420
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11701,11 +11681,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!Hrp0FaOS0TJDM0tv.daYW9SFn7FeYDBc6.0lhs1u21ch7s8Rhb
     locked: true
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!Hrp0FaOS0TJDM0tv.daYW9SFn7FeYDBc6'
 tiles: []
 walls:
@@ -39337,23 +39316,23 @@ playlistSound: null
 journal: null
 journalEntryPage: null
 weather: ''
-ownership:
-  default: 0
 flags: {}
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781327644492
-  modifiedTime: 1781327645476
+  createdTime: 1781539798420
+  modifiedTime: 1781539798580
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 navName: ''
 _id: Hrp0FaOS0TJDM0tv
+ownership:
+  default: 0
 active: false
 navOrder: 0
-sort: 200000
+sort: 0
 _key: '!scenes!Hrp0FaOS0TJDM0tv'
 templates: []
 

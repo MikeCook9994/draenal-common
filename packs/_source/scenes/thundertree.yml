@@ -7167,7 +7167,7 @@ grid:
   units: ft
 _id: sjHgKkZpMzooVLZm
 navigation: false
-thumb: worlds/module-development/assets/scenes/thumb-KCN6qEIfWtqU4P7hk8Dbuw.webp
+thumb: worlds/module-development/assets/scenes/thumb-S16KKMWycHqLJsq1JOn27Q.webp
 shiftX: 0
 shiftY: 0
 initial:
@@ -7343,8 +7343,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781325239049
-            modifiedTime: 1781325239049
+            createdTime: 1781539798561
+            modifiedTime: 1781539798561
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7491,8 +7491,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781325239049
-            modifiedTime: 1781325239049
+            createdTime: 1781539798561
+            modifiedTime: 1781539798561
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -11886,8 +11886,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781325239049
-          modifiedTime: 1781325239049
+          createdTime: 1781539798561
+          modifiedTime: 1781539798561
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11895,11 +11895,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!sjHgKkZpMzooVLZm.g0H9I0pZ8lHeUJ57.zoSse7Y9yIG4MuEz
     locked: false
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!sjHgKkZpMzooVLZm.g0H9I0pZ8lHeUJ57'
   - color: '#ccc928'
     elevation:
@@ -11946,8 +11945,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781325239049
-          modifiedTime: 1781325239049
+          createdTime: 1781539798561
+          modifiedTime: 1781539798561
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11955,11 +11954,10 @@ regions:
         _key: >-
           !scenes.regions.behaviors!sjHgKkZpMzooVLZm.IiJcrUeRFU5MJH6d.DaVhw75uGzZt7bgK
     locked: false
-    ownership:
-      default: 0
-      eDQM6H9v2Xf0fBZR: 3
     flags: {}
     _shapeConstraints: null
+    ownership:
+      default: 0
     _key: '!scenes.regions!sjHgKkZpMzooVLZm.IiJcrUeRFU5MJH6d'
 tiles: []
 playlist: null
@@ -11968,22 +11966,22 @@ journal: null
 journalEntryPage: null
 weather: fog
 folder: null
-ownership:
-  default: 0
 flags: {}
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781325239049
-  modifiedTime: 1781327645472
+  createdTime: 1781539798561
+  modifiedTime: 1781539798628
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 navName: ''
+ownership:
+  default: 0
 active: false
 navOrder: 0
-sort: 100000
+sort: 0
 _key: '!scenes!sjHgKkZpMzooVLZm'
 templates: []
 

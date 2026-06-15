@@ -4396,14 +4396,14 @@ flags:
     isDynamicRingMode: false
     modeIsOversized: true
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1779822660531
-  modifiedTime: 1779835856692
+  modifiedTime: 1781539369658
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
-sort: 0
+sort: 100000
 _key: '!actors!thWYLXtTB4OruDhr'
 
