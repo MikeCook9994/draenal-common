@@ -2,7 +2,7 @@ folder: null
 name: Cragmaw Castle (In Progress)
 _id: dFQ4buTJ374m0wLW
 navigation: false
-thumb: worlds/module-development/assets/scenes/thumb-dhl34ekE7h6vEYWeNpMRiQ.webp
+thumb: worlds/module-development/assets/scenes/thumb-1tkpcmtnMv56truXZ06mvg.webp
 width: 3500
 height: 3500
 padding: 0.25
@@ -191,8 +191,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -234,8 +234,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -275,8 +275,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -426,8 +426,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -467,8 +467,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -618,8 +618,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -659,8 +659,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -702,8 +702,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -725,141 +725,6 @@ tokens:
       - NYpOwOI7GWXGHR5N
       - e1xvvOYJX20kv8Hh
     _key: '!scenes.tokens!dFQ4buTJ374m0wLW.0QRALhjo3o7Llu3m'
-  - texture:
-      src: >-
-        modules/draenal-common/assets/npc-images/Token.Tadhg_Dwarf.webp?v=1779749904907
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    sight:
-      enabled: true
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes:
-      basicSight:
-        range: 120
-        enabled: true
-    name: Tadhg Hozer (Appearance Only)
-    displayName: 0
-    actorLink: true
-    width: 1
-    height: 1
-    depth: 1
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 0
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags:
-      dnd5e:
-        originalActor: j7ySRfEobPDT5RZo
-        isPolymorphed: true
-        previousTokenData:
-          texture:
-            scaleX: 2
-            scaleY: 2
-            src: >-
-              modules/draenal-common/assets/pc-images/Token.Tadhg_Hozer.webp?v=1779749572761
-            tint: {}
-          width: 1
-          height: 1
-          alpha: 1
-          lockRotation: false
-          ring:
-            enabled: false
-            colors:
-              ring: null
-              background: null
-            effects: 1
-            subject:
-              scale: 1
-              texture: null
-          bar1:
-            type: bar
-            attribute: attributes.hp
-            value: 25
-            max: 25
-            editable: true
-          bar2:
-            attribute: null
-            type: null
-            value: null
-          displayBars: 0
-          displayName: 0
-          actorLink: true
-          disposition: 1
-          rotation: 0
-          elevation: 0
-          hidden: false
-          name: Tadhg Hozer
-    actorId: 3coBWPsuBc32vHnH
-    hidden: false
-    sort: 0
-    shape: 4
-    level: defaultLevel0000
-    _id: xAlvWC8tgXTzAKaY
-    delta: null
-    x: 3010
-    'y': 3220
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions:
-      - NYpOwOI7GWXGHR5N
-    _key: '!scenes.tokens!dFQ4buTJ374m0wLW.xAlvWC8tgXTzAKaY'
   - name: Fi'Reyn'Erebere Lharithlyn
     displayName: 0
     actorLink: true
@@ -5106,8 +4971,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5359,8 +5224,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798503
-            modifiedTime: 1781539798503
+            createdTime: 1781629287238
+            modifiedTime: 1781629287238
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5488,6 +5353,141 @@ tokens:
     _movementHistory: []
     _regions: []
     _key: '!scenes.tokens!dFQ4buTJ374m0wLW.1GgPDDbF4xKIoXh2'
+  - name: Tadhg Hozer (Appearance Only)
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        modules/draenal-common/assets/npc-images/Token.Tadhg_Dwarf.webp?v=1779749904907
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 120
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags:
+      dnd5e:
+        originalActor: j7ySRfEobPDT5RZo
+        isPolymorphed: true
+        previousTokenData:
+          texture:
+            scaleX: 2
+            scaleY: 2
+            src: >-
+              modules/draenal-common/assets/pc-images/Token.Tadhg_Hozer.webp?v=1779749572761
+            tint: {}
+          width: 1
+          height: 1
+          alpha: 1
+          lockRotation: false
+          ring:
+            enabled: false
+            colors:
+              ring: null
+              background: null
+            effects: 1
+            subject:
+              scale: 1
+              texture: null
+          bar1:
+            type: bar
+            attribute: attributes.hp
+            value: 25
+            max: 25
+            editable: true
+          bar2:
+            attribute: null
+            type: null
+            value: null
+          displayBars: 0
+          displayName: 0
+          actorLink: true
+          disposition: 1
+          rotation: 0
+          elevation: 0
+          hidden: false
+          name: Tadhg Hozer
+    actorId: VEoQngvy2IqH0iqi
+    hidden: false
+    sort: 87
+    shape: 4
+    level: defaultLevel0000
+    _id: UPDx7CdFUPo7jxUq
+    delta: null
+    x: 3010
+    'y': 3220
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - NYpOwOI7GWXGHR5N
+    _key: '!scenes.tokens!dFQ4buTJ374m0wLW.UPDx7CdFUPo7jxUq'
 levels:
   - _id: defaultLevel0000
     name: Ground
@@ -6992,8 +6992,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7001,10 +7001,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.WJKLJkj4I1nvk7Gi.VTOKNhDMVRRbVCc6
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.WJKLJkj4I1nvk7Gi'
   - color: '#28cc8e'
     elevation:
@@ -7049,8 +7050,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7058,10 +7059,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.zChPR8s2B5MogKYB.dQpudHrvAMCKFlbb
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.zChPR8s2B5MogKYB'
   - color: '#cc2890'
     elevation:
@@ -7116,8 +7118,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7125,10 +7127,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.CVpEA4HSxLEUM7Zz.RMDGf4IsY4CMRAz4
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.CVpEA4HSxLEUM7Zz'
   - color: '#2882cc'
     elevation:
@@ -7172,10 +7175,11 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.5aY1A00Acp93nCgr'
   - color: '#6d28cc'
     elevation:
@@ -7240,8 +7244,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7249,10 +7253,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.FgHUOC0w2LhfnhuF.XvLrMalxvQ0YYgU6
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.FgHUOC0w2LhfnhuF'
   - color: '#28cc31'
     elevation:
@@ -7317,8 +7322,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7326,10 +7331,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.O79zap2TeS1cyxtn.u2Tj8DTDp6yIe2IJ
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.O79zap2TeS1cyxtn'
   - color: '#cc28c5'
     elevation:
@@ -7384,8 +7390,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7393,10 +7399,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.Mf2kO2wmiuI6s9vH.f2luOMf5LQcLluDr
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.Mf2kO2wmiuI6s9vH'
   - color: '#28cc39'
     elevation:
@@ -7440,10 +7447,11 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.YS8JlVIiAgfIZW2N'
   - color: '#28bdcc'
     elevation:
@@ -7498,8 +7506,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7507,10 +7515,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.qlUIBANWbfayRhGW.Wt7BeoLZvJUXIMUT
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.qlUIBANWbfayRhGW'
   - color: '#a4cc28'
     elevation:
@@ -7565,8 +7574,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7574,10 +7583,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.3U0jRM9HDnySMqZu.IjS0J3LilJmSYZiE
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.3U0jRM9HDnySMqZu'
   - color: '#ccac28'
     elevation:
@@ -7621,10 +7631,11 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.kwz8xodkHIqF9GNE'
   - color: '#7028cc'
     elevation:
@@ -7689,8 +7700,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7698,10 +7709,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.rgkhJ2i2VZoZh3e7.wew1XDyaPXkKbQ4b
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.rgkhJ2i2VZoZh3e7'
   - color: '#6828cc'
     elevation:
@@ -7745,10 +7757,11 @@ regions:
         gridBased: false
     behaviors: []
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.wNkW8iILwVTQVBcn'
   - color: '#28a9cc'
     elevation:
@@ -7813,8 +7826,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7822,10 +7835,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.0AGjuzce8ZelwWuW.0D90Cr6NoojqOuAr
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.0AGjuzce8ZelwWuW'
   - name: Ground Floor Ceiling & Floor
     color: '#cc5f28'
@@ -7838,6 +7852,9 @@ regions:
     visibility: 4
     highlightMode: coverage
     displayMeasurements: true
+    ownership:
+      eDQM6H9v2Xf0fBZR: 3
+      default: 0
     _id: NYpOwOI7GWXGHR5N
     shapes:
       - type: circle
@@ -7953,8 +7970,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7979,8 +7996,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -7991,8 +8008,6 @@ regions:
     locked: true
     flags: {}
     _shapeConstraints: null
-    ownership:
-      default: 0
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.NYpOwOI7GWXGHR5N'
   - color: '#2874cc'
     elevation:
@@ -8037,8 +8052,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8063,8 +8078,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8072,10 +8087,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.8lGCqZOfXejk617d.B0Mqt2AT1AFFu1AV
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.8lGCqZOfXejk617d'
   - color: '#b928cc'
     elevation:
@@ -8120,8 +8136,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8146,8 +8162,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8155,10 +8171,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.uf51ADtOxD6qIJpu.Dvpyf5xCjfw7kjgZ
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.uf51ADtOxD6qIJpu'
   - color: '#28cc88'
     elevation:
@@ -8202,8 +8219,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8226,8 +8243,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8235,10 +8252,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.HMjmnoRTzysszCOM.KZm1tRR8vAvBX6m8
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.HMjmnoRTzysszCOM'
   - color: '#28cc97'
     elevation:
@@ -8523,8 +8541,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8549,8 +8567,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8558,10 +8576,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.C02iF23xz6Ep7hVv.DItHIAy2ejWXXuzb
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.C02iF23xz6Ep7hVv'
   - color: '#28cc98'
     elevation:
@@ -8607,8 +8626,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8633,8 +8652,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8642,10 +8661,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.nShUdspP9HHtTqro.de0RMh2NSU5eSRln
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.nShUdspP9HHtTqro'
   - color: '#b428cc'
     elevation:
@@ -8720,8 +8740,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798503
-          modifiedTime: 1781539798503
+          createdTime: 1781629287238
+          modifiedTime: 1781629287238
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -8729,10 +8749,11 @@ regions:
         _key: >-
           !scenes.regions.behaviors!dFQ4buTJ374m0wLW.daYW9SFn7FeYDBc6.0lhs1u21ch7s8Rhb
     locked: true
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.daYW9SFn7FeYDBc6'
   - name: Aura of Fear
     attachment:
@@ -8768,10 +8789,11 @@ regions:
       priority: 0
     behaviors: []
     displayMeasurements: false
-    flags: {}
-    _shapeConstraints: null
     ownership:
       default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
     _key: '!scenes.regions!dFQ4buTJ374m0wLW.e1xvvOYJX20kv8Hh'
 tiles: []
 walls:
@@ -25136,7 +25158,7 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 1
     threshold:
       light: null
       sight: null
@@ -25182,13 +25204,20 @@ walls:
     sound: 20
     dir: 0
     door: 1
-    ds: 0
+    ds: 2
     threshold:
       light: null
       sight: null
       sound: null
       attenuation: false
-    animation: null
+    animation:
+      type: ''
+      texture: null
+      flip: false
+      double: false
+      direction: 1
+      duration: 750
+      strength: 1
     flags: {}
     c:
       - 2590
@@ -25196,6 +25225,7 @@ walls:
       - 2730
       - 3360
     _id: abKzuIwLN2VZOH7D
+    doorSound: ''
     _key: '!scenes.walls!dFQ4buTJ374m0wLW.abKzuIwLN2VZOH7D'
   - levels:
       - defaultLevel0000
@@ -36403,19 +36433,19 @@ playlistSound: null
 journal: null
 journalEntryPage: null
 weather: ''
+ownership:
+  default: 0
 flags: {}
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781539798503
-  modifiedTime: 1781539798605
+  createdTime: 1781629287238
+  modifiedTime: 1781629287238
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 navName: Cragmaw Castle
-ownership:
-  default: 0
 active: false
 navOrder: 0
 sort: 0

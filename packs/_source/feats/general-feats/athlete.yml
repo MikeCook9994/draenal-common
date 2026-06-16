@@ -1,0 +1,110 @@
+name: Athlete
+type: feat
+_id: AvCI8lDGskJTXPUh
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px">General
+      Feat (Prerequisite: Level 4+, Strength or Dexterity
+      13+)</span></span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'">You gain the following
+      benefits.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Ability
+      Score Increase.</strong></span> Increase your Strength or Dexterity score
+      by 1, to a maximum of 20.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Climb
+      Speed.</strong></span> You gain a Climb Speed equal to your
+      Speed.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Hop
+      Up.</strong></span> When you have the <span
+      data-tooltip-href="//www.dndbeyond.com/conditions/12-tooltip?disable-webm=1&amp;disable-webm=1"
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;text-decoration:none;font-weight:bold
+      !important;cursor:pointer;color:rgb(71, 209, 140)" class="tooltip-hover
+      condition-tooltip"><strong>Prone</strong></span> condition, you can right
+      yourself with only 5 feet of movement.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px;color:rgb(36,
+      37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Jumping.</strong></span>
+      You can make a running Long or High Jump after moving only 5
+      feet.</span></p><p><span style="color:rgb(0, 0, 0);font-family:'Roboto
+      Condensed', Roboto, Helvetica,
+      sans-serif;font-size:12px;font-style:italic;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:right;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+      !important;float:none"><em>Player's Handbook, pg. 202</em></span></p>
+    chat: ''
+  identifier: athlete
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+folder: JwuB9rAxYzlSVFp3
+sort: 100000
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1781575022653
+  modifiedTime: 1781576448891
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!AvCI8lDGskJTXPUh'
+

@@ -1,0 +1,109 @@
+name: Mounted Combatant
+type: feat
+_id: 33aIEzcWw7ioNrfu
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px">General
+      Feat (Prerequisite: Level 4+)</span>You gain the following
+      benefits.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Ability
+      Score Increase.</strong></span> Increase your Strength, Dexterity, or
+      Wisdom score by 1, to a maximum of 20.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Mounted
+      Strike.</strong></span> While mounted, you have Advantage on attack rolls
+      against any unmounted creature within 5 feet of your mount that is at
+      least one size smaller than the mount.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
+      0px 15px;color:rgb(36, 37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Leap
+      Aside.</strong></span> If your mount is subjected to an effect that allows
+      it to make a Dexterity saving throw to take only half damage, it instead
+      takes no damage if it succeeds on the saving throw and only half damage if
+      it fails. For your mount to gain this benefit, you must be riding it, and
+      neither of you can have the <span
+      data-tooltip-href="//www.dndbeyond.com/conditions/7-tooltip?disable-webm=1&amp;disable-webm=1"
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;text-decoration:none;font-weight:bold
+      !important;cursor:pointer;color:rgb(71, 209, 140)" class="tooltip-hover
+      condition-tooltip"><strong>Incapacitated</strong></span>
+      condition.</span></p><p><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px;color:rgb(36,
+      37,
+      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
+      Helvetica, sans-serif'"><span
+      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Veer.</strong></span>
+      While mounted, you can force an attack that hits your mount to hit you
+      instead if you don't have the Incapacitated condition.</span></p><p><span
+      style="color:rgb(0, 0, 0);font-family:'Roboto Condensed', Roboto,
+      Helvetica,
+      sans-serif;font-size:12px;font-style:italic;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:right;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
+      255,
+      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
+      !important;float:none"><em>Player's Handbook, pg. 205</em></span></p>
+    chat: ''
+  identifier: mounted-combatant
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+folder: JwuB9rAxYzlSVFp3
+sort: 112500
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1781575137197
+  modifiedTime: 1781576462210
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!33aIEzcWw7ioNrfu'
+

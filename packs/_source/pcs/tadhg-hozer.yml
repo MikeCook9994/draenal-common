@@ -409,7 +409,7 @@ system:
     bond: ''
     flaw: ''
     race: Sc7ufhKGxfgN33uv
-    background: zyawDH75ToLd8eJ1
+    background: U5hQmkScEwlpsbBj
     originalClass: XM26lkv6RY9W7the
     xp:
       value: 0
@@ -1215,13 +1215,15 @@ items:
         additional: ''
       properties: []
     effects: []
-    flags: {}
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249048
+      modifiedTime: 1781576249048
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1295,12 +1297,14 @@ items:
         advancementOrigin: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         advancementRoot: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249049
+      modifiedTime: 1781576249049
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1402,12 +1406,14 @@ items:
         advancementOrigin: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         advancementRoot: XM26lkv6RY9W7the.yjm7B73po6OV5DPi
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249049
+      modifiedTime: 1781576249049
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1660,8 +1666,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249054
+          modifiedTime: 1781576249054
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1681,12 +1687,14 @@ items:
         sourceId: Compendium.dnd5e.classes24.Item.phbinvPactBlade0
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249054
+      modifiedTime: 1781576249054
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1807,12 +1815,14 @@ items:
         advancementOrigin: XM26lkv6RY9W7the.IUkGspfJYbVXFLjw
         advancementRoot: XM26lkv6RY9W7the.IUkGspfJYbVXFLjw
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249049
+      modifiedTime: 1781576249049
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1871,12 +1881,14 @@ items:
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249049
+      modifiedTime: 1781576249049
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1952,8 +1964,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249055
+          modifiedTime: 1781576249055
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1970,12 +1982,14 @@ items:
         advancementOrigin: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         advancementRoot: XM26lkv6RY9W7the.xMtpuEuf5g6C8cqA
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249054
+      modifiedTime: 1781576249054
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2124,12 +2138,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249049
+      modifiedTime: 1781576249049
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2284,8 +2300,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249055
+          modifiedTime: 1781576249055
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2300,12 +2316,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249055
+      modifiedTime: 1781576249055
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2458,8 +2476,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249056
+          modifiedTime: 1781576249056
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2474,12 +2492,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249056
+      modifiedTime: 1781576249056
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2646,12 +2666,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249049
+      modifiedTime: 1781576249049
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2820,12 +2842,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2873,13 +2897,17 @@ items:
     img: icons/tools/hand/pickaxe-steel-white.webp
     effects: []
     sort: 1600000
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2952,12 +2980,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3029,12 +3059,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3104,12 +3136,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3179,12 +3213,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3382,8 +3418,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249056
+          modifiedTime: 1781576249056
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3397,12 +3433,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249056
+      modifiedTime: 1781576249056
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3621,12 +3659,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3871,12 +3911,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4029,12 +4071,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4090,13 +4134,15 @@ items:
     img: icons/sundries/survival/waterskin-leather-brown.webp
     effects: []
     sort: 6900000
-    flags: {}
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4217,12 +4263,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249050
+      modifiedTime: 1781576249050
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4274,13 +4322,17 @@ items:
     img: icons/sundries/books/book-worn-brown.webp
     effects: []
     sort: 100000
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4335,13 +4387,15 @@ items:
     img: icons/containers/bags/pack-simple-leather.webp
     effects: []
     sort: 7300000
-    flags: {}
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4414,12 +4468,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4485,12 +4541,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4560,12 +4618,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4611,13 +4671,17 @@ items:
     img: icons/sundries/documents/paper-plain-white.webp
     effects: []
     sort: 4200000
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4739,12 +4803,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4873,12 +4939,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5064,12 +5132,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5077,296 +5147,6 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.8kMc1s6Srbk9mf9n'
-  - name: Rewarded
-    type: background
-    _id: zyawDH75ToLd8eJ1
-    img: icons/magic/light/orb-hands-humanoid-yellow.webp
-    system:
-      advancement:
-        uBMWrBIpJFb1nBMl:
-          type: AbilityScoreImprovement
-          configuration:
-            points: 3
-            cap: 2
-            fixed:
-              str: 0
-              dex: 0
-              con: 0
-              int: 0
-              wis: 0
-              cha: 0
-            locked:
-              - str
-              - dex
-              - con
-            recommendation: null
-            max: null
-          _id: uBMWrBIpJFb1nBMl
-          value:
-            type: asi
-            assignments:
-              cha: 2
-              int: 1
-          level: 0
-          title: ''
-          hint: ''
-          flags: {}
-        O2Mc9ch1hp43fTuS:
-          type: Trait
-          title: Background Proficiencies
-          _id: O2Mc9ch1hp43fTuS
-          configuration:
-            allowReplacements: false
-            choices: []
-            grants:
-              - skills:ins
-              - skills:per
-              - tool:game:card
-            mode: default
-          level: 0
-          hint: ''
-          value:
-            chosen:
-              - skills:ins
-              - skills:per
-              - tool:game:card
-          flags: {}
-        YyFlIeZi3SZZFG31:
-          type: ItemGrant
-          title: Background Feat
-          _id: YyFlIeZi3SZZFG31
-          configuration:
-            items:
-              - uuid: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
-                optional: false
-            optional: false
-            spell: null
-          value:
-            added:
-              eEvWJAm8nKdy47My: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
-          level: 0
-          flags: {}
-          hint: ''
-        vrxusSUfKm1VUhCM:
-          type: Trait
-          title: Choose Languages
-          configuration:
-            grants:
-              - languages:standard:common
-            allowReplacements: false
-            choices:
-              - count: 2
-                pool:
-                  - languages:*
-            mode: default
-          _id: vrxusSUfKm1VUhCM
-          flags: {}
-          level: 0
-          hint: ''
-          value:
-            chosen:
-              - languages:standard:common
-              - languages:standard:dwarvish
-              - languages:standard:elvish
-      description:
-        value: >-
-          <div class="ddb"><h1>Background:
-          Rewarded</h1><p></p><p><strong>Ability Scores:</strong> Intelligence,
-          Wisdom, Charisma<br><strong>Feat:</strong> Skilled<br><strong>Skill
-          Proficiencies:</strong> &amp;Reference[ath]{Insight} and
-          &amp;Reference[prc]{Persuasion}<br><strong>Tool Proficiency:</strong>
-          <em>Choose one kind of Gaming Set</em><br><strong>Equipment:</strong>
-          <em>Choose A or B:</em> (A) a bottle of black ink, an ink pen,
-          Parchment (5 sheets), a gaming set (same as above), a signet ring,
-          Fine Clothes, a Pouch, 18 gp; or (B) 50 GP</p><p>You were living a
-          difficult life before your destiny suddenly changed through a
-          miraculous turn of good fortune. Perhaps a benevolent deity gave you
-          precisely what you most desired. You might have stumbled across a Deck
-          of Many Things and drawn a card with a potent, positive effect. Or
-          maybe you inherited a modest fortune from a distant relative you
-          didn't know you had.</p></div><p>Regardless, you left the daily
-          miseries of your old life behind in favor of a life of adventure and
-          excitement. Your old debts have been paid, responsibilities you
-          thought inescapable are behind you, or you suddenly possess rare and
-          unusual skills unknown to ordinary folk.</p><div class="ddb"><h2>Feat:
-          Skilled</h2></div>
-        chat: ''
-      identifier: rewarded
-      source:
-        revision: 1
-        rules: '2024'
-        book: The Book of Many Things
-        page: ''
-        custom: ''
-        license: ''
-      startingEquipment:
-        - type: AND
-          requiresProficiency: false
-          _id: J9PJ5qRLs9GWloPA
-          group: ''
-          sort: 300000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iiF1oFTvBLTbxemy
-          requiresProficiency: false
-          _id: kOqVdBBe7lQib9KU
-          group: J9PJ5qRLs9GWloPA
-          sort: 325000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.FKcNFpi61lEBq4zB
-          requiresProficiency: false
-          _id: cwkewhAzuNb8d9U0
-          group: J9PJ5qRLs9GWloPA
-          sort: 337500
-        - type: linked
-          count: 5
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iTxnjoMbsC3HeoB6
-          requiresProficiency: false
-          _id: 2V5UnHdiiy4HMETE
-          group: J9PJ5qRLs9GWloPA
-          sort: 343750
-        - type: tool
-          count: 1
-          key: game
-          requiresProficiency: false
-          _id: n9GA0T2MwBA5LAoG
-          group: J9PJ5qRLs9GWloPA
-          sort: 350000
-        - type: linked
-          count: 1
-          key: Compendium.draenal-common.treasure.Item.MhPsBq43bl7dxjvM
-          requiresProficiency: false
-          _id: ex9anqC92yKXn1n0
-          group: J9PJ5qRLs9GWloPA
-          sort: 900000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.LaOBA2voPjxnAcVB
-          requiresProficiency: false
-          _id: SAyhOQk8F6VDN8ud
-          group: J9PJ5qRLs9GWloPA
-          sort: 1000000
-        - type: currency
-          count: 18
-          key: gp
-          requiresProficiency: false
-          _id: 5lIRkV6lne6YUQzR
-          group: J9PJ5qRLs9GWloPA
-          sort: 1100000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
-          requiresProficiency: false
-          _id: xE5I9A0X3XLsibKf
-          group: J9PJ5qRLs9GWloPA
-          sort: 1050000
-      wealth: '50'
-    effects: []
-    folder: null
-    sort: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.zyawDH75ToLd8eJ1'
-  - folder: czuxGSDEF9XXySRs
-    name: Skilled
-    type: feat
-    _id: eEvWJAm8nKdy47My
-    img: icons/commodities/biological/organ-brain-pink.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement:
-        NNxKptkZYe3iIYqc:
-          type: Trait
-          _id: NNxKptkZYe3iIYqc
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - skills:*
-              - count: 1
-                pool:
-                  - skills:*
-              - count: 1
-                pool:
-                  - skills:*
-            grants: []
-            mode: default
-          flags: {}
-          level: 0
-          hint: ''
-          title: Skilled
-          icon: icons/commodities/biological/organ-brain-pink.webp
-          value:
-            chosen:
-              - skills:acr
-              - skills:his
-              - skills:ste
-      description:
-        value: >-
-          <div class="ddb"><p>You gain proficiency in any combination of three
-          skills or tools of your
-          choice.</p><p><em><strong>Repeatable.</strong></em> You can take this
-          feat more than once.</p></div>
-        chat: ''
-      identifier: skilled
-      source:
-        revision: 1
-        rules: '2024'
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: true
-        level: null
-      properties:
-        - trait
-      requirements: Origin Feat
-      type:
-        value: feat
-        subtype: origin
-    effects: []
-    sort: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.feats.Item.KUsRN2N9oHzn50UR
-        advancementOrigin: zyawDH75ToLd8eJ1.YyFlIeZi3SZZFG31
-        advancementRoot: zyawDH75ToLd8eJ1.YyFlIeZi3SZZFG31
-        '-=riders': null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.eEvWJAm8nKdy47My'
   - name: The Fates Patron
     type: subclass
     _id: VerO4z1bp2oCvaVr
@@ -5468,12 +5248,14 @@ items:
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5663,12 +5445,14 @@ items:
         advancementOrigin: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5821,12 +5605,14 @@ items:
         advancementOrigin: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249051
+      modifiedTime: 1781576249051
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5926,12 +5712,14 @@ items:
         advancementOrigin: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6157,8 +5945,8 @@ items:
           systemId: dnd5e
           systemVersion: 5.3.3
           lastModifiedBy: draenalcommon000
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249057
+          modifiedTime: 1781576249057
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -6173,12 +5961,14 @@ items:
         advancementOrigin: POYrGyVbh4BbR1i5.kOD0ijIabizMVkqc
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249057
+      modifiedTime: 1781576249057
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6320,12 +6110,14 @@ items:
         advancementOrigin: POYrGyVbh4BbR1i5.kOD0ijIabizMVkqc
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6480,12 +6272,14 @@ items:
         advancementOrigin: POYrGyVbh4BbR1i5.vzIQip4KvpcXtr0X
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6941,12 +6735,14 @@ items:
         advancementOrigin: POYrGyVbh4BbR1i5.vzIQip4KvpcXtr0X
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7274,8 +7070,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249061
+          modifiedTime: 1781576249061
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7319,8 +7115,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249061
+          modifiedTime: 1781576249061
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7364,8 +7160,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249061
+          modifiedTime: 1781576249061
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7409,8 +7205,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249061
+          modifiedTime: 1781576249061
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7454,8 +7250,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249061
+          modifiedTime: 1781576249061
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7499,8 +7295,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249061
+          modifiedTime: 1781576249061
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7518,12 +7314,14 @@ items:
         advancementOrigin: aE6RwbddbNn1hRUE.zBk8WnSKyRsb7Btv
         advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249060
+      modifiedTime: 1781576249060
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7602,7 +7400,7 @@ items:
           value:
             added:
               vFkqxzF0eGy7xGz8: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
-              KC8c1WkINBucTC1n: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+              9kilvqlfRR2JmaNg: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
           level: 0
           hint: ''
       description:
@@ -7683,13 +7481,15 @@ items:
     effects: []
     folder: null
     sort: 0
-    flags: {}
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7830,12 +7630,14 @@ items:
         advancementOrigin: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
         advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7843,86 +7645,6 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.vFkqxzF0eGy7xGz8'
-  - folder: oLcAEKfoUODjH5eS
-    name: More than a Face
-    type: feat
-    _id: KC8c1WkINBucTC1n
-    img: icons/equipment/head/hood-cloth-blue-white.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement:
-        e1XHkRRDlDEXW5JG:
-          type: Trait
-          title: Skill or Tool Proficiency
-          _id: e1XHkRRDlDEXW5JG
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - skills:*
-                  - tool:*
-            grants: []
-            mode: upgrade
-          flags: {}
-          level: 3
-          hint: ''
-          value:
-            chosen:
-              - skills:per
-      description:
-        value: >-
-          <p>A proper disguise goes beyond the face and mannerisms. Changlings
-          must adapt the skills and vocations of those that they are attempting
-          to impersonate. Starting at character level 3, when you Shape-Shift,
-          you gain proficiency in one skill or tool of your choice. You instead
-          gain Expertise in the chosen tool or skill if you already
-          proficient.</p>
-        chat: ''
-      identifier: more-than-a-face
-      source:
-        revision: 1
-        rules: '2024'
-        book: Draenal Homebrew
-        page: ''
-        custom: ''
-        license: ''
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: 3
-      properties: []
-      requirements: Changling
-      type:
-        value: race
-        subtype: ''
-    effects: []
-    sort: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
-        advancementOrigin: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
-        advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
-        '-=riders': null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.KC8c1WkINBucTC1n'
   - folder: WbqCEw0rImHkn5Xj
     name: Charlatan's Die
     type: equipment
@@ -7981,12 +7703,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8129,12 +7853,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249052
+      modifiedTime: 1781576249052
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8374,8 +8100,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249058
+          modifiedTime: 1781576249058
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8386,12 +8112,14 @@ items:
     flags:
       dnd5e:
         '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249058
+      modifiedTime: 1781576249058
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8399,130 +8127,6 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.mBylMZe88syrVS8i'
-  - _id: 8MYwYsJMHWNuntda
-    name: Fiendish Vigor
-    type: feat
-    img: icons/magic/death/undead-zombie-grave-green.webp
-    system:
-      description:
-        value: >-
-          <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You
-          can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False
-          Life} on yourself without expending a spell slot. When you cast the
-          spell with this feature, you don't roll the die for the Temporary Hit
-          Points; you automatically get the highest number on the
-          die.</p><section class="secret"
-          id="secret-9kRkRSKEmbOaga6L"><p><strong>Foundry
-          Note</strong></p><p>The <strong>False Life</strong> activity includes
-          the maximum amount of healing.</p></section>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        revision: 1
-        license: CC-BY-4.0
-        book: ''
-      uses:
-        max: ''
-        spent: 0
-        recovery: []
-      type:
-        value: class
-        subtype: eldritchInvocation
-      prerequisites:
-        level: 2
-        repeatable: false
-        items: []
-      properties: []
-      requirements: ''
-      activities:
-        fORgQlbeidLbJ4lv:
-          type: heal
-          name: False Life
-          _id: fORgQlbeidLbJ4lv
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-            units: self
-            special: ''
-          target:
-            template:
-              contiguous: false
-              units: ft
-              type: ''
-              stationary: false
-            affects:
-              choice: false
-              count: ''
-              type: self
-              special: ''
-            override: false
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          healing:
-            number: null
-            denomination: 0
-            types:
-              - temphp
-            custom:
-              enabled: true
-              formula: 8 + 4
-            scaling:
-              number: 1
-            bonus: ''
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      enchant: {}
-      identifier: fiendish-vigor
-      advancement: {}
-      crewed: false
-    effects: []
-    folder: BjeMHiqnKNWkWhox
-    flags:
-      dnd5e:
-        sourceId: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
-        advancementOrigin: WcBWOjMrZ2vxFpRt.oKO8Ud5dhIeb5v77
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    sort: 0
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.8MYwYsJMHWNuntda'
   - folder: NjqQMLDSpgkNVXmC
     name: Fate's Touch
     type: equipment
@@ -8583,13 +8187,17 @@ items:
       equipped: true
     effects: []
     sort: 0
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249053
+      modifiedTime: 1781576249053
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8735,8 +8343,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249058
+          modifiedTime: 1781576249058
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8753,12 +8361,15 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249058
+      modifiedTime: 1781576249058
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8911,8 +8522,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249060
+          modifiedTime: 1781576249060
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8950,8 +8561,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249060
+          modifiedTime: 1781576249060
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8989,8 +8600,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249060
+          modifiedTime: 1781576249060
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9007,12 +8618,15 @@ items:
         riders:
           activity: []
           effect: []
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249060
+      modifiedTime: 1781576249060
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -9055,13 +8669,17 @@ items:
     effects: []
     folder: KAYxa2YunS2ZhhTJ
     sort: 104688
-    flags: {}
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249053
+      modifiedTime: 1781576249053
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -9548,8 +9166,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249062
+          modifiedTime: 1781576249062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9630,8 +9248,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249062
+          modifiedTime: 1781576249062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9722,8 +9340,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249062
+          modifiedTime: 1781576249062
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9774,8 +9392,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249063
+          modifiedTime: 1781576249063
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9828,8 +9446,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249063
+          modifiedTime: 1781576249063
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9877,8 +9495,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249063
+          modifiedTime: 1781576249063
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9958,8 +9576,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249063
+          modifiedTime: 1781576249063
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10054,8 +9672,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781474322196
-          modifiedTime: 1781474322196
+          createdTime: 1781576249063
+          modifiedTime: 1781576249063
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10378,12 +9996,15 @@ items:
             _gemData: null
             _slot: 19
         socketTabEnabled: true
+        gemSubtype: null
+      dnd5e:
+        '-=riders': null
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781474322196
-      modifiedTime: 1781474322196
+      createdTime: 1781576249062
+      modifiedTime: 1781576249062
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -10393,6 +10014,506 @@ items:
     _id: LbuqMiTUtpT40ZxQ
     sort: 100000
     _key: '!actors.items!j7ySRfEobPDT5RZo.LbuqMiTUtpT40ZxQ'
+  - _id: 6G31j6ECJZSqk18f
+    name: Fiendish Vigor
+    type: feat
+    img: icons/magic/death/undead-zombie-grave-green.webp
+    system:
+      description:
+        value: >-
+          <blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You
+          can cast @UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{False
+          Life} on yourself without expending a spell slot. When you cast the
+          spell with this feature, you don't roll the die for the Temporary Hit
+          Points; you automatically get the highest number on the
+          die.</p><section class="secret"
+          id="secret-9kRkRSKEmbOaga6L"><p><strong>Foundry
+          Note</strong></p><p>The <strong>False Life</strong> activity includes
+          the maximum amount of healing.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: SRD 5.2
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: eldritchInvocation
+      prerequisites:
+        level: 2
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities:
+        fORgQlbeidLbJ4lv:
+          type: heal
+          name: False Life
+          _id: fORgQlbeidLbJ4lv
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: self
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          healing:
+            number: null
+            denomination: 0
+            types:
+              - temphp
+            custom:
+              enabled: true
+              formula: 8 + 4
+            scaling:
+              number: 1
+            bonus: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: fiendish-vigor
+      advancement: {}
+      crewed: false
+    effects: []
+    folder: BjeMHiqnKNWkWhox
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
+        advancementOrigin: WcBWOjMrZ2vxFpRt.oKO8Ud5dhIeb5v77
+        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781576249053
+      modifiedTime: 1781576249053
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.6G31j6ECJZSqk18f'
+  - name: Rewarded
+    type: background
+    _id: U5hQmkScEwlpsbBj
+    img: icons/magic/light/orb-hands-humanoid-yellow.webp
+    system:
+      advancement:
+        uBMWrBIpJFb1nBMl:
+          type: AbilityScoreImprovement
+          configuration:
+            points: 3
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked:
+              - str
+              - dex
+              - con
+            recommendation: null
+            max: null
+          _id: uBMWrBIpJFb1nBMl
+          value:
+            type: asi
+            assignments:
+              cha: 2
+              int: 1
+          level: 0
+          title: ''
+          hint: ''
+          flags: {}
+        O2Mc9ch1hp43fTuS:
+          type: Trait
+          title: Background Proficiencies
+          _id: O2Mc9ch1hp43fTuS
+          configuration:
+            allowReplacements: false
+            choices: []
+            grants:
+              - skills:ins
+              - skills:per
+              - tool:game:card
+            mode: default
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - skills:ins
+              - skills:per
+              - tool:game:card
+          flags: {}
+        YyFlIeZi3SZZFG31:
+          type: ItemGrant
+          title: Background Feat
+          _id: YyFlIeZi3SZZFG31
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              NaPIzH46JhsLCccm: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+          level: 0
+          flags: {}
+          hint: ''
+        vrxusSUfKm1VUhCM:
+          type: Trait
+          title: Choose Languages
+          configuration:
+            grants:
+              - languages:standard:common
+            allowReplacements: false
+            choices:
+              - count: 2
+                pool:
+                  - languages:*
+            mode: default
+          _id: vrxusSUfKm1VUhCM
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - languages:standard:common
+              - languages:standard:dwarvish
+              - languages:standard:elvish
+      description:
+        value: >-
+          <div class="ddb"><h1>Background:
+          Rewarded</h1><p></p><p><strong>Ability Scores:</strong> Intelligence,
+          Wisdom, Charisma<br><strong>Feat:</strong> Skilled<br><strong>Skill
+          Proficiencies:</strong> &amp;Reference[ath]{Insight} and
+          &amp;Reference[prc]{Persuasion}<br><strong>Tool Proficiency:</strong>
+          <em>Choose one kind of Gaming Set</em><br><strong>Equipment:</strong>
+          <em>Choose A or B:</em> (A) a bottle of black ink, an ink pen,
+          Parchment (5 sheets), a gaming set (same as above), a signet ring,
+          Fine Clothes, a Pouch, 18 gp; or (B) 50 GP</p><p>You were living a
+          difficult life before your destiny suddenly changed through a
+          miraculous turn of good fortune. Perhaps a benevolent deity gave you
+          precisely what you most desired. You might have stumbled across a Deck
+          of Many Things and drawn a card with a potent, positive effect. Or
+          maybe you inherited a modest fortune from a distant relative you
+          didn't know you had.</p></div><p>Regardless, you left the daily
+          miseries of your old life behind in favor of a life of adventure and
+          excitement. Your old debts have been paid, responsibilities you
+          thought inescapable are behind you, or you suddenly possess rare and
+          unusual skills unknown to ordinary folk.</p><div class="ddb"><h2>Feat:
+          Skilled</h2></div>
+        chat: ''
+      identifier: rewarded
+      source:
+        revision: 1
+        rules: '2024'
+        book: The Book of Many Things
+        page: ''
+        custom: ''
+        license: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: J9PJ5qRLs9GWloPA
+          group: ''
+          sort: 300000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iiF1oFTvBLTbxemy
+          requiresProficiency: false
+          _id: kOqVdBBe7lQib9KU
+          group: J9PJ5qRLs9GWloPA
+          sort: 325000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.FKcNFpi61lEBq4zB
+          requiresProficiency: false
+          _id: cwkewhAzuNb8d9U0
+          group: J9PJ5qRLs9GWloPA
+          sort: 337500
+        - type: linked
+          count: 5
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iTxnjoMbsC3HeoB6
+          requiresProficiency: false
+          _id: 2V5UnHdiiy4HMETE
+          group: J9PJ5qRLs9GWloPA
+          sort: 343750
+        - type: tool
+          count: 1
+          key: game
+          requiresProficiency: false
+          _id: n9GA0T2MwBA5LAoG
+          group: J9PJ5qRLs9GWloPA
+          sort: 350000
+        - type: linked
+          count: 1
+          key: Compendium.draenal-common.treasure.Item.MhPsBq43bl7dxjvM
+          requiresProficiency: false
+          _id: ex9anqC92yKXn1n0
+          group: J9PJ5qRLs9GWloPA
+          sort: 900000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.LaOBA2voPjxnAcVB
+          requiresProficiency: false
+          _id: SAyhOQk8F6VDN8ud
+          group: J9PJ5qRLs9GWloPA
+          sort: 1000000
+        - type: currency
+          count: 18
+          key: gp
+          requiresProficiency: false
+          _id: 5lIRkV6lne6YUQzR
+          group: J9PJ5qRLs9GWloPA
+          sort: 1100000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
+          requiresProficiency: false
+          _id: xE5I9A0X3XLsibKf
+          group: J9PJ5qRLs9GWloPA
+          sort: 1050000
+      wealth: '50'
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781576249053
+      modifiedTime: 1781576249053
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.backgrounds.Item.5uIZ9zumyTsyxQk8
+    _key: '!actors.items!j7ySRfEobPDT5RZo.U5hQmkScEwlpsbBj'
+  - name: Skilled
+    system:
+      description:
+        value: >-
+          <p>You gain proficiency in any combination of three skills or tools of
+          your choice.</p><p><strong>Repeatable.</strong> You can take this feat
+          more than once.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: SRD 5.2
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: feat
+        subtype: origin
+      prerequisites:
+        level: null
+        repeatable: true
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: skilled
+      advancement:
+        Mm4MAeZK89zGqmyH:
+          type: Trait
+          _id: Mm4MAeZK89zGqmyH
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 3
+                pool:
+                  - skills:*
+                  - tool:*
+            grants: []
+            mode: default
+          level: 0
+          title: ''
+          hint: ''
+          value:
+            chosen:
+              - skills:acr
+              - skills:his
+              - skills:ste
+          flags: {}
+      crewed: false
+    _id: NaPIzH46JhsLCccm
+    type: feat
+    img: icons/commodities/treasure/medal-ribbon-blue.webp
+    effects: []
+    folder: d5jrO8A6QpjEV9rn
+    sort: 101563
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+        advancementOrigin: U5hQmkScEwlpsbBj.YyFlIeZi3SZZFG31
+        advancementRoot: U5hQmkScEwlpsbBj.YyFlIeZi3SZZFG31
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781576249053
+      modifiedTime: 1781576249053
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+    _key: '!actors.items!j7ySRfEobPDT5RZo.NaPIzH46JhsLCccm'
+  - folder: oLcAEKfoUODjH5eS
+    name: More than a Face
+    type: feat
+    _id: 9kilvqlfRR2JmaNg
+    img: icons/equipment/head/hood-cloth-blue-white.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        e1XHkRRDlDEXW5JG:
+          type: Trait
+          title: Skill or Tool Proficiency
+          _id: e1XHkRRDlDEXW5JG
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - skills:*
+                  - tool:*
+            grants: []
+            mode: upgrade
+          flags: {}
+          level: 3
+          hint: ''
+          value:
+            chosen:
+              - skills:per
+      description:
+        value: >-
+          <p>A proper disguise goes beyond the face and mannerisms. Changlings
+          must adapt the skills and vocations of those that they are attempting
+          to impersonate. Starting at character level 3, while you are
+          shape-shifted with your Shape-Shifter trait, you gain proficiency in
+          one skill or tool of your choice. You instead gain Expertise in the
+          chosen tool or skill if you already proficient.</p>
+        chat: ''
+      identifier: more-than-a-face
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 3
+      properties: []
+      requirements: Changling
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+        advancementOrigin: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
+        advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1781576249053
+      modifiedTime: 1781576249053
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+    _key: '!actors.items!j7ySRfEobPDT5RZo.9kilvqlfRR2JmaNg'
 effects:
   - name: Concealed
     origin: Actor.DqLfAsayienM661c.ActiveEffect.fqpwnjdwSx4R5LWm
@@ -10620,7 +10741,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781474322196
-  modifiedTime: 1781474322196
+  modifiedTime: 1781576249083
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
