@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Feat Features
+color: null
+sorting: a
+_id: lh8DW6249oshDHHD
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1781918443858
+  modifiedTime: 1781918443858
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!lh8DW6249oshDHHD'
+

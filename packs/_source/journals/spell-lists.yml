@@ -1,0 +1,681 @@
+name: Spell Lists
+_id: QTcU8ep091d3UBnH
+pages:
+  - sort: 650000
+    name: Evocation
+    type: spells
+    _id: BIZhoRyUMW9gauhI
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA
+        - Compendium.dnd5e.spells24.Item.phbsplAcidSplash
+        - Compendium.dnd5e.spells24.Item.phbsplBigbysHand
+        - Compendium.dnd5e.spells24.Item.phbswdMordenkain
+        - Compendium.dnd5e.spells24.Item.phbsplBladeBarri
+        - Compendium.draenal-common.spells.Item.nkqOrpF9L9prak5T
+        - Compendium.dnd5e.spells24.Item.phbsplBurningHan
+        - Compendium.dnd5e.spells24.Item.phbsplChainLight
+        - Compendium.draenal-common.spells.Item.LZXXg7T6DCQbNR8I
+        - Compendium.dnd5e.spells24.Item.phbsplChromaticO
+        - Compendium.dnd5e.spells24.Item.phbsplConeofCold
+        - Compendium.dnd5e.spells24.Item.phbsplContinualF
+        - Compendium.dnd5e.spells24.Item.phbsplDarkness00
+        - Compendium.dnd5e.spells24.Item.phbsplDaylight00
+        - Compendium.dnd5e.spells24.Item.phbsplDelayedBla
+        - Compendium.draenal-common.spells.Item.ZWjl2ws08IDeKnpr
+        - Compendium.dnd5e.spells24.Item.phbsplDivineSmit
+        - Compendium.dnd5e.spells24.Item.phbsplDivineWord
+        - Compendium.dnd5e.spells24.Item.phbsplEldritchBl
+        - Compendium.dnd5e.spells24.Item.phbsplFireBolt00
+        - Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+        - Compendium.dnd5e.spells24.Item.phbsplFireShield
+        - Compendium.dnd5e.spells24.Item.phbsplFireStorm0
+        - Compendium.dnd5e.spells24.Item.phbsplFireball00
+        - Compendium.dnd5e.spells24.Item.phbsplFlameBlade
+        - Compendium.dnd5e.spells24.Item.phbsplFlameStrik
+        - Compendium.dnd5e.spells24.Item.phbsplForcecage0
+        - Compendium.dnd5e.spells24.Item.phbsplOtilukesFr
+        - Compendium.draenal-common.spells.Item.NissLHQ03AWLHGKU
+        - Compendium.draenal-common.spells.Item.PmuzFFyAY54j5T7a
+        - Compendium.dnd5e.spells24.Item.phbsplGuidingBol
+        - Compendium.dnd5e.spells24.Item.phbsplGustofWind
+        - Compendium.dnd5e.spells24.Item.phbsplHellishReb
+        - Compendium.dnd5e.spells24.Item.phbsplIceStorm00
+        - Compendium.dnd5e.spells24.Item.phbsplLight00000
+        - Compendium.dnd5e.spells24.Item.phbsplLightningB
+        - Compendium.dnd5e.spells24.Item.phbsplMagicMissi
+        - Compendium.dnd5e.spells24.Item.phbsplMeteorSwar
+        - Compendium.dnd5e.spells24.Item.phbsplMoonbeam00
+        - Compendium.dnd5e.spells24.Item.phbsplPrismaticS
+        - Compendium.dnd5e.spells24.Item.phbsplRayofFrost
+        - Compendium.dnd5e.spells24.Item.phbsplSacredFlam
+        - Compendium.dnd5e.spells24.Item.phbsplScorchingR
+        - Compendium.dnd5e.spells24.Item.phbsplSearingSmi
+        - Compendium.dnd5e.spells24.Item.phbsplShatter000
+        - Compendium.dnd5e.spells24.Item.phbsplShockingGr
+        - Compendium.dnd5e.spells24.Item.phbsplSorcerousB
+        - Compendium.dnd5e.spells24.Item.phbsplSpiritualW
+        - Compendium.dnd5e.spells24.Item.phbsplStarryWisp
+        - Compendium.dnd5e.spells24.Item.phbsplSunbeam000
+        - Compendium.dnd5e.spells24.Item.phbsplSunburst00
+        - Compendium.dnd5e.spells24.Item.phbsplThunderwav
+        - Compendium.dnd5e.spells24.Item.phbsplLeomundsTi
+        - Compendium.dnd5e.spells24.Item.phbsplVitriolicS
+        - Compendium.dnd5e.spells24.Item.phbsplWallofFire
+        - Compendium.dnd5e.spells24.Item.phbsplWallofForc
+        - Compendium.dnd5e.spells24.Item.phbsplWallofIce0
+        - Compendium.dnd5e.spells24.Item.phbsplWallofSton
+        - Compendium.dnd5e.spells24.Item.phbsplWindWall00
+      unlinkedSpells: []
+      identifier: evocation
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016295079
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.BIZhoRyUMW9gauhI'
+  - sort: 100000
+    name: Abjuration
+    type: spells
+    _id: URRYavCPej4TzJUZ
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.draenal-common.spells.Item.qGfir2YIJu2Da3tR
+        - Compendium.dnd5e.spells24.Item.phbsplAid0000000
+        - Compendium.dnd5e.spells24.Item.phbsplAlarm00000
+        - Compendium.dnd5e.spells24.Item.phbsplAntilifeSh
+        - Compendium.dnd5e.spells24.Item.phbsplAntimagicF
+        - Compendium.dnd5e.spells24.Item.phbsplArcaneLock
+        - Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
+        - Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
+        - Compendium.dnd5e.spells24.Item.phbsplAuraofLife
+        - Compendium.dnd5e.spells24.Item.phbsplBanishment
+        - Compendium.dnd5e.spells24.Item.phbsplBeaconofHo
+        - Compendium.dnd5e.spells24.Item.phbsplContingenc
+        - Compendium.dnd5e.spells24.Item.phbsplCureWounds
+        - Compendium.dnd5e.spells24.Item.phbsplDeathWard0
+        - Compendium.dnd5e.spells24.Item.phbsplDispelEvil
+        - Compendium.dnd5e.spells24.Item.phbsplDispelMagi
+        - Compendium.dnd5e.spells24.Item.phbsplForbiddanc
+        - Compendium.dnd5e.spells24.Item.phbsplFreedomofM
+        - Compendium.dnd5e.spells24.Item.phbsplGlyphofWar
+        - Compendium.dnd5e.spells24.Item.phbsplGreaterRes
+        - Compendium.dnd5e.spells24.Item.phbsplGuardsandW
+        - Compendium.dnd5e.spells24.Item.phbsplHallow0000
+        - Compendium.dnd5e.spells24.Item.phbsplHeal000000
+        - Compendium.dnd5e.spells24.Item.phbsplHealingWor
+        - Compendium.dnd5e.spells24.Item.phbsplHolyAura00
+        - Compendium.dnd5e.spells24.Item.phbsplImprisonme
+        - Compendium.dnd5e.spells24.Item.phbsplLesserRest
+        - Compendium.dnd5e.spells24.Item.phbsplMageArmor0
+        - Compendium.dnd5e.spells24.Item.phbsplMagicCircl
+        - Compendium.dnd5e.spells24.Item.phbsplMassCureWo
+        - Compendium.dnd5e.spells24.Item.phbsplMassHeal00
+        - Compendium.dnd5e.spells24.Item.phbsplMassHealin
+        - Compendium.dnd5e.spells24.Item.phbsplMindBlank0
+        - Compendium.dnd5e.spells24.Item.phbsplNondetecti
+        - Compendium.dnd5e.spells24.Item.phbsplPasswithou
+        - Compendium.dnd5e.spells24.Item.phbsplPlanarBind
+        - Compendium.dnd5e.spells24.Item.phbsplPrayerofHe
+        - Compendium.dnd5e.spells24.Item.phbsplPrismaticW
+        - Compendium.dnd5e.spells24.Item.phbProtectionFro
+        - Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
+        - Compendium.dnd5e.spells24.Item.phbsplProtection
+        - Compendium.dnd5e.spells24.Item.phbsplRemoveCurs
+        - Compendium.dnd5e.spells24.Item.phbsplOtilukesRe
+        - Compendium.dnd5e.spells24.Item.phbsplResistance
+        - Compendium.dnd5e.spells24.Item.phbSanctuary0000
+        - Compendium.dnd5e.spells24.Item.phbsplShield0000
+        - Compendium.dnd5e.spells24.Item.phbsplShieldofFa
+        - Compendium.dnd5e.spells24.Item.phbsplSymbol0000
+        - Compendium.dnd5e.spells24.Item.phbsplWardingBon
+      unlinkedSpells: []
+      identifier: ''
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016861749
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.URRYavCPej4TzJUZ'
+  - sort: 400000
+    name: Conjuration
+    type: spells
+    _id: Q1Chx5BfoGDJs6oh
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.draenal-common.spells.Item.oC8tOlhnnlpxgEgA
+        - Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
+        - Compendium.dnd5e.spells24.Item.phbsplCallLightn
+        - Compendium.dnd5e.spells24.Item.phbsplCloudkill0
+        - Compendium.dnd5e.spells24.Item.phbsplConjureAni
+        - Compendium.dnd5e.spells24.Item.phbsplConjureCel
+        - Compendium.dnd5e.spells24.Item.phbsplConjureEle
+        - Compendium.dnd5e.spells24.Item.phbsplConjureFey
+        - Compendium.dnd5e.spells24.Item.phbsplConjureMin
+        - Compendium.dnd5e.spells24.Item.phbsplConjureWoo
+        - Compendium.dnd5e.spells24.Item.phbsplCreateFood
+        - Compendium.dnd5e.spells24.Item.phbsplDemiplane0
+        - Compendium.dnd5e.spells24.Item.phbsplDimensionD
+        - Compendium.dnd5e.spells24.Item.phbsplEnsnaringS
+        - Compendium.dnd5e.spells24.Item.phbsplEntangle00
+        - Compendium.dnd5e.spells24.Item.phbsplEtherealne
+        - Compendium.dnd5e.spells24.Item.phbFaithfulHound
+        - Compendium.dnd5e.spells24.Item.phbsplFindFamili
+        - Compendium.dnd5e.spells24.Item.phbsplFindSteed0
+        - Compendium.dnd5e.spells24.Item.phbsplFlamingSph
+        - Compendium.dnd5e.spells24.Item.phbsplTensersFlo
+        - Compendium.dnd5e.spells24.Item.phbsplFogCloud00
+        - Compendium.dnd5e.spells24.Item.phbsplGiantInsec
+        - Compendium.dnd5e.spells24.Item.phbsplGoodberry0
+        - Compendium.draenal-common.spells.Item.iYWoDIwMGxQtyCPD
+        - Compendium.dnd5e.spells24.Item.phbsplGrease0000
+        - Compendium.dnd5e.spells24.Item.phbsplGuardianof
+        - Compendium.draenal-common.spells.Item.AGoLJRS1CHl5SJsr
+        - Compendium.dnd5e.spells24.Item.phbsplHeroesFeas
+        - Compendium.dnd5e.spells24.Item.phbsplIncendiary
+        - Compendium.dnd5e.spells24.Item.phbsplInsectPlag
+        - Compendium.dnd5e.spells24.Item.phbsplDrawmijsIn
+        - Compendium.dnd5e.spells24.Item.phbsplMageHand00
+        - Compendium.dnd5e.spells24.Item.phbMagnificentMa
+        - Compendium.dnd5e.spells24.Item.phbsplMaze000000
+        - Compendium.dnd5e.spells24.Item.phbsplMistyStep0
+        - Compendium.dnd5e.spells24.Item.phbsplPlanarAlly
+        - Compendium.dnd5e.spells24.Item.phbsplPlaneShift
+        - Compendium.dnd5e.spells24.Item.phbsplProduceFla
+        - Compendium.dnd5e.spells24.Item.phbsplLeomundsSe
+        - Compendium.dnd5e.spells24.Item.phbsplSleetStorm
+        - Compendium.dnd5e.spells24.Item.phbsplSpiritGuar
+        - Compendium.dnd5e.spells24.Item.phbsplStinkingCl
+        - Compendium.dnd5e.spells24.Item.phbsplStormofVen
+        - Compendium.dnd5e.spells24.Item.phbsplSummonDrag
+        - Compendium.draenal-common.spells.Item.g1CS24DA1hMSvRuL
+        - Compendium.dnd5e.spells24.Item.phbsplTeleport00
+        - Compendium.dnd5e.spells24.Item.phbsplTeleportat
+        - Compendium.dnd5e.spells24.Item.phbsplTransportv
+        - Compendium.dnd5e.spells24.Item.phbsplTreeStride
+        - Compendium.dnd5e.spells24.Item.phbsplTsunami000
+        - Compendium.dnd5e.spells24.Item.phbsplUnseenServ
+        - Compendium.dnd5e.spells24.Item.phbsplWallofThor
+        - Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+        - Compendium.dnd5e.spells24.Item.phbsplWish000000
+        - Compendium.dnd5e.spells24.Item.phbsplWordofReca
+      unlinkedSpells: []
+      identifier: conjuration
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016282036
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.Q1Chx5BfoGDJs6oh'
+  - sort: 500000
+    name: Divination
+    type: spells
+    _id: PC3uPdgbrjqMimOf
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells24.Item.phbsplArcaneEye0
+        - Compendium.dnd5e.spells24.Item.phbsplAugury0000
+        - Compendium.dnd5e.spells24.Item.phbsplClairvoyan
+        - Compendium.dnd5e.spells24.Item.phbsplCommune000
+        - Compendium.dnd5e.spells24.Item.phbsplCommunewit
+        - Compendium.dnd5e.spells24.Item.phbsplContactOth
+        - Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+        - Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+        - Compendium.dnd5e.spells24.Item.phbsplDetectPois
+        - Compendium.dnd5e.spells24.Item.phbsplDetectThou
+        - Compendium.dnd5e.spells24.Item.phbsplDivination
+        - Compendium.dnd5e.spells24.Item.phbsplFindthePat
+        - Compendium.dnd5e.spells24.Item.phbsplFindTraps0
+        - Compendium.dnd5e.spells24.Item.phbsplForesight0
+        - Compendium.dnd5e.spells24.Item.phbsplGuidance00
+        - Compendium.dnd5e.spells24.Item.phbsplHuntersMar
+        - Compendium.dnd5e.spells24.Item.phbsplIdentify00
+        - Compendium.dnd5e.spells24.Item.phbsplLegendLore
+        - Compendium.dnd5e.spells24.Item.phbsplLocateAnim
+        - Compendium.dnd5e.spells24.Item.phbsplLocateCrea
+        - Compendium.dnd5e.spells24.Item.phbsplLocateObje
+        - Compendium.dnd5e.spells24.Item.phbsplMindSpike0
+        - Compendium.dnd5e.spells24.Item.phbsplScrying000
+        - Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
+        - Compendium.dnd5e.spells24.Item.phbsplSending000
+        - Compendium.dnd5e.spells24.Item.phbsplRarysTelep
+        - Compendium.dnd5e.spells24.Item.phbsplTongues000
+        - Compendium.dnd5e.spells24.Item.phbsplTrueSeeing
+        - Compendium.dnd5e.spells24.Item.phbsplTrueStrike
+      unlinkedSpells: []
+      identifier: divination
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016286820
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.PC3uPdgbrjqMimOf'
+  - sort: 600000
+    name: Enchantment
+    type: spells
+    _id: RvpcGAIBkLdBB5Dk
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
+        - Compendium.dnd5e.spells24.Item.phbsplAnimalMess
+        - Compendium.dnd5e.spells24.Item.phbsplAntipathyS
+        - Compendium.dnd5e.spells24.Item.phbsplBane000000
+        - Compendium.dnd5e.spells24.Item.phbsplBefuddleme
+        - Compendium.dnd5e.spells24.Item.phbsplBless00000
+        - Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+        - Compendium.draenal-common.spells.Item.1HkDkZmHcUPmD5WV
+        - Compendium.dnd5e.spells24.Item.phbsplCharmMonst
+        - Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+        - Compendium.dnd5e.spells24.Item.phbsplCommand000
+        - Compendium.dnd5e.spells24.Item.phbsplCompulsion
+        - Compendium.dnd5e.spells24.Item.phbsplDissonantW
+        - Compendium.dnd5e.spells24.Item.phbsplDominateBe
+        - Compendium.dnd5e.spells24.Item.phbsplDominateMo
+        - Compendium.dnd5e.spells24.Item.phbsplDominatePe
+        - Compendium.dnd5e.spells24.Item.phbsplGeas000000
+        - Compendium.dnd5e.spells24.Item.phbsplGlibness00
+        - Compendium.dnd5e.spells24.Item.phbsplHeroism000
+        - Compendium.dnd5e.spells24.Item.phbsplHex0000000
+        - Compendium.dnd5e.spells24.Item.phbsplTashasHide
+        - Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+        - Compendium.dnd5e.spells24.Item.phbsplHoldPerson
+        - Compendium.dnd5e.spells24.Item.phbsplOttosIrres
+        - Compendium.dnd5e.spells24.Item.phbsplMassSugges
+        - Compendium.dnd5e.spells24.Item.phbsplModifyMemo
+        - Compendium.dnd5e.spells24.Item.phbsplPowerWordH
+        - Compendium.dnd5e.spells24.Item.phbsplPowerWordK
+        - Compendium.dnd5e.spells24.Item.phbsplPowerWordS
+        - Compendium.dnd5e.spells24.Item.phbsplSleep00000
+        - Compendium.draenal-common.spells.Item.Fqp0KZz4OH4MfziM
+        - Compendium.dnd5e.spells24.Item.phbsplZoneofTrut
+      unlinkedSpells: []
+      identifier: enchantment
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016291365
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.RvpcGAIBkLdBB5Dk'
+  - sort: 700000
+    name: Illusion
+    type: spells
+    _id: I47LO66q9x7G1Uix
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells24.Item.phbsplNystulsMag
+        - Compendium.dnd5e.spells24.Item.phbsplBlur000000
+        - Compendium.dnd5e.spells24.Item.phbsplColorSpray
+        - Compendium.dnd5e.spells24.Item.phbsplCreation00
+        - Compendium.dnd5e.spells24.Item.phbsplDancingLig
+        - Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
+        - Compendium.dnd5e.spells24.Item.phbsplDream00000
+        - Compendium.dnd5e.spells24.Item.phbsplFear000000
+        - Compendium.dnd5e.spells24.Item.phbsplGreaterInv
+        - Compendium.dnd5e.spells24.Item.phbsplHallucinat
+        - Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
+        - Compendium.dnd5e.spells24.Item.phbsplIllusorySc
+        - Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        - Compendium.dnd5e.spells24.Item.phbsplMajorImage
+        - Compendium.dnd5e.spells24.Item.phbsplMinorIllus
+        - Compendium.dnd5e.spells24.Item.phbsplMirageArca
+        - Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        - Compendium.dnd5e.spells24.Item.phbsplMislead000
+        - Compendium.dnd5e.spells24.Item.phbsplPhantomSte
+        - Compendium.dnd5e.spells24.Item.phbsplProgrammed
+        - Compendium.dnd5e.spells24.Item.phbsplProjectIma
+        - Compendium.dnd5e.spells24.Item.phbsplSeeming000
+        - Compendium.dnd5e.spells24.Item.phbsplSilence000
+        - Compendium.dnd5e.spells24.Item.phbsplSilentImag
+        - Compendium.dnd5e.spells24.Item.phbsplSimulacrum
+        - Compendium.dnd5e.spells24.Item.phbsplWeird00000
+      unlinkedSpells: []
+      identifier: illusion
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016299000
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.I47LO66q9x7G1Uix'
+  - sort: 800000
+    name: Necromancy
+    type: spells
+    _id: lfXbUyHoTg6lqF6x
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells24.Item.phbsplAnimateDea
+        - Compendium.dnd5e.spells24.Item.phbsplAstralProj
+        - Compendium.dnd5e.spells24.Item.phbsplBestowCurs
+        - Compendium.dnd5e.spells24.Item.phbsplBlight0000
+        - Compendium.dnd5e.spells24.Item.phbsplCircleofDe
+        - Compendium.dnd5e.spells24.Item.phbsplClone00000
+        - Compendium.dnd5e.spells24.Item.phbsplContagion0
+        - Compendium.dnd5e.spells24.Item.phbsplCreateUnde
+        - Compendium.dnd5e.spells24.Item.phbsplEyebite000
+        - Compendium.dnd5e.spells24.Item.phbsplFalseLife0
+        - Compendium.dnd5e.spells24.Item.phbsplFingerofDe
+        - Compendium.dnd5e.spells24.Item.phbsplGentleRepo
+        - Compendium.dnd5e.spells24.Item.phbsplHarm000000
+        - Compendium.dnd5e.spells24.Item.phbsplInflictWou
+        - Compendium.dnd5e.spells24.Item.phbsplMagicJar00
+        - Compendium.draenal-common.spells.Item.6EjvXAf41kgrNqD9
+        - Compendium.dnd5e.spells24.Item.phbsplRaiseDead0
+        - Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
+        - Compendium.dnd5e.spells24.Item.phbsplRayofSickn
+        - Compendium.dnd5e.spells24.Item.phbsplReincarnat
+        - Compendium.dnd5e.spells24.Item.phbsplResurrecti
+        - Compendium.dnd5e.spells24.Item.phbsplRevivify00
+        - Compendium.dnd5e.spells24.Item.phbsplSparetheDy
+        - Compendium.dnd5e.spells24.Item.phbsplSpeakwithD
+        - Compendium.draenal-common.spells.Item.n0Os88EE3zXzlOkg
+        - Compendium.dnd5e.spells24.Item.phbsplTrueResurr
+      unlinkedSpells: []
+      identifier: necromancy
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016303261
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.lfXbUyHoTg6lqF6x'
+  - sort: 900000
+    name: Transmutation
+    type: spells
+    _id: iYV239MEBtgM1qfJ
+    system:
+      type: other
+      grouping: level
+      description:
+        value: ''
+      spells:
+        - Compendium.dnd5e.spells24.Item.phbsplAlterSelf0
+        - Compendium.dnd5e.spells24.Item.phbsplAnimalShap
+        - Compendium.dnd5e.spells24.Item.phbsplAnimateObj
+        - Compendium.draenal-common.spells.Item.7SHRCgrYNR4ohai1
+        - Compendium.dnd5e.spells24.Item.phbsplAwaken0000
+        - Compendium.dnd5e.spells24.Item.phbsplBarkskin00
+        - Compendium.dnd5e.spells24.Item.phbsplBlindnessD
+        - Compendium.dnd5e.spells24.Item.phbsplBlink00000
+        - Compendium.draenal-common.spells.Item.h0NKCivqgQgod8n4
+        - Compendium.dnd5e.spells24.Item.phbsplControlWat
+        - Compendium.dnd5e.spells24.Item.phbsplControlWea
+        - Compendium.dnd5e.spells24.Item.phbsplCreateorDe
+        - Compendium.dnd5e.spells24.Item.phbsplDarkvision
+        - Compendium.dnd5e.spells24.Item.phbsplDisintegra
+        - Compendium.dnd5e.spells24.Item.phbsplDivineFavo
+        - Compendium.dnd5e.spells24.Item.phbsplDragonsBre
+        - Compendium.dnd5e.spells24.Item.phbsplDruidcraft
+        - Compendium.dnd5e.spells24.Item.phbsplEarthquake
+        - Compendium.dnd5e.spells24.Item.phbsplElementali
+        - Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
+        - Compendium.dnd5e.spells24.Item.phbsplEnlargeRed
+        - Compendium.dnd5e.spells24.Item.phbsplExpeditiou
+        - Compendium.dnd5e.spells24.Item.phbsplFabricate0
+        - Compendium.dnd5e.spells24.Item.phbsplFeatherFal
+        - Compendium.dnd5e.spells24.Item.phbsplFleshtoSto
+        - Compendium.dnd5e.spells24.Item.phbsplFly0000000
+        - Compendium.dnd5e.spells24.Item.phbsplGaseousFor
+        - Compendium.dnd5e.spells24.Item.phbsplHaste00000
+        - Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
+        - Compendium.dnd5e.spells24.Item.phbsplJump000000
+        - Compendium.dnd5e.spells24.Item.phbsplKnock00000
+        - Compendium.dnd5e.spells24.Item.phbsplLevitate00
+        - Compendium.dnd5e.spells24.Item.phbsplLongstride
+        - Compendium.dnd5e.spells24.Item.phbsplMagicWeapo
+        - Compendium.dnd5e.spells24.Item.phbsplMeldintoSt
+        - Compendium.dnd5e.spells24.Item.phbsplMending000
+        - Compendium.dnd5e.spells24.Item.phbsplMessage000
+        - Compendium.dnd5e.spells24.Item.phbsplMoveEarth0
+        - Compendium.dnd5e.spells24.Item.phbsplPasswall00
+        - Compendium.dnd5e.spells24.Item.phbsplPlantGrowt
+        - Compendium.dnd5e.spells24.Item.phbsplPolymorph0
+        - Compendium.dnd5e.spells24.Item.phbsplPrestidigi
+        - Compendium.dnd5e.spells24.Item.phbsplPurifyFood
+        - Compendium.dnd5e.spells24.Item.phbsplRegenerate
+        - Compendium.dnd5e.spells24.Item.phbsplReverseGra
+        - Compendium.dnd5e.spells24.Item.phbsplRopeTrick0
+        - Compendium.dnd5e.spells24.Item.phbsplSequester0
+        - Compendium.dnd5e.spells24.Item.phbsplShapechang
+        - Compendium.dnd5e.spells24.Item.phbsplShillelagh
+        - Compendium.dnd5e.spells24.Item.phbsplShiningSmi
+        - Compendium.dnd5e.spells24.Item.phbsplSlow000000
+        - Compendium.dnd5e.spells24.Item.phbsplSpeakwithP
+        - Compendium.dnd5e.spells24.Item.phbsplSpiderClim
+        - Compendium.dnd5e.spells24.Item.phbsplSpikeGrowt
+        - Compendium.dnd5e.spells24.Item.phbsplStoneShape
+        - Compendium.dnd5e.spells24.Item.phbsplStoneskin0
+        - Compendium.dnd5e.spells24.Item.phbsplTelekinesi
+        - Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+        - Compendium.dnd5e.spells24.Item.phbsplTimeStop00
+        - Compendium.dnd5e.spells24.Item.phbsplTruePolymo
+        - Compendium.dnd5e.spells24.Item.phbsplWaterBreat
+        - Compendium.dnd5e.spells24.Item.phbsplWaterWalk0
+        - Compendium.dnd5e.spells24.Item.phbsplWindWalk00
+      unlinkedSpells: []
+      identifier: transmutation
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016106954
+      modifiedTime: 1782016307911
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.iYV239MEBtgM1qfJ'
+  - sort: 0
+    name: Spell Schools
+    type: text
+    _id: xTkydU1gJq7yWXKp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>These spell lists contain all spells of a particular school,
+        sometimes useful for features that grant spells from specific
+        schools.</p><ul><li><p>@UUID[.URRYavCPej4TzJUZ]{Abjuration}</p></li><li><p>@UUID[.Q1Chx5BfoGDJs6oh]{Conjuration}</p></li><li><p>@UUID[.PC3uPdgbrjqMimOf]{Divination}</p></li><li><p>@UUID[.RvpcGAIBkLdBB5Dk]{Enchantment}</p></li><li><p>@UUID[.BIZhoRyUMW9gauhI]{Evocation}</p></li><li><p>@UUID[.I47LO66q9x7G1Uix]{Illusion}</p></li><li><p>@UUID[.lfXbUyHoTg6lqF6x]{Necromancy}</p></li><li><p>@UUID[.iYV239MEBtgM1qfJ]{Transmutation}</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782016166144
+      modifiedTime: 1782016271322
+      lastModifiedBy: draenalcommon000
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!QTcU8ep091d3UBnH.xTkydU1gJq7yWXKp'
+folder: null
+categories: []
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1782016106954
+  modifiedTime: 1782016403965
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+sort: 0
+_key: '!journal!QTcU8ep091d3UBnH'
+

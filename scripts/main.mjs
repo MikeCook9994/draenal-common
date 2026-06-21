@@ -22,5 +22,12 @@ CONFIG.debug.hooks = false;
 
     Hooks.once('ready', () => {
         CONFIG.DND5E.sourceBooks["Draenal Homebrew"] = "DHB";
+        CONFIG.DND5E.sourceBooks["5.5E Player's Handbook"] = "5.5E PHB";
+        CONFIG.DND5E.sourceBooks["5.5E Dungeon Master's Guide"] = "5.5E DMG";
+        CONFIG.DND5E.sourceBooks["Xanathar's Guide to Everything"] = "XGtE";
+        CONFIG.DND5E.sourceBooks["Tasha's Cauldron of Everything"] = "TCoE";
+        CONFIG.DND5E.sourceBooks["Eberron: Forge of the Artificer"] = "E:FotA";
+        CONFIG.DND5E.sourceBooks["Forgotten Realms: Heroes of Faerun"] = "FR:HoF";
+        CONFIG.DND5E.sourceBooks["Ravenloft: The Horrors Within"] = "RL:THW";
     })
 })();

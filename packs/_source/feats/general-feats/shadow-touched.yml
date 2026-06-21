@@ -1,0 +1,145 @@
+folder: JwuB9rAxYzlSVFp3
+name: Shadow Touched
+type: feat
+img: icons/magic/unholy/hand-marked-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    UpjAW2WkgGSxDDZf:
+      type: AbilityScoreImprovement
+      _id: UpjAW2WkgGSxDDZf
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - con
+        points: 1
+        recommendation: null
+        max: null
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+      title: ''
+    o3Fjh3AYMp8dE4dD:
+      type: ItemChoice
+      _id: o3Fjh3AYMp8dE4dD
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool: []
+        restriction:
+          list:
+            - other:necromancy
+            - other:illusion
+          level: '1'
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+        type: spell
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: ''
+    KlwBoCH2cdAF0p7d:
+      type: ItemGrant
+      _id: KlwBoCH2cdAF0p7d
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+      title: ''
+  description:
+    value: >-
+      <p>Your exposure to the Shadowfell's magic grants you the following
+      benefits.</p><p><strong>Ability Score Increase.</strong> Increase your
+      Intelligence, Wisdom, or Charisma score by 1, to a maximum of
+      20.</p><p><strong>Shadow Magic.</strong> Choose one level 1 spell from the
+      Illusion or Necromancy school of magic. You always have that spell and the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplInvisibili]{Invisibility} spell
+      prepared. You can cast each of these spells without expending a spell
+      slot. Once you cast either spell in this way, you can't cast that spell in
+      this way again until you finish a Long Rest. You can also cast these
+      spells using spell slots you have of the appropriate level. The spells'
+      spellcasting ability is the ability increased by this
+      feat.</p><p></p><p>Invisibili</p>
+    chat: ''
+  identifier: fey-touched
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '204'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: feat
+    subtype: general
+effects: []
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1782014059960
+  modifiedTime: 1782017737489
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+_id: lAJU7iojb3emtWXc
+sort: 200000
+_key: '!items!lAJU7iojb3emtWXc'
+

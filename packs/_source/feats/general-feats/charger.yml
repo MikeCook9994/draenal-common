@@ -1,90 +1,146 @@
 name: Charger
 type: feat
 _id: KDyNQS7ocjJ15VAN
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/skills/movement/figure-running-gray.webp
 system:
-  activities: {}
+  activities:
+    N8qwqcu0Wz9X4pVK:
+      type: damage
+      name: Charge Attack Damage
+      _id: N8qwqcu0Wz9X4pVK
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          If you move at least 10 feet in a straight line toward a target
+          immediately before hitting it with a melee attack roll as part of the
+          Attack action
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement:
+    gAHheV9ir8CGtV2R:
+      type: AbilityScoreImprovement
+      _id: gAHheV9ir8CGtV2R
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - con
+          - int
+          - wis
+          - cha
+        points: 1
+        recommendation: null
+        max: null
+      flags: {}
+      level: 0
+      hint: ''
+      title: ''
   description:
     value: >-
-      <p><span
-      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
-      0px 15px;color:rgb(36, 37,
-      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
-      255,
-      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
-      Helvetica, sans-serif'"><span
-      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px">General
-      Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)</span>You gain
-      the following benefits.</span></p><p><span
-      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
-      0px 15px;color:rgb(36, 37,
-      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
-      255,
-      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
-      Helvetica, sans-serif'"><span
+      <p>You gain the following benefits.</p><p><span
       style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Ability
       Score Increase.</strong></span> Increase your Strength or Dexterity score
-      by 1, to a maximum of 20.</span></p><p><span
-      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px
-      0px 15px;color:rgb(36, 37,
-      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
-      255,
-      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
-      Helvetica, sans-serif'"><span
+      by 1, to a maximum of 20.</p><p><span
       style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Improved
-      Dash.</strong></span> When you take the <span
-      data-tooltip-href="//www.dndbeyond.com/actions/4-tooltip?disable-webm=1&amp;disable-webm=1"
-      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;text-decoration:none;font-weight:bold
-      !important;cursor:pointer;color:rgb(71, 209, 140)" class="tooltip-hover
-      action-tooltip"><strong>Dash</strong></span> action, your Speed increases
-      by 10 feet for that action.</span></p><p><span
-      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;margin:0px;color:rgb(36,
-      37,
-      39);font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
-      255,
-      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;font-family:'Roboto,
-      Helvetica, sans-serif'"><span
+      Dash.</strong></span> When you take the Dash action, your Speed increases
+      by 10 feet for that action.</p><p><span
       style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;font-weight:bold"><strong>Charge
       Attack.</strong></span> If you move at least 10 feet in a straight line
       toward a target immediately before hitting it with a melee attack roll as
-      part of the <span
-      data-tooltip-href="//www.dndbeyond.com/actions/1-tooltip?disable-webm=1&amp;disable-webm=1"
-      style="box-sizing:inherit;-webkit-tap-highlight-color:transparent;outline:0px;text-decoration:none;font-weight:bold
-      !important;cursor:pointer;color:rgb(71, 209, 140)" class="tooltip-hover
-      action-tooltip"><strong>Attack</strong></span> action, choose one of the
-      following effects: gain a 1d8 bonus to the attack's damage roll, or push
-      the target up to 10 feet away if it is no more than one size larger than
-      you. You can use this benefit only once on each of your
-      turns.</span></p><p><span style="color:rgb(0, 0, 0);font-family:'Roboto
-      Condensed', Roboto, Helvetica,
-      sans-serif;font-size:12px;font-style:italic;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:right;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255,
-      255,
-      255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline
-      !important;float:none"><em>Player's Handbook, pg. 202</em></span></p>
+      part of the Attack action, choose one of the following effects: gain a 1d8
+      bonus to the attack's damage roll, or push the target up to 10 feet away
+      if it is no more than one size larger than you. You can use this benefit
+      only once on each of your turns.</p>
     chat: ''
   identifier: charger
   source:
     revision: 1
     rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '202'
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: null
+    level: 4
   properties: []
-  requirements: ''
+  requirements: Strength or Dexterity 13+
   type:
-    value: ''
-    subtype: ''
+    value: feat
+    subtype: general
 effects: []
 folder: JwuB9rAxYzlSVFp3
-sort: 200000
+sort: 1000000
 ownership:
   default: 0
 flags:
@@ -95,7 +151,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781574904538
-  modifiedTime: 1781576453779
+  modifiedTime: 1782014059988
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
