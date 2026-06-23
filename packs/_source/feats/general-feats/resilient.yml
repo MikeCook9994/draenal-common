@@ -1,0 +1,96 @@
+folder: JwuB9rAxYzlSVFp3
+name: Resilient
+type: feat
+_id: uSYZpt4yV6yn5GXb
+img: icons/skills/melee/shield-block-gray-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    YTPLPEy6jKb5TXvb:
+      type: Trait
+      _id: YTPLPEy6jKb5TXvb
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - saves:*
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: >-
+        <p>You gain saving throw proficiency with the chosen ability score you
+        chose to increase.</p>
+      title: ''
+    WXUqYwXWyjGCkSj0:
+      type: AbilityScoreImprovement
+      _id: WXUqYwXWyjGCkSj0
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 1
+        recommendation: null
+        max: null
+      flags: {}
+      level: 0
+      hint: >-
+        <p>Choose one ability in which you lack saving throw proficiency to
+        increase the ability score of by 1, to a maximum of 20.</p>
+      title: ''
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><strong>Ability Score
+      Increase.</strong> Choose one ability in which you lack saving throw
+      proficiency. Increase the chosen ability score by 1, to a maximum of
+      20.</p><p><strong>Saving Throw Proficiency.</strong> You gain saving throw
+      proficiency with the chosen ability.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '207'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: feat
+    subtype: general
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1782156684551
+  modifiedTime: 1782157011262
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!uSYZpt4yV6yn5GXb'
+

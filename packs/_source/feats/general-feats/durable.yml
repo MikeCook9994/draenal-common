@@ -404,7 +404,7 @@ effects:
       expired: false
     description: <p>You have Advantage on Death Saving Throws.</p>
     tint: '#ffffff'
-    transfer: false
+    transfer: true
     statuses: []
     showIcon: 1
     folder: null
@@ -418,7 +418,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1781999527823
-      modifiedTime: 1781999527823
+      modifiedTime: 1782156199352
       lastModifiedBy: draenalcommon000
       compendiumSource: >-
         Compendium.draenal-common.feats.Item.olltQe52kQ9qBLKk.ActiveEffect.vJUpvuUAPKfy5SFG
