@@ -1,0 +1,61 @@
+folder: nY8L2IYFxZEYe5TQ
+name: Rune of Honing (Longsword)
+type: loot
+_id: ybH1Ar5ddrUDKmI7
+img: modules/sc-simple-sockets/assets/runes/runeword-call-to-arms.webp
+system:
+  description:
+    value: >-
+      <p>You gain a +1 bonus to attack and damage rolls you make with Changing
+      Fate as a longsword.</p>
+    chat: ''
+  identifier: rune-of-honing
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  properties:
+    - mgc
+  type:
+    value: rune-of-power
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: rune-of-power
+    gemCritThreshold: null
+    gemCritMultiplier: null
+    gemAttackBonus: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1784042895671
+  modifiedTime: 1784043117180
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ybH1Ar5ddrUDKmI7'
+

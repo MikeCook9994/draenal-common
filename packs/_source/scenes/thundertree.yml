@@ -11972,7 +11972,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781539798561
-  modifiedTime: 1781539798628
+  modifiedTime: 1784044750909
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
@@ -11981,7 +11981,7 @@ ownership:
   default: 0
 active: false
 navOrder: 0
-sort: 0
-templates: []
+sort: 100000
 _key: '!scenes!sjHgKkZpMzooVLZm'
+templates: []
 

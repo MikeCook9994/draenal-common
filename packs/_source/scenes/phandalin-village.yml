@@ -1,0 +1,222 @@
+folder: null
+name: Phandalin Village
+_id: aYm9x75ccVp2AlVN
+navigation: false
+thumb: worlds/module-development/assets/scenes/thumb-XQN64WecthXCqrrm2oNMmQ.webp
+width: 3840
+height: 2160
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 0
+  size: 128
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 100
+  units: ft
+tokenVision: false
+fog:
+  mode: 0
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: false
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 1
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens:
+  - name: Party
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        modules/draenal-common/assets/npc-images/Token.Party.webp?v=1777237175910
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: NLhveoUgeIVNmbKZ
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: rlwqfyhiO8izpSaK
+    delta: null
+    x: 2570
+    'y': 1459
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!aYm9x75ccVp2AlVN.rlwqfyhiO8izpSaK'
+levels:
+  - _id: defaultLevel0000
+    name: Phandalin Village
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: modules/draenal-common/assets/maps/Phandalin/PostCragmaw.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!aYm9x75ccVp2AlVN.defaultLevel0000'
+lights: []
+notes: []
+sounds: []
+regions: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+ownership:
+  default: 0
+flags:
+  levels:
+    backgroundElevation: 0
+    lightMasking: true
+    weatherElevation: null
+  wall-height:
+    advancedVision: true
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1784044750732
+  modifiedTime: 1784044750913
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+navName: ''
+active: false
+navOrder: 0
+sort: 200000
+_key: '!scenes!aYm9x75ccVp2AlVN'
+templates: []
+

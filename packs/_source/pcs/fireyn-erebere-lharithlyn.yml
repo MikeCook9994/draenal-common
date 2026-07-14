@@ -401,7 +401,7 @@ system:
     loyalty: {}
     hp:
       max: null
-      temp: 0
+      temp: null
       tempmax: 0
       value: 27
       bonuses: {}
@@ -414,7 +414,7 @@ system:
       failure: 0
       bonuses:
         save: ''
-    inspiration: true
+    inspiration: false
   bastion:
     name: ''
     description: ''
@@ -1327,8 +1327,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1428,8 +1428,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1493,8 +1493,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1557,8 +1557,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1706,8 +1706,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1729,8 +1729,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1819,8 +1819,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1841,8 +1841,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2056,8 +2056,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2307,8 +2307,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2492,8 +2492,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2640,8 +2640,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2813,8 +2813,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2995,8 +2995,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3033,8 +3033,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3072,8 +3072,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3111,8 +3111,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3150,8 +3150,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3189,8 +3189,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3228,8 +3228,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3267,8 +3267,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3306,8 +3306,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3345,8 +3345,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3384,8 +3384,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3423,8 +3423,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3462,8 +3462,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3501,8 +3501,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3540,8 +3540,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3579,8 +3579,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3618,8 +3618,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3657,8 +3657,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3681,8 +3681,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3826,8 +3826,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3849,8 +3849,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3990,8 +3990,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4119,8 +4119,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4288,8 +4288,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -4312,8 +4312,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4442,8 +4442,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4503,8 +4503,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4727,8 +4727,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4854,8 +4854,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4885,7 +4885,7 @@ items:
       unidentified:
         description: ''
       container: vSwYk7ZoYVcaqhrG
-      quantity: 5
+      quantity: 4
       weight:
         value: 1
         units: lb
@@ -5012,8 +5012,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5074,8 +5074,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5200,8 +5200,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5452,8 +5452,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5493,6 +5493,10 @@ items:
         value: gear
         subtype: ''
       identifier: bedroll
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
     _id: 3U9dk6Qdr4cu1aMO
     type: loot
     folder: null
@@ -5504,8 +5508,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5664,8 +5668,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5745,8 +5749,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5782,6 +5786,10 @@ items:
         value: gear
         subtype: ''
       identifier: parchment
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
     _id: hhyeEeRrOhHmHRRZ
     type: loot
     folder: uDk4FBYfcP2JnX6t
@@ -5793,8 +5801,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5942,8 +5950,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6073,8 +6081,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6266,8 +6274,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6399,8 +6407,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6440,6 +6448,10 @@ items:
         value: gear
         subtype: ''
       identifier: book
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
     _id: jFIUkDqDtM0wWgK6
     type: loot
     folder: uDk4FBYfcP2JnX6t
@@ -6451,8 +6463,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -6691,8 +6703,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -6732,8 +6744,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -6774,8 +6786,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -6816,8 +6828,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -6858,8 +6870,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -6875,8 +6887,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7026,8 +7038,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7046,8 +7058,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7185,8 +7197,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7359,8 +7371,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7523,8 +7535,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7561,8 +7573,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7580,8 +7592,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7638,8 +7650,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7672,7 +7684,7 @@ items:
       unidentified:
         description: ''
       container: null
-      quantity: 6
+      quantity: 5
       weight:
         value: 0.2
         units: lb
@@ -7715,8 +7727,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7853,8 +7865,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -7988,8 +8000,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8099,8 +8111,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8288,8 +8300,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8326,8 +8338,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8365,8 +8377,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8404,8 +8416,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8443,8 +8455,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8482,8 +8494,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8521,8 +8533,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8560,8 +8572,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8585,8 +8597,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8706,8 +8718,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8883,8 +8895,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -8901,8 +8913,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -9110,8 +9122,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -9311,8 +9323,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -9471,8 +9483,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9494,8 +9506,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -9648,8 +9660,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9670,8 +9682,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -9839,8 +9851,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9876,8 +9888,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9900,8 +9912,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -10051,8 +10063,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -10124,8 +10136,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -10241,8 +10253,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -10445,8 +10457,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10466,8 +10478,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -10614,8 +10626,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10636,8 +10648,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -10801,8 +10813,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10845,8 +10857,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10889,8 +10901,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10933,8 +10945,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10977,8 +10989,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768381
-          modifiedTime: 1781401768381
+          createdTime: 1784044093855
+          modifiedTime: 1784044093855
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10999,8 +11011,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
+      createdTime: 1784044093855
+      modifiedTime: 1784044093855
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -11008,213 +11020,7 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!DqLfAsayienM661c.sHNT84XpA7y1A2YD'
-effects:
-  - name: 'Level 2: +5 Max HP'
-    img: icons/magic/life/cross-flared-green.webp
-    origin: Actor.DqLfAsayienM661c.Item.nVz4Dos9qiEWaK9V.ActiveEffect.XyGKCCrIhrFlixG8
-    transfer: false
-    _id: LG4ccZZxys3owtP6
-    type: base
-    system:
-      changes:
-        - key: system.attributes.hp.tempmax
-          value: 5
-          priority: null
-          type: add
-          phase: initial
-    disabled: false
-    duration:
-      value: 28800
-      units: seconds
-      expiry: turnStart
-      expired: true
-    description: <p>The target's Hit Point maximum is increased for the duration.</p>
-    tint: '#ffffff'
-    statuses: []
-    sort: 0
-    flags:
-      dnd5e:
-        dependentOn: >-
-          Actor.DqLfAsayienM661c.Item.nVz4Dos9qiEWaK9V.ActiveEffect.XyGKCCrIhrFlixG8
-        scaling: 0
-        spellLevel: 2
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
-      lastModifiedBy: draenalcommon000
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    start:
-      time: -308973546
-      combat: VAwLc1eVwsroUz1n
-      combatant: jjkWVQAuX46nawM4
-      initiative: 22.12
-      round: 1
-      turn: 1
-    showIcon: 1
-    folder: null
-    _key: '!actors.effects!DqLfAsayienM661c.LG4ccZZxys3owtP6'
-  - name: Concealed
-    origin: Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn.ActiveEffect.MDdoug4Lfu8klZRO
-    duration:
-      value: 3600
-      units: seconds
-      expiry: turnStart
-      expired: false
-    disabled: true
-    flags:
-      dnd5e:
-        dependentOn: >-
-          Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn.ActiveEffect.MDdoug4Lfu8klZRO
-        scaling: 0
-        spellLevel: 2
-    img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
-    _id: WlkodDyE9REDkuKl
-    type: base
-    system:
-      changes:
-        - key: system.skills.ste.bonuses.check
-          value: 10
-          priority: null
-          type: add
-          phase: initial
-    description: >-
-      <p>While in the aura, you and each creature you choose have a +10 bonus to
-      [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
-    tint: '#ffffff'
-    transfer: false
-    statuses: []
-    sort: 0
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
-      lastModifiedBy: draenalcommon000
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    start:
-      time: 13086
-      combat: null
-      combatant: null
-      initiative: null
-      round: null
-      turn: null
-    showIcon: 1
-    folder: null
-    _key: '!actors.effects!DqLfAsayienM661c.WlkodDyE9REDkuKl'
-  - name: 'Concentrating: Pass without Trace'
-    img: systems/dnd5e/icons/svg/statuses/concentrating.svg
-    _id: fqpwnjdwSx4R5LWm
-    description: >-
-      <p>You are maintaining concentration on the effects of the 'Pass without
-      Trace'
-      Spell.</p><hr><p>@Embed[Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn
-      inline]</p>
-    duration:
-      value: 3600
-      units: seconds
-      expiry: turnStart
-      expired: false
-    flags:
-      dnd5e:
-        activity:
-          type: utility
-          id: dnd5eactivity000
-          uuid: >-
-            Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn.Activity.dnd5eactivity000
-        item:
-          type: spell
-          id: 4fsCr8xbL1I5D5mn
-          uuid: Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn
-        scaling: 0
-        spellLevel: 2
-    origin: Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn
-    statuses:
-      - concentrating
-    type: base
-    system:
-      changes: []
-    disabled: false
-    start:
-      time: -308735988
-      combat: 0Bu5NSgj6YoZw7mg
-      combatant: null
-      initiative: null
-      round: 2
-      turn: null
-    tint: '#ffffff'
-    transfer: false
-    showIcon: 1
-    folder: null
-    sort: 0
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
-      lastModifiedBy: draenalcommon000
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.effects!DqLfAsayienM661c.fqpwnjdwSx4R5LWm'
-  - name: Concealed
-    origin: Actor.DqLfAsayienM661c.ActiveEffect.fqpwnjdwSx4R5LWm
-    duration:
-      value: 3600
-      units: seconds
-      expiry: turnStart
-      expired: false
-    disabled: false
-    flags:
-      dnd5e:
-        dependentOn: Actor.DqLfAsayienM661c.ActiveEffect.fqpwnjdwSx4R5LWm
-        scaling: 0
-        spellLevel: 2
-    img: icons/magic/nature/stealth-hide-beast-eyes-green.webp
-    _id: BevL3VMQgrFRaBQE
-    type: base
-    system:
-      changes:
-        - key: system.skills.ste.bonuses.check
-          value: 10
-          priority: null
-          type: add
-          phase: initial
-    description: >-
-      <p>While in the aura, you and each creature you choose have a +10 bonus to
-      [[/check ability=dex skill=ste]] checks and leave no tracks.</p>
-    tint: '#ffffff'
-    transfer: false
-    statuses: []
-    sort: 0
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781401768381
-      modifiedTime: 1781401768381
-      lastModifiedBy: draenalcommon000
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    start:
-      time: -308735988
-      combat: 0Bu5NSgj6YoZw7mg
-      combatant: null
-      initiative: null
-      round: 2
-      turn: null
-    showIcon: 1
-    folder: null
-    _key: '!actors.effects!DqLfAsayienM661c.BevL3VMQgrFRaBQE'
+effects: []
 folder: null
 flags:
   tokenizer-2:
@@ -11394,13 +11200,13 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781401768381
-  modifiedTime: 1781474321285
+  createdTime: 1784044093855
+  modifiedTime: 1784044103717
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 ownership:
   default: 0
-sort: 400000
+sort: 100000
 _key: '!actors!DqLfAsayienM661c'
 

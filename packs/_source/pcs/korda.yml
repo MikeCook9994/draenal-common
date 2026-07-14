@@ -1268,8 +1268,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1467,8 +1467,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1552,8 +1552,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1612,8 +1612,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1787,8 +1787,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1869,8 +1869,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1888,8 +1888,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1948,8 +1948,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2006,8 +2006,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2067,8 +2067,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2231,7 +2231,78 @@ items:
     type: weapon
     folder: fd3qxAXCv2FhExPp
     img: icons/weapons/hammers/hammer-double-stone-worn.webp
-    effects: []
+    effects:
+      - type: enchantment
+        name: Weapon +1
+        img: systems/dnd5e/icons/spell-tiers/spell2.webp
+        disabled: false
+        _id: 9uO3NCh8UmgH4tJK
+        system:
+          changes:
+            - key: name
+              value: '{} +1'
+              priority: null
+              type: override
+              phase: initial
+            - key: system.magicalBonus
+              value: 1
+              priority: null
+              type: upgrade
+              phase: initial
+            - key: system.rarity
+              value: uncommon
+              priority: null
+              type: override
+              phase: initial
+            - key: system.description.value
+              value: >-
+                {}<p>@Embed[Compendium.dnd5e.equipment24.Item.dmgWeapon12or300
+                caption=false]</p>
+              priority: null
+              type: override
+              phase: initial
+            - key: system.properties
+              value: mgc
+              priority: null
+              type: add
+              phase: initial
+            - key: system.price.value
+              value: 400
+              priority: null
+              type: add
+              phase: initial
+            - key: system.price.denomination
+              value: gp
+              priority: null
+              type: override
+              phase: initial
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        origin: Compendium.dnd5e.equipment24.Item.dmgWeapon12or300
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!HsCEyyIEA7FD1HXJ.xsXMZBhXqdKi8yaG.9uO3NCh8UmgH4tJK
     sort: 0
     flags:
       dnd5e:
@@ -2246,8 +2317,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2327,8 +2398,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2403,8 +2474,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2412,193 +2483,6 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!HsCEyyIEA7FD1HXJ.frYYqzP43wrawDyG'
-  - name: 'Spell Scroll: Prayer of Healing'
-    type: consumable
-    img: icons/sundries/scrolls/scroll-bound-blue-tan.webp
-    system:
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: heal
-          activation:
-            type: minute
-            value: 10
-            override: true
-            condition: ''
-          consumption:
-            targets:
-              - type: itemUses
-                target: ''
-                value: '1'
-                scaling: {}
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: true
-            value: ''
-            concentration: false
-          effects:
-            - _id: BrBVse9ezicC6IVW
-              level: {}
-          range:
-            override: true
-            value: '30'
-            units: ft
-          target:
-            prompt: true
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-              count: '5'
-              type: creature
-            override: true
-          healing:
-            number: 2
-            denomination: 8
-            bonus: ''
-            types:
-              - healing
-            custom:
-              enabled: false
-              formula: ''
-            scaling:
-              mode: whole
-              number: 1
-              formula: ''
-          uses:
-            spent: 0
-            recovery: []
-          sort: 0
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      uses:
-        spent: 0
-        recovery: []
-        autoDestroy: true
-        max: '1'
-      description:
-        value: >-
-          <p><em>2nd Level &amp;Reference[Spell Scroll]</em></p><p>Up to five
-          creatures of your choice who remain within range for the spell's
-          entire casting gain the benefits of a &amp;Reference[shortrest] and
-          also regain 2d8 Hit Points. A creature can't be affected by this spell
-          again until that creature finishes a Long Rest.</p><p><strong>Using a
-          Higher-Level Spell Slot. </strong>The healing increases by 1d8 for
-          each spell slot level above 2.</p>
-        chat: ''
-      identifier: spell-scroll
-      source:
-        revision: 1
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        custom: ''
-      identified: true
-      unidentified:
-        description: ''
-        name: Unidentified Consumable
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 200
-        denomination: gp
-      rarity: uncommon
-      attunement: ''
-      attuned: false
-      equipped: false
-      type:
-        value: scroll
-        subtype: ''
-      damage:
-        base:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-        replace: false
-      properties:
-        - mgc
-        - vocal
-    effects:
-      - name: Healed by Prayer
-        origin: Compendium.dnd5e.spells24.Item.phbsplPrayerofHe
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        disabled: false
-        flags: {}
-        img: icons/magic/holy/prayer-hands-glowing-yellow.webp
-        _id: BrBVse9ezicC6IVW
-        type: base
-        system:
-          changes: []
-        description: >-
-          <p>A creature can’t be affected by the
-          @UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe] spell again
-          until that creature finishes a Long Rest.</p>
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        _stats:
-          coreVersion: '14.364'
-          systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!HsCEyyIEA7FD1HXJ.si8TmvlC48SBZVeW.BrBVse9ezicC6IVW
-    folder: a2UFIyuviRp94dzx
-    flags:
-      dnd5e:
-        scaling: 0
-        spellLevel:
-          value: 2
-          base: 2
-        '-=riders': null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    _id: si8TmvlC48SBZVeW
-    sort: 0
-    ownership:
-      default: 0
-    _key: '!actors.items!HsCEyyIEA7FD1HXJ.si8TmvlC48SBZVeW'
   - name: Mason's Tools
     system:
       description:
@@ -2720,8 +2604,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2864,8 +2748,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2905,6 +2789,10 @@ items:
       type:
         value: trade
         subtype: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
     effects: []
     folder: null
     sort: 0
@@ -2913,8 +2801,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2954,6 +2842,10 @@ items:
       type:
         value: trade
         subtype: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
     effects: []
     folder: null
     sort: 0
@@ -2962,8 +2854,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3095,8 +2987,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3244,8 +3136,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3264,8 +3156,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3465,8 +3357,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3524,8 +3416,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3586,8 +3478,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3649,8 +3541,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3821,8 +3713,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3902,8 +3794,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3921,8 +3813,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4081,8 +3973,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -4104,8 +3996,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4336,8 +4228,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4474,8 +4366,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -4509,8 +4401,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4662,8 +4554,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -4686,8 +4578,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4764,8 +4656,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4929,8 +4821,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781401768417
-          modifiedTime: 1781401768417
+          createdTime: 1784044097230
+          modifiedTime: 1784044097230
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -4949,8 +4841,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5100,8 +4992,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5242,8 +5134,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5251,6 +5143,819 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!HsCEyyIEA7FD1HXJ.SGuPWEmCuvUWiSPV'
+  - _id: PqWb9yCFntqcs2N1
+    name: Sildar's Gear
+    type: container
+    flags: {}
+    img: icons/containers/boxes/crate-worn-brown.webp
+    system:
+      description:
+        value: ''
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 0
+        cp: 0
+      properties: []
+      capacity:
+        count: null
+        volume:
+          value: null
+          units: cubicFoot
+        weight:
+          value: null
+          units: lb
+      identifier: sildars-gear
+      attuned: false
+      equipped: false
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1775000
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.PqWb9yCFntqcs2N1'
+  - _id: TK796EUYO58W65zp
+    name: Bloody Chain Mail
+    type: equipment
+    img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+    system:
+      description:
+        value: >-
+          <p>Made of interlocking metal rings, chain mail includes a layer of
+          quilted fabric worn underneath the mail to prevent chafing and to
+          cushion the impact of blows. The suit includes gauntlets.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      quantity: 1
+      weight:
+        value: 55
+        units: lb
+      price:
+        value: 75
+        denomination: gp
+      attunement: ''
+      equipped: false
+      rarity: ''
+      identified: true
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 16
+        dex: 0
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: 13
+      proficient: null
+      type:
+        value: heavy
+        baseItem: chainmail
+      unidentified:
+        description: ''
+      container: PqWb9yCFntqcs2N1
+      properties:
+        - stealthDisadvantage
+        - stealthDisadvantage
+      identifier: bloody-chain-mail
+      activities: {}
+      attuned: false
+      crew:
+        value: []
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1100000
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.TK796EUYO58W65zp'
+  - _id: yOOSrj8BOXETjPJV
+    name: Heavy Crossbow
+    type: weapon
+    img: icons/weapons/crossbows/crossbow-blue.webp
+    system:
+      description:
+        value: >-
+          <p>A large crossbow mounted on a sturdy block of wood which is loaded
+          using a hand crank and fires thick steel bolts with deadly
+          acceleration that punches through armor and flesh.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        revision: 1
+        rules: '2014'
+      quantity: 1
+      weight:
+        value: 18
+        units: lb
+      price:
+        value: 50
+        denomination: gp
+      attunement: ''
+      equipped: false
+      rarity: ''
+      identified: true
+      cover: null
+      range:
+        value: 100
+        long: 400
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      damage:
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 10
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      properties:
+        - amm
+        - hvy
+        - two
+        - lod
+      proficient: null
+      type:
+        value: martialR
+        baseItem: heavycrossbow
+      unidentified:
+        description: ''
+      container: PqWb9yCFntqcs2N1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '100'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: heavy-crossbow
+      attuned: false
+      ammunition: {}
+      crew:
+        value: []
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1300000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.yOOSrj8BOXETjPJV'
+  - _id: yTdXIWfMyxlJfXdu
+    name: Shortsword
+    type: weapon
+    img: icons/weapons/swords/sword-guard-brown.webp
+    system:
+      description:
+        value: >-
+          <p>A medium sized blade with a firm crossguard and a leather-wrapped
+          handle. A versatile weapon which makes up in versatility what it lacks
+          in reach.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        revision: 1
+        rules: '2014'
+      quantity: 1
+      weight:
+        value: 2
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      attunement: ''
+      equipped: false
+      rarity: ''
+      identified: true
+      cover: null
+      range:
+        value: null
+        long: null
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      damage:
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 6
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      armor:
+        value: 10
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      properties:
+        - fin
+        - lgt
+      proficient: null
+      type:
+        value: martialM
+        baseItem: shortsword
+      unidentified:
+        description: ''
+      container: PqWb9yCFntqcs2N1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: shortsword
+      attuned: false
+      ammunition: {}
+      crew:
+        value: []
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1500000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.yTdXIWfMyxlJfXdu'
+  - _id: yrMNa005sqRJw3It
+    name: Sildar's Longsword
+    type: weapon
+    img: icons/weapons/swords/greatsword-guard-jewel-green.webp
+    system:
+      description:
+        value: >-
+          <p>A lengthy stright blade designed for slashing foes, the longsword
+          is a highly versatile weapon that may also be wielded with two hands
+          for more punishing strikes. It has the emblem of Neverwinter worked
+          into its hilt.</p>
+        chat: ''
+      source:
+        custom: Phandelver and Below
+        revision: 1
+        rules: '2014'
+      quantity: 1
+      weight:
+        value: 3
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      attunement: ''
+      equipped: false
+      rarity: ''
+      identified: true
+      cover: null
+      range:
+        value: null
+        long: null
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      damage:
+        versatile:
+          number: 1
+          denomination: 10
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 8
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      properties:
+        - ver
+      proficient: null
+      container: PqWb9yCFntqcs2N1
+      unidentified:
+        description: ''
+      type:
+        value: martialM
+        baseItem: longsword
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: sildars-longsword
+      attuned: false
+      ammunition: {}
+      crew:
+        value: []
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1800000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.yrMNa005sqRJw3It'
+  - name: Lords' Alliance Shield
+    system:
+      description:
+        value: >-
+          <p>A wooden shield emblazoned with a golden symbol of the Lords'
+          Alliance</p><p>You gain the Armor Class benefit of a Shield only if
+          you have training with it.</p>
+        chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: PqWb9yCFntqcs2N1
+      quantity: 1
+      weight:
+        value: 6
+        units: lb
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: false
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 2
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: shield
+        baseItem: shield
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: null
+      proficient: null
+      activities: {}
+      identifier: shield
+      crew:
+        value: []
+    _id: c9YHt2b0J0wGMsRO
+    type: equipment
+    folder: Iyyec8ij0PAfdLBd
+    img: icons/equipment/shield/heater-wooden-wolf-brown.webp
+    effects: []
+    sort: 100000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+      sc-simple-sockets:
+        socketTabEnabled: false
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.c9YHt2b0J0wGMsRO'
+  - name: Illefarn House Banner
+    type: loot
+    _id: dnNQAITbmL8ZNfAb
+    img: modules/kctg-5e/images/fibres-textiles/Scarlet.webp
+    system:
+      description:
+        value: >-
+          <p>This long banner hung high on the walls of Cragmaw castle. It is
+          made of a thick purple wool with golden fillagree running down the
+          edges. It bears a large symbol of a golden harp. It is dirty and
+          frayed.</p>
+        chat: ''
+      identifier: illefarn
+      source:
+        revision: 1
+        rules: '2024'
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      properties: []
+      type:
+        value: junk
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!HsCEyyIEA7FD1HXJ.dnNQAITbmL8ZNfAb'
 effects:
   - name: Concealed
     origin: Actor.DqLfAsayienM661c.Item.4fsCr8xbL1I5D5mn.ActiveEffect.MDdoug4Lfu8klZRO
@@ -5287,8 +5992,8 @@ effects:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
@@ -5337,8 +6042,8 @@ effects:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781401768417
-      modifiedTime: 1781401768417
+      createdTime: 1784044097230
+      modifiedTime: 1784044097230
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
@@ -5587,13 +6292,13 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781401768417
-  modifiedTime: 1781474321288
+  createdTime: 1784044097230
+  modifiedTime: 1784044103725
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 ownership:
   default: 0
-sort: 500000
+sort: 400000
 _key: '!actors!HsCEyyIEA7FD1HXJ'
 

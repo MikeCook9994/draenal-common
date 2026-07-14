@@ -98,15 +98,12 @@ flags:
       - weapon:siege
       - weapon:simpleM
       - weapon:simpleR
-    gemCritThreshold: null
-    gemCritMultiplier: null
-    gemAttackBonus: null
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781473515196
-  modifiedTime: 1781473782050
+  modifiedTime: 1784042907115
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

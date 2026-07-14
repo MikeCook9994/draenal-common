@@ -505,60 +505,65 @@ effects:
     system:
       changes:
         - key: system.type.baseItem
+          type: override
           value: longsword
-          priority: null
-          type: override
           phase: initial
+          priority: null
         - key: name
+          type: override
           value: '{} [longsword]'
-          priority: null
-          type: override
           phase: initial
+          priority: null
         - key: system.type.value
+          type: override
           value: martialM
-          priority: null
-          type: override
           phase: initial
+          priority: null
         - key: img
+          type: override
           value: icons/weapons/swords/sword-guard-bronze.webp
-          priority: null
-          type: override
           phase: initial
+          priority: null
         - key: system.damage.base.types
+          type: add
           value: slashing
-          priority: null
-          type: add
           phase: initial
+          priority: null
         - key: system.mastery
+          type: override
           value: sap
-          priority: null
-          type: override
           phase: initial
+          priority: null
         - key: system.properties
+          type: add
           value: ver
-          priority: null
-          type: add
           phase: initial
+          priority: null
         - key: system.damage.base.denomination
+          type: override
           value: 8
-          priority: null
-          type: override
           phase: initial
+          priority: null
         - key: system.properties
+          type: add
           value: '-lgt'
-          priority: null
-          type: add
           phase: initial
+          priority: null
         - key: system.damage.base.types
-          value: '-bludgeoning'
-          priority: null
           type: add
+          value: '-bludgeoning'
           phase: initial
-        - key: system.damage.versatile.denomination
-          value: 10
           priority: null
+        - key: system.damage.versatile.denomination
           type: override
+          value: 10
           phase: initial
+          priority: null
+        - key: system.magicalBonus
+          type: upgrade
+          value: 1
+          phase: initial
+          priority: null
     duration:
       value: null
       units: seconds
@@ -575,11 +580,11 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
+      systemVersion: 5.3.3
       createdTime: 1779756303842
-      modifiedTime: 1779756303842
+      modifiedTime: 1784043175475
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
