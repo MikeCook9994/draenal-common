@@ -1,15 +1,15 @@
 folder: nY8L2IYFxZEYe5TQ
-name: Rune of Mastery (Longsword)
+name: Rune of Apprenticeship
 type: loot
-_id: ycs2BWMulBiojNHQ
-img: modules/sc-simple-sockets/assets/runes/runeword-call-to-arms.webp
+_id: t8au95KU0HS0LSEA
+img: modules/sc-simple-sockets/assets/runes/runeword-insight.webp
 system:
   description:
     value: >-
-      <p>When you make an attack with this weapon as a Longsword, you can use
-      the Sap weapon mastery property.</p>
+      <p>Spells you cast gain a +1 bonus to their Spell Save DCs and Attack
+      rolls while you wield <em>Changing Fate</em>.</p>
     chat: ''
-  identifier: rune-of-mastery
+  identifier: rune-of-apprenticeship
   source:
     revision: 1
     rules: '2024'
@@ -39,19 +39,29 @@ system:
     value: rune-of-power
     subtype: ''
 effects:
-  - name: Rune of Mastery (Longsword)
-    img: modules/sc-simple-sockets/assets/runes/runeword-call-to-arms.webp
-    origin: Compendium.draenal-common.private-equipment.Item.ycs2BWMulBiojNHQ
+  - name: Rune of Apprenticeship
+    img: modules/sc-simple-sockets/assets/runes/runeword-insight.webp
+    origin: Compendium.draenal-common.private-equipment.Item.t8au95KU0HS0LSEA
     type: base
-    _id: HhubrQNtYb9oG2Hq
+    _id: FAKNxzgmSoXvaiQf
     system:
       changes:
-        - key: system.traits.weaponProf.mastery.value
+        - key: system.bonuses.spell.dc
           type: add
-          value: longsword
+          value: 1
           phase: initial
           priority: null
-    disabled: false
+        - key: system.bonuses.msak.attack
+          type: add
+          value: 1
+          phase: initial
+          priority: null
+        - key: system.bonuses.rsak.attack
+          type: add
+          value: 1
+          phase: initial
+          priority: null
+    disabled: true
     start: null
     duration:
       value: null
@@ -59,10 +69,10 @@ effects:
       expiry: null
       expired: false
     description: >-
-      <p>When you make an attack with this weapon, you can use the Sap weapon
-      mastery property.</p>
+      <p>Spells you cast gain a +1 bonus to their Spell Save DCs and Attack
+      rolls while you wield <em>Changing Fate</em>.</p>
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     showIcon: 1
     folder: null
@@ -75,39 +85,29 @@ effects:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781472704864
-      modifiedTime: 1781473468957
+      createdTime: 1784907894802
+      modifiedTime: 1784908006606
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    _key: '!items.effects!ycs2BWMulBiojNHQ.HhubrQNtYb9oG2Hq'
+    _key: '!items.effects!t8au95KU0HS0LSEA.FAKNxzgmSoXvaiQf'
 sort: 0
 ownership:
   default: 0
 flags:
   sc-simple-sockets:
     gemSubtype: rune-of-power
-    gemAllowedTypes:
-      - weapon
-      - weapon:improv
-      - weapon:martialM
-      - weapon:martialR
-      - weapon:natural
-      - weapon:siege
-      - weapon:simpleM
-      - weapon:simpleR
     gemCritThreshold: null
     gemCritMultiplier: null
-    gemAttackBonus: null
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781472421110
-  modifiedTime: 1784907507995
+  createdTime: 1784907830515
+  modifiedTime: 1784907972808
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
-_key: '!items!ycs2BWMulBiojNHQ'
+_key: '!items!t8au95KU0HS0LSEA'
 

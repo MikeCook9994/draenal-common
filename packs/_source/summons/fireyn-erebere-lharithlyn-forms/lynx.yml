@@ -473,7 +473,7 @@ system:
       custom: ''
       communication: {}
     important: false
-img: modules/draenal-common/assets/npc-images/Avatar.Lynx.webp?v=1777157271138
+img: modules/draenal-common/assets/npc-images/Avatar.Reyn_Lynx.webp
 prototypeToken:
   name: Cat
   displayName: 20
@@ -483,7 +483,7 @@ prototypeToken:
   width: 0.5
   height: 0.5
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Lynx.webp?v=1777157273500
+    src: modules/draenal-common/assets/npc-images/Token.Reyn_Lynx.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -540,7 +540,7 @@ prototypeToken:
     colors:
       ring: null
       background: null
-    effects: 1
+    effects: 0
     subject:
       scale: 1
       texture: null
@@ -894,10 +894,10 @@ flags:
         isVideo: false
         isFrame: true
     avatarLayerStack:
-      - id: eMO26abSp0HVbRHp
+      - id: wHUKgqSSa95Mr6gO
         type: image
-        name: Image Layer
-        src: modules/draenal-common/assets/npc-images/Cat.png
+        name: Lynx (Avatar)
+        src: modules/draenal-common/assets/npc-images/Avatar.Reyn_Lynx.webp
         visible: true
         locked: false
         blendMode: source-over
@@ -951,12 +951,16 @@ flags:
       width: 512
       height: 512
     isOversized: true
+    isDynamicRingMode: false
+    modeIsOversized: true
+  dnd5e:
+    showTokenPortrait: true
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
+  systemVersion: 5.3.3
   createdTime: 1779753583806
-  modifiedTime: 1779753583811
+  modifiedTime: 1784906847519
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

@@ -101,17 +101,17 @@ system:
       benefits.</p><p><strong>Effortless Agony.</strong> You always have the
       @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Hex} spell
       prepared. You can cast it without expending a spell slot and without the
-      need for concentration. Casting the spell in this way casts it at the
-      level of your Pact Magic spell slots. Once you use this feature, you can't
-      use it again until you complete a Short or Long Rest or you use your
-      Magical Cunning feature.</p><p><strong>Bonus Damage.</strong> Your damage
-      rolls against creatures cursed by you gain a 1d6 damage
-      bonus.</p><p><strong>Improved Critical.</strong> Any attack roll you make
-      against a creature cursed by you is a critical hit on a roll of a 19 or 20
-      on the d20.</p><p><strong>Soul Siphon.</strong> If a creature cursed by
-      you dies, you regain hit points equal to your warlock level + your
-      Charisma modifier (minimum of 1 hit point). The hit points you gain cannot
-      exceed the perished creature's maximum hit points.</p>
+      need for concentration. Casting Hex in this way casts it at 1st level.
+      Once you use this feature, you can't use it again until you complete a
+      Short or Long Rest or you use your Magical Cunning
+      feature.</p><p><strong>Bonus Damage.</strong> Your damage rolls against
+      creatures cursed by you gain a 1d6 damage bonus.</p><p><strong>Improved
+      Critical.</strong> Any attack roll you make against a creature cursed by
+      you is a critical hit on a roll of a 19 or 20 on the
+      d20.</p><p><strong>Soul Siphon.</strong> If a creature cursed by you dies,
+      you regain hit points equal to your warlock level + your Charisma modifier
+      (minimum of 1 hit point). The hit points you gain cannot exceed the
+      perished creature's maximum hit points.</p>
     chat: ''
   identifier: fates-omen
   source:
@@ -137,15 +137,17 @@ effects: []
 sort: 100000
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
+  systemVersion: 5.3.3
   createdTime: 1768801150991
-  modifiedTime: 1777243932177
+  modifiedTime: 1784905640092
   lastModifiedBy: draenalcommon000
 _key: '!items!JuoWB9ngJ4v9L63j'
 

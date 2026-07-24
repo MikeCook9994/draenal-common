@@ -81,6 +81,75 @@ system:
               - thunder
             scaling:
               number: 1
+    7SElhquoNeWmLMXi:
+      type: damage
+      name: Follow Up Bonus Damage
+      _id: 7SElhquoNeWmLMXi
+      img: icons/magic/symbols/elements-air-earth-fire-water.webp
+      sort: 100000
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '@scale.wondrous-vitality.maximum-spell-slot-level - 1'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: true
+        identifier: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - cold
+              - fire
+              - lightning
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
   uses:
     spent: 0
     recovery: []
@@ -88,12 +157,14 @@ system:
   advancement: {}
   description:
     value: >-
-      <p>You are a practiced magus and martial in combat. When take a Magic
-      action to cast a Sorcerer spell while you are raging, you gain the
+      <p>You are a practiced magus and martial in combat. When you cast a
+      Sorcerer spell of first level or higher while you are raging, you gain the
       following benefits.</p><p><strong>Spell fury.</strong> You can add your
       Rage bonus to one damage roll of the spell.</p><p><strong>Follow
-      up.</strong> You can immediately make one melee attack with a weapon as a
-      bonus action.</p>
+      up.</strong> Before the end of your next turn, you can use a Bonus Action
+      to make one melee attack with a weapon. The attack deals an additional 2d6
+      fire, lightning, or cold (your choice) damage for each level of the
+      triggering spell beyond 1st level.</p>
     chat: ''
   identifier: cast-and-smash
   source:
@@ -121,7 +192,9 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
 _stats:
   duplicateSource: null
   exportSource: null
@@ -129,7 +202,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1768861739914
-  modifiedTime: 1781391605968
+  modifiedTime: 1784905962967
   lastModifiedBy: draenalcommon000
 _key: '!items!J9dHLyG43bYxmNC5'
 

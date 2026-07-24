@@ -474,7 +474,7 @@ system:
       communication: {}
     important: false
 _id: mmCat00000000000
-img: modules/draenal-common/assets/npc-images/Avatar.Cat.webp?v=1777156555403
+img: modules/draenal-common/assets/npc-images/Avatar.Vaelwyn_Cat.webp
 prototypeToken:
   name: Cat
   displayName: 20
@@ -484,7 +484,7 @@ prototypeToken:
   width: 0.5
   height: 0.5
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Cat.webp?v=1777156554458
+    src: modules/draenal-common/assets/npc-images/Token.Vaelwyn_Cat.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -541,7 +541,7 @@ prototypeToken:
     colors:
       ring: null
       background: null
-    effects: 1
+    effects: 0
     subject:
       scale: 1
       texture: null
@@ -950,12 +950,14 @@ flags:
       width: 512
       height: 512
     isOversized: true
+  dnd5e:
+    showTokenPortrait: true
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
+  systemVersion: 5.3.3
   createdTime: 1779753587518
-  modifiedTime: 1779753587522
+  modifiedTime: 1784907126186
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

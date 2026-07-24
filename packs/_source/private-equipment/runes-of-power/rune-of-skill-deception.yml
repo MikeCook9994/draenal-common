@@ -38,11 +38,11 @@ system:
     value: rune-of-power
     subtype: ''
 effects:
-  - name: Rune of Mastery (Longsword)
+  - name: Rune of Skill (Deception)
     img: modules/sc-simple-sockets/assets/runes/runeword-chains-of-honor.webp
-    origin: Compendium.draenal-common.private-equipment.Item.ycs2BWMulBiojNHQ
+    origin: Compendium.draenal-common.private-equipment.Item.TsJllNOgtEkyoHih
     type: base
-    _id: HhubrQNtYb9oG2Hq
+    _id: fwRkN0Janv3b4jam
     system:
       changes:
         - key: system.skills.dec.bonuses.check
@@ -79,13 +79,13 @@ effects:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781473515196
-      modifiedTime: 1781473776829
+      createdTime: 1784907519725
+      modifiedTime: 1784907543726
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    _key: '!items.effects!TsJllNOgtEkyoHih.HhubrQNtYb9oG2Hq'
+    _key: '!items.effects!TsJllNOgtEkyoHih.fwRkN0Janv3b4jam'
 flags:
   sc-simple-sockets:
     gemSubtype: rune-of-power

@@ -5,8 +5,8 @@ img: modules/sc-simple-sockets/assets/runes/runeword-ancients-pledge.webp
 system:
   description:
     value: >-
-      <p>When you make an attack with this weapon, you can use the Sap weapon
-      mastery property.</p>
+      <p>When you make an attack with this weapon as a Scimitar, you can use the
+      Nick weapon mastery property.</p>
     chat: ''
   identifier: rune-of-mastery
   source:
@@ -39,16 +39,16 @@ system:
     value: rune-of-power
     subtype: ''
 effects:
-  - name: Rune of Mastery (Longsword)
+  - name: Rune of Mastery (Scimitar)
     img: modules/sc-simple-sockets/assets/runes/runeword-ancients-pledge.webp
-    origin: Compendium.draenal-common.private-equipment.Item.ycs2BWMulBiojNHQ
+    origin: Compendium.draenal-common.private-equipment.Item.FDw5e910RMJUOe2B
     type: base
-    _id: HhubrQNtYb9oG2Hq
+    _id: RGpiq4L1tCXZnXx1
     system:
       changes:
         - key: system.traits.weaponProf.mastery.value
           type: add
-          value: longsword
+          value: scimitar
           phase: initial
           priority: null
     disabled: true
@@ -59,7 +59,7 @@ effects:
       expiry: null
       expired: false
     description: >-
-      <p>When you make an attack with this weapon, you can use the Sap weapon
+      <p>When you make an attack with this weapon, you can use the Nick weapon
       mastery property.</p>
     tint: '#ffffff'
     transfer: false
@@ -75,13 +75,13 @@ effects:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781473495932
-      modifiedTime: 1781473906335
+      createdTime: 1784907368835
+      modifiedTime: 1784907414574
       lastModifiedBy: draenalcommon000
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    _key: '!items.effects!FDw5e910RMJUOe2B.HhubrQNtYb9oG2Hq'
+    _key: '!items.effects!FDw5e910RMJUOe2B.RGpiq4L1tCXZnXx1'
 flags:
   sc-simple-sockets:
     gemSubtype: rune-of-power
@@ -102,7 +102,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781473495932
-  modifiedTime: 1781473918568
+  modifiedTime: 1784907509438
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

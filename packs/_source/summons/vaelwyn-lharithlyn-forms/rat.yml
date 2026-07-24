@@ -1,4 +1,4 @@
-name: Elk
+name: Rat
 type: npc
 system:
   currency:
@@ -9,7 +9,7 @@ system:
     cp: 0
   abilities:
     str:
-      value: 16
+      value: 2
       proficient: 0
       max: null
       bonuses:
@@ -26,7 +26,7 @@ system:
           max: null
           mode: 0
     dex:
-      value: 10
+      value: 11
       proficient: 0
       max: null
       bonuses:
@@ -43,7 +43,7 @@ system:
           max: null
           mode: 0
     con:
-      value: 11
+      value: 9
       proficient: 0
       max: null
       bonuses:
@@ -94,7 +94,7 @@ system:
           max: null
           mode: 0
     cha:
-      value: 6
+      value: 4
       proficient: 0
       max: null
       bonuses:
@@ -351,7 +351,8 @@ system:
         mode: 0
       bonus: ''
     movement:
-      walk: '50'
+      climb: '20'
+      walk: '20'
       units: null
       hover: false
       ignoredDifficultTerrain: []
@@ -361,7 +362,7 @@ system:
       units: null
       special: ''
       ranges:
-        darkvision: 60
+        darkvision: 30
         blindsight: null
         tremorsense: null
         truesight: null
@@ -377,16 +378,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 11
-      calc: natural
+      flat: null
+      calc: default
     hd:
       spent: 0
     hp:
-      value: 11
-      max: 11
+      value: 1
+      max: 1
       temp: null
       tempmax: null
-      formula: 2d10
+      formula: 1d4 - 1
     death:
       roll:
         min: null
@@ -419,12 +420,12 @@ system:
     race: null
     type:
       value: beast
-    cr: 0.25
+    cr: 0
     habitat:
       value:
         - type: forest
-        - type: grassland
-        - type: hill
+        - type: swamp
+        - type: urban
       custom: ''
     treasure:
       value: []
@@ -442,12 +443,12 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Fi'Reyn'Erebere Lharithlyn Forms
+    book: Vaelwyn Lharithlyn Forms
     license: CC-BY-4.0
     page: ''
     custom: ''
   traits:
-    size: lg
+    size: tiny
     di:
       bypasses: []
       value: []
@@ -471,23 +472,23 @@ system:
       custom: ''
       communication: {}
     important: false
-_id: mmElk00000000000
-img: modules/draenal-common/assets/npc-images/Avatar.Reyn_Elk.webp
+_id: mmRat00000000000
+img: modules/draenal-common/assets/npc-images/Avatar.Vaelwyn_Rat.webp
 prototypeToken:
-  name: Elk
+  name: Rat
   displayName: 20
   actorLink: false
   appendNumber: false
   prependAdjective: false
-  width: 2
-  height: 2
+  width: 0.5
+  height: 0.5
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Reyn_Elk.webp
+    src: modules/draenal-common/assets/npc-images/Token.Vaelwyn_Rat.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
-    scaleX: 2
-    scaleY: 2
+    scaleX: 1
+    scaleY: 1
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -551,19 +552,72 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
-  depth: 2
+  depth: 0.5
 items:
-  - _id: mmRam00000000000
-    name: Ram
+  - _id: mmAgile000000000
+    name: Agile
+    type: feat
+    system:
+      type:
+        value: monster
+        subtype: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>The [[lookup @name lowercase]]{monster} doesn't provoke an
+          &amp;Reference[opportunityattacks]{Opportunity Attack} when it moves
+          out of an enemy's reach.</p>
+        chat: ''
+      identifier: agile
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties:
+        - trait
+      requirements: ''
+      advancement: {}
+      cover: null
+      crewed: false
+    folder: L9Zgr8qAPc3ngKhb
+    img: icons/creatures/mammals/rodent-rat-green.webp
+    effects: []
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: draenalcommon000
+      createdTime: 1784906724840
+      modifiedTime: 1784906724840
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!mmRat00000000000.mmAgile000000000'
+  - _id: mmBite0000000000
+    name: Bite
     type: weapon
     system:
       type:
         value: natural
         baseItem: ''
       activities:
-        z58sUDUmqxECJgT3:
-          _id: z58sUDUmqxECJgT3
+        xWlMeXFjELfSUWX9:
           type: attack
+          _id: xWlMeXFjELfSUWX9
           sort: 0
           activation:
             type: action
@@ -593,73 +647,7 @@ items:
               stationary: false
             affects:
               choice: false
-              type: creature
-              count: '1'
-              special: Large or smaller
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type:
-              value: melee
-              classification: ''
-            ability: str
-            bonus: ''
-          damage:
-            critical:
-              bonus: ''
-            includeBase: true
-            parts: []
-          name: ''
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-        hAnQ4KbZpJFBPEPg:
-          type: attack
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: GF5aJ8BZ8yVEuVJp
-              level: {}
-          range:
-            override: false
-            units: self
-          target:
-            template:
-              contiguous: false
-              units: ft
               type: ''
-              stationary: false
-            affects:
-              choice: false
-              type: creature
-              count: '1'
-              special: Large or smaller
             override: false
             prompt: true
           uses:
@@ -671,9 +659,9 @@ items:
               threshold: null
             flat: false
             type:
-              value: melee
+              value: ''
               classification: ''
-            ability: str
+            ability: dex
             bonus: ''
           damage:
             critical:
@@ -683,15 +671,14 @@ items:
               - custom:
                   enabled: false
                   formula: ''
-                number: 1
-                denomination: 6
-                bonus: ''
+                number: null
+                denomination: 0
+                bonus: '1'
                 types:
-                  - bludgeoning
+                  - piercing
                 scaling:
                   number: 1
-          name: Moving Attack
-          _id: hAnQ4KbZpJFBPEPg
+          name: ''
           img: null
           flags: {}
           visibility:
@@ -704,24 +691,43 @@ items:
         recovery: []
         max: ''
       description:
-        value: >-
-          <p class="feature">[[/attack extended]]. [[/damage average extended]].
-          If the target is a [[lookup @target.affects.special
-          activity=z58sUDUmqxECJgT3]] creature and the [[lookup @name
-          lowercase]]{monster} moved 20+ feet straight toward it immediately
-          before the hit, the target takes an extra [[/damage 1d6 bludgeoning
-          average]] damage and has the &amp;Reference[Prone apply=false]
-          condition.</p>
+        value: <p>[[/attack extended]]. [[/damage average extended]].</p>
         chat: ''
-      identifier: ram
+      identifier: bite
       source:
         revision: 1
         rules: '2024'
         book: ''
         license: CC-BY-4.0
+      properties: []
       identified: true
       unidentified:
+        name: Unidentified Weapon
         description: ''
+      mastery: ''
+      range:
+        units: ft
+        value: null
+        long: null
+        reach: null
+      damage:
+        base:
+          denomination: 0
+          bonus: ''
+          number: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
       container: null
       quantity: 1
       weight:
@@ -734,288 +740,51 @@ items:
       attunement: ''
       attuned: false
       equipped: true
+      cover: null
+      ammunition: {}
       armor:
         value: null
-      cover: null
-      hp:
-        value: null
-        max: null
-        dt: null
-        conditions: ''
-      ammunition: {}
-      damage:
-        base:
-          number: 1
-          denomination: 6
-          types:
-            - bludgeoning
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-          bonus: ''
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      properties: []
       proficient: null
-      range:
-        value: null
-        long: null
-        reach: 5
-        units: ft
-      mastery: ''
       crew:
         value: []
     folder: pSCWWdqMX9eUATRJ
-    img: icons/creatures/mammals/elk-moose-marked-green.webp
-    effects:
-      - name: Prone
-        img: systems/dnd5e/icons/svg/statuses/prone.svg
-        origin: Compendium.dnd5e.actors24.Actor.mmElk00000000000.Item.mmRam00000000000
-        _id: GF5aJ8BZ8yVEuVJp
-        type: base
-        system:
-          changes: []
-        disabled: false
-        duration:
-          value: null
-          units: seconds
-          expiry: null
-          expired: false
-        description: <p>The target the &amp;Reference[Prone apply=false] condition.</p>
-        tint: '#ffffff'
-        transfer: false
-        statuses:
-          - prone
-        sort: 0
-        flags: {}
-        _stats:
-          coreVersion: '14.361'
-          systemId: dnd5e
-          systemVersion: 5.3.2
-          lastModifiedBy: draenalcommon000
-          createdTime: 1779753583809
-          modifiedTime: 1779753583809
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        showIcon: 2
-        start: null
-        folder: null
-        _key: >-
-          !actors.items.effects!mmElk00000000000.mmRam00000000000.GF5aJ8BZ8yVEuVJp
+    img: icons/creatures/abilities/fangs-teeth-bite.webp
+    effects: []
     flags:
       dnd5e:
         riders:
           activity: []
           effect: []
     _stats:
-      coreVersion: '14.361'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 5.3.2
+      systemVersion: 5.3.3
       lastModifiedBy: draenalcommon000
-      createdTime: 1779753583809
-      modifiedTime: 1779753583809
+      createdTime: 1784906724840
+      modifiedTime: 1784906724840
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
-    sort: 0
-    _key: '!actors.items!mmElk00000000000.mmRam00000000000'
+    sort: 1
+    _key: '!actors.items!mmRat00000000000.mmBite0000000000'
 effects: []
-folder: KPBZVagXjdKsuo73
+folder: BMVGdQUg4DpY6dI1
 ownership:
   default: 0
 flags:
-  tokenizer-2:
-    layerStack:
-      - id: ujN1LVkRiqZbfQuL
-        type: image
-        name: Image Layer
-        src: modules/draenal-common/assets/pc-images/reyn-elk.Avatar.webp
-        visible: true
-        locked: false
-        blendMode: source-over
-        transform:
-          x: -2.9619834710744044
-          'y': -5.500826446280968
-          scaleX: 0.39227390338519896
-          scaleY: 0.39227390338519896
-          rotation: 0
-        adjustments:
-          brightness: 1
-          contrast: 1
-          opacity: 1
-          blur: 0
-          tint: null
-          hue: 0
-          saturation: 100
-          grayscale: 0
-          temperature: 0
-          lineArt:
-            enabled: false
-            blurSize: 25
-          rimLight:
-            enabled: false
-            color: '#ffffff'
-            size: 4
-            intensity: 0.8
-          vignette:
-            enabled: false
-            intensity: 50
-            size: 30
-          filmGrain:
-            enabled: false
-            intensity: 20
-            size: 1
-          chromaticAberration:
-            enabled: false
-            intensity: 5
-          unsharpMask:
-            enabled: false
-            amount: 100
-            radius: 1
-        masks:
-          - id: rbWnn7SArWRNhe8L
-            type: frame-ray
-            src: >-
-              modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
-            ringConfig: null
-        lasso:
-          regions: []
-        paintMask: null
-        animation: null
-        isVideo: false
-      - id: 7HZMLp8gQTxOC14h
-        type: image
-        name: TokenTool Decorated Picture%20Frame%2C%20Silver
-        src: >-
-          modules/token-frames/token_frames/TokenTool_Decorated_Picture%20Frame%2C%20Silver.webp
-        visible: true
-        locked: false
-        blendMode: source-over
-        transform:
-          x: 0
-          'y': 0
-          scaleX: 0.5
-          scaleY: 0.5
-          rotation: 0
-        adjustments:
-          brightness: 1
-          contrast: 1
-          opacity: 1
-          blur: 0
-          tint: null
-          hue: 0
-          saturation: 100
-          grayscale: 0
-          temperature: 0
-          lineArt:
-            enabled: false
-            blurSize: 25
-          rimLight:
-            enabled: false
-            color: '#ffffff'
-            size: 4
-            intensity: 0.8
-          vignette:
-            enabled: false
-            intensity: 50
-            size: 30
-          filmGrain:
-            enabled: false
-            intensity: 20
-            size: 1
-          chromaticAberration:
-            enabled: false
-            intensity: 5
-          unsharpMask:
-            enabled: false
-            amount: 100
-            radius: 1
-        masks: []
-        lasso:
-          regions: []
-        paintMask: null
-        animation: null
-        isVideo: false
-        isFrame: true
-    avatarLayerStack:
-      - id: APffU0365MUX2ukH
-        type: image
-        name: Image Layer
-        src: modules/draenal-common/assets/pc-images/reyn-elk.Avatar.webp
-        visible: true
-        locked: false
-        blendMode: source-over
-        transform:
-          x: 0
-          'y': 0
-          scaleX: 1
-          scaleY: 1
-          rotation: 0
-        adjustments:
-          brightness: 1
-          contrast: 1
-          opacity: 1
-          blur: 0
-          tint: null
-          hue: 0
-          saturation: 100
-          grayscale: 0
-          temperature: 0
-          lineArt:
-            enabled: false
-            blurSize: 25
-          rimLight:
-            enabled: false
-            color: '#ffffff'
-            size: 4
-            intensity: 0.8
-          vignette:
-            enabled: false
-            intensity: 50
-            size: 30
-          filmGrain:
-            enabled: false
-            intensity: 20
-            size: 1
-          chromaticAberration:
-            enabled: false
-            intensity: 5
-          unsharpMask:
-            enabled: false
-            amount: 100
-            radius: 1
-        masks: []
-        lasso:
-          regions: []
-        paintMask: null
-        animation: null
-        isVideo: false
-    avatarAspect: custom
-    avatarCanvasSize:
-      width: 512
-      height: 512
-    isOversized: true
   dnd5e:
     showTokenPortrait: true
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1779753583809
-  modifiedTime: 1784906759281
+  createdTime: 1784906724840
+  modifiedTime: 1784907272773
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
-sort: 100000
-_key: '!actors!mmElk00000000000'
+sort: 0
+_key: '!actors!mmRat00000000000'
 

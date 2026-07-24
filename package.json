@@ -11,8 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "createSymlinks": "node ./tools/create-symlinks.mjs",
     "pack:clean": "node ./utils/packs.mjs package clean",
-    "pack:compile": "node ./utils/packs.mjs package pack",
-    "pack:decompile": "node ./utils/packs.mjs package unpack"
+    "pack:file-to-foundry": "node ./utils/packs.mjs package pack",
+    "pack:foundry-to-file": "node ./utils/packs.mjs package unpack"
   },
   "repository": {
     "type": "git",

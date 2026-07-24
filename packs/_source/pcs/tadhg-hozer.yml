@@ -6,7 +6,7 @@ img: >-
 system:
   currency:
     pp: 0
-    gp: 75
+    gp: 185
     ep: 6
     sp: 3
     cp: 2
@@ -97,7 +97,7 @@ system:
           max: null
           mode: 0
     cha:
-      value: 16
+      value: 17
       proficient: 1
       max: null
       bonuses:
@@ -385,7 +385,7 @@ system:
       max: null
       temp: null
       tempmax: 0
-      value: 25
+      value: 30
       bonuses: {}
     death:
       roll:
@@ -675,7 +675,7 @@ items:
           group: HNL3GVldnPCsg4BR
           sort: 900000
       identifier: warlock
-      levels: 3
+      levels: 4
       advancement:
         viu0ntZhrve35HNy:
           _id: viu0ntZhrve35HNy
@@ -685,6 +685,7 @@ items:
             '1': max
             '2': 7
             '3': 4
+            '4': 3
           flags: {}
           hint: ''
         yjm7B73po6OV5DPi:
@@ -779,7 +780,11 @@ items:
             cap: 2
             locked: []
             recommendation: null
-          value: {}
+          value:
+            type: feat
+            feat:
+              Y0X29p27uUndEJb8: Compendium.draenal-common.feats.Item.1y87KowB7F872976
+              BO7vW3L0yIlT5IIr: Compendium.draenal-common.feats.Item.1y87KowB7F872976
           level: 4
           title: ''
           hint: >-
@@ -1222,8 +1227,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1303,8 +1308,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1412,8 +1417,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1666,8 +1671,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1693,8 +1698,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1763,6 +1768,10 @@ items:
                 value: '-(ceil(@spells.pact.max / 2))'
                 target: spells.pact.value
                 scaling: {}
+              - target: SDdqDuHYjQ485Umm
+                type: itemUses
+                value: '-1'
+                scaling: {}
           description:
             chatFlavor: ''
           duration:
@@ -1798,7 +1807,9 @@ items:
             formula: ''
           name: Regain Pact Spell Slots
           img: systems/dnd5e/icons/svg/activity/heal.svg
-          flags: {}
+          flags:
+            draenalCommon:
+              hexId: SDdqDuHYjQ485Umm
           visibility:
             level: {}
             requireAttunement: false
@@ -1821,8 +1832,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1887,8 +1898,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -1964,8 +1975,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -1988,8 +1999,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2144,8 +2155,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2300,8 +2311,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2322,8 +2333,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2476,8 +2487,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -2498,8 +2509,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2672,8 +2683,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2848,8 +2859,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2906,8 +2917,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -2986,8 +2997,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3065,8 +3076,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3142,8 +3153,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3219,8 +3230,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3418,8 +3429,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -3439,8 +3450,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3665,8 +3676,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -3917,8 +3928,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4077,8 +4088,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4141,8 +4152,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4269,8 +4280,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4331,8 +4342,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4394,8 +4405,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4474,8 +4485,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4547,8 +4558,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4624,8 +4635,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4680,8 +4691,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4809,8 +4820,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -4945,8 +4956,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5138,8 +5149,8 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -5147,9 +5158,2193 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.8kMc1s6Srbk9mf9n'
+  - name: Changling
+    type: race
+    _id: Sc7ufhKGxfgN33uv
+    img: icons/creatures/magical/spirit-undead-masked-blue.webp
+    system:
+      advancement:
+        QZqHBbOe0TVmJiKJ:
+          type: Size
+          _id: QZqHBbOe0TVmJiKJ
+          configuration:
+            sizes:
+              - sm
+              - med
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            size: med
+          title: ''
+        Wp9ZzaIiwtmdUP9j:
+          type: Trait
+          _id: Wp9ZzaIiwtmdUP9j
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - skills:dec
+                  - skills:ins
+                  - skills:itm
+                  - skills:prf
+                  - skills:per
+              - count: 1
+                pool:
+                  - skills:dec
+                  - skills:ins
+                  - skills:itm
+                  - skills:prf
+                  - skills:per
+            grants: []
+            mode: default
+          flags: {}
+          level: 0
+          hint: >-
+            <div class="ddb"><p>Thanks to your connection to the fey realm, you
+            gain proficiency in two of the following skills of your choice:
+            &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
+            &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance},
+            or &amp;Reference[per]{Persuasion}.</p></div>
+          title: Changling Instrincts
+          icon: icons/skills/social/diplomacy-handshake.webp
+          value:
+            chosen:
+              - skills:dec
+              - skills:itm
+        vf1aKruiiVZ4x2RO:
+          type: ItemGrant
+          title: Traits
+          _id: vf1aKruiiVZ4x2RO
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+                optional: false
+              - uuid: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+                optional: false
+            optional: false
+            spell: null
+          flags: {}
+          value:
+            added:
+              vFkqxzF0eGy7xGz8: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+              9kilvqlfRR2JmaNg: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+          level: 0
+          hint: ''
+      description:
+        value: >-
+          <div class="ddb"><p>With ever-changing appearances, changelings reside
+          in many societies undetected.</p><p><span style="font-family:'Roboto
+          Condensed'"><strong>Changeling Traits</strong></span></p><p><span
+          style="font-family:'Roboto Condensed'">Changeling Instincts,
+          Shape-Shifter</span></p><p><strong>Creature Type</strong></p><p>You're
+          a Fey.</p><p><strong>Size</strong></p><p>Medium (about 4–7 feet tall)
+          or Small (about 2–4 feet tall), chosen when you select this
+          species</p><p><strong>Speed</strong></p><p>Your Speed is 30
+          feet.</p><p><strong>Languages</strong></p><p>Your character knows at
+          least three languages: Common plus two languages you roll or choose
+          from the Standard Languages table. Knowledge of a language means your
+          character can communicate in it, read it, and write it. Your class and
+          other features might also give you languages.</p><p>The Standard
+          Languages table lists languages that are widespread on D&amp;D worlds.
+          Every player character knows Common, which originated in the planar
+          metropolis of Sigil, the hub of the multiverse. The other standard
+          languages originated with the first members of the most prominent
+          species in the worlds of D&amp;D and have since spread
+          widely.</p><table
+          style="--sb-table-row-bg-hover:#b3d3df;--sb-table-row-bg-dark:#d7e8ee;--sb-table-row-bg-light:#f1f7f9;--dark-sb-table-row-bg-light:#5e7982;--dark-sb-table-row-bg-dark:#5c7f8c;--dark-sb-table-row-bg-hover:#78a2b0"
+          class="table-compendium
+          table--generic-dice"><caption><p><strong>Standard
+          Languages</strong></p></caption><thead><tr><th><p>1d12</p></th><th><p>Language</p></th><th><p>Origin</p></th></tr></thead><tbody><tr><td><p>—</p></td><td><p>Common</p></td><td><p>Sigil</p></td></tr><tr><td><p>1</p></td><td><p>Common
+          Sign
+          Language</p></td><td><p>Sigil</p></td></tr><tr><td><p>2</p></td><td><p>Draconic</p></td><td><p>Dragons</p></td></tr><tr><td><p>3-4</p></td><td><p>Dwarvish</p></td><td><p>Dwarves</p></td></tr><tr><td><p>5-6</p></td><td><p>Elvish</p></td><td><p>Elves</p></td></tr><tr><td><p>7</p></td><td><p>Giant</p></td><td><p>Giants</p></td></tr><tr><td><p>8</p></td><td><p>Gnomish</p></td><td><p>Gnomes</p></td></tr><tr><td><p>9</p></td><td><p>Goblin</p></td><td><p>Goblinoids</p></td></tr><tr><td><p>10-11</p></td><td><p>Halfling</p></td><td><p>Halflings</p></td></tr><tr><td><p>12</p></td><td><p>Orc</p></td><td><p>Orcs</p></td></tr></tbody></table><p><strong>Changeling
+          Instincts</strong></p><p>Thanks to your connection to the fey realm,
+          you gain proficiency in two of the following skills of your choice:
+          &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
+          &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance},
+          or
+          &amp;Reference[per]{Persuasion}.</p><p><strong>Shape-Shifter</strong></p><p>As
+          an action, you can shape-shift to change your appearance and your
+          voice. You determine the specifics of the changes, including your
+          coloration, hair length, and sex. You can also adjust your height and
+          weight and can change your size between Medium and Small. You can make
+          yourself appear as a member of another playable species, though none
+          of your game statistics change. You can't duplicate the appearance of
+          an individual you've never seen, and you must adopt a form that has
+          the same basic arrangement of limbs that you have. This trait doesn't
+          change your clothing and equipment.</p><p>While shape-shifted with
+          this trait, you have Advantage on Charisma checks.</p><p>You stay in
+          the new form until you take an action to revert to your true
+          form.</p></div>
+        chat: ''
+      identifier: changling
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artificer'
+        page: ''
+        custom: ''
+        license: ''
+      movement:
+        units: ft
+        hover: false
+        ignoredDifficultTerrain: []
+        walk: '30'
+        burrow: ''
+        climb: ''
+        fly: ''
+        swim: ''
+      senses:
+        ranges:
+          blindsight: null
+          darkvision: null
+          tremorsense: null
+          truesight: null
+        units: ft
+        special: ''
+      type:
+        value: fey
+        custom: ''
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.Sc7ufhKGxfgN33uv'
+  - folder: oLcAEKfoUODjH5eS
+    name: Shape-Shifter
+    type: feat
+    _id: vFkqxzF0eGy7xGz8
+    img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+    system:
+      activities:
+        d7if2E4vE6uxiOiL:
+          type: transform
+          name: Shape-Shift
+          _id: d7if2E4vE6uxiOiL
+          img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          profiles:
+            - _id: KoxdtbmtSJtT0u6U
+              level: {}
+              movement: []
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.pcs.Actor.fM8YMmvP6JIOp6Gd
+            - _id: lRMh5o07pckPMkcA
+              level: {}
+              movement: []
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.pcs.Actor.jZJbkFviyihgc3D8
+            - _id: 9AdSUSeHZlvwz2n0
+              level: {}
+              movement: []
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.pcs.Actor.rQy6keahFNA1k8A9
+            - _id: gn9uLiHBwKHLyuUZ
+              level: {}
+              movement: []
+              sizes: []
+              types: []
+              uuid: Compendium.draenal-common.pcs.Actor.ag9FB174tGer3kvw
+          settings: null
+          transform:
+            customize: false
+            mode: ''
+            preset: polymorphSelf
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <div class="ddb"><p>As an action, you can shape-shift to change your
+          appearance and your voice. You determine the specifics of the changes,
+          including your coloration, hair length, and sex. You can also adjust
+          your height and weight and can change your size between Medium and
+          Small. You can make yourself appear as a member of another playable
+          species, though none of your game statistics change. You can't
+          duplicate the appearance of an individual you've never seen, and you
+          must adopt a form that has the same basic arrangement of limbs that
+          you have. This trait doesn't change your clothing and
+          equipment.</p><p>You stay in the new form until you take an action to
+          revert to your true form.</p></div>
+        chat: ''
+      identifier: shape-shifter
+      source:
+        revision: 1
+        rules: '2024'
+        book: 'Eberron: Forge of the Artificer'
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: Changling
+      type:
+        value: race
+        subtype: ''
+    effects:
+      - name: 'Shape-Shifter: Dwarf'
+        img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
+        origin: Actor.j7ySRfEobPDT5RZo.Item.vFkqxzF0eGy7xGz8
+        transfer: false
+        _id: CGb8xu0n0dodM96X
+        type: base
+        system:
+          changes:
+            - key: img
+              type: override
+              value: modules/draenal-common/assets/pc-images/Avatar.Tadhg_Dwarf.webp
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.vFkqxzF0eGy7xGz8.CGb8xu0n0dodM96X
+    sort: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
+        advancementOrigin: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
+        advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.vFkqxzF0eGy7xGz8'
+  - folder: WbqCEw0rImHkn5Xj
+    name: Charlatan's Die
+    type: equipment
+    _id: SuhtZdDmd1b3bYjr
+    img: icons/sundries/gaming/gaming-set-dice.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <div class="ddb"><p>Whenever you roll this six-sided die, you can
+          control which number it rolls.</p></div>
+        chat: ''
+      identifier: charlatans-die
+      source:
+        revision: 1
+        rules: '2024'
+        book: Dungeon Master's Guide 2024
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+        name: Unidentified Equipment
+      container: null
+      quantity: 2
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 100
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      crew:
+        value: []
+      armor:
+        value: null
+        dex: null
+        magicalBonus: ''
+      proficient: null
+      properties:
+        - mgc
+      strength: null
+      type:
+        value: trinket
+        baseItem: ''
+      attuned: false
+      equipped: false
+    effects: []
+    sort: 300000
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.SuhtZdDmd1b3bYjr'
+  - name: Potion of Healing
+    system:
+      description:
+        value: >-
+          <p>This potion is a magic item. As a Bonus Action, you can drink it or
+          administer it to another creature within 5 feet of yourself. The
+          creature that drinks the magical red fluid in this vial regains 2d4 +
+          2 Hit Points.</p>
+        chat: ''
+      price:
+        value: 50
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0.5
+        units: lb
+      rarity: ''
+      attunement: ''
+      uses:
+        max: '1'
+        autoDestroy: true
+        spent: 0
+        recovery: []
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        replace: false
+      type:
+        value: potion
+        subtype: ''
+      properties:
+        - mgc
+      activities:
+        cNvH4obx5XJ2myYr:
+          type: heal
+          activation:
+            type: bonus
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: touch
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: '1'
+              type: creature
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          healing:
+            number: 2
+            denomination: 4
+            bonus: '2'
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: cNvH4obx5XJ2myYr
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: potion-of-healing
+      attuned: false
+      equipped: false
+    _id: xfR77eEtXoHCWTRO
+    type: consumable
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/consumables/potions/potion-tube-corked-red.webp
+    effects: []
+    sort: 4800000
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.xfR77eEtXoHCWTRO'
+  - folder: dtXfybmcZj17GujL
+    name: Booming Blade
+    type: spell
+    _id: mBylMZe88syrVS8i
+    img: icons/skills/melee/sword-stuck-glowing-pink.webp
+    system:
+      activities:
+        Jqne3yTadQYfwJSn:
+          type: damage
+          name: Extra Attack Damage
+          sort: 0
+          activation:
+            type: ''
+            condition: Creature moves more than 5 ft
+            override: true
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: 2qkd33UDBqWj5N5J
+              level:
+                min: null
+                max: null
+          flags: {}
+          range:
+            value: '5'
+            units: ft
+            override: true
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: true
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          damage:
+            parts:
+              - number: null
+                denomination: null
+                bonus: ''
+                types:
+                  - thunder
+                custom:
+                  enabled: false
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: 1d8
+            critical:
+              allow: true
+          _id: Jqne3yTadQYfwJSn
+          img: null
+        KeSd4ZwIz3eBcCmg:
+          type: damage
+          name: Movement Damage
+          sort: 100000
+          activation:
+            type: ''
+            condition: Creature moves more than 5 ft
+            override: true
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags:
+            ddbimporter:
+              noeffect: true
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: true
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          damage:
+            parts:
+              - number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - thunder
+                custom:
+                  enabled: false
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+            critical:
+              allow: false
+          _id: KeSd4ZwIz3eBcCmg
+          img: null
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <div class="ddb"><p>You brandish the weapon used in the spell's
+          casting and make a melee attack with it against one creature within 5
+          feet of you. On a hit, the target suffers the weapon attack's normal
+          effects and then becomes sheathed in booming energy until the start of
+          your next turn. If the target willingly moves 5 feet or more before
+          then, the target takes 1d8 thunder damage, and the spell
+          ends.</p><p>This spell's damage increases when you reach certain
+          levels. At 5th level, the melee attack deals an extra 1d8 thunder
+          damage to the target on a hit, and the damage the target takes for
+          moving increases to 2d8. Both damage rolls increase by 1d8 at 11th
+          level (2d8 and 3d8) and again at 17th level (3d8 and 4d8).</p></div>
+        chat: ''
+      identifier: booming-blade
+      source:
+        revision: 1
+        rules: '2024'
+        book: Tasha's Cauldron of Everything
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        type: action
+        condition: ''
+      duration:
+        units: round
+        value: '1'
+      level: 0
+      materials:
+        value: a melee weapon worth at least 1 sp
+        consumed: false
+        cost: 0.1
+        supply: 0
+      method: pact
+      properties:
+        - somatic
+        - material
+      range:
+        units: self
+        special: ''
+      school: evo
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: sphere
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          type: creatureOrObject
+          special: A melee weapon which you can make an attack with
+          count: '1'
+      sourceItem: class:warlock
+      prepared: 1
+    effects:
+      - name: 'Booming Blade: Sheathed in Booming Energy'
+        img: icons/skills/melee/sword-stuck-glowing-pink.webp
+        origin: Compendium.draenal-common.spells.Item.nkqOrpF9L9prak5T
+        type: base
+        _id: RlK1Yr4r1fTl4EJu
+        system:
+          changes: []
+        disabled: false
+        start: null
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>If the target willingly moves 5 feet or more before then, [[/item
+          Booming Blade activity="Movement Damage"]](it takes thunder damage),
+          and the spell ends.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.mBylMZe88syrVS8i.RlK1Yr4r1fTl4EJu
+    sort: 0
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.mBylMZe88syrVS8i'
+  - folder: NjqQMLDSpgkNVXmC
+    name: Fate's Touch
+    type: equipment
+    _id: DD0bcduT9KudrnSX
+    img: icons/equipment/finger/ring-cabochon-bronze-green.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>Small rectangles are engraved into and encircle the band. A small
+          blue-hued gemstone of unknown identity is inset on the outer perimeter
+          of the ring. It hums softly.</p>
+        chat: ''
+      identifier: fates-touch
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: >-
+          <p>You found this small golden ring on your person sometime after you
+          were rewarded. Small rectangles are engraved into and encircle the
+          band. A small blue-hued gemstone of unknown identity is inset on the
+          outer perimeter of the ring. You're not sure what it's worth or where
+          it came from, but you've got no reason to get rid of it.</p>
+        name: Signet Ring
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      crew:
+        value: []
+      armor:
+        value: null
+        dex: null
+      proficient: null
+      properties:
+        - mgc
+      strength: null
+      type:
+        value: ring
+        baseItem: ''
+      attuned: false
+      equipped: true
+    effects: []
+    sort: 0
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.DD0bcduT9KudrnSX'
+  - name: Invisibility
+    system:
+      description:
+        value: >-
+          <p>A creature you touch has the &amp;Reference[invisible apply=false]
+          condition until the spell ends. The spell ends early immediately after
+          the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
+          target one additional creature for each spell slot level above 2.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: creature
+          count: '@item.level - 1'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: ill
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: an eyelash in gum arabic
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: 9svfDetqjhsFP3ey
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: invisibility
+      method: pact
+      sourceItem: class:warlock
+      prepared: 1
+    _id: V264dzrgtYVFOtP7
+    type: spell
+    img: icons/creatures/magical/spirit-undead-ghost-purple.webp
+    effects:
+      - name: Invisible
+        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        duration:
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: systems/dnd5e/icons/svg/statuses/invisible.svg
+        _id: 9svfDetqjhsFP3ey
+        type: base
+        system:
+          changes: []
+        description: >-
+          <p>The spell ends early immediately after the target makes an attack
+          roll, deals damage, or casts a spell.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses:
+          - invisible
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.V264dzrgtYVFOtP7.9svfDetqjhsFP3ey
+    folder: 3SjcO2acsFnWegp4
+    sort: 2700000
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.V264dzrgtYVFOtP7'
+  - name: Mirror Image
+    system:
+      description:
+        value: >-
+          <p>Three illusory duplicates of yourself appear in your space. Until
+          the spell ends, the duplicates move with you and mimic your actions,
+          shifting position so it's impossible to track which image is
+          real.</p><p>Each time a creature hits you with an attack roll during
+          the spell's duration, roll a [[/r
+          (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate
+          destroyed]]{d6 for each} of your remaining duplicates. If any of the
+          d6s rolls a 3 or higher, one of the duplicates is hit instead of you,
+          and the duplicate is destroyed. The duplicates otherwise ignore all
+          other damage and effects. The spell ends when all three duplicates are
+          destroyed.</p><p>A creature is unaffected by this spell if it has the
+          &amp;Reference[blinded apply=false] condition,
+          &amp;Reference[blindsight], or &amp;Reference[truesight].</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          contiguous: false
+          stationary: false
+      range:
+        units: self
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: ill
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: VUqQIaiZoIzxUdf1
+              level: {}
+            - _id: XcTQl9DhT9lC3bxI
+              level: {}
+            - _id: uMsGEsbEZ2hckOKW
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: (@flags.dnd-players-handbook.mirrorImages)d6kh
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: mirror-image
+      method: pact
+      sourceItem: class:warlock
+      prepared: 1
+    _id: ALjIC7vy6KGovnB6
+    type: spell
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    effects:
+      - name: Duplicate A
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/sundries/flags/banner-pink.webp
+        _id: VUqQIaiZoIzxUdf1
+        type: base
+        system:
+          changes:
+            - key: flags.dnd-players-handbook.mirrorImages
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.VUqQIaiZoIzxUdf1
+      - name: Duplicate B
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/sundries/flags/banner-green.webp
+        _id: XcTQl9DhT9lC3bxI
+        type: base
+        system:
+          changes:
+            - key: flags.dnd-players-handbook.mirrorImages
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.XcTQl9DhT9lC3bxI
+      - name: Duplicate C
+        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/sundries/flags/banner-blue.webp
+        _id: uMsGEsbEZ2hckOKW
+        type: base
+        system:
+          changes:
+            - key: flags.dnd-players-handbook.mirrorImages
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.uMsGEsbEZ2hckOKW
+    folder: 3SjcO2acsFnWegp4
+    sort: 5700000
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6'
+  - _id: HADeM94JLwFdAQDI
+    name: Gold Necklace with Emerald Pendant
+    type: loot
+    img: icons/equipment/neck/amulet-round-engraved-green.webp
+    system:
+      description:
+        value: <p>A gold necklace with a fine emerald pendant.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 200
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: art
+        subtype: ''
+      identifier: gold-necklace-with-emerald-pendant
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+    effects: []
+    folder: KAYxa2YunS2ZhhTJ
+    sort: 104688
+    flags:
+      dnd5e:
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.HADeM94JLwFdAQDI'
+  - name: Rewarded
+    type: background
+    _id: U5hQmkScEwlpsbBj
+    img: icons/magic/light/orb-hands-humanoid-yellow.webp
+    system:
+      advancement:
+        uBMWrBIpJFb1nBMl:
+          type: AbilityScoreImprovement
+          configuration:
+            points: 3
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked:
+              - str
+              - dex
+              - con
+            recommendation: null
+            max: null
+          _id: uBMWrBIpJFb1nBMl
+          value:
+            type: asi
+            assignments:
+              cha: 2
+              int: 1
+          level: 0
+          title: ''
+          hint: ''
+          flags: {}
+        O2Mc9ch1hp43fTuS:
+          type: Trait
+          title: Background Proficiencies
+          _id: O2Mc9ch1hp43fTuS
+          configuration:
+            allowReplacements: false
+            choices: []
+            grants:
+              - skills:ins
+              - skills:per
+              - tool:game:card
+            mode: default
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - skills:ins
+              - skills:per
+              - tool:game:card
+          flags: {}
+        YyFlIeZi3SZZFG31:
+          type: ItemGrant
+          title: Background Feat
+          _id: YyFlIeZi3SZZFG31
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              NaPIzH46JhsLCccm: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+          level: 0
+          flags: {}
+          hint: ''
+        vrxusSUfKm1VUhCM:
+          type: Trait
+          title: Choose Languages
+          configuration:
+            grants:
+              - languages:standard:common
+            allowReplacements: false
+            choices:
+              - count: 2
+                pool:
+                  - languages:*
+            mode: default
+          _id: vrxusSUfKm1VUhCM
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - languages:standard:common
+              - languages:standard:dwarvish
+              - languages:standard:elvish
+      description:
+        value: >-
+          <div class="ddb"><h1>Background:
+          Rewarded</h1><p></p><p><strong>Ability Scores:</strong> Intelligence,
+          Wisdom, Charisma<br><strong>Feat:</strong> Skilled<br><strong>Skill
+          Proficiencies:</strong> &amp;Reference[ath]{Insight} and
+          &amp;Reference[prc]{Persuasion}<br><strong>Tool Proficiency:</strong>
+          <em>Choose one kind of Gaming Set</em><br><strong>Equipment:</strong>
+          <em>Choose A or B:</em> (A) a bottle of black ink, an ink pen,
+          Parchment (5 sheets), a gaming set (same as above), a signet ring,
+          Fine Clothes, a Pouch, 18 gp; or (B) 50 GP</p><p>You were living a
+          difficult life before your destiny suddenly changed through a
+          miraculous turn of good fortune. Perhaps a benevolent deity gave you
+          precisely what you most desired. You might have stumbled across a Deck
+          of Many Things and drawn a card with a potent, positive effect. Or
+          maybe you inherited a modest fortune from a distant relative you
+          didn't know you had.</p></div><p>Regardless, you left the daily
+          miseries of your old life behind in favor of a life of adventure and
+          excitement. Your old debts have been paid, responsibilities you
+          thought inescapable are behind you, or you suddenly possess rare and
+          unusual skills unknown to ordinary folk.</p><div class="ddb"><h2>Feat:
+          Skilled</h2></div>
+        chat: ''
+      identifier: rewarded
+      source:
+        revision: 1
+        rules: '2024'
+        book: The Book of Many Things
+        page: ''
+        custom: ''
+        license: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: J9PJ5qRLs9GWloPA
+          group: ''
+          sort: 300000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iiF1oFTvBLTbxemy
+          requiresProficiency: false
+          _id: kOqVdBBe7lQib9KU
+          group: J9PJ5qRLs9GWloPA
+          sort: 325000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.FKcNFpi61lEBq4zB
+          requiresProficiency: false
+          _id: cwkewhAzuNb8d9U0
+          group: J9PJ5qRLs9GWloPA
+          sort: 337500
+        - type: linked
+          count: 5
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iTxnjoMbsC3HeoB6
+          requiresProficiency: false
+          _id: 2V5UnHdiiy4HMETE
+          group: J9PJ5qRLs9GWloPA
+          sort: 343750
+        - type: tool
+          count: 1
+          key: game
+          requiresProficiency: false
+          _id: n9GA0T2MwBA5LAoG
+          group: J9PJ5qRLs9GWloPA
+          sort: 350000
+        - type: linked
+          count: 1
+          key: Compendium.draenal-common.treasure.Item.MhPsBq43bl7dxjvM
+          requiresProficiency: false
+          _id: ex9anqC92yKXn1n0
+          group: J9PJ5qRLs9GWloPA
+          sort: 900000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.LaOBA2voPjxnAcVB
+          requiresProficiency: false
+          _id: SAyhOQk8F6VDN8ud
+          group: J9PJ5qRLs9GWloPA
+          sort: 1000000
+        - type: currency
+          count: 18
+          key: gp
+          requiresProficiency: false
+          _id: 5lIRkV6lne6YUQzR
+          group: J9PJ5qRLs9GWloPA
+          sort: 1100000
+        - type: linked
+          count: 1
+          key: >-
+            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
+          requiresProficiency: false
+          _id: xE5I9A0X3XLsibKf
+          group: J9PJ5qRLs9GWloPA
+          sort: 1050000
+      wealth: '50'
+    effects: []
+    folder: null
+    sort: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.U5hQmkScEwlpsbBj'
+  - name: Skilled
+    system:
+      description:
+        value: >-
+          <p>You gain proficiency in any combination of three skills or tools of
+          your choice.</p><p><strong>Repeatable.</strong> You can take this feat
+          more than once.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: SRD 5.2
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: feat
+        subtype: origin
+      prerequisites:
+        level: null
+        repeatable: true
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: skilled
+      advancement:
+        Mm4MAeZK89zGqmyH:
+          type: Trait
+          _id: Mm4MAeZK89zGqmyH
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 3
+                pool:
+                  - skills:*
+                  - tool:*
+            grants: []
+            mode: default
+          level: 0
+          title: ''
+          hint: ''
+          value:
+            chosen:
+              - skills:acr
+              - skills:his
+              - skills:ste
+          flags: {}
+      crewed: false
+    _id: NaPIzH46JhsLCccm
+    type: feat
+    img: icons/commodities/treasure/medal-ribbon-blue.webp
+    effects: []
+    folder: d5jrO8A6QpjEV9rn
+    sort: 101563
+    flags:
+      dnd5e:
+        sourceId: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+        advancementOrigin: U5hQmkScEwlpsbBj.YyFlIeZi3SZZFG31
+        advancementRoot: U5hQmkScEwlpsbBj.YyFlIeZi3SZZFG31
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.NaPIzH46JhsLCccm'
+  - folder: oLcAEKfoUODjH5eS
+    name: More than a Face
+    type: feat
+    _id: 9kilvqlfRR2JmaNg
+    img: icons/equipment/head/hood-cloth-blue-white.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        e1XHkRRDlDEXW5JG:
+          type: Trait
+          title: Skill or Tool Proficiency
+          _id: e1XHkRRDlDEXW5JG
+          configuration:
+            allowReplacements: false
+            choices:
+              - count: 1
+                pool:
+                  - skills:*
+                  - tool:*
+            grants: []
+            mode: upgrade
+          flags: {}
+          level: 3
+          hint: ''
+          value:
+            chosen:
+              - skills:per
+      description:
+        value: >-
+          <p>A proper disguise goes beyond the face and mannerisms. Changlings
+          must adapt the skills and vocations of those that they are attempting
+          to impersonate. Starting at character level 3, while you are
+          shape-shifted with your Shape-Shifter trait, you gain proficiency in
+          one skill or tool of your choice. You instead gain Expertise in the
+          chosen tool or skill if you already proficient.</p>
+        chat: ''
+      identifier: more-than-a-face
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 3
+      properties: []
+      requirements: Changling
+      type:
+        value: race
+        subtype: ''
+    effects: []
+    sort: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
+        advancementOrigin: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
+        advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.9kilvqlfRR2JmaNg'
+  - folder: JwuB9rAxYzlSVFp3
+    name: Warcaster
+    type: feat
+    _id: BO7vW3L0yIlT5IIr
+    img: icons/magic/symbols/runes-etched-steel-blade.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement:
+        nHxWkSUm7dH3NT14:
+          type: AbilityScoreImprovement
+          _id: nHxWkSUm7dH3NT14
+          configuration:
+            cap: 1
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked:
+              - str
+              - dex
+              - con
+            points: 1
+            recommendation: null
+            max: null
+          flags: {}
+          level: 0
+          hint: ''
+          title: ''
+          value:
+            type: asi
+            assignments:
+              cha: 1
+      description:
+        value: >-
+          <p>You gain the following benefits.</p><p><strong>Ability Score
+          Increase.</strong> Increase your Intelligence, Wisdom, or Charisma
+          score by 1, to a maximum of 20.</p><p><strong>Concentration.</strong>
+          You have Advantage on Constitution saving throws that you make to
+          maintain Concentration.</p><p><strong>Reactive Spell.</strong> When a
+          creature provokes an Opportunity Attack from you by leaving your
+          reach, you can take a Reaction to cast a spell at the creature rather
+          than making an Opportunity Attack. The spell must have a casting time
+          of one action and must target only that
+          creature.</p><p><strong>Somatic Components.</strong> You can perform
+          the Somatic components of spells even when you have weapons or a
+          Shield in one or both hands.</p>
+        chat: ''
+      identifier: warcaster
+      source:
+        revision: 1
+        rules: '2024'
+        book: 5.5E Player's Handbook
+        page: '209'
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: 4
+      properties: []
+      requirements: Spellcasting or Pact Magic Feature
+      type:
+        value: feat
+        subtype: general
+    effects:
+      - name: Concentration
+        img: icons/magic/symbols/runes-etched-steel-blade.webp
+        origin: Compendium.draenal-common.feats.Item.1y87KowB7F872976
+        type: base
+        _id: LAEHOeT4xPKDzEcE
+        system:
+          changes:
+            - key: system.attributes.concentration.roll.mode
+              type: add
+              value: 1
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>You have Advantage on Constitution saving throws that you make to
+          maintain Concentration.</p>
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.BO7vW3L0yIlT5IIr.LAEHOeT4xPKDzEcE
+    sort: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+      dnd5e:
+        sourceId: Compendium.draenal-common.feats.Item.1y87KowB7F872976
+        advancementOrigin: XM26lkv6RY9W7the.bwCLOdauuzoHofil
+        advancementRoot: XM26lkv6RY9W7the.bwCLOdauuzoHofil
+        '-=riders': null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.BO7vW3L0yIlT5IIr'
+  - name: Prestidigitation
+    system:
+      description:
+        value: >-
+          <p>You create a magical effect within range. Choose the effect from
+          the options below. If you cast this spell multiple times, you can have
+          up to three of its non-instantaneous effects active at a
+          time.</p><p><strong>Sensory Effect.</strong> You create an
+          instantaneous, harmless sensory effect, such as a shower of sparks, a
+          puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire
+          Play.</strong> You instantaneously light or snuff out a candle, a
+          torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You
+          instantaneously clean or soil an object no larger than 1 cubic
+          foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or
+          flavor up to 1 cubic foot of nonliving material for 1
+          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small
+          mark, or a symbol appear on an object or a surface for 1
+          hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical
+          trinket or an illusory image that can fit in your hand. It lasts until
+          the end of your next turn. A trinket can deal no damage and has no
+          monetary worth.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '10'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        gbdxQQmWwEAL1zpH:
+          type: utility
+          name: ''
+          _id: gbdxQQmWwEAL1zpH
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: prestidigitation
+      method: pact
+      sourceItem: class:warlock
+      prepared: 1
+    _id: WlVO2LKoJ2d0jhwp
+    type: spell
+    img: icons/weapons/wands/wand-star-white.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 400000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.WlVO2LKoJ2d0jhwp'
+  - name: False Life
+    system:
+      description:
+        value: >-
+          <p>You gain 2d4 + 4 Temporary Hit Points.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> You gain 5 additional Temporary Hit
+          Points for each spell slot level above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: nec
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a drop of alcohol
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          healing:
+            number: 2
+            denomination: 4
+            bonus: '4'
+            types:
+              - temphp
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: '5'
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Temporary Health
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: false-life
+      method: pact
+      sourceItem: class:warlock
+      prepared: 0
+    _id: 9buntVM91S9TaK7q
+    type: spell
+    img: icons/skills/wounds/injury-stapled-flesh-tan.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 3100000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.9buntVM91S9TaK7q'
   - name: The Fates Patron
     type: subclass
-    _id: VerO4z1bp2oCvaVr
+    _id: QsKo7VmteJQLYeCd
     img: modules/draenal-common/assets/icons/hexblade-patron-warlock.webp
     system:
       advancement:
@@ -5168,9 +7363,9 @@ items:
             spell: null
           value:
             added:
-              POYrGyVbh4BbR1i5: Compendium.draenal-common.classes.Item.ZkoFAcmphNv4XHWA
-              aE6RwbddbNn1hRUE: Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j
-              WcBWOjMrZ2vxFpRt: Compendium.draenal-common.classes.Item.Pp8ucFfGQR6SPijx
+              TD2vChRlJWx8S6wD: Compendium.draenal-common.classes.Item.ZkoFAcmphNv4XHWA
+              Ic18Y7VS4oj9CPKT: Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j
+              Nu90x1lGfOGqKQSq: Compendium.draenal-common.classes.Item.Pp8ucFfGQR6SPijx
           level: 3
           title: Features
           hint: ''
@@ -5244,29 +7439,25 @@ items:
         ability: ''
     effects: []
     folder: Tf1u3G57WTSucgzH
-    sort: 100000
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.classes.Item.HP7SJUQSZx72wngA
-      sc-simple-sockets:
-        gemSubtype: null
+    flags: {}
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
     ownership:
       default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.VerO4z1bp2oCvaVr'
+    sort: 0
+    _key: '!actors.items!j7ySRfEobPDT5RZo.QsKo7VmteJQLYeCd'
   - folder: lRvyCxyrsY7jNoBP
     name: The Fates Patron Spells
     type: feat
-    _id: POYrGyVbh4BbR1i5
+    _id: TD2vChRlJWx8S6wD
     img: icons/magic/unholy/hand-light-pink.webp
     system:
       activities: {}
@@ -5363,8 +7554,8 @@ items:
               prepared: 2
           value:
             added:
-              mjTsjTDO5Pewc2zd: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
-              Kqd5XnkQiTWFg5Eg: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
+              hHu0jvFSJnuLCDKD: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
+              p8B12FAMWymVEUgy: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
           level: 3
           title: 2nd-level spells
           hint: ''
@@ -5389,8 +7580,8 @@ items:
               prepared: 2
           value:
             added:
-              0kvm5DvC6QGjfeWK: Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
-              Pw7IWX99n30G1Z6x: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+              GHrb8NgSFXYLY1gG: Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
+              OsPSZCG3ljPaxQhz: Compendium.dnd5e.spells24.Item.phbsplInflictWou
           level: 3
           title: 1st-level spells
           hint: ''
@@ -5439,31 +7630,28 @@ items:
         subtype: ''
     effects: []
     sort: 112500
+    ownership:
+      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.ZkoFAcmphNv4XHWA
-        advancementOrigin: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.POYrGyVbh4BbR1i5'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.TD2vChRlJWx8S6wD'
   - folder: lRvyCxyrsY7jNoBP
     name: Fate's Omen
     type: feat
-    _id: aE6RwbddbNn1hRUE
+    _id: Ic18Y7VS4oj9CPKT
     img: icons/magic/unholy/barrier-fire-pink.webp
     system:
       activities:
@@ -5552,7 +7740,7 @@ items:
               prepared: 2
           value:
             added:
-              FqcG0f9C0oyGkViE: Compendium.dnd5e.spells24.Item.phbsplHex0000000
+              SDdqDuHYjQ485Umm: Compendium.dnd5e.spells24.Item.phbsplHex0000000
           level: 3
           title: Fate's Omen
           hint: ''
@@ -5565,11 +7753,11 @@ items:
           benefits.</p><p><strong>Effortless Agony.</strong> You always have the
           @UUID[Compendium.dnd5e.spells24.Item.phbsplHex0000000]{Hex} spell
           prepared. You can cast it without expending a spell slot and without
-          the need for concentration. Casting the spell in this way casts it at
-          the level of your Pact Magic spell slots. Once you use this feature,
-          you can't use it again until you complete a Short or Long Rest or you
-          use your Magical Cunning feature.</p><p><strong>Bonus Damage.</strong>
-          Your damage rolls against creatures cursed by you gain a 1d6 damage
+          the need for concentration. Casting Hex in this way casts it at 1st
+          level. Once you use this feature, you can't use it again until you
+          complete a Short or Long Rest or you use your Magical Cunning
+          feature.</p><p><strong>Bonus Damage.</strong> Your damage rolls
+          against creatures cursed by you gain a 1d6 damage
           bonus.</p><p><strong>Improved Critical.</strong> Any attack roll you
           make against a creature cursed by you is a critical hit on a roll of a
           19 or 20 on the d20.</p><p><strong>Soul Siphon.</strong> If a creature
@@ -5599,31 +7787,30 @@ items:
         subtype: ''
     effects: []
     sort: 100000
+    ownership:
+      default: 0
     flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j
-        advancementOrigin: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
       sc-simple-sockets:
         gemSubtype: null
+      dnd5e:
+        sourceId: Compendium.draenal-common.classes.Item.JuoWB9ngJ4v9L63j
+        advancementOrigin: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.aE6RwbddbNn1hRUE'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.Ic18Y7VS4oj9CPKT'
   - folder: lRvyCxyrsY7jNoBP
     name: Hand of Fate
     type: feat
-    _id: WcBWOjMrZ2vxFpRt
+    _id: Nu90x1lGfOGqKQSq
     img: icons/equipment/hand/glove-cuffed-leather-purple.webp
     system:
       activities: {}
@@ -5667,7 +7854,9 @@ items:
             spell: null
             type: feat
           value:
-            added: {}
+            added:
+              '3':
+                jO74ZJa4nN7MnTe2: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
             replaced: {}
           title: Fate's Patron Invocation
           hint: >-
@@ -5706,27 +7895,24 @@ items:
         subtype: ''
     effects: []
     sort: 200000
+    ownership:
+      default: 0
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.classes.Item.Pp8ucFfGQR6SPijx
-        advancementOrigin: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.WcBWOjMrZ2vxFpRt'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.Nu90x1lGfOGqKQSq'
   - folder: ok52NyQ37ye1xW8K
     name: Armor of Agathys
     type: spell
@@ -5945,8 +8131,8 @@ items:
           systemId: dnd5e
           systemVersion: 5.3.3
           lastModifiedBy: draenalcommon000
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           compendiumSource: null
           duplicateSource: null
           exportSource: null
@@ -5954,30 +8140,27 @@ items:
         showIcon: 1
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.0kvm5DvC6QGjfeWK.f4WchdoGtphyv3TQ
+          !actors.items.effects!j7ySRfEobPDT5RZo.GHrb8NgSFXYLY1gG.f4WchdoGtphyv3TQ
     flags:
       dnd5e:
         sourceId: Compendium.draenal-common.spells.Item.pg9FwIDYps5Bjjdt
-        advancementOrigin: POYrGyVbh4BbR1i5.kOD0ijIabizMVkqc
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: TD2vChRlJWx8S6wD.kOD0ijIabizMVkqc
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    _id: 0kvm5DvC6QGjfeWK
-    sort: 100000
     ownership:
       default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.0kvm5DvC6QGjfeWK'
+    _id: GHrb8NgSFXYLY1gG
+    sort: 100000
+    _key: '!actors.items!j7ySRfEobPDT5RZo.GHrb8NgSFXYLY1gG'
   - name: Inflict Wounds
     system:
       description:
@@ -6098,33 +8281,33 @@ items:
       method: pact
       prepared: 2
       sourceItem: feat:the-fates-patron-spells
-    _id: Pw7IWX99n30G1Z6x
+    _id: OsPSZCG3ljPaxQhz
     type: spell
     img: icons/skills/wounds/injury-pain-body-orange.webp
     effects: []
     folder: pBaAAtXBCq9FVEnL
     sort: 1500000
+    ownership:
+      default: 0
     flags:
       dnd5e:
+        riders:
+          activity: []
+          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplInflictWou
-        advancementOrigin: POYrGyVbh4BbR1i5.kOD0ijIabizMVkqc
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: TD2vChRlJWx8S6wD.kOD0ijIabizMVkqc
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.Pw7IWX99n30G1Z6x'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.OsPSZCG3ljPaxQhz'
   - name: Spiritual Weapon
     system:
       description:
@@ -6260,33 +8443,33 @@ items:
       method: pact
       prepared: 2
       sourceItem: feat:the-fates-patron-spells
-    _id: mjTsjTDO5Pewc2zd
+    _id: hHu0jvFSJnuLCDKD
     type: spell
     img: icons/weapons/axes/axe-double-gold.webp
     effects: []
     folder: 3SjcO2acsFnWegp4
     sort: 200000
+    ownership:
+      default: 0
     flags:
       dnd5e:
+        riders:
+          activity: []
+          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
-        advancementOrigin: POYrGyVbh4BbR1i5.vzIQip4KvpcXtr0X
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: TD2vChRlJWx8S6wD.vzIQip4KvpcXtr0X
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.mjTsjTDO5Pewc2zd'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.hHu0jvFSJnuLCDKD'
   - name: Arcane Vigor
     system:
       description:
@@ -6723,33 +8906,33 @@ items:
       method: pact
       prepared: 2
       sourceItem: feat:the-fates-patron-spells
-    _id: Kqd5XnkQiTWFg5Eg
+    _id: p8B12FAMWymVEUgy
     type: spell
     img: icons/magic/life/cross-embers-glow-yellow-purple.webp
     effects: []
     folder: 3SjcO2acsFnWegp4
     sort: 5300000
+    ownership:
+      default: 0
     flags:
       dnd5e:
+        riders:
+          activity: []
+          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplArcaneVigo
-        advancementOrigin: POYrGyVbh4BbR1i5.vzIQip4KvpcXtr0X
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: TD2vChRlJWx8S6wD.vzIQip4KvpcXtr0X
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.Kqd5XnkQiTWFg5Eg'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.p8B12FAMWymVEUgy'
   - name: Hex
     system:
       description:
@@ -6998,8 +9181,8 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-        YLs6hi05QfPqeGxb:
-          _id: YLs6hi05QfPqeGxb
+        fOPp3F7vwQIa8q2G:
+          _id: fOPp3F7vwQIa8q2G
           type: forward
           name: Place Curse (free casting)
           sort: 100001
@@ -7032,7 +9215,7 @@ items:
       method: pact
       prepared: 2
       sourceItem: feat:fates-omen
-    _id: FqcG0f9C0oyGkViE
+    _id: SDdqDuHYjQ485Umm
     type: spell
     img: icons/magic/symbols/star-yellow.webp
     effects:
@@ -7070,8 +9253,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7080,7 +9263,7 @@ items:
         start: null
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE.ljMTBKPVmEnLPX1b
+          !actors.items.effects!j7ySRfEobPDT5RZo.SDdqDuHYjQ485Umm.ljMTBKPVmEnLPX1b
       - name: Hexed Dexterity
         origin: Compendium.dnd5e.spells24.Item.phbsplHex0000000
         duration:
@@ -7115,8 +9298,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7125,7 +9308,7 @@ items:
         start: null
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE.Mmss2SPIy7wtt2PV
+          !actors.items.effects!j7ySRfEobPDT5RZo.SDdqDuHYjQ485Umm.Mmss2SPIy7wtt2PV
       - name: Hexed Constitution
         origin: Compendium.dnd5e.spells24.Item.phbsplHex0000000
         duration:
@@ -7160,8 +9343,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7170,7 +9353,7 @@ items:
         start: null
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE.XVQwGWbC0A1svBNm
+          !actors.items.effects!j7ySRfEobPDT5RZo.SDdqDuHYjQ485Umm.XVQwGWbC0A1svBNm
       - name: Hexed Intelligence
         origin: Compendium.dnd5e.spells24.Item.phbsplHex0000000
         duration:
@@ -7205,8 +9388,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7215,7 +9398,7 @@ items:
         start: null
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE.FfVB2Yyb7wfgpsQB
+          !actors.items.effects!j7ySRfEobPDT5RZo.SDdqDuHYjQ485Umm.FfVB2Yyb7wfgpsQB
       - name: Hexed Wisdom
         origin: Compendium.dnd5e.spells24.Item.phbsplHex0000000
         duration:
@@ -7250,8 +9433,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7260,7 +9443,7 @@ items:
         start: null
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE.k2569xtIeXKRReLU
+          !actors.items.effects!j7ySRfEobPDT5RZo.SDdqDuHYjQ485Umm.k2569xtIeXKRReLU
       - name: Hexed Charisma
         origin: Compendium.dnd5e.spells24.Item.phbsplHex0000000
         duration:
@@ -7295,8 +9478,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -7305,1389 +9488,31 @@ items:
         start: null
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE.sC2IXWDs07oTt5JN
+          !actors.items.effects!j7ySRfEobPDT5RZo.SDdqDuHYjQ485Umm.sC2IXWDs07oTt5JN
     folder: pBaAAtXBCq9FVEnL
     sort: 2000000
+    ownership:
+      default: 0
     flags:
       dnd5e:
+        riders:
+          activity: []
+          effect: []
         sourceId: Compendium.dnd5e.spells24.Item.phbsplHex0000000
-        advancementOrigin: aE6RwbddbNn1hRUE.zBk8WnSKyRsb7Btv
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: Ic18Y7VS4oj9CPKT.zBk8WnSKyRsb7Btv
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.FqcG0f9C0oyGkViE'
-  - name: Changling
-    type: race
-    _id: Sc7ufhKGxfgN33uv
-    img: icons/creatures/magical/spirit-undead-masked-blue.webp
-    system:
-      advancement:
-        QZqHBbOe0TVmJiKJ:
-          type: Size
-          _id: QZqHBbOe0TVmJiKJ
-          configuration:
-            sizes:
-              - sm
-              - med
-          flags: {}
-          level: 0
-          hint: ''
-          value:
-            size: med
-          title: ''
-        Wp9ZzaIiwtmdUP9j:
-          type: Trait
-          _id: Wp9ZzaIiwtmdUP9j
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - skills:dec
-                  - skills:ins
-                  - skills:itm
-                  - skills:prf
-                  - skills:per
-              - count: 1
-                pool:
-                  - skills:dec
-                  - skills:ins
-                  - skills:itm
-                  - skills:prf
-                  - skills:per
-            grants: []
-            mode: default
-          flags: {}
-          level: 0
-          hint: >-
-            <div class="ddb"><p>Thanks to your connection to the fey realm, you
-            gain proficiency in two of the following skills of your choice:
-            &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
-            &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance},
-            or &amp;Reference[per]{Persuasion}.</p></div>
-          title: Changling Instrincts
-          icon: icons/skills/social/diplomacy-handshake.webp
-          value:
-            chosen:
-              - skills:dec
-              - skills:itm
-        vf1aKruiiVZ4x2RO:
-          type: ItemGrant
-          title: Traits
-          _id: vf1aKruiiVZ4x2RO
-          configuration:
-            items:
-              - uuid: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
-                optional: false
-              - uuid: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
-                optional: false
-            optional: false
-            spell: null
-          flags: {}
-          value:
-            added:
-              vFkqxzF0eGy7xGz8: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
-              9kilvqlfRR2JmaNg: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
-          level: 0
-          hint: ''
-      description:
-        value: >-
-          <div class="ddb"><p>With ever-changing appearances, changelings reside
-          in many societies undetected.</p><p><span style="font-family:'Roboto
-          Condensed'"><strong>Changeling Traits</strong></span></p><p><span
-          style="font-family:'Roboto Condensed'">Changeling Instincts,
-          Shape-Shifter</span></p><p><strong>Creature Type</strong></p><p>You're
-          a Fey.</p><p><strong>Size</strong></p><p>Medium (about 4–7 feet tall)
-          or Small (about 2–4 feet tall), chosen when you select this
-          species</p><p><strong>Speed</strong></p><p>Your Speed is 30
-          feet.</p><p><strong>Languages</strong></p><p>Your character knows at
-          least three languages: Common plus two languages you roll or choose
-          from the Standard Languages table. Knowledge of a language means your
-          character can communicate in it, read it, and write it. Your class and
-          other features might also give you languages.</p><p>The Standard
-          Languages table lists languages that are widespread on D&amp;D worlds.
-          Every player character knows Common, which originated in the planar
-          metropolis of Sigil, the hub of the multiverse. The other standard
-          languages originated with the first members of the most prominent
-          species in the worlds of D&amp;D and have since spread
-          widely.</p><table
-          style="--sb-table-row-bg-hover:#b3d3df;--sb-table-row-bg-dark:#d7e8ee;--sb-table-row-bg-light:#f1f7f9;--dark-sb-table-row-bg-light:#5e7982;--dark-sb-table-row-bg-dark:#5c7f8c;--dark-sb-table-row-bg-hover:#78a2b0"
-          class="table-compendium
-          table--generic-dice"><caption><p><strong>Standard
-          Languages</strong></p></caption><thead><tr><th><p>1d12</p></th><th><p>Language</p></th><th><p>Origin</p></th></tr></thead><tbody><tr><td><p>—</p></td><td><p>Common</p></td><td><p>Sigil</p></td></tr><tr><td><p>1</p></td><td><p>Common
-          Sign
-          Language</p></td><td><p>Sigil</p></td></tr><tr><td><p>2</p></td><td><p>Draconic</p></td><td><p>Dragons</p></td></tr><tr><td><p>3-4</p></td><td><p>Dwarvish</p></td><td><p>Dwarves</p></td></tr><tr><td><p>5-6</p></td><td><p>Elvish</p></td><td><p>Elves</p></td></tr><tr><td><p>7</p></td><td><p>Giant</p></td><td><p>Giants</p></td></tr><tr><td><p>8</p></td><td><p>Gnomish</p></td><td><p>Gnomes</p></td></tr><tr><td><p>9</p></td><td><p>Goblin</p></td><td><p>Goblinoids</p></td></tr><tr><td><p>10-11</p></td><td><p>Halfling</p></td><td><p>Halflings</p></td></tr><tr><td><p>12</p></td><td><p>Orc</p></td><td><p>Orcs</p></td></tr></tbody></table><p><strong>Changeling
-          Instincts</strong></p><p>Thanks to your connection to the fey realm,
-          you gain proficiency in two of the following skills of your choice:
-          &amp;Reference[dec]{Deception}, &amp;Reference[ins]{Insight},
-          &amp;Reference[itm]{Intimidation}, &amp;Reference[prf]{Performance},
-          or
-          &amp;Reference[per]{Persuasion}.</p><p><strong>Shape-Shifter</strong></p><p>As
-          an action, you can shape-shift to change your appearance and your
-          voice. You determine the specifics of the changes, including your
-          coloration, hair length, and sex. You can also adjust your height and
-          weight and can change your size between Medium and Small. You can make
-          yourself appear as a member of another playable species, though none
-          of your game statistics change. You can't duplicate the appearance of
-          an individual you've never seen, and you must adopt a form that has
-          the same basic arrangement of limbs that you have. This trait doesn't
-          change your clothing and equipment.</p><p>While shape-shifted with
-          this trait, you have Advantage on Charisma checks.</p><p>You stay in
-          the new form until you take an action to revert to your true
-          form.</p></div>
-        chat: ''
-      identifier: changling
-      source:
-        revision: 1
-        rules: '2024'
-        book: 'Eberron: Forge of the Artificer'
-        page: ''
-        custom: ''
-        license: ''
-      movement:
-        units: ft
-        hover: false
-        ignoredDifficultTerrain: []
-        walk: '30'
-        burrow: ''
-        climb: ''
-        fly: ''
-        swim: ''
-      senses:
-        ranges:
-          blindsight: null
-          darkvision: null
-          tremorsense: null
-          truesight: null
-        units: ft
-        special: ''
-      type:
-        value: fey
-        custom: ''
-        subtype: ''
-    effects: []
-    folder: null
-    sort: 0
-    flags:
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.Sc7ufhKGxfgN33uv'
-  - folder: oLcAEKfoUODjH5eS
-    name: Shape-Shifter
-    type: feat
-    _id: vFkqxzF0eGy7xGz8
-    img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
-    system:
-      activities:
-        d7if2E4vE6uxiOiL:
-          type: transform
-          name: Shape-Shift
-          _id: d7if2E4vE6uxiOiL
-          img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
-          sort: 0
-          activation:
-            type: action
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          flags: {}
-          range:
-            units: self
-            override: false
-            special: ''
-          target:
-            template:
-              contiguous: false
-              stationary: false
-              units: ft
-              type: ''
-            affects:
-              choice: false
-              type: ''
-            override: false
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          visibility:
-            level:
-              min: null
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          profiles:
-            - _id: KoxdtbmtSJtT0u6U
-              level: {}
-              movement: []
-              sizes: []
-              types: []
-              uuid: Compendium.draenal-common.pcs.Actor.fM8YMmvP6JIOp6Gd
-            - _id: lRMh5o07pckPMkcA
-              level: {}
-              movement: []
-              sizes: []
-              types: []
-              uuid: Compendium.draenal-common.pcs.Actor.jZJbkFviyihgc3D8
-            - _id: 9AdSUSeHZlvwz2n0
-              level: {}
-              movement: []
-              sizes: []
-              types: []
-              uuid: Compendium.draenal-common.pcs.Actor.rQy6keahFNA1k8A9
-            - _id: gn9uLiHBwKHLyuUZ
-              level: {}
-              movement: []
-              sizes: []
-              types: []
-              uuid: Compendium.draenal-common.pcs.Actor.ag9FB174tGer3kvw
-          settings: null
-          transform:
-            customize: false
-            mode: ''
-            preset: polymorphSelf
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement: {}
-      description:
-        value: >-
-          <div class="ddb"><p>As an action, you can shape-shift to change your
-          appearance and your voice. You determine the specifics of the changes,
-          including your coloration, hair length, and sex. You can also adjust
-          your height and weight and can change your size between Medium and
-          Small. You can make yourself appear as a member of another playable
-          species, though none of your game statistics change. You can't
-          duplicate the appearance of an individual you've never seen, and you
-          must adopt a form that has the same basic arrangement of limbs that
-          you have. This trait doesn't change your clothing and
-          equipment.</p><p>You stay in the new form until you take an action to
-          revert to your true form.</p></div>
-        chat: ''
-      identifier: shape-shifter
-      source:
-        revision: 1
-        rules: '2024'
-        book: 'Eberron: Forge of the Artificer'
-        page: ''
-        custom: ''
-        license: ''
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties: []
-      requirements: Changling
-      type:
-        value: race
-        subtype: ''
-    effects: []
-    sort: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.I8tkpb44JH1zZxl9
-        advancementOrigin: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
-        advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.vFkqxzF0eGy7xGz8'
-  - folder: WbqCEw0rImHkn5Xj
-    name: Charlatan's Die
-    type: equipment
-    _id: SuhtZdDmd1b3bYjr
-    img: icons/sundries/gaming/gaming-set-dice.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      description:
-        value: >-
-          <div class="ddb"><p>Whenever you roll this six-sided die, you can
-          control which number it rolls.</p></div>
-        chat: ''
-      identifier: charlatans-die
-      source:
-        revision: 1
-        rules: '2024'
-        book: Dungeon Master's Guide 2024
-        page: ''
-        custom: ''
-        license: ''
-      identified: true
-      unidentified:
-        description: ''
-        name: Unidentified Equipment
-      container: null
-      quantity: 2
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 100
-        denomination: gp
-      rarity: ''
-      attunement: ''
-      crew:
-        value: []
-      armor:
-        value: null
-        dex: null
-        magicalBonus: ''
-      proficient: null
-      properties:
-        - mgc
-      strength: null
-      type:
-        value: trinket
-        baseItem: ''
-      attuned: false
-      equipped: false
-    effects: []
-    sort: 300000
-    flags:
-      dnd5e:
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.SuhtZdDmd1b3bYjr'
-  - name: Potion of Healing
-    system:
-      description:
-        value: >-
-          <p>This potion is a magic item. As a Bonus Action, you can drink it or
-          administer it to another creature within 5 feet of yourself. The
-          creature that drinks the magical red fluid in this vial regains 2d4 +
-          2 Hit Points.</p>
-        chat: ''
-      price:
-        value: 50
-        denomination: gp
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      identified: true
-      unidentified:
-        description: ''
-      container: null
-      quantity: 1
-      weight:
-        value: 0.5
-        units: lb
-      rarity: ''
-      attunement: ''
-      uses:
-        max: '1'
-        autoDestroy: true
-        spent: 0
-        recovery: []
-      damage:
-        base:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-        replace: false
-      type:
-        value: potion
-        subtype: ''
-      properties:
-        - mgc
-      activities:
-        cNvH4obx5XJ2myYr:
-          type: heal
-          activation:
-            type: bonus
-            value: 1
-            condition: ''
-            override: false
-          consumption:
-            targets:
-              - type: itemUses
-                value: '1'
-                target: ''
-                scaling: {}
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            concentration: false
-            value: ''
-            units: inst
-            special: ''
-            override: false
-          effects: []
-          range:
-            units: touch
-            special: ''
-            override: false
-          target:
-            template:
-              count: ''
-              contiguous: false
-              type: ''
-              size: ''
-              width: ''
-              height: ''
-              units: ft
-              stationary: false
-            affects:
-              count: '1'
-              type: creature
-              choice: false
-              special: ''
-            prompt: false
-            override: false
-          healing:
-            number: 2
-            denomination: 4
-            bonus: '2'
-            types:
-              - healing
-            custom:
-              enabled: false
-              formula: ''
-            scaling:
-              mode: whole
-              number: null
-              formula: ''
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          sort: 0
-          _id: cNvH4obx5XJ2myYr
-          name: ''
-          img: ''
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: potion-of-healing
-      attuned: false
-      equipped: false
-    _id: xfR77eEtXoHCWTRO
-    type: consumable
-    folder: uDk4FBYfcP2JnX6t
-    img: icons/consumables/potions/potion-tube-corked-red.webp
-    effects: []
-    sort: 4800000
-    flags:
-      dnd5e:
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.xfR77eEtXoHCWTRO'
-  - folder: dtXfybmcZj17GujL
-    name: Booming Blade
-    type: spell
-    _id: mBylMZe88syrVS8i
-    img: icons/skills/melee/sword-stuck-glowing-pink.webp
-    system:
-      activities:
-        Jqne3yTadQYfwJSn:
-          type: damage
-          name: Extra Attack Damage
-          sort: 0
-          activation:
-            type: ''
-            condition: Creature moves more than 5 ft
-            override: true
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: false
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects:
-            - _id: 2qkd33UDBqWj5N5J
-              level:
-                min: null
-                max: null
-          flags: {}
-          range:
-            value: '5'
-            units: ft
-            override: true
-          target:
-            template:
-              count: ''
-              contiguous: false
-              type: ''
-              size: ''
-              width: ''
-              height: ''
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: true
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-          damage:
-            parts:
-              - number: null
-                denomination: null
-                bonus: ''
-                types:
-                  - thunder
-                custom:
-                  enabled: false
-                scaling:
-                  mode: whole
-                  number: 1
-                  formula: 1d8
-            critical:
-              allow: true
-          _id: Jqne3yTadQYfwJSn
-          img: null
-        KeSd4ZwIz3eBcCmg:
-          type: damage
-          name: Movement Damage
-          sort: 100000
-          activation:
-            type: ''
-            condition: Creature moves more than 5 ft
-            override: true
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: false
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          flags:
-            ddbimporter:
-              noeffect: true
-          range:
-            units: self
-            override: false
-          target:
-            template:
-              count: ''
-              contiguous: false
-              type: ''
-              size: ''
-              width: ''
-              height: ''
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: true
-            prompt: false
-          uses:
-            spent: 0
-            recovery: []
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-          damage:
-            parts:
-              - number: 1
-                denomination: 8
-                bonus: ''
-                types:
-                  - thunder
-                custom:
-                  enabled: false
-                scaling:
-                  mode: whole
-                  number: 1
-                  formula: ''
-            critical:
-              allow: false
-          _id: KeSd4ZwIz3eBcCmg
-          img: null
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      description:
-        value: >-
-          <div class="ddb"><p>You brandish the weapon used in the spell's
-          casting and make a melee attack with it against one creature within 5
-          feet of you. On a hit, the target suffers the weapon attack's normal
-          effects and then becomes sheathed in booming energy until the start of
-          your next turn. If the target willingly moves 5 feet or more before
-          then, the target takes 1d8 thunder damage, and the spell
-          ends.</p><p>This spell's damage increases when you reach certain
-          levels. At 5th level, the melee attack deals an extra 1d8 thunder
-          damage to the target on a hit, and the damage the target takes for
-          moving increases to 2d8. Both damage rolls increase by 1d8 at 11th
-          level (2d8 and 3d8) and again at 17th level (3d8 and 4d8).</p></div>
-        chat: ''
-      identifier: booming-blade
-      source:
-        revision: 1
-        rules: '2024'
-        book: Tasha's Cauldron of Everything
-        page: ''
-        custom: ''
-        license: ''
-      activation:
-        type: action
-        condition: ''
-      duration:
-        units: round
-        value: '1'
-      level: 0
-      materials:
-        value: a melee weapon worth at least 1 sp
-        consumed: false
-        cost: 0.1
-        supply: 0
-      method: pact
-      properties:
-        - somatic
-        - material
-      range:
-        units: self
-        special: ''
-      school: evo
-      target:
-        template:
-          contiguous: false
-          stationary: false
-          units: ft
-          type: sphere
-          size: '5'
-          count: ''
-        affects:
-          choice: false
-          type: creatureOrObject
-          special: A melee weapon which you can make an attack with
-          count: '1'
-      sourceItem: class:warlock
-      prepared: 1
-    effects:
-      - name: 'Booming Blade: Sheathed in Booming Energy'
-        img: icons/skills/melee/sword-stuck-glowing-pink.webp
-        origin: Compendium.draenal-common.spells.Item.nkqOrpF9L9prak5T
-        type: base
-        _id: RlK1Yr4r1fTl4EJu
-        system:
-          changes: []
-        disabled: false
-        start: null
-        duration:
-          value: 1
-          units: rounds
-          expiry: turnStart
-          expired: false
-        description: >-
-          <p>If the target willingly moves 5 feet or more before then, [[/item
-          Booming Blade activity="Movement Damage"]](it takes thunder damage),
-          and the spell ends.</p>
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        showIcon: 1
-        folder: null
-        sort: 0
-        flags:
-          dnd5e:
-            riders:
-              statuses: []
-        _stats:
-          coreVersion: '14.364'
-          systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.mBylMZe88syrVS8i.RlK1Yr4r1fTl4EJu
-    sort: 0
-    flags:
-      dnd5e:
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.mBylMZe88syrVS8i'
-  - folder: NjqQMLDSpgkNVXmC
-    name: Fate's Touch
-    type: equipment
-    _id: DD0bcduT9KudrnSX
-    img: icons/equipment/finger/ring-cabochon-bronze-green.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      description:
-        value: >-
-          <p>Small rectangles are engraved into and encircle the band. A small
-          blue-hued gemstone of unknown identity is inset on the outer perimeter
-          of the ring. It hums softly.</p>
-        chat: ''
-      identifier: fates-touch
-      source:
-        revision: 1
-        rules: '2024'
-        book: Draenal Homebrew
-        page: ''
-        custom: ''
-        license: ''
-      identified: true
-      unidentified:
-        description: >-
-          <p>You found this small golden ring on your person sometime after you
-          were rewarded. Small rectangles are engraved into and encircle the
-          band. A small blue-hued gemstone of unknown identity is inset on the
-          outer perimeter of the ring. You're not sure what it's worth or where
-          it came from, but you've got no reason to get rid of it.</p>
-        name: Signet Ring
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 0
-        denomination: gp
-      rarity: ''
-      attunement: ''
-      crew:
-        value: []
-      armor:
-        value: null
-        dex: null
-      proficient: null
-      properties:
-        - mgc
-      strength: null
-      type:
-        value: ring
-        baseItem: ''
-      attuned: false
-      equipped: true
-    effects: []
-    sort: 0
-    flags:
-      dnd5e:
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.DD0bcduT9KudrnSX'
-  - name: Invisibility
-    system:
-      description:
-        value: >-
-          <p>A creature you touch has the &amp;Reference[invisible apply=false]
-          condition until the spell ends. The spell ends early immediately after
-          the target makes an attack roll, deals damage, or casts a
-          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
-          target one additional creature for each spell slot level above 2.</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      activation:
-        type: action
-        condition: ''
-        value: 1
-      duration:
-        value: '1'
-        units: hour
-      target:
-        affects:
-          type: creature
-          count: '@item.level - 1'
-          choice: false
-          special: ''
-        template:
-          units: ft
-          contiguous: false
-          type: ''
-          stationary: false
-      range:
-        units: touch
-        special: ''
-      uses:
-        max: ''
-        recovery: []
-        spent: 0
-      level: 2
-      school: ill
-      properties:
-        - vocal
-        - somatic
-        - material
-        - concentration
-      materials:
-        value: an eyelash in gum arabic
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: utility
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: false
-            concentration: false
-          effects:
-            - _id: 9svfDetqjhsFP3ey
-              level: {}
-          range:
-            override: false
-            units: self
-          target:
-            prompt: true
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-          roll:
-            formula: ''
-            name: ''
-            prompt: false
-            visible: false
-          uses:
-            spent: 0
-            recovery: []
-          sort: 0
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: invisibility
-      method: pact
-      sourceItem: class:warlock
-      prepared: 1
-    _id: V264dzrgtYVFOtP7
-    type: spell
-    img: icons/creatures/magical/spirit-undead-ghost-purple.webp
-    effects:
-      - name: Invisible
-        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
-        duration:
-          value: 3600
-          units: seconds
-          expiry: turnStart
-          expired: false
-        disabled: false
-        flags: {}
-        img: systems/dnd5e/icons/svg/statuses/invisible.svg
-        _id: 9svfDetqjhsFP3ey
-        type: base
-        system:
-          changes: []
-        description: >-
-          <p>The spell ends early immediately after the target makes an attack
-          roll, deals damage, or casts a spell.</p>
-        tint: '#ffffff'
-        transfer: false
-        statuses:
-          - invisible
-        sort: 0
-        _stats:
-          coreVersion: '14.364'
-          systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        showIcon: 2
-        start: null
-        folder: null
-        _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.V264dzrgtYVFOtP7.9svfDetqjhsFP3ey
-    folder: 3SjcO2acsFnWegp4
-    sort: 2700000
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.V264dzrgtYVFOtP7'
-  - name: Mirror Image
-    system:
-      description:
-        value: >-
-          <p>Three illusory duplicates of yourself appear in your space. Until
-          the spell ends, the duplicates move with you and mimic your actions,
-          shifting position so it's impossible to track which image is
-          real.</p><p>Each time a creature hits you with an attack roll during
-          the spell's duration, roll a [[/r
-          (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate
-          destroyed]]{d6 for each} of your remaining duplicates. If any of the
-          d6s rolls a 3 or higher, one of the duplicates is hit instead of you,
-          and the duplicate is destroyed. The duplicates otherwise ignore all
-          other damage and effects. The spell ends when all three duplicates are
-          destroyed.</p><p>A creature is unaffected by this spell if it has the
-          &amp;Reference[blinded apply=false] condition,
-          &amp;Reference[blindsight], or &amp;Reference[truesight].</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        license: CC-BY-4.0
-        book: ''
-        revision: 1
-      activation:
-        type: action
-        condition: ''
-        value: null
-      duration:
-        value: '1'
-        units: minute
-      target:
-        affects:
-          choice: false
-        template:
-          units: ft
-          contiguous: false
-          stationary: false
-      range:
-        units: self
-      uses:
-        max: ''
-        recovery: []
-        spent: 0
-      level: 2
-      school: ill
-      properties:
-        - vocal
-        - somatic
-      materials:
-        value: ''
-        consumed: false
-        cost: 0
-        supply: 0
-      activities:
-        dnd5eactivity000:
-          _id: dnd5eactivity000
-          type: utility
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            targets: []
-            scaling:
-              allowed: false
-              max: ''
-            spellSlot: true
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            override: false
-            concentration: false
-          effects:
-            - _id: VUqQIaiZoIzxUdf1
-              level: {}
-            - _id: XcTQl9DhT9lC3bxI
-              level: {}
-            - _id: uMsGEsbEZ2hckOKW
-              level: {}
-          range:
-            override: false
-            units: self
-          target:
-            prompt: true
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-          roll:
-            formula: (@flags.dnd-players-handbook.mirrorImages)d6kh
-            name: ''
-            prompt: false
-            visible: false
-          uses:
-            spent: 0
-            recovery: []
-          sort: 0
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      identifier: mirror-image
-      method: pact
-      sourceItem: class:warlock
-      prepared: 1
-    _id: ALjIC7vy6KGovnB6
-    type: spell
-    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
-    effects:
-      - name: Duplicate A
-        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        disabled: false
-        flags: {}
-        img: icons/sundries/flags/banner-pink.webp
-        _id: VUqQIaiZoIzxUdf1
-        type: base
-        system:
-          changes:
-            - key: flags.dnd-players-handbook.mirrorImages
-              value: 1
-              priority: null
-              type: add
-              phase: initial
-        description: ''
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        _stats:
-          coreVersion: '14.364'
-          systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.VUqQIaiZoIzxUdf1
-      - name: Duplicate B
-        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        disabled: false
-        flags: {}
-        img: icons/sundries/flags/banner-green.webp
-        _id: XcTQl9DhT9lC3bxI
-        type: base
-        system:
-          changes:
-            - key: flags.dnd-players-handbook.mirrorImages
-              value: 1
-              priority: null
-              type: add
-              phase: initial
-        description: ''
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        _stats:
-          coreVersion: '14.364'
-          systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.XcTQl9DhT9lC3bxI
-      - name: Duplicate C
-        origin: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
-        duration:
-          value: 60
-          units: seconds
-          expiry: turnStart
-          expired: false
-        disabled: false
-        flags: {}
-        img: icons/sundries/flags/banner-blue.webp
-        _id: uMsGEsbEZ2hckOKW
-        type: base
-        system:
-          changes:
-            - key: flags.dnd-players-handbook.mirrorImages
-              value: 1
-              priority: null
-              type: add
-              phase: initial
-        description: ''
-        tint: '#ffffff'
-        transfer: false
-        statuses: []
-        sort: 0
-        _stats:
-          coreVersion: '14.364'
-          systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
-          lastModifiedBy: draenalcommon000
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-        start: null
-        showIcon: 1
-        folder: null
-        _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6.uMsGEsbEZ2hckOKW
-    folder: 3SjcO2acsFnWegp4
-    sort: 5700000
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6'
-  - _id: HADeM94JLwFdAQDI
-    name: Gold Necklace with Emerald Pendant
-    type: loot
-    img: icons/equipment/neck/amulet-round-engraved-green.webp
-    system:
-      description:
-        value: <p>A gold necklace with a fine emerald pendant.</p>
-        chat: ''
-      source:
-        rules: '2014'
-        revision: 1
-      identified: true
-      unidentified:
-        description: ''
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 200
-        denomination: gp
-      rarity: ''
-      properties: []
-      type:
-        value: art
-        subtype: ''
-      identifier: gold-necklace-with-emerald-pendant
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-    effects: []
-    folder: KAYxa2YunS2ZhhTJ
-    sort: 104688
-    flags:
-      dnd5e:
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.HADeM94JLwFdAQDI'
-  - _id: 6G31j6ECJZSqk18f
+    _key: '!actors.items!j7ySRfEobPDT5RZo.SDdqDuHYjQ485Umm'
+  - _id: jO74ZJa4nN7MnTe2
     name: Fiendish Vigor
     type: feat
     img: icons/magic/death/undead-zombie-grave-green.webp
@@ -8797,17 +9622,14 @@ items:
           activity: []
           effect: []
         sourceId: Compendium.dnd5e.classes24.Item.phbinvFiendishVi
-        advancementOrigin: WcBWOjMrZ2vxFpRt.oKO8Ud5dhIeb5v77
-        advancementRoot: VerO4z1bp2oCvaVr.kY3ua299gHkwuEmh
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
+        advancementOrigin: Nu90x1lGfOGqKQSq.oKO8Ud5dhIeb5v77
+        advancementRoot: QsKo7VmteJQLYeCd.kY3ua299gHkwuEmh
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
@@ -8815,378 +9637,7 @@ items:
     sort: 0
     ownership:
       default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.6G31j6ECJZSqk18f'
-  - name: Rewarded
-    type: background
-    _id: U5hQmkScEwlpsbBj
-    img: icons/magic/light/orb-hands-humanoid-yellow.webp
-    system:
-      advancement:
-        uBMWrBIpJFb1nBMl:
-          type: AbilityScoreImprovement
-          configuration:
-            points: 3
-            cap: 2
-            fixed:
-              str: 0
-              dex: 0
-              con: 0
-              int: 0
-              wis: 0
-              cha: 0
-            locked:
-              - str
-              - dex
-              - con
-            recommendation: null
-            max: null
-          _id: uBMWrBIpJFb1nBMl
-          value:
-            type: asi
-            assignments:
-              cha: 2
-              int: 1
-          level: 0
-          title: ''
-          hint: ''
-          flags: {}
-        O2Mc9ch1hp43fTuS:
-          type: Trait
-          title: Background Proficiencies
-          _id: O2Mc9ch1hp43fTuS
-          configuration:
-            allowReplacements: false
-            choices: []
-            grants:
-              - skills:ins
-              - skills:per
-              - tool:game:card
-            mode: default
-          level: 0
-          hint: ''
-          value:
-            chosen:
-              - skills:ins
-              - skills:per
-              - tool:game:card
-          flags: {}
-        YyFlIeZi3SZZFG31:
-          type: ItemGrant
-          title: Background Feat
-          _id: YyFlIeZi3SZZFG31
-          configuration:
-            items:
-              - uuid: Compendium.dnd5e.feats24.Item.phbftSkilled0000
-                optional: false
-            optional: false
-            spell: null
-          value:
-            added:
-              NaPIzH46JhsLCccm: Compendium.dnd5e.feats24.Item.phbftSkilled0000
-          level: 0
-          flags: {}
-          hint: ''
-        vrxusSUfKm1VUhCM:
-          type: Trait
-          title: Choose Languages
-          configuration:
-            grants:
-              - languages:standard:common
-            allowReplacements: false
-            choices:
-              - count: 2
-                pool:
-                  - languages:*
-            mode: default
-          _id: vrxusSUfKm1VUhCM
-          flags: {}
-          level: 0
-          hint: ''
-          value:
-            chosen:
-              - languages:standard:common
-              - languages:standard:dwarvish
-              - languages:standard:elvish
-      description:
-        value: >-
-          <div class="ddb"><h1>Background:
-          Rewarded</h1><p></p><p><strong>Ability Scores:</strong> Intelligence,
-          Wisdom, Charisma<br><strong>Feat:</strong> Skilled<br><strong>Skill
-          Proficiencies:</strong> &amp;Reference[ath]{Insight} and
-          &amp;Reference[prc]{Persuasion}<br><strong>Tool Proficiency:</strong>
-          <em>Choose one kind of Gaming Set</em><br><strong>Equipment:</strong>
-          <em>Choose A or B:</em> (A) a bottle of black ink, an ink pen,
-          Parchment (5 sheets), a gaming set (same as above), a signet ring,
-          Fine Clothes, a Pouch, 18 gp; or (B) 50 GP</p><p>You were living a
-          difficult life before your destiny suddenly changed through a
-          miraculous turn of good fortune. Perhaps a benevolent deity gave you
-          precisely what you most desired. You might have stumbled across a Deck
-          of Many Things and drawn a card with a potent, positive effect. Or
-          maybe you inherited a modest fortune from a distant relative you
-          didn't know you had.</p></div><p>Regardless, you left the daily
-          miseries of your old life behind in favor of a life of adventure and
-          excitement. Your old debts have been paid, responsibilities you
-          thought inescapable are behind you, or you suddenly possess rare and
-          unusual skills unknown to ordinary folk.</p><div class="ddb"><h2>Feat:
-          Skilled</h2></div>
-        chat: ''
-      identifier: rewarded
-      source:
-        revision: 1
-        rules: '2024'
-        book: The Book of Many Things
-        page: ''
-        custom: ''
-        license: ''
-      startingEquipment:
-        - type: AND
-          requiresProficiency: false
-          _id: J9PJ5qRLs9GWloPA
-          group: ''
-          sort: 300000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iiF1oFTvBLTbxemy
-          requiresProficiency: false
-          _id: kOqVdBBe7lQib9KU
-          group: J9PJ5qRLs9GWloPA
-          sort: 325000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.FKcNFpi61lEBq4zB
-          requiresProficiency: false
-          _id: cwkewhAzuNb8d9U0
-          group: J9PJ5qRLs9GWloPA
-          sort: 337500
-        - type: linked
-          count: 5
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.iTxnjoMbsC3HeoB6
-          requiresProficiency: false
-          _id: 2V5UnHdiiy4HMETE
-          group: J9PJ5qRLs9GWloPA
-          sort: 343750
-        - type: tool
-          count: 1
-          key: game
-          requiresProficiency: false
-          _id: n9GA0T2MwBA5LAoG
-          group: J9PJ5qRLs9GWloPA
-          sort: 350000
-        - type: linked
-          count: 1
-          key: Compendium.draenal-common.treasure.Item.MhPsBq43bl7dxjvM
-          requiresProficiency: false
-          _id: ex9anqC92yKXn1n0
-          group: J9PJ5qRLs9GWloPA
-          sort: 900000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.LaOBA2voPjxnAcVB
-          requiresProficiency: false
-          _id: SAyhOQk8F6VDN8ud
-          group: J9PJ5qRLs9GWloPA
-          sort: 1000000
-        - type: currency
-          count: 18
-          key: gp
-          requiresProficiency: false
-          _id: 5lIRkV6lne6YUQzR
-          group: J9PJ5qRLs9GWloPA
-          sort: 1100000
-        - type: linked
-          count: 1
-          key: >-
-            Compendium.draenal-common.ddb-draenals-sandbox-ddb-items.Item.3miLAWPUq2WKdy29
-          requiresProficiency: false
-          _id: xE5I9A0X3XLsibKf
-          group: J9PJ5qRLs9GWloPA
-          sort: 1050000
-      wealth: '50'
-    effects: []
-    folder: null
-    sort: 0
-    flags:
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.U5hQmkScEwlpsbBj'
-  - name: Skilled
-    system:
-      description:
-        value: >-
-          <p>You gain proficiency in any combination of three skills or tools of
-          your choice.</p><p><strong>Repeatable.</strong> You can take this feat
-          more than once.</p>
-        chat: ''
-      source:
-        custom: ''
-        rules: '2024'
-        revision: 1
-        license: CC-BY-4.0
-        book: SRD 5.2
-      uses:
-        max: ''
-        spent: 0
-        recovery: []
-      type:
-        value: feat
-        subtype: origin
-      prerequisites:
-        level: null
-        repeatable: true
-        items: []
-      properties: []
-      requirements: ''
-      activities: {}
-      enchant: {}
-      identifier: skilled
-      advancement:
-        Mm4MAeZK89zGqmyH:
-          type: Trait
-          _id: Mm4MAeZK89zGqmyH
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 3
-                pool:
-                  - skills:*
-                  - tool:*
-            grants: []
-            mode: default
-          level: 0
-          title: ''
-          hint: ''
-          value:
-            chosen:
-              - skills:acr
-              - skills:his
-              - skills:ste
-          flags: {}
-      crewed: false
-    _id: NaPIzH46JhsLCccm
-    type: feat
-    img: icons/commodities/treasure/medal-ribbon-blue.webp
-    effects: []
-    folder: d5jrO8A6QpjEV9rn
-    sort: 101563
-    flags:
-      dnd5e:
-        sourceId: Compendium.dnd5e.feats24.Item.phbftSkilled0000
-        advancementOrigin: U5hQmkScEwlpsbBj.YyFlIeZi3SZZFG31
-        advancementRoot: U5hQmkScEwlpsbBj.YyFlIeZi3SZZFG31
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.NaPIzH46JhsLCccm'
-  - folder: oLcAEKfoUODjH5eS
-    name: More than a Face
-    type: feat
-    _id: 9kilvqlfRR2JmaNg
-    img: icons/equipment/head/hood-cloth-blue-white.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement:
-        e1XHkRRDlDEXW5JG:
-          type: Trait
-          title: Skill or Tool Proficiency
-          _id: e1XHkRRDlDEXW5JG
-          configuration:
-            allowReplacements: false
-            choices:
-              - count: 1
-                pool:
-                  - skills:*
-                  - tool:*
-            grants: []
-            mode: upgrade
-          flags: {}
-          level: 3
-          hint: ''
-          value:
-            chosen:
-              - skills:per
-      description:
-        value: >-
-          <p>A proper disguise goes beyond the face and mannerisms. Changlings
-          must adapt the skills and vocations of those that they are attempting
-          to impersonate. Starting at character level 3, while you are
-          shape-shifted with your Shape-Shifter trait, you gain proficiency in
-          one skill or tool of your choice. You instead gain Expertise in the
-          chosen tool or skill if you already proficient.</p>
-        chat: ''
-      identifier: more-than-a-face
-      source:
-        revision: 1
-        rules: '2024'
-        book: Draenal Homebrew
-        page: ''
-        custom: ''
-        license: ''
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: 3
-      properties: []
-      requirements: Changling
-      type:
-        value: race
-        subtype: ''
-    effects: []
-    sort: 0
-    flags:
-      dnd5e:
-        sourceId: Compendium.draenal-common.species.Item.rC3SaUB2Esxw43hg
-        advancementOrigin: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
-        advancementRoot: Sc7ufhKGxfgN33uv.vf1aKruiiVZ4x2RO
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.9kilvqlfRR2JmaNg'
+    _key: '!actors.items!j7ySRfEobPDT5RZo.jO74ZJa4nN7MnTe2'
   - name: Changing Fate
     type: weapon
     img: icons/weapons/staves/staff-simple-green.webp
@@ -9336,7 +9787,7 @@ items:
             type: ''
           name: Change Form
           img: icons/magic/symbols/runes-etched-steel-blade.webp
-        y7JwpoEtSdyGoAiu:
+        4te6O5mDWm16JFUW:
           type: attack
           name: Spellcasting Attack
           sort: 0
@@ -9392,10 +9843,10 @@ items:
             includeBase: true
             parts: []
           img: systems/dnd5e/icons/svg/properties/magical.svg
-          _id: y7JwpoEtSdyGoAiu
+          _id: 4te6O5mDWm16JFUW
           flags:
             dnd5e:
-              dependentOn: RAh8ezGKtGP0T11y
+              dependentOn: 1CtgiQHLnNLHTjLy
           visibility:
             level: {}
             requireAttunement: false
@@ -9666,8 +10117,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9677,7 +10128,7 @@ items:
         showIcon: 1
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.p02hoHkosW0dPWRJ
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.p02hoHkosW0dPWRJ
       - type: enchantment
         name: 'Changed Form: Scimitar'
         img: icons/weapons/swords/scimitar-guard-gold.webp
@@ -9748,8 +10199,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9759,7 +10210,7 @@ items:
         showIcon: 1
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.Xb3DqWWwbeslWzoq
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.Xb3DqWWwbeslWzoq
       - type: enchantment
         name: 'Changed Form: Longsword'
         img: icons/weapons/swords/sword-guard-bronze.webp
@@ -9845,8 +10296,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -9856,7 +10307,7 @@ items:
         showIcon: 1
         folder: null
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.BBXmiGZEcTqdwfKq
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.BBXmiGZEcTqdwfKq
       - name: Rune of Mastery (Longsword)
         img: modules/sc-simple-sockets/assets/runes/runeword-call-to-arms.webp
         origin: Compendium.draenal-common.private-equipment.Item.S9M8wjKuNSwnXaVe
@@ -9897,15 +10348,15 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _id: atL7rRU2WW4YMkGt
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.atL7rRU2WW4YMkGt
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.atL7rRU2WW4YMkGt
       - name: Rune of Mastery (Longsword)
         img: modules/sc-simple-sockets/assets/runes/runeword-chains-of-honor.webp
         origin: Compendium.draenal-common.private-equipment.Item.S9M8wjKuNSwnXaVe
@@ -9951,15 +10402,15 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _id: E8HqJrSTbA7Ld6S3
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.E8HqJrSTbA7Ld6S3
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.E8HqJrSTbA7Ld6S3
       - name: Rune of Mastery (Longsword)
         img: modules/sc-simple-sockets/assets/runes/runeword-ancients-pledge.webp
         origin: Compendium.draenal-common.private-equipment.Item.S9M8wjKuNSwnXaVe
@@ -10000,15 +10451,74 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
           exportSource: null
         _id: T0b6ZPjjpz7NOCcB
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.T0b6ZPjjpz7NOCcB
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.T0b6ZPjjpz7NOCcB
+      - name: Rune of Apprenticeship
+        img: modules/sc-simple-sockets/assets/runes/runeword-insight.webp
+        origin: Compendium.draenal-common.private-equipment.Item.S9M8wjKuNSwnXaVe
+        type: base
+        system:
+          changes:
+            - key: system.bonuses.spell.dc
+              type: add
+              value: 1
+              phase: initial
+              priority: null
+            - key: system.bonuses.msak.attack
+              type: add
+              value: 1
+              phase: initial
+              priority: null
+            - key: system.bonuses.rsak.attack
+              type: add
+              value: 1
+              phase: initial
+              priority: null
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: >-
+          <p>Spells you cast gain a +1 bonus to their Spell Save DCs and Attack
+          rolls while you wield <em>Changing Fate</em>.</p>
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+          sc-simple-sockets:
+            sourceGem:
+              slot: 4
+              sourceId: FAKNxzgmSoXvaiQf
+              type: base
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _id: N6JPeRgcGZ6PGahS
+        _key: >-
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.N6JPeRgcGZ6PGahS
       - type: enchantment
         name: 'Changed Form: Longsword'
         img: icons/weapons/swords/sword-guard-bronze.webp
@@ -10093,13 +10603,13 @@ items:
             enchantmentProfile: BBXmiGZEcTqdwfKq
           core:
             originText: >-
-              Actor.j7ySRfEobPDT5RZo.Item.VYPg3YFY6xFCV8Ql.Activity.pRX7h0y1jsXRUEPp
+              Actor.j7ySRfEobPDT5RZo.Item.L3YAA0MnlosaEemO.Activity.pRX7h0y1jsXRUEPp
         _stats:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10107,9 +10617,9 @@ items:
         start: null
         showIcon: 1
         folder: null
-        _id: H1Pw2eixxw7svzMk
+        _id: mXn0kT3tD4chJoRs
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.H1Pw2eixxw7svzMk
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.mXn0kT3tD4chJoRs
       - type: enchantment
         name: Pact Weapon
         img: icons/skills/melee/weapons-crossed-swords-teal.webp
@@ -10182,8 +10692,8 @@ items:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044103575
-          modifiedTime: 1784044103575
+          createdTime: 1784911167711
+          modifiedTime: 1784911167711
           lastModifiedBy: draenalcommon000
           compendiumSource: null
           duplicateSource: null
@@ -10191,10 +10701,10 @@ items:
         start: null
         showIcon: 1
         folder: null
-        _id: RAh8ezGKtGP0T11y
+        _id: 1CtgiQHLnNLHTjLy
         _key: >-
-          !actors.items.effects!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql.RAh8ezGKtGP0T11y
-    folder: null
+          !actors.items.effects!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO.1CtgiQHLnNLHTjLy
+    folder: cGU25ieVxpiolPUO
     flags:
       sc-simple-sockets:
         sockets:
@@ -10210,7 +10720,7 @@ items:
               description: ''
               color: ''
               hidden: false
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData:
               name: Rune of Mastery (Longsword)
               img: >-
@@ -10245,7 +10755,7 @@ items:
               description: ''
               color: ''
               hidden: false
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData:
               name: Rune of Skill (Deception)
               img: >-
@@ -10312,8 +10822,8 @@ items:
               condition: ''
               description: ''
               color: ''
-              hidden: true
-              deleteGemOnRemoval: false
+              hidden: false
+              deleteGemOnRemoval: true
             _gemData:
               name: Rune of Honing (Longsword)
               img: >-
@@ -10328,19 +10838,39 @@ items:
                 gain a +1 bonus to attack and damage rolls you make with
                 Changing Fate as a
                 longsword.</p>","chat":""},"identifier":"rune-of-honing","source":{"revision":1,"rules":"2024","book":"Draenal
-                Homebrew","page":"","custom":"","license":""},"identified":true,"unidentified":{"description":""},"container":null,"quantity":1,"weight":{"value":0,"units":"lb"},"price":{"value":0,"denomination":"gp"},"rarity":"","activities":{},"uses":{"spent":0,"recovery":[]},"properties":["mgc"],"type":{"value":"rune-of-power","subtype":""}},"effects":[],"sort":0,"ownership":{"default":0,"eDQM6H9v2Xf0fBZR":3},"flags":{"sc-simple-sockets":{"gemSubtype":"rune-of-power","gemCritThreshold":null,"gemCritMultiplier":null,"gemAttackBonus":null}},"_stats":{"coreVersion":"14.364","systemId":"dnd5e","systemVersion":"5.3.3","createdTime":1784042895671,"modifiedTime":1784043117180,"lastModifiedBy":"eDQM6H9v2Xf0fBZR","compendiumSource":null,"duplicateSource":null,"exportSource":null}}
+                Homebrew","page":"","custom":"","license":""},"identified":true,"unidentified":{"description":""},"container":null,"quantity":1,"weight":{"value":0,"units":"lb"},"price":{"value":0,"denomination":"gp"},"rarity":"","activities":{},"uses":{"spent":0,"recovery":[]},"properties":["mgc"],"type":{"value":"rune-of-power","subtype":""}},"effects":[],"sort":0,"ownership":{"default":0},"flags":{"sc-simple-sockets":{"gemSubtype":"rune-of-power","gemCritThreshold":null,"gemCritMultiplier":null,"gemAttackBonus":null}},"_stats":{"coreVersion":"14.364","systemId":"dnd5e","systemVersion":"5.3.3","createdTime":1784042895671,"modifiedTime":1784043117180,"lastModifiedBy":"draenalcommon000","duplicateSource":null,"exportSource":null,"compendiumSource":null}}
             _slot: 3
-          - gem: null
-            img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
-            name: Empty
+          - gem:
+              name: Rune of Apprenticeship
+              img: modules/sc-simple-sockets/assets/runes/runeword-insight.webp
+            img: modules/sc-simple-sockets/assets/runes/runeword-insight.webp
+            name: Rune of Apprenticeship
             slotConfig:
               name: ''
               condition: ''
               description: ''
               color: ''
-              hidden: true
-              deleteGemOnRemoval: false
-            _gemData: null
+              hidden: false
+              deleteGemOnRemoval: true
+            _gemData:
+              name: Rune of Apprenticeship
+              img: modules/sc-simple-sockets/assets/runes/runeword-insight.webp
+              description: >-
+                <p>Spells you cast gain a +1 bonus to their Spell Save DCs and
+                Attack rolls while you wield <em>Changing Fate</em>.</p>
+              socketDescription: ''
+              data: >-
+                {"folder":"nY8L2IYFxZEYe5TQ","name":"Rune of
+                Apprenticeship","type":"loot","img":"modules/sc-simple-sockets/assets/runes/runeword-insight.webp","system":{"description":{"value":"<p>Spells
+                you cast gain a +1 bonus to their Spell Save DCs and Attack
+                rolls while you wield <em>Changing
+                Fate</em>.</p>","chat":""},"identifier":"rune-of-apprenticeship","source":{"revision":1,"rules":"2024","book":"Draenal
+                Homebrew","page":"","custom":"","license":""},"identified":true,"unidentified":{"description":""},"container":null,"quantity":1,"weight":{"value":0,"units":"lb"},"price":{"value":0,"denomination":"gp"},"rarity":"","activities":{},"uses":{"spent":0,"recovery":[]},"properties":["mgc"],"type":{"value":"rune-of-power","subtype":""}},"effects":[{"name":"Rune
+                of
+                Apprenticeship","img":"modules/sc-simple-sockets/assets/runes/runeword-insight.webp","origin":"Compendium.draenal-common.private-equipment.Item.t8au95KU0HS0LSEA","type":"base","_id":"FAKNxzgmSoXvaiQf","system":{"changes":[{"key":"system.bonuses.spell.dc","type":"add","value":1,"phase":"initial","priority":null},{"key":"system.bonuses.msak.attack","type":"add","value":1,"phase":"initial","priority":null},{"key":"system.bonuses.rsak.attack","type":"add","value":1,"phase":"initial","priority":null}]},"disabled":true,"start":null,"duration":{"value":null,"units":"seconds","expiry":null,"expired":false},"description":"<p>Spells
+                you cast gain a +1 bonus to their Spell Save DCs and Attack
+                rolls while you wield <em>Changing
+                Fate</em>.</p>","tint":"#ffffff","transfer":false,"statuses":[],"showIcon":1,"folder":null,"sort":0,"flags":{"dnd5e":{"riders":{"statuses":[]}}},"_stats":{"coreVersion":"14.364","systemId":"dnd5e","systemVersion":"5.3.3","createdTime":1784907894802,"modifiedTime":1784908006606,"lastModifiedBy":"eDQM6H9v2Xf0fBZR","compendiumSource":null,"duplicateSource":null,"exportSource":null}}],"sort":0,"ownership":{"default":0,"eDQM6H9v2Xf0fBZR":3},"flags":{"sc-simple-sockets":{"gemSubtype":"rune-of-power","gemCritThreshold":null,"gemCritMultiplier":null}},"_stats":{"coreVersion":"14.364","systemId":"dnd5e","systemVersion":"5.3.3","createdTime":1784907830515,"modifiedTime":1784907972808,"lastModifiedBy":"eDQM6H9v2Xf0fBZR","compendiumSource":null,"duplicateSource":null,"exportSource":null}}
             _slot: 4
           - gem: null
             img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
@@ -10351,7 +10881,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 5
           - gem: null
@@ -10363,7 +10893,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 6
           - gem: null
@@ -10375,7 +10905,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 7
           - gem: null
@@ -10387,7 +10917,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 8
           - gem: null
@@ -10399,7 +10929,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 9
           - gem: null
@@ -10411,7 +10941,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 10
           - gem: null
@@ -10423,7 +10953,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 11
           - gem: null
@@ -10435,7 +10965,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 12
           - gem: null
@@ -10447,7 +10977,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 13
           - gem: null
@@ -10459,7 +10989,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 14
           - gem: null
@@ -10471,7 +11001,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 15
           - gem: null
@@ -10483,7 +11013,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 16
           - gem: null
@@ -10495,7 +11025,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 17
           - gem: null
@@ -10507,7 +11037,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 18
           - gem: null
@@ -10519,7 +11049,7 @@ items:
               description: ''
               color: ''
               hidden: true
-              deleteGemOnRemoval: false
+              deleteGemOnRemoval: true
             _gemData: null
             _slot: 19
         socketTabEnabled: true
@@ -10527,17 +11057,17 @@ items:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1784044103575
-      modifiedTime: 1784044103575
+      createdTime: 1784911167711
+      modifiedTime: 1784911167711
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: null
       duplicateSource: null
-    _id: VYPg3YFY6xFCV8Ql
-    sort: 100000
     ownership:
       default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.VYPg3YFY6xFCV8Ql'
+    _id: L3YAA0MnlosaEemO
+    sort: 100000
+    _key: '!actors.items!j7ySRfEobPDT5RZo.L3YAA0MnlosaEemO'
 effects: []
 folder: null
 flags:
@@ -10714,8 +11244,8 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1784044103575
-  modifiedTime: 1784044103720
+  createdTime: 1784911167711
+  modifiedTime: 1784911167915
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

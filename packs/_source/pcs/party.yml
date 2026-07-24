@@ -32,6 +32,8 @@ system:
     - actor: VEoQngvy2IqH0iqi
     - actor: 73mrLnim6n3ngDYD
     - actor: 5GYxPzZPxgL8sUPK
+    - actor: InKFB7NailcYFYxt
+    - actor: 3CBsMTTPyu150isc
   primaryVehicle: null
 prototypeToken:
   name: Party
@@ -232,8 +234,8 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1784044101324
-  modifiedTime: 1784044103727
+  createdTime: 1784911165687
+  modifiedTime: 1784911167921
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
