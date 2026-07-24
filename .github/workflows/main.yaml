@@ -82,11 +82,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci --ignore-scripts
 
-      - name: Build Packs
-        run: npm run pack:compile
-
       - name: Clean Packs
         run: npm run pack:clean
+
+      - name: Build Packs
+        run: npm run pack:file-to-foundry
 
       # Extract version embedded in the tag.
       # This step expects the tag to be one of the following formats:
