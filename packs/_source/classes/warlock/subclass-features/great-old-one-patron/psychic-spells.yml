@@ -1,0 +1,56 @@
+folder: fZCnmjJTV17K1rd3
+name: Psychic Spells
+type: feat
+_id: KWjKLgIDbVOQ5GCu
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you cast a Warlock spell that deals damage, you can change its
+      damage type to Psychic. In addition, when you cast a Warlock spell that is
+      an Enchantment or Illusion, you can do so without Verbal or Somatic
+      components.</p>
+    chat: ''
+  identifier: psychic-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: Great Old One Patron
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786465039776
+  modifiedTime: 1786465066513
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KWjKLgIDbVOQ5GCu'
+

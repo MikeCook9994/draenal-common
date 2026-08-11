@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Socketable Mind Crystals
+color: null
+sorting: a
+_id: aTosll3sJVu88MNC
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786468018395
+  modifiedTime: 1786468018395
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!aTosll3sJVu88MNC'
+

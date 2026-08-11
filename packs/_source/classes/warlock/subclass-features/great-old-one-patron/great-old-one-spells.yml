@@ -1,0 +1,111 @@
+folder: fZCnmjJTV17K1rd3
+name: Great Old one Spells
+type: feat
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    vzIQip4KvpcXtr0X:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplTashasHide
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 2nd-level spells
+      hint: ''
+      _id: vzIQip4KvpcXtr0X
+      flags: {}
+    kOD0ijIabizMVkqc:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: pact
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          prepared: 2
+      value: {}
+      level: 3
+      title: 1st-level spells
+      hint: ''
+      _id: kOD0ijIabizMVkqc
+      flags: {}
+  description:
+    value: >-
+      <p>When you reach a Warlock level specified in the Patron Spells table,
+      you thereafter always have the listed spells prepared.</p><h4>Patron
+      Spells</h4><table><thead><tr><td><p>Warlock Level</p></td><td><p>Patron
+      Spells</p></td></tr></thead><tbody><tr><td><p>3</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect
+      Thoughts},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDissonantW]{Dissonant
+      Whispers},
+      @UUID[Compendium.dnd5e.spells24.Item.phbPhantasmalFor]{Phantasmal Force},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplTashasHide]{Hideous
+      Laughter}</p></td></tr><tr><td><p>5</p></td><td><p>Clairvoyance, Hunger of
+      Hadar</p></td></tr><tr><td><p>7</p></td><td><p>Confusion, Summon
+      Aberration</p></td></tr><tr><td><p>9</p></td><td><p>Modify Memory,
+      Telekinesis</p></td></tr></tbody></table>
+    chat: ''
+  identifier: hexblade-patron-spells
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Great Old One Patron
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786464992880
+  modifiedTime: 1786465221852
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+_id: dPAnXmA9kez8HMtG
+sort: 100000
+_key: '!items!dPAnXmA9kez8HMtG'
+

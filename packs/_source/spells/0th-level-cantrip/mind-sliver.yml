@@ -1,0 +1,190 @@
+folder: dtXfybmcZj17GujL
+name: Mind Sliver
+type: spell
+_id: 6y6vTrtIYem48F6n
+img: icons/magic/unholy/projectile-bolts-salvo-pink.webp
+system:
+  activities:
+    2SPrpr59ELh7BC93:
+      type: save
+      name: ''
+      _id: 2SPrpr59ELh7BC93
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: cl3sX3J2aEGe3uM7
+          level: {}
+          onSave: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You try to temporarily sliver the mind of one creature you can see
+      within range. The target must succeed on an Intelligence saving throw or
+      take 1d6 Psychic damage and subtract 1d4 from the next saving throw it
+      makes before the end of your next turn.</p><p><strong>Cantrip
+      Upgrade.</strong> The damage increases by 1d6 when you reach levels 5
+      (2d6), 11 (3d6), and 17 (4d6).</p>
+    chat: ''
+  identifier: mind-sliver
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '298'
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: round
+    value: '1'
+  level: 0
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: enc
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: '1'
+      special: ''
+effects:
+  - name: Slivered Mind
+    img: icons/magic/unholy/projectile-bolts-salvo-pink.webp
+    origin: Compendium.draenal-common.spells.Item.6y6vTrtIYem48F6n
+    transfer: false
+    _id: cl3sX3J2aEGe3uM7
+    type: base
+    system:
+      changes:
+        - key: system.bonuses.abilities.save
+          type: subtract
+          value: 1d4
+          phase: initial
+          priority: null
+    disabled: false
+    start: null
+    duration:
+      value: 1
+      units: rounds
+      expiry: roundEnd
+      expired: false
+    description: >-
+      <p>You subtract 1d4 from the next saving throw it makes before the end of
+      your next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786463392954
+      modifiedTime: 1786463484953
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!6y6vTrtIYem48F6n.cl3sX3J2aEGe3uM7'
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786463100487
+  modifiedTime: 1786463392969
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6y6vTrtIYem48F6n'
+

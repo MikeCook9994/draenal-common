@@ -1,0 +1,270 @@
+folder: WbqCEw0rImHkn5Xj
+name: Driftglobe
+type: equipment
+_id: hNNaaHkmI9KmLcEF
+img: modules/draenal-common/assets/magic-items/driftglobe.png
+system:
+  activities:
+    Zc8INdGpSLgobL5i:
+      type: cast
+      name: Emanate Light
+      _id: Zc8INdGpSLgobL5i
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: true
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.dnd5e.spells24.Item.phbsplLight00000
+        ability: ''
+    IrKunIJikjfhSFe4:
+      type: cast
+      name: Emanate Daylight
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: '1'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: true
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.dnd5e.spells24.Item.phbsplDaylight00
+        ability: ''
+      _id: IrKunIJikjfhSFe4
+    XHdyb8vjx9rpgCV2:
+      type: summon
+      _id: XHdyb8vjx9rpgCV2
+      img: ''
+      sort: 200000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: true
+        requireMagic: true
+        identifier: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        disposition: false
+        proficiency: false
+        saves: false
+        ability: ''
+      profiles:
+        - _id: iI3VX9pPKIIbIFo5
+          level: {}
+          types: []
+          uuid: Compendium.draenal-common.summons.Actor.Xh2ICngjSMTbe1VT
+      summon:
+        prompt: true
+        mode: ''
+      name: Follow
+      tempHP: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>This small sphere of thick glass weighs 1 pound. If you are within 60
+      feet of it, you can command it to emanate light equivalent to that of the
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light} or
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight} spell
+      (your choice). Once used, the Daylight effect can't be used again until
+      the next dawn.</p><p>You can issue another command as a Magic action to
+      make the illuminated globe rise into the air and float no more than 5 feet
+      off the ground. The globe hovers in this way until you or another creature
+      grasps it. If you move more than 60 feet from the hovering globe, it
+      follows you until it is within 60 feet of you. It takes the shortest route
+      to do so. If prevented from moving, the globe sinks gently to the ground
+      and becomes inactive, and its light winks out.</p>
+    chat: ''
+  identifier: driftglobe
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Dungeon Master's Guide
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  rarity: uncommon
+  attunement: ''
+  attuned: false
+  equipped: false
+  crew:
+    value: []
+  armor:
+    value: null
+    dex: null
+    magicalBonus: ''
+  proficient: null
+  properties:
+    - mgc
+  strength: null
+  type:
+    value: wondrous
+    baseItem: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    socketTabEnabled: false
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786474509485
+  modifiedTime: 1786475560308
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hNNaaHkmI9KmLcEF'
+

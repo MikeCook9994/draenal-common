@@ -1,0 +1,2350 @@
+_id: mmSpy00000000000
+name: Psionic Rogue
+type: npc
+img: modules/draenal-common/assets/npc-images/Avatar.Spy.webp?v=1786420748949
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: '@prof'
+    movement:
+      climb: '30'
+      walk: '30'
+      units: null
+      hover: false
+      ignoredDifficultTerrain: []
+    attunement:
+      max: 3
+    senses:
+      units: null
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+    spellcasting: str
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: null
+      calc: default
+    hd:
+      spent: 0
+    hp:
+      value: 27
+      max: 27
+      temp: null
+      tempmax: null
+      formula: 6d8
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty:
+      value: null
+    price:
+      value: null
+      denomination: gp
+  details:
+    biography:
+      value: >-
+        <p><em>Token artwork by <a href="https://www.forgotten-adventures.net/"
+        target="_blank" rel="noopener">Forgotten
+        Adventures</a>.</em></p><p><em>Token artwork by <a
+        href="https://www.forgotten-adventures.net/" target="_blank"
+        rel="noopener">Forgotten Adventures</a>.</em></p>
+      public: ''
+    alignment: Chaotic Evil
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+    cr: 2
+    habitat:
+      value:
+        - type: any
+      custom: ''
+    treasure:
+      value:
+        - implements
+        - individual
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    license: ''
+    page: ''
+    custom: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+        - deep
+      custom: ''
+      communication:
+        telepathy:
+          value: 60
+          units: ft
+    important: false
+prototypeToken:
+  name: Psionic Rogue
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: modules/draenal-common/assets/npc-images/Token.Spy.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: true
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  depth: 1
+items:
+  - name: Shortsword
+    system:
+      description:
+        value: <p>[[/attack extended]]. [[/damage average extended]].</p>
+        chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        book: ''
+        license: CC-BY-4.0
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 2
+        units: lb
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      cover: null
+      range:
+        value: null
+        long: null
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      damage:
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: true
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 6
+          types:
+            - piercing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: martialM
+        baseItem: shortsword
+      properties:
+        - fin
+        - lgt
+        - gear
+      proficient: null
+      activities:
+        42jdrHDfDRCcYeL4:
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 6
+                bonus: ''
+                types:
+                  - poison
+                scaling:
+                  number: 1
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: 42jdrHDfDRCcYeL4
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      ammunition: {}
+      mastery: vex
+      identifier: shortsword
+      crew:
+        value: []
+    _id: cZowYloP5f2fxbtI
+    type: weapon
+    folder: fd3qxAXCv2FhExPp
+    img: icons/weapons/swords/sword-guard-worn-purple.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: draenalcommon000
+      createdTime: 1786420000859
+      modifiedTime: 1786420000859
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!mmSpy00000000000.cZowYloP5f2fxbtI'
+  - name: Hand Crossbow
+    system:
+      description:
+        value: <p>[[/attack extended]]. [[/damage average extended]].</p>
+        chat: ''
+      price:
+        value: 75
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        book: ''
+        license: CC-BY-4.0
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 3
+        units: lb
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      cover: null
+      range:
+        value: 30
+        long: 120
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      damage:
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: true
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 6
+          types:
+            - piercing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: martialR
+        baseItem: handcrossbow
+      properties:
+        - amm
+        - lgt
+        - lod
+        - gear
+      proficient: null
+      activities:
+        CJjRI7JX8tziGFSo:
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '30'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 6
+                bonus: ''
+                types:
+                  - poison
+                scaling:
+                  number: 1
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: CJjRI7JX8tziGFSo
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      ammunition:
+        type: crossbowBolt
+      mastery: vex
+      identifier: hand-crossbow
+      crew:
+        value: []
+    _id: 8XNaqNwy1n0AUrl5
+    type: weapon
+    folder: 0qKr1rbesCSNE0MA
+    img: icons/weapons/crossbows/crossbow-slotted.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: draenalcommon000
+      createdTime: 1786420000859
+      modifiedTime: 1786420000859
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!mmSpy00000000000.8XNaqNwy1n0AUrl5'
+  - _id: mmCunningAction0
+    name: Cunning Action
+    type: feat
+    system:
+      type:
+        value: monster
+        subtype: ''
+      activities:
+        2El9isE16lx2LU0K:
+          type: utility
+          _id: 2El9isE16lx2LU0K
+          sort: 0
+          activation:
+            type: bonus
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            formula: ''
+            name: ''
+          name: Expend Use
+          img: systems/dnd5e/icons/svg/monster.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p class="feature">The [[lookup @name lowercase]]{monster} takes the
+          &amp;Reference[Dash apply=false], the &amp;Reference[Disengage
+          apply=false], or &amp;Reference[Hide apply=false] action.</p>
+        chat: ''
+      identifier: cunning-action
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      advancement: {}
+      cover: null
+      crewed: false
+    folder: 4T18pEvubPMQLzvD
+    img: icons/magic/control/hypnosis-mesmerism-watch.webp
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: draenalcommon000
+      createdTime: 1786420000859
+      modifiedTime: 1786420000859
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!mmSpy00000000000.mmCunningAction0'
+  - name: Thieves' Tools
+    system:
+      description:
+        value: >-
+          <p class="phb-meta"><strong>Ability:</strong> Dexterity</p><p
+          class="phb-meta"><strong>Utilize:</strong> Pick a lock (DC 15), or
+          disarm a trap (DC 15)</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 1
+        units: lb
+      price:
+        value: 25
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: ''
+        baseItem: thief
+      ability: dex
+      chatFlavor: ''
+      proficient: null
+      properties:
+        - gear
+      bonus: ''
+      activities:
+        4pIHxWxCdaF3Ieok:
+          type: check
+          activation:
+            type: action
+            value: null
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          check:
+            ability: dex
+            dc:
+              calculation: ''
+              formula: '15'
+            associated: []
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: 4pIHxWxCdaF3Ieok
+          name: Pick a Lock/Disarm a Trap
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: thieves-tools
+      attuned: false
+      equipped: true
+    _id: NHMv5kWuMNacIv5i
+    type: tool
+    folder: GdxYMawvxybALCny
+    img: icons/tools/hand/lockpicks-steel-grey.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: draenalcommon000
+      createdTime: 1786420000859
+      modifiedTime: 1786420000859
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    _key: '!actors.items!mmSpy00000000000.NHMv5kWuMNacIv5i'
+  - name: Soulknife
+    type: weapon
+    _id: cMny0ORnPXMb27SW
+    img: icons/weapons/daggers/dagger-magical-glowing-blue.webp
+    system:
+      activities:
+        y3q8rZVqS0U5xbuY:
+          _id: y3q8rZVqS0U5xbuY
+          type: attack
+          img: null
+          sort: 0
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+          attack:
+            critical: {}
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+        8QvSWxX6LAwH9Pv2:
+          type: utility
+          name: Teleport
+          _id: 8QvSWxX6LAwH9Pv2
+          img: ''
+          sort: 100000
+          activation:
+            type: bonus
+            override: false
+            condition: Immediately after hitting a creature with a ranged attack
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: ''
+        chat: ''
+      identifier: soulknife
+      source:
+        revision: 1
+        rules: '2024'
+        book: Draenal Homebrew
+        page: ''
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      attuned: false
+      equipped: true
+      crew:
+        value: []
+      ammunition: {}
+      armor: {}
+      damage:
+        base:
+          types:
+            - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            number: 1
+          number: 1
+          denomination: 4
+          bonus: ''
+        versatile:
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      properties:
+        - fin
+        - lgt
+        - thr
+      proficient: null
+      range:
+        units: ft
+        value: 60
+        long: 120
+        reach: null
+      type:
+        value: simpleM
+        baseItem: dagger
+      mastery: nick
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        socketTabEnabled: false
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786421214615
+      modifiedTime: 1786423370070
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!mmSpy00000000000.cMny0ORnPXMb27SW'
+  - name: Sneak Attack
+    type: feat
+    _id: bJPE3vmNVnrr4Eqj
+    img: icons/weapons/daggers/dagger-simple-blue.webp
+    system:
+      activities:
+        9bldyQOHKPqJYzN3:
+          type: damage
+          _id: 9bldyQOHKPqJYzN3
+          img: ''
+          sort: 0
+          activation:
+            type: special
+            override: false
+            condition: Once per turn, when you deal damage to a creature with a weapon
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          damage:
+            critical:
+              allow: true
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 6
+                bonus: ''
+                types:
+                  - piercing
+                  - slashing
+                  - psychic
+                scaling:
+                  number: 1
+          name: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: ''
+        chat: ''
+      identifier: sneak-attack
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786422212743
+      modifiedTime: 1786422333397
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!mmSpy00000000000.bJPE3vmNVnrr4Eqj'
+  - _id: 7C9S9HDZPQ5GoaNs
+    name: Spellcasting
+    type: feat
+    system:
+      type:
+        value: monster
+        subtype: ''
+      activities:
+        3MkhXZwZstyLUC3q:
+          type: cast
+          _id: 3MkhXZwZstyLUC3q
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: activityUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: '1'
+          spell:
+            challenge:
+              attack: null
+              save: null
+              override: false
+            level: 1
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells24.Item.phbsplColorSpray
+            ability: ''
+          img: ''
+          flags: {}
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          name: ''
+        XKoNE7Wm8Xg5XQgw:
+          type: cast
+          sort: 100000
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: activityUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: '1'
+          spell:
+            challenge:
+              attack: null
+              save: null
+              override: false
+            level: 1
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+            ability: ''
+          img: ''
+          flags: {}
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          name: ''
+          _id: XKoNE7Wm8Xg5XQgw
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p class="feature">The [[lookup @name lowercase]]{monster} casts one
+          of the following spells, requiring no {type} components and using
+          {ability} as the spellcasting ability (spell save DC [[lookup
+          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>2/Day
+          Each:</strong> [[/item Charm Person]], [[/item Detect Thoughts]],
+          [[/item Color Spray]]</p>
+        chat: ''
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      prerequisites:
+        level: null
+        items: []
+        repeatable: false
+      properties: []
+      requirements: ''
+      advancement: {}
+      crewed: false
+    folder: 4T18pEvubPMQLzvD
+    img: icons/magic/symbols/circled-gem-pink.webp
+    effects: []
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786423509718
+      modifiedTime: 1786423622804
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: >-
+        Compendium.draenal-common.npcs.Actor.hANrNhhDueal2e8P.Item.8jz1hgOdTcrtDghy
+      duplicateSource: null
+    sort: 6100000
+    ownership:
+      default: 0
+    _key: '!actors.items!mmSpy00000000000.7C9S9HDZPQ5GoaNs'
+  - name: Color Spray
+    system:
+      description:
+        value: >-
+          <p>You launch a dazzling array of flashing, colorful light. Each
+          creature in a 15-foot Cone originating from you must succeed on a
+          Constitution saving throw or have the &amp;Reference[blinded
+          apply=false] condition until the end of your next turn.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        template:
+          units: ft
+          type: cone
+          size: '15'
+          contiguous: false
+          count: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: ill
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a pinch of colorful sand
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: DKl58EVNaSX976co
+              level: {}
+              onSave: false
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: color-spray
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    type: spell
+    img: icons/magic/light/hand-sparks-smoke-green.webp
+    effects:
+      - name: Blinded
+        img: systems/dnd5e/icons/svg/statuses/blinded.svg
+        origin: Compendium.dnd5e.spells24.Item.phbsplColorSpray
+        transfer: false
+        _id: DKl58EVNaSX976co
+        type: base
+        system:
+          changes: []
+        disabled: false
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786423570727
+          modifiedTime: 1786423570727
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!mmSpy00000000000.DoJn9kGAb7prcMbs.DKl58EVNaSX976co
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.mmSpy00000000000.Item.7C9S9HDZPQ5GoaNs.Activity.3MkhXZwZstyLUC3q
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786423570727
+          modifiedTime: 1786423570727
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!mmSpy00000000000.DoJn9kGAb7prcMbs.dnd5espellchange
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4800000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.7C9S9HDZPQ5GoaNs.Activity.3MkhXZwZstyLUC3q
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786423570727
+      modifiedTime: 1786423570727
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplColorSpray
+    _id: DoJn9kGAb7prcMbs
+    _key: '!actors.items!mmSpy00000000000.DoJn9kGAb7prcMbs'
+  - name: Command
+    system:
+      description:
+        value: >-
+          <p>You speak a one-word command to a creature you can see within
+          range. The target must succeed on a Wisdom saving throw or follow the
+          command on its next turn. Choose the command from these
+          options:</p><p><strong>Approach.</strong> The target moves toward you
+          by the shortest and most direct route, ending its turn if it moves
+          within 5 feet of you.</p><p><strong>Drop.</strong> The target drops
+          whatever it is holding and then ends its
+          turn.</p><p><strong>Flee.</strong> The target spends its turn moving
+          away from you by the fastest available
+          means.</p><p><strong>Grovel.</strong> The target has the Prone
+          condition and then ends its turn.</p><p><strong>Halt.</strong> On its
+          turn, the target doesn't move and takes no action or Bonus
+          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
+          can affect one additional creature for each spell slot level above
+          1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '@item.level'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        value: '60'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: enc
+      properties:
+        - vocal
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: command
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    type: spell
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    effects:
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.mmSpy00000000000.Item.7C9S9HDZPQ5GoaNs.Activity.XKoNE7Wm8Xg5XQgw
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786423598271
+          modifiedTime: 1786423598271
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!mmSpy00000000000.0UYcTRF1YkCVCsZY.dnd5espellchange
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4700000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.7C9S9HDZPQ5GoaNs.Activity.XKoNE7Wm8Xg5XQgw
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786423598271
+      modifiedTime: 1786423598272
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCommand000
+    _id: 0UYcTRF1YkCVCsZY
+    _key: '!actors.items!mmSpy00000000000.0UYcTRF1YkCVCsZY'
+  - name: Leather Armor
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 10
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 11
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: light
+        baseItem: leather
+      properties:
+        - gear
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: null
+      proficient: null
+      activities: {}
+      identifier: leather-armor
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: 0vYMtVoZxNviqsuZ
+    type: equipment
+    folder: G3X11BbtmEqLmEnK
+    img: icons/equipment/chest/breastplate-scale-leather.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786473785545
+      modifiedTime: 1786473785545
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+    _key: '!actors.items!mmSpy00000000000.0vYMtVoZxNviqsuZ'
+effects: []
+folder: rej2SCe1BlhMbQxY
+flags:
+  tokenizer-2:
+    layerStack:
+      - id: L3Uavl9HQ6fREuKr
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/npc-images/assassin.png
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 16.113319415201858
+          'y': 14.099154488301735
+          scaleX: 0.5547390031472975
+          scaleY: 0.5547390031472975
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: 5SlBvS6CTp6gw9mT
+            type: frame-ray
+            src: modules/tokenizer-2/img/default-frame-npc.png
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: VWKz6J1pMP15XkLM
+        type: image
+        name: default frame npc
+        src: modules/tokenizer-2/img/default-frame-npc.png
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    isDynamicRingMode: false
+    avatarLayerStack:
+      - id: qfD7IKD3kBGndQ4A
+        type: image
+        name: Image Layer
+        src: modules/draenal-common/assets/npc-images/assassin.png
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 57.73939457114025
+          'y': 22.827202504869376
+          scaleX: 1.4071004226562505
+          scaleY: 1.4071004226562505
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: custom
+    avatarCanvasSize:
+      width: 512
+      height: 512
+    isOversized: true
+    modeIsOversized: true
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786420000859
+  modifiedTime: 1786473769325
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+sort: 0
+_key: '!actors!mmSpy00000000000'
+

@@ -1,0 +1,67 @@
+folder: Tf1u3G57WTSucgzH
+name: Great Old One Patron
+type: subclass
+_id: CEaOYKzwInaz3byF
+img: icons/magic/perception/eye-slit-pink.webp
+system:
+  advancement:
+    WI4ItIMA0iLjYOdL:
+      type: ItemGrant
+      _id: WI4ItIMA0iLjYOdL
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.classes.Item.FZz1Jp6CxGniwacP
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.dPAnXmA9kez8HMtG
+            optional: false
+          - uuid: Compendium.draenal-common.classes.Item.KWjKLgIDbVOQ5GCu
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 3
+      hint: ''
+      title: Features
+  description:
+    value: >-
+      <p>When you choose this subclass, you might bind yourself to an
+      unspeakable being from the Far Realm or an elder god—a being such as
+      Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger;
+      or Great Cthulhu. Or you might invoke several entities without yoking
+      yourself to one. The motives of these beings are incomprehensible, and the
+      Great Old One might be indifferent to your existence. But the secrets
+      you've learned nevertheless allow you to draw strange magic from it.</p>
+    chat: ''
+  identifier: great-old-one-patron
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '163'
+    custom: ''
+    license: ''
+  classIdentifier: warlock
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786464523714
+  modifiedTime: 1786465084514
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CEaOYKzwInaz3byF'
+

@@ -1,0 +1,146 @@
+folder: aTosll3sJVu88MNC
+name: Empowered Mind Crystal
+type: loot
+_id: guyEONlypETewkA0
+img: icons/commodities/gems/gem-rough-navette-red.webp
+system:
+  description:
+    value: >-
+      <p>While this mind crystal is socketed into
+      @UUID[Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD]{Mind
+      and Might Mitts}, when you cast a spell, you can expend one charge from
+      the mitts to modify the spell in a specific way that has an effect
+      described below.</p><p><strong>Effect. </strong>When you roll damage for
+      the spell, you can reroll a number of damage dice equal to half of the
+      number of gems socketed into the mitts (minimum 1). You must use the new
+      rolls.</p>
+    chat: ''
+  identifier: empowered-mind-crystal
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  activities:
+    IfaURAt3gLBjbI64:
+      type: utility
+      _id: IfaURAt3gLBjbI64
+      img: icons/commodities/gems/gem-rough-navette-red.webp
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Empower Spell
+  uses:
+    spent: 0
+    recovery: []
+  properties:
+    - mgc
+  type:
+    value: mind-crystal
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: mind-crystal
+    gemAllowedTypes:
+      - equipment
+      - equipment:clothing
+      - equipment:heavy
+      - equipment:light
+      - equipment:medium
+      - equipment:natural
+      - equipment:ring
+      - equipment:rod
+      - equipment:shield
+      - equipment:trinket
+      - equipment:vehicle
+      - equipment:wand
+      - equipment:wondrous
+    gemResource:
+      key: ''
+      value: null
+      max: null
+      recovery:
+        period: ''
+        type: recoverAll
+      destroyOnEmpty: false
+    gemTags: []
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786468135926
+  modifiedTime: 1786472472199
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!guyEONlypETewkA0'
+

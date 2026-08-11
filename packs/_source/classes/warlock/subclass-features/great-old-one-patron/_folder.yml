@@ -1,0 +1,20 @@
+type: Item
+folder: Zkn65fsyEcPvMU9E
+name: Great Old One Patron
+color: null
+sorting: a
+_id: fZCnmjJTV17K1rd3
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786464565916
+  modifiedTime: 1786464565916
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!fZCnmjJTV17K1rd3'
+
