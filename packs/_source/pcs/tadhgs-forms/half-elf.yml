@@ -3,7 +3,7 @@ name: Half-Elf
 type: npc
 _id: jZJbkFviyihgc3D8
 img: >-
-  modules/draenal-common/assets/npc-images/Avatar.Tadhg_Half-Elf.webp?v=1779749673691
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Tadhg_Half-Elf.webp
 system:
   currency:
     pp: 0
@@ -459,7 +459,7 @@ prototypeToken:
   depth: 1
   texture:
     src: >-
-      modules/draenal-common/assets/npc-images/Token.Tadhg_Half-Elf.webp?v=1779749826585
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Tadhg_Half-Elf.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -706,8 +706,8 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781401768489
-  modifiedTime: 1781401768511
+  createdTime: 1786859762821
+  modifiedTime: 1786859762846
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

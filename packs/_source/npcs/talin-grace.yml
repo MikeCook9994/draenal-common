@@ -1,7 +1,8 @@
 name: Talin Grace
 type: character
 _id: y5mBesDOsN0KmVXW
-img: modules/draenal-common/assets/npc-images/talin_grace.Avatar.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Talin_Grace.webp
 system:
   currency:
     pp: 0
@@ -503,7 +504,8 @@ prototypeToken:
   height: 1
   depth: 1
   texture:
-    src: modules/draenal-common/assets/npc-images/talin_grace.Token.webp
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Talin_Grace.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -8669,13 +8671,15 @@ folder: null
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  dnd5e:
+    showTokenPortrait: true
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786461839685
-  modifiedTime: 1786471834122
+  modifiedTime: 1786858246253
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

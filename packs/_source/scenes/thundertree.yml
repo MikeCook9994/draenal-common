@@ -9,7 +9,8 @@ levels:
       top: null
     background:
       color: '#999999'
-      src: modules/draenal-common/assets/maps/Thundertree/Thundertree_Roof.webp
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Thundertree/Thundertree_Roof.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -41,7 +42,7 @@ levels:
     background:
       color: '#999999'
       src: >-
-        modules/draenal-common/assets/maps/Thundertree/Thundertree_Wizard_Quarters.webp
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Thundertree/Thundertree_Wizard_Quarters.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -61,8 +62,8 @@ levels:
       rotation: 0
     visibility:
       levels:
-        - yWe16pTQLOk8zCDg
         - AedMdVUeBYY10KIH
+        - yWe16pTQLOk8zCDg
     sort: 450000
     flags: {}
     _key: '!scenes.levels!sjHgKkZpMzooVLZm.algl6j3xR60r89CI'
@@ -73,7 +74,8 @@ levels:
       top: null
     background:
       color: '#999999'
-      src: modules/draenal-common/assets/maps/Thundertree/Thundertree_Treetop.webp
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Thundertree/Thundertree_Treetop.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -106,7 +108,8 @@ levels:
       top: 10
     background:
       color: '#999999'
-      src: modules/draenal-common/assets/maps/Thundertree/Thundertree_Ground.webp
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Thundertree/Thundertree_Ground.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -7343,8 +7346,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798561
-            modifiedTime: 1781539798561
+            createdTime: 1786859784646
+            modifiedTime: 1786859784646
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7491,8 +7494,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1781539798561
-            modifiedTime: 1781539798561
+            createdTime: 1786859784647
+            modifiedTime: 1786859784647
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -11886,8 +11889,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798561
-          modifiedTime: 1781539798561
+          createdTime: 1786859784660
+          modifiedTime: 1786859784660
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11945,8 +11948,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1781539798561
-          modifiedTime: 1781539798561
+          createdTime: 1786859784660
+          modifiedTime: 1786859784660
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -11971,8 +11974,8 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781539798561
-  modifiedTime: 1784044750909
+  createdTime: 1786859784628
+  modifiedTime: 1786859784628
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
@@ -11981,7 +11984,7 @@ ownership:
   default: 0
 active: false
 navOrder: 0
-sort: 100000
-templates: []
+sort: 0
 _key: '!scenes!sjHgKkZpMzooVLZm'
+templates: []
 

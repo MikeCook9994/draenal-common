@@ -29,10 +29,10 @@ fog:
     explored: null
     unexplored: null
 environment:
-  darknessLevel: 0
+  darknessLevel: 1
   darknessLock: false
   globalLight:
-    enabled: false
+    enabled: true
     alpha: 0.5
     bright: false
     color: null
@@ -63,6 +63,188 @@ transition:
   activeOnly: false
 drawings: []
 tokens:
+  - name: George Tewbuton
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.George_Tewbuton.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: AhxdTivoYwlt8A68
+    hidden: false
+    sort: 16
+    shape: 4
+    level: defaultLevel0000
+    _id: UfCtb7HOvqusYcf0
+    delta: null
+    x: 1750
+    'y': 490
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - 6F4y3IC3NdOdwrcm
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.UfCtb7HOvqusYcf0'
+  - name: Korda
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Korda.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: HsCEyyIEA7FD1HXJ
+    hidden: false
+    sort: 17
+    shape: 4
+    level: defaultLevel0000
+    _id: ZOUA9V8fLSL0wg6J
+    delta: null
+    x: 1750
+    'y': 630
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - 6F4y3IC3NdOdwrcm
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.ZOUA9V8fLSL0wg6J'
   - name: Fi'Reyn'Erebere Lharithlyn
     displayName: 0
     actorLink: true
@@ -71,7 +253,7 @@ tokens:
     depth: 1
     texture:
       src: >-
-        modules/draenal-common/assets/pc-images/Token.Fi%27Reyn%27Erebere_Lharithlyn.webp?v=1777157417089
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Fi%27Reyn%27Erebere_Lharithlyn.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -144,111 +326,22 @@ tokens:
     flags: {}
     actorId: DqLfAsayienM661c
     hidden: false
-    sort: 5
+    sort: 19
     shape: 4
     level: defaultLevel0000
-    _id: qISNc9iw8XE7eOuX
+    _id: gTLgovASHqf0XN7d
     delta: null
     x: 1820
     'y': 910
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.qISNc9iw8XE7eOuX'
-  - name: George Tewbuton
-    displayName: 0
-    actorLink: true
-    width: 1
-    height: 1
-    depth: 1
-    texture:
-      src: >-
-        modules/draenal-common/assets/pc-images/Token.George_Tewbuton.webp?v=1777157731266
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 0
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    actorId: AhxdTivoYwlt8A68
-    hidden: false
-    sort: 6
-    shape: 4
-    level: defaultLevel0000
-    _id: pVb7UaDk9Du3yu02
-    delta: null
-    x: 1750
-    'y': 490
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.pVb7UaDk9Du3yu02'
+    _regions:
+      - 6F4y3IC3NdOdwrcm
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.gTLgovASHqf0XN7d'
   - texture:
       src: >-
-        modules/draenal-common/assets/npc-images/Token.Tadhg_Dwarf.webp?v=1779749904907
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Tadhg_Dwarf.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -327,107 +420,19 @@ tokens:
     flags: {}
     actorId: 3CBsMTTPyu150isc
     hidden: false
-    sort: 7
+    sort: 20
     shape: 4
     level: defaultLevel0000
-    _id: S5B38nwB10Jg34nD
+    _id: 7pXO56LYQmt4d5IR
     delta: null
     x: 1680
     'y': 910
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.S5B38nwB10Jg34nD'
-  - name: Korda
-    displayName: 0
-    actorLink: true
-    width: 1
-    height: 1
-    depth: 1
-    texture:
-      src: modules/draenal-common/assets/pc-images/Token.Korda.webp?v=1777246111523
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: 1
-    displayBars: 0
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: true
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    actorId: HsCEyyIEA7FD1HXJ
-    hidden: false
-    sort: 8
-    shape: 4
-    level: defaultLevel0000
-    _id: 9twdi99vXuP7DjuC
-    delta: null
-    x: 1750
-    'y': 630
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.9twdi99vXuP7DjuC'
+    _regions:
+      - 6F4y3IC3NdOdwrcm
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.7pXO56LYQmt4d5IR'
   - name: Vaelwyn Lharithlyn
     displayName: 0
     actorLink: true
@@ -436,7 +441,7 @@ tokens:
     depth: 1
     texture:
       src: >-
-        modules/draenal-common/assets/pc-images/Token.Vaelwyn_Lharithlyn.webp?v=1777246011444
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Vaelwyn_Lharithlyn.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -509,534 +514,19 @@ tokens:
     flags: {}
     actorId: 73mrLnim6n3ngDYD
     hidden: false
-    sort: 9
+    sort: 21
     shape: 4
     level: defaultLevel0000
-    _id: Tt9REmiAtjkGFAl9
+    _id: Lv02I7xT6ggVwmgM
     delta: null
     x: 1540
     'y': 490
     elevation: 0
     locked: false
     _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.Tt9REmiAtjkGFAl9'
-  - name: Psionic Rogue
-    displayName: 20
-    actorLink: false
-    width: 1
-    height: 1
-    texture:
-      src: modules/draenal-common/assets/npc-images/Token.Spy.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: -1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    flags: {}
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    depth: 1
-    actorId: mmSpy00000000000
-    hidden: true
-    sort: 10
-    shape: 4
-    level: defaultLevel0000
-    _id: K5aQiURb2LgLcrxj
-    delta:
-      _id: K5aQiURb2LgLcrxj
-      system:
-        attributes:
-          hp:
-            max: 25
-            value: 25
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.K5aQiURb2LgLcrxj.K5aQiURb2LgLcrxj'
-    x: 560
-    'y': 350
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.K5aQiURb2LgLcrxj'
-  - name: Psionic Rogue
-    displayName: 20
-    actorLink: false
-    width: 1
-    height: 1
-    texture:
-      src: modules/draenal-common/assets/npc-images/Token.Spy.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: -1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    flags: {}
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    depth: 1
-    actorId: mmSpy00000000000
-    hidden: true
-    sort: 11
-    shape: 4
-    level: defaultLevel0000
-    _id: DI4hOa9bU6WMBA0g
-    delta:
-      _id: DI4hOa9bU6WMBA0g
-      system:
-        attributes:
-          hp:
-            max: 26
-            value: 26
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.DI4hOa9bU6WMBA0g.DI4hOa9bU6WMBA0g'
-    x: 630
-    'y': 280
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.DI4hOa9bU6WMBA0g'
-  - name: Psionic Rogue
-    displayName: 20
-    actorLink: false
-    width: 1
-    height: 1
-    texture:
-      src: modules/draenal-common/assets/npc-images/Token.Spy.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: -1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    flags: {}
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    depth: 1
-    actorId: mmSpy00000000000
-    hidden: true
-    sort: 12
-    shape: 4
-    level: defaultLevel0000
-    _id: dSlcpEnOdR9Mdjl2
-    delta:
-      _id: dSlcpEnOdR9Mdjl2
-      system:
-        attributes:
-          hp:
-            max: 38
-            value: 38
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.dSlcpEnOdR9Mdjl2.dSlcpEnOdR9Mdjl2'
-    x: 700
-    'y': 350
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.dSlcpEnOdR9Mdjl2'
-  - name: Oblex Agent
-    displayName: 0
-    actorLink: false
-    width: 1
-    height: 1
-    depth: 1
-    texture:
-      src: modules/draenal-common/assets/npc-images/Token.Ranzzen.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: -1
-    displayBars: 0
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 1
-      subject:
-        scale: 1
-        texture: null
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    flags: {}
-    actorId: 4IFQWuuAvnc6GaJz
-    hidden: true
-    sort: 14
-    shape: 4
-    level: defaultLevel0000
-    _id: CxmkoQuFzGQ0tJxC
-    delta:
-      _id: CxmkoQuFzGQ0tJxC
-      system:
-        attributes:
-          hp:
-            max: 77
-            value: 77
-      items: []
-      effects: []
-      flags:
-        dnd5e: {}
-      name: null
-      type: null
-      img: modules/draenal-common/assets/npc-images/Avatar.Ranzzen.webp
-      ownership: null
-      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.CxmkoQuFzGQ0tJxC.CxmkoQuFzGQ0tJxC'
-    x: 840
-    'y': 350
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.CxmkoQuFzGQ0tJxC'
-  - name: Psionic Rogue
-    displayName: 20
-    actorLink: false
-    width: 1
-    height: 1
-    texture:
-      src: modules/draenal-common/assets/npc-images/Token.Spy.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      fit: contain
-      scaleX: 2
-      scaleY: 2
-      tint: '#ffffff'
-      alphaThreshold: 0.75
-    lockRotation: false
-    rotation: 0
-    alpha: 1
-    disposition: -1
-    displayBars: 20
-    bar1:
-      attribute: attributes.hp
-    bar2:
-      attribute: null
-    light:
-      negative: false
-      priority: 0
-      alpha: 0.5
-      angle: 360
-      bright: 0
-      color: null
-      coloration: 1
-      dim: 0
-      attenuation: 0.5
-      luminosity: 0.5
-      saturation: 0
-      contrast: 0
-      shadows: 0
-      animation:
-        type: null
-        speed: 5
-        intensity: 5
-        reverse: false
-      darkness:
-        min: 0
-        max: 1
-    sight:
-      enabled: false
-      range: 0
-      angle: 360
-      visionMode: basic
-      color: null
-      attenuation: 0.1
-      brightness: 0
-      saturation: 0
-      contrast: 0
-    detectionModes: {}
-    occludable:
-      radius: 0
-    ring:
-      enabled: false
-      colors:
-        ring: null
-        background: null
-      effects: 0
-      subject:
-        scale: 1
-        texture: null
-    flags: {}
-    turnMarker:
-      mode: 1
-      animation: null
-      src: null
-      disposition: false
-    movementAction: null
-    depth: 1
-    actorId: mmSpy00000000000
-    hidden: true
-    sort: 13
-    shape: 4
-    level: defaultLevel0000
-    delta:
-      _id: 4Go1aLisyVfvUF5W
-      system:
-        attributes:
-          hp:
-            max: 20
-            value: 20
-      items: []
-      effects: []
-      flags: {}
-      name: null
-      type: null
-      img: null
-      ownership: null
-      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.YFQ86vTQ8C7GUhR3.4Go1aLisyVfvUF5W'
-    x: 770
-    'y': 280
-    elevation: 0
-    locked: false
-    _movementHistory: []
-    _regions: []
-    _id: YFQ86vTQ8C7GUhR3
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.YFQ86vTQ8C7GUhR3'
+    _regions:
+      - 6F4y3IC3NdOdwrcm
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.Lv02I7xT6ggVwmgM'
   - name: Oblex Agent
     displayName: 0
     actorLink: false
@@ -1045,7 +535,7 @@ tokens:
     depth: 1
     texture:
       src: >-
-        modules/draenal-common/assets/npc-images/Token.Oblex_Agent.webp?v=1781535641506
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Oblex_Agent.webp
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -1115,17 +605,17 @@ tokens:
     flags: {}
     actorId: 4IFQWuuAvnc6GaJz
     hidden: true
-    sort: 15
+    sort: 22
     shape: 4
     level: defaultLevel0000
-    _id: k0YWBYtfISFGRe48
+    _id: zCDZN953b2sHxPwB
     delta:
-      _id: k0YWBYtfISFGRe48
+      _id: zCDZN953b2sHxPwB
       system:
         attributes:
           hp:
-            max: 71
-            value: 71
+            max: 89
+            value: 89
       items: []
       effects: []
       flags: {}
@@ -1133,14 +623,534 @@ tokens:
       type: null
       img: null
       ownership: null
-      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.k0YWBYtfISFGRe48.k0YWBYtfISFGRe48'
+      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.zCDZN953b2sHxPwB.zCDZN953b2sHxPwB'
+    x: 840
+    'y': 350
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.zCDZN953b2sHxPwB'
+  - name: Psionic Rogue
+    displayName: 20
+    actorLink: false
+    width: 1
+    height: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Psionic_Rogue.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    flags: {}
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 1
+    actorId: mmSpy00000000000
+    hidden: true
+    sort: 23
+    shape: 4
+    level: defaultLevel0000
+    _id: u37k0ybMUdSOtGRF
+    delta:
+      _id: u37k0ybMUdSOtGRF
+      system:
+        attributes:
+          hp:
+            max: 22
+            value: 22
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.u37k0ybMUdSOtGRF.u37k0ybMUdSOtGRF'
     x: 910
     'y': 280
     elevation: 0
     locked: false
     _movementHistory: []
     _regions: []
-    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.k0YWBYtfISFGRe48'
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.u37k0ybMUdSOtGRF'
+  - name: Psionic Rogue
+    displayName: 20
+    actorLink: false
+    width: 1
+    height: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Psionic_Rogue.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    flags: {}
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 1
+    actorId: mmSpy00000000000
+    hidden: true
+    sort: 24
+    shape: 4
+    level: defaultLevel0000
+    _id: tbMDYHmNzHX8hHkm
+    delta:
+      _id: tbMDYHmNzHX8hHkm
+      system:
+        attributes:
+          hp:
+            max: 19
+            value: 19
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.tbMDYHmNzHX8hHkm.tbMDYHmNzHX8hHkm'
+    x: 770
+    'y': 280
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.tbMDYHmNzHX8hHkm'
+  - name: Psionic Rogue
+    displayName: 20
+    actorLink: false
+    width: 1
+    height: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Psionic_Rogue.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    flags: {}
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 1
+    actorId: mmSpy00000000000
+    hidden: true
+    sort: 25
+    shape: 4
+    level: defaultLevel0000
+    _id: 7OrUVRB7aYfp6kxf
+    delta:
+      _id: 7OrUVRB7aYfp6kxf
+      system:
+        attributes:
+          hp:
+            max: 35
+            value: 35
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.7OrUVRB7aYfp6kxf.7OrUVRB7aYfp6kxf'
+    x: 700
+    'y': 350
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.7OrUVRB7aYfp6kxf'
+  - name: Psionic Rogue
+    displayName: 20
+    actorLink: false
+    width: 1
+    height: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Psionic_Rogue.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    flags: {}
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 1
+    actorId: mmSpy00000000000
+    hidden: true
+    sort: 26
+    shape: 4
+    level: defaultLevel0000
+    _id: ZsLrSrXo8w33o0zw
+    delta:
+      _id: ZsLrSrXo8w33o0zw
+      system:
+        attributes:
+          hp:
+            max: 30
+            value: 30
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.ZsLrSrXo8w33o0zw.ZsLrSrXo8w33o0zw'
+    x: 630
+    'y': 280
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.ZsLrSrXo8w33o0zw'
+  - name: Psionic Rogue
+    displayName: 20
+    actorLink: false
+    width: 1
+    height: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Psionic_Rogue.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    flags: {}
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 1
+    actorId: mmSpy00000000000
+    hidden: true
+    sort: 27
+    shape: 4
+    level: defaultLevel0000
+    _id: FUbn48pQyW4GDV1D
+    delta:
+      _id: FUbn48pQyW4GDV1D
+      system:
+        attributes:
+          hp:
+            max: 23
+            value: 23
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!F0IGQMVVulmaHYZe.FUbn48pQyW4GDV1D.FUbn48pQyW4GDV1D'
+    x: 560
+    'y': 350
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions: []
+    _key: '!scenes.tokens!F0IGQMVVulmaHYZe.FUbn48pQyW4GDV1D'
 levels:
   - _id: defaultLevel0000
     name: Level
@@ -1149,7 +1159,8 @@ levels:
       top: 20
     background:
       color: '#999999'
-      src: modules/draenal-common/assets/maps/Stonehill%20Inn/stonehill_inn.webp
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Stonehill%20Inn/stonehill_inn.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -1391,7 +1402,64 @@ lights:
     _key: '!scenes.lights!F0IGQMVVulmaHYZe.30x9DJUYiKR4uxjc'
 notes: []
 sounds: []
-regions: []
+regions:
+  - color: '#284fcc'
+    elevation:
+      bottom: 0
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Region
+    _id: 6F4y3IC3NdOdwrcm
+    shapes:
+      - type: rectangle
+        x: 630
+        'y': 490
+        width: 1260
+        height: 560
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: false
+    behaviors:
+      - name: Adjust Darkness Level
+        type: adjustDarknessLevel
+        _id: Ae7GjlENGFednZuB
+        system:
+          mode: 0
+          modifier: 1
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786859784406
+          modifiedTime: 1786859784406
+          lastModifiedBy: eDQM6H9v2Xf0fBZR
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!F0IGQMVVulmaHYZe.6F4y3IC3NdOdwrcm.Ae7GjlENGFednZuB
+    locked: false
+    flags: {}
+    _shapeConstraints: null
+    ownership:
+      default: 0
+    _key: '!scenes.regions!F0IGQMVVulmaHYZe.6F4y3IC3NdOdwrcm'
 tiles: []
 walls:
   - levels:
@@ -3230,8 +3298,8 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1786477035020
-  modifiedTime: 1786477035020
+  createdTime: 1786859784406
+  modifiedTime: 1786859784406
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

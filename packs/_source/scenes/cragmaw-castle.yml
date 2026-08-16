@@ -2,7 +2,7 @@ folder: null
 name: Cragmaw Castle
 _id: dFQ4buTJ374m0wLW
 navigation: false
-thumb: worlds/module-development/assets/scenes/thumb-1tkpcmtnMv56truXZ06mvg.webp
+thumb: worlds/module-development/assets/scenes/thumb-dhl34ekE7h6vEYWeNpMRiQ.webp
 width: 3500
 height: 3500
 padding: 0.25
@@ -191,8 +191,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784684
+            modifiedTime: 1786859784684
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -234,8 +234,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784684
+            modifiedTime: 1786859784684
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -275,8 +275,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784685
+            modifiedTime: 1786859784685
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -425,8 +425,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784686
+            modifiedTime: 1786859784686
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -466,8 +466,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784686
+            modifiedTime: 1786859784686
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -616,8 +616,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784687
+            modifiedTime: 1786859784687
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -657,8 +657,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784687
+            modifiedTime: 1786859784687
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -700,8 +700,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784687
+            modifiedTime: 1786859784687
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -850,8 +850,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784688
+            modifiedTime: 1786859784688
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -891,8 +891,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784689
+            modifiedTime: 1786859784689
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1041,8 +1041,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784690
+            modifiedTime: 1786859784690
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1082,8 +1082,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784690
+            modifiedTime: 1786859784690
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1232,8 +1232,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784691
+            modifiedTime: 1786859784691
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1273,8 +1273,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784691
+            modifiedTime: 1786859784691
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1423,8 +1423,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784692
+            modifiedTime: 1786859784692
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1573,8 +1573,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784693
+            modifiedTime: 1786859784693
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1614,8 +1614,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784693
+            modifiedTime: 1786859784693
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1764,8 +1764,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784694
+            modifiedTime: 1786859784694
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1805,8 +1805,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784694
+            modifiedTime: 1786859784694
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1955,8 +1955,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784696
+            modifiedTime: 1786859784696
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -1996,8 +1996,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784696
+            modifiedTime: 1786859784696
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2252,8 +2252,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784697
+            modifiedTime: 1786859784697
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2293,8 +2293,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784697
+            modifiedTime: 1786859784697
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2443,8 +2443,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784698
+            modifiedTime: 1786859784698
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2484,8 +2484,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784699
+            modifiedTime: 1786859784699
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2634,8 +2634,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784700
+            modifiedTime: 1786859784700
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2675,8 +2675,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784700
+            modifiedTime: 1786859784700
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2825,8 +2825,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784701
+            modifiedTime: 1786859784701
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -2866,8 +2866,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784701
+            modifiedTime: 1786859784701
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3016,8 +3016,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784702
+            modifiedTime: 1786859784702
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3057,8 +3057,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784703
+            modifiedTime: 1786859784703
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3205,8 +3205,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784704
+            modifiedTime: 1786859784704
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3246,8 +3246,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784704
+            modifiedTime: 1786859784704
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3396,8 +3396,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784705
+            modifiedTime: 1786859784705
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3437,8 +3437,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784705
+            modifiedTime: 1786859784705
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3587,8 +3587,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784706
+            modifiedTime: 1786859784706
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3628,8 +3628,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784706
+            modifiedTime: 1786859784706
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3778,8 +3778,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784707
+            modifiedTime: 1786859784707
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -3819,8 +3819,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784707
+            modifiedTime: 1786859784707
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4179,8 +4179,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784709
+            modifiedTime: 1786859784709
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4220,8 +4220,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784709
+            modifiedTime: 1786859784709
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4263,8 +4263,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784710
+            modifiedTime: 1786859784710
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4410,8 +4410,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784711
+            modifiedTime: 1786859784711
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4453,8 +4453,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784711
+            modifiedTime: 1786859784711
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4601,8 +4601,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784712
+            modifiedTime: 1786859784712
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4644,8 +4644,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784712
+            modifiedTime: 1786859784712
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4792,8 +4792,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784713
+            modifiedTime: 1786859784713
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4835,8 +4835,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784713
+            modifiedTime: 1786859784713
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -4985,8 +4985,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784714
+            modifiedTime: 1786859784714
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5026,8 +5026,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784715
+            modifiedTime: 1786859784715
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5174,8 +5174,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784716
+            modifiedTime: 1786859784716
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5217,8 +5217,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784716
+            modifiedTime: 1786859784716
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5364,8 +5364,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784717
+            modifiedTime: 1786859784717
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5407,8 +5407,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784717
+            modifiedTime: 1786859784717
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5554,8 +5554,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784718
+            modifiedTime: 1786859784718
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5597,8 +5597,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784718
+            modifiedTime: 1786859784718
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5744,8 +5744,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784719
+            modifiedTime: 1786859784719
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5787,8 +5787,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784720
+            modifiedTime: 1786859784720
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5934,8 +5934,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784721
+            modifiedTime: 1786859784721
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -5977,8 +5977,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784721
+            modifiedTime: 1786859784721
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6122,8 +6122,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784722
+            modifiedTime: 1786859784722
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6268,8 +6268,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784723
+            modifiedTime: 1786859784723
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6415,8 +6415,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784724
+            modifiedTime: 1786859784724
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6458,8 +6458,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784724
+            modifiedTime: 1786859784724
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6608,8 +6608,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784725
+            modifiedTime: 1786859784725
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6649,8 +6649,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784725
+            modifiedTime: 1786859784725
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6799,8 +6799,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784726
+            modifiedTime: 1786859784726
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6840,8 +6840,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784726
+            modifiedTime: 1786859784726
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -6991,8 +6991,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784727
+            modifiedTime: 1786859784727
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7034,8 +7034,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784727
+            modifiedTime: 1786859784727
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7187,8 +7187,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784728
+            modifiedTime: 1786859784728
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7228,8 +7228,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784729
+            modifiedTime: 1786859784729
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7375,8 +7375,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784730
+            modifiedTime: 1786859784730
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7418,8 +7418,8 @@ tokens:
             coreVersion: '14.364'
             systemId: dnd5e
             systemVersion: 5.3.3
-            createdTime: 1784044748141
-            modifiedTime: 1784044748141
+            createdTime: 1786859784730
+            modifiedTime: 1786859784730
             lastModifiedBy: eDQM6H9v2Xf0fBZR
             compendiumSource: null
             duplicateSource: null
@@ -7539,7 +7539,7 @@ levels:
     background:
       color: '#999999'
       src: >-
-        modules/draenal-common/assets/maps/Cragmaw%20Castle/Cragmaw_Castle_Ground.webp
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Cragmaw%20Castle/Cragmaw_Castle_Ground.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -7570,7 +7570,7 @@ levels:
     background:
       color: '#352121'
       src: >-
-        modules/draenal-common/assets/maps/Cragmaw%20Castle/Cragmaw_Castle_Tunnel.webp
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Cragmaw%20Castle/Cragmaw_Castle_Tunnel.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -7601,7 +7601,7 @@ levels:
     background:
       color: '#999999'
       src: >-
-        modules/draenal-common/assets/maps/Cragmaw%20Castle/Cragmaw_Castle_1st_Floor.webp
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Cragmaw%20Castle/Cragmaw_Castle_1st_Floor.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -7633,7 +7633,7 @@ levels:
     background:
       color: '#999999'
       src: >-
-        modules/draenal-common/assets/maps/Cragmaw%20Castle/Cragmaw_Castle_2nd_Floor.webp
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Cragmaw%20Castle/Cragmaw_Castle_2nd_Floor.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -7666,7 +7666,7 @@ levels:
     background:
       color: '#999999'
       src: >-
-        modules/draenal-common/assets/maps/Cragmaw%20Castle/Cragmaw_Castle_Roof.webp
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Cragmaw%20Castle/Cragmaw_Castle_Roof.webp
       tint: '#ffffff'
       alphaThreshold: 0.75
     foreground:
@@ -7686,8 +7686,8 @@ levels:
       rotation: 0
     visibility:
       levels:
-        - defaultLevel0000
         - MpLNHJzrB7YtejnR
+        - defaultLevel0000
     sort: 300000
     flags: {}
     _key: '!scenes.levels!dFQ4buTJ374m0wLW.rP99A6VvYZIp6yLX'
@@ -9034,8 +9034,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784737
+          modifiedTime: 1786859784737
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9092,8 +9092,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784737
+          modifiedTime: 1786859784737
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9160,8 +9160,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784737
+          modifiedTime: 1786859784737
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9286,8 +9286,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784738
+          modifiedTime: 1786859784738
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9364,8 +9364,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784738
+          modifiedTime: 1786859784738
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9432,8 +9432,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784738
+          modifiedTime: 1786859784738
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9548,8 +9548,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784739
+          modifiedTime: 1786859784739
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9616,8 +9616,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784739
+          modifiedTime: 1786859784739
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9742,8 +9742,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784740
+          modifiedTime: 1786859784740
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -9868,8 +9868,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784740
+          modifiedTime: 1786859784740
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10012,8 +10012,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784740
+          modifiedTime: 1786859784740
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10038,8 +10038,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784741
+          modifiedTime: 1786859784741
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10094,8 +10094,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784741
+          modifiedTime: 1786859784741
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10120,8 +10120,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784741
+          modifiedTime: 1786859784741
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10178,8 +10178,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784741
+          modifiedTime: 1786859784741
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10204,8 +10204,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784741
+          modifiedTime: 1786859784741
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10261,8 +10261,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784742
+          modifiedTime: 1786859784742
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10285,8 +10285,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784742
+          modifiedTime: 1786859784742
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10583,8 +10583,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784743
+          modifiedTime: 1786859784743
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10609,8 +10609,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784743
+          modifiedTime: 1786859784743
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10668,8 +10668,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784743
+          modifiedTime: 1786859784743
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10694,8 +10694,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784743
+          modifiedTime: 1786859784743
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -10782,8 +10782,8 @@ regions:
           coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.3.3
-          createdTime: 1784044748141
-          modifiedTime: 1784044748141
+          createdTime: 1786859784744
+          modifiedTime: 1786859784744
           lastModifiedBy: eDQM6H9v2Xf0fBZR
           compendiumSource: null
           duplicateSource: null
@@ -38442,15 +38442,15 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1784044748141
-  modifiedTime: 1784044750913
+  createdTime: 1786859784681
+  modifiedTime: 1786859784681
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 navName: Cragmaw Castle
 active: false
 navOrder: 0
-sort: 300000
-templates: []
+sort: 0
 _key: '!scenes!dFQ4buTJ374m0wLW'
+templates: []
 

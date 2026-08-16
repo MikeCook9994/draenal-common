@@ -3,7 +3,7 @@ name: Dwarf
 type: npc
 _id: fM8YMmvP6JIOp6Gd
 img: >-
-  modules/draenal-common/assets/npc-images/Avatar.Tadhg_Dwarf.webp?v=1779749902664
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Tadhg_Dwarf.webp
 system:
   currency:
     pp: 0
@@ -459,7 +459,7 @@ prototypeToken:
   depth: 1
   texture:
     src: >-
-      modules/draenal-common/assets/npc-images/Token.Tadhg_Dwarf.webp?v=1779749904907
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Tadhg_Dwarf.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -706,8 +706,8 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781401768489
-  modifiedTime: 1781401768511
+  createdTime: 1786859762820
+  modifiedTime: 1786859762845
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

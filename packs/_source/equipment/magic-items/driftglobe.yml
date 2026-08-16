@@ -2,7 +2,8 @@ folder: WbqCEw0rImHkn5Xj
 name: Driftglobe
 type: equipment
 _id: hNNaaHkmI9KmLcEF
-img: modules/draenal-common/assets/magic-items/driftglobe.png
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/items/equipment/Driftglobe-large.webp
 system:
   activities:
     Zc8INdGpSLgobL5i:
@@ -262,7 +263,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786474509485
-  modifiedTime: 1786475560308
+  modifiedTime: 1786857017918
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

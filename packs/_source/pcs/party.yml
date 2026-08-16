@@ -1,7 +1,8 @@
 name: Party
 type: group
 _id: cB8Vk5IOdXDSnNxg
-img: modules/draenal-common/assets/npc-images/Avatar.Party.webp?v=1777237177470
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Party.webp
 system:
   currency:
     pp: 0
@@ -234,13 +235,13 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1784911165687
-  modifiedTime: 1784911167921
+  createdTime: 1786859762751
+  modifiedTime: 1786859762833
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null
 ownership:
   default: 0
-sort: 500000
+sort: 0
 _key: '!actors!cB8Vk5IOdXDSnNxg'
 

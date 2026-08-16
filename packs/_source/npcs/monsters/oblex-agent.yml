@@ -2,7 +2,7 @@ name: Oblex Agent
 type: npc
 _id: 4IFQWuuAvnc6GaJz
 img: >-
-  modules/draenal-common/assets/npc-images/Avatar.Oblex_Agent.webp?v=1781535639848
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Oblex_Agent.webp
 system:
   currency:
     pp: 0
@@ -482,7 +482,7 @@ prototypeToken:
   depth: 1
   texture:
     src: >-
-      modules/draenal-common/assets/npc-images/Token.Oblex_Agent.webp?v=1781535641506
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Oblex_Agent.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1744,7 +1744,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781534657861
-  modifiedTime: 1786473771243
+  modifiedTime: 1786858352587
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

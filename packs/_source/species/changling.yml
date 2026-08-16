@@ -140,13 +140,15 @@ folder: null
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776819390243
-  modifiedTime: 1779747161004
+  modifiedTime: 1786857326569
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

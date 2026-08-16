@@ -2,7 +2,8 @@ folder: WbqCEw0rImHkn5Xj
 name: Charlatan's Die
 type: equipment
 _id: jwIXHVCONolZHK7U
-img: icons/sundries/gaming/gaming-set-dice.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/items/equipment/2024-dmg2024-charlatans-die.webp
 system:
   activities: {}
   uses:
@@ -55,13 +56,16 @@ effects: []
 sort: 300000
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    socketTabEnabled: false
+    gemSubtype: null
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1777236959016
-  modifiedTime: 1779750350951
+  modifiedTime: 1786857090104
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

@@ -1,6 +1,7 @@
 name: Ranzzen
 type: npc
-img: modules/draenal-common/assets/npc-images/Avatar.Ranzzen.webp?v=1781538660483
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Ranzzen.webp
 system:
   currency:
     pp: 0
@@ -480,7 +481,7 @@ prototypeToken:
   depth: 1
   texture:
     src: >-
-      modules/draenal-common/assets/npc-images/Token.Ranzzen.webp?v=1781538662337
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Ranzzen.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -2702,12 +2703,14 @@ flags:
     avatarCanvasSize:
       width: 512
       height: 508
+  dnd5e:
+    showTokenPortrait: true
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1781539369330
-  modifiedTime: 1781539369659
+  modifiedTime: 1786858175243
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

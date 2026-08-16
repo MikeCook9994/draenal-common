@@ -1,7 +1,8 @@
 name: Agog
 type: npc
 _id: m4cJ6r1dpkigc3tu
-img: modules/draenal-common/assets/npc-images/Avatar.Agog.webp?v=1781056656633
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Agog.webp
 system:
   currency:
     pp: 0
@@ -471,7 +472,8 @@ prototypeToken:
   height: 1
   depth: 1
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Agog.webp?v=1781056654489
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Agog.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1367,12 +1369,14 @@ flags:
       width: 512
       height: 508
     isOversized: true
+  dnd5e:
+    showTokenPortrait: true
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.3.2
+  systemVersion: 5.3.3
   createdTime: 1781056280410
-  modifiedTime: 1781325148390
+  modifiedTime: 1786858267916
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
