@@ -2,7 +2,8 @@ folder: BMVGdQUg4DpY6dI1
 name: Snow Lepeord
 type: npc
 _id: qnMlOhlKCGBcB9wL
-img: modules/draenal-common/assets/npc-images/Avatar.Vaelwyn_Snow_Lepeord.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Vaelwyn_Snow_Lepeord.webp
 system:
   currency:
     pp: 0
@@ -475,7 +476,8 @@ prototypeToken:
   height: 1
   depth: 1
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Vaelwyn_Snow_Lepeord.webp
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Vaelwyn_Snow_Lepeord.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -1031,14 +1033,12 @@ flags:
       width: 512
       height: 508
     isOversized: true
-  dnd5e:
-    showTokenPortrait: true
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1779753587522
-  modifiedTime: 1784907207387
+  modifiedTime: 1786904384363
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

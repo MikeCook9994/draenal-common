@@ -1,0 +1,175 @@
+name: Wayfarer
+type: background
+_id: sFBydPBlZyuZdtod
+img: https://rustfs.michaelcook.dev/foundry-vtt-assets/backgrounds/wayfarer.jpg
+system:
+  advancement:
+    UdMlWxDCKYxMMCA1:
+      type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - con
+          - int
+        recommendation: null
+        max: null
+      _id: UdMlWxDCKYxMMCA1
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+      title: ''
+    sMfDO9ufrgxgG7YO:
+      type: Trait
+      title: Background Proficiencies
+      _id: sMfDO9ufrgxgG7YO
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ins
+          - skills:ste
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+    bWWlhomdTQkZmFGa:
+      type: Trait
+      title: Choose Languages
+      configuration:
+        grants:
+          - languages:standard:common
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:*
+        mode: default
+      _id: bWWlhomdTQkZmFGa
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+    9wnuT5CZ6S4msyAX:
+      type: ItemGrant
+      title: Background Feat
+      _id: 9wnuT5CZ6S4msyAX
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.feats.Item.oGDkmJlGaVD1gDOO
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+  description:
+    value: >-
+      <div class="ddb"><h1>Background: Wayfarer</h1><p></p><p><strong>Ability
+      Scores:</strong> Dexterity, Wisdom, Charisma<br><strong>Feat:</strong>
+      Lucky<br><strong>Skill Proficiencies:</strong>
+      &amp;Reference[ins]{Insight} and
+      &amp;Reference[ste]{Stealth}<br><strong>Tool Proficiency:</strong>
+      Thieves' Tools<br><strong>Equipment:</strong> <em>Choose A or B:</em> (A)
+      2 Daggers, Thieves' Tools, Gaming Set (any), Bedroll, 2 Pouches,
+      Traveler's Clothes, 16 GP; or (B) 50 GP</p><p>You grew up on the streets
+      surrounded by similarly ill-fated castoffs, a few of them friends and a
+      few of them rivals. You slept where you could and did odd jobs for food.
+      At times, when the hunger became unbearable, you resorted to theft. Still,
+      you never lost your pride and never abandoned hope. Fate is not yet
+      finished with you.</p><h2>Feat: Lucky</h2></div>
+    chat: ''
+  identifier: wayfarer
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '185'
+    custom: ''
+    license: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: VobgPKz1QUO6BwJU
+      group: ''
+      sort: 100000
+    - type: linked
+      count: 2
+      key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+      requiresProficiency: false
+      _id: 5d0tCb1W2hobOPGK
+      group: VobgPKz1QUO6BwJU
+      sort: 200000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbtulThievesToo
+      requiresProficiency: false
+      _id: YegtoNhe5W40Q6Fg
+      group: VobgPKz1QUO6BwJU
+      sort: 250000
+    - type: tool
+      count: null
+      key: game
+      requiresProficiency: false
+      _id: FNufCeiOGPVR2F0I
+      group: VobgPKz1QUO6BwJU
+      sort: 275000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
+      requiresProficiency: false
+      _id: wbiM5EePys1itxWI
+      group: VobgPKz1QUO6BwJU
+      sort: 287500
+    - type: linked
+      count: 2
+      key: Compendium.dnd5e.equipment24.Item.phbagPouch000000
+      requiresProficiency: false
+      _id: 5nnWPaFuQHeicJka
+      group: VobgPKz1QUO6BwJU
+      sort: 300000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagClothesTrav
+      requiresProficiency: false
+      _id: fE3paWRGA8E622Kv
+      group: VobgPKz1QUO6BwJU
+      sort: 400000
+    - type: currency
+      count: 16
+      key: gp
+      requiresProficiency: false
+      _id: c3017F7Swwh76szN
+      group: VobgPKz1QUO6BwJU
+      sort: 500000
+  wealth: '50'
+effects: []
+folder: null
+sort: 200000
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786907492480
+  modifiedTime: 1786937201378
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!sFBydPBlZyuZdtod'
+

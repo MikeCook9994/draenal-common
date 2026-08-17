@@ -1,8 +1,9 @@
-name: Agog
+folder: rej2SCe1BlhMbQxY
+name: Sildar Hallwinter
 type: npc
-_id: m4cJ6r1dpkigc3tu
+_id: tfEok16jCYzDGefE
 img: >-
-  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Agog.webp
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Sildar_Hallwinter.webp?v=1786920617508
 system:
   currency:
     pp: 0
@@ -12,7 +13,7 @@ system:
     cp: 0
   abilities:
     str:
-      value: 15
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -29,7 +30,7 @@ system:
           max: null
           mode: 0
     dex:
-      value: 6
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -46,7 +47,7 @@ system:
           max: null
           mode: 0
     con:
-      value: 16
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -63,7 +64,7 @@ system:
           max: null
           mode: 0
     int:
-      value: 3
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -80,7 +81,7 @@ system:
           max: null
           mode: 0
     wis:
-      value: 11
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -97,7 +98,7 @@ system:
           max: null
           mode: 0
     cha:
-      value: 5
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -337,8 +338,8 @@ system:
       value: 0
   attributes:
     ac:
-      calc: natural
-      flat: 13
+      calc: default
+      flat: null
     init:
       ability: ''
       roll:
@@ -350,9 +351,9 @@ system:
       units: ft
       hover: false
       ignoredDifficultTerrain: []
-      walk: '10'
+      walk: '30'
       burrow: ''
-      climb: '10'
+      climb: ''
       fly: ''
       swim: ''
       bonus: ''
@@ -362,10 +363,10 @@ system:
     senses:
       ranges:
         blindsight: null
-        darkvision: 60
+        darkvision: null
         tremorsense: null
         truesight: null
-      units: ft
+      units: null
       special: ''
     spellcasting: ''
     exhaustion: 0
@@ -382,12 +383,11 @@ system:
     hd:
       spent: 0
     hp:
-      max: 34
+      max: null
       temp: null
       tempmax: null
-      value: 34
-      formula: 4d8+12
-      dt: null
+      value: 0
+      formula: ''
     death:
       roll:
         min: null
@@ -406,16 +406,12 @@ system:
     biography:
       value: ''
       public: ''
-    alignment: Chaotic Evil
+    alignment: ''
     ideal: ''
     bond: ''
     flaw: ''
     race: null
-    type:
-      value: aberration
-      custom: ''
-      subtype: ''
-      swarm: ''
+    type: {}
     habitat:
       value: []
       custom: ''
@@ -458,14 +454,11 @@ system:
       custom: ''
     languages:
       value: []
-      custom: Understands Deep Speech but can't speak
-      communication:
-        telepathy:
-          value: null
-          units: ft
+      custom: ''
+      communication: {}
     important: false
 prototypeToken:
-  name: Agog
+  name: Sildar Hallwinter
   displayName: 0
   actorLink: false
   width: 1
@@ -473,7 +466,7 @@ prototypeToken:
   depth: 1
   texture:
     src: >-
-      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Agog.webp
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Sildar_Hallwinter.webp?v=1786920616330
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -545,316 +538,155 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
 items:
-  - _id: RIv6haYwI7iPtseX
-    name: Multiattack
-    type: feat
+  - _id: 45KeN8cLZiNu5mfH
+    name: Heavy Crossbow
+    type: weapon
+    img: icons/weapons/crossbows/crossbow-blue.webp
     system:
-      type:
-        value: monster
-        subtype: ''
-      activities:
-        Ms63W7e3Mv2Margn:
-          type: utility
-          name: Use
-          _id: Ms63W7e3Mv2Margn
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-            units: self
-          target:
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          roll:
-            prompt: false
-            visible: false
-          img: null
-          flags: {}
-          visibility:
-            level: {}
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
       description:
         value: >-
-          <p>The [[lookup @name lowercase]]{monster} makes 1 [[/item Claw]]
-          attack and 1 [[/item Bite]] attack.</p>
+          <p>A large crossbow mounted on a sturdy block of wood which is loaded
+          using a hand crank and fires thick steel bolts with deadly
+          acceleration that punches through armor and flesh.</p>
         chat: ''
-      identifier: multiattack
       source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
         revision: 1
-        rules: '2024'
-      enchant: {}
-      prerequisites:
-        level: null
-        items: []
-        repeatable: false
-      properties: []
-      requirements: ''
-      advancement: {}
-      crewed: false
-    folder: 4T18pEvubPMQLzvD
-    img: icons/skills/melee/strike-weapons-orange.webp
-    effects: []
-    flags:
-      dnd5e:
-        riders:
-          activity: []
-          effect: []
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781476123096
-      modifiedTime: 1781477286417
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.monsterfeatures24.Item.mmMultiattack000
-    sort: 5900000
-    ownership:
-      default: 0
-    _key: '!actors.items!m4cJ6r1dpkigc3tu.RIv6haYwI7iPtseX'
-  - _id: luqPvFHG8HvdYmz6
-    name: Bite
-    type: weapon
-    system:
-      type:
-        value: natural
-        baseItem: ''
-      activities:
-        xWlMeXFjELfSUWX9:
-          type: attack
-          _id: xWlMeXFjELfSUWX9
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-            condition: ''
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description:
-            chatFlavor: ''
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-            units: self
-          target:
-            template:
-              contiguous: false
-              units: ft
-              stationary: false
-              type: ''
-            affects:
-              choice: false
-              type: ''
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-            max: ''
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type:
-              value: ''
-              classification: ''
-            ability: ''
-            bonus: ''
-          damage:
-            critical:
-              bonus: ''
-            includeBase: true
-            parts:
-              - custom:
-                  enabled: false
-                  formula: ''
-                number: 1
-                denomination: 6
-                bonus: ''
-                types:
-                  - acid
-                scaling:
-                  number: 1
-          img: ''
-          flags: {}
-          visibility:
-            level:
-              min: null
-              max: null
-            requireAttunement: false
-            requireIdentification: false
-            requireMagic: false
-            identifier: ''
-          name: ''
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      description:
-        value: <p>[[/attack extended]]. [[/damage average extended]].</p>
-        chat: ''
-      identifier: bite
-      source:
-        revision: 1
-        rules: '2024'
-      properties: []
+        rules: '2014'
+      quantity: 1
+      weight:
+        value: 18
+        units: lb
+      price:
+        value: 50
+        denomination: gp
+      attunement: ''
+      rarity: ''
       identified: true
-      unidentified:
-        name: Unidentified Weapon
-        description: ''
-      mastery: ''
+      cover: null
       range:
+        value: 100
+        long: 400
         units: ft
-        value: null
-        long: null
         reach: null
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
       damage:
-        base:
-          denomination: 8
+        versatile:
+          number: null
+          denomination: null
           bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
           number: 1
+          denomination: 10
+          bonus: ''
           types:
             - piercing
           custom:
             enabled: false
             formula: ''
           scaling:
-            number: 1
-        versatile:
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      container: null
-      quantity: 1
-      weight:
+            mode: ''
+            number: null
+            formula: ''
+      armor:
+        value: 10
+      hp:
         value: 0
-        units: lb
-      price:
-        value: 0
-        denomination: gp
-      rarity: ''
-      attunement: ''
-      crew:
-        value: []
-      ammunition: {}
-      armor: {}
+        max: 0
+        dt: null
+        conditions: ''
+      properties:
+        - amm
+        - hvy
+        - two
+        - lod
+        - gear
       proficient: null
-      attuned: false
-      equipped: true
-    folder: pSCWWdqMX9eUATRJ
-    img: icons/creatures/abilities/fangs-teeth-bite.webp
-    effects: []
-    flags:
-      sc-simple-sockets:
-        socketTabEnabled: false
-        gemSubtype: null
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781476178976
-      modifiedTime: 1781476745336
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.monsterfeatures24.Item.mmBite0000000000
-    sort: 14500000
-    ownership:
-      default: 0
-    _key: '!actors.items!m4cJ6r1dpkigc3tu.luqPvFHG8HvdYmz6'
-  - _id: yYPcX05PehVgiIPe
-    name: Claw
-    type: weapon
-    system:
       type:
-        value: natural
-        baseItem: ''
+        value: martialR
+        baseItem: heavycrossbow
+      unidentified:
+        description: ''
+      container: pbsoSildarsGear0
       activities:
-        W1T7dZnG8GMMwyEP:
-          _id: W1T7dZnG8GMMwyEP
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
-          sort: 0
           activation:
             type: action
-            value: null
+            value: 1
+            condition: ''
             override: false
           consumption:
+            targets: []
             scaling:
               allowed: false
+              max: ''
             spellSlot: true
-            targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
-            units: inst
             concentration: false
+            value: ''
+            units: inst
+            special: ''
             override: false
           effects: []
           range:
+            value: '100'
+            units: ft
+            special: ''
             override: false
-            units: self
           target:
             template:
+              count: ''
               contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
               units: ft
               stationary: false
             affects:
+              count: ''
+              type: ''
               choice: false
-            override: false
+              special: ''
             prompt: true
+            override: false
           uses:
             spent: 0
+            max: ''
             recovery: []
           attack:
+            ability: ''
+            bonus: ''
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: ranged
+              classification: weapon
           damage:
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
             parts: []
+          sort: 0
           img: null
           flags: {}
           visibility:
@@ -862,301 +694,718 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
+      identifier: heavy-crossbow
+      ammunition: {}
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1300000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: Compendium.dnd5e.items.Item.RmP0mYRn2J7K26rX
+      duplicateSource: Item.e03khppdzSdud2qN
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786921064230
+      modifiedTime: 1786921064230
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!tfEok16jCYzDGefE.45KeN8cLZiNu5mfH'
+  - _id: WSCMupqWmNSOjzMY
+    name: Shortsword
+    type: weapon
+    img: icons/weapons/swords/sword-guard-brown.webp
+    system:
       description:
         value: >-
-          <p>[[/attack extended]]. [[/damage average extended]], and if the
-          target is Medium or smaller, it has the &amp;Reference[prone]
-          condition.</p>
+          <p>A medium sized blade with a firm crossguard and a leather-wrapped
+          handle. A versatile weapon which makes up in versatility what it lacks
+          in reach.</p>
         chat: ''
-      identifier: claw
       source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
         revision: 1
-        rules: '2024'
-      identified: true
-      unidentified:
-        description: ''
-      container: null
+        rules: '2014'
       quantity: 1
       weight:
+        value: 2
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      attunement: ''
+      rarity: ''
+      identified: true
+      cover: null
+      range:
+        value: null
+        long: null
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      damage:
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 6
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      armor:
+        value: 10
+      hp:
         value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      properties:
+        - fin
+        - lgt
+        - gear
+      proficient: null
+      type:
+        value: martialM
+        baseItem: shortsword
+      unidentified:
+        description: ''
+      container: pbsoSildarsGear0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: shortsword
+      ammunition: {}
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1500000
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: Compendium.dnd5e.items.Item.osLzOwQdPtrK3rQH
+      duplicateSource: Item.9kskVuk6Nn1ECinO
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786921068854
+      modifiedTime: 1786921068854
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!tfEok16jCYzDGefE.WSCMupqWmNSOjzMY'
+  - _id: NXxKecbV1zTIwNrL
+    name: Sildar's Longsword
+    type: weapon
+    img: icons/weapons/swords/greatsword-guard-jewel-green.webp
+    system:
+      description:
+        value: >-
+          <p>A lengthy stright blade designed for slashing foes, the longsword
+          is a highly versatile weapon that may also be wielded with two hands
+          for more punishing strikes. It has the emblem of Neverwinter worked
+          into its hilt.</p>
+        chat: ''
+      source:
+        custom: Phandelver and Below
+        revision: 1
+        rules: '2014'
+      quantity: 1
+      weight:
+        value: 3
         units: lb
       price:
         value: 0
         denomination: gp
-      rarity: ''
       attunement: ''
-      armor:
-        value: null
+      rarity: ''
+      identified: true
       cover: null
-      hp:
+      range:
         value: null
-        max: null
-        dt: null
-        conditions: ''
-      ammunition: {}
+        long: null
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
       damage:
+        versatile:
+          number: 1
+          denomination: 10
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
         base:
-          number: 2
-          denomination: 4
+          number: 1
+          denomination: 8
+          bonus: ''
           types:
             - slashing
           custom:
             enabled: false
             formula: ''
           scaling:
-            number: 1
-          bonus: '2'
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      properties: []
-      proficient: null
-      range:
+            mode: ''
+            number: null
+            formula: ''
+      armor:
         value: null
-        long: null
-        reach: null
-        units: ft
-      mastery: ''
-      crew:
-        value: []
-      attuned: false
-      equipped: true
-    folder: pSCWWdqMX9eUATRJ
-    img: icons/skills/melee/blood-slash-foam-red.webp
-    effects: []
-    flags:
-      sc-simple-sockets:
-        socketTabEnabled: false
-        gemSubtype: null
-    _stats:
-      duplicateSource: null
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1781476183979
-      modifiedTime: 1781476842771
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: Compendium.dnd5e.monsterfeatures24.Item.mmClaw0000000000
-    sort: 5800000
-    ownership:
-      default: 0
-    _key: '!actors.items!m4cJ6r1dpkigc3tu.yYPcX05PehVgiIPe'
-  - name: Gobble
-    type: weapon
-    _id: O9uvsAg5B1T15VXO
-    img: icons/creatures/abilities/mouth-teeth-tongue-purple.webp
-    system:
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      properties:
+        - ver
+        - gear
+      proficient: null
+      container: pbsoSildarsGear0
+      unidentified:
+        description: ''
+      type:
+        value: martialM
+        baseItem: longsword
       activities:
-        0IdGVGP1mdYzKfxD:
-          _id: 0IdGVGP1mdYzKfxD
+        dnd5eactivity000:
+          _id: dnd5eactivity000
           type: attack
-          img: null
-          sort: 0
           activation:
             type: action
+            value: 1
+            condition: ''
             override: false
           consumption:
+            targets: []
             scaling:
               allowed: false
+              max: ''
             spellSlot: true
-            targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
-            units: inst
             concentration: false
+            value: ''
+            units: inst
+            special: ''
             override: false
           effects: []
-          flags: {}
           range:
-            units: self
+            units: ft
+            special: ''
             override: false
           target:
             template:
+              count: ''
               contiguous: false
-              stationary: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
               units: ft
+              stationary: false
             affects:
+              count: ''
+              type: ''
               choice: false
-            override: false
+              special: ''
             prompt: true
+            override: false
           uses:
             spent: 0
+            max: ''
             recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+          img: null
+          flags: {}
           visibility:
             level: {}
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
-          attack:
-            critical: {}
-            flat: false
-            type: {}
-          damage:
-            critical: {}
-            includeBase: true
-            parts: []
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      description:
-        value: >-
-          <p>The agog makes a [[/item Bite]] attack against a
-          &amp;Reference[prone] creature.</p>
-        chat: ''
-      identifier: gobble
-      source:
-        revision: 1
-        rules: '2024'
-      identified: true
-      unidentified:
-        description: ''
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 0
-        denomination: gp
-      rarity: ''
-      attunement: ''
-      attuned: false
-      equipped: true
+      identifier: sildars-longsword
+      ammunition: {}
       crew:
         value: []
-      ammunition: {}
-      armor: {}
-      damage:
-        base:
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-          number: null
-          denomination: null
-          bonus: ''
-        versatile:
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      properties:
-        - gear
-      proficient: null
-      range:
-        units: ft
-        value: null
-        long: null
-        reach: null
-      type:
-        value: simpleM
-        baseItem: ''
-      mastery: ''
+      attuned: false
+      equipped: true
     effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1800000
     flags:
-      sc-simple-sockets:
-        socketTabEnabled: false
-        gemSubtype: null
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
+      compendiumSource: null
+      duplicateSource: Item.pbsoSildarsSword
+      exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781476889988
-      modifiedTime: 1781477251786
+      createdTime: 1786921070333
+      modifiedTime: 1786921070333
       lastModifiedBy: draenalcommon000
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!m4cJ6r1dpkigc3tu.O9uvsAg5B1T15VXO'
-  - name: Alien Intellect
-    type: feat
-    _id: HrUrbu5r7rW9LAou
-    img: icons/commodities/biological/organ-brain-red.webp
+    ownership:
+      default: 0
+    _key: '!actors.items!tfEok16jCYzDGefE.NXxKecbV1zTIwNrL'
+  - _id: 3dGlC4zydMTpT5Yn
+    name: Bloody Chain Mail
+    type: equipment
+    img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
     system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement: {}
       description:
         value: >-
-          <p>The monster is immune to any effect that would sense its emotions
-          or read its thoughts, as well as any divination spell that it refuses.
-          Wisdom (&amp;Reference[skill=ins]) checks made to ascertain the
-          creature's intentions or sincerity have Disadvantage .</p>
+          <p>Made of interlocking metal rings, chain mail includes a layer of
+          quilted fabric worn underneath the mail to prevent chafing and to
+          cushion the impact of blows. The suit includes gauntlets.</p>
         chat: ''
-      identifier: alien-intellect
       source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
         revision: 1
-        rules: '2024'
+      quantity: 1
+      weight:
+        value: 55
+        units: lb
+      price:
+        value: 75
+        denomination: gp
+      attunement: ''
+      rarity: ''
+      identified: true
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 16
+        dex: 0
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: 13
+      proficient: null
+      type:
+        value: heavy
+        baseItem: chainmail
+      unidentified:
+        description: ''
+      container: pbsoSildarsGear0
+      properties:
+        - stealthDisadvantage
+        - stealthDisadvantage
+        - gear
+      identifier: bloody-chain-mail
+      activities: {}
+      crew:
+        value: []
+      attuned: false
+      equipped: false
+    effects: []
+    folder: gVdEOrx4RTXY6FKF
+    sort: 1100000
+    flags: {}
+    _stats:
+      compendiumSource: Compendium.dnd5e.items.Item.rLMflzmxpe8JGTOA
+      duplicateSource: Item.IcyuUi6D65nMQUXJ
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786921072527
+      modifiedTime: 1786921078951
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!tfEok16jCYzDGefE.3dGlC4zydMTpT5Yn'
+  - _id: S3s1SRk03VJZlJNq
+    name: Parry
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>When an attacker Sildar can see would hit him with a melee attack,
+          he can roll a d6 and add the number rolled to his AC against the
+          triggering attack, provided he's wielding a melee weapon.</p>
+        chat: ''
+      source:
+        custom: SRD 5.1
+        revision: 2
+        rules: '2014'
+        book: ''
+        page: ''
+        license: ''
+      cover: null
       crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties: []
-      requirements: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
+      requirements: ''
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: reaction
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: 1d6
+            name: AC Bonus
+            prompt: false
+            visible: false
+          sort: 0
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: parry
+      advancement: {}
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
     effects: []
     folder: null
     sort: 0
-    ownership:
-      default: 0
-    flags:
-      sc-simple-sockets:
-        gemSubtype: null
     _stats:
+      compendiumSource: Compendium.dnd5e.monsterfeatures.Item.kfi26Jy0VLXv9TTm
+      duplicateSource: Actor.pbsoSildarHallwi.Item.gv8YUjXh0aexVjKW
+      exportSource: null
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1781477341976
-      modifiedTime: 1781477447567
       lastModifiedBy: draenalcommon000
-      compendiumSource: null
-      duplicateSource: null
+      createdTime: 1786921092546
+      modifiedTime: 1786921092546
+    ownership:
+      default: 0
+    _key: '!actors.items!tfEok16jCYzDGefE.S3s1SRk03VJZlJNq'
+  - _id: vjNXjFQHcAdey3ea
+    name: Multiattack
+    type: feat
+    system:
+      description:
+        value: <p>Sildar makes two [[/item Longsword]] attacks.</p>
+        chat: ''
+      source:
+        custom: SRD 5.1
+        revision: 1
+        rules: '2014'
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: multiattack
+      advancement: {}
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+    flags: {}
+    img: icons/skills/melee/blade-tips-triple-steel.webp
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      compendiumSource: Compendium.dnd5e.monsterfeatures.Item.EqoLg8T8EHvhJgKE
+      duplicateSource: Actor.pbsoSildarHallwi.Item.tsYLfJL0lUQeIwJB
       exportSource: null
-    _key: '!actors.items!m4cJ6r1dpkigc3tu.HrUrbu5r7rW9LAou'
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      lastModifiedBy: draenalcommon000
+      createdTime: 1786921146872
+      modifiedTime: 1786921146872
+    ownership:
+      default: 0
+    _key: '!actors.items!tfEok16jCYzDGefE.vjNXjFQHcAdey3ea'
 effects: []
-folder: rej2SCe1BlhMbQxY
-sort: 100000
+sort: 0
 ownership:
   default: 0
 flags:
   tokenizer-2:
     layerStack:
-      - id: 4LqhSN42odSwTpx0
+      - id: z86Zl8YLATd1aAHN
         type: image
-        name: Background
-        src: modules/tokenizer-2/img/dark-texture.webp
+        name: Pasted Image
+        src: tokenizer/pasted/a3fd688129a54c94.png
         visible: true
         locked: false
         blendMode: source-over
         transform:
-          x: 0
-          'y': 0
-          scaleX: 0.5
-          scaleY: 0.5
+          x: 1.4331842905646681
+          'y': 34.396422973552006
+          scaleX: 0.5942576291564368
+          scaleY: 0.5942576291564368
           rotation: 0
         adjustments:
           brightness: 1
@@ -1192,76 +1441,19 @@ flags:
             amount: 100
             radius: 1
         masks:
-          - id: EIDvq4uI8jsAcChY
+          - id: w0WGCwx4NtoYOd9t
             type: frame-ray
-            src: modules/tokenizer-2/img/default-frame-npc.png
+            src: modules/token-frames/token_frames/EldritchImp_Class_Fighter.webp
             ringConfig: null
         lasso:
           regions: []
         paintMask: null
         animation: null
         isVideo: false
-        isBackground: true
-      - id: KwP4CWvHpPpFSd2H
+      - id: 9RdDJIa6tRlPMSFg
         type: image
-        name: Image Layer
-        src: modules/draenal-common/assets/npc-images/agog.png
-        visible: true
-        locked: false
-        blendMode: source-over
-        transform:
-          x: -1.59125946816809
-          'y': 1.0608396454453555
-          scaleX: 0.3972143184582181
-          scaleY: 0.3972143184582181
-          rotation: 0
-        adjustments:
-          brightness: 1
-          contrast: 1
-          opacity: 1
-          blur: 0
-          tint: null
-          hue: 0
-          saturation: 100
-          grayscale: 0
-          temperature: 0
-          lineArt:
-            enabled: false
-            blurSize: 25
-          rimLight:
-            enabled: false
-            color: '#ffffff'
-            size: 4
-            intensity: 0.8
-          vignette:
-            enabled: false
-            intensity: 50
-            size: 30
-          filmGrain:
-            enabled: false
-            intensity: 20
-            size: 1
-          chromaticAberration:
-            enabled: false
-            intensity: 5
-          unsharpMask:
-            enabled: false
-            amount: 100
-            radius: 1
-        masks:
-          - id: esKjCY7BAkQdoHyP
-            type: frame-ray
-            src: modules/tokenizer-2/img/default-frame-npc.png
-            ringConfig: null
-        lasso:
-          regions: []
-        paintMask: null
-        animation: null
-        isVideo: false
-      - id: 9O7XgaU5WKdSwalA
-        type: image
-        name: default frame npc
-        src: modules/tokenizer-2/img/default-frame-npc.png
+        name: EldritchImp Class Fighter
+        src: modules/token-frames/token_frames/EldritchImp_Class_Fighter.webp
         visible: true
         locked: false
         blendMode: source-over
@@ -1311,19 +1503,20 @@ flags:
         animation: null
         isVideo: false
         isFrame: true
+    isDynamicRingMode: false
     avatarLayerStack:
-      - id: JKY9p7Rf7YREY9Rl
+      - id: OlpFlNcUj4c3nf62
         type: image
-        name: Image Layer
-        src: modules/draenal-common/assets/npc-images/agog.png
+        name: Pasted Image
+        src: tokenizer/pasted/a3fd688129a54c94.png
         visible: true
         locked: false
         blendMode: source-over
         transform:
-          x: 0
-          'y': 0
-          scaleX: 1
-          scaleY: 1
+          x: -0.8803549482436779
+          'y': 104.92458995743692
+          scaleX: 1.532033329200092
+          scaleY: 1.532033329200092
           rotation: 0
         adjustments:
           brightness: 1
@@ -1373,10 +1566,10 @@ _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
-  createdTime: 1781056280410
-  modifiedTime: 1786903719758
+  createdTime: 1786920217961
+  modifiedTime: 1786921188147
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
-_key: '!actors!m4cJ6r1dpkigc3tu'
+_key: '!actors!tfEok16jCYzDGefE'
 

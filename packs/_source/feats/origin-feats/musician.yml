@@ -1,0 +1,74 @@
+folder: czuxGSDEF9XXySRs
+name: Musician
+type: feat
+_id: toqGjhIzrUWBoKsO
+img: icons/tools/instruments/harp-lap-brown.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    FAA6J6FRMmGsDbW0:
+      type: Trait
+      _id: FAA6J6FRMmGsDbW0
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 3
+            pool:
+              - tool:music:*
+        grants: []
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      title: Instrument Training
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Instrument
+      Training.</strong></em> You gain proficiency with three Musical
+      Instruments of your choice.</p><p><em><strong>Encouraging
+      Song.</strong></em> As you finish a Short or Long Rest, you can play a
+      song on a Musical Instrument with which you have proficiency and give
+      Heroic Inspiration to allies who hear the song. The number of allies you
+      can affect in this way equals your Proficiency Bonus.</p>
+    chat: ''
+  identifier: musician
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '201'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: feat
+    subtype: origin
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786934872392
+  modifiedTime: 1786935487372
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!toqGjhIzrUWBoKsO'
+

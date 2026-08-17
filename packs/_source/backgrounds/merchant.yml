@@ -1,0 +1,155 @@
+name: Merchant
+type: background
+_id: 5PVCl5oQy9fh2NPY
+img: https://rustfs.michaelcook.dev/foundry-vtt-assets/backgrounds/merchant.jpg
+system:
+  advancement:
+    c9gwJyiJK2mSAPyW:
+      type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - wis
+        recommendation: null
+        max: null
+      _id: c9gwJyiJK2mSAPyW
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+      title: ''
+    gD5zqNQ6lXKbpq7E:
+      type: Trait
+      title: Background Proficiencies
+      _id: gD5zqNQ6lXKbpq7E
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ani
+          - skills:per
+        mode: default
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+    tK3Z6tYY9yOz1Kd5:
+      type: Trait
+      title: Choose Languages
+      configuration:
+        grants:
+          - languages:standard:common
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:*
+        mode: default
+      _id: tK3Z6tYY9yOz1Kd5
+      flags: {}
+      level: 0
+      hint: ''
+      value: {}
+    oGSoTauJz6P65NU5:
+      type: ItemGrant
+      title: Background Feat
+      _id: oGSoTauJz6P65NU5
+      configuration:
+        items:
+          - uuid: Compendium.draenal-common.feats.Item.oGDkmJlGaVD1gDOO
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+  description:
+    value: >-
+      <div class="ddb"><h1>Background: Merchant</h1><p></p><p><strong>Ability
+      Scores:</strong> Constitution, Intelligence,
+      Charisma<br><strong>Feat:</strong> Lucky<br><strong>Skill
+      Proficiencies:</strong> &amp;Reference[ani]{Animal Handling} and
+      &amp;Reference[per]{Persuassion}<br><strong>Tool Proficiency:</strong>
+      Navigator's Tools<br><strong>Equipment:</strong> <em>Choose A or B:</em>
+      (A) Navigator's Tools, 2 Pouches, Traveler's Clothes, 22 GP; or (B) 50
+      GP</p><p>You were apprenticed to a trader, caravan master, or shopkeeper,
+      learning the fundamentals of commerce. You traveled broadly, and you
+      earned a living by buying and selling the raw materials artisans need to
+      practice their craft or finished works from such crafters. You might have
+      transported goods from one place to another (by ship, wagon, or caravan)
+      or bought them from traveling traders and sold them in your own
+      shop.</p><h2>Feat: Lucky</h2></div>
+    chat: ''
+  identifier: merchant
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '182'
+    custom: ''
+    license: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: murHcs35EeZxJRht
+      group: ''
+      sort: 100000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbtulNavigators
+      requiresProficiency: false
+      _id: iFZUExIYlvthtzDm
+      group: murHcs35EeZxJRht
+      sort: 200000
+    - type: linked
+      count: 2
+      key: Compendium.dnd5e.equipment24.Item.phbagPouch000000
+      requiresProficiency: false
+      _id: r3p2vGe7g395fp14
+      group: murHcs35EeZxJRht
+      sort: 300000
+    - type: linked
+      count: null
+      key: Compendium.dnd5e.equipment24.Item.phbagClothesTrav
+      requiresProficiency: false
+      _id: f36Gw88AoYJQzyug
+      group: murHcs35EeZxJRht
+      sort: 400000
+    - type: currency
+      count: 22
+      key: gp
+      requiresProficiency: false
+      _id: BbOxc36UyWuF1CuB
+      group: murHcs35EeZxJRht
+      sort: 500000
+  wealth: '50'
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786936952839
+  modifiedTime: 1786937656251
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!5PVCl5oQy9fh2NPY'
+

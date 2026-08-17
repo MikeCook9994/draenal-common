@@ -1,7 +1,8 @@
 name: The Fates Patron
 type: subclass
 _id: HP7SJUQSZx72wngA
-img: modules/draenal-common/assets/icons/hexblade-patron-warlock.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/classes/icons/hexblade-patron-warlock.webp
 system:
   advancement:
     kY3ua299gHkwuEmh:
@@ -93,15 +94,17 @@ folder: Tf1u3G57WTSucgzH
 sort: 100000
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1774227816461
-  modifiedTime: 1777233356041
+  modifiedTime: 1786904806091
   lastModifiedBy: draenalcommon000
 _key: '!items!HP7SJUQSZx72wngA'
 

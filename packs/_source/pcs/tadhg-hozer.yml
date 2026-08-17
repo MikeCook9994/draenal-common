@@ -6499,59 +6499,6 @@ items:
     ownership:
       default: 0
     _key: '!actors.items!j7ySRfEobPDT5RZo.ALjIC7vy6KGovnB6'
-  - _id: HADeM94JLwFdAQDI
-    name: Gold Necklace with Emerald Pendant
-    type: loot
-    img: icons/equipment/neck/amulet-round-engraved-green.webp
-    system:
-      description:
-        value: <p>A gold necklace with a fine emerald pendant.</p>
-        chat: ''
-      source:
-        rules: '2014'
-        revision: 1
-      identified: true
-      unidentified:
-        description: ''
-      container: null
-      quantity: 1
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 200
-        denomination: gp
-      rarity: ''
-      properties: []
-      type:
-        value: art
-        subtype: ''
-      identifier: gold-necklace-with-emerald-pendant
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-    effects: []
-    folder: KAYxa2YunS2ZhhTJ
-    sort: 104688
-    flags:
-      dnd5e:
-        '-=riders': null
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1786859762789
-      modifiedTime: 1786859762789
-      lastModifiedBy: draenalcommon000
-      exportSource: null
-      compendiumSource: null
-      duplicateSource: null
-    ownership:
-      default: 0
-    _key: '!actors.items!j7ySRfEobPDT5RZo.HADeM94JLwFdAQDI'
   - name: Rewarded
     type: background
     _id: U5hQmkScEwlpsbBj

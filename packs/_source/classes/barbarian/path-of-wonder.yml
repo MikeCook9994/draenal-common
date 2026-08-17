@@ -1,7 +1,8 @@
 name: Path of Wonder
 type: subclass
 _id: kUZEs7LuUEHNL38g
-img: modules/draenal-common/assets/icons/path-of-wonder-barbarian.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/classes/icons/path-of-wonder-barbarian.webp
 system:
   advancement:
     5sznsKmP1emRBGZZ:
@@ -92,15 +93,17 @@ folder: CAlNYLK1njp3oLDr
 sort: 100000
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1768719155849
-  modifiedTime: 1777233082214
+  modifiedTime: 1786904622439
   lastModifiedBy: draenalcommon000
 _key: '!items!kUZEs7LuUEHNL38g'
 

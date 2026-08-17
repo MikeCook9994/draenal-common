@@ -369,7 +369,7 @@ system:
         blindsight: null
         tremorsense: null
         truesight: null
-    spellcasting: str
+    spellcasting: int
     exhaustion: 0
     concentration:
       ability: ''
@@ -1623,11 +1623,10 @@ items:
       description:
         value: >-
           <p class="feature">The [[lookup @name lowercase]]{monster} casts one
-          of the following spells, requiring no {type} components and using
-          {ability} as the spellcasting ability (spell save DC [[lookup
-          @attributes.spell.dc]]):</p><p class="feature-trait"><strong>2/Day
-          Each:</strong> [[/item Charm Person]], [[/item Detect Thoughts]],
-          [[/item Color Spray]]</p>
+          of the following spells, using Intelligence as the spellcasting
+          ability (spell save DC [[lookup @attributes.spell.dc]]):</p><p
+          class="feature-trait"><strong>2/Day Each:</strong> [[/item Detect
+          Thoughts]], [[/item Color Spray]]</p>
         chat: ''
       identifier: spellcasting
       source:
@@ -1653,7 +1652,7 @@ items:
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1786423509718
-      modifiedTime: 1786423622804
+      modifiedTime: 1786920085046
       lastModifiedBy: draenalcommon000
       exportSource: null
       compendiumSource: >-
@@ -2162,6 +2161,202 @@ items:
       exportSource: null
       compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
     _key: '!actors.items!mmSpy00000000000.0vYMtVoZxNviqsuZ'
+  - name: Command
+    system:
+      description:
+        value: >-
+          <p>You speak a one-word command to a creature you can see within
+          range. The target must succeed on a Wisdom saving throw or follow the
+          command on its next turn. Choose the command from these
+          options:</p><p><strong>Approach.</strong> The target moves toward you
+          by the shortest and most direct route, ending its turn if it moves
+          within 5 feet of you.</p><p><strong>Drop.</strong> The target drops
+          whatever it is holding and then ends its
+          turn.</p><p><strong>Flee.</strong> The target spends its turn moving
+          away from you by the fastest available
+          means.</p><p><strong>Grovel.</strong> The target has the Prone
+          condition and then ends its turn.</p><p><strong>Halt.</strong> On its
+          turn, the target doesn't move and takes no action or Bonus
+          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
+          can affect one additional creature for each spell slot level above
+          1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '@item.level'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        value: '60'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: enc
+      properties:
+        - vocal
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: command
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    type: spell
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    effects:
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.mmSpy00000000000.Item.7C9S9HDZPQ5GoaNs.Activity.2bKnPMAJk6Gl6OzF
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786919994626
+          modifiedTime: 1786919994626
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!mmSpy00000000000.9kqCV2VMzCE6pvM4.dnd5espellchange
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4700000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.7C9S9HDZPQ5GoaNs.Activity.2bKnPMAJk6Gl6OzF
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786919994626
+      modifiedTime: 1786919994627
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCommand000
+    _id: 9kqCV2VMzCE6pvM4
+    _key: '!actors.items!mmSpy00000000000.9kqCV2VMzCE6pvM4'
 effects: []
 folder: rej2SCe1BlhMbQxY
 flags:
@@ -2341,7 +2536,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786420000859
-  modifiedTime: 1786858318410
+  modifiedTime: 1786920039969
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

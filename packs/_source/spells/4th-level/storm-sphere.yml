@@ -1,0 +1,234 @@
+folder: shdfpuxJCc1FrTKw
+name: Storm Sphere
+type: spell
+_id: BtdW8Bikx5CdeOx3
+img: icons/magic/lightning/orb-ball-blue.webp
+system:
+  activities:
+    Qq4gFoHlCv8k7eYk:
+      type: save
+      name: Summon
+      _id: Qq4gFoHlCv8k7eYk
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: whole
+              number: 1
+              formula: d6
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+    5MW9ORjeU9px9rim:
+      type: attack
+      name: Arc Lightning
+      _id: 5MW9ORjeU9px9rim
+      img: ''
+      sort: 100000
+      activation:
+        type: bonus
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: true
+        special: measured from the center of the sphere
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: true
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - lightning
+            scaling:
+              mode: whole
+              number: 1
+              formula: d6
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A 20-foot-radius sphere of whirling air springs into existence centered
+      on a point you choose within range. The sphere remains for the spell's
+      duration. Each creature in the sphere when it appears or that ends its
+      turn there must succeed on a Strength saving throw or take 2d6 bludgeoning
+      damage. The sphere's space is difficult terrain.</p><p>Until the spell
+      ends, you can use a bonus action on each of your turns to cause a bolt of
+      lightning to leap from the center of the sphere toward one creature you
+      choose within 60 feet of the center. Make a ranged spell attack. You have
+      advantage on the attack roll if the target is in the sphere. On a hit, the
+      target takes 4d6 lightning damage.</p><p>Creatures within 30 feet of the
+      sphere have disadvantage on Wisdom (Perception) checks made to
+      listen.</p><p><strong>At Higher Levels.</strong> When you cast this spell
+      using a spell slot of 5th level or higher, the damage increases for each
+      of its effects by 1d6 for each slot level above 4th.</p>
+    chat: ''
+  identifier: storm-sphere
+  source:
+    revision: 1
+    rules: '2024'
+    book: Xanathar's Guide to Everything
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 4
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: ft
+    special: ''
+    value: '150'
+  school: evo
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: sphere
+      size: '20'
+      count: ''
+    affects:
+      choice: false
+      type: creature
+      count: ''
+      special: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786941512548
+  modifiedTime: 1786941944554
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!BtdW8Bikx5CdeOx3'
+

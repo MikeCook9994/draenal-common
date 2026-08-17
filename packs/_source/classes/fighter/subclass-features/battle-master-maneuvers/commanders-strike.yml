@@ -1,0 +1,128 @@
+folder: B2ugtsCRpmQc1VXC
+name: Commander's Strike
+type: feat
+_id: 89Hla7q1CGZDcUuu
+img: icons/environment/people/charge.webp
+system:
+  activities:
+    VEcy7QXoIfUFchLP:
+      type: damage
+      _id: VEcy7QXoIfUFchLP
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: >-
+          When you take the Attack action on your turn, you can replace one of
+          your attacks
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.draenal-common.classes.Item.0VaCiQpyi5QxOBKb
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: 1@scale.combat-superiority.superiority-dice.die
+            number: 1
+            denomination: null
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      name: Command
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you take the Attack action on your turn, you can replace one of
+      your attacks to direct one of your companions to strike. When you do so,
+      choose a willing creature who can see or hear you and expend one
+      Superiority Die. That creature can immediately use its Reaction to make
+      one attack with a weapon or an Unarmed Strike, adding the Superiority Die
+      to the attack's damage roll on a hit.</p>
+    chat: ''
+  identifier: commanders-strike
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '94'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: maneuver
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786930455364
+  modifiedTime: 1786930806321
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!89Hla7q1CGZDcUuu'
+

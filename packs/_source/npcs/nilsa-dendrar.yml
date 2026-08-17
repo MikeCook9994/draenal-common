@@ -1,0 +1,5212 @@
+name: Nilsa Dendrar
+type: character
+_id: aeb43OOnhx2Uqtu5
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Nilsa_Dendrar.webp
+system:
+  currency:
+    pp: 0
+    gp: 6
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 17
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+    spell2:
+      value: 0
+    spell3:
+      value: 0
+    spell4:
+      value: 0
+    spell5:
+      value: 0
+    spell6:
+      value: 0
+    spell7:
+      value: 0
+    spell8:
+      value: 0
+    spell9:
+      value: 0
+    pact:
+      value: 0
+  attributes:
+    ac:
+      calc: default
+      flat: null
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      units: null
+      hover: false
+      ignoredDifficultTerrain: []
+    attunement:
+      max: 3
+    senses:
+      ranges:
+        blindsight: null
+        darkvision: null
+        tremorsense: null
+        truesight: null
+      units: null
+      special: ''
+    spellcasting: cha
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hp:
+      max: null
+      temp: null
+      tempmax: 0
+      value: 14
+      bonuses: {}
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    inspiration: false
+  bastion:
+    name: ''
+    description: ''
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: ''
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: NRF1WG51JrOFBBGu
+    background: 995pODcCef48Jjf7
+    originalClass: SpY5KSN9c1suTPYc
+    xp:
+      value: 0
+    appearance: ''
+    trait: ''
+    eyes: ''
+    height: ''
+    faith: ''
+    hair: ''
+    weight: ''
+    gender: ''
+    skin: ''
+    age: ''
+  traits:
+    size: med
+    di:
+      value: []
+      custom: ''
+      bypasses: []
+    dr:
+      value:
+        - fire
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+        - giant
+        - infernal
+      custom: ''
+      communication: {}
+    weaponProf:
+      value:
+        - sim
+      custom: ''
+      mastery:
+        value: []
+        bonus: []
+    armorProf:
+      value: []
+      custom: ''
+  resources:
+    primary:
+      value: 0
+      max: 0
+      sr: false
+      lr: false
+      label: ''
+    secondary:
+      value: 0
+      max: 0
+      sr: false
+      lr: false
+      label: ''
+    tertiary:
+      value: 0
+      max: 0
+      sr: false
+      lr: false
+      label: ''
+  favorites: []
+prototypeToken:
+  name: Nilsa Dendrar
+  displayName: 0
+  actorLink: true
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Nilsa_Dendrar.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - _id: NRF1WG51JrOFBBGu
+    name: Tiefling, Infernal
+    type: race
+    img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+    system:
+      description:
+        value: >-
+          <p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000
+          inline classes="free-rules-embed"]</p><h3
+          data-anchor="infernal">Infernal</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie
+          inline classes="free-rules-embed"]</p><h3
+          data-anchor="tiefling-traits">Tiefling Traits</h3><p><strong>Creature
+          Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 4–7
+          feet tall) or Small (about 3–4 feet tall), chosen when you select this
+          species</p><p><strong>Speed:</strong> 30 feet</p><p>As a Tiefling, you
+          have the following special traits.</p><p><strong>Darkvision.
+          </strong>You have Darkvision with a range of 60
+          feet.</p><p><strong>Fiendish Legacy.</strong> You are the recipient of
+          a legacy that grants you supernatural abilities.</p><p>When you reach
+          character levels 3 and 5, you learn a higher-level spell, as shown on
+          the table. You always have that spell prepared. You can cast it once
+          without a spell slot, and you regain the ability to cast it in that
+          way when you finish a Long Rest. You can also cast the spell using any
+          spell slots you have of the appropriate level. Intelligence, Wisdom,
+          or Charisma is your spellcasting ability for the spells you cast with
+          this trait (choose the ability when you select the
+          legacy).</p><p><strong>Otherworldly Presence.</strong> You know the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
+          cantrip. When you cast it with this trait, the spell uses the same
+          spellcasting ability you use for your Fiendish Legacy
+          trait.</p><table><caption>Fiendish
+          Legacies</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
+          5</td></tr></thead><tbody><tr><td>You have Resistance to Fire damage.
+          You also know the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt}
+          cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish
+          Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>
+        chat: ''
+      source:
+        revision: 1
+        rules: '2024'
+        custom: ''
+        book: SRD 5.2
+        license: CC-BY-4.0
+      advancement:
+        lskxIeib6rIreZ1h:
+          _id: lskxIeib6rIreZ1h
+          type: Size
+          configuration:
+            sizes:
+              - sm
+              - med
+          level: 0
+          title: ''
+          hint: Meidum (about 4-7 feet tall) or Small (about 3-4 feet tall)
+          value:
+            size: med
+          flags: {}
+        T8T6H9TudTleafUL:
+          _id: T8T6H9TudTleafUL
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.origins24.Item.phbsptOtherworld
+                optional: false
+              - uuid: Compendium.dnd5e.origins24.Item.phbsptInfernalLe
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              2rIp16quuJjZ45iQ: Compendium.dnd5e.origins24.Item.phbsptOtherworld
+              y2HGrXwe088Uoo0d: Compendium.dnd5e.origins24.Item.phbsptInfernalLe
+          level: 0
+          title: Tiefling Traits
+          hint: ''
+          flags: {}
+        bD2XFMWGPkFJLr2w:
+          _id: bD2XFMWGPkFJLr2w
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+            optional: false
+            spell:
+              ability:
+                - int
+                - wis
+                - cha
+              uses:
+                max: ''
+                per: ''
+                requireSlot: false
+              prepared: 0
+          value:
+            ability: cha
+            added:
+              IIUhcS9zSsSIASqx: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+          level: 0
+          title: Otherworldly Presence
+          hint: ''
+          flags: {}
+        9V9xGP0Fsqh3NDsB:
+          _id: 9V9xGP0Fsqh3NDsB
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - dr:fire
+            choices: []
+          value:
+            chosen:
+              - dr:fire
+          level: 1
+          title: Infernal Tiefling Traits
+          hint: You have Resistance to Fire damage.
+          flags: {}
+        gMovXMwHeD9cCL99:
+          _id: gMovXMwHeD9cCL99
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplFireBolt00
+            optional: false
+            spell:
+              ability:
+                - int
+                - wis
+                - cha
+              uses:
+                max: ''
+                per: ''
+                requireSlot: false
+              prepared: 0
+          value:
+            ability: cha
+            added:
+              lHkRk77I6Qywwd3U: Compendium.dnd5e.spells24.Item.phbsplFireBolt00
+          level: 1
+          title: Infernal Tiefling Traits
+          hint: >-
+            Intelligence, Wisdom, or Charisma is your spellcasting ability for
+            the spells you cast with this trait.
+          flags: {}
+        ol3SWLw2FTNEiXrb:
+          _id: ol3SWLw2FTNEiXrb
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplHellishReb
+            optional: false
+            spell:
+              ability:
+                - int
+                - wis
+                - cha
+              uses:
+                max: '1'
+                per: lr
+                requireSlot: false
+              method: spell
+              prepared: 2
+          value: {}
+          level: 3
+          title: Infernal Tiefling Traits
+          hint: >-
+            Intelligence, Wisdom, or Charisma is your spellcasting ability for
+            the spells you cast with this trait.
+          flags: {}
+        cj8h25IH0Zvdy3Bm:
+          _id: cj8h25IH0Zvdy3Bm
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+            optional: false
+            spell:
+              ability:
+                - int
+                - wis
+                - cha
+              uses:
+                max: '1'
+                per: lr
+                requireSlot: false
+              method: spell
+              prepared: 2
+          value: {}
+          level: 5
+          title: Infernal Tiefling Traits
+          hint: >-
+            Intelligence, Wisdom, or Charisma is your spellcasting ability for
+            the spells you cast with this trait.
+          flags: {}
+      movement:
+        walk: '30'
+        units: null
+        hover: false
+        ignoredDifficultTerrain: []
+      senses:
+        units: null
+        special: ''
+        ranges:
+          darkvision: 60
+          blindsight: null
+          tremorsense: null
+          truesight: null
+      type:
+        value: humanoid
+        subtype: Tiefling
+        custom: ''
+      identifier: tiefling-infernal
+    effects: []
+    folder: Ulvo8nbygUegLa59
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747444
+      modifiedTime: 1786912747444
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.origins24.Item.phbspInfernalTie
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.NRF1WG51JrOFBBGu'
+  - name: Thaumaturgy
+    system:
+      description:
+        value: >-
+          <p>You manifest a minor wonder within range. You create one of the
+          effects below within range. If you cast this spell multiple times, you
+          can have up to three of its 1-minute effects active at a
+          time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of
+          your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your
+          voice booms up to three times as loud as normal for 1 minute. For the
+          duration, you have Advantage on [[/check ability=cha skill=itm]]
+          checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker,
+          brighten, dim, or change color for 1 minute.</p><p><strong>Invisible
+          Hand.</strong> You instantaneously cause an unlocked door or window to
+          fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You
+          create an instantaneous sound that originates from a point of your
+          choice within range, such as a rumble of thunder, the cry of a raven,
+          or ominous whispers.</p><p><strong>Tremors.</strong> You cause
+          harmless tremors in the ground for 1 minute.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 2
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '30'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        q83milmNAKF9cymI:
+          type: utility
+          _id: q83milmNAKF9cymI
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: WUkq6HS8v9DK6fQz
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: thaumaturgy
+      method: spell
+      prepared: 2
+      ability: cha
+      sourceItem: race:tiefling-infernal
+    _id: IIUhcS9zSsSIASqx
+    type: spell
+    img: icons/environment/people/cleric-orange.webp
+    effects:
+      - name: Booming Voice
+        img: icons/environment/people/cleric-orange.webp
+        origin: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+        transfer: false
+        _id: WUkq6HS8v9DK6fQz
+        type: base
+        system:
+          changes:
+            - key: system.skills.itm.roll.mode
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        disabled: false
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>Your voice booms up to three times as loud as normal for 1 minute.
+          For the duration, you have Advantage on [[/check ability=cha
+          skill=itm]] checks.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786912747448
+          modifiedTime: 1786912747448
+          lastModifiedBy: draenalcommon000
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!aeb43OOnhx2Uqtu5.IIUhcS9zSsSIASqx.WUkq6HS8v9DK6fQz
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 100391
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+        advancementOrigin: NRF1WG51JrOFBBGu.bD2XFMWGPkFJLr2w
+        advancementRoot: NRF1WG51JrOFBBGu.bD2XFMWGPkFJLr2w
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747447
+      modifiedTime: 1786912747447
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.IIUhcS9zSsSIASqx'
+  - _id: 2rIp16quuJjZ45iQ
+    name: Otherworldly Presence
+    type: feat
+    img: icons/magic/control/silhouette-grow-shrink-tan.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>You know the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{Thaumaturgy}
+          cantrip. When you cast it with this trait, the spell uses the same
+          spellcasting ability you use for your Fiendish legacy
+          trait.</p><section id="secret-i3PjM9HLuO2Xcae7"
+          class="secret"><p><strong>Foundry Note</strong></p><p>When you're
+          granted this spell it will allow you to choose your spellcasting
+          ability.</p></section>
+        chat: ''
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      enchant: {}
+      type:
+        value: race
+        subtype: ''
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Tiefling
+      identifier: otherworldly-presence
+      advancement: {}
+      cover: null
+      crewed: false
+    effects: []
+    folder: VZQeqwpBruLqnL6x
+    flags:
+      dnd5e:
+        sourceId: Compendium.dnd5e.origins24.Item.phbsptOtherworld
+        advancementOrigin: NRF1WG51JrOFBBGu.T8T6H9TudTleafUL
+        advancementRoot: NRF1WG51JrOFBBGu.T8T6H9TudTleafUL
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747444
+      modifiedTime: 1786912747444
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.origins24.Item.phbsptOtherworld
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.2rIp16quuJjZ45iQ'
+  - _id: y2HGrXwe088Uoo0d
+    name: Fiendish Legacy, Infernal
+    type: feat
+    img: icons/creatures/unholy/demon-horned-winged-laughing.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      description:
+        value: >-
+          <p>You are the recipient of a legacy that grants you supernatural
+          abilities.</p><p>When you reach character levels 3 and 5, you learn a
+          higher-level spell, as shown on the table. You always have that spell
+          prepared. You can cast it once without a spell slot, and you regain
+          the ability to cast it in that way when you finish a Long Rest. You
+          can also cast the spell using any spell slots you have of the
+          appropriate level. Intelligence, Wisdom, or Charisma is your
+          spellcasting ability for the spells you cast with this trait (choose
+          the ability when you select the legacy).</p><h3
+          data-anchor="infernal">Infernal</h3><p>The infernal legacy connects
+          tieflings not only to Gehenna but also the Nine Hells and the raging
+          battlefields of Acheron. Horns, spines, tails, golden eyes, and a
+          faint odor of sulfur or smoke are common physical features of such
+          tieflings, most of whom trace their ancestry to
+          devils.</p><table><caption>Infernal Legacy
+          Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
+          5</td></tr></thead><tbody><tr><td>You have Resistance to Fire damage.
+          You also know the
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{Fire Bolt}
+          cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{Hellish
+          Rebuke}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><section
+          class="secret" id="secret-UpLnecebx3jeydEG"><p><strong>Foundry
+          Note</strong></p><p>The Resistance and spells are granted to you
+          automatically and you will be prompted to choose the spellcasting
+          ability during advancement.</p></section>
+        chat: ''
+      source:
+        revision: 1
+        rules: '2024'
+        book: ''
+        license: CC-BY-4.0
+      enchant: {}
+      type:
+        value: race
+        subtype: ''
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+      requirements: Tiefling
+      identifier: fiendish-legacy-infernal
+      advancement: {}
+      cover: null
+      crewed: false
+    effects: []
+    folder: VZQeqwpBruLqnL6x
+    flags:
+      dnd5e:
+        sourceId: Compendium.dnd5e.origins24.Item.phbsptInfernalLe
+        advancementOrigin: NRF1WG51JrOFBBGu.T8T6H9TudTleafUL
+        advancementRoot: NRF1WG51JrOFBBGu.T8T6H9TudTleafUL
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747444
+      modifiedTime: 1786912747444
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.origins24.Item.phbsptInfernalLe
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.y2HGrXwe088Uoo0d'
+  - name: Wayfarer
+    type: background
+    _id: 995pODcCef48Jjf7
+    img: https://rustfs.michaelcook.dev/foundry-vtt-assets/backgrounds/wayfarer.jpg
+    system:
+      advancement:
+        UdMlWxDCKYxMMCA1:
+          type: AbilityScoreImprovement
+          configuration:
+            points: 3
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked:
+              - str
+              - con
+              - int
+            recommendation: null
+            max: null
+          _id: UdMlWxDCKYxMMCA1
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            type: asi
+            assignments:
+              cha: 2
+              dex: 1
+          title: ''
+        sMfDO9ufrgxgG7YO:
+          type: Trait
+          title: Background Proficiencies
+          _id: sMfDO9ufrgxgG7YO
+          configuration:
+            allowReplacements: false
+            choices: []
+            grants:
+              - skills:ins
+              - skills:ste
+            mode: default
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - skills:ins
+              - skills:ste
+        bWWlhomdTQkZmFGa:
+          type: Trait
+          title: Choose Languages
+          configuration:
+            grants:
+              - languages:standard:common
+            allowReplacements: false
+            choices:
+              - count: 2
+                pool:
+                  - languages:*
+            mode: default
+          _id: bWWlhomdTQkZmFGa
+          flags: {}
+          level: 0
+          hint: ''
+          value:
+            chosen:
+              - languages:standard:common
+              - languages:standard:giant
+              - languages:exotic:infernal
+        9wnuT5CZ6S4msyAX:
+          type: ItemGrant
+          title: Background Feat
+          _id: 9wnuT5CZ6S4msyAX
+          configuration:
+            items:
+              - uuid: Compendium.draenal-common.feats.Item.oGDkmJlGaVD1gDOO
+                optional: false
+            optional: false
+            spell: null
+          flags: {}
+          value:
+            added:
+              z4bQHVbfkID3SASQ: Compendium.draenal-common.feats.Item.oGDkmJlGaVD1gDOO
+          level: 0
+          hint: ''
+      description:
+        value: >-
+          <div class="ddb"><h1>Background:
+          Wayfarer</h1><p></p><p><strong>Ability Scores:</strong> Dexterity,
+          Wisdom, Charisma<br><strong>Feat:</strong> Lucky<br><strong>Skill
+          Proficiencies:</strong> &amp;Reference[ins]{Insight} and
+          &amp;Reference[ste]{Perception}<br><strong>Tool Proficiency:</strong>
+          Thieves' Tools<br><strong>Equipment:</strong> <em>Choose A or B:</em>
+          (A) 2 Daggers, Thieves' Tools, Gaming Set (any), Bedroll, 2 Pouches,
+          Traveler's Clothes, 16 GP; or (B) 50 GP</p><p>You grew up on the
+          streets surrounded by similarly ill-fated castoffs, a few of them
+          friends and a few of them rivals. You slept where you could and did
+          odd jobs for food. At times, when the hunger became unbearable, you
+          resorted to theft. Still, you never lost your pride and never
+          abandoned hope. Fate is not yet finished with you.</p><h2>Feat:
+          Lucky</h2></div>
+        chat: ''
+      identifier: wayfarer
+      source:
+        revision: 1
+        rules: '2024'
+        book: 5.5E Player's Handbook
+        page: '185'
+        custom: ''
+        license: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: VobgPKz1QUO6BwJU
+          group: ''
+          sort: 100000
+        - type: linked
+          count: 2
+          key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+          requiresProficiency: false
+          _id: 5d0tCb1W2hobOPGK
+          group: VobgPKz1QUO6BwJU
+          sort: 200000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbtulThievesToo
+          requiresProficiency: false
+          _id: YegtoNhe5W40Q6Fg
+          group: VobgPKz1QUO6BwJU
+          sort: 250000
+        - type: tool
+          count: null
+          key: game
+          requiresProficiency: false
+          _id: FNufCeiOGPVR2F0I
+          group: VobgPKz1QUO6BwJU
+          sort: 275000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
+          requiresProficiency: false
+          _id: wbiM5EePys1itxWI
+          group: VobgPKz1QUO6BwJU
+          sort: 287500
+        - type: linked
+          count: 2
+          key: Compendium.dnd5e.equipment24.Item.phbagPouch000000
+          requiresProficiency: false
+          _id: 5nnWPaFuQHeicJka
+          group: VobgPKz1QUO6BwJU
+          sort: 300000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagClothesTrav
+          requiresProficiency: false
+          _id: fE3paWRGA8E622Kv
+          group: VobgPKz1QUO6BwJU
+          sort: 400000
+        - type: currency
+          count: 16
+          key: gp
+          requiresProficiency: false
+          _id: c3017F7Swwh76szN
+          group: VobgPKz1QUO6BwJU
+          sort: 500000
+      wealth: '50'
+    effects: []
+    folder: null
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747445
+      modifiedTime: 1786912747445
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.backgrounds.Item.sFBydPBlZyuZdtod
+      duplicateSource: null
+      exportSource: null
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.995pODcCef48Jjf7'
+  - folder: czuxGSDEF9XXySRs
+    name: Lucky
+    type: feat
+    _id: z4bQHVbfkID3SASQ
+    img: icons/magic/light/hand-sparks-smoke-green.webp
+    system:
+      activities:
+        6lad86ljavG0PZ3Y:
+          type: utility
+          name: Advantage
+          _id: 6lad86ljavG0PZ3Y
+          img: icons/svg/upgrade.svg
+          sort: 0
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+        0Cedt5OyCsCtAGxN:
+          type: utility
+          name: Disadvantage
+          img: icons/svg/downgrade.svg
+          sort: 100000
+          activation:
+            type: ''
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            formula: ''
+            name: ''
+          _id: 0Cedt5OyCsCtAGxN
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '@prof'
+      advancement: {}
+      description:
+        value: >-
+          <p>You gain the following benefits.</p><p><strong>Luck
+          Points.</strong> You have a number of Luck Points equal to your
+          Proficiency Bonus and can spend the points on the benefits below. You
+          regain your expended Luck Points when you finish a Long
+          Rest.</p><p><strong>Advantage.</strong> When you roll a d20 for a D20
+          Test, you can spend 1 Luck Point to give yourself Advantage on the
+          roll.</p><p><strong>Disadvantage.</strong> When a creature rolls a d20
+          for an attack roll against you, you can spend 1 Luck Point to impose
+          Disadvantage on that roll.</p>
+        chat: ''
+      identifier: lucky
+      source:
+        revision: 1
+        rules: '2024'
+        book: 5.5E Player's Handbook
+        page: '201'
+        custom: ''
+        license: ''
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: feat
+        subtype: origin
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+      dnd5e:
+        sourceId: Compendium.draenal-common.feats.Item.oGDkmJlGaVD1gDOO
+        advancementOrigin: 995pODcCef48Jjf7.9wnuT5CZ6S4msyAX
+        advancementRoot: 995pODcCef48Jjf7.9wnuT5CZ6S4msyAX
+        '-=riders': null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747447
+      modifiedTime: 1786912747447
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.draenal-common.feats.Item.oGDkmJlGaVD1gDOO
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.z4bQHVbfkID3SASQ'
+  - _id: SpY5KSN9c1suTPYc
+    name: Sorcerer
+    type: class
+    folder: 45fGQlR9VJAIreZA
+    img: systems/dnd5e/icons/classes/sorcerer.webp
+    system:
+      description:
+        value: >-
+          <h3>Core Sorcerer Traits</h3><table
+          class="core-class-traits"><tbody><tr><th
+          scope="row"><p><strong>Primary
+          Ability</strong></p></th><td><p>Charisma</p></td></tr><tr><th
+          scope="row"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per
+          Sorcerer level</p></td></tr><tr><th scope="row"><p><strong>Saving
+          Throw Proficiencies</strong></p></th><td><p>Constitution and
+          Charisma</p></td></tr><tr><th scope="row"><p><strong>Skill
+          Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Arcana,
+          Deception, Insight, Intimidation, Persuasion, or
+          Religion</p></td></tr><tr><th scope="row"><p><strong>Weapon
+          Proficiencies</strong></p></th><td><p>Simple
+          weapons</p></td></tr><tr><th scope="row"><p><strong>Armor
+          Training</strong></p></th><td><p>None</p></td></tr><tr><th
+          scope="row"><p><strong>Starting
+          Equipment</strong></p></th><td><p><em>Choose A or B: </em>(A)
+          @UUID[Compendium.dnd5e.equipment24.Item.phbwepSpear00000]{Spear}, 2
+          @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers},
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane
+          Focus}
+          (@UUID[Compendium.dnd5e.equipment24.Item.phbafcCrystal000]{crystal}),
+          @UUID[Compendium.dnd5e.equipment24.Item.phbagDungeoneers]{Dungeoneer's
+          Pack}, and [[/award 28GP]]; or (B) [[/award
+          50GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbscrSorcerer00
+          inline classes="free-rules-embed"]</p><h2>Becoming a Sorcerer
+          …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in
+          the Core Sorcerer Traits table.</li><li>Gain the Sorcerer's level 1
+          features, which are listed in the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer
+          Features table}.</li></ul><h3>As a Multiclass
+          Character</h3><ul><li>Gain the Hit Point Die from the Core Sorcerer
+          Traits table.</li><li>Gain the Sorcerer's level 1 features, which are
+          listed in the Sorcerer Features table. See the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing
+          rules} to determine your available spell slots.</li></ul>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 2
+        license: CC-BY-4.0
+        book: ''
+      startingEquipment:
+        - type: AND
+          requiresProficiency: false
+          _id: pR0mEuxe1qPdiMXB
+          group: ''
+          sort: 100000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbwepSpear00000
+          requiresProficiency: false
+          _id: qlvsOcz6euiRnNL3
+          group: pR0mEuxe1qPdiMXB
+          sort: 200000
+        - type: linked
+          count: 2
+          key: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+          requiresProficiency: false
+          _id: A2PetGWTbbmothUy
+          group: pR0mEuxe1qPdiMXB
+          sort: 300000
+        - type: OR
+          requiresProficiency: false
+          _id: C1ovxcWZDF54nw08
+          group: pR0mEuxe1qPdiMXB
+          sort: 400000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbafcCrystal000
+          requiresProficiency: false
+          _id: zmwYHbS3JVzU8FXX
+          group: C1ovxcWZDF54nw08
+          sort: 600000
+        - type: linked
+          count: null
+          key: Compendium.dnd5e.equipment24.Item.phbagDungeoneers
+          requiresProficiency: false
+          _id: LgbG4QYKBQTlDhOd
+          group: pR0mEuxe1qPdiMXB
+          sort: 500000
+        - type: currency
+          count: 28
+          key: gp
+          requiresProficiency: false
+          _id: mXGHdwbuSIEboiMy
+          group: pR0mEuxe1qPdiMXB
+          sort: 700000
+      identifier: sorcerer
+      levels: 2
+      advancement:
+        wu4INYdfnMUSeDqH:
+          _id: wu4INYdfnMUSeDqH
+          type: HitPoints
+          configuration: {}
+          value:
+            '1': max
+            '2': avg
+          flags: {}
+          hint: ''
+        preISmaDhLpsoWqy:
+          _id: preISmaDhLpsoWqy
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbscrSpellcasti
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbscrInnateSorc
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              k6FvRd5CZNddM4yD: Compendium.dnd5e.classes24.Item.phbscrSpellcasti
+              fHbqB778TFnK6pMh: Compendium.dnd5e.classes24.Item.phbscrInnateSorc
+          level: 1
+          title: Class Features
+          flags: {}
+          hint: ''
+        c5fRAxTbRHamZM7M:
+          _id: c5fRAxTbRHamZM7M
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+                optional: false
+              - uuid: Compendium.dnd5e.classes24.Item.phbscrMetamagic0
+                optional: false
+            optional: false
+            spell: null
+          value:
+            added:
+              iDweLu2TWB8mp3mu: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+              NExQ1khs0bdXIiYp: Compendium.dnd5e.classes24.Item.phbscrMetamagic0
+          level: 2
+          title: Class Features
+          flags: {}
+          hint: ''
+        SihgGDvXjAktGkt1:
+          _id: SihgGDvXjAktGkt1
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbscrSorcerousR
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 5
+          title: Class Features
+          flags: {}
+          hint: ''
+        vGoDRNITjHNqxW1z:
+          _id: vGoDRNITjHNqxW1z
+          type: ItemGrant
+          configuration:
+            items:
+              - optional: false
+                uuid: Compendium.dnd5e.classes24.Item.phbscrSorceryInc
+            optional: false
+            spell: null
+          value: {}
+          level: 7
+          title: Class Features
+          flags: {}
+          hint: ''
+        g3PLJU1zYyUrHCY0:
+          _id: g3PLJU1zYyUrHCY0
+          type: ItemGrant
+          configuration:
+            items:
+              - uuid: Compendium.dnd5e.classes24.Item.phbscrArcaneApot
+                optional: false
+            optional: false
+            spell: null
+          value: {}
+          level: 20
+          title: Class Features
+          flags: {}
+          hint: ''
+        bwCLOdauuzoHofil:
+          _id: bwCLOdauuzoHofil
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 4
+          title: ''
+          flags: {}
+          hint: ''
+        mRSh9oUVjLU33e7p:
+          _id: mRSh9oUVjLU33e7p
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 8
+          title: ''
+          flags: {}
+          hint: ''
+        mhZh3LfLMa15tXee:
+          _id: mhZh3LfLMa15tXee
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 12
+          title: ''
+          flags: {}
+          hint: ''
+        FOf5CkGnSs0OlppY:
+          _id: FOf5CkGnSs0OlppY
+          type: AbilityScoreImprovement
+          configuration:
+            points: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            cap: 2
+            locked: []
+            recommendation: null
+          value: {}
+          level: 16
+          title: ''
+          flags: {}
+          hint: ''
+        DUHZI0oND7OQ6lox:
+          _id: DUHZI0oND7OQ6lox
+          type: ScaleValue
+          configuration:
+            identifier: max-prepared
+            type: number
+            distance:
+              units: ''
+            scale:
+              '1':
+                value: 2
+              '2':
+                value: 4
+              '3':
+                value: 6
+              '4':
+                value: 7
+              '5':
+                value: 9
+              '6':
+                value: 10
+              '7':
+                value: 11
+              '8':
+                value: 12
+              '9':
+                value: 14
+              '10':
+                value: 15
+              '11':
+                value: 16
+              '13':
+                value: 17
+              '15':
+                value: 18
+              '17':
+                value: 19
+              '18':
+                value: 20
+              '19':
+                value: 21
+              '20':
+                value: 22
+          value: {}
+          title: Max Prepared Spells
+          hint: ''
+          flags: {}
+        zMjMi0B3XrcQMqAS:
+          _id: zMjMi0B3XrcQMqAS
+          type: ScaleValue
+          configuration:
+            identifier: ''
+            type: number
+            distance:
+              units: ''
+            scale:
+              '1':
+                value: 4
+              '4':
+                value: 5
+              '10':
+                value: 6
+          value: {}
+          title: Cantrips Known
+          hint: ''
+          flags: {}
+        nIaa61I4SSnwAQvz:
+          _id: nIaa61I4SSnwAQvz
+          type: ItemChoice
+          configuration:
+            choices:
+              '2':
+                count: 2
+                replacement: false
+              '10':
+                count: 2
+                replacement: false
+              '17':
+                count: 2
+                replacement: false
+            allowDrops: true
+            type: feat
+            pool:
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoCarefulSpe
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoDistantSpe
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoExtendedSp
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoHeightened
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoQuickenedS
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoSeekingSpe
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoSubtleSpel
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoTransmuted
+              - uuid: Compendium.dnd5e.classes24.Item.phbmmoTwinnedSpe
+            spell: null
+            restriction:
+              type: class
+              subtype: metamagic
+              list: []
+          value:
+            added:
+              '2':
+                zWp6GsBZAP5jziVI: Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS
+                M8a6b7KrG4BvGnje: Compendium.dnd5e.classes24.Item.phbmmoSeekingSpe
+            replaced: {}
+          title: Metamagic
+          hint: >-
+            Because your magic flows from within, you can alter your spells to
+            suit your needs; you gain two Metamagic options.
+          flags: {}
+        q7N6Am8hFSq15JTl:
+          _id: q7N6Am8hFSq15JTl
+          type: Subclass
+          configuration: {}
+          value:
+            document: null
+            uuid: null
+          level: 3
+          title: ''
+          hint: ''
+          flags: {}
+        XzTd1a6iGhCAqMs3:
+          _id: XzTd1a6iGhCAqMs3
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - saves:con
+              - saves:cha
+            choices: []
+          value:
+            chosen:
+              - saves:con
+              - saves:cha
+          level: 1
+          title: Saving Throw Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        7xtY4ilruYHMPFfM:
+          _id: 7xtY4ilruYHMPFfM
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants: []
+            choices:
+              - count: 2
+                pool:
+                  - skills:arc
+                  - skills:dec
+                  - skills:ins
+                  - skills:itm
+                  - skills:per
+                  - skills:rel
+          value:
+            chosen:
+              - skills:itm
+              - skills:per
+          level: 1
+          title: Skill Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        nFvwOhQGBMwm07Fa:
+          _id: nFvwOhQGBMwm07Fa
+          type: Trait
+          configuration:
+            mode: default
+            allowReplacements: false
+            grants:
+              - weapon:sim
+            choices: []
+          value:
+            chosen:
+              - weapon:sim
+          level: 1
+          title: Weapon Proficiencies
+          hint: ''
+          classRestriction: primary
+          flags: {}
+        mQyTV3LMkMQT1zfO:
+          _id: mQyTV3LMkMQT1zfO
+          type: ScaleValue
+          configuration:
+            identifier: points
+            type: number
+            distance:
+              units: ''
+            scale:
+              '2':
+                value: 2
+              '3':
+                value: 3
+              '4':
+                value: 4
+              '5':
+                value: 5
+              '6':
+                value: 6
+              '7':
+                value: 7
+              '8':
+                value: 8
+              '9':
+                value: 9
+              '10':
+                value: 10
+              '11':
+                value: 11
+              '12':
+                value: 12
+              '13':
+                value: 13
+              '14':
+                value: 14
+              '15':
+                value: 15
+              '16':
+                value: 16
+              '17':
+                value: 17
+              '18':
+                value: 18
+              '19':
+                value: 19
+              '20':
+                value: 20
+          value: {}
+          title: Sorcery Points
+          hint: ''
+          flags: {}
+        EgWvwpbMp6gDqqiT:
+          type: AbilityScoreImprovement
+          _id: EgWvwpbMp6gDqqiT
+          configuration:
+            cap: 2
+            fixed:
+              str: 0
+              dex: 0
+              con: 0
+              int: 0
+              wis: 0
+              cha: 0
+            locked: []
+            points: 2
+            recommendation: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
+            max: null
+          value: {}
+          level: 19
+          title: ''
+          hint: ''
+          flags: {}
+      spellcasting:
+        progression: full
+        ability: cha
+        preparation:
+          formula: '@scale.sorcerer.max-prepared'
+      wealth: '50'
+      primaryAbility:
+        value:
+          - cha
+        all: true
+      hd:
+        denomination: d6
+        spent: 0
+        additional: ''
+      properties: []
+    effects: []
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747445
+      modifiedTime: 1786912747445
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbscrSorcerer00
+    ownership:
+      default: 0
+    sort: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.SpY5KSN9c1suTPYc'
+  - name: Fire Bolt
+    system:
+      description:
+        value: >-
+          <p>You hurl a mote of fire at a creature or an object within range.
+          Make a ranged spell attack against the target. On a hit, the target
+          takes 1d10 Fire damage. A flammable object hit by this spell starts
+          burning if it isn't being worn or carried.</p><p><strong>Cantrip
+          Upgrade.</strong> The damage increases by 1d10 when you reach levels 5
+          (2d10), 11 (3d10), and 17 (4d10).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creatureOrObject
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '120'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        23hcoYMwc0GUIB6V:
+          type: attack
+          _id: 23hcoYMwc0GUIB6V
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 10
+                bonus: ''
+                types:
+                  - fire
+                scaling:
+                  mode: whole
+                  number: 1
+          name: ''
+          img: systems/dnd5e/icons/svg/damage/force.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: fire-bolt
+      method: spell
+      prepared: 2
+      ability: cha
+      sourceItem: race:tiefling-infernal
+    _id: lHkRk77I6Qywwd3U
+    type: spell
+    img: icons/magic/fire/projectile-fireball-orange-green.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1400000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.spells24.Item.phbsplFireBolt00
+        advancementOrigin: NRF1WG51JrOFBBGu.gMovXMwHeD9cCL99
+        advancementRoot: NRF1WG51JrOFBBGu.gMovXMwHeD9cCL99
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747445
+      modifiedTime: 1786912747445
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFireBolt00
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.lHkRk77I6Qywwd3U'
+  - _id: k6FvRd5CZNddM4yD
+    name: Spellcasting
+    type: feat
+    folder: zm1kuLu4kdDhoOyL
+    img: icons/magic/control/debuff-energy-hold-teal-blue.webp
+    system:
+      description:
+        value: >-
+          <p>Drawing from your innate magic, you can cast spells. See the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.b2QVn25z2N1ykWpf]{rules
+          on spellcasting}. The information below details how you use those
+          rules with Sorcerer spells, which appear in the
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.VfZ5mH2ZuyFq82Ga]{Sorcerer
+          spell list} later in the class's
+          description.</p><p><strong>Cantrips.</strong> You know four Sorcerer
+          cantrips of your choice.
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation},
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking
+          Grasp}, and
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplSorcerousB]{Sorcerous
+          Burst} are recommended. Whenever you gain a Sorcerer level, you can
+          replace one of your cantrips from this feature with another Sorcerer
+          cantrip of your choice.</p><p>When you reach Sorcerer levels 4 and 10,
+          you learn another Sorcerer cantrip of your choice, as shown in the
+          Cantrips column of the Sorcerer Features table.</p><p><strong>Spell
+          Slots.</strong> The
+          @UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O#class-features]{Sorcerer
+          Features table} shows how many spell slots you have to cast your level
+          1+ spells. You regain all expended slots when you finish a Long
+          Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare
+          the list of level 1+ spells that are available for you to cast with
+          this feature. To start, choose two level 1 Sorcerer spells.
+          <em>Burning Hands</em> and <em>Detect Magic</em> are
+          recommended.</p><p>The number of spells on your list increases as you
+          gain Sorcerer levels, as shown in the Prepared Spells column of the
+          Sorcerer Features table. Whenever that number increases, choose
+          additional Sorcerer spells until the number of spells on your list
+          matches the number in the Sorcerer Features table. The chosen spells
+          must be of a level for which you have spell slots. For example, if
+          you're a level 3 Sorcerer, your list of prepared spells can include
+          six Sorcerer spells of level 1 or 2 in any combination.</p><p>If
+          another Sorcerer feature gives you spells that you always have
+          prepared, those spells don't count against the number of spells you
+          can prepare with this feature, but those spells otherwise count as
+          Sorcerer spells for you.</p><p><strong>Changing Your Prepared
+          Spells.</strong> Whenever you gain a Sorcerer level, you can replace
+          one spell on your list with another Sorcerer spell for which you have
+          spell slots.</p><p><strong>Spellcasting Ability.</strong> Charisma is
+          your spellcasting ability for your Sorcerer
+          spells.</p><p><strong>Spellcasting Focus.</strong> You can use an
+          Arcane Focus as a Spellcasting Focus for your Sorcerer spells.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: spellcasting
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbscrSpellcasti
+        advancementOrigin: SpY5KSN9c1suTPYc.preISmaDhLpsoWqy
+        advancementRoot: SpY5KSN9c1suTPYc.preISmaDhLpsoWqy
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747445
+      modifiedTime: 1786912747445
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbscrSpellcasti
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.k6FvRd5CZNddM4yD'
+  - _id: fHbqB778TFnK6pMh
+    name: Innate Sorcery
+    type: feat
+    folder: zm1kuLu4kdDhoOyL
+    img: icons/magic/control/silhouette-hold-change-blue.webp
+    system:
+      description:
+        value: >-
+          <p>An event in your past left an indelible mark on you, infusing you
+          with simmering magic. As a Bonus Action, you can unleash that magic
+          for 1 minute, during which you gain the following
+          benefits:</p><ul><li>The spell save DC of your Sorcerer spells
+          increases by 1.</li><li>You have Advantage on the attack rolls of
+          Sorcerer spells you cast.</li></ul><p>You can use this feature twice,
+          and you regain all expended uses of it when you finish a Long
+          Rest.</p><section id="secret-nB2j1T08cVjrcuAj"
+          class="secret"><p><strong>Foundry Note</strong></p><p>This feature
+          includes an Active Effect which will increase your spell save DC. The
+          Advantage on attack rolls is not automated.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: '2'
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 1
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities:
+        mh49lCJGuCDeiyB8:
+          type: utility
+          _id: mh49lCJGuCDeiyB8
+          activation:
+            type: bonus
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: WtiHwWONdmCOeSDR
+              level: {}
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: self
+              special: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: Innate Sorcery
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: innate-sorcery
+      advancement: {}
+      crewed: false
+    effects:
+      - name: Innate Sorcery
+        img: icons/magic/control/silhouette-hold-change-blue.webp
+        origin: Compendium.dnd5e.classes24.Item.phbscrInnateSorc
+        transfer: true
+        _id: WtiHwWONdmCOeSDR
+        type: base
+        system:
+          changes:
+            - key: system.bonuses.spell.dc
+              value: 1
+              priority: null
+              type: add
+              phase: initial
+        disabled: true
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>The spell save DC of your Sorcerer spells increases by 1.
+          (Automated)</p><p>You have Advantage on the attack rolls of Sorcerer
+          spells you cast. (Not automated)</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786912747449
+          modifiedTime: 1786912747449
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!aeb43OOnhx2Uqtu5.fHbqB778TFnK6pMh.WtiHwWONdmCOeSDR
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbscrInnateSorc
+        advancementOrigin: SpY5KSN9c1suTPYc.preISmaDhLpsoWqy
+        advancementRoot: SpY5KSN9c1suTPYc.preISmaDhLpsoWqy
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747449
+      modifiedTime: 1786912747449
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbscrInnateSorc
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.fHbqB778TFnK6pMh'
+  - _id: iDweLu2TWB8mp3mu
+    name: Font of Magic
+    type: feat
+    folder: zm1kuLu4kdDhoOyL
+    img: icons/magic/light/hand-sparks-glow-yellow.webp
+    system:
+      description:
+        value: "<p>You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.</p><p>You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can't have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.</p><p>You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.</p><p><strong>Converting Spell Slots to Sorcery Points.</strong> You can expend a spell slot to gain a number of Sorcery Points equal to the slot's level (no action required).</p><p><strong>Creating Spell Slots.</strong> As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level\_5.</p><p>Any spell slot you create with this feature vanishes when you finish a Long Rest.</p><table><caption>Creating Spell Slots</caption><thead><tr><td>Spell Slot Level</td><td>Sorcery Point Cost</td><td>Min. Sorcerer Level</td></tr></thead><tbody><tr><td>1</td><td>2</td><td>2</td></tr><tr><td>2</td><td>3</td><td>3</td></tr><tr><td>3</td><td>5</td><td>5</td></tr><tr><td>4</td><td>6</td><td>7</td></tr><tr><td>5</td><td>7</td><td>9</td></tr></tbody></table><section class=\"secret\" id=\"secret-Q72pdf6OJGSybxFV\"><p><strong>Foundry Note</strong></p><p>The <strong>Regain Spell Slot</strong> activity will convert your Sorcery Points into spell slots.</p><p>The <strong>Regain Sorcery Points</strong> activity will convert your chosen spell slot into Sorcery Points.</p></section>"
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: '@scale.sorcerer.points'
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 2
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities:
+        rYDgagyWjp6f3jtO:
+          type: utility
+          name: Regain Spell Slot
+          _id: rYDgagyWjp6f3jtO
+          activation:
+            type: bonus
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '5'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: 1 + @scaling + floor(@scaling / 3)
+                target: ''
+                scaling:
+                  mode: ''
+              - type: spellSlots
+                value: '-1'
+                target: '1'
+                scaling:
+                  mode: level
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          img: systems/dnd5e/icons/svg/damage/force.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        qAphJay1yKd7VWxH:
+          type: utility
+          name: Regain Sorcery Points
+          _id: qAphJay1yKd7VWxH
+          activation:
+            type: ''
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '9'
+            spellSlot: true
+            targets:
+              - type: spellSlots
+                value: '1'
+                target: '1'
+                scaling:
+                  mode: level
+                  formula: ''
+              - type: itemUses
+                value: 0 - @scaling
+                target: ''
+                scaling:
+                  mode: amount
+                  formula: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          img: systems/dnd5e/icons/svg/activity/heal.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: font-of-magic
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+        advancementOrigin: SpY5KSN9c1suTPYc.c5fRAxTbRHamZM7M
+        advancementRoot: SpY5KSN9c1suTPYc.c5fRAxTbRHamZM7M
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747445
+      modifiedTime: 1786912747445
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.iDweLu2TWB8mp3mu'
+  - _id: NExQ1khs0bdXIiYp
+    name: Metamagic
+    type: feat
+    folder: zm1kuLu4kdDhoOyL
+    img: icons/magic/unholy/orb-colllecting-energy-green.webp
+    system:
+      description:
+        value: >-
+          <p>Because your magic flows from within, you can alter your spells to
+          suit your needs; you gain two Metamagic options of your choice from
+          "Metamagic Options". You use the chosen options to temporarily modify
+          spells you cast. To use an option, you must spend the number of
+          Sorcery Points that it costs.</p><p>You can use only one Metamagic
+          option on a spell when you cast it unless otherwise noted in one of
+          those options.</p><p>Whenever you gain a Sorcerer level, you can
+          replace one of your Metamagic options with one you don't know. You
+          gain two more options at Sorcerer level 10 and two more at Sorcerer
+          level 17.</p><section id="secret-IKw7Qq4qXvzx5Iqj"
+          class="secret"><p><strong>Foundry Note</strong></p><p>You will be
+          prompted to choose Metamagic options as you level up.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: ''
+      prerequisites:
+        level: 2
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities: {}
+      enchant: {}
+      identifier: metamagic
+      advancement: {}
+      crewed: false
+    effects: []
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbscrMetamagic0
+        advancementOrigin: SpY5KSN9c1suTPYc.c5fRAxTbRHamZM7M
+        advancementRoot: SpY5KSN9c1suTPYc.c5fRAxTbRHamZM7M
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747446
+      modifiedTime: 1786912747446
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbscrMetamagic0
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.NExQ1khs0bdXIiYp'
+  - _id: zWp6GsBZAP5jziVI
+    name: Empowered Spell
+    type: feat
+    img: icons/magic/air/wind-tornado-wall-blue.webp
+    system:
+      description:
+        value: >-
+          <blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you roll
+          damage for a spell, you can spend 1 Sorcery Point to reroll a number
+          of the damage dice up to your Charisma modifier (minimum of one,
+          currently [[lookup @abilities.cha.mod]]), and you must use the new
+          rolls.</p><p>You can use Empowered Spell even if you've already used a
+          different Metamagic option during the casting of the spell.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: metamagic
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities:
+        NkEwJOEFigqsdbZy:
+          type: utility
+          name: Empowered Spell
+          _id: NkEwJOEFigqsdbZy
+          activation:
+            type: ''
+            value: null
+            override: false
+            condition: When you roll damage for a spell
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          img: systems/dnd5e/icons/svg/ability-score-improvement.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: empowered-spell
+      advancement: {}
+      crewed: false
+    effects: []
+    folder: 6RKLEZHPbdWG3fZe
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS
+        advancementOrigin: SpY5KSN9c1suTPYc.nIaa61I4SSnwAQvz
+        advancementRoot: SpY5KSN9c1suTPYc.nIaa61I4SSnwAQvz
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747446
+      modifiedTime: 1786912747446
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbmmoEmpoweredS
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.zWp6GsBZAP5jziVI'
+  - _id: M8a6b7KrG4BvGnje
+    name: Seeking Spell
+    type: feat
+    img: icons/tools/navigation/compass-brass-blue-red.webp
+    system:
+      description:
+        value: >-
+          <blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>If you make an
+          attack roll for a spell and miss, you can spend 1 Sorcery Point to
+          reroll the d20, and you must use the new roll.</p><p>You can use
+          Seeking Spell even if you've already used a different Metamagic option
+          during the casting of the spell.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+        license: CC-BY-4.0
+        book: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: class
+        subtype: metamagic
+      prerequisites:
+        level: null
+        repeatable: false
+        items: []
+      properties: []
+      requirements: ''
+      activities:
+        vudKvHh2PbAiDXSE:
+          type: utility
+          name: Seeking Spell
+          _id: vudKvHh2PbAiDXSE
+          activation:
+            type: ''
+            value: null
+            override: false
+            condition: When you make an attack roll for a spell and miss
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: Compendium.dnd5e.classes24.Item.phbscrFontOfMagi
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      enchant: {}
+      identifier: seeking-spell
+      advancement: {}
+      crewed: false
+    effects: []
+    folder: 6RKLEZHPbdWG3fZe
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        sourceId: Compendium.dnd5e.classes24.Item.phbmmoSeekingSpe
+        advancementOrigin: SpY5KSN9c1suTPYc.nIaa61I4SSnwAQvz
+        advancementRoot: SpY5KSN9c1suTPYc.nIaa61I4SSnwAQvz
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747446
+      modifiedTime: 1786912747446
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.classes24.Item.phbmmoSeekingSpe
+    sort: 0
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.M8a6b7KrG4BvGnje'
+  - name: Sorcerous Burst
+    system:
+      description:
+        value: >-
+          <p>You cast sorcerous energy at one creature or object within range.
+          Make a ranged attack roll against the target. On a hit, the target
+          takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning,
+          Poison, Psychic, or Thunder.</p><p>If you roll an 8 on a d8 for this
+          spell, you can roll another d8, and add it to the damage. When you
+          cast this spell, the maximum number of these d8s you can add to the
+          spell's damage equals your spellcasting ability
+          modifier.</p><p><strong>Cantrip Upgrade. </strong>The damage increases
+          by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creatureOrObject
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '120'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        X7SNcRLlaMQA1Dzg:
+          type: attack
+          _id: X7SNcRLlaMQA1Dzg
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: true
+                  formula: 1d8x@mod=8
+                number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - acid
+                  - cold
+                  - fire
+                  - lightning
+                  - poison
+                  - psychic
+                  - thunder
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: sorcerous-burst
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: aXzLUm1L1Bba2Rub
+    type: spell
+    img: icons/magic/lightning/bolt-strike-embers-teal.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 103125
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747446
+      modifiedTime: 1786912747446
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSorcerousB
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.aXzLUm1L1Bba2Rub'
+  - name: Message
+    system:
+      description:
+        value: >-
+          <p>You point toward a creature within range and whisper a message. The
+          target (and only the target) hears the message and can reply in a
+          whisper that only you can hear.</p><p>You can cast this spell through
+          solid objects if you are familiar with the target and know it is
+          beyond the barrier. Magical silence; 1 foot of stone, metal, or wood;
+          or a thin sheet of lead blocks the spell.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: round
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '120'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - somatic
+        - material
+      materials:
+        value: a copper wire
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        j0gd96TwtJYUr0EE:
+          type: utility
+          _id: j0gd96TwtJYUr0EE
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: message
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: 2zJaiNOEMGcHN9Cc
+    type: spell
+    img: icons/sundries/documents/envelope-sealed-red-brown.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 800000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747446
+      modifiedTime: 1786912747446
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMessage000
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.2zJaiNOEMGcHN9Cc'
+  - name: Mage Hand
+    system:
+      description:
+        value: >-
+          <p>A spectral, floating hand appears at a point you choose within
+          range. The hand lasts for the duration. The hand vanishes if it is
+          ever more than 30 feet away from you or if you cast this spell
+          again.</p><p>When you cast the spell, you can use the hand to
+          manipulate an object, open an unlocked door or container, stow or
+          retrieve an item from an open container, or pour the contents out of a
+          vial.</p><p>As a Magic action on your later turns, you can control the
+          hand thus again. As part of that action, you can move the hand up to
+          30 feet.</p><p>The hand can't attack, activate magic items, or carry
+          more than 10 pounds.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: space
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '30'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: con
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        QdMC2s97UJKjUBoD:
+          type: summon
+          _id: QdMC2s97UJKjUBoD
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          bonuses:
+            ac: ''
+            hd: ''
+            hp: ''
+            attackDamage: '0'
+            saveDamage: '0'
+            healing: '0'
+          creatureSizes: []
+          creatureTypes: []
+          match:
+            attacks: false
+            proficiency: false
+            saves: false
+            disposition: false
+          profiles:
+            - count: ''
+              name: ''
+              _id: yXLZxwYBIj9AR2iQ
+              uuid: Compendium.dnd5e.actors24.Actor.phbsplMageHand00
+              level:
+                min: null
+                max: null
+              types: []
+          summon:
+            prompt: true
+            mode: ''
+          name: ''
+          img: ''
+          effects: []
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: mage-hand
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: eRACrfkNwlswZAIH
+    type: spell
+    img: icons/magic/light/hand-sparks-smoke-teal.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1000000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        '-=riders': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747447
+      modifiedTime: 1786912747447
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMageHand00
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.eRACrfkNwlswZAIH'
+  - name: True Strike
+    system:
+      description:
+        value: >-
+          <p>Guided by a flash of magical insight, you make one attack with the
+          weapon used in the spell's casting. The attack uses your spellcasting
+          ability for the attack and damage rolls instead of using Strength or
+          Dexterity. If the attack deals damage, it can be Radiant damage or the
+          weapon's normal damage type (your choice).</p><p><strong>Cantrip
+          Upgrade.</strong> Whether you deal Radiant damage or the weapon's
+          normal damage type, the attack deals extra Radiant damage when you
+          reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: div
+      properties:
+        - somatic
+        - material
+      materials:
+        value: a weapon with which you have proficiency and that is worth 1+ CP
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        4TlVwMTDg8tqME2z:
+          type: enchant
+          _id: 4TlVwMTDg8tqME2z
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: SouQfUgwb9LlUraq
+              level:
+                min: null
+                max: null
+              riders:
+                activity:
+                  - CiLsaHBi9F6eIXUS
+                effect: []
+                item: []
+            - _id: Zsx8UvC9DmdrA1E1
+              level:
+                min: null
+                max: null
+              riders:
+                activity:
+                  - cGNXKjpoRima6wjQ
+                effect: []
+                item: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          enchant:
+            self: false
+          restrictions:
+            allowMagical: true
+            categories: []
+            properties: []
+            type: weapon
+          name: Enchant Weapon
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        CiLsaHBi9F6eIXUS:
+          type: attack
+          name: Spellcasting Attack
+          _id: CiLsaHBi9F6eIXUS
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: spellcasting
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          img: systems/dnd5e/icons/svg/damage/bludgeoning.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+        cGNXKjpoRima6wjQ:
+          type: attack
+          name: Spellcasting Attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+              stationary: false
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: weapon
+            ability: spellcasting
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          _id: cGNXKjpoRima6wjQ
+          img: systems/dnd5e/icons/svg/damage/piercing.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: true-strike
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: QP8f1vQLcVyoermw
+    type: spell
+    img: icons/magic/unholy/hand-weapon-glow-black-green.webp
+    effects:
+      - type: enchantment
+        name: True Strike
+        img: icons/magic/unholy/hand-weapon-glow-black-green.webp
+        disabled: false
+        _id: SouQfUgwb9LlUraq
+        system:
+          changes:
+            - key: system.damage.base.types
+              value: radiant
+              priority: null
+              type: add
+              phase: initial
+            - key: name
+              value: '{} (True Strike)'
+              priority: null
+              type: override
+              phase: initial
+            - key: system.damage.parts
+              value:
+                - - (floor((@details.level + 1) / 6))d6
+                  - radiant
+              priority: null
+              type: add
+              phase: initial
+            - key: activities[attack].attack.ability
+              value: spellcasting
+              priority: null
+              type: override
+              phase: initial
+        duration:
+          value: 1
+          units: turns
+          expiry: turnStart
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786912747450
+          modifiedTime: 1786912747450
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!aeb43OOnhx2Uqtu5.QP8f1vQLcVyoermw.SouQfUgwb9LlUraq
+      - type: enchantment
+        name: Ranged Weapon
+        img: icons/skills/ranged/arrow-strike-glowing-teal.webp
+        disabled: false
+        system:
+          changes:
+            - key: system.damage.base.types
+              value: radiant
+              priority: null
+              type: add
+              phase: initial
+            - key: name
+              value: '{} (True Strike)'
+              priority: null
+              type: override
+              phase: initial
+            - key: system.damage.base.bonus
+              value: (floor((@details.level + 1) / 6))d6[radiant]
+              priority: null
+              type: add
+              phase: initial
+        duration:
+          value: 1
+          units: turns
+          expiry: turnStart
+          expired: false
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd5e.spells24.Item.phbsplTrueStrike.ActiveEffect.SouQfUgwb9LlUraq
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786912747450
+          modifiedTime: 1786912747450
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        _id: Zsx8UvC9DmdrA1E1
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!aeb43OOnhx2Uqtu5.QP8f1vQLcVyoermw.Zsx8UvC9DmdrA1E1
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 100025
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity:
+            - CiLsaHBi9F6eIXUS
+            - cGNXKjpoRima6wjQ
+          '-=effect': null
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912747450
+      modifiedTime: 1786912747450
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplTrueStrike
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.QP8f1vQLcVyoermw'
+  - name: Burning Hands
+    system:
+      description:
+        value: >-
+          <p>A thin sheet of flames shoots forth from you. Each creature in a
+          15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on
+          a failed save or half as much damage on a successful
+          one.</p><p>Flammable objects in the Cone that aren't being worn or
+          carried start burning.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d6 for each spell slot level
+          above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          type: cone
+          size: '15'
+          contiguous: false
+          count: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 3
+                denomination: 6
+                bonus: ''
+                types:
+                  - fire
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability:
+              - dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: burning-hands
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: mc77QQeJtz0rO0lc
+    type: spell
+    img: icons/magic/fire/blast-jet-stream-embers-red.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 5100000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912775438
+      modifiedTime: 1786912819301
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplBurningHan
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.mc77QQeJtz0rO0lc'
+  - name: Shield
+    system:
+      description:
+        value: >-
+          <p>An imperceptible barrier of magical force protects you. Until the
+          start of your next turn, you have a +5 bonus to AC, including against
+          the triggering attack, and you take no damage from
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic
+          Missile}</em>.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: reaction
+        condition: >-
+          when you are hit by an attack roll or targeted by the Magic Missile
+          spell
+        value: null
+      duration:
+        value: '1'
+        units: round
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: Bv3EoHGfYCprLdG1
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: shield
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: JVeoKp7siWiQ8lPQ
+    type: spell
+    img: icons/equipment/shield/heater-crystal-blue.webp
+    effects:
+      - _id: Bv3EoHGfYCprLdG1
+        flags: {}
+        disabled: true
+        duration:
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
+        origin: Compendium.dnd5e.spells24.Item.phbsplShield0000
+        tint: '#ffffff'
+        transfer: false
+        name: Imperceptible Barrier
+        description: >-
+          <p>Until the start of your next turn, you have a +5 bonus to AC,
+          including against the triggering attack, and you take no damage from
+          <em>Magic Missile</em>.</p>
+        statuses: []
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786912778992
+          modifiedTime: 1786912778992
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        img: icons/equipment/shield/heater-steel-crystal-red.webp
+        type: base
+        system:
+          changes:
+            - key: system.attributes.ac.bonus
+              value: 5
+              priority: null
+              type: add
+              phase: initial
+        sort: 0
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!aeb43OOnhx2Uqtu5.JVeoKp7siWiQ8lPQ.Bv3EoHGfYCprLdG1
+    folder: pBaAAtXBCq9FVEnL
+    sort: 700000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912778992
+      modifiedTime: 1786912821070
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplShield0000
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.JVeoKp7siWiQ8lPQ'
+  - name: Chromatic Orb
+    system:
+      description:
+        value: >-
+          <p>You hurl an orb of energy at a target within range. Choose Acid,
+          Cold, Fire, Lightning, Poison, or Thunder for the type of orb you
+          create, and then make a ranged spell attack against the target. On a
+          hit, the target takes 3d8 damage of the chosen type.</p><p>If you roll
+          the same number on two or more of the d8s, the orb leaps to a
+          different target of your choice within 30 feet of the target. Make an
+          attack roll against the new target, and make a new damage roll. The
+          orb can't leap again unless you cast the spell with a level 2+ spell
+          slot. [[@item.level]]{Number of leaps}</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each
+          spell slot level above 1. The orb can leap a maximum number of times
+          equal to the level of the slot expended, and a creature can be
+          targeted only once by each casting of this spell.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        value: '90'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: evo
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a diamond worth 50+ GP
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 3
+                denomination: 8
+                bonus: ''
+                types:
+                  - acid
+                  - cold
+                  - fire
+                  - lightning
+                  - poison
+                  - thunder
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: chromatic-orb
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: 8jNegRz62hLkUGq8
+    type: spell
+    img: icons/magic/light/explosion-star-small-teal-purple.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4900000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912804097
+      modifiedTime: 1786912820252
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplChromaticO
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.8jNegRz62hLkUGq8'
+  - name: Charm Person
+    system:
+      description:
+        value: >-
+          <p>One Humanoid you can see within range makes a Wisdom saving throw.
+          It does so with Advantage if you or your allies are fighting it. On a
+          failed save, the target has the &amp;Reference[charmed apply=false]
+          condition until the spell ends or until you or your allies damage it.
+          The Charmed creature is Friendly to you. When the spell ends, the
+          target knows it was Charmed by you.</p><p><strong>Using a Higher-Level
+          Spell Slot.</strong> You can target one additional creature for each
+          spell slot level above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: creature
+          count: '@item.level'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        value: '30'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: enc
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: 78JcD7wFiSCOfmns
+              onSave: false
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: charm-person
+      method: spell
+      sourceItem: class:sorcerer
+      prepared: 1
+    _id: KZcXmSR327kjg71i
+    type: spell
+    img: icons/magic/control/hypnosis-mesmerism-eye.webp
+    effects:
+      - name: Charmed
+        origin: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+        duration:
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: systems/dnd5e/icons/svg/statuses/charmed.svg
+        _id: 78JcD7wFiSCOfmns
+        type: base
+        system:
+          changes: []
+        description: >-
+          <p>the target has the &amp;Reference[charmed apply=false] condition
+          until the spell ends or until you or your allies damage it. The
+          Charmed creature is Friendly to you. When the spell ends, the target
+          knows it was Charmed by you.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses:
+          - charmed
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1786912814627
+          modifiedTime: 1786912814627
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
+        _key: >-
+          !actors.items.effects!aeb43OOnhx2Uqtu5.KZcXmSR327kjg71i.78JcD7wFiSCOfmns
+    folder: pBaAAtXBCq9FVEnL
+    sort: 5000000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912814627
+      modifiedTime: 1786912819788
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.KZcXmSR327kjg71i'
+  - name: Dagger
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 2
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 2
+      weight:
+        value: 1
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      range:
+        value: 20
+        long: 60
+        units: ft
+        reach: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      damage:
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: true
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 4
+          types:
+            - piercing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+          bonus: ''
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: simpleM
+        baseItem: dagger
+      properties:
+        - fin
+        - lgt
+        - thr
+      proficient: null
+      activities:
+        3SJSAL3pv9gKkAM9:
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '20'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: 3SJSAL3pv9gKkAM9
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      ammunition: {}
+      mastery: nick
+      identifier: dagger
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: nkzjOfy3jVAxj5GR
+    type: weapon
+    folder: FL1Jee9DzStc7vM3
+    img: icons/weapons/daggers/dagger-straight-blue.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912849837
+      modifiedTime: 1786912855205
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbwepDagger0000
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.nkzjOfy3jVAxj5GR'
+  - name: Thieves' Tools
+    system:
+      description:
+        value: >-
+          <p class="phb-meta"><strong>Ability:</strong> Dexterity</p><p
+          class="phb-meta"><strong>Utilize:</strong> Pick a lock (DC 15), or
+          disarm a trap (DC 15)</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 1
+        units: lb
+      price:
+        value: 25
+        denomination: gp
+      rarity: ''
+      attunement: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: ''
+        baseItem: thief
+      ability: dex
+      chatFlavor: ''
+      proficient: null
+      properties: []
+      bonus: ''
+      activities:
+        4pIHxWxCdaF3Ieok:
+          type: check
+          activation:
+            type: action
+            value: null
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ft
+              stationary: false
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: false
+            override: false
+          check:
+            ability: dex
+            dc:
+              calculation: ''
+              formula: '15'
+            associated: []
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          _id: 4pIHxWxCdaF3Ieok
+          name: Pick a Lock/Disarm a Trap
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: thieves-tools
+      attuned: false
+      equipped: false
+    _id: 0hN5CozHUc7SidqR
+    type: tool
+    folder: GdxYMawvxybALCny
+    img: icons/tools/hand/lockpicks-steel-grey.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912857099
+      modifiedTime: 1786912872175
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbtulThievesToo
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.0hN5CozHUc7SidqR'
+  - name: Bedroll
+    system:
+      description:
+        value: >-
+          <p>A Bedroll sleeps one Small or Medium creature. While in a Bedroll,
+          you automatically succeed on saving throws against extreme cold (see
+          @UUID[Compendium.dnd5e.content24.JournalEntry.dmgDmsToolbox000]{Gameplay
+          Toolbox}).</p>
+        chat: ''
+      price:
+        value: 1
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 7
+        units: lb
+      rarity: ''
+      properties: []
+      type:
+        value: gear
+        subtype: ''
+      identifier: bedroll
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+    _id: hjb2A8t5V0Vil1br
+    type: loot
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/sundries/survival/bedroll-grey.webp
+    effects: []
+    sort: 7600000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912859355
+      modifiedTime: 1786912859355
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagBedroll0000
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.hjb2A8t5V0Vil1br'
+  - name: Pouch
+    system:
+      description:
+        value: <p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>
+        chat: ''
+      price:
+        value: 5
+        denomination: sp
+      quantity: 1
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 1
+        units: lb
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 0
+        cp: 0
+      properties: []
+      capacity:
+        weight:
+          value: 6
+          units: lb
+        volume:
+          units: cubicFoot
+      identifier: pouch
+      attuned: false
+      equipped: false
+    _id: F5D81bhtc1fla4r3
+    type: container
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/containers/bags/coinpouch-simple-tan.webp
+    effects: []
+    sort: 4900000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912861775
+      modifiedTime: 1786912861776
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPouch000000
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.F5D81bhtc1fla4r3'
+  - name: Pouch
+    system:
+      description:
+        value: <p>A Pouch holds up to 6 pounds within one-fifth of a cubic foot.</p>
+        chat: ''
+      price:
+        value: 5
+        denomination: sp
+      quantity: 1
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 1
+        units: lb
+      rarity: ''
+      attunement: ''
+      currency:
+        pp: 0
+        gp: 0
+        ep: 0
+        sp: 0
+        cp: 0
+      properties: []
+      capacity:
+        weight:
+          value: 6
+          units: lb
+        volume:
+          units: cubicFoot
+      identifier: pouch
+      attuned: false
+      equipped: false
+    _id: sRxVa52fSUnEe685
+    type: container
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/containers/bags/coinpouch-simple-tan.webp
+    effects: []
+    sort: 4900000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912864139
+      modifiedTime: 1786912864139
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagPouch000000
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.sRxVa52fSUnEe685'
+  - name: Clothes, Traveler's
+    system:
+      description:
+        value: >-
+          <p>Traveler's Clothes are resilient garments designed for travel in
+          various environments.</p>
+        chat: ''
+      price:
+        value: 2
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 4
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: null
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: clothing
+        baseItem: ''
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: null
+      proficient: null
+      activities: {}
+      identifier: clothes-travelers
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: G3GXlkOoOoMteBgf
+    type: equipment
+    folder: uDk4FBYfcP2JnX6t
+    img: icons/equipment/chest/shirt-collared-yellow.webp
+    effects: []
+    sort: 1300000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912866705
+      modifiedTime: 1786912868324
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbagClothesTrav
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.G3GXlkOoOoMteBgf'
+  - name: Leather Armor
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 10
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 11
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: light
+        baseItem: leather
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+        units: ft
+      strength: null
+      proficient: null
+      activities: {}
+      identifier: leather-armor
+      crew:
+        value: []
+      attuned: false
+      equipped: true
+    _id: rXfCEVWnQZETcHcZ
+    type: equipment
+    folder: G3X11BbtmEqLmEnK
+    img: icons/equipment/chest/breastplate-scale-leather.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786912891045
+      modifiedTime: 1786912897478
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.equipment24.Item.phbarmLeatherArm
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.rXfCEVWnQZETcHcZ'
+  - _id: 2hbKv8cQoeaFirli
+    name: Gold Necklace with Emerald Pendant
+    type: loot
+    img: icons/equipment/neck/amulet-round-engraved-green.webp
+    system:
+      description:
+        value: <p>A gold necklace with a fine emerald pendant.</p>
+        chat: ''
+      source:
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 200
+        denomination: gp
+      rarity: ''
+      properties: []
+      type:
+        value: art
+        subtype: ''
+      identifier: gold-necklace-with-emerald-pendant
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+    effects: []
+    folder: KAYxa2YunS2ZhhTJ
+    sort: 104688
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: Item.pbsoFineEmeraldP
+      exportSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1786919685309
+      modifiedTime: 1786919685309
+      lastModifiedBy: draenalcommon000
+    ownership:
+      default: 0
+    _key: '!actors.items!aeb43OOnhx2Uqtu5.2hbKv8cQoeaFirli'
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags:
+  dnd5e:
+    showTokenPortrait: true
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786911315080
+  modifiedTime: 1786912887302
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!aeb43OOnhx2Uqtu5'
+

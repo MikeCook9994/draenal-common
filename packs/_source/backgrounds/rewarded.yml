@@ -175,7 +175,7 @@ system:
   wealth: '50'
 effects: []
 folder: null
-sort: 0
+sort: 100000
 ownership:
   default: 0
 flags:
@@ -188,7 +188,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1769464938310
-  modifiedTime: 1781575751330
+  modifiedTime: 1786911690561
   lastModifiedBy: draenalcommon000
 _key: '!items!5uIZ9zumyTsyxQk8'
 

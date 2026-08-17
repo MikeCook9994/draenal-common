@@ -1,0 +1,82 @@
+folder: AVtszq31txZVcQRb
+name: Student of War
+type: feat
+_id: qNl81VRdjbpQBZlW
+img: icons/skills/trades/academics-merchant-scribe.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    g87ogzaqpePqudlr:
+      type: Trait
+      title: Proficiencies
+      _id: g87ogzaqpePqudlr
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:acr
+              - skills:ani
+              - skills:ath
+              - skills:his
+              - skills:ins
+              - skills:itm
+              - skills:prc
+              - skills:per
+              - skills:sur
+          - count: 1
+            pool:
+              - tool:art:*
+        grants: []
+        mode: default
+      flags: {}
+      level: 3
+      hint: ''
+  description:
+    value: >-
+      <p>You gain proficiency with one type of Artisan's Tools of your choice,
+      and you gain proficiency in one skill of your choice from the skills
+      available to Fighters at level 1.</p>
+    chat: ''
+  identifier: student-of-war
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '94'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: Battle Master
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786922688169
+  modifiedTime: 1786933908378
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!qNl81VRdjbpQBZlW'
+

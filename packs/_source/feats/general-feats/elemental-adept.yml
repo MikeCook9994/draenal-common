@@ -1,0 +1,86 @@
+folder: JwuB9rAxYzlSVFp3
+name: Elemental Adept
+type: feat
+_id: RNdNdh4ecfwG6oCV
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    UtppzyIAeYDGhgmK:
+      type: AbilityScoreImprovement
+      _id: UtppzyIAeYDGhgmK
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - con
+        points: 1
+        recommendation: null
+        max: null
+      flags: {}
+      level: 0
+      hint: ''
+      title: ''
+  description:
+    value: >-
+      <p>You gain the following benefits.</p><p><em><strong>Ability Score
+      Increase.</strong></em> Increase your Intelligence, Wisdom, or Charisma
+      score by 1, to a maximum of 20.</p><p><em><strong>Energy
+      Mastery.</strong></em> Choose one of the following damage types: Acid,
+      Cold, Fire, Lightning, or Thunder. Spells you cast ignore Resistance to
+      damage of the chosen type. In addition, when you roll damage for a spell
+      you cast that deals damage of that type, you can treat any 1 on a damage
+      die as a 2.</p><p><em><strong>Repeatable.</strong></em> You can take this
+      feat more than once, but you must choose a different damage type each time
+      for Energy Mastery.</p>
+    chat: ''
+  identifier: elemental-adept
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '203'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - mgc
+  requirements: ''
+  type:
+    value: feat
+    subtype: general
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786938369561
+  modifiedTime: 1786938645222
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!RNdNdh4ecfwG6oCV'
+

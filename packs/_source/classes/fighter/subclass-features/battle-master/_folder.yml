@@ -1,0 +1,20 @@
+type: Item
+folder: 9InmwycGQlmMANkg
+name: Battle Master
+color: null
+sorting: a
+_id: AVtszq31txZVcQRb
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786922219268
+  modifiedTime: 1786922219268
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!AVtszq31txZVcQRb'
+

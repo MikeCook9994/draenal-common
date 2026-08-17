@@ -1,0 +1,20 @@
+type: Item
+folder: I9YHHjhYrEsf7udI
+name: Subclass Features
+color: null
+sorting: a
+_id: 9InmwycGQlmMANkg
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786922202725
+  modifiedTime: 1786922212180
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!9InmwycGQlmMANkg'
+

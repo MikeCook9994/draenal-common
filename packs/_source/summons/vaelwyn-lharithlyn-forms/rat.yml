@@ -473,7 +473,8 @@ system:
       communication: {}
     important: false
 _id: mmRat00000000000
-img: modules/draenal-common/assets/npc-images/Avatar.Vaelwyn_Rat.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Vaelwyn_Rat.webp
 prototypeToken:
   name: Rat
   displayName: 20
@@ -483,7 +484,8 @@ prototypeToken:
   width: 0.5
   height: 0.5
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Vaelwyn_Rat.webp
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Vaelwyn_Rat.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -773,15 +775,13 @@ effects: []
 folder: BMVGdQUg4DpY6dI1
 ownership:
   default: 0
-flags:
-  dnd5e:
-    showTokenPortrait: true
+flags: {}
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1784906724840
-  modifiedTime: 1784907272773
+  modifiedTime: 1786904401294
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

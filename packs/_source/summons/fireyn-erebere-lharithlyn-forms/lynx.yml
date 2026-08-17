@@ -473,7 +473,8 @@ system:
       custom: ''
       communication: {}
     important: false
-img: modules/draenal-common/assets/npc-images/Avatar.Reyn_Lynx.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Reyn_Lynx.webp
 prototypeToken:
   name: Cat
   displayName: 20
@@ -483,7 +484,8 @@ prototypeToken:
   width: 0.5
   height: 0.5
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Reyn_Lynx.webp
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Reyn_Lynx.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -545,7 +547,7 @@ prototypeToken:
       scale: 1
       texture: null
   flags: {}
-  randomImg: true
+  randomImg: false
   turnMarker:
     mode: 1
     animation: null
@@ -953,14 +955,12 @@ flags:
     isOversized: true
     isDynamicRingMode: false
     modeIsOversized: true
-  dnd5e:
-    showTokenPortrait: true
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1779753583806
-  modifiedTime: 1784906847519
+  modifiedTime: 1786904514736
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

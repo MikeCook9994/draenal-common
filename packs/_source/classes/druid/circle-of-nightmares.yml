@@ -2,7 +2,8 @@ folder: LqiO7cAFbVwEOPNT
 name: Circle of Nightmares
 type: subclass
 _id: epUSDsracMjworsw
-img: modules/draenal-common/assets/icons/circle-of-nightmares-druid.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/classes/icons/circle-of-nightmares-druid.webp
 system:
   advancement:
     ha91bc5qQKB1w38Q:
@@ -97,15 +98,17 @@ effects: []
 sort: 100000
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
 _stats:
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.360'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1767982496997
-  modifiedTime: 1777233158664
+  modifiedTime: 1786904682373
   lastModifiedBy: draenalcommon000
 _key: '!items!epUSDsracMjworsw'
 

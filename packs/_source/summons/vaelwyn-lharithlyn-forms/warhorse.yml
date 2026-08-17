@@ -470,7 +470,8 @@ system:
       custom: ''
       communication: {}
     important: false
-img: modules/draenal-common/assets/npc-images/Avatar.Vaelwyn_Warhorse%20copy.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Vaelwyn_Warhorse.webp
 prototypeToken:
   name: Warhorse
   displayName: 20
@@ -480,7 +481,8 @@ prototypeToken:
   width: 2
   height: 2
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Vaelwyn_Warhorse.webp
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Vaelwyn_Warhorse.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -814,15 +816,13 @@ effects: []
 folder: BMVGdQUg4DpY6dI1
 ownership:
   default: 0
-flags:
-  dnd5e:
-    showTokenPortrait: true
+flags: {}
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1784906697124
-  modifiedTime: 1784907245415
+  modifiedTime: 1786904369189
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

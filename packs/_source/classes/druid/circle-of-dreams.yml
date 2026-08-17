@@ -2,7 +2,8 @@ folder: LqiO7cAFbVwEOPNT
 name: Circle of Dreams
 type: subclass
 _id: xwBA4irByKSX1eHM
-img: modules/draenal-common/assets/icons/circle-of-dreams-druid.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/classes/icons/circle-of-dreams-druid.webp
 system:
   advancement:
     cUaQxfwBjjOtqARD:
@@ -91,13 +92,15 @@ effects: []
 sort: 0
 ownership:
   default: 0
-flags: {}
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
 _stats:
-  coreVersion: '14.361'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.2
   createdTime: 1776656152625
-  modifiedTime: 1779293502444
+  modifiedTime: 1786904639286
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

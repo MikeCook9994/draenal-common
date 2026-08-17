@@ -1,0 +1,131 @@
+folder: AVtszq31txZVcQRb
+name: Combat Superiority
+type: feat
+_id: 0VaCiQpyi5QxOBKb
+img: icons/skills/melee/hand-grip-sword-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '@scale.combat-superiority.superiority-dice.number'
+  advancement:
+    uWQdavhjG5ugUFEB:
+      type: ScaleValue
+      _id: uWQdavhjG5ugUFEB
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 4
+            faces: 8
+          '7':
+            number: 5
+            faces: 8
+          '10':
+            number: 5
+            faces: 10
+          '15':
+            number: 6
+            faces: 10
+          '18':
+            number: 6
+            faces: 12
+      flags: {}
+      value: {}
+      hint: ''
+      title: Superiority Dice
+    fylh7dJBZCsonZCJ:
+      type: ItemChoice
+      _id: fylh7dJBZCsonZCJ
+      configuration:
+        allowDrops: false
+        choices:
+          '3':
+            count: 3
+            replacement: false
+          '7':
+            count: 2
+            replacement: false
+          '10':
+            count: 2
+            replacement: false
+          '15':
+            count: 2
+            replacement: false
+        pool:
+          - uuid: Compendium.draenal-common.classes.Item.89Hla7q1CGZDcUuu
+          - uuid: Compendium.draenal-common.classes.Item.HtFtXbtEVcWa6c1P
+          - uuid: Compendium.draenal-common.classes.Item.9bUuGYNAKsLL8Raw
+        restriction:
+          list: []
+          type: class
+          subtype: maneuver
+        spell: null
+        type: feat
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: ''
+  description:
+    value: >-
+      <p>Your experience on the battlefield has refined your fighting
+      techniques. You learn maneuvers that are fueled by special dice called
+      Superiority Dice.</p><p><strong>Maneuvers.</strong> You learn three
+      maneuvers of your choice. Many maneuvers enhance an attack in some way.
+      You can use only one maneuver per attack.You learn two additional
+      maneuvers of your choice when you reach Fighter levels 7, 10, and 15. Each
+      time you learn new maneuvers, you can also replace one maneuver you know
+      with a different one.</p><p><strong>Superiority Dice.</strong> You have
+      four Superiority Dice, which are d8s. A Superiority Die is expended when
+      you use it. You regain all expended Superiority Dice when you finish a
+      Short or Long Rest.You gain an additional Superiority Die when you reach
+      Fighter levels 7 (five dice total) and 15 (six dice
+      total).</p><p><strong>Saving Throws.</strong> If a maneuver requires a
+      saving throw, the DC equals 8 plus your Strength or Dexterity modifier
+      (your choice) and Proficiency Bonus.</p>
+    chat: ''
+  identifier: combat-superiority
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '93'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: Battle Master
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786922234960
+  modifiedTime: 1786933665211
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0VaCiQpyi5QxOBKb'
+

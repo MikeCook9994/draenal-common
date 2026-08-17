@@ -2,7 +2,7 @@ name: Driftglobe
 type: npc
 _id: Xh2ICngjSMTbe1VT
 img: >-
-  modules/draenal-common/assets/npc-images/Avatar.Driftglobe.webp?v=1786475538854
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Driftglobe.webp
 system:
   currency:
     pp: 0
@@ -458,7 +458,7 @@ prototypeToken:
   depth: 1
   texture:
     src: >-
-      modules/draenal-common/assets/npc-images/Token.Driftglobe.webp?v=1786475540626
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Driftglobe.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -711,7 +711,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786475473755
-  modifiedTime: 1786475545425
+  modifiedTime: 1786903722309
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

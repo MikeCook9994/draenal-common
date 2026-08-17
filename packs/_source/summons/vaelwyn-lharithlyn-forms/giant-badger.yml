@@ -471,7 +471,8 @@ system:
       communication: {}
     important: false
 _id: mmGiantBadger000
-img: modules/draenal-common/assets/npc-images/Avatar.Vaelwyn_Giant_Badger.webp
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-avatars/Avatar.Vaelwyn_Giant_Badger.webp
 prototypeToken:
   name: Giant Badger
   displayName: 20
@@ -481,7 +482,8 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: modules/draenal-common/assets/npc-images/Token.Vaelwyn_Giant_Badger.webp
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Vaelwyn_Giant_Badger.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -870,14 +872,12 @@ flags:
       width: 512
       height: 512
     isOversized: true
-  dnd5e:
-    showTokenPortrait: true
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1779753587519
-  modifiedTime: 1784907153442
+  modifiedTime: 1786904434754
   lastModifiedBy: draenalcommon000
   exportSource: null
   duplicateSource: null

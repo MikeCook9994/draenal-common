@@ -124,21 +124,18 @@ flags:
       - equipment:vehicle
       - equipment:wand
       - equipment:wondrous
+    gemTags: []
+    gemCritThreshold: null
+    gemCritMultiplier: null
+    gemAttackBonus: null
     gemResource:
       key: ''
-      value: null
-      max: null
-      recovery:
-        period: ''
-        type: recoverAll
-      destroyOnEmpty: false
-    gemTags: []
 _stats:
   coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786468135926
-  modifiedTime: 1786472472199
+  modifiedTime: 1786906074232
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null

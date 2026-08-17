@@ -1,0 +1,119 @@
+folder: B2ugtsCRpmQc1VXC
+name: Parry
+type: feat
+_id: 9bUuGYNAKsLL8Raw
+img: icons/skills/melee/swords-parry-block-yellow.webp
+system:
+  activities:
+    VHO2eNkfJYq17teK:
+      type: utility
+      _id: VHO2eNkfJYq17teK
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: When another creature damages you with a melee attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.draenal-common.classes.Item.0VaCiQpyi5QxOBKb
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: Damage Reduction
+        formula: >-
+          1@scale.combat-superiority.superiority-dice.die +
+          max(@abilities.str.mod, @abilities.dex.mod)
+      name: Parry
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When another creature damages you with a melee attack roll, you can
+      take a Reaction and expend one Superiority Die to reduce the damage by the
+      number you roll on your Superiority Die plus your Strength or Dexterity
+      modifier (your choice).</p>
+    chat: ''
+  identifier: parry
+  source:
+    revision: 1
+    rules: '2024'
+    book: 5.5E Player's Handbook
+    page: '95'
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786923013672
+  modifiedTime: 1786932223034
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!9bUuGYNAKsLL8Raw'
+
