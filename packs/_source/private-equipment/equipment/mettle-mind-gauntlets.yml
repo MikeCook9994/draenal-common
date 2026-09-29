@@ -1,0 +1,418 @@
+folder: ErT2cFYNC4ZBLPc5
+name: Mettle Mind Gauntlets
+type: equipment
+_id: yKhZmp0ETjNXoKJD
+img: icons/equipment/hand/glove-tooled-leather-brown.webp
+system:
+  activities:
+    HSMEigKpFYm8hWfw:
+      type: attack
+      name: Unarmed Strike
+      _id: HSMEigKpFYm8hWfw
+      img: icons/skills/melee/unarmed-punch-fist-white.webp
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: true
+        requireMagic: false
+        identifier: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+    kR6fCE5VSBUrWqFF:
+      type: utility
+      img: icons/commodities/gems/gem-rough-navette-red.webp
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags:
+        sc-simple-sockets:
+          sourceGem:
+            uuid: Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0
+            slot: 0
+            sourceId: IfaURAt3gLBjbI64
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Empower Spell
+      _id: kR6fCE5VSBUrWqFF
+  uses:
+    spent: 1
+    recovery:
+      - period: lr
+        type: formula
+        formula: max(1, floor(@sc.sockets.gems / 2))
+    max: '@sc.sockets.gems'
+  description:
+    value: >-
+      <p>Every component of these gauntlets are cast from solid bronze metal.
+      Each piece is rivetted together and they still move smoothly like gloves.
+      The back of the left and right gauntlets are respectively inscribed with
+      the runes Magisk (meaning "Magic") Macht (meaning "Might"), originating
+      from the runic languages of the giants. Ten bezel settings capable of
+      holding a small stone adorn the first knuckle of each finger of these
+      gauntlets. While the gauntlets are equipped and you are attuned to them,
+      you gain the following benefits.</p><p><em><strong>Stone-Encrusted
+      Knuckles.</strong></em> As an action, you can socket a <em>mind
+      crystal</em> into an empty setting on the gauntlet, though no two
+      identical <em>mind crystals</em> can be socketed at the same time. A
+      <em>mind crystal</em> can be removed from the gauntlets by making a DC 15
+      Dexterity (Sleight of Hand) check with Jeweler's Tools. Failing the check
+      by 5 or more causes the <em>mind crystal</em> to shatter.</p><p>The
+      gauntlets have a number of charges equal to the number of currently
+      socketed <em>mind crystals</em>. When you cast a spell, you can expend 1
+      of their charges to modify the spell's casting with one effects of the
+      socketed <em>mind crystals</em>. This does not cause the chosen <em>mind
+      crystal</em> to become a non-magical gem. The gauntlets regain half of
+      their expended charges (rounded up) at dawn.</p><p><em><strong>Metal's
+      Might.</strong></em> Your Unarmed Strikes gain the following
+      benefits.</p><ul><li><p>You can roll 1d4 in place of the normal damage of
+      your Unarmed Strike. The die increases by 1 size at 4 (1d6) and 8 (1d8)
+      socketed <em>mind crystals</em>.</p></li><li><p>Once per turn, when you
+      make an attack with an Unarmed Strike, you can immediately make another
+      attack with your Unarmed Strike as part of that
+      action.</p></li><li><p>Attack and damage rolls and saving throw DCs
+      related to your Unarmed Strikes gain a bonus equal to the number of
+      <em>mind crystals</em> socketed into the gauntlets divided by
+      3.</p></li></ul>
+    chat: ''
+  identifier: mettle-mitts
+  source:
+    revision: 1
+    rules: '2024'
+    book: Draenal Homebrew
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: >-
+      <p>Every component of these gauntlets are cast from solid bronze metal.
+      Each piece is rivetted together and they still move smoothly like gloves.
+      The back of the left and right gauntlets are respectively inscribed with
+      the runic symbols. Ten bezel settings capable of holding a small stone
+      adorn the first knuckle of each finger of these gauntlets. </p>
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: common
+  attunement: required
+  attuned: false
+  equipped: false
+  crew:
+    value: []
+  armor:
+    value: null
+    dex: null
+    magicalBonus: ''
+  proficient: null
+  properties:
+    - mgc
+  strength: null
+  type:
+    value: clothing
+    baseItem: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    socketTabEnabled: true
+    gemSubtype: null
+    sockets:
+      - gem:
+          name: Empowered Mind Crystal
+          img: icons/commodities/gems/gem-rough-navette-red.webp
+        img: icons/commodities/gems/gem-rough-navette-red.webp
+        name: Empowered Mind Crystal
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData:
+          name: Empowered Mind Crystal
+          img: icons/commodities/gems/gem-rough-navette-red.webp
+          description: >-
+            <p>While this mind crystal is socketed into
+            @UUID[Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD]{Mind
+            and Might Mitts}, when you cast a spell, you can expend one charge
+            from the mitts to modify the spell in a specific way that has an
+            effect described below.</p><p><strong>Effect. </strong>When you roll
+            damage for the spell, you can reroll a number of damage dice equal
+            to half of the number of gems socketed into the mitts (minimum 1).
+            You must use the new rolls.</p>
+          socketDescription: ''
+          data: >-
+            {"folder":"aTosll3sJVu88MNC","name":"Empowered Mind
+            Crystal","type":"loot","img":"icons/commodities/gems/gem-rough-navette-red.webp","system":{"description":{"value":"<p>While
+            this mind crystal is socketed into
+            @UUID[Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD]{Mind
+            and Might Mitts}, when you cast a spell, you can expend one charge
+            from the mitts to modify the spell in a specific way that has an
+            effect described below.</p><p><strong>Effect. </strong>When you roll
+            damage for the spell, you can reroll a number of damage dice equal
+            to half of the number of gems socketed into the mitts (minimum 1).
+            You must use the new
+            rolls.</p>","chat":""},"identifier":"empowered-mind-crystal","source":{"revision":1,"rules":"2024","book":"Draenal
+            Homebrew","page":"","custom":"","license":""},"identified":true,"unidentified":{"description":""},"container":null,"quantity":1,"weight":{"value":0,"units":"lb"},"price":{"value":0,"denomination":"gp"},"rarity":"","activities":{"IfaURAt3gLBjbI64":{"type":"utility","_id":"IfaURAt3gLBjbI64","img":"icons/commodities/gems/gem-rough-navette-red.webp","sort":0,"activation":{"type":"action","override":false,"condition":""},"consumption":{"scaling":{"allowed":false},"spellSlot":true,"targets":[{"type":"itemUses","value":"1","target":"Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD","scaling":{}}]},"description":{"chatFlavor":""},"duration":{"units":"inst","concentration":false,"override":false},"effects":[],"flags":{},"range":{"units":"self","override":false,"special":""},"target":{"template":{"contiguous":false,"stationary":false,"units":"ft","type":""},"affects":{"choice":false,"type":""},"override":false,"prompt":true},"uses":{"spent":0,"recovery":[],"max":""},"visibility":{"level":{"min":null,"max":null},"requireAttunement":false,"requireIdentification":false,"requireMagic":false,"identifier":""},"roll":{"prompt":false,"visible":false,"name":"","formula":""},"name":"Empower
+            Spell"}},"uses":{"spent":0,"recovery":[]},"properties":["mgc"],"type":{"value":"mind-crystal","subtype":""}},"effects":[],"sort":0,"ownership":{"default":0,"eDQM6H9v2Xf0fBZR":3},"flags":{"sc-simple-sockets":{"gemSubtype":"mind-crystal","gemAllowedTypes":["equipment","equipment:clothing","equipment:heavy","equipment:light","equipment:medium","equipment:natural","equipment:ring","equipment:rod","equipment:shield","equipment:trinket","equipment:vehicle","equipment:wand","equipment:wondrous"],"gemTags":[],"gemCritThreshold":null,"gemCritMultiplier":null,"gemAttackBonus":null,"gemResource":{"key":""}}},"_stats":{"coreVersion":"14.364","systemId":"dnd5e","systemVersion":"5.3.3","createdTime":1786468135926,"modifiedTime":1786906074232,"lastModifiedBy":"eDQM6H9v2Xf0fBZR","compendiumSource":"Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0","duplicateSource":null,"exportSource":null}}
+        _gemInstanceId: T9XCllsYkYdAkang
+        _slot: 0
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 1
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 2
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 3
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 4
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 5
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 6
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 7
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 8
+      - gem: null
+        img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
+        name: Empty
+        slotConfig:
+          name: ''
+          condition: ''
+          description: ''
+          color: ''
+          hidden: false
+          deleteGemOnRemoval: false
+        _gemData: null
+        _gemInstanceId: null
+        _slot: 9
+    socketActivities:
+      '0':
+        gemUuid: Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0
+        gemName: Empowered Mind Crystal
+        gemImg: icons/commodities/gems/gem-rough-navette-red.webp
+        activityIds:
+          - kR6fCE5VSBUrWqFF
+        activityMeta:
+          kR6fCE5VSBUrWqFF:
+            sourceId: IfaURAt3gLBjbI64
+            hostActivityId: kR6fCE5VSBUrWqFF
+            slot: 0
+            gemImg: icons/commodities/gems/gem-rough-navette-red.webp
+            gemName: Empowered Mind Crystal
+            gemUuid: Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0
+            activityName: Empower Spell
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1786465313269
+  modifiedTime: 1787002672704
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yKhZmp0ETjNXoKJD'

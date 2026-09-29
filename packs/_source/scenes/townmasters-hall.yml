@@ -1,0 +1,2422 @@
+folder: null
+name: Townmaster's Hall
+_id: VIApF5qCmVoh521D
+navigation: false
+thumb: worlds/module-development/assets/scenes/thumb-0lTF8CjoOkTk5L2GAzsrdw.webp
+width: 1050
+height: 700
+padding: 0.25
+shiftX: 0
+shiftY: 0
+initial:
+  x: null
+  'y': null
+  scale: null
+initialLevel: defaultLevel0000
+grid:
+  type: 1
+  size: 70
+  style: solidLines
+  thickness: 1
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+tokenVision: true
+fog:
+  mode: 0
+  colors:
+    explored: null
+    unexplored: null
+environment:
+  darknessLevel: 0
+  darknessLock: false
+  globalLight:
+    enabled: true
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    luminosity: 0
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    darkness:
+      min: 0
+      max: 0.95
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
+drawings: []
+tokens:
+  - name: Vaelwyn Lharithlyn
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Vaelwyn_Lharithlyn.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 60
+      angle: 360
+      visionMode: darkvision
+      color: null
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 60
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: 73mrLnim6n3ngDYD
+    hidden: false
+    sort: 0
+    shape: 4
+    level: defaultLevel0000
+    _id: 4A3Jpwr7yFQVj4qo
+    delta: null
+    x: 700
+    'y': 420
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.4A3Jpwr7yFQVj4qo'
+  - texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Tadhg_Dwarf.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    sight:
+      enabled: true
+      range: 120
+      angle: 360
+      visionMode: darkvision
+      color: null
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 120
+        enabled: true
+    name: Tadhg Hozer
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: 3CBsMTTPyu150isc
+    hidden: false
+    sort: 1
+    shape: 4
+    level: defaultLevel0000
+    _id: Vtkf3ZQsZ2EDafA4
+    delta: null
+    x: 700
+    'y': 350
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.Vtkf3ZQsZ2EDafA4'
+  - name: George Tewbuton
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.George_Tewbuton.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: AhxdTivoYwlt8A68
+    hidden: false
+    sort: 2
+    shape: 4
+    level: defaultLevel0000
+    _id: RFpiUnTTNaV4uQCn
+    delta: null
+    x: 630
+    'y': 420
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.RFpiUnTTNaV4uQCn'
+  - name: Korda
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/pc-images/Token.Korda.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: HsCEyyIEA7FD1HXJ
+    hidden: false
+    sort: 4
+    shape: 4
+    level: defaultLevel0000
+    _id: cCiixfBZybXVC7MK
+    delta: null
+    x: 840
+    'y': 420
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.cCiixfBZybXVC7MK'
+  - name: Talin Grace
+    displayName: 0
+    actorLink: true
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Talin_Grace.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: 1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 120
+      angle: 360
+      visionMode: darkvision
+      color: null
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 120
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: y5mBesDOsN0KmVXW
+    hidden: false
+    sort: 5
+    shape: 4
+    level: defaultLevel0000
+    _id: 7i95jg523vE2h9zm
+    delta: null
+    x: 910
+    'y': 420
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.7i95jg523vE2h9zm'
+  - name: Neebnum Fanglehoover
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Neebnum_Fanglehoover.webp?v=1790700370489
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: pdTIHMIwM0s49JQq
+    hidden: false
+    sort: 6
+    shape: 4
+    level: defaultLevel0000
+    _id: SvT3If0EZ5oPV5p7
+    delta: null
+    x: 445
+    'y': 422
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.SvT3If0EZ5oPV5p7'
+  - name: Intellect Devourer
+    displayName: 20
+    actorLink: false
+    texture:
+      src: modules/dnd-phandelver-below/assets/tokens/intellect-devourer.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 0.5
+    height: 0.5
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 60
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes:
+      blindsight:
+        range: 60
+        enabled: true
+    flags:
+      dnd5e: {}
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        texture: null
+        scale: 1
+    occludable:
+      radius: 0
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 0.5
+    actorId: pbsoIntellectDev
+    hidden: true
+    sort: 7
+    shape: 4
+    level: defaultLevel0000
+    _id: C6YVyQW8J3GFVktE
+    delta:
+      _id: C6YVyQW8J3GFVktE
+      system:
+        attributes:
+          hp:
+            max: 23
+            value: 23
+      items: []
+      effects:
+        - name: Hiding
+          img: systems/dnd5e/icons/svg/statuses/hiding.svg
+          _id: dnd5ehiding00000
+          statuses:
+            - hiding
+          showIcon: 2
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: -308735982
+            combat: null
+            combatant: null
+            initiative: null
+            round: null
+            turn: null
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags: {}
+          _stats:
+            coreVersion: '14.364'
+            systemId: dnd5e
+            systemVersion: 5.3.3
+            createdTime: 1790703498837
+            modifiedTime: 1790703498837
+            lastModifiedBy: eDQM6H9v2Xf0fBZR
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!VIApF5qCmVoh521D.C6YVyQW8J3GFVktE.C6YVyQW8J3GFVktE.dnd5ehiding00000
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!VIApF5qCmVoh521D.C6YVyQW8J3GFVktE.C6YVyQW8J3GFVktE'
+    x: 1120
+    'y': 578
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.C6YVyQW8J3GFVktE'
+  - name: Intellect Devourer
+    displayName: 20
+    actorLink: false
+    texture:
+      src: modules/dnd-phandelver-below/assets/tokens/intellect-devourer.webp
+      scaleX: 1
+      scaleY: 1
+      tint: '#ffffff'
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    width: 0.5
+    height: 0.5
+    lockRotation: true
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 20
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      negative: false
+      priority: 0
+    sight:
+      enabled: true
+      range: 60
+      angle: 360
+      visionMode: basic
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+      color: null
+    detectionModes:
+      blindsight:
+        range: 60
+        enabled: true
+    flags:
+      dnd5e: {}
+    ring:
+      enabled: true
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        texture: null
+        scale: 1
+    occludable:
+      radius: 0
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    depth: 0.5
+    actorId: pbsoIntellectDev
+    hidden: true
+    sort: 8
+    shape: 4
+    level: defaultLevel0000
+    _id: CE9khGwxoIzWVoU9
+    delta:
+      _id: CE9khGwxoIzWVoU9
+      system:
+        attributes:
+          hp:
+            max: 20
+            value: 20
+      items: []
+      effects:
+        - name: Hiding
+          img: systems/dnd5e/icons/svg/statuses/hiding.svg
+          _id: dnd5ehiding00000
+          statuses:
+            - hiding
+          showIcon: 2
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: -308735982
+            combat: null
+            combatant: null
+            initiative: null
+            round: null
+            turn: null
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags: {}
+          _stats:
+            coreVersion: '14.364'
+            systemId: dnd5e
+            systemVersion: 5.3.3
+            createdTime: 1790703498837
+            modifiedTime: 1790703498837
+            lastModifiedBy: eDQM6H9v2Xf0fBZR
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!VIApF5qCmVoh521D.CE9khGwxoIzWVoU9.CE9khGwxoIzWVoU9.dnd5ehiding00000
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!VIApF5qCmVoh521D.CE9khGwxoIzWVoU9.CE9khGwxoIzWVoU9'
+    x: 1138
+    'y': 525
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.CE9khGwxoIzWVoU9'
+  - name: Swarm of Cranium Rats
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Swarm_of_Cranium_Rats.webp?v=1790700864405
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: true
+      range: 30
+      angle: 360
+      visionMode: darkvision
+      color: null
+      attenuation: 0
+      brightness: 0
+      saturation: -1
+      contrast: 0
+    detectionModes:
+      basicSight:
+        range: 30
+        enabled: true
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 0
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: Bae19oe9z4WiNsHv
+    hidden: true
+    sort: 9
+    shape: 4
+    level: defaultLevel0000
+    _id: UARwYU7TLKWSBtEw
+    delta:
+      _id: UARwYU7TLKWSBtEw
+      system:
+        attributes:
+          hp:
+            max: 67
+            value: 67
+      items: []
+      effects:
+        - name: Hiding
+          img: systems/dnd5e/icons/svg/statuses/hiding.svg
+          _id: dnd5ehiding00000
+          statuses:
+            - hiding
+          showIcon: 2
+          type: base
+          system:
+            changes: []
+          disabled: false
+          start:
+            time: -308735982
+            combat: null
+            combatant: null
+            initiative: null
+            round: null
+            turn: null
+          duration:
+            value: null
+            units: seconds
+            expiry: null
+            expired: false
+          description: ''
+          origin: null
+          tint: '#ffffff'
+          transfer: false
+          folder: null
+          sort: 0
+          flags: {}
+          _stats:
+            coreVersion: '14.364'
+            systemId: dnd5e
+            systemVersion: 5.3.3
+            createdTime: 1790703498837
+            modifiedTime: 1790703498837
+            lastModifiedBy: eDQM6H9v2Xf0fBZR
+            compendiumSource: null
+            duplicateSource: null
+            exportSource: null
+          _key: >-
+            !scenes.tokens.delta.effects!VIApF5qCmVoh521D.UARwYU7TLKWSBtEw.UARwYU7TLKWSBtEw.dnd5ehiding00000
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!VIApF5qCmVoh521D.UARwYU7TLKWSBtEw.UARwYU7TLKWSBtEw'
+    x: 938
+    'y': 531
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.UARwYU7TLKWSBtEw'
+  - name: Halia Thornton
+    displayName: 0
+    actorLink: false
+    width: 1
+    height: 1
+    depth: 1
+    texture:
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Halia_Thornton.webp?v=1790700250515
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      scaleX: 2
+      scaleY: 2
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    disposition: -1
+    displayBars: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    light:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+    sight:
+      enabled: false
+      range: 0
+      angle: 360
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      brightness: 0
+      saturation: 0
+      contrast: 0
+    detectionModes: {}
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    flags: {}
+    actorId: gmAJZNAFhBgNITGd
+    hidden: false
+    sort: 10
+    shape: 4
+    level: defaultLevel0000
+    _id: OAiWS4yYFtzaJTGa
+    delta: null
+    x: 1120
+    'y': 420
+    elevation: 0
+    locked: false
+    _movementHistory: []
+    _regions:
+      - LucBSykQ1Li1CvA9
+    _key: '!scenes.tokens!VIApF5qCmVoh521D.OAiWS4yYFtzaJTGa'
+levels:
+  - _id: defaultLevel0000
+    name: Level
+    elevation:
+      bottom: 0
+      top: 20
+    background:
+      color: '#999999'
+      src: >-
+        https://rustfs.michaelcook.dev/foundry-vtt-assets/maps/Townmasters-Hall/townmaster_hall.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!VIApF5qCmVoh521D.defaultLevel0000'
+lights:
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 20
+      dim: 40
+    name: Ambient Light
+    _id: F8B4XbwdRRW3jCRz
+    x: 440
+    'y': 385
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!VIApF5qCmVoh521D.F8B4XbwdRRW3jCRz'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 20
+      dim: 40
+    name: Ambient Light (2)
+    _id: f5hlTX6O2pYutvsI
+    x: 630
+    'y': 370
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!VIApF5qCmVoh521D.f5hlTX6O2pYutvsI'
+  - elevation: 0
+    levels:
+      - defaultLevel0000
+    walls: true
+    vision: false
+    hidden: false
+    config:
+      negative: false
+      priority: 0
+      alpha: 0.5
+      angle: 360
+      color: null
+      coloration: 1
+      attenuation: 0.5
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        type: null
+        speed: 5
+        intensity: 5
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      bright: 5
+      dim: 10
+    name: Ambient Light (3)
+    _id: QD8OugLkVcrc1sGm
+    x: 938
+    'y': 717
+    rotation: 0
+    locked: false
+    flags: {}
+    _key: '!scenes.lights!VIApF5qCmVoh521D.QD8OugLkVcrc1sGm'
+notes: []
+sounds: []
+regions:
+  - color: '#cc287e'
+    elevation:
+      bottom: 0
+      top: 20
+      topInclusive: false
+    levels:
+      - defaultLevel0000
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    visibility: 4
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    name: Region
+    _id: LucBSykQ1Li1CvA9
+    shapes:
+      - type: rectangle
+        x: 420
+        'y': 350
+        width: 770
+        height: 420
+        hole: false
+        anchorX: 0
+        anchorY: 0
+        rotation: 0
+        gridBased: true
+    behaviors:
+      - name: Adjust Darkness Level
+        type: adjustDarknessLevel
+        _id: QL6cNMPbhsZhXH9e
+        system:
+          mode: 0
+          modifier: 0.95
+        disabled: false
+        flags: {}
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703498837
+          modifiedTime: 1790703498837
+          lastModifiedBy: eDQM6H9v2Xf0fBZR
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !scenes.regions.behaviors!VIApF5qCmVoh521D.LucBSykQ1Li1CvA9.QL6cNMPbhsZhXH9e
+    locked: true
+    ownership:
+      default: 0
+      eDQM6H9v2Xf0fBZR: 3
+    flags: {}
+    _shapeConstraints: null
+    _key: '!scenes.regions!VIApF5qCmVoh521D.LucBSykQ1Li1CvA9'
+tiles: []
+walls:
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 420
+      - 350
+      - 420
+      - 560
+    _id: Wo6HwVxfJwJHqcB0
+    _key: '!scenes.walls!VIApF5qCmVoh521D.Wo6HwVxfJwJHqcB0'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 420
+      - 770
+      - 490
+      - 770
+    _id: 0iFIcHPnh3DSuvYz
+    _key: '!scenes.walls!VIApF5qCmVoh521D.0iFIcHPnh3DSuvYz'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 560
+      - 770
+      - 700
+      - 770
+    _id: f7QWtd5mCekdlvFu
+    _key: '!scenes.walls!VIApF5qCmVoh521D.f7QWtd5mCekdlvFu'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 770
+      - 770
+      - 840
+      - 770
+    _id: S8yeQ7I8gPTZr9mS
+    _key: '!scenes.walls!VIApF5qCmVoh521D.S8yeQ7I8gPTZr9mS'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 770
+      - 840
+      - 700
+    _id: lLuXOSMJZJn7sUuq
+    _key: '!scenes.walls!VIApF5qCmVoh521D.lLuXOSMJZJn7sUuq'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 560
+      - 840
+      - 490
+    _id: aaul6sflPNO9q30k
+    _key: '!scenes.walls!VIApF5qCmVoh521D.aaul6sflPNO9q30k'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 420
+      - 840
+      - 350
+    _id: CFbuwbYSHlvImvgE
+    _key: '!scenes.walls!VIApF5qCmVoh521D.CFbuwbYSHlvImvgE'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 350
+      - 770
+      - 350
+    _id: nYgsDg2amftQuJys
+    _key: '!scenes.walls!VIApF5qCmVoh521D.nYgsDg2amftQuJys'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 700
+      - 350
+      - 560
+      - 350
+    _id: j619OhfBp3Zo2Tjh
+    _key: '!scenes.walls!VIApF5qCmVoh521D.j619OhfBp3Zo2Tjh'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 490
+      - 350
+      - 420
+      - 350
+    _id: pFysoJyn5SpqAu9q
+    _key: '!scenes.walls!VIApF5qCmVoh521D.pFysoJyn5SpqAu9q'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 420
+      - 560
+      - 420
+      - 770
+    _id: 6mkkeRYdfXXPUKwh
+    _key: '!scenes.walls!VIApF5qCmVoh521D.6mkkeRYdfXXPUKwh'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 560
+      - 840
+      - 630
+    _id: 3KfF8yCDSirwXH8r
+    _key: '!scenes.walls!VIApF5qCmVoh521D.3KfF8yCDSirwXH8r'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 420
+      - 560
+      - 840
+      - 560
+    _id: 14jSKzg5oxYdA1fg
+    _key: '!scenes.walls!VIApF5qCmVoh521D.14jSKzg5oxYdA1fg'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 350
+      - 910
+      - 350
+    _id: IXpcZoXgBkaM3CMT
+    _key: '!scenes.walls!VIApF5qCmVoh521D.IXpcZoXgBkaM3CMT'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 910
+      - 350
+      - 910
+      - 420
+    _id: P7whiRmt09qS7CPc
+    _key: '!scenes.walls!VIApF5qCmVoh521D.P7whiRmt09qS7CPc'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 910
+      - 350
+      - 1050
+      - 350
+    _id: dVJPKU8YDDp4JjoC
+    _key: '!scenes.walls!VIApF5qCmVoh521D.dVJPKU8YDDp4JjoC'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1190
+      - 350
+      - 1190
+      - 490
+    _id: c0gl0kZmNlweDxXJ
+    _key: '!scenes.walls!VIApF5qCmVoh521D.c0gl0kZmNlweDxXJ'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1190
+      - 630
+      - 1050
+      - 630
+    _id: ktneo3LwdHPIlCsc
+    _key: '!scenes.walls!VIApF5qCmVoh521D.ktneo3LwdHPIlCsc'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 630
+      - 910
+      - 630
+    _id: 5AXYZCtW0l5MAb0Y
+    _key: '!scenes.walls!VIApF5qCmVoh521D.5AXYZCtW0l5MAb0Y'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 910
+      - 630
+      - 910
+      - 490
+    _id: PhdSIq1yZXb81TRW
+    _key: '!scenes.walls!VIApF5qCmVoh521D.PhdSIq1yZXb81TRW'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 630
+      - 1050
+      - 665
+    _id: FCyIat6elerDrBmI
+    _key: '!scenes.walls!VIApF5qCmVoh521D.FCyIat6elerDrBmI'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1190
+      - 630
+      - 1190
+      - 770
+    _id: E9VQskDKWnafNMr8
+    _key: '!scenes.walls!VIApF5qCmVoh521D.E9VQskDKWnafNMr8'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1190
+      - 770
+      - 1050
+      - 770
+    _id: 5RMyuHXedOWiMGiT
+    _key: '!scenes.walls!VIApF5qCmVoh521D.5RMyuHXedOWiMGiT'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 770
+      - 1015
+      - 770
+    _id: vkjFsB5ot3HcHDzM
+    _key: '!scenes.walls!VIApF5qCmVoh521D.vkjFsB5ot3HcHDzM'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 910
+      - 700
+      - 910
+      - 770
+    _id: QQIHv2XVLtGZwLqv
+    _key: '!scenes.walls!VIApF5qCmVoh521D.QQIHv2XVLtGZwLqv'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 910
+      - 770
+      - 945
+      - 770
+    _id: DFI0Gx2zEDQNzUmJ
+    _key: '!scenes.walls!VIApF5qCmVoh521D.DFI0Gx2zEDQNzUmJ'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 770
+      - 1050
+      - 735
+    _id: SuK2wTB1psMpf5s7
+    _key: '!scenes.walls!VIApF5qCmVoh521D.SuK2wTB1psMpf5s7'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1190
+      - 490
+      - 1050
+      - 490
+    _id: 1rtg3ewMIIxMitoI
+    _key: '!scenes.walls!VIApF5qCmVoh521D.1rtg3ewMIIxMitoI'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 490
+      - 1050
+      - 420
+    _id: Rte68qps3qooUqZE
+    _key: '!scenes.walls!VIApF5qCmVoh521D.Rte68qps3qooUqZE'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 490
+      - 1050
+      - 560
+    _id: L41dcYCmzTGcycfa
+    _key: '!scenes.walls!VIApF5qCmVoh521D.L41dcYCmzTGcycfa'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1190
+      - 490
+      - 1190
+      - 630
+    _id: 9mjowL1Ae5KVjFKl
+    _key: '!scenes.walls!VIApF5qCmVoh521D.9mjowL1Ae5KVjFKl'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 1
+    ds: 2
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation:
+      type: ''
+      texture: null
+      flip: false
+      double: false
+      direction: 1
+      duration: 750
+      strength: 1
+    flags: {}
+    c:
+      - 1050
+      - 420
+      - 1050
+      - 350
+    _id: 1xQ47dAelNjVD7GC
+    doorSound: metal
+    _key: '!scenes.walls!VIApF5qCmVoh521D.1xQ47dAelNjVD7GC'
+  - levels:
+      - defaultLevel0000
+    light: 0
+    move: 20
+    sight: 0
+    sound: 0
+    dir: 0
+    door: 1
+    ds: 2
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation:
+      type: ''
+      texture: null
+      flip: false
+      double: false
+      direction: 1
+      duration: 750
+      strength: 1
+    flags: {}
+    c:
+      - 1050
+      - 560
+      - 1050
+      - 630
+    _id: V5izTXTnfeyfYuyF
+    doorSound: metal
+    _key: '!scenes.walls!VIApF5qCmVoh521D.V5izTXTnfeyfYuyF'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1190
+      - 350
+      - 1050
+      - 350
+    _id: H8W0VyqrznRhDW6z
+    _key: '!scenes.walls!VIApF5qCmVoh521D.H8W0VyqrznRhDW6z'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 420
+      - 840
+      - 490
+    _id: CN937lF4hWS2ckuz
+    _key: '!scenes.walls!VIApF5qCmVoh521D.CN937lF4hWS2ckuz'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 1
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation:
+      type: ''
+      texture: null
+      flip: false
+      double: false
+      direction: 1
+      duration: 750
+      strength: 1
+    flags: {}
+    c:
+      - 910
+      - 420
+      - 910
+      - 490
+    _id: O1QKdidcZhbsv3rC
+    doorSound: ''
+    _key: '!scenes.walls!VIApF5qCmVoh521D.O1QKdidcZhbsv3rC'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 630
+      - 840
+      - 700
+    _id: 4a4ESzFLOm7jzrnF
+    _key: '!scenes.walls!VIApF5qCmVoh521D.4a4ESzFLOm7jzrnF'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 840
+      - 770
+      - 910
+      - 770
+    _id: HuSUESLm6kVn4DJp
+    _key: '!scenes.walls!VIApF5qCmVoh521D.HuSUESLm6kVn4DJp'
+  - levels:
+      - defaultLevel0000
+    light: 20
+    move: 20
+    sight: 20
+    sound: 20
+    dir: 0
+    door: 1
+    ds: 0
+    threshold:
+      light: null
+      sight: null
+      sound: null
+      attenuation: false
+    animation: null
+    flags: {}
+    c:
+      - 1050
+      - 665
+      - 1050
+      - 735
+    _id: ZefN2pUaiVhZrRoX
+    _key: '!scenes.walls!VIApF5qCmVoh521D.ZefN2pUaiVhZrRoX'
+  - levels:
+      - defaultLevel0000
+    light: 30
+    move: 20
+    sight: 30
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: 10
+      sight: 10
+      sound: null
+      attenuation: true
+    animation: null
+    flags: {}
+    c:
+      - 490
+      - 350
+      - 560
+      - 350
+    _id: dXFag2eRf4FK2qXB
+    _key: '!scenes.walls!VIApF5qCmVoh521D.dXFag2eRf4FK2qXB'
+  - levels:
+      - defaultLevel0000
+    light: 30
+    move: 20
+    sight: 30
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: 10
+      sight: 10
+      sound: null
+      attenuation: true
+    animation: null
+    flags: {}
+    c:
+      - 700
+      - 350
+      - 770
+      - 350
+    _id: 6v5GJ7PIofGycvzY
+    _key: '!scenes.walls!VIApF5qCmVoh521D.6v5GJ7PIofGycvzY'
+  - levels:
+      - defaultLevel0000
+    light: 30
+    move: 20
+    sight: 30
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: 10
+      sight: 10
+      sound: null
+      attenuation: true
+    animation: null
+    flags: {}
+    c:
+      - 700
+      - 770
+      - 770
+      - 770
+    _id: kdyzHEinG9Hpq48g
+    _key: '!scenes.walls!VIApF5qCmVoh521D.kdyzHEinG9Hpq48g'
+  - levels:
+      - defaultLevel0000
+    light: 30
+    move: 20
+    sight: 30
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: 10
+      sight: 10
+      sound: null
+      attenuation: true
+    animation: null
+    flags: {}
+    c:
+      - 490
+      - 770
+      - 560
+      - 770
+    _id: wP34d0IIwlVccpb5
+    _key: '!scenes.walls!VIApF5qCmVoh521D.wP34d0IIwlVccpb5'
+  - levels:
+      - defaultLevel0000
+    light: 30
+    move: 20
+    sight: 30
+    sound: 20
+    dir: 0
+    door: 0
+    ds: 0
+    threshold:
+      light: 10
+      sight: 10
+      sound: null
+      attenuation: true
+    animation: null
+    flags: {}
+    c:
+      - 945
+      - 770
+      - 1015
+      - 770
+    _id: oyqS9IBugMsbaQdF
+    doorSound: woodCreaky
+    _key: '!scenes.walls!VIApF5qCmVoh521D.oyqS9IBugMsbaQdF'
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+ownership:
+  default: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1790703498837
+  modifiedTime: 1790703500123
+  lastModifiedBy: draenalcommon000
+  exportSource: null
+  duplicateSource: null
+navName: ''
+active: false
+navOrder: 0
+sort: 200000
+_key: '!scenes!VIApF5qCmVoh521D'
+templates: []

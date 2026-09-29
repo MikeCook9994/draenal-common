@@ -5193,7 +5193,7 @@ items:
     _key: '!actors.items!aeb43OOnhx2Uqtu5.2hbKv8cQoeaFirli'
 effects: []
 folder: null
-sort: 0
+sort: 400000
 ownership:
   default: 0
 flags:
@@ -5204,9 +5204,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786911315080
-  modifiedTime: 1786912887302
+  modifiedTime: 1790698558810
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
 _key: '!actors!aeb43OOnhx2Uqtu5'
-

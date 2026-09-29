@@ -1,0 +1,2700 @@
+folder: rej2SCe1BlhMbQxY
+name: Swarm of Cranium Rats
+type: npc
+_id: Bae19oe9z4WiNsHv
+img: >-
+  https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars/Avatar.Swarm_of_Cranium_Rats.webp?v=1790700866589
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 9
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+    spell2:
+      value: 0
+    spell3:
+      value: 0
+    spell4:
+      value: 0
+    spell5:
+      value: 0
+    spell6:
+      value: 0
+    spell7:
+      value: 0
+    spell8:
+      value: 0
+    spell9:
+      value: 0
+    pact:
+      value: 0
+  attributes:
+    ac:
+      calc: default
+      flat: null
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      units: ft
+      hover: false
+      ignoredDifficultTerrain: []
+      walk: '30'
+      burrow: ''
+      climb: ''
+      fly: ''
+      swim: ''
+      bonus: ''
+      special: ''
+    attunement:
+      max: 3
+    senses:
+      ranges:
+        blindsight: null
+        darkvision: 30
+        tremorsense: null
+        truesight: null
+      units: ft
+      special: ''
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    hp:
+      max: null
+      temp: null
+      tempmax: null
+      value: 0
+      formula: 17d8
+      dt: null
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    price:
+      value: null
+      denomination: gp
+    spell:
+      level: 0
+  details:
+    biography:
+      value: ''
+      public: ''
+    alignment: Typically Lawful Evil
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      custom: ''
+      subtype: ''
+      swarm: tiny
+      value: aberration
+    habitat:
+      value: []
+      custom: ''
+    cr: 5
+    treasure:
+      value: []
+  resources:
+    legact:
+      max: 0
+      spent: 0
+    legres:
+      max: 0
+      spent: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+    book: 'Mordenkainen Presents: Monsters of the Multiverse'
+    page: '83'
+    custom: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      value: []
+      custom: ''
+      bypasses: []
+    dr:
+      value:
+        - bludgeoning
+        - piercing
+        - slashing
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+        - charmed
+        - frightened
+        - grappled
+        - paralyzed
+        - petrified
+        - prone
+        - restrained
+        - stunned
+      custom: ''
+    languages:
+      value: []
+      custom: ''
+      communication:
+        telepathy:
+          value: 30
+          units: ft
+    important: false
+prototypeToken:
+  name: Swarm of Cranium Rats
+  displayName: 0
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: >-
+      https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-images/Token.Swarm_of_Cranium_Rats.webp?v=1790700864405
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 2
+    scaleY: 2
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: true
+    range: 30
+    angle: 360
+    visionMode: darkvision
+    color: null
+    attenuation: 0
+    brightness: 0
+    saturation: -1
+    contrast: 0
+  detectionModes:
+    basicSight:
+      range: 30
+      enabled: true
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Swarm
+    type: feat
+    _id: 23hXuw4XziULAJoC
+    img: icons/creatures/birds/birds-flock-fly-yellow.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>The swarm can occupy another creature's space and vice versa, and
+          the swarm can move through any opening large enough for a Tiny rat.
+          The swarm can't regain hit points or gain temporary hit points.</p>
+        chat: ''
+      identifier: swarm
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: CsL6aRIP92Y65OWU
+    sort: 100000
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790701441573
+      modifiedTime: 1790701451186
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.world.private-monster-features.Item.KeWNfGduoyP58IGI
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Bae19oe9z4WiNsHv.23hXuw4XziULAJoC'
+  - folder: CsL6aRIP92Y65OWU
+    name: Telepathic Shroud
+    type: feat
+    _id: pBQ2Rq1mHkdnUked
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>The swarm is immune to any effect that would sense its emotions or
+          read its thoughts, as well as to all divination spells.</p>
+        chat: ''
+      identifier: telepathic-shroud
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790701548674
+      modifiedTime: 1790701567315
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.world.private-monster-features.Item.MMhbuipyTRIUiRYU
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Bae19oe9z4WiNsHv.pBQ2Rq1mHkdnUked'
+  - name: Bites
+    type: feat
+    _id: MKPK2zAuC8OiMn8G
+    img: icons/creatures/abilities/fangs-teeth-bite.webp
+    system:
+      activities:
+        545t52NRVqpiQrGT:
+          type: attack
+          name: Bites
+          _id: 545t52NRVqpiQrGT
+          img: ''
+          sort: 0
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: creatureOrObject
+              count: '1'
+              special: in the swarm's space
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: dex
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 4
+                denomination: 6
+                bonus: ''
+                types: []
+                scaling:
+                  number: 1
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 5
+                denomination: 8
+                bonus: ''
+                types: []
+                scaling:
+                  number: 1
+        4sH7hASlVnFTJuIw:
+          type: attack
+          name: Bloodied Bites
+          img: ''
+          sort: 100000
+          activation:
+            type: action
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: '1'
+              type: creatureOrObject
+              special: in the swarm's space
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: dex
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 6
+                bonus: ''
+                types: []
+                scaling:
+                  number: 1
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 5
+                denomination: 8
+                bonus: ''
+                types: []
+                scaling:
+                  number: 1
+          _id: 4sH7hASlVnFTJuIw
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the
+          swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing
+          damage if the swarm has half of its Bloodied, plus 22 (5d8) psychic
+          damage.</p>
+        chat: ''
+      identifier: feature
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790701583412
+      modifiedTime: 1790702594791
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Bae19oe9z4WiNsHv.MKPK2zAuC8OiMn8G'
+  - name: Spellcasting (Psionics)
+    type: feat
+    _id: acVmcF77Jk01Fks3
+    img: icons/magic/light/projectiles-star-purple.webp
+    system:
+      activities:
+        ygDy4l35KI8YfrBb:
+          type: cast
+          name: Command
+          _id: ygDy4l35KI8YfrBb
+          img: ''
+          sort: 0
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          spell:
+            challenge:
+              override: false
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+            ability: ''
+        Fjwhkhz1ilVckY0Y:
+          type: cast
+          name: Comprehend Languages
+          img: ''
+          sort: 100000
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          spell:
+            challenge:
+              override: false
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells24.Item.phbsplComprehend
+            ability: ''
+            level: 1
+          _id: Fjwhkhz1ilVckY0Y
+        8ewmjCrdbJjmAEBU:
+          type: cast
+          name: Detect Thoughts
+          img: ''
+          sort: 200000
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          spell:
+            challenge:
+              override: false
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er
+            ability: ''
+            level: 1
+          _id: 8ewmjCrdbJjmAEBU
+        q3wg8irW6pJEsua5:
+          type: cast
+          name: Confusion
+          img: ''
+          sort: 300000
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: activityUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery:
+              - period: day
+                type: recoverAll
+            max: '1'
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          spell:
+            challenge:
+              override: false
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+            ability: ''
+            level: 4
+          _id: q3wg8irW6pJEsua5
+        y8GH9LrPKQEN5Z21:
+          type: cast
+          name: Dominate Monster
+          img: ''
+          sort: 400000
+          activation:
+            type: action
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets:
+              - type: activityUses
+                value: '1'
+                scaling: {}
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          flags: {}
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery:
+              - period: day
+                type: recoverAll
+            max: '1'
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          spell:
+            challenge:
+              override: false
+            properties:
+              - vocal
+              - somatic
+              - material
+            spellbook: true
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDominateMo
+            ability: ''
+            level: 4
+          _id: y8GH9LrPKQEN5Z21
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>As long as it has more than half of its hit points remaining, the
+          swarm casts one of the following spells, requiring no spell components
+          and using Intelligence as the spellcasting ability (spell save DC
+          [[lookup @attributes.spell.dc]]):</p><p>At will: <em>[[/item
+          Command]]</em>, <em>[[/item Comprehend Languages]]</em>, <em>[[/item
+          Detect Thoughts]]</em></p><p>1/day each: <em>[[/item Confusion]]</em>,
+          <em>[[/item Dominate Monster]]</em></p>
+        chat: ''
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790702607675
+      modifiedTime: 1790703205400
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Bae19oe9z4WiNsHv.acVmcF77Jk01Fks3'
+  - name: Command
+    system:
+      description:
+        value: >-
+          <p>You speak a one-word command to a creature you can see within
+          range. The target must succeed on a Wisdom saving throw or follow the
+          command on its next turn. Choose the command from these
+          options:</p><p><strong>Approach.</strong> The target moves toward you
+          by the shortest and most direct route, ending its turn if it moves
+          within 5 feet of you.</p><p><strong>Drop.</strong> The target drops
+          whatever it is holding and then ends its
+          turn.</p><p><strong>Flee.</strong> The target spends its turn moving
+          away from you by the fastest available
+          means.</p><p><strong>Grovel.</strong> The target has the Prone
+          condition and then ends its turn.</p><p><strong>Halt.</strong> On its
+          turn, the target doesn't move and takes no action or Bonus
+          Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You
+          can affect one additional creature for each spell slot level above
+          1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '@item.level'
+          choice: false
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        value: '60'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: enc
+      properties:
+        - vocal
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: command
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    type: spell
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    effects:
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.Bae19oe9z4WiNsHv.Item.acVmcF77Jk01Fks3.Activity.ygDy4l35KI8YfrBb
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703040577
+          modifiedTime: 1790703040577
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.we917Hvj0CHaDorT.dnd5espellchange
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4700000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.acVmcF77Jk01Fks3.Activity.ygDy4l35KI8YfrBb
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790703040577
+      modifiedTime: 1790703040578
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCommand000
+    _id: we917Hvj0CHaDorT
+    _key: '!actors.items!Bae19oe9z4WiNsHv.we917Hvj0CHaDorT'
+  - name: Comprehend Languages
+    system:
+      description:
+        value: >-
+          <p>For the duration, you understand the literal meaning of any
+          language that you hear or see signed. You also understand any written
+          language that you see, but you must be touching the surface on which
+          the words are written. It takes about 1 minute to read one page of
+          text. This spell doesn't decode symbols or secret messages.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        page: ''
+        revision: 2
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - material
+        - ritual
+      materials:
+        value: a pinch of soot and salt
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: ANhwNb9xKRpWs4Q2
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: comprehend-languages
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    type: spell
+    img: icons/sundries/documents/document-writing-pink.webp
+    effects:
+      - name: Comprehension
+        origin: Compendium.dnd5e.spells24.Item.phbsplComprehend
+        duration:
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags:
+          dnd5e:
+            riders:
+              statuses: []
+        img: icons/sundries/books/book-open-purple.webp
+        _id: ANhwNb9xKRpWs4Q2
+        type: base
+        system:
+          changes:
+            - key: system.traits.languages.value
+              value: ALL
+              priority: null
+              type: add
+              phase: initial
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703093577
+          modifiedTime: 1790703093577
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.y3gbXiPYTcHs9YMz.ANhwNb9xKRpWs4Q2
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.Bae19oe9z4WiNsHv.Item.acVmcF77Jk01Fks3.Activity.Fjwhkhz1ilVckY0Y
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703093577
+          modifiedTime: 1790703093577
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.y3gbXiPYTcHs9YMz.dnd5espellchange
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4500000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.acVmcF77Jk01Fks3.Activity.Fjwhkhz1ilVckY0Y
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790703093577
+      modifiedTime: 1790703093578
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplComprehend
+    _id: y3gbXiPYTcHs9YMz
+    _key: '!actors.items!Bae19oe9z4WiNsHv.y3gbXiPYTcHs9YMz'
+  - name: Detect Thoughts
+    ownership:
+      default: 0
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>For the duration, you can read the thoughts of certain creatures.
+          When you cast the spell and as your action on each turn until the
+          spell ends, you can focus your mind on any one creature that you can
+          see within 30 feet of you. If the creature you choose has an
+          Intelligence of 3 or lower or doesn't speak any language, the creature
+          is unaffected.</p><p>You initially learn the surface thoughts of the
+          creature—what is most on its mind in that moment. As an action, you
+          can either shift your attention to another creature's thoughts or
+          attempt to probe deeper into the same creature's mind. If you probe
+          deeper, the target must make a Wisdom saving throw. If it fails, you
+          gain insight into its reasoning (if any), its emotional state, and
+          something that looms large in its mind (such as something it worries
+          over, loves, or hates). If it succeeds, the spell ends. Either way,
+          the target knows that you are probing into its mind, and unless you
+          shift your attention to another creature's thoughts, the creature can
+          use its action on its turn to make an Intelligence check contested by
+          your Intelligence check; if it succeeds, the spell
+          ends.</p><p>Questions verbally directed at the target creature
+          naturally shape the course of its thoughts, so this spell is
+          particularly effective as part of an interrogation.</p><p>You can also
+          use this spell to detect the presence of thinking creatures you can't
+          see. When you cast the spell or as your action during the duration,
+          you can search for thoughts within 30 feet of you. The spell can
+          penetrate barriers, but 2 feet of rock, 2 inches of any metal other
+          than lead, or a thin sheet of lead blocks you. You can't detect a
+          creature with an Intelligence of 3 or lower or one that doesn't speak
+          any language.</p><p>Once you detect the presence of a creature in this
+          way, you can read its thoughts for the rest of the duration as
+          described above, even if you can't see it, but it must still be within
+          range.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: ''
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ft
+          contiguous: false
+          stationary: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 2
+      school: div
+      materials:
+        value: A copper piece
+        consumed: false
+        cost: 0
+        supply: 0
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: detect-thoughts
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    sort: 0
+    flags:
+      dnd5e:
+        cachedFor: .Item.acVmcF77Jk01Fks3.Activity.8ewmjCrdbJjmAEBU
+    img: icons/magic/light/explosion-star-teal-purple.webp
+    effects:
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.Bae19oe9z4WiNsHv.Item.acVmcF77Jk01Fks3.Activity.8ewmjCrdbJjmAEBU
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703120248
+          modifiedTime: 1790703120248
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.O6fBqGKDmeIDlzTt.dnd5espellchange
+    folder: Qi4Se3we69ukl2V9
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790703120248
+      modifiedTime: 1790703120248
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er
+    _id: O6fBqGKDmeIDlzTt
+    _key: '!actors.items!Bae19oe9z4WiNsHv.O6fBqGKDmeIDlzTt'
+  - name: Confusion
+    system:
+      description:
+        value: >-
+          <p>Each creature in a 10-foot-radius Sphere centered on a point you
+          choose within range must succeed on a Wisdom saving throw, or that
+          target can't take Bonus Actions or Reactions and must roll 1d10 at the
+          start of each of its turns to determine its behavior for that turn,
+          consulting the table
+          below.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB
+          rollable cite=false classes="caption-top"]{Behavior for the
+          Turn}</p><p>At the end of each of its turns, an affected target
+          repeats the save, ending the spell on itself on a
+          success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
+          Sphere's radius increases by 5 feet for each spell slot level above
+          4.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          type: sphere
+          size: '@item.level * 5 - 10'
+          contiguous: false
+          count: ''
+          stationary: false
+      range:
+        value: '90'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 4
+      school: enc
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: three nut shells
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: VxmsgUz9OIUet6WC
+              onSave: false
+              level: {}
+          range:
+            override: false
+            units: self
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: confusion
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    type: spell
+    img: icons/magic/symbols/question-stone-yellow.webp
+    effects:
+      - name: Confused
+        origin: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+        duration:
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
+        disabled: false
+        flags: {}
+        img: icons/magic/symbols/question-stone-yellow.webp
+        _id: VxmsgUz9OIUet6WC
+        type: base
+        system:
+          changes: []
+        description: >-
+          <p>The target can’t take Bonus Actions or Reactions and must roll 1d10
+          at the start of each of its turns to determine its behavior for that
+          turn, consulting the table
+          below.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB
+          rollable cite=false classes="caption-top"]{Behavior for the
+          Turn}</p><p>At the end of each of its turns, an affected target
+          repeats the [[/save ability=wis]] save, ending the spell on itself on
+          a success.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703154117
+          modifiedTime: 1790703154117
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.h9jZOCdkPquUONfC.VxmsgUz9OIUet6WC
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.Bae19oe9z4WiNsHv.Item.acVmcF77Jk01Fks3.Activity.q3wg8irW6pJEsua5
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703154117
+          modifiedTime: 1790703154117
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.h9jZOCdkPquUONfC.dnd5espellchange
+    folder: qi3IbnEwap7mRw4b
+    sort: 3200000
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.acVmcF77Jk01Fks3.Activity.q3wg8irW6pJEsua5
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790703154117
+      modifiedTime: 1790703154117
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+    _id: h9jZOCdkPquUONfC
+    _key: '!actors.items!Bae19oe9z4WiNsHv.h9jZOCdkPquUONfC'
+  - name: Dominate Monster
+    system:
+      description:
+        value: >-
+          <p>One creature you can see within range must succeed on a Wisdom
+          saving throw or have the &amp;Reference[Charmed apply=false] condition
+          for the duration. The target has Advantage on the save if you or your
+          allies are fighting it. Whenever the target takes damage, it repeats
+          the save, ending the spell on itself on a success.</p><p>You have a
+          telepathic link with the Charmed target while the two of you are on
+          the same plane of existence. On your turn, you can use this link to
+          issue commands to the target (no action required), such as "Attack
+          that creature," "Move over there," or "Fetch that object." The target
+          does its best to obey on its turn. If it completes an order and
+          doesn't receive further direction from you, it acts and moves as it
+          likes, focusing on protecting itself.</p><p>You can command the target
+          to take a Reaction but must take your own Reaction to do
+          so.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your
+          Concentration can last longer with a level 9 spell slot (up to 8
+          hours).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        license: CC-BY-4.0
+        book: ''
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: 1 + (@item.level - 8) * 7
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        template:
+          units: ft
+          contiguous: false
+          type: ''
+          stationary: false
+      range:
+        units: ft
+        special: ''
+        value: '60'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 8
+      school: enc
+      properties:
+        - vocal
+        - somatic
+        - concentration
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      activities:
+        b1s2oESIl76fHcqA:
+          type: save
+          _id: b1s2oESIl76fHcqA
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: aAbTb2vkRQiBp9Oz
+              level: {}
+              onSave: false
+          range:
+            override: false
+            units: self
+          target:
+            template:
+              contiguous: false
+              units: ft
+              stationary: false
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          damage:
+            parts: []
+            onSave: half
+          save:
+            ability:
+              - wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          name: ''
+          img: ''
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+      identifier: dominate-monster
+      method: spell
+      prepared: 0
+      sourceItem: feat:spellcasting
+    type: spell
+    img: icons/magic/control/hypnosis-mesmerism-watch.webp
+    effects:
+      - name: Dominated
+        img: systems/dnd5e/icons/svg/statuses/charmed.svg
+        origin: Compendium.dnd5e.spells24.Item.phbsplDominateMo
+        transfer: false
+        _id: aAbTb2vkRQiBp9Oz
+        type: base
+        system:
+          changes: []
+        disabled: false
+        duration:
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
+        description: >-
+          <p>Whenever the target takes damage, it repeats the [[/save
+          ability=wis]] save, ending the spell on itself on a success.</p>
+        tint: '#ffffff'
+        statuses:
+          - charmed
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703205443
+          modifiedTime: 1790703205443
+          lastModifiedBy: draenalcommon000
+          exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.uNpf8DIsx5LjOru1.aAbTb2vkRQiBp9Oz
+      - _id: dnd5espellchange
+        type: enchantment
+        name: Spell Changes
+        img: systems/dnd5e/icons/svg/activity/cast.svg
+        origin: null
+        flags:
+          core:
+            originText: >-
+              Compendium.draenal-common.npcs.Actor.Bae19oe9z4WiNsHv.Item.acVmcF77Jk01Fks3.Activity.y8GH9LrPKQEN5Z21
+        system:
+          changes:
+            - key: system.method
+              value: spell
+              type: override
+              phase: initial
+            - key: system.properties
+              value: '-vocal'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-somatic'
+              type: add
+              phase: initial
+            - key: system.properties
+              value: '-material'
+              type: add
+              phase: initial
+        disabled: false
+        start: null
+        duration:
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
+        description: ''
+        tint: '#ffffff'
+        transfer: true
+        statuses: []
+        showIcon: 1
+        folder: null
+        sort: 0
+        _stats:
+          coreVersion: '14.364'
+          systemId: dnd5e
+          systemVersion: 5.3.3
+          createdTime: 1790703205443
+          modifiedTime: 1790703205443
+          lastModifiedBy: draenalcommon000
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+        _key: >-
+          !actors.items.effects!Bae19oe9z4WiNsHv.uNpf8DIsx5LjOru1.dnd5espellchange
+    folder: M5CvwK9zVtzx6Dnn
+    sort: 101563
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        cachedFor: .Item.acVmcF77Jk01Fks3.Activity.y8GH9LrPKQEN5Z21
+    _stats:
+      duplicateSource: null
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790703205443
+      modifiedTime: 1790703205444
+      lastModifiedBy: draenalcommon000
+      exportSource: null
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDominateMo
+    _id: uNpf8DIsx5LjOru1
+    _key: '!actors.items!Bae19oe9z4WiNsHv.uNpf8DIsx5LjOru1'
+  - name: Illuminate
+    type: feat
+    _id: tiiyXGtyi8XGDOcp
+    img: icons/magic/light/explosion-impact-purple.webp
+    system:
+      activities:
+        m6gqYqJWj0tLdrQn:
+          type: utility
+          _id: m6gqYqJWj0tLdrQn
+          img: ''
+          sort: 0
+          activation:
+            type: bonus
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          flags: {}
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              stationary: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          visibility:
+            level:
+              min: null
+              max: null
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
+            identifier: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>The swarm sheds dim light from its brains in a 5-foot radius,
+          increases the illumination to bright light in a 5- to 20-foot radius
+          (and dim light for an additional number of feet equal to the chosen
+          radius), or extinguishes the light.</p>
+        chat: ''
+      identifier: feature
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790703228746
+      modifiedTime: 1790703313263
+      lastModifiedBy: draenalcommon000
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!actors.items!Bae19oe9z4WiNsHv.tiiyXGtyi8XGDOcp'
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags:
+  tokenizer-2:
+    layerStack:
+      - id: Pj7gLivIfkBrDMNj
+        type: image
+        name: Background
+        src: modules/tokenizer-2/img/dark-texture.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: xU5ELuONGXp9tDfM
+            type: frame-ray
+            src: modules/tokenizer-2/img/default-frame-npc.png
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isBackground: true
+      - id: p5qLZKtFHUgbU1ye
+        type: image
+        name: Swarm of Cranium Rats (from Avatar)
+        src: tokenizer/_cache/2026-09-29/8d74c529e07d8814.png
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks:
+          - id: zrIpR2rpvkuFkujj
+            type: frame-ray
+            src: modules/tokenizer-2/img/default-frame-npc.png
+            ringConfig: null
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+      - id: DVTqEfXEvhV0eBVF
+        type: image
+        name: default frame npc
+        src: modules/tokenizer-2/img/default-frame-npc.png
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 0.5
+          scaleY: 0.5
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+        isFrame: true
+    isDynamicRingMode: false
+    avatarLayerStack:
+      - id: ueOkIMwB1sfIpopH
+        type: image
+        name: Swarm of Cranium Rats
+        src: >-
+          https://rustfs.michaelcook.dev/foundry-vtt-assets/actors/npc-avatars-source/avatar/aberration/Swarm-of-Cranium-Rats.webp
+        visible: true
+        locked: false
+        blendMode: source-over
+        transform:
+          x: 0
+          'y': 0
+          scaleX: 1.0009144282713085
+          scaleY: 1.0009144282713085
+          rotation: 0
+        adjustments:
+          brightness: 1
+          contrast: 1
+          opacity: 1
+          blur: 0
+          tint: null
+          hue: 0
+          saturation: 100
+          grayscale: 0
+          temperature: 0
+          lineArt:
+            enabled: false
+            blurSize: 25
+          rimLight:
+            enabled: false
+            color: '#ffffff'
+            size: 4
+            intensity: 0.8
+          vignette:
+            enabled: false
+            intensity: 50
+            size: 30
+          filmGrain:
+            enabled: false
+            intensity: 20
+            size: 1
+          chromaticAberration:
+            enabled: false
+            intensity: 5
+          unsharpMask:
+            enabled: false
+            amount: 100
+            radius: 1
+        masks: []
+        lasso:
+          regions: []
+        paintMask: null
+        animation: null
+        isVideo: false
+    avatarAspect: custom
+    avatarCanvasSize:
+      width: 512
+      height: 461
+    isOversized: true
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1790700673593
+  modifiedTime: 1790701171003
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!Bae19oe9z4WiNsHv'

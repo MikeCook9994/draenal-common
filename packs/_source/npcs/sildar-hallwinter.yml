@@ -3591,7 +3591,7 @@ items:
     _key: '!actors.items!0yB4qvcowCdvV1TT.ICncTBqvsynn8rkQ'
 effects: []
 folder: null
-sort: 0
+sort: 100000
 ownership:
   default: 0
 flags: {}
@@ -3600,9 +3600,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786921254771
-  modifiedTime: 1786933958676
+  modifiedTime: 1790698558807
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
 _key: '!actors!0yB4qvcowCdvV1TT'
-

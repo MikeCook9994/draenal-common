@@ -392,7 +392,7 @@ system:
     loyalty: {}
     hp:
       max: null
-      temp: null
+      temp: 0
       tempmax: 0
       value: 156
       bonuses: {}
@@ -546,15 +546,18 @@ prototypeToken:
       max: 1
   sight:
     enabled: true
-    range: 0
+    range: 120
     angle: 360
-    visionMode: basic
+    visionMode: darkvision
     color: null
-    attenuation: 0.1
+    attenuation: 0
     brightness: 0
-    saturation: 0
+    saturation: -1
     contrast: 0
-  detectionModes: {}
+  detectionModes:
+    basicSight:
+      range: 120
+      enabled: true
   occludable:
     radius: 0
   ring:
@@ -562,7 +565,7 @@ prototypeToken:
     colors:
       ring: null
       background: null
-    effects: 1
+    effects: 0
     subject:
       scale: 1
       texture: null
@@ -8193,9 +8196,9 @@ items:
       exportSource: null
     _key: '!actors.items!y5mBesDOsN0KmVXW.N0ztCofppfb8KaXu'
   - folder: ErT2cFYNC4ZBLPc5
-    name: Mind and Might Mitts
+    name: Mettle Mind Gauntlets
     type: equipment
-    _id: UMJornKqpRPtEKbl
+    _id: hf8FLtuAd5jw4GTB
     img: icons/equipment/hand/glove-tooled-leather-brown.webp
     system:
       activities:
@@ -8273,7 +8276,7 @@ items:
                   - bludgeoning
                 scaling:
                   number: 1
-        dNAUCfCFJDHZHYwF:
+        kR6fCE5VSBUrWqFF:
           type: utility
           img: icons/commodities/gems/gem-rough-navette-red.webp
           sort: 100000
@@ -8288,8 +8291,6 @@ items:
             targets:
               - type: itemUses
                 value: '1'
-                target: >-
-                  Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD
                 scaling: {}
           description:
             chatFlavor: ''
@@ -8302,7 +8303,7 @@ items:
             sc-simple-sockets:
               sourceGem:
                 uuid: >-
-                  Compendium.draenal-common.npcs.Actor.y5mBesDOsN0KmVXW.Item.nkfQ9YmzsDayAFNm
+                  Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0
                 slot: 0
                 sourceId: IfaURAt3gLBjbI64
           range:
@@ -8338,14 +8339,14 @@ items:
             name: ''
             formula: ''
           name: Empower Spell
-          _id: dNAUCfCFJDHZHYwF
+          _id: kR6fCE5VSBUrWqFF
       uses:
-        spent: 0
+        spent: 1
         recovery:
           - period: lr
             type: formula
-            formula: '1'
-        max: '1'
+            formula: max(1, floor(@sc.sockets.gems / 2))
+        max: '@sc.sockets.gems'
       description:
         value: >-
           <p>Every component of these gauntlets are cast from solid bronze
@@ -8470,8 +8471,8 @@ items:
                 socketed into the mitts (minimum 1). You must use the new
                 rolls.</p>","chat":""},"identifier":"empowered-mind-crystal","source":{"revision":1,"rules":"2024","book":"Draenal
                 Homebrew","page":"","custom":"","license":""},"identified":true,"unidentified":{"description":""},"container":null,"quantity":1,"weight":{"value":0,"units":"lb"},"price":{"value":0,"denomination":"gp"},"rarity":"","activities":{"IfaURAt3gLBjbI64":{"type":"utility","_id":"IfaURAt3gLBjbI64","img":"icons/commodities/gems/gem-rough-navette-red.webp","sort":0,"activation":{"type":"action","override":false,"condition":""},"consumption":{"scaling":{"allowed":false},"spellSlot":true,"targets":[{"type":"itemUses","value":"1","target":"Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD","scaling":{}}]},"description":{"chatFlavor":""},"duration":{"units":"inst","concentration":false,"override":false},"effects":[],"flags":{},"range":{"units":"self","override":false,"special":""},"target":{"template":{"contiguous":false,"stationary":false,"units":"ft","type":""},"affects":{"choice":false,"type":""},"override":false,"prompt":true},"uses":{"spent":0,"recovery":[],"max":""},"visibility":{"level":{"min":null,"max":null},"requireAttunement":false,"requireIdentification":false,"requireMagic":false,"identifier":""},"roll":{"prompt":false,"visible":false,"name":"","formula":""},"name":"Empower
-                Spell"}},"uses":{"spent":0,"recovery":[]},"properties":["mgc"],"type":{"value":"mind-crystal","subtype":""}},"effects":[],"sort":100000,"ownership":{"default":0,"eDQM6H9v2Xf0fBZR":3},"flags":{"sc-simple-sockets":{"gemSubtype":"mind-crystal","gemAllowedTypes":["equipment","equipment:clothing","equipment:heavy","equipment:light","equipment:medium","equipment:natural","equipment:ring","equipment:rod","equipment:shield","equipment:trinket","equipment:vehicle","equipment:wand","equipment:wondrous"],"gemResource":{"key":"","value":null,"max":null,"recovery":{"period":"","type":"recoverAll"},"destroyOnEmpty":false},"gemTags":[]}},"_stats":{"coreVersion":"14.364","systemId":"dnd5e","systemVersion":"5.3.3","createdTime":1786472646204,"modifiedTime":1786472648838,"lastModifiedBy":"eDQM6H9v2Xf0fBZR","compendiumSource":"Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0","duplicateSource":null,"exportSource":null}}
-            _gemInstanceId: wEU7NDQ3CyQr26MK
+                Spell"}},"uses":{"spent":0,"recovery":[]},"properties":["mgc"],"type":{"value":"mind-crystal","subtype":""}},"effects":[],"sort":0,"ownership":{"default":0,"eDQM6H9v2Xf0fBZR":3},"flags":{"sc-simple-sockets":{"gemSubtype":"mind-crystal","gemAllowedTypes":["equipment","equipment:clothing","equipment:heavy","equipment:light","equipment:medium","equipment:natural","equipment:ring","equipment:rod","equipment:shield","equipment:trinket","equipment:vehicle","equipment:wand","equipment:wondrous"],"gemTags":[],"gemCritThreshold":null,"gemCritMultiplier":null,"gemAttackBonus":null,"gemResource":{"key":""}}},"_stats":{"coreVersion":"14.364","systemId":"dnd5e","systemVersion":"5.3.3","createdTime":1786468135926,"modifiedTime":1786906074232,"lastModifiedBy":"eDQM6H9v2Xf0fBZR","compendiumSource":"Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0","duplicateSource":null,"exportSource":null}}
+            _gemInstanceId: T9XCllsYkYdAkang
             _slot: 0
           - gem: null
             img: modules/sc-simple-sockets/assets/imgs/socket-slot.webp
@@ -8592,33 +8593,32 @@ items:
             _slot: 9
         socketActivities:
           '0':
-            gemUuid: >-
-              Compendium.draenal-common.npcs.Actor.y5mBesDOsN0KmVXW.Item.nkfQ9YmzsDayAFNm
+            gemUuid: Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0
             gemName: Empowered Mind Crystal
             gemImg: icons/commodities/gems/gem-rough-navette-red.webp
             activityIds:
-              - dNAUCfCFJDHZHYwF
+              - kR6fCE5VSBUrWqFF
             activityMeta:
-              dNAUCfCFJDHZHYwF:
+              kR6fCE5VSBUrWqFF:
                 sourceId: IfaURAt3gLBjbI64
-                hostActivityId: dNAUCfCFJDHZHYwF
+                hostActivityId: kR6fCE5VSBUrWqFF
                 slot: 0
                 gemImg: icons/commodities/gems/gem-rough-navette-red.webp
                 gemName: Empowered Mind Crystal
                 gemUuid: >-
-                  Compendium.draenal-common.npcs.Actor.y5mBesDOsN0KmVXW.Item.nkfQ9YmzsDayAFNm
+                  Compendium.draenal-common.private-equipment.Item.guyEONlypETewkA0
                 activityName: Empower Spell
     _stats:
       coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.3.3
-      createdTime: 1786472644083
-      modifiedTime: 1786472669021
+      createdTime: 1787002681519
+      modifiedTime: 1787002681519
       lastModifiedBy: draenalcommon000
       compendiumSource: Compendium.draenal-common.private-equipment.Item.yKhZmp0ETjNXoKJD
       duplicateSource: null
       exportSource: null
-    _key: '!actors.items!y5mBesDOsN0KmVXW.UMJornKqpRPtEKbl'
+    _key: '!actors.items!y5mBesDOsN0KmVXW.hf8FLtuAd5jw4GTB'
 effects:
   - name: Boon of Illvash
     _id: bBnGFvsGHTklb7zB
@@ -8668,7 +8668,7 @@ effects:
       exportSource: null
     _key: '!actors.effects!y5mBesDOsN0KmVXW.bBnGFvsGHTklb7zB'
 folder: null
-sort: 0
+sort: 600000
 ownership:
   default: 0
 flags:
@@ -8679,9 +8679,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1786461839685
-  modifiedTime: 1786858246253
+  modifiedTime: 1790698558815
   lastModifiedBy: draenalcommon000
   duplicateSource: null
   exportSource: null
 _key: '!actors!y5mBesDOsN0KmVXW'
-
