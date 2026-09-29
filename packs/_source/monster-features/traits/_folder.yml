@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Traits
+color: null
+sorting: a
+_id: CsL6aRIP92Y65OWU
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1790705072527
+  modifiedTime: 1790705072551
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!CsL6aRIP92Y65OWU'
+

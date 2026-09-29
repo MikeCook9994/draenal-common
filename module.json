@@ -172,6 +172,17 @@
       "system": "dnd5e"
     },
     {
+      "name": "monster-features",
+      "label": "[Private] Monster Features",
+      "path": "packs/monster-features",
+      "type": "Item",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "NONE"
+      },
+      "system": "dnd5e"
+    },
+    {
       "name": "summons",
       "label": "Summons & Transformations",
       "path": "packs/summons",
@@ -231,7 +242,8 @@
         "pcs",
         "npcs",
         "scenes",
-        "macros"
+        "macros",
+        "monster-features"
       ]
     }
   ]

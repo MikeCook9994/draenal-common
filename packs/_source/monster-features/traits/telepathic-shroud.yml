@@ -1,0 +1,51 @@
+folder: CsL6aRIP92Y65OWU
+name: Telepathic Shroud
+type: feat
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>The {{creature}} is immune to any effect that would sense its emotions
+      or read its thoughts, as well as to all divination spells.</p>
+    chat: ''
+  identifier: telepathic-shroud
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: monster
+    subtype: ''
+effects: []
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1790705072539
+  modifiedTime: 1790705072539
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_id: j7AHR69po8FwIeIH
+sort: 0
+_key: '!items!j7AHR69po8FwIeIH'
+

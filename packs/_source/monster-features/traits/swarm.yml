@@ -1,0 +1,52 @@
+name: Swarm
+type: feat
+img: icons/creatures/birds/birds-flock-fly-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>The swarm can occupy another creature's space and vice versa, and the
+      swarm can move through any opening large enough for a Tiny {{creature}}.
+      The swarm can't regain hit points or gain temporary hit points.</p>
+    chat: ''
+  identifier: swarm
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: monster
+    subtype: ''
+effects: []
+folder: CsL6aRIP92Y65OWU
+ownership:
+  default: 0
+flags:
+  sc-simple-sockets:
+    gemSubtype: null
+_stats:
+  coreVersion: '14.364'
+  systemId: dnd5e
+  systemVersion: 5.3.3
+  createdTime: 1790705072537
+  modifiedTime: 1790705072537
+  lastModifiedBy: draenalcommon000
+  duplicateSource: null
+  exportSource: null
+_id: PXOBJbzm2GnqIshW
+sort: 0
+_key: '!items!PXOBJbzm2GnqIshW'
+

@@ -564,109 +564,6 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
 items:
-  - name: Swarm
-    type: feat
-    _id: 23hXuw4XziULAJoC
-    img: icons/creatures/birds/birds-flock-fly-yellow.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement: {}
-      description:
-        value: >-
-          <p>The swarm can occupy another creature's space and vice versa, and
-          the swarm can move through any opening large enough for a Tiny rat.
-          The swarm can't regain hit points or gain temporary hit points.</p>
-        chat: ''
-      identifier: swarm
-      source:
-        revision: 1
-        rules: '2024'
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties:
-        - trait
-      requirements: ''
-      type:
-        value: monster
-        subtype: ''
-    effects: []
-    folder: CsL6aRIP92Y65OWU
-    sort: 100000
-    ownership:
-      default: 0
-    flags:
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1790701441573
-      modifiedTime: 1790701451186
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.world.private-monster-features.Item.KeWNfGduoyP58IGI
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!Bae19oe9z4WiNsHv.23hXuw4XziULAJoC'
-  - folder: CsL6aRIP92Y65OWU
-    name: Telepathic Shroud
-    type: feat
-    _id: pBQ2Rq1mHkdnUked
-    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
-    system:
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      advancement: {}
-      description:
-        value: >-
-          <p>The swarm is immune to any effect that would sense its emotions or
-          read its thoughts, as well as to all divination spells.</p>
-        chat: ''
-      identifier: telepathic-shroud
-      source:
-        revision: 1
-        rules: '2024'
-      crewed: false
-      enchant: {}
-      prerequisites:
-        items: []
-        repeatable: false
-        level: null
-      properties:
-        - trait
-      requirements: ''
-      type:
-        value: monster
-        subtype: ''
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags:
-      sc-simple-sockets:
-        gemSubtype: null
-    _stats:
-      coreVersion: '14.364'
-      systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1790701548674
-      modifiedTime: 1790701567315
-      lastModifiedBy: draenalcommon000
-      compendiumSource: Compendium.world.private-monster-features.Item.MMhbuipyTRIUiRYU
-      duplicateSource: null
-      exportSource: null
-    _key: '!actors.items!Bae19oe9z4WiNsHv.pBQ2Rq1mHkdnUked'
   - name: Bites
     type: feat
     _id: MKPK2zAuC8OiMn8G
@@ -2455,6 +2352,109 @@ items:
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!Bae19oe9z4WiNsHv.tiiyXGtyi8XGDOcp'
+  - name: Swarm
+    type: feat
+    img: icons/creatures/birds/birds-flock-fly-yellow.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>The swarm can occupy another creature's space and vice versa, and
+          the swarm can move through any opening large enough for a Tiny rat.
+          The swarm can't regain hit points or gain temporary hit points.</p>
+        chat: ''
+      identifier: swarm
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    folder: CsL6aRIP92Y65OWU
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790705143141
+      modifiedTime: 1790705164722
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.world.private-monster-features.Item.KeWNfGduoyP58IGI
+      duplicateSource: null
+      exportSource: null
+    _id: YpWrOGhGdJit8zS2
+    sort: 0
+    _key: '!actors.items!Bae19oe9z4WiNsHv.YpWrOGhGdJit8zS2'
+  - folder: CsL6aRIP92Y65OWU
+    name: Telepathic Shroud
+    type: feat
+    img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+    system:
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      advancement: {}
+      description:
+        value: >-
+          <p>The swarm is immune to any effect that would sense its emotions or
+          read its thoughts, as well as to all divination spells.</p>
+        chat: ''
+      identifier: telepathic-shroud
+      source:
+        revision: 1
+        rules: '2024'
+      crewed: false
+      enchant: {}
+      prerequisites:
+        items: []
+        repeatable: false
+        level: null
+      properties:
+        - trait
+      requirements: ''
+      type:
+        value: monster
+        subtype: ''
+    effects: []
+    ownership:
+      default: 0
+    flags:
+      sc-simple-sockets:
+        gemSubtype: null
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1790705144311
+      modifiedTime: 1790705155625
+      lastModifiedBy: draenalcommon000
+      compendiumSource: Compendium.world.private-monster-features.Item.MMhbuipyTRIUiRYU
+      duplicateSource: null
+      exportSource: null
+    _id: 2UpdgPCXbBNUFoDu
+    sort: 0
+    _key: '!actors.items!Bae19oe9z4WiNsHv.2UpdgPCXbBNUFoDu'
 effects: []
 sort: 0
 ownership:
